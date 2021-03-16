@@ -1,0 +1,12 @@
+tag 8eb0799e304115b85314c406fd2d245e5eea2950 9.0.2.2
+Author:	semlar <teslagraafs@gmail.com>
+Date:	Mon Dec 14 07:26:40 2020 -0500
+
+commit 94a5f52610e86b42e6426aa2c711322402a71437
+Author: semlar <teslagraafs@gmail.com>
+Date:   Mon Dec 14 07:26:30 2020 -0500
+
+    Handle nameplates created during login process being hidden before addon loads
+    
+    - Make sure custom settings are applied to all nameplates created during the login process
+

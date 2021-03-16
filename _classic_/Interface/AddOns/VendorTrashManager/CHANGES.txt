@@ -1,0 +1,16 @@
+lightweight tag 0fca4981c6699e81d598a8ea583b2340ea55fb27 v1.0.4
+Author:	Joseph Patrick Copenhaver <joseph.copenhaver@gmail.com>
+Date:	Wed Dec 25 17:44:51 2019 -0600
+
+commit 0fca4981c6699e81d598a8ea583b2340ea55fb27
+Author: Joseph Patrick Copenhaver <joseph.copenhaver@gmail.com>
+Date:   Wed Dec 25 17:44:51 2019 -0600
+
+    App version is now v1.0.4
+
+commit 6fd07de67f67a9fde70cfd5f58d8ffa4ecfc2b13
+Author: Joseph Patrick Copenhaver <joseph.copenhaver@gmail.com>
+Date:   Wed Dec 25 17:44:42 2019 -0600
+
+    fix wow interface version for real
+

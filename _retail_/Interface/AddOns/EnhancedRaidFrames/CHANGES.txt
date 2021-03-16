@@ -1,0 +1,10 @@
+lightweight tag 5dc01a1a3b89b824dfc1397c7b10b561f9c15e93 3.3.7
+Author:	Britt Yazel <bwyazel@gmail.com>
+Date:	Thu Jan 21 15:48:19 2021 -0800
+
+commit 5dc01a1a3b89b824dfc1397c7b10b561f9c15e93
+Author: Britt Yazel <bwyazel@gmail.com>
+Date:   Thu Jan 21 15:48:10 2021 -0800
+
+    Should hopefully fix #75. Import two retail functions missing from classic.
+

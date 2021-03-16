@@ -1,0 +1,52 @@
+lightweight tag 65b8beb0472990b5924fdc7bf355f41c27d7bc53 9.0.2.5
+Author:	Hemario <kevin.de.smet@outlook.be>
+Date:	Tue Jan 12 20:51:20 2021 +0100
+
+commit 65b8beb0472990b5924fdc7bf355f41c27d7bc53
+Author: Hemario <kevin.de.smet@outlook.be>
+Date:   Tue Jan 12 20:51:20 2021 +0100
+
+    release 9.0.2.5
+
+commit 12480edcb5ae46a1dad6f2b9ea95d63cefa7a878
+Author: Hemario <kevin.de.smet@outlook.be>
+Date:   Tue Jan 12 20:30:22 2021 +0100
+
+    tab to spaces
+
+commit b71154fd4a9696f3584118cca571293bf02c3ab1
+Author: Hemario <kevin.de.smet@outlook.be>
+Date:   Tue Jan 12 20:29:34 2021 +0100
+
+    remove global inCombat
+
+commit eef14a7ec6120c386f163fecbdd20b4fbe9c2f7e
+Author: Michael Surkein <michael@surkein.com>
+Date:   Thu Jan 7 14:15:24 2021 -0600
+
+    Removed an unwanted print statement
+
+commit eef14a7ec6120c386f163fecbdd20b4fbe9c2f7e
+Author: Michael Surkein <michael@surkein.com>
+Date:   Thu Jan 7 14:15:24 2021 -0600
+
+    Removed an unwanted print statement
+
+commit a4e264d979464c9624d7ff37c79b01c58dac0e98
+Author: msurkein <michael@surkein.com>
+Date:   Thu Jan 7 10:01:14 2021 -0600
+
+    Added a flag to only play the sound if the player is out of combat
+
+commit 4b2c8495d8472332708ddb97776ced5629d3282a
+Author: msurkein <michael@surkein.com>
+Date:   Thu Jan 7 09:55:50 2021 -0600
+
+    Added a flag to only play the sound if the player is out of combat
+
+commit 8427184cd5a97d4eff008932204e8a6f9a013de5
+Author: Kevin De Smet <kevin.de.smet@outlook.be>
+Date:   Tue Dec 15 04:54:28 2020 +0100
+
+    Update README.md
+

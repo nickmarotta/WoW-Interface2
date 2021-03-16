@@ -1,0 +1,27 @@
+## Interface: 90002
+## Title: Enhanced Raid Frames
+## Notes: Enhances the Blizzard raid frames with configurable Buff/Debuff indicators
+## Author: Soyier
+## X-Credits-Maintainer: Soyier
+## Version: 3.3.7
+## DefaultState: enabled
+## SavedVariables: EnhancedRaidFramesDB
+## X-Email: bwyazel@gmail.com
+
+Libs\embeds.xml
+Localizations\Localizations.xml
+
+MissingClassicFunctions.lua
+
+EnhancedRaidFrames.lua
+DatabaseDefaults.lua
+UtilitiesAndOverrides.lua
+
+AuraIndicators.lua
+RaidIcons.lua
+
+XML\ERFIndicatorTemplate.xml
+
+GUI\GeneralConfigPanel.lua
+GUI\IndicatorConfigPanel.lua
+GUI\IconConfigPanel.lua

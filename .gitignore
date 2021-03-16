@@ -3,8 +3,8 @@
 # But descend into directories 
 !*/ 
 # Recursively allow files under subtree 
-!*/WTF/**
 !*/Interface/**
+!*/WTF/**
 # You can be specific with these rules 
 #!/somether/deep/path/** 
 !.gitignore
