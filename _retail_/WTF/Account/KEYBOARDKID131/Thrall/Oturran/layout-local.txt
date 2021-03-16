@@ -1,0 +1,15 @@
+Version: 1
+Frame: GladiusButtonFramearena1
+FrameLevel: 1
+Anchor: TOPRIGHT
+X: -318
+Y: -189
+W: 160
+H: 52
+Frame: PlayerPowerBarAlt
+FrameLevel: 1
+Anchor: TOP
+X: 0
+Y: -40
+W: 10
+H: 10

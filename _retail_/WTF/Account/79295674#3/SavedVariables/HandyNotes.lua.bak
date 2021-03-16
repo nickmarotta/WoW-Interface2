@@ -1,0 +1,25 @@
+
+HandyNotesDB = {
+	["profileKeys"] = {
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
+	},
+	["profiles"] = {
+		["Eyowen - Thrall"] = {
+		},
+		["Awaste - Thrall"] = {
+		},
+	},
+}
+HandyNotes_HandyNotesDB = {
+	["profileKeys"] = {
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
+	},
+	["profiles"] = {
+		["Eyowen - Thrall"] = {
+		},
+		["Awaste - Thrall"] = {
+		},
+	},
+}

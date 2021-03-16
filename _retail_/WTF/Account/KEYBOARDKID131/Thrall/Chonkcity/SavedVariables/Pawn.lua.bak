@@ -1,0 +1,56 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.04,
+	["LastPlayerFullName"] = "Chonkcity-Thrall",
+	["AutoSelectScales"] = true,
+	["ItemLevels"] = {
+		[6] = {
+			["ID"] = 175233,
+			["Level"] = 11,
+			["Link"] = "|cff1eff00|Hitem:175233::::::::8:1453::11:1:6500:2:28:741:9:8:::|h[Expeditionary Leather Belt]|h|r",
+		},
+		[7] = {
+			["ID"] = 175226,
+			["Level"] = 11,
+			["Link"] = "|cff1eff00|Hitem:175226::::::::8:1453::11:1:6500:2:28:741:9:8:::|h[Expeditionary Leather Legguards]|h|r",
+		},
+		[8] = {
+			["ID"] = 174792,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:174792::::::::3:1453:::1:6499:2:28:741:9:3:::|h[Stitched Leather Boots]|h|r",
+		},
+		[3] = {
+			["ID"] = 175227,
+			["Level"] = 10,
+			["Link"] = "|cff1eff00|Hitem:175227::::::::7:1453::11:1:6500:2:28:741:9:7:::|h[Expeditionary Leather Spaulders]|h|r",
+		},
+		[17] = {
+			["ID"] = 175171,
+			["Level"] = 9,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff1eff00|Hitem:175171::::::::7:1453::11:1:6500:2:28:741:9:6:::|h[Expeditionary Dagger]|h|r",
+		},
+		[16] = {
+			["ID"] = 175171,
+			["Level"] = 9,
+			["AlsoFitsIn"] = 17,
+			["Link"] = "|cff1eff00|Hitem:175171::::::::6:1453::11:1:6500:2:28:741:9:6:::|h[Expeditionary Dagger]|h|r",
+		},
+		[9] = {
+			["ID"] = 175237,
+			["Level"] = 9,
+			["Link"] = "|cff1eff00|Hitem:175237::::::::6:1453::11:1:6500:2:28:741:9:6:::|h[Expeditionary Leather Bracers]|h|r",
+		},
+		[5] = {
+			["ID"] = 174812,
+			["Level"] = 5,
+			["Link"] = "|cffffffff|Hitem:174812::::::::8:1453:::1:6499:2:28:741:9:8:::|h[Stitched Leather Tunic]|h|r",
+		},
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "ROGUE",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

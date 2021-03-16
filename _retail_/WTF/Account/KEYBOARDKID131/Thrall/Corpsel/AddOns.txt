@@ -1,0 +1,16 @@
+DBM-Core: enabled
+DBM-DefaultSkin: enabled
+DBM-GUI: enabled
+DBM-StatusBarTimers: enabled
+DBM-Brawlers: enabled
+DBM-EmeraldNightmare: enabled
+DBM-DMF: enabled
+DBM-Party-Legion: enabled
+DBM-WorldEvents: enabled
+ConsolePort: enabled
+DynamicCam: disabled
+ConsolePortKeyboard: enabled
+VuhDoOptions: disabled
+VuhDo: disabled
+Quartz: enabled
+AAP-Core: disabled

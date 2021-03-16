@@ -1,0 +1,18 @@
+VER 3 0100000000000004 " " "Spell_Fire_MoltenBlood"
+#showtooltip Frost Nova
+/cast Frost Nova
+END
+VER 3 0100000000000003 " CDs" "Ability_Creature_Cursed_01"
+#showtooltip Mirror Image
+/cast Mirror Image
+/use Bottled Wishes
+END
+VER 3 0100000000000002 " CDs" "Ability_Creature_Cursed_02"
+/cast Arcane Power
+/cast Lifeblood
+/cast Mirror Image
+/use Bottled Wishes
+END
+VER 3 0100000000000001 "FN/BL" "Ability_Hunter_PointofNoEscape"
+/castsequence Frost Nova, Blink
+END

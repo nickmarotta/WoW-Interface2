@@ -1,0 +1,15 @@
+Version: 1
+Frame: WQGFManualActionsFrame
+FrameLevel: 0
+Anchor: CENTER
+X: 0
+Y: 60
+W: 370
+H: 110
+Frame: OneBagFrame
+FrameLevel: 1
+Anchor: BOTTOM
+X: 180
+Y: 129
+W: 481
+H: 266

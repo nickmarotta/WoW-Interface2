@@ -1,0 +1,26 @@
+
+DataStore_TalentsDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["lastUpdate"] = 1469674819,
+				["Class"] = "DEATHKNIGHT",
+				["ActiveTalents"] = 1,
+			},
+		},
+	},
+}
+DataStore_TalentsRefDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["DEATHKNIGHT"] = {
+			["Locale"] = "enUS",
+			["Version"] = 22293,
+		},
+	},
+}

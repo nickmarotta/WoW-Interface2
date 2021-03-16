@@ -1,0 +1,11 @@
+XPerl_TeamSpeak: disabled
+ZPerl: disabled
+ZPerl_CustomHighlight: disabled
+ZPerl_Options: disabled
+ZPerl_Party: disabled
+ZPerl_PartyPet: disabled
+ZPerl_Player: disabled
+ZPerl_PlayerBuffs: disabled
+ZPerl_PlayerPet: disabled
+ZPerl_Target: disabled
+ZPerl_TargetTarget: disabled

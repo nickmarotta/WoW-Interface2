@@ -1,0 +1,445 @@
+
+ConsolePortSettings = {
+	["bindView"] = 1,
+	["actionBarStyle"] = 1,
+	["autoLootDefault"] = true,
+	["turnCharacter"] = false,
+	["disableUI"] = false,
+	["skipCalibration"] = false,
+	["CP_T3"] = "CP_L_GRIP",
+	["disableSmartBind"] = false,
+	["nameplateNameOnly"] = false,
+	["interactNPC"] = false,
+	["preventMouseDrift"] = false,
+	["skipGuideBtn"] = false,
+	["cameraDistanceMoveSpeed"] = true,
+	["CP_T4"] = "CP_R_GRIP",
+	["version"] = 10102,
+	["disableHints"] = false,
+	["mouseOnCenter"] = true,
+	["disableMenu"] = false,
+	["doubleModTap"] = false,
+	["disableSmartMouse"] = false,
+	["forceController"] = "XBOX",
+	["CP_M1"] = "CP_TL2",
+	["TargetNearestUseNew"] = true,
+	["mouseOverMode"] = true,
+	["autoExtra"] = true,
+	["mouseOnJump"] = false,
+	["stickRadialLocal"] = false,
+	["stickRadialType"] = 2,
+	["interactWith"] = "CP_T1",
+	["type"] = "XBOX",
+	["interactScrape"] = false,
+	["raidCursorDirect"] = false,
+	["interactCache"] = false,
+	["calibration"] = {
+		["CP_R_UP"] = "F9",
+		["CP_L_UP"] = "F1",
+		["CP_R_LEFT"] = "F12",
+		["CP_L_LEFT"] = "F4",
+		["CP_L_DOWN"] = "F3",
+		["CP_R_RIGHT"] = "F10",
+		["CP_L_RIGHT"] = "F2",
+		["CP_R_DOWN"] = "F11",
+	},
+	["lootWith"] = false,
+	["CP_M2"] = "CP_TL1",
+	["autoInteract"] = false,
+	["UIdisableHoldRepeat"] = false,
+	["CP_T1"] = "CP_TR1",
+	["mouseInvertPitch"] = false,
+	["autoSellJunk"] = true,
+	["mouseInvertYaw"] = false,
+	["CP_T2"] = "CP_TR2",
+	["disableKeyboard"] = false,
+}
+ConsolePortCharacterSettings = {
+	["Corpselus (Frost) Thrall"] = {
+		["Spec"] = 251,
+		["Type"] = "XBOX",
+		["Class"] = "DEATHKNIGHT",
+		["Bar"] = {
+			["width"] = 1100,
+			["scale"] = 0.9,
+			["showline"] = true,
+			["lock"] = true,
+			["rainbow"] = false,
+			["layout"] = {
+				["CP_L_RIGHT"] = {
+					["dir"] = "right",
+					["point"] = {
+						"LEFT", -- [1]
+						306, -- [2]
+						56, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_R_LEFT"] = {
+					["dir"] = "left",
+					["point"] = {
+						"RIGHT", -- [1]
+						-306, -- [2]
+						56, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_T4"] = {
+					["dir"] = "down",
+					["point"] = {
+						"RIGHT", -- [1]
+						-396, -- [2]
+						16, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_L_UP"] = {
+					["dir"] = "up",
+					["point"] = {
+						"LEFT", -- [1]
+						240, -- [2]
+						100, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_R_RIGHT"] = {
+					["dir"] = "right",
+					["point"] = {
+						"RIGHT", -- [1]
+						-176, -- [2]
+						56, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_T2"] = {
+					["dir"] = "left",
+					["point"] = {
+						"RIGHT", -- [1]
+						-456, -- [2]
+						56, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_T1"] = {
+					["dir"] = "right",
+					["point"] = {
+						"LEFT", -- [1]
+						456, -- [2]
+						56, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_T3"] = {
+					["dir"] = "down",
+					["point"] = {
+						"LEFT", -- [1]
+						396, -- [2]
+						16, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_R_UP"] = {
+					["dir"] = "up",
+					["point"] = {
+						"RIGHT", -- [1]
+						-240, -- [2]
+						100, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_L_DOWN"] = {
+					["dir"] = "down",
+					["point"] = {
+						"LEFT", -- [1]
+						240, -- [2]
+						16, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_L_LEFT"] = {
+					["dir"] = "left",
+					["point"] = {
+						"LEFT", -- [1]
+						176, -- [2]
+						56, -- [3]
+					},
+					["size"] = 64,
+				},
+				["CP_R_DOWN"] = {
+					["dir"] = "down",
+					["point"] = {
+						"RIGHT", -- [1]
+						-240, -- [2]
+						16, -- [3]
+					},
+					["size"] = 64,
+				},
+			},
+			["watchbars"] = true,
+			["showbuttons"] = false,
+		},
+	},
+	["Velosara (Marksmanship) Thrall"] = {
+		["Spec"] = 254,
+		["Type"] = "XBOX",
+		["Class"] = "HUNTER",
+		["BindingSet"] = {
+			["CP_L_UP"] = {
+				[""] = "MULTIACTIONBAR1BUTTON12",
+				["SHIFT-"] = "MULTIACTIONBAR2BUTTON2",
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON6",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON10",
+			},
+			["CP_T_L3"] = {
+			},
+			["CP_R_LEFT"] = {
+				[""] = "ACTIONBUTTON1",
+				["SHIFT-"] = "ACTIONBUTTON6",
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON1",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON6",
+			},
+			["CP_L_RIGHT"] = {
+				[""] = "ACTIONBUTTON12",
+				["SHIFT-"] = "MULTIACTIONBAR2BUTTON3",
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON7",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON11",
+			},
+			["CP_T_R3"] = {
+			},
+			["CP_T2"] = {
+				[""] = "TOGGLERUN",
+			},
+			["CP_T4"] = {
+				[""] = "ACTIONBUTTON5",
+				["SHIFT-"] = "ACTIONBUTTON10",
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON5",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON10",
+			},
+			["CP_L_DOWN"] = {
+				[""] = "ACTIONBUTTON11",
+				["SHIFT-"] = "MULTIACTIONBAR2BUTTON4",
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON8",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON12",
+			},
+			["CP_R_RIGHT"] = {
+				[""] = "ACTIONBUTTON3",
+				["SHIFT-"] = "ACTIONBUTTON8",
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON3",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON8",
+			},
+			["CP_T1"] = {
+				[""] = "TARGETSELF",
+			},
+			["CP_X_LEFT"] = {
+				[""] = "OPENALLBAGS",
+				["SHIFT-"] = "TOGGLEWORLDMAP",
+				["CTRL-"] = "CP_CAMZOOMOUT",
+				["CTRL-SHIFT-"] = "CP_CAMZOOMIN",
+			},
+			["CP_T3"] = {
+				[""] = "ACTIONBUTTON4",
+				["SHIFT-"] = "ACTIONBUTTON9",
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON4",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON9",
+			},
+			["CP_R_UP"] = {
+				[""] = "ACTIONBUTTON2",
+				["SHIFT-"] = "ACTIONBUTTON7",
+				["CTRL-"] = "MULTIACTIONBAR1BUTTON2",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR1BUTTON7",
+			},
+			["CP_L_LEFT"] = {
+				[""] = "MULTIACTIONBAR1BUTTON11",
+				["SHIFT-"] = "MULTIACTIONBAR2BUTTON1",
+				["CTRL-"] = "MULTIACTIONBAR2BUTTON5",
+				["CTRL-SHIFT-"] = "MULTIACTIONBAR2BUTTON9",
+			},
+			["CP_X_RIGHT"] = {
+				[""] = "TOGGLEGAMEMENU",
+				["SHIFT-"] = "TOGGLEAUTORUN",
+				["CTRL-"] = "OPENCHAT",
+				["CTRL-SHIFT-"] = "CLICK ConsolePortRaidCursorToggle:LeftButton",
+			},
+			["CP_R_DOWN"] = {
+				[""] = "JUMP",
+				["SHIFT-"] = "TARGETSCANENEMY",
+				["CTRL-"] = "EXTRAACTIONBUTTON1",
+				["CTRL-SHIFT-"] = "CLICK ConsolePortUtilityToggle:LeftButton",
+			},
+		},
+	},
+}
+ConsolePortUIFrames = {
+	["Blizzard_GarrisonUI"] = {
+		"GarrisonBuildingFrame", -- [1]
+		"GarrisonCapacitiveDisplayFrame", -- [2]
+		"GarrisonLandingPage", -- [3]
+		"GarrisonMissionFrame", -- [4]
+		"GarrisonMonumentFrame", -- [5]
+		"GarrisonRecruiterFrame", -- [6]
+		"GarrisonShipyardFrame", -- [7]
+		"OrderHallMissionFrame", -- [8]
+		"OrderHallTalentFrame", -- [9]
+	},
+	["Blizzard_MacroUI"] = {
+		"MacroFrame", -- [1]
+	},
+	["Blizzard_BarbershopUI"] = {
+		"BarberShopFrame", -- [1]
+	},
+	["Blizzard_ArchaeologyUI"] = {
+		"ArchaeologyFrame", -- [1]
+	},
+	["Blizzard_ItemAlterationUI"] = {
+		"TransmogrifyFrame", -- [1]
+	},
+	["Blizzard_QuestChoice"] = {
+		"QuestChoiceFrame", -- [1]
+	},
+	["Blizzard_Calendar"] = {
+		"CalendarFrame", -- [1]
+	},
+	["Blizzard_EncounterJournal"] = {
+		"EncounterJournal", -- [1]
+	},
+	["Blizzard_ArtifactUI"] = {
+		"ArtifactFrame", -- [1]
+	},
+	["Blizzard_InspectUI"] = {
+		"InspectFrame", -- [1]
+	},
+	["Blizzard_VoidStorageUI"] = {
+		"VoidStorageFrame", -- [1]
+	},
+	["Blizzard_AuctionUI"] = {
+		"AuctionFrame", -- [1]
+	},
+	["Blizzard_TrainerUI"] = {
+		"ClassTrainerFrame", -- [1]
+	},
+	["Blizzard_TalentUI"] = {
+		"PlayerTalentFrame", -- [1]
+	},
+	["Blizzard_GuildUI"] = {
+		"GuildFrame", -- [1]
+	},
+	["Blizzard_DeathRecap"] = {
+		"DeathRecapFrame", -- [1]
+	},
+	["Blizzard_AchievementUI"] = {
+		"AchievementFrame", -- [1]
+	},
+	["Blizzard_TradeSkillUI"] = {
+		"TradeSkillFrame", -- [1]
+	},
+	["Blizzard_LookingForGuildUI"] = {
+		"LookingForGuildFrame", -- [1]
+	},
+	["ConsolePort"] = {
+		"AddonList", -- [1]
+		"BagHelpBox", -- [2]
+		"BankFrame", -- [3]
+		"BasicScriptErrors", -- [4]
+		"CharacterFrame", -- [5]
+		"ChatConfigFrame", -- [6]
+		"ChatMenu", -- [7]
+		"CinematicFrameCloseDialog", -- [8]
+		"ContainerFrame1", -- [9]
+		"ContainerFrame2", -- [10]
+		"ContainerFrame3", -- [11]
+		"ContainerFrame4", -- [12]
+		"ContainerFrame5", -- [13]
+		"ContainerFrame6", -- [14]
+		"ContainerFrame7", -- [15]
+		"ContainerFrame8", -- [16]
+		"ContainerFrame9", -- [17]
+		"ContainerFrame10", -- [18]
+		"ContainerFrame11", -- [19]
+		"ContainerFrame12", -- [20]
+		"ContainerFrame13", -- [21]
+		"DressUpFrame", -- [22]
+		"DropDownList1", -- [23]
+		"DropDownList2", -- [24]
+		"FriendsFrame", -- [25]
+		"GameMenuFrame", -- [26]
+		"GossipFrame", -- [27]
+		"GuildInviteFrame", -- [28]
+		"InterfaceOptionsFrame", -- [29]
+		"ItemRefTooltip", -- [30]
+		"ItemTextFrame", -- [31]
+		"LFDRoleCheckPopup", -- [32]
+		"LFGDungeonReadyDialog", -- [33]
+		"LFGInvitePopup", -- [34]
+		"LootFrame", -- [35]
+		"MailFrame", -- [36]
+		"MerchantFrame", -- [37]
+		"OpenMailFrame", -- [38]
+		"PetBattleFrame", -- [39]
+		"PetitionFrame", -- [40]
+		"PVEFrame", -- [41]
+		"PVPReadyDialog", -- [42]
+		"QuestFrame", -- [43]
+		"QuestLogPopupDetailFrame", -- [44]
+		"RecruitAFriendFrame", -- [45]
+		"ReadyCheckFrame", -- [46]
+		"SpellBookFrame", -- [47]
+		"SplashFrame", -- [48]
+		"StackSplitFrame", -- [49]
+		"StaticPopup1", -- [50]
+		"StaticPopup2", -- [51]
+		"StaticPopup3", -- [52]
+		"StaticPopup4", -- [53]
+		"TaxiFrame", -- [54]
+		"TimeManagerFrame", -- [55]
+		"TutorialFrame", -- [56]
+		"VideoOptionsFrame", -- [57]
+		"WorldMapFrame", -- [58]
+		"GroupLootFrame1", -- [59]
+		"GroupLootFrame2", -- [60]
+		"GroupLootFrame3", -- [61]
+		"GroupLootFrame4", -- [62]
+	},
+	["Blizzard_Collections"] = {
+		"CollectionsJournal", -- [1]
+		"WardrobeFrame", -- [2]
+	},
+}
+ConsolePortUIConfig = {
+	["Menu"] = {
+		["scale"] = 1,
+		["lootprobe"] = false,
+		["anchor"] = {
+			["offsetY"] = -100,
+			["point"] = "TOP",
+			["offsetX"] = 0,
+		},
+	},
+	["FadeFrames"] = {
+		["force"] = {
+			"ConsolePortBar", -- [1]
+			"MainMenuBar", -- [2]
+			"Minimap", -- [3]
+			"MinimapCluster", -- [4]
+		},
+		["ignore"] = {
+			"AlertFrame", -- [1]
+			"ArtifactLevelUpToast", -- [2]
+			"ChatFrame1", -- [3]
+			"CastingBarFrame", -- [4]
+			"GameTooltip", -- [5]
+			"NamePlateTooltip", -- [6]
+			"QuickJoinToastButton", -- [7]
+			"StaticPopup1", -- [8]
+			"StaticPopup2", -- [9]
+			"StaticPopup3", -- [10]
+			"StaticPopup4", -- [11]
+			"SubZoneTextFrame", -- [12]
+			"ShoppingTooltip1", -- [13]
+			"ShoppingTooltip2", -- [14]
+			"OverrideActionBar", -- [15]
+			"UIErrorsFrame", -- [16]
+			"ZoneTextFrame", -- [17]
+			"TalkingHeadFrame", -- [18]
+		},
+	},
+}

@@ -1,0 +1,22 @@
+
+BossNotesPersonalNotesDB = {
+	["char"] = {
+		["Mafiki - Alexstrasza"] = {
+			["playerClass"] = "SHAMAN",
+		},
+		["Corpselus - Thrall"] = {
+			["playerClass"] = "DEATHKNIGHT",
+		},
+		["Naakari - Hyjal"] = {
+			["playerClass"] = "PALADIN",
+		},
+	},
+	["global"] = {
+		["databaseVersion"] = 2,
+	},
+	["profileKeys"] = {
+		["Mafiki - Alexstrasza"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+		["Naakari - Hyjal"] = "Default",
+	},
+}

@@ -1,0 +1,1415 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Corpselus"] = {
+			["GUID"] = "Player-3678-095DAF49",
+			["TimeLast"] = {
+				["TimeDamage"] = 1633260.239,
+				["ActiveTime"] = 1633260.239,
+				["RunicPowerGain"] = 1633260.239,
+				["OVERALL"] = 1633260.239,
+				["DOT_Time"] = 1633260.239,
+				["Damage"] = 1633260.239,
+			},
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					27.46, -- [1]
+				},
+				["TimeDamage"] = {
+					27.46, -- [1]
+				},
+				["RunicPowerGain"] = {
+					160, -- [1]
+				},
+				["DOT_Time"] = {
+					48, -- [1]
+				},
+				["Damage"] = {
+					5401905, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Corpselus",
+			["level"] = 100,
+			["LastFightIn"] = 0,
+			["type"] = "Self",
+			["FightsSaved"] = 1,
+			["LastAbility"] = 1633260.295,
+			["Owner"] = false,
+			["LastEventHealth"] = {
+				"253620 (100%)", -- [1]
+				"253620 (100%)", -- [2]
+				"253620 (100%)", -- [3]
+				"253620 (100%)", -- [4]
+				"253620 (100%)", -- [5]
+				"253620 (100%)", -- [6]
+				"253620 (100%)", -- [7]
+				"253620 (100%)", -- [8]
+				"253620 (100%)", -- [9]
+				"253620 (100%)", -- [10]
+				"253620 (100%)", -- [11]
+				"253620 (100%)", -- [12]
+				"253620 (100%)", -- [13]
+				"253620 (100%)", -- [14]
+				"253620 (100%)", -- [15]
+				"253620 (100%)", -- [16]
+				"253620 (100%)", -- [17]
+				"253620 (100%)", -- [18]
+				"253620 (100%)", -- [19]
+				"253620 (100%)", -- [20]
+				"253620 (100%)", -- [21]
+				"253620 (100%)", -- [22]
+				"253620 (100%)", -- [23]
+				"253620 (100%)", -- [24]
+				"253620 (100%)", -- [25]
+				"253620 (100%)", -- [26]
+				"253620 (100%)", -- [27]
+				"253620 (100%)", -- [28]
+				"253620 (100%)", -- [29]
+				"253620 (100%)", -- [30]
+				"253620 (100%)", -- [31]
+				"253620 (100%)", -- [32]
+				"253620 (100%)", -- [33]
+				"253620 (100%)", -- [34]
+				"253620 (100%)", -- [35]
+				"253620 (100%)", -- [36]
+				"253620 (100%)", -- [37]
+				"253620 (100%)", -- [38]
+				"253620 (100%)", -- [39]
+				"253620 (100%)", -- [40]
+				"253620 (100%)", -- [41]
+				"253620 (100%)", -- [42]
+				"253620 (100%)", -- [43]
+				"253620 (100%)", -- [44]
+				"253620 (100%)", -- [45]
+				"253620 (100%)", -- [46]
+				"253620 (100%)", -- [47]
+				"253620 (100%)", -- [48]
+				"253620 (100%)", -- [49]
+				"253620 (100%)", -- [50]
+			},
+			["NextEventNum"] = 10,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Corpselus Melee Training Dummy Hit -50296 (Physical)", -- [1]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -39812 (Frost)", -- [2]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -39813 (Frost)", -- [3]
+				"Corpselus Obliterate Training Dummy Crit -272606 (Physical)", -- [4]
+				"Corpselus Obliterate Off-Hand Training Dummy Crit -147012 (Physical)", -- [5]
+				"Corpselus Melee Training Dummy Hit -22136 (Physical)", -- [6]
+				"Corpselus Melee Training Dummy Hit -43523 (Physical)", -- [7]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -39813 (Frost)", -- [8]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -39813 (Frost)", -- [9]
+				"Corpselus Frost Fever (DoT) Training Dummy Crit -95394 (Frost)", -- [10]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [11]
+				"Corpselus Melee Training Dummy Hit -25310 (Physical)", -- [12]
+				"Corpselus Melee Training Dummy Hit -50211 (Physical)", -- [13]
+				"Corpselus Obliterate Training Dummy Hit -169043 (Physical)", -- [14]
+				"Corpselus Obliterate Off-Hand Training Dummy Hit -86069 (Physical)", -- [15]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [16]
+				"Corpselus Frost Fever (DoT) Training Dummy Crit -95394 (Frost)", -- [17]
+				"Corpselus Melee Training Dummy Crit -52001 (Physical)", -- [18]
+				"Corpselus Melee Training Dummy Hit -51504 (Physical)", -- [19]
+				"Corpselus Frost Strike Training Dummy Hit -176803 (Frost)", -- [20]
+				"Corpselus Frost Strike Off-Hand Training Dummy Hit -92963 (Frost)", -- [21]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [22]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [23]
+				"Corpselus Melee Training Dummy Hit -26496 (Physical)", -- [24]
+				"Corpselus Melee Training Dummy Hit -50513 (Physical)", -- [25]
+				"Corpselus Obliterate Training Dummy Crit -333329 (Physical)", -- [26]
+				"Corpselus Obliterate Off-Hand Training Dummy Crit -160279 (Physical)", -- [27]
+				"Corpselus Melee Training Dummy Crit -49620 (Physical)", -- [28]
+				"Corpselus Melee Training Dummy Hit -52708 (Physical)", -- [29]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [30]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [31]
+				"Corpselus Obliterate Training Dummy Crit -341739 (Physical)", -- [32]
+				"Corpselus Obliterate Off-Hand Training Dummy Crit -162117 (Physical)", -- [33]
+				"Corpselus Melee Training Dummy Hit -26962 (Physical)", -- [34]
+				"Corpselus Melee Training Dummy Hit -53930 (Physical)", -- [35]
+				"Corpselus Obliterate Training Dummy Hit -160408 (Physical)", -- [36]
+				"Corpselus Obliterate Off-Hand Training Dummy Hit -81476 (Physical)", -- [37]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [38]
+				"Corpselus Frost Fever (DoT) Training Dummy Tick -47697 (Frost)", -- [39]
+				"Corpselus Frost Strike Training Dummy Hit -184909 (Frost)", -- [40]
+				"Corpselus Frost Strike Off-Hand Training Dummy Hit -87186 (Frost)", -- [41]
+				"Corpselus Melee Training Dummy Hit -27185 (Physical)", -- [42]
+				"Corpselus Melee Training Dummy Hit -52053 (Physical)", -- [43]
+				"Corpselus Frost Strike Training Dummy Hit -177125 (Frost)", -- [44]
+				"Corpselus Frost Strike Off-Hand Training Dummy Hit -92817 (Frost)", -- [45]
+				"Corpselus Frost Fever (DoT) Training Dummy Crit -95394 (Frost)", -- [46]
+				"Corpselus Frost Fever (DoT) Training Dummy Crit -95394 (Frost)", -- [47]
+				"Corpselus Melee Training Dummy Crit -54316 (Physical)", -- [48]
+				"Corpselus Frost Strike Training Dummy Hit -187875 (Frost)", -- [49]
+				"Corpselus Frost Strike Off-Hand Training Dummy Crit -171715 (Frost)", -- [50]
+			},
+			["Name"] = "Corpselus",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				false, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				false, -- [22]
+				false, -- [23]
+				false, -- [24]
+				false, -- [25]
+				false, -- [26]
+				false, -- [27]
+				false, -- [28]
+				false, -- [29]
+				false, -- [30]
+				false, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				false, -- [44]
+				false, -- [45]
+				false, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				false, -- [50]
+			},
+			["LastEventTimes"] = {
+				1633255.344, -- [1]
+				1633257.375, -- [2]
+				1633257.375, -- [3]
+				1633257.479, -- [4]
+				1633257.479, -- [5]
+				1633257.587, -- [6]
+				1633257.693, -- [7]
+				1633260.295, -- [8]
+				1633260.295, -- [9]
+				1633239.298, -- [10]
+				1633239.298, -- [11]
+				1633240.85, -- [12]
+				1633241.009, -- [13]
+				1633241.097, -- [14]
+				1633241.189, -- [15]
+				1633242.376, -- [16]
+				1633242.376, -- [17]
+				1633243.078, -- [18]
+				1633243.285, -- [19]
+				1633243.833, -- [20]
+				1633243.937, -- [21]
+				1633245.304, -- [22]
+				1633245.304, -- [23]
+				1633245.397, -- [24]
+				1633245.635, -- [25]
+				1633247.774, -- [26]
+				1633247.774, -- [27]
+				1633247.774, -- [28]
+				1633247.954, -- [29]
+				1633248.374, -- [30]
+				1633248.374, -- [31]
+				1633249.19, -- [32]
+				1633249.19, -- [33]
+				1633250.101, -- [34]
+				1633250.286, -- [35]
+				1633250.708, -- [36]
+				1633250.708, -- [37]
+				1633251.29, -- [38]
+				1633251.29, -- [39]
+				1633252.114, -- [40]
+				1633252.114, -- [41]
+				1633252.413, -- [42]
+				1633252.572, -- [43]
+				1633253.812, -- [44]
+				1633253.812, -- [45]
+				1633254.328, -- [46]
+				1633254.328, -- [47]
+				1633255.204, -- [48]
+				1633255.344, -- [49]
+				1633255.344, -- [50]
+			},
+			["Fights"] = {
+				["Fight1"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Training Dummy"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Horn of Winter"] = {
+									["count"] = 10,
+								},
+								["Howling Blast"] = {
+									["count"] = 10,
+								},
+								["Obliterate"] = {
+									["count"] = 120,
+								},
+								["Frost Fever"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 160,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 10.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8.81,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 0.09,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 0.1,
+								},
+								["Obliterate"] = {
+									["count"] = 5.01,
+								},
+								["Frost Strike"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 27.46,
+						},
+					},
+					["TimeDamage"] = 27.46,
+					["ElementDone"] = {
+						["Frost"] = 2433047,
+						["Melee"] = 810574,
+						["Physical"] = 2158284,
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 36193,
+									["min"] = 28954,
+									["count"] = 2,
+									["amount"] = 65147,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65147,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 54316,
+									["min"] = 49620,
+									["count"] = 3,
+									["amount"] = 155937,
+								},
+								["Hit"] = {
+									["max"] = 53930,
+									["min"] = 22136,
+									["count"] = 16,
+									["amount"] = 654637,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 810574,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 95394,
+									["min"] = 95394,
+									["count"] = 4,
+									["amount"] = 381576,
+								},
+								["Tick"] = {
+									["max"] = 47697,
+									["min"] = 39812,
+									["count"] = 12,
+									["amount"] = 540827,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 922403,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 162117,
+									["min"] = 147012,
+									["count"] = 3,
+									["amount"] = 469408,
+								},
+								["Hit"] = {
+									["max"] = 86115,
+									["min"] = 81476,
+									["count"] = 3,
+									["amount"] = 253660,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 723068,
+						},
+						["Frost Strike Off-Hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 171715,
+									["min"] = 171715,
+									["count"] = 1,
+									["amount"] = 171715,
+								},
+								["Hit"] = {
+									["max"] = 94125,
+									["min"] = 87186,
+									["count"] = 4,
+									["amount"] = 367091,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 538806,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 341739,
+									["min"] = 272606,
+									["count"] = 3,
+									["amount"] = 947674,
+								},
+								["Hit"] = {
+									["max"] = 169043,
+									["min"] = 158091,
+									["count"] = 3,
+									["amount"] = 487542,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1435216,
+						},
+						["Frost Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 187875,
+									["min"] = 176803,
+									["count"] = 5,
+									["amount"] = 906691,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 906691,
+						},
+					},
+					["Damage"] = 5401905,
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 65147,
+								},
+								["Melee"] = {
+									["count"] = 810574,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 922403,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 723068,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 538806,
+								},
+								["Obliterate"] = {
+									["count"] = 1435216,
+								},
+								["Frost Strike"] = {
+									["count"] = 906691,
+								},
+							},
+							["amount"] = 5401905,
+						},
+					},
+					["ActiveTime"] = 27.46,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 10.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8.81,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 0.09,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 0.1,
+								},
+								["Obliterate"] = {
+									["count"] = 5.01,
+								},
+								["Frost Strike"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 27.46,
+						},
+					},
+					["RunicPowerGain"] = 160,
+					["DOT_Time"] = 48,
+					["RunicPowerGained"] = {
+						["Horn of Winter"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Frost Fever"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Training Dummy"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Horn of Winter"] = {
+									["count"] = 10,
+								},
+								["Howling Blast"] = {
+									["count"] = 10,
+								},
+								["Obliterate"] = {
+									["count"] = 120,
+								},
+								["Frost Fever"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 160,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 10.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8.81,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 0.09,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 0.1,
+								},
+								["Obliterate"] = {
+									["count"] = 5.01,
+								},
+								["Frost Strike"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 27.46,
+						},
+					},
+					["TimeDamage"] = 27.46,
+					["ElementDone"] = {
+						["Frost"] = 2433047,
+						["Melee"] = 810574,
+						["Physical"] = 2158284,
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 36193,
+									["min"] = 28954,
+									["count"] = 2,
+									["amount"] = 65147,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65147,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 54316,
+									["min"] = 49620,
+									["count"] = 3,
+									["amount"] = 155937,
+								},
+								["Hit"] = {
+									["max"] = 53930,
+									["min"] = 22136,
+									["count"] = 16,
+									["amount"] = 654637,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 810574,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 95394,
+									["min"] = 95394,
+									["count"] = 4,
+									["amount"] = 381576,
+								},
+								["Tick"] = {
+									["max"] = 47697,
+									["min"] = 39812,
+									["count"] = 12,
+									["amount"] = 540827,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 922403,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 162117,
+									["min"] = 147012,
+									["count"] = 3,
+									["amount"] = 469408,
+								},
+								["Hit"] = {
+									["max"] = 86115,
+									["min"] = 81476,
+									["count"] = 3,
+									["amount"] = 253660,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 723068,
+						},
+						["Frost Strike Off-Hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 171715,
+									["min"] = 171715,
+									["count"] = 1,
+									["amount"] = 171715,
+								},
+								["Hit"] = {
+									["max"] = 94125,
+									["min"] = 87186,
+									["count"] = 4,
+									["amount"] = 367091,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 538806,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 341739,
+									["min"] = 272606,
+									["count"] = 3,
+									["amount"] = 947674,
+								},
+								["Hit"] = {
+									["max"] = 169043,
+									["min"] = 158091,
+									["count"] = 3,
+									["amount"] = 487542,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1435216,
+						},
+						["Frost Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 187875,
+									["min"] = 176803,
+									["count"] = 5,
+									["amount"] = 906691,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 906691,
+						},
+					},
+					["Damage"] = 5401905,
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 65147,
+								},
+								["Melee"] = {
+									["count"] = 810574,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 922403,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 723068,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 538806,
+								},
+								["Obliterate"] = {
+									["count"] = 1435216,
+								},
+								["Frost Strike"] = {
+									["count"] = 906691,
+								},
+							},
+							["amount"] = 5401905,
+						},
+					},
+					["ActiveTime"] = 27.46,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 10.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8.81,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 0.09,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 0.1,
+								},
+								["Obliterate"] = {
+									["count"] = 5.01,
+								},
+								["Frost Strike"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 27.46,
+						},
+					},
+					["RunicPowerGain"] = 160,
+					["DOT_Time"] = 48,
+					["RunicPowerGained"] = {
+						["Horn of Winter"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Frost Fever"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Training Dummy"] = {
+									["count"] = 48,
+								},
+							},
+							["amount"] = 48,
+						},
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Horn of Winter"] = {
+									["count"] = 10,
+								},
+								["Howling Blast"] = {
+									["count"] = 10,
+								},
+								["Obliterate"] = {
+									["count"] = 120,
+								},
+								["Frost Fever"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 160,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 12,
+								},
+								["Crit"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 16,
+								},
+							},
+							["amount"] = 19,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 6,
+								},
+								["Hit"] = {
+									["count"] = 6,
+								},
+							},
+							["amount"] = 12,
+						},
+					},
+					["TimeSpent"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 10.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8.81,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 0.09,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 0.1,
+								},
+								["Obliterate"] = {
+									["count"] = 5.01,
+								},
+								["Frost Strike"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 27.46,
+						},
+					},
+					["TimeDamage"] = 27.46,
+					["ElementDone"] = {
+						["Frost"] = 2433047,
+						["Melee"] = 810574,
+						["Physical"] = 2158284,
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 36193,
+									["min"] = 28954,
+									["count"] = 2,
+									["amount"] = 65147,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 65147,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 54316,
+									["min"] = 49620,
+									["count"] = 3,
+									["amount"] = 155937,
+								},
+								["Hit"] = {
+									["max"] = 53930,
+									["min"] = 22136,
+									["count"] = 16,
+									["amount"] = 654637,
+								},
+							},
+							["count"] = 19,
+							["amount"] = 810574,
+						},
+						["Frost Fever (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 95394,
+									["min"] = 95394,
+									["count"] = 4,
+									["amount"] = 381576,
+								},
+								["Tick"] = {
+									["max"] = 47697,
+									["min"] = 39812,
+									["count"] = 12,
+									["amount"] = 540827,
+								},
+							},
+							["count"] = 16,
+							["amount"] = 922403,
+						},
+						["Obliterate Off-Hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 162117,
+									["min"] = 147012,
+									["count"] = 3,
+									["amount"] = 469408,
+								},
+								["Hit"] = {
+									["max"] = 86115,
+									["min"] = 81476,
+									["count"] = 3,
+									["amount"] = 253660,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 723068,
+						},
+						["Frost Strike Off-Hand"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 171715,
+									["min"] = 171715,
+									["count"] = 1,
+									["amount"] = 171715,
+								},
+								["Hit"] = {
+									["max"] = 94125,
+									["min"] = 87186,
+									["count"] = 4,
+									["amount"] = 367091,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 538806,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 341739,
+									["min"] = 272606,
+									["count"] = 3,
+									["amount"] = 947674,
+								},
+								["Hit"] = {
+									["max"] = 169043,
+									["min"] = 158091,
+									["count"] = 3,
+									["amount"] = 487542,
+								},
+							},
+							["count"] = 6,
+							["amount"] = 1435216,
+						},
+						["Frost Strike"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 187875,
+									["min"] = 176803,
+									["count"] = 5,
+									["amount"] = 906691,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 906691,
+						},
+					},
+					["Damage"] = 5401905,
+					["DamagedWho"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 65147,
+								},
+								["Melee"] = {
+									["count"] = 810574,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 922403,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 723068,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 538806,
+								},
+								["Obliterate"] = {
+									["count"] = 1435216,
+								},
+								["Frost Strike"] = {
+									["count"] = 906691,
+								},
+							},
+							["amount"] = 5401905,
+						},
+					},
+					["ActiveTime"] = 27.46,
+					["TimeDamaging"] = {
+						["Training Dummy"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Melee"] = {
+									["count"] = 10.1,
+								},
+								["Frost Fever (DoT)"] = {
+									["count"] = 8.81,
+								},
+								["Obliterate Off-Hand"] = {
+									["count"] = 0.09,
+								},
+								["Frost Strike Off-Hand"] = {
+									["count"] = 0.1,
+								},
+								["Obliterate"] = {
+									["count"] = 5.01,
+								},
+								["Frost Strike"] = {
+									["count"] = 3.35,
+								},
+							},
+							["amount"] = 27.46,
+						},
+					},
+					["RunicPowerGain"] = 160,
+					["DOT_Time"] = 48,
+					["RunicPowerGained"] = {
+						["Horn of Winter"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 120,
+								},
+							},
+							["amount"] = 120,
+						},
+						["Frost Fever"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 1633236.238,
+			["LastActive"] = 1633260.239,
+		},
+	},
+	["FightNum"] = 1,
+	["CombatTimes"] = {
+		{
+			1633236.238, -- [1]
+			1633264.232, -- [2]
+			"21:38:08", -- [3]
+			"21:38:36", -- [4]
+			"Training Dummy", -- [5]
+		}, -- [1]
+	},
+	["FoughtWho"] = {
+		"Training Dummy 21:38:08-21:38:36", -- [1]
+	},
+}

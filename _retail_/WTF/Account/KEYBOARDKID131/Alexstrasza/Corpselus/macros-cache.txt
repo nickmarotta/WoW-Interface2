@@ -1,0 +1,48 @@
+VER 3 010000000000000A " " "Spell_Fire_BurningSpeed"
+#showtooltip 6
+/use 6
+END
+VER 3 0100000000000010 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use 15
+END
+VER 3 0100000000000013 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Summon Gargoyle
+/cast Outbreak
+/cast Summon Gargoyle
+END
+VER 3 0100000000000014 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Gnaw
+/cast Gnaw
+END
+VER 3 0100000000000008 " FCS" "INV_MISC_QUESTIONMARK"
+#showtooltip Asphyxiate
+/cast [target=focus,exists,nodead][] Asphyxiate
+END
+VER 3 0100000000000016 "Burst" "SPELL_FROST_FREEZINGBREATH"
+#showtooltip Obliteration
+/cast Pillar of Frost
+/cast Obliteration
+END
+VER 3 010000000000000B "FCS" "INV_MISC_QUESTIONMARK"
+#showtooltip Mind Freeze
+/cast [target=focus,exists,nodead][] Mind Freeze
+END
+VER 3 010000000000000F "Focus Shift Mod " "ABILITY_DUALWIELD"
+#showtooltip 
+/cast [modifier:shift, target=focus]Asphyxiate; Asphyxiate
+END
+VER 3 0100000000000015 "Pound Town" "SPELL_HOLY_HARMUNDEADAURA"
+#showtooltip Empower Rune Weapon
+/cast Pillar of Frost
+/cast Empower Rune Weapon
+END
+VER 3 0100000000000012 "UH Stats " "SPELL_DEATHKNIGHT_UNHOLYPRESENCE"
+The stat priority for Unholy Death Knights is:
+Strength;
+Multistrike;
+Mastery;
+Critical Strike;
+Versatility;
+Haste.
+END

@@ -1,0 +1,23 @@
+VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Lava Burst
+/stopcasting
+/cast Lava Burst
+END
+VER 3 0100000000000004 " " "Spell_Fire_FlameShock"
+#showtooltip
+/cast Flame Shock
+/startattack [harm]
+END
+VER 3 0100000000000016 "AR" "INV_MISC_QUESTIONMARK"
+#showtooltip Hex
+/cast [@arena1] Hex 
+END
+VER 3 0100000000000015 "VuhDo" "136218"
+/vuhdo toggle
+END
+VER 3 0100000000000013 "VuhDoDCShieldData" "Ability_Repair"
+P[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]1SH[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END
+VER 3 0100000000000014 "VuhDoDCShieldNames" "Ability_Repair"
+N[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]Maf[x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x][x]
+END

@@ -1,0 +1,32 @@
+
+RecountDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["profiles"] = {
+		["Corpselus - Alexstrasza"] = {
+			["MainWindow"] = {
+				["Position"] = {
+					["y"] = -459.499900817871,
+					["x"] = 774,
+					["w"] = 232.000030517578,
+					["h"] = 148.999984741211,
+				},
+			},
+			["Colors"] = {
+				["Bar"] = {
+					["Bar Text"] = {
+						["a"] = 1,
+					},
+					["Total Bar"] = {
+						["a"] = 1,
+					},
+				},
+			},
+			["MainWindowWidth"] = 232.000030517578,
+			["MainWindowHeight"] = 148.999984741211,
+			["CurDataSet"] = "OverallData",
+			["MainWindowMode"] = 2,
+		},
+	},
+}

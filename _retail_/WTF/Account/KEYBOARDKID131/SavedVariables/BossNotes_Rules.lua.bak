@@ -1,0 +1,11 @@
+
+BossNotesRulesDB = {
+	["profileKeys"] = {
+		["Mafiki - Alexstrasza"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+		["Naakari - Hyjal"] = "Default",
+	},
+	["global"] = {
+		["databaseVersion"] = 2,
+	},
+}

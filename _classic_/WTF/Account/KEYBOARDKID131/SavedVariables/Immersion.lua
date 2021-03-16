@@ -1,0 +1,23 @@
+
+ImmersionSetup = {
+	["strata"] = "MEDIUM",
+	["scale"] = 1,
+	["elementscale"] = 1,
+	["disableprogression"] = false,
+	["titleoffsetY"] = -116.122344970703,
+	["hideui"] = false,
+	["boxoffsetX"] = 0,
+	["accept"] = "SPACE",
+	["boxscale"] = 1,
+	["boxoffsetY"] = 150,
+	["titleoffset"] = 440.688842773438,
+	["titlescale"] = 1,
+	["flipshortcuts"] = false,
+	["boxlock"] = true,
+	["delaydivisor"] = 15,
+	["boxpoint"] = "Bottom",
+	["anidivisor"] = 5,
+	["inspect"] = "SHIFT",
+	["immersivemode"] = true,
+	["reset"] = "BACKSPACE",
+}

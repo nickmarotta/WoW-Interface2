@@ -1,0 +1,11 @@
+
+AutoVendorDB = {
+	["profileKeys"] = {
+		["Awaste - Thrall"] = "Awaste - Thrall",
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
+	},
+	["profiles"] = {
+		["Awaste - Thrall"] = {
+		},
+	},
+}

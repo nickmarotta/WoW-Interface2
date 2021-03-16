@@ -1,0 +1,3 @@
+XPerl: enabled
+ZPerl_Options: enabled
+XPerl_TeamSpeak: disabled

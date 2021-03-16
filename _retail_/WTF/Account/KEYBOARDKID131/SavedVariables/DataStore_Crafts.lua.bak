@@ -1,0 +1,41 @@
+
+DataStore_CraftsDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["Professions"] = {
+					["Cooking"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 260,
+					},
+					["Archaeology"] = {
+						["MaxRank"] = 75,
+						["Rank"] = 1,
+					},
+					["Fishing"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 155,
+					},
+					["Mining"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 700,
+					},
+					["First Aid"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 600,
+					},
+					["Engineering"] = {
+						["MaxRank"] = 700,
+						["Rank"] = 693,
+					},
+				},
+				["Prof2"] = "Engineering",
+				["lastUpdate"] = 1469674819,
+				["Prof1"] = "Mining",
+			},
+		},
+	},
+}

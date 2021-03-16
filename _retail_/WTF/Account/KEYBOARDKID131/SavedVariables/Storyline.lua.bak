@@ -1,0 +1,47 @@
+
+Storyline_Data = {
+	["config"] = {
+		["disableForDailies"] = false,
+		["disableInInstances"] = true,
+		["textSpeedFactor"] = 0.699999988079071,
+		["useLayoutEngine"] = false,
+		["QuestTitle"] = {
+			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
+		},
+		["locale"] = "enUS",
+		["NextAction"] = {
+			["Size"] = 10,
+			["Font"] = "Friz Quadrata TT",
+		},
+		["useKeyboard"] = true,
+		["debug"] = false,
+		["forceGossip"] = false,
+		["width"] = 748.000122070313,
+		["lockFrame"] = true,
+		["hideOriginalFrames"] = true,
+		["DialogText"] = {
+			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
+		},
+		["height"] = 484.999969482422,
+		["autoEquip"] = true,
+		["DialogOptions"] = {
+			["Outline"] = "",
+			["Font"] = "Friz Quadrata TT",
+			["Size"] = 13,
+		},
+		["NPCName"] = {
+			["Size"] = 16,
+			["Font"] = "Friz Quadrata TT",
+		},
+	},
+	["npc_blacklist"] = {
+	},
+	["customscale"] = {
+		["personal"] = {
+		},
+		["relative"] = {
+		},
+	},
+}

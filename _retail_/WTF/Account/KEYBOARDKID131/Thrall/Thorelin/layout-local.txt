@@ -1,0 +1,15 @@
+Version: 1
+Frame: Recount_MainWindow
+FrameLevel: 40
+Anchor: BOTTOMRIGHT
+X: -26
+Y: 18
+W: 214
+H: 149
+Frame: OneBagFrame
+FrameLevel: 1
+Anchor: RIGHT
+X: -191
+Y: -6
+W: 442
+H: 383

@@ -1,0 +1,2129 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1580866806,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame14"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:45:59]|h|r [W From] |cffd8d8d8[|r|Hplayer:Sniffyy-LaughingSkull:2678:WHISPER:SNIFFYY-LAUGHINGSKULL|h|cfffefefeSniffyy|r-|cff87f9e1Lau|r|h|cffd8d8d8]|r: |cffffff00|Hachievement:14460:Player-67-0DBBC0C3:1:2:6:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r",
+					["serverTime"] = 1614138357,
+					["r"] = 1,
+					["extraData"] = {
+						0, -- [1]
+						false, -- [2]
+						765, -- [3]
+						766, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 622932.769,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [1]
+			},
+			["headIndex"] = 1,
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 15,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cfffefefeGhosse|r has died.",
+					["serverTime"] = 1615519322,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40726.739,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [1]
+				{
+					["message"] = "You receive currency: |cff0070dd|Hcurrency:1792:0|h[Honor]|h|r x40.",
+					["serverTime"] = 1615519324,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						328, -- [3]
+						329, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40728.531,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "You have been awarded 20 Honor.",
+					["serverTime"] = 1615519324,
+					["r"] = 0.8784314393997192,
+					["extraData"] = {
+						35, -- [1]
+						false, -- [2]
+						330, -- [3]
+						331, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40728.531,
+					["g"] = 0.7921569347381592,
+					["b"] = 0.03921568766236305,
+				}, -- [3]
+				{
+					["message"] = "Your group has been disbanded.",
+					["serverTime"] = 1615519336,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40740.258,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "You have been removed from the group.",
+					["serverTime"] = 1615519336,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40740.258,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1615519336,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40740.258,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1615519338,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40741.737,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1615519338,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40741.737,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|cfffefefeGhosse|r-BleedingHollow has left the instance group.",
+					["serverTime"] = 1615519338,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40741.737,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [9]
+				{
+					["message"] = "|cfff38bb9Kred|r has left the instance group.",
+					["serverTime"] = 1615519338,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40741.737,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq15|k:4:1907:BN_INLINE_TOAST_ALERT:0|h[|Kq15|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tSpaceman)|h has come online.",
+					["serverTime"] = 1615519338,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						286, -- [3]
+						334, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40741.737,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "|cfffefefeGhosse|r-BleedingHollow leaves the party.",
+					["serverTime"] = 1615519344,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40748.122,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [12]
+				{
+					["message"] = "You leave the group.",
+					["serverTime"] = 1615519388,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40792.465,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1615519390,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40793.928,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1615519390,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40793.928,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1798:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Hoes - Death Knight",
+					["serverTime"] = 1615518540,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39943.814,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [16]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1799:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Holyjoy - Paladin",
+					["serverTime"] = 1615518540,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39943.814,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1800:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Liù - Druid",
+					["serverTime"] = 1615518551,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 39954.986,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [18]
+				{
+					["message"] = "|cfffefefeGhosse|r has died.",
+					["serverTime"] = 1615518679,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40083.31,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|cff71d5ff|Hdeath:9|h[You died.]|h",
+					["serverTime"] = 1615518693,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40096.813,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "You receive currency: |cff0070dd|Hcurrency:1792:0|h[Honor]|h|r x30.",
+					["serverTime"] = 1615518698,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						328, -- [3]
+						329, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40102.286,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [21]
+				{
+					["message"] = "You have been awarded 10 Honor.",
+					["serverTime"] = 1615518698,
+					["r"] = 0.8784314393997192,
+					["extraData"] = {
+						35, -- [1]
+						false, -- [2]
+						330, -- [3]
+						331, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40102.286,
+					["g"] = 0.7921569347381592,
+					["b"] = 0.03921568766236305,
+				}, -- [22]
+				{
+					["message"] = "The battle has ended. This arena will close in 2 |4Min:Min;",
+					["serverTime"] = 1615518704,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40108.022,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [23]
+				{
+					["message"] = "|cfffefefeGhosse|r-BleedingHollow has left the instance group.",
+					["serverTime"] = 1615518705,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40108.791,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [24]
+				{
+					["message"] = "|cfff38bb9Kred|r has left the instance group.",
+					["serverTime"] = 1615518711,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40115.265,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "Your group has been disbanded.",
+					["serverTime"] = 1615518718,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40122.288,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [26]
+				{
+					["message"] = "You have been removed from the group.",
+					["serverTime"] = 1615518718,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40122.288,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1615518718,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40122.288,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1615518718,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40122.288,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1615518718,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40122.288,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "A role check has been initiated. Your group will be queued when all members have selected a role.",
+					["serverTime"] = 1615518723,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40127.34,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "Corpselus has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["serverTime"] = 1615518723,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40127.34,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "Ghosse-BleedingHollow has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["serverTime"] = 1615518725,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40129.086,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "Kred has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:1:20|t Healer",
+					["serverTime"] = 1615518726,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40130.309,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "Your group has joined the queue for 3v3.",
+					["serverTime"] = 1615518726,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40130.309,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1615518744,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40147.79,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1815:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena1 (Warrior/Arms)",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1816:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena2 (Shaman/Elemental)",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1817:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena3 (Priest/Discipline)",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "Party converted to Raid",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "You are in both a party and an instance group. You may communicate with your party with \"/p\" and with your instance group with \"/i\".",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "Raid Difficulty set to Normal.",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "Legacy Raid Difficulty set to 10 Player.",
+					["serverTime"] = 1615518745,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40148.976,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1822:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Arms WARRIOR",
+					["serverTime"] = 1615518745,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40149.212,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1823:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Elemental SHAMAN",
+					["serverTime"] = 1615518745,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40149.212,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [47]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1824:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Discipline PRIEST",
+					["serverTime"] = 1615518745,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40149.212,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [48]
+				{
+					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615518762,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40165.995,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [49]
+				{
+					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615518762,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40166.057,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [50]
+				{
+					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615518762,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40166.146,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [51]
+				{
+					["message"] = "Thirty seconds until the Arena battle begins!",
+					["serverTime"] = 1615518766,
+					["r"] = 1,
+					["extraData"] = {
+						37, -- [1]
+						false, -- [2]
+						326, -- [3]
+						327, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40170.565,
+					["g"] = 0.4705882668495178,
+					["b"] = 0.03921568766236305,
+				}, -- [52]
+				{
+					["message"] = "Fifteen seconds until the Arena battle begins!",
+					["serverTime"] = 1615518781,
+					["r"] = 1,
+					["extraData"] = {
+						37, -- [1]
+						false, -- [2]
+						326, -- [3]
+						327, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40185.74,
+					["g"] = 0.4705882668495178,
+					["b"] = 0.03921568766236305,
+				}, -- [53]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq59|k:46:1830:BN_INLINE_TOAST_ALERT:0|h[|Kq59|k]|h has gone offline.",
+					["serverTime"] = 1615518794,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						286, -- [3]
+						332, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40198.473,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [54]
+				{
+					["message"] = "The Arena battle has begun!",
+					["serverTime"] = 1615518796,
+					["r"] = 1,
+					["extraData"] = {
+						37, -- [1]
+						false, -- [2]
+						326, -- [3]
+						327, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40200.197,
+					["g"] = 0.4705882668495178,
+					["b"] = 0.03921568766236305,
+				}, -- [55]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1832:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Hollowhinata - Priest",
+					["serverTime"] = 1615518796,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40200.738,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [56]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1833:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Hellobro - Warrior",
+					["serverTime"] = 1615518796,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40200.738,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [57]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1834:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Shamij - Shaman",
+					["serverTime"] = 1615518796,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40200.738,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [58]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1835:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
+					["serverTime"] = 1615518844,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40248.485,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1836:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
+					["serverTime"] = 1615518844,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40248.485,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1837:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: Hollowhinata (Priest)",
+					["serverTime"] = 1615518914,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40318.388,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1838:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Hollowhinata (Priest)",
+					["serverTime"] = 1615518914,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40318.388,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [62]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1839:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
+					["serverTime"] = 1615518915,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40319.071,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1840:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
+					["serverTime"] = 1615518915,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40319.071,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cfffefefeGhosse|r has died.",
+					["serverTime"] = 1615518932,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40336.191,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|cff71d5ff|Hdeath:10|h[You died.]|h",
+					["serverTime"] = 1615518969,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40373.279,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "You receive currency: |cff0070dd|Hcurrency:1792:0|h[Honor]|h|r x30.",
+					["serverTime"] = 1615518973,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						328, -- [3]
+						329, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40377.526,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [67]
+				{
+					["message"] = "You have been awarded 10 Honor.",
+					["serverTime"] = 1615518973,
+					["r"] = 0.8784314393997192,
+					["extraData"] = {
+						35, -- [1]
+						false, -- [2]
+						330, -- [3]
+						331, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40377.526,
+					["g"] = 0.7921569347381592,
+					["b"] = 0.03921568766236305,
+				}, -- [68]
+				{
+					["message"] = "The battle has ended. This arena will close in 2 |4Min:Min;",
+					["serverTime"] = 1615518979,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40383.387,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [69]
+				{
+					["message"] = "Your group has been disbanded.",
+					["serverTime"] = 1615518987,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40391.38,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "You have been removed from the group.",
+					["serverTime"] = 1615518987,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40391.38,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1615518987,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40391.38,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [72]
+				{
+					["message"] = "|cfffefefeGhosse|r-BleedingHollow has left the instance group.",
+					["serverTime"] = 1615518989,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40392.736,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|cfff38bb9Kred|r has left the instance group.",
+					["serverTime"] = 1615518989,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40392.736,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [74]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1615518989,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40392.736,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1615518989,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40392.736,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "A role check has been initiated. Your group will be queued when all members have selected a role.",
+					["serverTime"] = 1615518991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40394.776,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "Corpselus has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["serverTime"] = 1615518991,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40394.776,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [78]
+				{
+					["message"] = "Kred has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:1:20|t Healer",
+					["serverTime"] = 1615518992,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40396.418,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "Ghosse-BleedingHollow has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
+					["serverTime"] = 1615518998,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40402.266,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [80]
+				{
+					["message"] = "Your group has joined the queue for 3v3.",
+					["serverTime"] = 1615518998,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40402.266,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [81]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq43|k:1:1853:BN_INLINE_TOAST_ALERT:0|h[|Kq43|k]|h has gone offline.",
+					["serverTime"] = 1615519018,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						286, -- [3]
+						333, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40422.334,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [82]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1615519040,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40444.171,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						13, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1856:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena1 (Mage/Fire)",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [86]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1857:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena2 (Rogue/Subtlety)",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "Party converted to Raid",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [88]
+				{
+					["message"] = "You are in both a party and an instance group. You may communicate with your party with \"/p\" and with your instance group with \"/i\".",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "Raid Difficulty set to Normal.",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "Legacy Raid Difficulty set to 10 Player.",
+					["serverTime"] = 1615519041,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.298,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1862:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Fire MAGE",
+					["serverTime"] = 1615519041,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.561,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [92]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1863:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Subtlety ROGUE",
+					["serverTime"] = 1615519041,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40445.561,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [93]
+				{
+					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615519044,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40448.099,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615519044,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40448.174,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [95]
+				{
+					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615519044,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						165, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40448.299,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [96]
+				{
+					["message"] = "Ghosse-BleedingHollow creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615519046,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						162, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.541,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [97]
+				{
+					["message"] = "Ghosse-BleedingHollow creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615519046,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						162, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.6,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [98]
+				{
+					["message"] = "Ghosse-BleedingHollow creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
+					["serverTime"] = 1615519046,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						19, -- [3]
+						162, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.759,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [99]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1870:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Fire MAGE",
+					["serverTime"] = 1615519047,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.884,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [100]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1871:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Subtlety ROGUE",
+					["serverTime"] = 1615519047,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.884,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [101]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1872:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Holy PALADIN",
+					["serverTime"] = 1615519047,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.884,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1873:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena3 (Paladin/Holy)",
+					["serverTime"] = 1615519047,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40450.884,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [103]
+				{
+					["message"] = "You have unlearned |cff71d5ff|Hspell:207167:0|h[Blinding Sleet]|h|r.",
+					["serverTime"] = 1615519050,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40454.392,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [104]
+				{
+					["message"] = "You have learned a new spell: |cff71d5ff|Hspell:108194:0|h[Asphyxiate]|h|r.",
+					["serverTime"] = 1615519050,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40454.392,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [105]
+				{
+					["message"] = "Thirty seconds until the Arena battle begins!",
+					["serverTime"] = 1615519069,
+					["r"] = 1,
+					["extraData"] = {
+						37, -- [1]
+						false, -- [2]
+						326, -- [3]
+						327, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40473.444,
+					["g"] = 0.4705882668495178,
+					["b"] = 0.03921568766236305,
+				}, -- [106]
+				{
+					["message"] = "Fifteen seconds until the Arena battle begins!",
+					["serverTime"] = 1615519084,
+					["r"] = 1,
+					["extraData"] = {
+						37, -- [1]
+						false, -- [2]
+						326, -- [3]
+						327, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40488.626,
+					["g"] = 0.4705882668495178,
+					["b"] = 0.03921568766236305,
+				}, -- [107]
+				{
+					["message"] = "The Arena battle has begun!",
+					["serverTime"] = 1615519099,
+					["r"] = 1,
+					["extraData"] = {
+						37, -- [1]
+						false, -- [2]
+						326, -- [3]
+						327, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40503.109,
+					["g"] = 0.4705882668495178,
+					["b"] = 0.03921568766236305,
+				}, -- [108]
+				{
+					["message"] = "High King Maulgar says: Let the games... BEGIN!",
+					["serverTime"] = 1615519099,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40503.33,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [109]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1880:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Vyaqt - Mage",
+					["serverTime"] = 1615519099,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40503.554,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1881:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Tired - Paladin",
+					["serverTime"] = 1615519100,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40503.792,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1882:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Sneakybroe - Rogue",
+					["serverTime"] = 1615519111,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40515.386,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "High King Maulgar says: Yes, yes!",
+					["serverTime"] = 1615519153,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40557.361,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [113]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1884:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Sneakybroe (Rogue)",
+					["serverTime"] = 1615519199,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40603.101,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [114]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1885:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: Sneakybroe (Rogue)",
+					["serverTime"] = 1615519199,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40603.101,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "High King Maulgar says: Yes, yes!",
+					["serverTime"] = 1615519199,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40603.101,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [116]
+				{
+					["message"] = "High King Maulgar says: Finish him!",
+					["serverTime"] = 1615519245,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40649.437,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [117]
+				{
+					["message"] = "|cfff38bb9Kred|r has died.",
+					["serverTime"] = 1615519245,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40649.477,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "High King Maulgar says: Finish him!",
+					["serverTime"] = 1615519256,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40660.462,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [119]
+				{
+					["message"] = "|cff71d5ff|Hdeath:11|h[You died.]|h",
+					["serverTime"] = 1615519258,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40661.822,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "High King Maulgar says: Yes, yes!",
+					["serverTime"] = 1615519269,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40673.274,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [121]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1892:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Tired (Paladin)",
+					["serverTime"] = 1615519287,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40691.279,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1893:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: Tired (Paladin)",
+					["serverTime"] = 1615519287,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						324, -- [3]
+						325, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40691.279,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [123]
+				{
+					["message"] = "High King Maulgar says: Yes, yes!",
+					["serverTime"] = 1615519287,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40691.483,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [124]
+				{
+					["message"] = "You are in Spectator Mode. To abandon this battle, right click the Arena icon on the minimap and select 'Leave Arena'.",
+					["serverTime"] = 1615519311,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 40715.226,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [125]
+				{
+					["message"] = "High King Maulgar says: Finish him!",
+					["serverTime"] = 1615519311,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40715.49,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [126]
+				{
+					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1896:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Tired (Paladin)",
+					["serverTime"] = 1615519312,
+					["r"] = 0.4627451300621033,
+					["extraData"] = {
+						50, -- [1]
+						false, -- [2]
+						314, -- [3]
+						323, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40716.572,
+					["g"] = 0.7843137979507446,
+					["b"] = 1,
+				}, -- [127]
+				{
+					["message"] = "High King Maulgar says: Finish her!",
+					["serverTime"] = 1615519313,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 40717.647,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

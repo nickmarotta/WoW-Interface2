@@ -1,0 +1,2149 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 93,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:989:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: draught of 4 landsStarme",
+					["serverTime"] = 1605234394,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13318.784,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [1]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:990:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234403,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13328.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [2]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Throllys-Thrall:991:CHANNEL:2|h|cffc59a6cThrollys|r|h|cffd8d8d8]|r: WTS M+15 85K - ArmorStack 90K - ( X3 BUNDLE OFFER ) - Vision 0 & 5 Mask - Mythic Raid -|| HUOKAN COMMUNITY ||-  GOLD ONLY -",
+					["serverTime"] = 1605234407,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13332.217,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [3]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feldrin-Thrall:992:CHANNEL:2|h|cff8687edFeldrin|r|h|cffd8d8d8]|r: i want to mount jaina",
+					["serverTime"] = 1605234430,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						183, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13354.917,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [4]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mochiyushi-Thrall:993:CHANNEL:2|h|cff00fe97Mochiyushi|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-131954-3678-90982870|h[Guild: Natural Selection]|h|r[4/12M] Recruiting members! A guild with a love for dark humor, sarcasm & overall good time. Weekly guild events: mog/mount/achieve runs, rbgs. movie night, contests, games, raffles & more! M+, active disc & grepairs. Pst for |cffffff00|Hinvplr:Mochiyushi-Thrall|h[inv]|h|r",
+					["serverTime"] = 1605234441,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13365.85,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Excisìon-Thrall:994:CHANNEL:2|h|cfff38bb9Excisìon|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Metanoia|r|cffffffff>|r  Raid schedule: Tues Thurs Sat. 9pm-12 central time. We are currently in search of Healers/dps with a focus on Melee dps!!!! We plan on clearing all content from raids/m+/PVP and everything between!! 5/12m GM/RL! Come hangout with us!!!!!!!",
+					["serverTime"] = 1605234445,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13369.917,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:995:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234453,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13378.25,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [7]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:996:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: You have to get in line behind Thrall, Anduin, and Genn. Think u can compete after that?",
+					["serverTime"] = 1605234455,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13380.35,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:997:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234459,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13384.55,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treapally-Thrall:998:CHANNEL:2|h|cfff38bb9Treapally|r|h|cffd8d8d8]|r: Phoenix Community || GOLD ONLY > WTS  Heroic/Mythic Ny'alotha|| Heroic Castle Nathria Pre-orders || M +10-24 timed carries || Visions 0-5 masks || Jaina Mount  || GOLD ONLY PM for info",
+					["serverTime"] = 1605234460,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						187, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13385.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thragotcha-Thrall:999:CHANNEL:2|h|cfffef367Thragotcha|r|h|cffd8d8d8]|r: WTS  MYTHIC +15 BUNDLEE X3 RUNS WITH ARMOR STACK GET 6-9 ITEMS ILVL 120|||| ALSO X5 RUNS BUNDLE AND  JUST 1 RUN |||| VISIONS |||| RAID H & M|||| AND MORE.GOLD ONLY PST ME!!",
+					["serverTime"] = 1605234465,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						94, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13390.35,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sargeraz-Thrall:1000:CHANNEL:2|h|cffa9d271Sargeraz|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r Uncorrupted Voidwing Mount that STILL drops from N'zoth H (Yes, even after prepatch!). Come and get your mount with 12/12 Mythic raiders Before SL goes live on Nov 23!",
+					["serverTime"] = 1605234490,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13415.45,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feldrin-Thrall:1001:CHANNEL:2|h|cff8687edFeldrin|r|h|cffd8d8d8]|r: anduin cant get chicks mang, i dont believe you",
+					["serverTime"] = 1605234493,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						183, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13417.85,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zènia-Thrall:1002:CHANNEL:2|h|cffa22fc8Zènia|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:142265::::::::45:577::::1:28:347:::|h[Big Red Raygun]|h|r pst",
+					["serverTime"] = 1605234493,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13418.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Prettywaste-Thrall:1006:CHANNEL:2|h|cff8687edPrettywaste|r|h|cffd8d8d8]|r: ANYONE SELLLING BAGS?",
+					["serverTime"] = 1605234500,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						241, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13425.45,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Prettywaste-Thrall:1007:CHANNEL:2|h|cff8687edPrettywaste|r|h|cffd8d8d8]|r: Sorry caps",
+					["serverTime"] = 1605234504,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						241, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13429.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rexsaury-Thrall:1008:CHANNEL:2|h|cff006fdcRexsaury|r|h|cffd8d8d8]|r: WTS> M+15-20 85k Base || 90k  With Stack || Specific Key & Stack: 105K || Timed key +10k || MultipleRunsDiscount || WTS> Vision 5 Mask/Objcts 70k|| .:·HUOKAN·:.",
+					["serverTime"] = 1605234513,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13438.584,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Haakkon-Thrall:1009:CHANNEL:2|h|cffc31d39Haakkon|r|h|cffd8d8d8]|r: 30 slot are only 90g on AH",
+					["serverTime"] = 1605234516,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						185, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13441.55,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sargeraz-Thrall:1010:CHANNEL:2|h|cffa9d271Sargeraz|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r Uncorrupted Voidwing Mount that STILL drops from N'zoth H (Yes, even after prepatch!). Come and get your mount with 12/12 Mythic raiders Before SL goes live on Nov 23!",
+					["serverTime"] = 1605234517,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13442.35,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Throllys-Thrall:1011:CHANNEL:2|h|cffc59a6cThrollys|r|h|cffd8d8d8]|r: WTS M+15 85K - ArmorStack 90K - ( X3 BUNDLE OFFER ) - Vision 0 & 5 Mask - Mythic Raid -|| HUOKAN COMMUNITY ||-  GOLD ONLY -",
+					["serverTime"] = 1605234525,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13450.217,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1012:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234526,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13451.017,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Haakkon-Thrall:1013:CHANNEL:2|h|cffc31d39Haakkon|r|h|cffd8d8d8]|r: they were double a couple months ago",
+					["serverTime"] = 1605234527,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						185, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13452.05,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:1014:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234542,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13466.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1015:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: Are people still tryna sell Hexweave bags for 1000g",
+					["serverTime"] = 1605234543,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13468.717,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rexsaury-Thrall:1016:CHANNEL:2|h|cff006fdcRexsaury|r|h|cffd8d8d8]|r: WTS> M+15-20 85k Base || 90k  With Stack || Specific Key & Stack: 105K || Timed key +10k || MultipleRunsDiscount || WTS> Vision 5 Mask/Objcts 70k|| .:·HUOKAN·:.",
+					["serverTime"] = 1605234549,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13473.85,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1017:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: literal scalpers",
+					["serverTime"] = 1605234550,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13475.75,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thragotcha-Thrall:1018:CHANNEL:2|h|cfffef367Thragotcha|r|h|cffd8d8d8]|r: WTS  MYTHIC +15 BUNDLEE X3 RUNS WITH ARMOR STACK GET 6-9 ITEMS ILVL 120|||| ALSO X5 RUNS BUNDLE AND  JUST 1 RUN |||| VISIONS |||| RAID H & M|||| AND MORE.GOLD ONLY PST ME!!",
+					["serverTime"] = 1605234565,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						94, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13489.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bàphomèt-Thrall:1019:CHANNEL:2|h|cffa22fc8Bàphomèt|r|h|cffd8d8d8]|r: Come drink some rum and have some fun! |cffffd100|HclubFinder:ClubFinder-1-146880-3678-92420868|h[Guild: We Have Rum]|h|r is recruiting casual and veteran players for all Shadowlands content. Come make friends as we move to more serious content! (:",
+					["serverTime"] = 1605234572,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						88, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13497.184,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Witnessme-Thrall:1020:CHANNEL:2|h|cfffefefeWitnessme|r|h|cffd8d8d8]|r: whats wrong with scalping?",
+					["serverTime"] = 1605234572,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13497.517,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mochiyushi-Thrall:1021:CHANNEL:2|h|cff00fe97Mochiyushi|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-131954-3678-90982870|h[Guild: Natural Selection]|h|r[4/12M] Recruiting members! A guild with a love for dark humor, sarcasm & overall good time. Weekly guild events: mog/mount/achieve runs, rbgs. movie night, contests, games, raffles & more! M+, active disc & grepairs. Pst for |cffffff00|Hinvplr:Mochiyushi-Thrall|h[inv]|h|r",
+					["serverTime"] = 1605234578,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13503.184,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Witnessme-Thrall:1022:CHANNEL:2|h|cfffefefeWitnessme|r|h|cffd8d8d8]|r: this is my land",
+					["serverTime"] = 1605234579,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						96, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13504.284,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:1023:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: hey if they sell they are worth it",
+					["serverTime"] = 1605234581,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13506.084,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1024:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234586,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13511.35,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pokiroo-Thrall:1025:CHANNEL:2|h|cfffe7b09Pokiroo|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:159840::::::::10:102::54:2:1472:4786:1:28:189:::|h[Teebu's Scorching Straight Sword]|h|r only 18K chekc AH, nice for mog. very cheap :(",
+					["serverTime"] = 1605234594,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						243, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13519.017,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Excisìon-Thrall:1026:CHANNEL:2|h|cfff38bb9Excisìon|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Metanoia|r|cffffffff>|r  Raid schedule: Tues Thurs Sat. 9pm-12 central time. We are currently in search of Healers/dps with a focus on Melee dps!!!! We plan on clearing all content from raids/m+/PVP and everything between!! 5/12m GM/RL! Come hangout with us!!!!!!!",
+					["serverTime"] = 1605234594,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13519.65,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:1027:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: ppl pay for non ugly bags",
+					["serverTime"] = 1605234597,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13522.517,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:1028:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234599,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13523.884,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sargeraz-Thrall:1029:CHANNEL:2|h|cffa9d271Sargeraz|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r Uncorrupted Voidwing Mount that STILL drops from N'zoth H (Yes, even after prepatch!). Come and get your mount with 12/12 Mythic raiders Before SL goes live on Nov 23!",
+					["serverTime"] = 1605234606,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13531.584,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taureil-Thrall:1030:CHANNEL:2|h|cffa9d271Taureil|r|h|cffd8d8d8]|r: how do you get vicious saddles for war mounts???",
+					["serverTime"] = 1605234614,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13539.184,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gazzleb-Thrall:1031:CHANNEL:2|h|cffa9d271Gazzleb|r|h|cffd8d8d8]|r: selling Mythic+11-20keys Carry-Get115-120ilvl gears and weekly chest 130ilvl+aBattle for Azeroth-Keystone Master+void wing mount+jaina mount |cffa335ee|Hitem:166705::::::::10:1448:::::::|h[Glacial Tidestorm]|h|r;Pst !",
+					["serverTime"] = 1605234618,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13542.817,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1032:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234618,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13543.384,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thragotcha-Thrall:1033:CHANNEL:2|h|cfffef367Thragotcha|r|h|cffd8d8d8]|r: WTS  MYTHIC +15 BUNDLEE X3 RUNS WITH ARMOR STACK GET 6-9 ITEMS ILVL 120|||| ALSO X5 RUNS BUNDLE AND  JUST 1 RUN |||| VISIONS |||| RAID H & M|||| AND MORE.GOLD ONLY PST ME!!",
+					["serverTime"] = 1605234634,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						94, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13559.017,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zènia-Thrall:1034:CHANNEL:2|h|cffa22fc8Zènia|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:142265::::::::45:577::::1:28:347:::|h[Big Red Raygun]|h|r pst",
+					["serverTime"] = 1605234635,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13560.117,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maedig-Thrall:1035:CHANNEL:2|h|cfffefefeMaedig|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:52252::::::::50:256::11::1:28:1023:::|h[Tabard of the Lightbringer]|h|r 60k |cffa335ee|Hitem:67151::::::::50:256::::1:28:53:::|h[Reins of Poseidus]|h|r 10k",
+					["serverTime"] = 1605234660,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						247, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13585.15,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1036:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234661,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13585.817,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treapally-Thrall:1037:CHANNEL:2|h|cfff38bb9Treapally|r|h|cffd8d8d8]|r: Phoenix Community || GOLD ONLY > WTS  Heroic/Mythic Ny'alotha|| Heroic Castle Nathria Pre-orders || M +10-24 timed carries || Visions 0-5 masks || Jaina Mount  || GOLD ONLY PM for info",
+					["serverTime"] = 1605234664,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						187, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13589.55,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:1038:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234667,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13591.984,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Omega-Thrall:1039:CHANNEL:2|h|cfffe7b09Omega|r|h|cffd8d8d8]|r: >>HUOKAN COMMUNITY|cffffffff<|r|cff00ff00< IS RECRUITING BOOSTERS/ADVERTISER.  COME MAKE SOME GOLD BEFORE & AFTER SHADOWLAND |r|cffffffff>|r>JOIN NOW<< || |cffffffff|Hurl:https://discord.gg/faFwPeXueR|h[https://discord.gg/faFwPeXueR]|h|r || PM FOR INFO",
+					["serverTime"] = 1605234690,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						249, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13615.35,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1040:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: Where my |cff1eff00|Hitem:28788::::::::50:250:::1:3524::::|h[Tabard of the Protector]|h|r homies at",
+					["serverTime"] = 1605234694,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13619.684,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rexsaury-Thrall:1041:CHANNEL:2|h|cff006fdcRexsaury|r|h|cffd8d8d8]|r: WTS> M+15-20 85k Base || 90k  With Stack || Specific Key & Stack: 105K || Timed key +10k || MultipleRunsDiscount || WTS> Vision 5 Mask/Objcts 70k|| .:·HUOKAN·:.",
+					["serverTime"] = 1605234695,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13619.917,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1042:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234699,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13624.084,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mochiyushi-Thrall:1043:CHANNEL:2|h|cff00fe97Mochiyushi|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-131954-3678-90982870|h[Guild: Natural Selection]|h|r[4/12M] Recruiting members! A guild with a love for dark humor, sarcasm & overall good time. Weekly guild events: mog/mount/achieve runs, rbgs. movie night, contests, games, raffles & more! M+, active disc & grepairs. Pst for |cffffff00|Hinvplr:Mochiyushi-Thrall|h[inv]|h|r",
+					["serverTime"] = 1605234707,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13632.084,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maniaçdiyu-Thrall:1044:CHANNEL:2|h|cff8687edManiaçdiyu|r|h|cffd8d8d8]|r: wheres that from",
+					["serverTime"] = 1605234718,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						177, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13642.884,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1045:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: TBC prepatch",
+					["serverTime"] = 1605234728,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13652.85,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1046:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234732,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13656.983,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taureil-Thrall:1047:CHANNEL:2|h|cffa9d271Taureil|r|h|cffd8d8d8]|r: vicious saddles",
+					["serverTime"] = 1605234737,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13662.483,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taureil-Thrall:1048:CHANNEL:2|h|cffa9d271Taureil|r|h|cffd8d8d8]|r: how you get em",
+					["serverTime"] = 1605234741,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13665.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maniaçdiyu-Thrall:1049:CHANNEL:2|h|cff8687edManiaçdiyu|r|h|cffd8d8d8]|r: damn",
+					["serverTime"] = 1605234743,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						177, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13668.517,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1050:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: get good at pvp",
+					["serverTime"] = 1605234747,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13672.017,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maniaçdiyu-Thrall:1051:CHANNEL:2|h|cff8687edManiaçdiyu|r|h|cffd8d8d8]|r: that means im stuck with |cffa335ee|Hitem:149450::::::::10:265:::1:3524::::|h[Demonic Gladiator's Tabard]|h|r",
+					["serverTime"] = 1605234751,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						177, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13676.05,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feldrin-Thrall:1052:CHANNEL:2|h|cff8687edFeldrin|r|h|cffd8d8d8]|r: get raped by metamancers in the arena",
+					["serverTime"] = 1605234759,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						183, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13684.117,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taureil-Thrall:1053:CHANNEL:2|h|cffa9d271Taureil|r|h|cffd8d8d8]|r: lit",
+					["serverTime"] = 1605234767,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						245, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13692.717,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Idkfa-Thrall:1054:CHANNEL:2|h|cffa9d271Idkfa|r|h|cffd8d8d8]|r: what's a metamancer",
+					["serverTime"] = 1605234769,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						251, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13694.183,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1055:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234777,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13702.283,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1057:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: a child who sucks at pvp",
+					["serverTime"] = 1605234780,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13705.217,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feldrin-Thrall:1058:CHANNEL:2|h|cff8687edFeldrin|r|h|cffd8d8d8]|r: only plays what is meta",
+					["serverTime"] = 1605234782,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						183, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13706.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1059:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: gottem",
+					["serverTime"] = 1605234783,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13708.083,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Throllys-Thrall:1060:CHANNEL:2|h|cffc59a6cThrollys|r|h|cffd8d8d8]|r: WTS M+15 85K - ArmorStack 90K - ( X3 BUNDLE OFFER ) - Vision 0 & 5 Mask - Mythic Raid -|| HUOKAN COMMUNITY ||-  GOLD ONLY -",
+					["serverTime"] = 1605234790,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13714.883,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dragonslime-Thrall:1061:CHANNEL:2|h|cffa9d271Dragonslime|r|h|cffd8d8d8]|r: what's meta right now?",
+					["serverTime"] = 1605234793,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						253, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13718.183,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Maniaçdiyu-Thrall:1062:CHANNEL:2|h|cff8687edManiaçdiyu|r|h|cffd8d8d8]|r: if it works and they get high rank then why does it matter?",
+					["serverTime"] = 1605234795,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						177, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13720.583,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:1063:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234797,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13721.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Monoxide-Thrall:1064:CHANNEL:2|h|cfffe7b09Monoxide|r|h|cffd8d8d8]|r: thats a dumb term and youre dumb for using it",
+					["serverTime"] = 1605234797,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						255, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13722.217,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pesti-Thrall:1065:CHANNEL:2|h|cfffef367Pesti|r|h|cffd8d8d8]|r: tru",
+					["serverTime"] = 1605234802,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13727.683,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [73]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feldrin-Thrall:1066:CHANNEL:2|h|cff8687edFeldrin|r|h|cffd8d8d8]|r: triggered by metamancer i see",
+					["serverTime"] = 1605234813,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						183, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13738.55,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Excisìon-Thrall:1067:CHANNEL:2|h|cfff38bb9Excisìon|r|h|cffd8d8d8]|r: WTB |cffa335ee|Hitem:159840::::::::50:70::54:2:1472:4786:1:28:189:::|h[Teebu's Scorching Straight Sword]|h|r hmu",
+					["serverTime"] = 1605234817,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13741.85,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [75]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pesti-Thrall:1068:CHANNEL:2|h|cfffef367Pesti|r|h|cffd8d8d8]|r: stay low rating dumbass",
+					["serverTime"] = 1605234818,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						257, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13743.683,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feldrin-Thrall:1069:CHANNEL:2|h|cff8687edFeldrin|r|h|cffd8d8d8]|r: triggered",
+					["serverTime"] = 1605234826,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						183, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13750.783,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treapally-Thrall:1070:CHANNEL:2|h|cfff38bb9Treapally|r|h|cffd8d8d8]|r: Phoenix Community || GOLD ONLY > WTS  Heroic/Mythic Ny'alotha|| Heroic Castle Nathria Pre-orders || M +10-24 timed carries || Visions 0-5 masks || Jaina Mount  || GOLD ONLY PM for info",
+					["serverTime"] = 1605234826,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						187, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13751.683,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [78]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1071:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234830,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13754.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [79]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Orientalrug-Thrall:1072:CHANNEL:2|h|cff00fe97Orientalrug|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Ranch|r|cffffffff>|r  Is a guild recruiting all members interested in being in the core heroic and mythic raid group for Shadowlands. 12/12h in BFA with mythic All levels and classes are welcome. Need dps/heals! Raid times tues/thurs 7-10pm EST",
+					["serverTime"] = 1605234853,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						43, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13777.883,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [80]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq6|k:3:1073:BN_INLINE_TOAST_ALERT:0|h[|Kq6|k]|h has gone offline.",
+					["serverTime"] = 1605234853,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13778.717,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [81]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq6|k:3:1074:BN_INLINE_TOAST_ALERT:0|h[|Kq6|k]|h has gone offline.",
+					["serverTime"] = 1605234853,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13778.717,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [82]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq6|k:3:1075:BN_INLINE_TOAST_ALERT:0|h[|Kq6|k]|h has gone offline.",
+					["serverTime"] = 1605234853,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						7, -- [3]
+						259, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13778.717,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [83]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:1076:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234856,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13781.083,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nohanokkan-Thrall:1077:CHANNEL:2|h|cff006fdcNohanokkan|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00BBC|r|cffffffff>|r is looking for advertisers and boosters to join us in the Shadowlands. Death optional. Ressurections not guaranteed. Daily Payments! 1M gold prize challenge! |cffffffff|Hurl:https://discord.gg/aHabvGAVhx|h[https://discord.gg/aHabvGAVhx]|h|r -Gold Only",
+					["serverTime"] = 1605234859,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						260, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13783.783,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:1078:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run @ me",
+					["serverTime"] = 1605234859,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13784.55,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:1079:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: big mads happening in trade rn. biden 2020",
+					["serverTime"] = 1605234860,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13784.983,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gazzleb-Thrall:1080:CHANNEL:2|h|cffa9d271Gazzleb|r|h|cffd8d8d8]|r: selling Mythic+11-20keys Carry-Get115-120ilvl gears and weekly chest 130ilvl+aBattle for Azeroth-Keystone Master+void wing mount+jaina mount |cffa335ee|Hitem:166705::::::::10:1448:::::::|h[Glacial Tidestorm]|h|r;Pst !",
+					["serverTime"] = 1605234861,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13786.15,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Konstay-Thrall:1081:CHANNEL:2|h|cfffefefeKonstay|r|h|cffd8d8d8]|r: \"@ me\" sounds like you want people to mock you",
+					["serverTime"] = 1605234868,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						262, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13792.917,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [89]
+				{
+					["message"] = "You are no longer Away.",
+					["serverTime"] = 1605234872,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13796.983,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bhodisttva-Thrall:1083:CHANNEL:2|h|cfff38bb9Bhodisttva|r|h|cffd8d8d8]|r: starting a jaina mythic group",
+					["serverTime"] = 1605234878,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						264, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13802.876,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [91]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
+					["serverTime"] = 1605234879,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13803.926,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [92]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1605234879,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13803.926,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [93]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:950:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: Still not the 300+ I get in Overwatch but WoW is probably more demanding. I do have Raytracing turned on",
+					["serverTime"] = 1605234138,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13063.717,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [94]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:954:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: if you're on ultra fix that. no need for it tbh",
+					["serverTime"] = 1605234149,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13073.884,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [95]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treapally-Thrall:955:CHANNEL:2|h|cfff38bb9Treapally|r|h|cffd8d8d8]|r: Phoenix Community || GOLD ONLY > WTS  Heroic/Mythic Ny'alotha|| Heroic Castle Nathria Pre-orders || M +10-24 timed carries || Visions 0-5 masks || Jaina Mount  || GOLD ONLY PM for info",
+					["serverTime"] = 1605234152,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						187, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13077.151,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [96]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:956:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: Oh wait I don't have Raytracing on, broken game",
+					["serverTime"] = 1605234165,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13090.517,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [97]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:957:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234169,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13094.551,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [98]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rexsaury-Thrall:959:CHANNEL:2|h|cff006fdcRexsaury|r|h|cffd8d8d8]|r: WTS> M+15-20 85k Base || 90k  With Stack || Specific Key & Stack: 105K || Timed key +10k || MultipleRunsDiscount || WTS> Vision 5 Mask/Objcts 70k|| .:·HUOKAN·:.",
+					["serverTime"] = 1605234217,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13141.817,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [99]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:960:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina 250k",
+					["serverTime"] = 1605234217,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13142.584,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [100]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Adlethedk-Thrall:961:CHANNEL:2|h|cffc31d39Adlethedk|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Niflheim|r|cffffffff>|r Is looking for a few DPS for our core raid team in SL! Everyone is welcome! We do Mythic+, RBGs and other stuff! Pst for more info!",
+					["serverTime"] = 1605234229,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						229, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13153.851,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [101]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:962:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: but rly I'm happy with ultrawide at smooth 100+ FPS :)",
+					["serverTime"] = 1605234233,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13157.984,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [102]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thragotcha-Thrall:963:CHANNEL:2|h|cfffef367Thragotcha|r|h|cffd8d8d8]|r: WTS  MYTHIC +15 BUNDLEE X3 RUNS WITH ARMOR STACK GET 6-9 ITEMS ILVL 120|||| ALSO X5 RUNS BUNDLE AND  JUST 1 RUN |||| VISIONS |||| RAID H & M|||| AND MORE.GOLD ONLY PST ME!!",
+					["serverTime"] = 1605234241,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						94, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13166.517,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [103]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:964:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: that is pretty sweet",
+					["serverTime"] = 1605234249,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13174.417,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [104]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Throllys-Thrall:965:CHANNEL:2|h|cffc59a6cThrollys|r|h|cffd8d8d8]|r: WTS M+15 85K - ArmorStack 90K - ( X3 BUNDLE OFFER ) - Vision 0 & 5 Mask - Mythic Raid -|| HUOKAN COMMUNITY ||-  GOLD ONLY -",
+					["serverTime"] = 1605234251,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						191, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13175.817,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [105]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rexsaury-Thrall:966:CHANNEL:2|h|cff006fdcRexsaury|r|h|cffd8d8d8]|r: WTS> M+15-20 85k Base || 90k  With Stack || Specific Key & Stack: 105K || Timed key +10k || MultipleRunsDiscount || WTS> Vision 5 Mask/Objcts 70k|| .:·HUOKAN·:.",
+					["serverTime"] = 1605234259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13184.351,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [106]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:967:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234263,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13188.017,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [107]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Foxfighter-Thrall:968:CHANNEL:2|h|cff00fe97Foxfighter|r|h|cffd8d8d8]|r: Free! Mythic 15+ Key runs! , |cffffffff|Hurl:www.twitch.tv|h[www.twitch.tv]|h|r/foxfighter! Helping gear people out before the Xpac ends. Carrying people in Shadowlands as well!",
+					["serverTime"] = 1605234266,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						70, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13191.151,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [108]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ghalah-Thrall:969:CHANNEL:2|h|cffc59a6cGhalah|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff0080k for a +15|r|cffffffff>|r || WTS Keys +10 to +20 || Specific Keys & Armor Stack Available|||cffffffff<|r|cff00ff00Heroic Ny'alotha|r|cffffffff>|r Full clear 125k, funnels available! |||cffffffff<|r|cff00ff00Mythic Jaina Mount|r|cffffffff>|r 330k|| Gold Only, PST! |cffffffff|Hurl:https://discord.gg/ZC2Z3XC|h[https://discord.gg/ZC2Z3XC]|h|r",
+					["serverTime"] = 1605234271,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						231, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13196.617,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [109]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:970:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: I was playing on 5/10 settings and getting 50FPS at 1080p in the great seal on my old build",
+					["serverTime"] = 1605234284,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13209.051,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [110]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:971:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: RIP 6600k and R9 390",
+					["serverTime"] = 1605234297,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13222.717,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [111]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sargeraz-Thrall:972:CHANNEL:2|h|cffa9d271Sargeraz|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00WTS|r|cffffffff>|r Uncorrupted Voidwing Mount that STILL drops from N'zoth H (Yes, even after prepatch!). Come and get your mount with 12/12 Mythic raiders Before SL goes live on Nov 23!",
+					["serverTime"] = 1605234311,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13236.451,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [112]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Treapally-Thrall:973:CHANNEL:2|h|cfff38bb9Treapally|r|h|cffd8d8d8]|r: Phoenix Community || GOLD ONLY > WTS  Heroic/Mythic Ny'alotha|| Heroic Castle Nathria Pre-orders || M +10-24 timed carries || Visions 0-5 masks || Jaina Mount  || GOLD ONLY PM for info",
+					["serverTime"] = 1605234328,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						187, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13253.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [113]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:974:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: im on an i7 770k and 980ti and still smoke this game. 1080p though so no wonder lol",
+					["serverTime"] = 1605234333,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13258.551,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [114]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bakaru-Thrall:975:CHANNEL:2|h|cffa9d271Bakaru|r|h|cffd8d8d8]|r: 7700k*",
+					["serverTime"] = 1605234342,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13266.884,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [115]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:976:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run 250k",
+					["serverTime"] = 1605234348,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13273.384,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [116]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Starme-Thrall:977:CHANNEL:2|h|cffa9d271Starme|r|h|cffd8d8d8]|r: other than the 16% exp increase from anniversary what other EXP increases are giong on right now?",
+					["serverTime"] = 1605234355,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						233, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13280.117,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [117]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h<Busy>|cffd8d8d8[|r|Hplayer:Foxfighter-Thrall:978:CHANNEL:2|h|cff00fe97Foxfighter|r|h|cffd8d8d8]|r: Free! Mythic 15+ Key runs! , |cffffffff|Hurl:www.twitch.tv|h[www.twitch.tv]|h|r/foxfighter! Helping gear people out before the Xpac ends. Carrying people in Shadowlands as well!",
+					["serverTime"] = 1605234359,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						70, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13284.051,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [118]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rexsaury-Thrall:979:CHANNEL:2|h|cff006fdcRexsaury|r|h|cffd8d8d8]|r: WTS> M+15-20 85k Base || 90k  With Stack || Specific Key & Stack: 105K || Timed key +10k || MultipleRunsDiscount || WTS> Vision 5 Mask/Objcts 70k|| .:·HUOKAN·:.",
+					["serverTime"] = 1605234365,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						213, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13290.017,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [119]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Falcoñ-Thrall:980:CHANNEL:2|h|cfffe7b09Falcoñ|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-144845-3678-73851864|h[Guild: Chaotic Oblivion]|h|r Looking for a change of scenery or something different? We are a group of adults looking for more to hang out. Play at your own pace, casual guild",
+					["serverTime"] = 1605234365,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						235, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13290.251,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [120]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Daddyspocket-Thrall:981:CHANNEL:2|h|cfffef367Daddyspocket|r|h|cffd8d8d8]|r: Hey Guys. i got a permanent copy of |cff9d9d9d|Hitem:29571::::::::33:260:::::::|h[A Steamy Romance Novel]|h|r. anyone interested in buying? ;)",
+					["serverTime"] = 1605234366,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						237, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13290.851,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [121]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gazzleb-Thrall:982:CHANNEL:2|h|cffa9d271Gazzleb|r|h|cffd8d8d8]|r: selling Mythic+11-20keys Carry-Get115-120ilvl gears and weekly chest 130ilvl+aBattle for Azeroth-Keystone Master+void wing mount+jaina mount |cffa335ee|Hitem:166705::::::::10:1448:::::::|h[Glacial Tidestorm]|h|r;Pst !",
+					["serverTime"] = 1605234374,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13299.251,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [122]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Excisìon-Thrall:983:CHANNEL:2|h|cfff38bb9Excisìon|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Metanoia|r|cffffffff>|r  Raid schedule: Tues Thurs Sat. 9pm-12 central time. We are currently in search of Healers/dps with a focus on Melee dps!!!! We plan on clearing all content from raids/m+/PVP and everything between!! 5/12m GM/RL! Come hangout with us!!!!!!!",
+					["serverTime"] = 1605234376,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						239, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13301.151,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [123]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zïggy-Thrall:984:CHANNEL:2|h|cff006fdcZïggy|r|h|cffd8d8d8]|r: Have you or someone you know been rejected by your current or previous guild? You may be entitled to compensation! Join |cffffd100|HclubFinder:ClubFinder-1-193389-3678-96410873|h[Guild: Roster Rejects]|h|r for further info. 18+ :)",
+					["serverTime"] = 1605234380,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13305.384,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [124]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Psychonaut-Thrall:985:CHANNEL:2|h|cffc31d39Psychonaut|r|h|cffd8d8d8]|r: The R9 390 ran at like 80 degrees C too, 3080 is atsub 55C",
+					["serverTime"] = 1605234382,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						179, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13307.051,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [125]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zènia-Thrall:986:CHANNEL:2|h|cffa22fc8Zènia|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hitem:142265::::::::45:577::::1:28:347:::|h[Big Red Raygun]|h|r pst",
+					["serverTime"] = 1605234383,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						168, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13308.351,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [126]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mgyatoy-Thrall:987:CHANNEL:2|h|cffc59a6cMgyatoy|r|h|cffd8d8d8]|r: MyGold #1 Cheapest Keys +15 |cffffffff<|r|cff00ff0080k|r|cffffffff>|rArmor Stack 5k  Specific Key +5k (3 items 120ilvl drop+ 130ilvl  weekly drop). BUNDLES. Trusted Service. GOLD ONLY. Groups Ready!! PST!",
+					["serverTime"] = 1605234385,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						164, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13310.051,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [127]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Likïnskw-Thrall:988:CHANNEL:2|h|cfffe7b09Likïnskw|r|h|cffd8d8d8]|r: wtb jaina mount run 250K",
+					["serverTime"] = 1605234385,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						26, -- [3]
+						227, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 13310.584,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

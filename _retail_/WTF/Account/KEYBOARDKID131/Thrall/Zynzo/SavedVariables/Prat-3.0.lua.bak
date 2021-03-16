@@ -1,0 +1,3934 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 45,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439854,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924434.267,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|cff71d5ff|Hdeath:1|h[You died.]|h",
+					["serverTime"] = 1614439913,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924493.588,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "|cffa5a5a5Devic|r has died.",
+					["serverTime"] = 1614439916,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924496.34,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cffff80ff|Htransmogappearance:111522|h[Halkias's Towering Pillars]|h|r has been added to your appearance collection.",
+					["serverTime"] = 1614439962,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924542.394,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439986,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924566.082,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [5]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439993,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924573.005,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [6]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614440014,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924594.2270000001,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [7]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440017,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924597.088,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [8]
+				{
+					["message"] = "Stoneborn Reaver dies, you gain 896 experience. (+448 exp Rested bonus, +128 group bonus)",
+					["serverTime"] = 1614440040,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924620.527,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [9]
+				{
+					["message"] = "Stonefiend Anklebiter dies, you gain 238 experience. (+119 exp Rested bonus, +34 group bonus)",
+					["serverTime"] = 1614440041,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924620.897,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "Stoneborn Eviscerator dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440041,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924621.485,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "Stonefiend Anklebiter dies, you gain 238 experience. (+119 exp Rested bonus, +34 group bonus)",
+					["serverTime"] = 1614440041,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924621.51,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "Stonefiend Anklebiter dies, you gain 238 experience. (+119 exp Rested bonus, +34 group bonus)",
+					["serverTime"] = 1614440041,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924621.51,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [13]
+				{
+					["message"] = "Stonefiend Anklebiter dies, you gain 238 experience. (+119 exp Rested bonus, +34 group bonus)",
+					["serverTime"] = 1614440043,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924623.144,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [14]
+				{
+					["message"] = "Stonefiend Anklebiter dies, you gain 238 experience. (+119 exp Rested bonus, +34 group bonus)",
+					["serverTime"] = 1614440044,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924624.161,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [15]
+				{
+					["message"] = "Stoneborn Slasher dies, you gain 896 experience. (+448 exp Rested bonus, +128 group bonus)",
+					["serverTime"] = 1614440079,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924659.508,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [16]
+				{
+					["message"] = "Echelon dies, you gain 2688 experience. (+1344 exp Rested bonus, +384 group bonus)",
+					["serverTime"] = 1614440130,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924710.706,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [17]
+				{
+					["message"] = "Depraved Houndmaster dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614440157,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924737.188,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [18]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440173,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924753.0480000001,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [19]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440187,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924766.8,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [20]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440187,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924767.686,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [21]
+				{
+					["message"] = "Depraved Houndmaster dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614440189,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924768.768,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [22]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440216,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924796.313,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [23]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614440226,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924805.983,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [24]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440229,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924808.764,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [25]
+				{
+					["message"] = "Depraved Collector dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614440233,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924813.218,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [26]
+				{
+					["message"] = "The vote to kick |cffa5a5a5Diavlo|r has passed.",
+					["serverTime"] = 1614440319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924898.8520000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [27]
+				{
+					["message"] = "|cffa5a5a5Diavlo|r-Illidan has left the instance group.",
+					["serverTime"] = 1614440319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924898.938,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [28]
+				{
+					["message"] = "You are now queued in the Dungeon Finder.",
+					["serverTime"] = 1614440325,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924905.5380000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "Mimz has joined the instance group.",
+					["serverTime"] = 1614440334,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924914.235,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "High Adjudicator Aleez dies, you gain 2688 experience. (+1344 exp Rested bonus, +384 group bonus)",
+					["serverTime"] = 1614440379,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924958.753,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [31]
+				{
+					["message"] = "Manifestation of Envy dies, you gain 318 experience. (+159 exp Rested bonus, +46 group bonus)",
+					["serverTime"] = 1614440409,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924989.123,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [32]
+				{
+					["message"] = "Manifestation of Envy dies, you gain 318 experience. (+159 exp Rested bonus, +46 group bonus)",
+					["serverTime"] = 1614440409,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924989.123,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [33]
+				{
+					["message"] = "Manifestation of Envy dies, you gain 318 experience. (+159 exp Rested bonus, +46 group bonus)",
+					["serverTime"] = 1614440410,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924990.509,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "Manifestation of Envy dies, you gain 318 experience. (+159 exp Rested bonus, +46 group bonus)",
+					["serverTime"] = 1614440411,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924990.927,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [35]
+				{
+					["message"] = "Inquisitor Sigar dies, you gain 896 experience. (+448 exp Rested bonus, +128 group bonus)",
+					["serverTime"] = 1614440414,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924994.567,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "Manifestation of Envy dies, you gain 318 experience. (+159 exp Rested bonus, +46 group bonus)",
+					["serverTime"] = 1614440415,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924995.241,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [37]
+				{
+					["message"] = "Lord Chamberlain dies, you gain 7168 experience. (+3584 exp Rested bonus, +1024 group bonus)",
+					["serverTime"] = 1614440464,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.612,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [38]
+				{
+					["message"] = "You gain 49950 experience.",
+					["serverTime"] = 1614440465,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.759,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [39]
+				{
+					["message"] = "Experience gained: 49950.",
+					["serverTime"] = 1614440465,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.759,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "Received 97 Gold, 34 Silver, 40 Copper.",
+					["serverTime"] = 1614440465,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.759,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [41]
+				{
+					["message"] = "|cffa5a5a5Devic|r-Thunderhorn has left the instance group.",
+					["serverTime"] = 1614440469,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925049.465,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [42]
+				{
+					["message"] = "|cffa5a5a5Legorna|r-Hydraxis has left the instance group.",
+					["serverTime"] = 1614440475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925055.411,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [43]
+				{
+					["message"] = "You leave the group.",
+					["serverTime"] = 1614440477,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925057.134,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [44]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Totaldark:510|h|cffa9d271Totaldark|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1614440688,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925268.033,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [45]
+				{
+					["message"] = "Spinemaw Acidgullet dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436528,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436542,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436543,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436544,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436545,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436546,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436549,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "Spinemaw Staghorn dies, you gain 882 experience. (+441 exp Rested bonus, +126 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436553,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "Spinemaw Gorger dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436559,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "Spinemaw Staghorn dies, you gain 882 experience. (+441 exp Rested bonus, +126 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436585,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "Spinemaw Gorger dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436588,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "Spinemaw Reaver dies, you gain 636 experience. (+318 exp Rested bonus, +91 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436589,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "Spinemaw Acidgullet dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436591,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "Spinemaw Reaver dies, you gain 636 experience. (+318 exp Rested bonus, +91 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436596,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "Spinemaw Acidgullet dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436602,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436603,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436603,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436604,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436607,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436609,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [65]
+				{
+					["message"] = "Spinemaw Larva dies, you gain 158 experience. (+79 exp Rested bonus, +23 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436610,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [66]
+				{
+					["message"] = "Spinemaw Acidgullet dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436616,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "Spinemaw Gorger dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436620,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "Spinemaw Acidgullet dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436630,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "Spinemaw Gorger dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436635,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "Spinemaw Gorger dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436639,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "Spinemaw Acidgullet dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436641,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "Tred'ova dies, you gain 7056 experience. (+3528 exp Rested bonus, +1008 group bonus)",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436730,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "You have learned a new ability: |cff71d5ff|Hspell:5502:0|h[Sense Undead]|h|r.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436730,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "Congratulations, you have reached |cffFF4E00|Hlevelup:54:LEVEL_UP_TYPE_CHARACTER|h[Level 54]|h|r!",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436730,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [75]
+				{
+					["message"] = "You gain 49950 experience.",
+					["b"] = 1,
+					["r"] = 0.4352941513061523,
+					["g"] = 0.4352941513061523,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436731,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						11, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "Experience gained: 49950.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436731,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "Received 97 Gold, 34 Silver, 40 Copper.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436731,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|cffa5a5a5Zymn|r-Barthilas has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436736,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|cffa5a5a5Toxiccreem|r-Destromath has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436738,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|cffa5a5a5Boonnboon|r-Blackrock has left the instance group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436743,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "You leave the group.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436746,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "You are now queued in the Dungeon Finder.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436779,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "You are no longer queued.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614436783,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "You are now Away: AFK",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614437193,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "You have been inactive for some time and will be logged out of the game. If you wish to remain logged in, hit the cancel button.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 923849.285,
+					["serverTime"] = 1614438693,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 9 |4minute:minutes;, 37 |4second:seconds;",
+					["timestamp"] = 923849.285,
+				}, -- [87]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 923849.285,
+				}, -- [88]
+				{
+					["message"] = "You are now queued in the Dungeon Finder.",
+					["serverTime"] = 1614439288,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 923868.659,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1614439512,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924092.507,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439541,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924121.16,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [91]
+				{
+					["message"] = "Depraved Houndmaster dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439547,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924126.725,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [92]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439549,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924129.4400000001,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [93]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439553,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924133.487,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [94]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439557,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924136.873,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [95]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439581,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924160.866,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [96]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439583,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924163.307,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [97]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439583,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924163.544,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [98]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439585,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924165.37,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [99]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439586,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924166.339,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [100]
+				{
+					["message"] = "Depraved Houndmaster dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439605,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924184.718,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [101]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439608,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924188.313,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439609,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924188.99,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439611,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924191.226,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439631,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924211.018,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439633,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924213.231,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [106]
+				{
+					["message"] = "Shard of Halkias dies, you gain 896 experience. (+448 exp Rested bonus, +128 group bonus)",
+					["serverTime"] = 1614439637,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924217.328,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [107]
+				{
+					["message"] = "Depraved Collector dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439643,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924223.713,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [108]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439689,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924269.669,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [109]
+				{
+					["message"] = "Depraved Collector dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439697,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924277.612,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [110]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439701,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924281.191,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [111]
+				{
+					["message"] = "Shard of Halkias dies, you gain 896 experience. (+448 exp Rested bonus, +128 group bonus)",
+					["serverTime"] = 1614439709,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924289.415,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [112]
+				{
+					["message"] = "Depraved Houndmaster dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439733,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924313.601,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [113]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439739,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924318.774,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [114]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439745,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924325.2660000001,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [115]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439746,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924326.192,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [116]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439750,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924330.166,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [117]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439751,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924330.806,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [118]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439753,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924332.937,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [119]
+				{
+					["message"] = "Toiling Groundskeeper dies, you gain 476 experience. (+238 exp Rested bonus, +68 group bonus)",
+					["serverTime"] = 1614439755,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924334.88,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [120]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439779,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924359.202,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [121]
+				{
+					["message"] = "Depraved Collector dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439790,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924370.203,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [122]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439791,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924371.171,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [123]
+				{
+					["message"] = "Shard of Halkias dies, you gain 896 experience. (+448 exp Rested bonus, +128 group bonus)",
+					["serverTime"] = 1614439802,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924382.4130000001,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [124]
+				{
+					["message"] = "Depraved Obliterator dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439843,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924423.261,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [125]
+				{
+					["message"] = "Vicious Gargon dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439845,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924424.84,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [126]
+				{
+					["message"] = "Depraved Houndmaster dies, you gain 714 experience. (+357 exp Rested bonus, +102 group bonus)",
+					["serverTime"] = 1614439848,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924428.684,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [127]
+				{
+					["message"] = "Depraved Darkblade dies, you gain 794 experience. (+397 exp Rested bonus, +114 group bonus)",
+					["serverTime"] = 1614439852,
+					["r"] = 0.4352941513061523,
+					["extraData"] = {
+						34, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924432.128,
+					["g"] = 0.4352941513061523,
+					["b"] = 1,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 88,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "BigWigs: |cffffff00Health: High Adjudicator Aleez (35.9%).|r",
+					["timestamp"] = 924867.459,
+					["serverTime"] = 1614440287,
+				}, -- [1]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[IL] |h|cffd8d8d8[|r|Hplayer:Devic-Thunderhorn:435:INSTANCE_CHAT|h|cffa9d271Devic|r-|cff18fb03Thu|r|h|cffd8d8d8]|r: (|cFF00ff8f201.3|r) lets just finish this, geez",
+					["serverTime"] = 1614440317,
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						false, -- [2]
+						25, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924896.733,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [2]
+				{
+					["message"] = "The vote to kick |cffa5a5a5Diavlo|r has passed.",
+					["serverTime"] = 1614440319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924898.8520000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "|cffa5a5a5Diavlo|r-Illidan has left the instance group.",
+					["serverTime"] = 1614440319,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924898.938,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "You are now queued in the Dungeon Finder.",
+					["serverTime"] = 1614440325,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924905.5380000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "Mimz has joined the instance group.",
+					["serverTime"] = 1614440334,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924914.235,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [6]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[IL] |h|cffd8d8d8[|r|Hplayer:Devic-Thunderhorn:440:INSTANCE_CHAT|h|cffa9d271Devic|r-|cff18fb03Thu|r|h|cffd8d8d8]|r: (|cFF00ff8f201.3|r) i will kill it for you,just pull",
+					["serverTime"] = 1614440335,
+					["r"] = 1,
+					["extraData"] = {
+						64, -- [1]
+						false, -- [2]
+						25, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924915.11,
+					["g"] = 0.2823529541492462,
+					["b"] = 0.03529411926865578,
+				}, -- [7]
+				{
+					["message"] = "|cff33ff99AutoVendor|r: Automatically sold 4 items for 7|TInterface\\MoneyFrame\\UI-GoldIcon:10:10:2:0|t 96|TInterface\\MoneyFrame\\UI-SilverIcon:10:10:2:0|t 60|TInterface\\MoneyFrame\\UI-CopperIcon:10:10:2:0|t.",
+					["timestamp"] = 924920.02,
+					["serverTime"] = 1614440340,
+				}, -- [8]
+				{
+					["message"] = "|cff33ff99AutoVendor|r: Repaired all items for 6|TInterface\\MoneyFrame\\UI-GoldIcon:10:10:2:0|t 88|TInterface\\MoneyFrame\\UI-SilverIcon:10:10:2:0|t 72|TInterface\\MoneyFrame\\UI-CopperIcon:10:10:2:0|t.",
+					["timestamp"] = 924920.02,
+					["serverTime"] = 1614440340,
+				}, -- [9]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Glaivesop-Blade'sEdge:441:INSTANCE_CHAT|h|cffa22fc8Glaivesop|r-|cffe482e4Bla|r|h|cffd8d8d8]|r: (|cFFffff0597.9|r) i know you got a big dick dude chill",
+					["serverTime"] = 1614440343,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924923.4720000001,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [10]
+				{
+					["message"] = "High Adjudicator Aleez yells: Your penance is at hand!",
+					["serverTime"] = 1614440347,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924926.736,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [11]
+				{
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:189112:0|h[Infernal Strike]|h|r from Glaivesop-Blade'sEdge |cFFFFBB00Boss First Target|r: Glaivesop    ",
+					["timestamp"] = 924927.172,
+					["serverTime"] = 1614440347,
+				}, -- [12]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Mimz-Thrall:443:INSTANCE_CHAT|h|cff006fdcMimz|r|h|cffd8d8d8]|r: (|cFFb7ff00116.2|r) [FIS] Interrupted High Adjudicator Aleez's |cff71d5ff|Hspell:323552:0|h[Volley of Power]|h|r",
+					["serverTime"] = 1614440360,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924940.101,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [13]
+				{
+					["message"] = "High Adjudicator Aleez yells: Their pain shall enlighten you.",
+					["serverTime"] = 1614440362,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924942.576,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [14]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Glaivesop-Blade'sEdge:445:INSTANCE_CHAT|h|cffa22fc8Glaivesop|r-|cffe482e4Bla|r|h|cffd8d8d8]|r: (|cFFffff0597.9|r) Interrupted High Adjudicator Aleez |cff71d5ff|Hspell:323552:0|h[Volley of Power]|h|r",
+					["serverTime"] = 1614440378,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924958.2540000001,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [15]
+				{
+					["message"] = "High Adjudicator Aleez yells: My flock... needs me...",
+					["serverTime"] = 1614440379,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924958.987,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [16]
+				{
+					["message"] = "BigWigs: |cffffff00Defeated 'High Adjudicator Aleez' after 32 |4Sec:Sec;.|r",
+					["timestamp"] = 924959.761,
+					["serverTime"] = 1614440380,
+				}, -- [17]
+				{
+					["message"] = "You loot 6 Gold, 45 Silver, 5 Copper (+12 Silver, 90 Copper)",
+					["serverTime"] = 1614440381,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924961.286,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [18]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Glaivesop-Blade'sEdge:449:INSTANCE_CHAT|h|cffa22fc8Glaivesop|r-|cffe482e4Bla|r|h|cffd8d8d8]|r: (|cFFffff0597.9|r) Interrupted Inquisitor Sigar |cff71d5ff|Hspell:326829:0|h[Wicked Bolt]|h|r",
+					["serverTime"] = 1614440400,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924980.383,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [19]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Mimz-Thrall:454:INSTANCE_CHAT|h|cff006fdcMimz|r|h|cffd8d8d8]|r: (|cFFb7ff00116.2|r) [FIS] Interrupted Inquisitor Sigar's |cff71d5ff|Hspell:326829:0|h[Wicked Bolt]|h|r",
+					["serverTime"] = 1614440413,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924993.219,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [20]
+				{
+					["message"] = "Lord Chamberlain yells: I tire of your boorish presence. It seems I must deal with you myself.",
+					["serverTime"] = 1614440419,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924999.571,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [21]
+				{
+					["message"] = "Lord Chamberlain yells: Begone, rabble!",
+					["serverTime"] = 1614440426,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925005.938,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [22]
+				{
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:189112:0|h[Infernal Strike]|h|r from Glaivesop-Blade'sEdge |cFFFFBB00Boss First Target|r: Glaivesop    ",
+					["timestamp"] = 925006.236,
+					["serverTime"] = 1614440426,
+				}, -- [23]
+				{
+					["message"] = "Lord Chamberlain yells: Out of my way.",
+					["serverTime"] = 1614440433,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925012.889,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [24]
+				{
+					["message"] = "|TInterface\\Icons\\SPELL_DEATHKNIGHT_VENDETTA.BLP:20|tLord Chamberlain begins casting |cFFFF0000|Hspell:323393|h[Ritual of Woe]|h|r!",
+					["serverTime"] = 1614440450,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						41, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925029.86,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [25]
+				{
+					["message"] = "Lord Chamberlain yells: The anima overflows!",
+					["serverTime"] = 1614440450,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925029.86,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [26]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Zynzo-Thrall:463:GUILD|h|cfff38bb9Zynzo|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14370:Player-3678-0CCE2DDB:1:2:27:21:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r |cffffffff(|rCompleted 2/27/21|cffffffff)|r!",
+					["serverTime"] = 1614440464,
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						65, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.698,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [27]
+				{
+					["message"] = "Lord Chamberlain yells: Worthless... servants...",
+					["serverTime"] = 1614440464,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.698,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [28]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Zynzo-Thrall:465:ACHIEVEMENT|h|cfff38bb9Zynzo|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14370:Player-3678-0CCE2DDB:1:2:27:21:4294967295:4294967295:4294967295:4294967295|h[Halls of Atonement]|h|r |cffffffff(|rCompleted 2/27/21|cffffffff)|r! |cffffd200|Hshareachieve:14370:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1614440464,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						45, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.698,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [29]
+				{
+					["message"] = "Experience gained: 49950.",
+					["serverTime"] = 1614440465,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.759,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [30]
+				{
+					["message"] = "Received 97 Gold, 34 Silver, 40 Copper.",
+					["serverTime"] = 1614440465,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.759,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "You receive item: |cff0070dd|Hitem:184371::::::::54:65:::::::|h[Vivacity of Collaboration]|h|r.",
+					["serverTime"] = 1614440465,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925044.838,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "BigWigs: |cffffff00Defeated 'Lord Chamberlain' after 38 |4Sec:Sec;.|r",
+					["timestamp"] = 925045.612,
+					["serverTime"] = 1614440465,
+				}, -- [33]
+				{
+					["message"] = "Glaivesop-Blade'sEdge receives loot: |cff0070dd|Hitem:178824::::::::54:65::17:4:7217:6771:6652:7194:2:28:747:9:53:::|h[Signet of the False Accuser]|h|r.",
+					["serverTime"] = 1614440466,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925046.522,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [34]
+				{
+					["message"] = "You loot 13 Gold, 16 Silver, 26 Copper (+26 Silver, 32 Copper)",
+					["serverTime"] = 1614440467,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925047.356,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [35]
+				{
+					["message"] = "Devic-Thunderhorn receives loot: |cff0070dd|Hitem:178816::::::::54:65::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Nathrian Usurper's Mask]|h|r.",
+					["serverTime"] = 1614440467,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925047.356,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [36]
+				{
+					["message"] = "|cffa5a5a5Devic|r-Thunderhorn has left the instance group.",
+					["serverTime"] = 1614440469,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925049.465,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [37]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Mimz-Thrall:474:INSTANCE_CHAT|h|cff006fdcMimz|r|h|cffd8d8d8]|r: (|cFFb7ff00116.2|r) thx",
+					["serverTime"] = 1614440471,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925051.524,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [38]
+				{
+					["message"] = "|cffa5a5a5Legorna|r-Hydraxis has left the instance group.",
+					["serverTime"] = 1614440475,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925055.411,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [39]
+				{
+					["message"] = "You leave the group.",
+					["serverTime"] = 1614440477,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925057.134,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [40]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["serverTime"] = 1614440486,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925066.049,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1614440486,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925066.049,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Oribos]|h",
+					["serverTime"] = 1614440486,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925066.049,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Visel-Thrall:480:CHANNEL:2|h|cffc31d39Visel|r|h|cffd8d8d8]|r: LF Guild",
+					["serverTime"] = 1614440494,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925073.814,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shocktöp-Thrall:481:CHANNEL:2|h|cff006fdcShocktöp|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00We Wipe Forward|r|cffffffff>|r Currently 9/10H and trying to push into mythic. Need ranged dps but will consider all skilled dps. Also looking for more people for M+ . Raid nights are Fri/Sat at 8-11pm server. Pst for info",
+					["serverTime"] = 1614440498,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925077.88,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq46|k:63:482:BN_INLINE_TOAST_ALERT:0|h[|Kq46|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tTotalDark96)|h has come online.",
+					["serverTime"] = 1614440503,
+					["r"] = 0.5098039507865906,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						51, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925083.355,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [46]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nodosaaj-Thrall:483:CHANNEL:2|h|cffc59a6cNodosaaj|r|h|cffd8d8d8]|r: [WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13898 Trustpilot reviews. Please, visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!",
+					["serverTime"] = 1614440523,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925103.571,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trinitiy-Thrall:484:CHANNEL:2|h|cffa9d271Trinitiy|r|h|cffd8d8d8]|r: anyone for |cffffff00|Hquest:62632:2060|h[A Burning Path Through Time]|h|r?",
+					["serverTime"] = 1614440554,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925133.903,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crondizle-Thrall:485:CHANNEL:2|h|cfffefefeCrondizle|r|h|cffd8d8d8]|r: hell nah",
+					["serverTime"] = 1614440566,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925146.039,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trinitiy-Thrall:486:CHANNEL:2|h|cffa9d271Trinitiy|r|h|cffd8d8d8]|r: 200 piece homie",
+					["serverTime"] = 1614440576,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925155.966,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crondizle-Thrall:487:CHANNEL:2|h|cfffefefeCrondizle|r|h|cffd8d8d8]|r: them tanks pull half the instance and rage quit",
+					["serverTime"] = 1614440579,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925158.796,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trosdh-Thrall:488:CHANNEL:1|h|cffa22fc8Trosdh|r|h|cffd8d8d8]|r: lmao we sure do",
+					["serverTime"] = 1614440587,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925167.448,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nohcoloiso-Thrall:489:CHANNEL:2|h|cfffef367Nohcoloiso|r|h|cffd8d8d8]|r: how's this realm? im new here",
+					["serverTime"] = 1614440589,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925169.581,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trosdh-Thrall:490:CHANNEL:1|h|cffa22fc8Trosdh|r|h|cffd8d8d8]|r: toxic",
+					["serverTime"] = 1614440602,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925181.941,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crondizle-Thrall:491:CHANNEL:2|h|cfffefefeCrondizle|r|h|cffd8d8d8]|r: we chill",
+					["serverTime"] = 1614440604,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925184.2980000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nodosaaj-Thrall:492:CHANNEL:2|h|cffc59a6cNodosaaj|r|h|cffd8d8d8]|r: [WTS] Fast Powerleveling to 60 lvl! World & Daily Questing, Renown weekly cap, Gear farming, NEW Mounts, and other boosts. We have over 13898 Trustpilot reviews. Please, visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!",
+					["serverTime"] = 1614440608,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925188.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crondizle-Thrall:493:CHANNEL:2|h|cfffefefeCrondizle|r|h|cffd8d8d8]|r: except that guy",
+					["serverTime"] = 1614440610,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925190.675,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nohcoloiso-Thrall:495:CHANNEL:2|h|cfffef367Nohcoloiso|r|h|cffd8d8d8]|r: lol",
+					["serverTime"] = 1614440618,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925198.469,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trosdh-Thrall:496:CHANNEL:1|h|cffa22fc8Trosdh|r|h|cffd8d8d8]|r: haha",
+					["serverTime"] = 1614440624,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925204.536,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nohcoloiso-Thrall:497:CHANNEL:2|h|cfffef367Nohcoloiso|r|h|cffd8d8d8]|r: worth a stay then?",
+					["serverTime"] = 1614440634,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925214.625,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trinitiy-Thrall:498:CHANNEL:2|h|cffa9d271Trinitiy|r|h|cffd8d8d8]|r: duh were the best",
+					["serverTime"] = 1614440641,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925221.4770000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Trosdh-Thrall:499:CHANNEL:1|h|cffa22fc8Trosdh|r|h|cffd8d8d8]|r: just don't stay to long",
+					["serverTime"] = 1614440643,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						3, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925223.0310000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shoyohinata-Thrall:500:CHANNEL:2|h|cffa22fc8Shoyohinata|r|h|cffd8d8d8]|r: We are the best.",
+					["serverTime"] = 1614440648,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925228.536,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shoyohinata-Thrall:501:CHANNEL:2|h|cffa22fc8Shoyohinata|r|h|cffd8d8d8]|r: Theres not a YEP COCK in site.",
+					["serverTime"] = 1614440656,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						63, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925236.106,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jdab-Thrall:502:CHANNEL:2|h|cfffe7b09Jdab|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hbattlepet:241:1:3:158:11:11:0000000000000000:30157|h[Tuskarr Kite]|h|r 250k, |cff0070dd|Hbattlepet:328:1:3:152:13:10:0000000000000000:38777|h[Purple Puffer]|h|r 150k, pst",
+					["serverTime"] = 1614440657,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925237.215,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vusale-Thrall:503:CHANNEL:2|h|cffc59a6cVusale|r|h|cffd8d8d8]|r: WTS Mythic +7-20 Keys l (SPECIAL DEAL FOR 4 or 8 RUNS) l  WTS Castle Nathria Runs l WTS Torghast Layers l GOLD ONLY l > Huokan Boosting<",
+					["serverTime"] = 1614440670,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925250.519,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Simpz-Thrall:504:CHANNEL:2|h|cff00fe97Simpz|r|h|cffd8d8d8]|r: YEP SOCK",
+					["serverTime"] = 1614440672,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						67, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925252.522,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stargidget-Thrall:505:CHANNEL:2|h|cffa9d271Stargidget|r|h|cffd8d8d8]|r: did Blizzard take away the fighting between blingtrons?",
+					["serverTime"] = 1614440678,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925258.317,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bleng-Thrall:506:CHANNEL:2|h|cfff38bb9Bleng|r|h|cffd8d8d8]|r: YEP ROCK",
+					["serverTime"] = 1614440683,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925263.027,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Trosdh-Thrall:507:CHANNEL:2|h|cffa22fc8Trosdh|r|h|cffd8d8d8]|r: no",
+					["serverTime"] = 1614440684,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925264.0800000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "Attendant Functionary says: The Purpose perplexes me. I am not sure what to think of this chaos.",
+					["serverTime"] = 1614440684,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925264.524,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [71]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jdab-Thrall:509:CHANNEL:2|h|cfffe7b09Jdab|r|h|cffd8d8d8]|r: WTS |cff0070dd|Hbattlepet:241:1:3:158:11:11:0000000000000000:30157|h[Tuskarr Kite]|h|r 250k, |cff0070dd|Hbattlepet:328:1:3:152:13:10:0000000000000000:38777|h[Purple Puffer]|h|r 150k, pst",
+					["serverTime"] = 1614440684,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925264.618,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [72]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Totaldark:510|h|cffa9d271Totaldark|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1614440688,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925268.033,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [73]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crondizle-Thrall:511:CHANNEL:2|h|cfffefefeCrondizle|r|h|cffd8d8d8]|r: flintstones?",
+					["serverTime"] = 1614440695,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925275.483,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [74]
+				{
+					["message"] = "Attendant Functionary says: The Purpose is our way.",
+					["serverTime"] = 1614440696,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925276.258,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [75]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Surveyha-Thrall:513:CHANNEL:2|h|cff006fdcSurveyha|r|h|cffd8d8d8]|r: WTS M+ 0-18 Loot Stack Keys - H/M |cff66bbff|Hjournal:0:1190:15|h[Castle Nathria]|h|r - AoTC - KSM - 2's 3's PVP/RBG by 3k/R1 - Gold Only, /w me <3",
+					["serverTime"] = 1614440707,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						75, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925287.429,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [76]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nodosaaj-Thrall:514:CHANNEL:2|h|cffc59a6cNodosaaj|r|h|cffd8d8d8]|r: [WТS] Mythic +10/+11/+12/+13/+14/+15 key BOOST tonight! You will get NEW ilvl 203-226+ Gear, Achieves & RIO Score. We have over 13898 Trustpilot reviews. Please, visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!",
+					["serverTime"] = 1614440721,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925300.755,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [77]
+				{
+					["message"] = "Trader Ba'telk says: I am growing fond of these mortals. Many possess flexible morals. I can appreciate that.",
+					["serverTime"] = 1614440750,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925330.444,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [78]
+				{
+					["message"] = "Trader Ba'gor says: Not sure they would agree. They seem to believe they are the heroes of the story.",
+					["serverTime"] = 1614440756,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925335.8250000001,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [79]
+				{
+					["message"] = "Trader Ba'telk says: That depends on who is telling the story, does it not?",
+					["serverTime"] = 1614440761,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						14, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925340.877,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [80]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Stargidget-Thrall:518:CHANNEL:2|h|cffa9d271Stargidget|r|h|cffd8d8d8]|r: well they must of because there is a blingtron 4k and a 6k standing next to each other without fighting",
+					["serverTime"] = 1614440768,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						69, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925348.372,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [81]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Crondizle-Thrall:524:CHANNEL:2|h|cfffefefeCrondizle|r|h|cffd8d8d8]|r: right click on portrait",
+					["serverTime"] = 1614440836,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925416.089,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [82]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dermacks-Thrall:527:CHANNEL:2|h|cffa9d271Dermacks|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-251752-3678-97263873|h[Guild: No Skill Only Luck]|h|r 10/10N 9/10H is a casual guild with AOTC ambition we're looking for DPS to fill out our raid core! We also do M+ and RBGs -- Everyone is welcome! Pst for Info!",
+					["serverTime"] = 1614440840,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						77, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925420.0700000001,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [83]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shocktöp-Thrall:532:CHANNEL:2|h|cff006fdcShocktöp|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00We Wipe Forward|r|cffffffff>|r Currently 9/10H and trying to push into mythic. Need ranged dps but will consider all skilled dps. Also looking for more people for M+ . Raid nights are Fri/Sat at 8-11pm server. Pst for info",
+					["serverTime"] = 1614440852,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925431.865,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [84]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nodosaaj-Thrall:533:CHANNEL:2|h|cffc59a6cNodosaaj|r|h|cffd8d8d8]|r: [WTS] Torghast & Twisting Corridors Boost up to layer 8. Get 1140x [Soul Ash], Spirestalker title and Corridor Creeper mount. We have over 13898 Trustpilot reviews. Please, visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!",
+					["serverTime"] = 1614440855,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925435.345,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [85]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zenkiky-Thrall:534:CHANNEL:2|h|cffc59a6cZenkiky|r|h|cffd8d8d8]|r: WTS M+ 14-16 keystones TIMED/UNTIMED. Starting from as low as 300k! DM if interested",
+					["serverTime"] = 1614440867,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						79, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925446.846,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [86]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zenkiky-Thrall:535:CHANNEL:2|h|cffc59a6cZenkiky|r|h|cffd8d8d8]|r: WTS M+ 14-16 keystones TIMED/UNTIMED. Starting from as low as 300k! DM if interested",
+					["serverTime"] = 1614440867,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						79, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925446.846,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [87]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tomzeirax-Thrall:536:CHANNEL:2|h|cfffe7b09Tomzeirax|r|h|cffd8d8d8]|r: WTS CASTLE NATHRIA HC & M || KSM DEAL 15+ || SPECIAL DEAL FOR 4 or 8 Keys 10/12/14/15 || Mythic Zero World Tour 8/8 || Torghast & TC Layers 1-8 || PVP 2s, 3s & RBG || Rare Mounts & Pets.|| GOLD ONLY || DM for Info ||Huokan Community",
+					["serverTime"] = 1614440869,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						9, -- [3]
+						81, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 925449.196,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [88]
+				{
+					["message"] = "You receive loot: |cff9d9d9d|Hitem:178113::::::::54:65:::::::|h[Twitching Stone]|h|r.",
+					["serverTime"] = 1614440046,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924625.882,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [89]
+				{
+					["message"] = "You receive loot: |cff9d9d9d|Hitem:178132::::::::54:65:::::::|h[Richly Caligraphed Invitation]|h|rx2.",
+					["serverTime"] = 1614440046,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924626.017,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [90]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cff9d9d9d|Hitem:178113::::::::54:65:::::::|h[Twitching Stone]|h|r.",
+					["serverTime"] = 1614440046,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924626.556,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cffffffff|Hitem:173202::::::::54:65:::::::|h[Shrouded Cloth]|h|r.",
+					["serverTime"] = 1614440047,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924626.75,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [92]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cff9d9d9d|Hitem:180310::::::::54:65:::::::|h[Fluttering Stone Wings]|h|r.",
+					["serverTime"] = 1614440047,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924627.044,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [93]
+				{
+					["message"] = "Devic-Thunderhorn receives loot: |cff9d9d9d|Hitem:178113::::::::54:65:::::::|h[Twitching Stone]|h|r.",
+					["serverTime"] = 1614440056,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924635.951,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [94]
+				{
+					["message"] = "Echelon yells: Begone, rebel filth!",
+					["serverTime"] = 1614440091,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924671.215,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [95]
+				{
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:75:0|h[Auto Shot]|h|r from Devic-Thunderhorn |cFFFFBB00Boss First Target|r: Devic    ",
+					["timestamp"] = 924671.6780000001,
+					["serverTime"] = 1614440091,
+				}, -- [96]
+				{
+					["message"] = "Echelon yells: The ground bleeds!",
+					["serverTime"] = 1614440098,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924678.429,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [97]
+				{
+					["message"] = "Echelon yells: Slay the trespassers!",
+					["serverTime"] = 1614440104,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924683.728,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [98]
+				{
+					["message"] = "Echelon yells: Be still, mortal!",
+					["serverTime"] = 1614440112,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924691.8150000001,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [99]
+				{
+					["message"] = "|TInterface\\Icons\\Ability_Earthen_Pillar.blp:20|tEchelon targets you with |cFFFF0000|Hspell:319941|h[Stone Shattering Leap]|h|r!",
+					["serverTime"] = 1614440115,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						37, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924694.828,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [100]
+				{
+					["message"] = "Echelon yells: Dust to dust!",
+					["serverTime"] = 1614440115,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924694.828,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [101]
+				{
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zynzo-Thrall:401:SAY|h|cfff38bb9Zynzo|r|h|cffd8d8d8]|r: Stone Shattering Leap on |cff00ff00Zynzo|r",
+					["serverTime"] = 1614440115,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924694.828,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [102]
+				{
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zynzo-Thrall:402:SAY|h|cfff38bb9Zynzo|r|h|cffd8d8d8]|r: 3",
+					["serverTime"] = 1614440117,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924696.9500000001,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [103]
+				{
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zynzo-Thrall:403:SAY|h|cfff38bb9Zynzo|r|h|cffd8d8d8]|r: 2",
+					["serverTime"] = 1614440118,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924697.978,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [104]
+				{
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zynzo-Thrall:404:SAY|h|cfff38bb9Zynzo|r|h|cffd8d8d8]|r: 1",
+					["serverTime"] = 1614440119,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						33, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924698.978,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [105]
+				{
+					["message"] = "Echelon yells: Your failure is complete.",
+					["serverTime"] = 1614440121,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924700.876,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [106]
+				{
+					["message"] = "Echelon yells: Drown in blood!",
+					["serverTime"] = 1614440121,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924701.368,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [107]
+				{
+					["message"] = "Echelon yells: This... cannot... be...",
+					["serverTime"] = 1614440131,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924710.934,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [108]
+				{
+					["message"] = "BigWigs: |cffffff00Defeated 'Echelon' after 39 |4Sec:Sec;.|r",
+					["timestamp"] = 924711.714,
+					["serverTime"] = 1614440131,
+				}, -- [109]
+				{
+					["message"] = "You loot 6 Gold, 37 Silver, 45 Copper (+12 Silver, 74 Copper)",
+					["serverTime"] = 1614440134,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						28, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924714.2490000001,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [110]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cff0070dd|Hitem:178815::::::::54:65::1:4:6805:6652:1472:4785:1:28:747:::|h[Soaring Decimator's Hauberk]|h|r.",
+					["serverTime"] = 1614440134,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924714.707,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [111]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cff9d9d9d|Hitem:178114::::::::54:65:::::::|h[Stone Haunch]|h|r.",
+					["serverTime"] = 1614440191,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924771.117,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [112]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cff1eff00|Hitem:178061::::::::54:65:::::::|h[Malleable Flesh]|h|r.",
+					["serverTime"] = 1614440191,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924771.317,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [113]
+				{
+					["message"] = "Legorna-Hydraxis receives loot: |cffffffff|Hitem:173202::::::::54:65:::::::|h[Shrouded Cloth]|h|rx2.",
+					["serverTime"] = 1614440191,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924771.503,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [114]
+				{
+					["message"] = "Devic-Thunderhorn receives loot: |cffffffff|Hitem:173202::::::::54:65:::::::|h[Shrouded Cloth]|h|r.",
+					["serverTime"] = 1614440191,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924771.5700000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [115]
+				{
+					["message"] = "You receive loot: |cff9d9d9d|Hitem:178114::::::::54:65:::::::|h[Stone Haunch]|h|rx2.",
+					["serverTime"] = 1614440193,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924773.3570000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [116]
+				{
+					["message"] = "You receive loot: |cffffffff|Hitem:172053::::::::54:65:::::::|h[Tenebrous Ribs]|h|rx2.",
+					["serverTime"] = 1614440193,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924773.559,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [117]
+				{
+					["message"] = "You receive loot: |cffffffff|Hitem:179315::::::::54:65:::::::|h[Shadowy Shank]|h|r.",
+					["serverTime"] = 1614440193,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						24, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924773.676,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [118]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Glaivesop-Blade'sEdge:423:INSTANCE_CHAT|h|cffa22fc8Glaivesop|r-|cffe482e4Bla|r|h|cffd8d8d8]|r: (|cFFffff0597.9|r) Interrupted Depraved Collector |cff71d5ff|Hspell:325700:0|h[Collect Sins]|h|r",
+					["serverTime"] = 1614440212,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924792.549,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [119]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Glaivesop-Blade'sEdge:427:INSTANCE_CHAT|h|cffa22fc8Glaivesop|r-|cffe482e4Bla|r|h|cffd8d8d8]|r: (|cFFffff0597.9|r) Interrupted Depraved Collector |cff71d5ff|Hspell:325700:0|h[Collect Sins]|h|r",
+					["serverTime"] = 1614440232,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924812.235,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [120]
+				{
+					["message"] = "Glaivesop-Blade'sEdge receives loot: |cffffffff|Hitem:173202::::::::54:65:::::::|h[Shrouded Cloth]|h|r.",
+					["serverTime"] = 1614440234,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						20, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924814.1630000001,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [121]
+				{
+					["message"] = "High Adjudicator Aleez yells: Your penance is at hand!",
+					["serverTime"] = 1614440248,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924827.851,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [122]
+				{
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?* |cFFFFBB00Boss First Target|r: Glaivesop    ",
+					["timestamp"] = 924828.157,
+					["serverTime"] = 1614440248,
+				}, -- [123]
+				{
+					["message"] = "High Adjudicator Aleez yells: You must face your punishment.",
+					["serverTime"] = 1614440261,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924841.487,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [124]
+				{
+					["message"] = "High Adjudicator Aleez yells: Their pain shall enlighten you.",
+					["serverTime"] = 1614440263,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924843.603,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [125]
+				{
+					["message"] = "High Adjudicator Aleez yells: You must face your punishment.",
+					["serverTime"] = 1614440277,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						35, -- [3]
+						36, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924857.231,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [126]
+				{
+					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Glaivesop-Blade'sEdge:434:INSTANCE_CHAT|h|cffa22fc8Glaivesop|r-|cffe482e4Bla|r|h|cffd8d8d8]|r: (|cFFffff0597.9|r)  we are missing a whole ass person. i asked you not to pull please",
+					["serverTime"] = 1614440283,
+					["r"] = 1,
+					["extraData"] = {
+						63, -- [1]
+						false, -- [2]
+						25, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 924863.337,
+					["g"] = 0.4980392456054688,
+					["b"] = 0,
+				}, -- [127]
+				{
+					["message"] = "BigWigs: |cffffff00Wiped on 'High Adjudicator Aleez' after 39 |4Sec:Sec;.|r",
+					["timestamp"] = 924867.459,
+					["serverTime"] = 1614440287,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,0 +1,95 @@
+
+PawnOptions = {
+	["LastVersion"] = 2.0329,
+	["LastPlayerFullName"] = "Corpsel-Alexstrasza",
+	["AutoSelectScales"] = true,
+	["UpgradeTracking"] = false,
+	["ItemLevels"] = {
+		{
+			["ID"] = 116110,
+			["Level"] = 145,
+			["Link"] = "|cff0070dd|Hitem:116110::::::::100:63:512::1:3786:100:::|h[Zorkra's Hood]|h|r",
+		}, -- [1]
+		{
+			["ID"] = 158075,
+			["Level"] = 288,
+			["Link"] = "|cffe6cc80|Hitem:158075::::::::119:63::11:4:4932:4933:4935:1480:::|h[Heart of Azeroth]|h|r",
+		}, -- [2]
+		{
+			["ID"] = 122360,
+			["Level"] = 127,
+			["Link"] = "|cff00ccff|Hitem:122360::::::::93:63:::1:582:::|h[Tattered Dreadmist Mantle]|h|r",
+		}, -- [3]
+		nil, -- [4]
+		{
+			["ID"] = 173458,
+			["Level"] = 415,
+			["Link"] = "|cff0070dd|Hitem:173458::::::::120:63::14:3:1472:4785:6257:::|h[Vile Manipulator's Robe]|h|r",
+		}, -- [5]
+		{
+			["ID"] = 173511,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173511::::::::120:63::14:4:6412:6513:1467:4785:::|h[Vile Manipulator's Belt]|h|r",
+		}, -- [6]
+		{
+			["ID"] = 173811,
+			["Level"] = 410,
+			["Link"] = "|cff0070dd|Hitem:173811::::::::120:63::14:4:6412:6515:1467:4785:::|h[Vile Manipulator's Trousers]|h|r",
+		}, -- [7]
+		{
+			["ID"] = 143994,
+			["Level"] = 300,
+			["Link"] = "|cff0070dd|Hitem:143994::::::::120:63:512:22:2:6424:6652:119:::|h[Soulbinder Treads]|h|r",
+		}, -- [8]
+		{
+			["ID"] = 133493,
+			["Level"] = 255,
+			["Link"] = "|cff0070dd|Hitem:133493::::::::115:63:512:22:2:6424:6652:115:::|h[Wristguards of Subterranean Moss]|h|r",
+		}, -- [9]
+		{
+			["ID"] = 127511,
+			["Level"] = 425,
+			["Link"] = "|cff0070dd|Hitem:127511::::::::120:63:512:22:2:6424:6652:120:::|h[Giant-Hair Woven Gloves]|h|r",
+		}, -- [10]
+		{
+			["ID"] = 127562,
+			["Level"] = 425,
+			["AlsoFitsIn"] = 12,
+			["Link"] = "|cff0070dd|Hitem:127562::::::::120:63:512:22:2:6424:6652:120:::|h[Gal'darah's Signet]|h|r",
+		}, -- [11]
+		{
+			["ID"] = 173669,
+			["Level"] = 218,
+			["AlsoFitsIn"] = 11,
+			["Link"] = "|cff1eff00|Hitem:173669::::::::113:63:512:11:1:6416:112:::|h[Dull Onyx Band]|h|r",
+		}, -- [12]
+		{
+			["ID"] = 122362,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 14,
+			["Link"] = "|cff00ccff|Hitem:122362::::::::119:63::::::|h[Discerning Eye of the Beast]|h|r",
+		}, -- [13]
+		{
+			["ID"] = 122362,
+			["Level"] = 284,
+			["AlsoFitsIn"] = 13,
+			["Link"] = "|cff00ccff|Hitem:122362::::::::120:63::::::|h[Discerning Eye of the Beast]|h|r",
+		}, -- [14]
+		{
+			["ID"] = 158150,
+			["Level"] = 335,
+			["Link"] = "|cff0070dd|Hitem:158150::::::::120:63::27:3:4803:1527:4785:::|h[Loa-Pledged Drape]|h|r",
+		}, -- [15]
+		{
+			["ID"] = 163530,
+			["Level"] = 180,
+			["Link"] = "|cff0070dd|Hitem:163530::::::::111:63::11::::|h[Warmage's Spire]|h|r",
+		}, -- [16]
+	},
+	["LastKeybindingsSet"] = 1,
+}
+PawnMrRobotScaleProviderOptions = {
+	["LastClass"] = "MAGE",
+	["LastAdded"] = 1,
+}
+PawnClassicScaleProviderOptions = nil

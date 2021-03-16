@@ -1,0 +1,20 @@
+
+DataStoreDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Version"] = 1,
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["guildName"] = "Phoenix",
+				["faction"] = "Horde",
+			},
+		},
+		["Guilds"] = {
+			["Default.Alexstrasza.Phoenix"] = {
+				["faction"] = "Horde",
+			},
+		},
+	},
+}

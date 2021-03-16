@@ -1,0 +1,59 @@
+
+DataStore_InventoryDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["Inventory"] = {
+					"|cffffffff|Hitem:109174::::::::100:251:4:13:3:525:145:532:529:::|h[]|h|r", -- [1]
+					"|cffffffff|Hitem:115799::::::::100:251:4:13:3:525:539:56:529:::|h[]|h|r", -- [2]
+					"|cffffffff|Hitem:109943::115806::::::100:251:4:2:3:499:523:524:529:::|h[]|h|r", -- [3]
+					nil, -- [4]
+					"|cffffffff|Hitem:114438::::::::100:251::1:1:120:::|h[]|h|r", -- [5]
+					"|cffffffff|Hitem:109841::::::::100:251:4:2:2:40:524:529:::|h[]|h|r", -- [6]
+					"|cffffffff|Hitem:109819::115806::::::100:251:4:2:3:499:523:524:529:::|h[]|h|r", -- [7]
+					"|cffffffff|Hitem:109803::::::::100:251:4:2:1:524:529:::|h[]|h|r", -- [8]
+					"|cffffffff|Hitem:109880::115806::::::100:251:4:2:2:523:524:529:::|h[]|h|r", -- [9]
+					"|cffffffff|Hitem:114447::::::::100:251::11:2:218:560:::|h[]|h|r", -- [10]
+					"|cffffffff|Hitem:118295::::::::100:251::11::::|h[]|h|r", -- [11]
+					"|cffffffff|Hitem:115794::::::::100:251:4:13:3:82:525:539:529:::|h[]|h|r", -- [12]
+					"|cffffffff|Hitem:110011::::::::100:251:4:2:1:524:529:::|h[]|h|r", -- [13]
+					"|cffffffff|Hitem:110010::::::::100:251:4:2:1:524:529:::|h[]|h|r", -- [14]
+					"|cffffffff|Hitem:109914::::::::100:251:4:2:2:41:524:529:::|h[]|h|r", -- [15]
+					"|cffffffff|Hitem:140715::::::::100:251:512:11:1:3380:100:::|h[]|h|r", -- [16]
+					"|cffffffff|Hitem:140715::::::::100:251:512:11:1:3380:100:::|h[]|h|r", -- [17]
+					[19] = "|cffffffff|Hitem:43155::::::::100:251::::::|h[]|h|r",
+				},
+				["averageItemLvl"] = 639.25,
+				["overallAIL"] = 649.75,
+				["lastUpdate"] = 1469674819,
+			},
+		},
+		["Guilds"] = {
+			["Default.Alexstrasza.Phoenix"] = {
+				["Members"] = {
+					["Karnar"] = {
+						["averageItemLvl"] = 18,
+					},
+					["Demun"] = {
+						["averageItemLvl"] = 728,
+					},
+					["Moondoggie"] = {
+						["averageItemLvl"] = 7,
+					},
+					["Seinaru"] = {
+						["averageItemLvl"] = 709,
+					},
+					["Elinie"] = {
+						["averageItemLvl"] = 666,
+					},
+					["Corpselus"] = {
+						["averageItemLvl"] = 639,
+					},
+				},
+			},
+		},
+	},
+}

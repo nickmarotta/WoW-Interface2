@@ -1,0 +1,12 @@
+VER 3 000000000000000C "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 000000000000000A "hbCrashProt_0" "Spell_Holy_SealOfSacrifice"
+1:H:1:1:Group:
+END
+VER 3 0000000000000009 "hbCrashProt_1" "Spell_Holy_SealOfSacrifice"
+Awast:p:ayer-3678-0B077519:1:
+END
+VER 3 000000000000000B "Vault" "INV_MISC_QUESTIONMARK"
+/run LoadAddOn("Blizzard_WeeklyRewards"); WeeklyRewardsFrame:Show()
+END

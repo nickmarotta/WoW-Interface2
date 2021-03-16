@@ -1,0 +1,32 @@
+
+EasyDestroyData = {
+	["Alerts"] = 1,
+	["Filters"] = {
+		["FilterID101"] = {
+			["filter"] = {
+				["quality"] = {
+					2, -- [1]
+				},
+				["level"] = {
+					["levelto"] = 200,
+					["levelfrom"] = 100,
+				},
+			},
+			["properties"] = {
+				["type"] = 1,
+				["favorite"] = false,
+				["name"] = "SL",
+			},
+		},
+	},
+	["Options"] = {
+		["CharacterFavorites"] = false,
+		["MinimapIcon"] = {
+		},
+		["ConfiguratorShown"] = false,
+		["Actions"] = 1,
+		["NextFilterID"] = 101,
+	},
+	["Blacklist"] = {
+	},
+}

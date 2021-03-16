@@ -1,0 +1,7612 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Pidgy <Taureis-Thrall>"] = {
+			["GUID"] = "Pet-0-3019-1-1665-42720-0A027D68F5",
+			["LastEventHealth"] = {
+				"265 (100%)", -- [1]
+				"265 (100%)", -- [2]
+				"250 (94%)", -- [3]
+				"250 (94%)", -- [4]
+				"265 (100%)", -- [5]
+				"265 (100%)", -- [6]
+				"265 (100%)", -- [7]
+				"265 (100%)", -- [8]
+				"265 (100%)", -- [9]
+				"252 (95%)", -- [10]
+				"252 (95%)", -- [11]
+				"252 (95%)", -- [12]
+				"237 (89%)", -- [13]
+				"237 (89%)", -- [14]
+				"237 (89%)", -- [15]
+				"237 (89%)", -- [16]
+				"237 (89%)", -- [17]
+				"237 (89%)", -- [18]
+				"265 (100%)", -- [19]
+				"256 (96%)", -- [20]
+				"249 (93%)", -- [21]
+				"236 (89%)", -- [22]
+				"265 (100%)", -- [23]
+				"265 (100%)", -- [24]
+				"265 (100%)", -- [25]
+				"257 (96%)", -- [26]
+				"257 (96%)", -- [27]
+				"243 (91%)", -- [28]
+				"243 (91%)", -- [29]
+				"243 (91%)", -- [30]
+				"234 (88%)", -- [31]
+				"234 (88%)", -- [32]
+				"234 (88%)", -- [33]
+				"223 (84%)", -- [34]
+				"223 (84%)", -- [35]
+				"265 (100%)", -- [36]
+				"265 (100%)", -- [37]
+				"265 (100%)", -- [38]
+				"258 (97%)", -- [39]
+				"258 (97%)", -- [40]
+			},
+			["LastAttackedBy"] = "Prairie Stalker",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+			},
+			["TimeWindows"] = {
+				["Damage"] = {
+					530, -- [1]
+				},
+				["TimeDamage"] = {
+					55.85, -- [1]
+				},
+				["DamageTaken"] = {
+					113, -- [1]
+				},
+				["ActiveTime"] = {
+					55.85, -- [1]
+				},
+			},
+			["enClass"] = "PET",
+			["unit"] = "Pidgy",
+			["level"] = 1,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 8,
+			["LastEventNum"] = {
+				5.66037735849057, -- [1]
+				[24] = 3.0188679245283,
+				[33] = 4.15094339622642,
+				[27] = 5.28301886792453,
+				[39] = 2.64150943396226,
+				[30] = 3.39622641509434,
+				[9] = 4.90566037735849,
+				[38] = 2.64150943396226,
+				[11] = 5.66037735849057,
+				[22] = 1.88679245283019,
+				[17] = 3.39622641509434,
+			},
+			["type"] = "Pet",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 684608.615,
+			["LastDamageTaken"] = 7,
+			["TimeLast"] = {
+				["ActiveTime"] = 684607.96,
+				["TimeDamage"] = 684607.96,
+				["OVERALL"] = 684607.96,
+				["DamageTaken"] = 684607.96,
+				["Damage"] = 684607.96,
+			},
+			["NextEventNum"] = 41,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				94.3396226415094, -- [3]
+				94.3396226415094, -- [4]
+				100, -- [5]
+				100, -- [6]
+				100, -- [7]
+				100, -- [8]
+				100, -- [9]
+				95.0943396226415, -- [10]
+				95.0943396226415, -- [11]
+				95.0943396226415, -- [12]
+				89.433962264151, -- [13]
+				89.433962264151, -- [14]
+				89.433962264151, -- [15]
+				89.433962264151, -- [16]
+				89.433962264151, -- [17]
+				89.433962264151, -- [18]
+				100, -- [19]
+				96.6037735849057, -- [20]
+				93.9622641509434, -- [21]
+				89.0566037735849, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				96.9811320754717, -- [26]
+				96.9811320754717, -- [27]
+				91.6981132075472, -- [28]
+				91.6981132075472, -- [29]
+				91.6981132075472, -- [30]
+				88.3018867924528, -- [31]
+				88.3018867924528, -- [32]
+				88.3018867924528, -- [33]
+				84.1509433962264, -- [34]
+				84.1509433962264, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				97.3584905660377, -- [39]
+				97.3584905660377, -- [40]
+			},
+			["LastEvents"] = {
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -15 (Physical)", -- [1]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Crit -18 (Physical)", -- [2]
+				"Pidgy <Taureis-Thrall> Kill Command Venture Co. Worker Hit -37 (Physical)", -- [3]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [4]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [5]
+				"Pidgy <Taureis-Thrall> Kill Command Venture Co. Worker Crit -71 (Physical)", -- [6]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -8 (Physical)", -- [7]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Crit -17 (Physical)", -- [8]
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -13 (Physical)", -- [9]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [10]
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -15 (Physical)", -- [11]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [12]
+				"Pidgy <Taureis-Thrall> Melee Supervisor Fizsprocket Hit -9 (Physical)", -- [13]
+				"Pidgy <Taureis-Thrall> Melee Supervisor Fizsprocket Crit -17 (Physical)", -- [14]
+				"Pidgy <Taureis-Thrall> Kill Command Supervisor Fizsprocket Crit -71 (Physical)", -- [15]
+				"Pidgy <Taureis-Thrall> Melee Supervisor Fizsprocket Crit -18 (Physical)", -- [16]
+				"Supervisor Fizsprocket Melee Pidgy <Taureis-Thrall> Hit -9 (Physical)", -- [17]
+				"Pidgy <Taureis-Thrall> Melee Supervisor Fizsprocket Hit -9 (Physical)", -- [18]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Supervisor Hit -9 (Physical)", -- [19]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Supervisor Hit -9 (Physical)", -- [20]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Supervisor Hit -10 (Physical)", -- [21]
+				"Venture Co. Supervisor Motivate (DoT) Pidgy <Taureis-Thrall> Tick -5 (Shadow)", -- [22]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [23]
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -8 (Physical)", -- [24]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [25]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [26]
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -14 (Physical)", -- [27]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Crit -19 (Physical)", -- [28]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -10 (Physical)", -- [29]
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -9 (Physical)", -- [30]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Hit -9 (Physical)", -- [31]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Crit -18 (Physical)", -- [32]
+				"Venture Co. Worker Melee Pidgy <Taureis-Thrall> Hit -11 (Physical)", -- [33]
+				"Pidgy <Taureis-Thrall> Melee Venture Co. Worker Crit -19 (Physical)", -- [34]
+				"Pidgy <Taureis-Thrall> Kill Command Venture Co. Worker Hit -37 (Physical)", -- [35]
+				"Pidgy <Taureis-Thrall> Kill Command Prairie Stalker Hit -35 (Physical)", -- [36]
+				"Pidgy <Taureis-Thrall> Melee Prairie Stalker Hit -8 (Physical)", -- [37]
+				"Prairie Stalker Melee Pidgy <Taureis-Thrall> Hit -7 (Physical)", -- [38]
+				"Prairie Stalker Melee Pidgy <Taureis-Thrall> Hit -7 (Physical)", -- [39]
+				"Pidgy <Taureis-Thrall> Melee Prairie Stalker Hit -9 (Physical)", -- [40]
+			},
+			["Name"] = "Pidgy",
+			["LastEventIncoming"] = {
+				true, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				true, -- [11]
+				false, -- [12]
+				false, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				true, -- [17]
+				false, -- [18]
+				false, -- [19]
+				false, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+				true, -- [27]
+				false, -- [28]
+				false, -- [29]
+				true, -- [30]
+				false, -- [31]
+				false, -- [32]
+				true, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				true, -- [38]
+				true, -- [39]
+				false, -- [40]
+			},
+			["LastEventTimes"] = {
+				683942.855, -- [1]
+				683942.855, -- [2]
+				683944.5, -- [3]
+				683944.713, -- [4]
+				684344.74, -- [5]
+				684344.74, -- [6]
+				684346.559, -- [7]
+				684348.329, -- [8]
+				684348.731, -- [9]
+				684350.155, -- [10]
+				684352.08, -- [11]
+				684352.08, -- [12]
+				684357.273, -- [13]
+				684359.011, -- [14]
+				684359.694, -- [15]
+				684360.928, -- [16]
+				684362.534, -- [17]
+				684362.768, -- [18]
+				684376.014, -- [19]
+				684377.833, -- [20]
+				684379.649, -- [21]
+				684381.486, -- [22]
+				684516.727, -- [23]
+				684518.268, -- [24]
+				684518.5, -- [25]
+				684520.329, -- [26]
+				684521.58, -- [27]
+				684522.23, -- [28]
+				684524, -- [29]
+				684524.737, -- [30]
+				684525.862, -- [31]
+				684527.685, -- [32]
+				684528.059, -- [33]
+				684529.519, -- [34]
+				684530.95, -- [35]
+				684606.302, -- [36]
+				684606.884, -- [37]
+				684606.999, -- [38]
+				684608.483, -- [39]
+				684608.615, -- [40]
+			},
+			["Fights"] = {
+				["Fight5"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 5,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Shadow"] = 5,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 19,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 19,
+					},
+					["PartialAbsorb"] = {
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 19,
+								},
+							},
+							["amount"] = 19,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Motivate (DoT)"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.64,
+								},
+							},
+							["amount"] = 3.64,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.64,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 19,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.64,
+					["TimeDamaging"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.64,
+								},
+							},
+							["amount"] = 3.64,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Kill Command"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 14,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 14,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 52,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 17,
+						["Physical"] = 35,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+								["Kill Command"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.31,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.81,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.81,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 8,
+									["count"] = 2,
+									["amount"] = 17,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 17,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 35,
+									["count"] = 1,
+									["amount"] = 35,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 35,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.81,
+					["TimeDamaging"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.31,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.81,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 4,
+									["min"] = 4,
+									["count"] = 2,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 8,
+						},
+					},
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.28,
+								},
+								["Kill Command"] = {
+									["count"] = 1.43,
+								},
+							},
+							["amount"] = 17.71,
+						},
+					},
+					["DamageTaken"] = 42,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 17.71,
+					["ElementTaken"] = {
+						["Melee"] = 42,
+					},
+					["Damage"] = 139,
+					["ElementTakenBlock"] = {
+						["Melee"] = 8,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 19,
+									["min"] = 0,
+									["count"] = 3,
+									["amount"] = 56,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 46,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 102,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 37,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 37,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 8,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 102,
+								},
+								["Kill Command"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 139,
+						},
+					},
+					["TimeDamage"] = 17.71,
+					["WhoDamaged"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 42,
+								},
+							},
+							["amount"] = 42,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 102,
+						["Physical"] = 37,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 16.28,
+								},
+								["Kill Command"] = {
+									["count"] = 1.43,
+								},
+							},
+							["amount"] = 17.71,
+						},
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 14,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 14,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 52,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Melee"] = 17,
+						["Physical"] = 35,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+								["Kill Command"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.31,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.81,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.81,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 9,
+									["min"] = 8,
+									["count"] = 2,
+									["amount"] = 17,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 17,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 35,
+									["count"] = 1,
+									["amount"] = 35,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 35,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.81,
+					["TimeDamaging"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.31,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.81,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["PartialBlock"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Blocked"] = {
+									["max"] = 4,
+									["min"] = 4,
+									["count"] = 2,
+									["amount"] = 8,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 8,
+						},
+					},
+					["TimeSpent"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.14,
+								},
+							},
+							["amount"] = 7.14,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.31,
+								},
+								["Kill Command"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 8.99,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30.83,
+								},
+								["Kill Command"] = {
+									["count"] = 3.08,
+								},
+							},
+							["amount"] = 33.91,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.31,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.81,
+						},
+					},
+					["DamageTaken"] = 113,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 10,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 10,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 0,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 55.85,
+					["ElementTaken"] = {
+						["Melee"] = 108,
+						["Shadow"] = 5,
+					},
+					["Damage"] = 530,
+					["ElementTakenBlock"] = {
+						["Melee"] = 8,
+					},
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 19,
+									["min"] = 17,
+									["count"] = 7,
+									["amount"] = 126,
+								},
+								["Hit"] = {
+									["max"] = 10,
+									["min"] = 8,
+									["count"] = 17,
+									["amount"] = 153,
+								},
+							},
+							["count"] = 24,
+							["amount"] = 279,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 71,
+									["min"] = 71,
+									["count"] = 2,
+									["amount"] = 142,
+								},
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 35,
+									["count"] = 3,
+									["amount"] = 109,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 251,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 17,
+								},
+							},
+							["amount"] = 24,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 3,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 28,
+								},
+							},
+							["amount"] = 28,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 53,
+								},
+								["Kill Command"] = {
+									["count"] = 71,
+								},
+							},
+							["amount"] = 124,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 181,
+								},
+								["Kill Command"] = {
+									["count"] = 145,
+								},
+							},
+							["amount"] = 326,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 17,
+								},
+								["Kill Command"] = {
+									["count"] = 35,
+								},
+							},
+							["amount"] = 52,
+						},
+					},
+					["TimeDamage"] = 55.85,
+					["WhoDamaged"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Motivate (DoT)"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 9,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 85,
+								},
+							},
+							["amount"] = 85,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 279,
+						["Physical"] = 251,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["TimeDamaging"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7.14,
+								},
+							},
+							["amount"] = 7.14,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 8.31,
+								},
+								["Kill Command"] = {
+									["count"] = 0.68,
+								},
+							},
+							["amount"] = 8.99,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30.83,
+								},
+								["Kill Command"] = {
+									["count"] = 3.08,
+								},
+							},
+							["amount"] = 33.91,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 2.31,
+								},
+								["Kill Command"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 5.81,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 683941.953,
+			["LastActive"] = 684607.96,
+		},
+		["Taureis-Thrall"] = {
+			["GUID"] = "Player-3678-09554EE0",
+			["LastEventHealth"] = {
+				"378 (100%)", -- [1]
+				"378 (100%)", -- [2]
+				"378 (100%)", -- [3]
+				"378 (100%)", -- [4]
+				"378 (100%)", -- [5]
+				"361 (95%)", -- [6]
+				"361 (95%)", -- [7]
+				"361 (95%)", -- [8]
+				"352 (93%)", -- [9]
+				"352 (93%)", -- [10]
+				"352 (93%)", -- [11]
+				"352 (93%)", -- [12]
+				"352 (93%)", -- [13]
+				"341 (90%)", -- [14]
+				"341 (90%)", -- [15]
+				"341 (90%)", -- [16]
+				"341 (90%)", -- [17]
+				"378 (100%)", -- [18]
+				"378 (100%)", -- [19]
+				"378 (100%)", -- [20]
+				"365 (96%)", -- [21]
+				"378 (100%)", -- [22]
+				"371 (98%)", -- [23]
+				"371 (98%)", -- [24]
+				"371 (98%)", -- [25]
+				"371 (98%)", -- [26]
+			},
+			["LastAttackedBy"] = "Prairie Stalker",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					38.5, -- [1]
+				},
+				["TimeDamage"] = {
+					38.5, -- [1]
+				},
+				["Healing"] = {
+					0, -- [1]
+				},
+				["DamageTaken"] = {
+					57, -- [1]
+				},
+				["Damage"] = {
+					713, -- [1]
+				},
+			},
+			["enClass"] = "HUNTER",
+			["unit"] = "Taureis-Thrall",
+			["LastDamageTaken"] = 7,
+			["level"] = 9,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 8,
+			["LastEventNum"] = {
+				[13] = 2.91005291005291,
+				[22] = 1.85185185185185,
+				[19] = 3.43915343915344,
+				[5] = 4.4973544973545,
+				[9] = 2.38095238095238,
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastAbility"] = 684609.426,
+			["TimeLast"] = {
+				["TimeDamage"] = 684608.962,
+				["ActiveTime"] = 684608.962,
+				["Healing"] = 683941.953,
+				["OVERALL"] = 684608.962,
+				["DamageTaken"] = 684604.96,
+				["Damage"] = 684608.962,
+			},
+			["Owner"] = false,
+			["Pet"] = {
+				"Pidgy <Taureis-Thrall>", -- [1]
+			},
+			["NextEventNum"] = 27,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				100, -- [5]
+				95.5026455026455, -- [6]
+				95.5026455026455, -- [7]
+				95.5026455026455, -- [8]
+				93.1216931216931, -- [9]
+				93.1216931216931, -- [10]
+				93.1216931216931, -- [11]
+				93.1216931216931, -- [12]
+				93.1216931216931, -- [13]
+				90.2116402116402, -- [14]
+				90.2116402116402, -- [15]
+				90.2116402116402, -- [16]
+				90.2116402116402, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				96.5608465608466, -- [21]
+				100, -- [22]
+				98.1481481481482, -- [23]
+				98.1481481481482, -- [24]
+				98.1481481481482, -- [25]
+				98.1481481481482, -- [26]
+			},
+			["LastEvents"] = {
+				"Taureis-Thrall Auto Shot Venture Co. Worker Crit -39 (Physical)", -- [1]
+				"Taureis-Thrall Cobra Shot Venture Co. Worker Hit -37 (Physical)", -- [2]
+				"Taureis-Thrall Cobra Shot Venture Co. Worker Hit -40 (Physical)", -- [3]
+				"Taureis-Thrall Auto Shot Venture Co. Worker Crit -34 (Physical)", -- [4]
+				"Venture Co. Worker Melee Taureis-Thrall Hit -17 (Physical)", -- [5]
+				"Taureis-Thrall Auto Shot Venture Co. Worker Hit -16 (Physical)", -- [6]
+				"Taureis-Thrall Auto Shot Supervisor Fizsprocket Hit -16 (Physical)", -- [7]
+				"Taureis-Thrall Cobra Shot Supervisor Fizsprocket Hit -36 (Physical)", -- [8]
+				"Supervisor Fizsprocket Throw Lantern Taureis-Thrall Hit -9 (Fire)", -- [9]
+				"Taureis-Thrall Auto Shot Supervisor Fizsprocket Crit -36 (Physical)", -- [10]
+				"Taureis-Thrall Cobra Shot Supervisor Fizsprocket Crit -76 (Physical)", -- [11]
+				"Taureis-Thrall Auto Shot Supervisor Fizsprocket Hit -17 (Physical)", -- [12]
+				"Supervisor Fizsprocket Melee Taureis-Thrall Hit -11 (Physical)", -- [13]
+				"Taureis-Thrall Auto Shot Supervisor Fizsprocket Hit -16 (Physical)", -- [14]
+				"Taureis-Thrall Cobra Shot Supervisor Fizsprocket Hit -37 (Physical)", -- [15]
+				"Taureis-Thrall Cobra Shot Supervisor Fizsprocket Hit -38 (Physical)", -- [16]
+				"Taureis-Thrall Auto Shot Supervisor Fizsprocket Hit -16 (Physical)", -- [17]
+				"Taureis-Thrall Auto Shot Venture Co. Worker Hit -19 (Physical)", -- [18]
+				"Venture Co. Worker Melee Taureis-Thrall Hit -13 (Physical)", -- [19]
+				"Taureis-Thrall Cobra Shot Venture Co. Worker Hit -37 (Physical)", -- [20]
+				"Taureis-Thrall Auto Shot Venture Co. Worker Crit -37 (Physical)", -- [21]
+				"Prairie Stalker Melee Taureis-Thrall Hit -7 (Physical)", -- [22]
+				"Taureis-Thrall Auto Shot Prairie Stalker Hit -16 (Physical)", -- [23]
+				"Prairie Stalker Leaping Rush Taureis-Thrall Dodge (Physical)", -- [24]
+				"Taureis-Thrall Cobra Shot Prairie Stalker Crit -75 (Physical)", -- [25]
+				"Taureis-Thrall Cobra Shot Prairie Stalker Crit -75 (Physical)", -- [26]
+			},
+			["Name"] = "Taureis-Thrall",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				false, -- [4]
+				true, -- [5]
+				false, -- [6]
+				false, -- [7]
+				false, -- [8]
+				true, -- [9]
+				false, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				false, -- [15]
+				false, -- [16]
+				false, -- [17]
+				false, -- [18]
+				true, -- [19]
+				false, -- [20]
+				false, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				false, -- [26]
+			},
+			["LastEventTimes"] = {
+				683941.911, -- [1]
+				683941.911, -- [2]
+				683943.328, -- [3]
+				683944.602, -- [4]
+				684342.581, -- [5]
+				684345.817, -- [6]
+				684353.169, -- [7]
+				684353.514, -- [8]
+				684354.699, -- [9]
+				684356.04, -- [10]
+				684358.491, -- [11]
+				684358.675, -- [12]
+				684360.597, -- [13]
+				684361.411, -- [14]
+				684361.696, -- [15]
+				684363.416, -- [16]
+				684364.292, -- [17]
+				684515.623, -- [18]
+				684517.065, -- [19]
+				684517.228, -- [20]
+				684530.685, -- [21]
+				684605.513, -- [22]
+				684607.348, -- [23]
+				684607.938, -- [24]
+				684608.198, -- [25]
+				684609.426, -- [26]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Fire"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw Lantern"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Cobra Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Throw Lantern"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Throw Lantern"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Cobra Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 0,
+								},
+								["Cobra Shot"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 7,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 7,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 166,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 166,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Leaping Rush"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 16,
+								},
+								["Cobra Shot"] = {
+									["count"] = 150,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Leaping Rush"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Cobra Shot"] = {
+									["count"] = 2.08,
+								},
+							},
+							["amount"] = 5.58,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.58,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 75,
+									["min"] = 75,
+									["count"] = 2,
+									["amount"] = 150,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 150,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.58,
+					["TimeDamaging"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Cobra Shot"] = {
+									["count"] = 2.08,
+								},
+							},
+							["amount"] = 5.58,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 7,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 2,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 7,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 166,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Physical"] = 166,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Leaping Rush"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 16,
+								},
+								["Cobra Shot"] = {
+									["count"] = 150,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Leaping Rush"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Cobra Shot"] = {
+									["count"] = 2.08,
+								},
+							},
+							["amount"] = 5.58,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 5.58,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 16,
+									["min"] = 16,
+									["count"] = 1,
+									["amount"] = 16,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 16,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 75,
+									["min"] = 75,
+									["count"] = 2,
+									["amount"] = 150,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 150,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 5.58,
+					["TimeDamaging"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Cobra Shot"] = {
+									["count"] = 2.08,
+								},
+							},
+							["amount"] = 5.58,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 37,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 19,
+									["count"] = 1,
+									["amount"] = 19,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 56,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 37,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 37,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 37,
+						},
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+					},
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7,
+								},
+								["Cobra Shot"] = {
+									["count"] = 1.6,
+								},
+							},
+							["amount"] = 8.6,
+						},
+					},
+					["DamageTaken"] = 13,
+					["Healing"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 93,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 1,
+								},
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 3,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 56,
+								},
+								["Cobra Shot"] = {
+									["count"] = 37,
+								},
+							},
+							["amount"] = 93,
+						},
+					},
+					["TimeDamage"] = 8.6,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 7,
+								},
+								["Cobra Shot"] = {
+									["count"] = 1.6,
+								},
+							},
+							["amount"] = 8.6,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 13,
+					},
+					["ActiveTime"] = 8.6,
+					["Damage"] = 93,
+				},
+				["OverallData"] = {
+					["ElementHitsTaken"] = {
+						["Fire"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Dodge"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Throw Lantern"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Leaping Rush"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["PartialResist"] = {
+						["Throw Lantern"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Leaping Rush"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["Attacks"] = {
+						["Auto Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 39,
+									["min"] = 34,
+									["count"] = 4,
+									["amount"] = 146,
+								},
+								["Hit"] = {
+									["max"] = 19,
+									["min"] = 16,
+									["count"] = 7,
+									["amount"] = 116,
+								},
+							},
+							["count"] = 11,
+							["amount"] = 262,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 76,
+									["min"] = 75,
+									["count"] = 3,
+									["amount"] = 226,
+								},
+								["Hit"] = {
+									["max"] = 40,
+									["min"] = 36,
+									["count"] = 6,
+									["amount"] = 225,
+								},
+							},
+							["count"] = 9,
+							["amount"] = 451,
+						},
+					},
+					["WhoDamaged"] = {
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 11,
+								},
+								["Throw Lantern"] = {
+									["count"] = 9,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 30,
+								},
+							},
+							["amount"] = 30,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["TimeSpent"] = {
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 9.83,
+								},
+								["Cobra Shot"] = {
+									["count"] = 4.8,
+								},
+							},
+							["amount"] = 14.63,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15.27,
+								},
+								["Cobra Shot"] = {
+									["count"] = 3.02,
+								},
+							},
+							["amount"] = 18.29,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Cobra Shot"] = {
+									["count"] = 2.08,
+								},
+							},
+							["amount"] = 5.58,
+						},
+					},
+					["DamageTaken"] = 57,
+					["Healing"] = 0,
+					["ElementDone"] = {
+						["Physical"] = 713,
+					},
+					["ElementHitsDone"] = {
+						["Physical"] = {
+							["Details"] = {
+								["Crit"] = {
+									["count"] = 7,
+								},
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 20,
+						},
+					},
+					["DamagedWho"] = {
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 101,
+								},
+								["Cobra Shot"] = {
+									["count"] = 187,
+								},
+							},
+							["amount"] = 288,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 145,
+								},
+								["Cobra Shot"] = {
+									["count"] = 114,
+								},
+							},
+							["amount"] = 259,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 16,
+								},
+								["Cobra Shot"] = {
+									["count"] = 150,
+								},
+							},
+							["amount"] = 166,
+						},
+					},
+					["TimeDamage"] = 38.5,
+					["TimeDamaging"] = {
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 9.83,
+								},
+								["Cobra Shot"] = {
+									["count"] = 4.8,
+								},
+							},
+							["amount"] = 14.63,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 15.27,
+								},
+								["Cobra Shot"] = {
+									["count"] = 3.02,
+								},
+							},
+							["amount"] = 18.29,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Auto Shot"] = {
+									["count"] = 3.5,
+								},
+								["Cobra Shot"] = {
+									["count"] = 2.08,
+								},
+							},
+							["amount"] = 5.58,
+						},
+					},
+					["ElementTaken"] = {
+						["Melee"] = 48,
+						["Fire"] = 9,
+					},
+					["ActiveTime"] = 38.5,
+					["Damage"] = 713,
+				},
+			},
+			["UnitLockout"] = 683940.961,
+			["LastActive"] = 684608.962,
+		},
+		["Corpselus"] = {
+			["GUID"] = "Player-1070-02FF9EF6",
+			["LastEventHealth"] = {
+				"212760 (100%)", -- [1]
+				"212760 (100%)", -- [2]
+				"212760 (100%)", -- [3]
+				"212760 (100%)", -- [4]
+				"163074 (76%)", -- [5]
+				"197724 (92%)", -- [6]
+				"198331 (93%)", -- [7]
+				"212760 (100%)", -- [8]
+				"212760 (100%)", -- [9]
+				"212760 (100%)", -- [10]
+				"212760 (100%)", -- [11]
+				"212760 (100%)", -- [12]
+				"212760 (100%)", -- [13]
+				"212760 (100%)", -- [14]
+				"212760 (100%)", -- [15]
+				"212760 (100%)", -- [16]
+				"212760 (100%)", -- [17]
+				"212760 (100%)", -- [18]
+				"212760 (100%)", -- [19]
+				"212760 (100%)", -- [20]
+				"212760 (100%)", -- [21]
+				"212760 (100%)", -- [22]
+				"212760 (100%)", -- [23]
+				"212760 (100%)", -- [24]
+				"212760 (100%)", -- [25]
+				"212760 (100%)", -- [26]
+				"212760 (100%)", -- [27]
+				"212760 (100%)", -- [28]
+				"212760 (100%)", -- [29]
+				"212760 (100%)", -- [30]
+				"212760 (100%)", -- [31]
+				"212760 (100%)", -- [32]
+				"212760 (100%)", -- [33]
+				"212760 (100%)", -- [34]
+				"212760 (100%)", -- [35]
+				"212760 (100%)", -- [36]
+				"212760 (100%)", -- [37]
+				"212760 (100%)", -- [38]
+				"212760 (100%)", -- [39]
+				"212760 (100%)", -- [40]
+				"212760 (100%)", -- [41]
+				"212760 (100%)", -- [42]
+				"212760 (100%)", -- [43]
+				"212760 (100%)", -- [44]
+				"212760 (100%)", -- [45]
+				"212760 (100%)", -- [46]
+				"212760 (100%)", -- [47]
+				"212760 (100%)", -- [48]
+				"212760 (100%)", -- [49]
+				"212760 (100%)", -- [50]
+			},
+			["LastAttackedBy"] = "Environment",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"HEAL", -- [2]
+				"DAMAGE", -- [3]
+				"HEAL", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"HEAL", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"HEAL", -- [38]
+				"DAMAGE", -- [39]
+				"HEAL", -- [40]
+				"DAMAGE", -- [41]
+				"HEAL", -- [42]
+				"DAMAGE", -- [43]
+				"HEAL", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"HEAL", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"HEAL", -- [50]
+			},
+			["TimeWindows"] = {
+				["TimeHeal"] = {
+					0.27, -- [1]
+				},
+				["Healing"] = {
+					607, -- [1]
+				},
+				["DamageTaken"] = {
+					49686, -- [1]
+				},
+				["HealingTaken"] = {
+					607, -- [1]
+				},
+				["Overhealing"] = {
+					2463, -- [1]
+				},
+				["TimeDamage"] = {
+					28.09, -- [1]
+				},
+				["RunicPowerGain"] = {
+					72, -- [1]
+				},
+				["ActiveTime"] = {
+					28.36, -- [1]
+				},
+				["Damage"] = {
+					398046, -- [1]
+				},
+			},
+			["enClass"] = "DEATHKNIGHT",
+			["unit"] = "Corpselus",
+			["TimeLast"] = {
+				["TimeHeal"] = 684631.956,
+				["OVERALL"] = 684631.956,
+				["DamageTaken"] = 684598.955,
+				["HealingTaken"] = 684631.956,
+				["Overhealing"] = 684582.956,
+				["ActiveTime"] = 684631.956,
+				["Healing"] = 684631.956,
+				["RunicPowerGain"] = 684631.956,
+				["TimeDamage"] = 684631.956,
+				["Damage"] = 684631.956,
+			},
+			["LastDamageTaken"] = 49686,
+			["level"] = 100,
+			["LastDamageAbility"] = "Falling",
+			["LastFightIn"] = 9,
+			["LastEventNum"] = {
+				[50] = 0.101052829479225,
+				[2] = 0.210565895845084,
+				[4] = 0.210565895845084,
+				[47] = 0.101052829479225,
+				[5] = 23.3530738860688,
+				[7] = 0.285297988343674,
+				[38] = 0.0122203421695807,
+				[40] = 0.210565895845084,
+				[42] = 0.210565895845084,
+				[44] = 0.101052829479225,
+			},
+			["type"] = "Self",
+			["FightsSaved"] = 5,
+			["GuardianReverseGUIDs"] = {
+				["Blingtron 5000"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3019-1-1665-77789-00001ABA1C",
+					},
+				},
+			},
+			["LastAbility"] = 684632.381,
+			["Owner"] = false,
+			["Pet"] = {
+				"Blingtron 5000 <Corpselus>", -- [1]
+			},
+			["NextEventNum"] = 8,
+			["LastEventHealthNum"] = {
+				100, -- [1]
+				100, -- [2]
+				100, -- [3]
+				100, -- [4]
+				76.6469261139312, -- [5]
+				92.9328821206994, -- [6]
+				93.2181801090431, -- [7]
+				100, -- [8]
+				100, -- [9]
+				100, -- [10]
+				100, -- [11]
+				100, -- [12]
+				100, -- [13]
+				100, -- [14]
+				100, -- [15]
+				100, -- [16]
+				100, -- [17]
+				100, -- [18]
+				100, -- [19]
+				100, -- [20]
+				100, -- [21]
+				100, -- [22]
+				100, -- [23]
+				100, -- [24]
+				100, -- [25]
+				100, -- [26]
+				100, -- [27]
+				100, -- [28]
+				100, -- [29]
+				100, -- [30]
+				100, -- [31]
+				100, -- [32]
+				100, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				100, -- [45]
+				100, -- [46]
+				100, -- [47]
+				100, -- [48]
+				100, -- [49]
+				100, -- [50]
+			},
+			["LastEvents"] = {
+				"Corpselus Howling Blast Venture Co. Worker Hit -58082 (Frost)", -- [1]
+				"Corpselus Leech Corpselus Hit +448 (448 overheal)", -- [2]
+				"Corpselus Howling Blast Venture Co. Supervisor Hit -58082 (Frost)", -- [3]
+				"Corpselus Leech Corpselus Hit +448 (448 overheal)", -- [4]
+				"Environment Falling Corpselus Hit -49686 (Physical)", -- [5]
+				"Corpselus Melee Prairie Stalker Hit -78732 (Physical)", -- [6]
+				"Corpselus Leech Corpselus Hit +607", -- [7]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [8]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [9]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [10]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [11]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [12]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [13]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [14]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [15]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [16]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [17]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [18]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [19]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [20]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [21]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [22]
+				"Taureis-Thrall Concussive Shot Corpselus Miss (Physical)", -- [23]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [24]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [25]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [26]
+				"Taureis-Thrall Concussive Shot Corpselus Miss (Physical)", -- [27]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [28]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [29]
+				"Taureis-Thrall Kill Command Corpselus Miss (Physical)", -- [30]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [31]
+				"Pidgy <Taureis-Thrall> Melee Corpselus Miss (1)", -- [32]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [33]
+				"Pidgy <Taureis-Thrall> Melee Corpselus Miss (1)", -- [34]
+				"Taureis-Thrall Auto Shot Corpselus Miss (Physical)", -- [35]
+				"Taureis-Thrall Cobra Shot Corpselus Miss (Physical)", -- [36]
+				"Corpselus Melee Taureis-Thrall Hit -3348 (Physical)", -- [37]
+				"Corpselus Leech Corpselus Hit +26 (26 overheal)", -- [38]
+				"Corpselus Howling Blast Venture Co. Worker Hit -58082 (Frost)", -- [39]
+				"Corpselus Leech Corpselus Hit +448 (448 overheal)", -- [40]
+				"Corpselus Howling Blast Venture Co. Supervisor Hit -58082 (Frost)", -- [41]
+				"Corpselus Leech Corpselus Hit +448 (448 overheal)", -- [42]
+				"Corpselus Remorseless Winter Supervisor Fizsprocket Hit -27879 (Frost)", -- [43]
+				"Corpselus Leech Corpselus Hit +215 (215 overheal)", -- [44]
+				"Venture Co. Worker Melee Corpselus Miss (1)", -- [45]
+				"Corpselus Remorseless Winter Venture Co. Worker Hit -27880 (Frost)", -- [46]
+				"Corpselus Leech Corpselus Hit +215 (215 overheal)", -- [47]
+				"Venture Co. Supervisor Melee Corpselus Miss (1)", -- [48]
+				"Corpselus Remorseless Winter Venture Co. Supervisor Hit -27879 (Frost)", -- [49]
+				"Corpselus Leech Corpselus Hit +215 (215 overheal)", -- [50]
+			},
+			["Name"] = "Corpselus",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				true, -- [2]
+				false, -- [3]
+				true, -- [4]
+				true, -- [5]
+				false, -- [6]
+				true, -- [7]
+				true, -- [8]
+				true, -- [9]
+				true, -- [10]
+				true, -- [11]
+				true, -- [12]
+				true, -- [13]
+				true, -- [14]
+				true, -- [15]
+				true, -- [16]
+				true, -- [17]
+				true, -- [18]
+				true, -- [19]
+				true, -- [20]
+				true, -- [21]
+				true, -- [22]
+				true, -- [23]
+				true, -- [24]
+				true, -- [25]
+				true, -- [26]
+				true, -- [27]
+				true, -- [28]
+				true, -- [29]
+				true, -- [30]
+				true, -- [31]
+				true, -- [32]
+				true, -- [33]
+				true, -- [34]
+				true, -- [35]
+				true, -- [36]
+				false, -- [37]
+				true, -- [38]
+				false, -- [39]
+				true, -- [40]
+				false, -- [41]
+				true, -- [42]
+				false, -- [43]
+				true, -- [44]
+				true, -- [45]
+				false, -- [46]
+				true, -- [47]
+				true, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				684557.577, -- [1]
+				684557.728, -- [2]
+				684582.802, -- [3]
+				684583.199, -- [4]
+				684599.047, -- [5]
+				684632.108, -- [6]
+				684632.381, -- [7]
+				684164.821, -- [8]
+				684166.314, -- [9]
+				684166.354, -- [10]
+				684167.867, -- [11]
+				684169.163, -- [12]
+				684169.317, -- [13]
+				684170.907, -- [14]
+				684171.951, -- [15]
+				684172.424, -- [16]
+				684174.024, -- [17]
+				684174.919, -- [18]
+				684175.604, -- [19]
+				684177.627, -- [20]
+				684179.616, -- [21]
+				684180.401, -- [22]
+				684180.903, -- [23]
+				684182.64, -- [24]
+				684183.256, -- [25]
+				684184.164, -- [26]
+				684186.055, -- [27]
+				684186.166, -- [28]
+				684189.063, -- [29]
+				684191.403, -- [30]
+				684191.777, -- [31]
+				684192.182, -- [32]
+				684193.79, -- [33]
+				684193.994, -- [34]
+				684194.47, -- [35]
+				684195.056, -- [36]
+				684195.583, -- [37]
+				684195.792, -- [38]
+				684525.862, -- [39]
+				684526.002, -- [40]
+				684542.801, -- [41]
+				684542.996, -- [42]
+				684550.481, -- [43]
+				684550.841, -- [44]
+				684553.482, -- [45]
+				684553.482, -- [46]
+				684553.671, -- [47]
+				684555.446, -- [48]
+				684555.446, -- [49]
+				684555.708, -- [50]
+			},
+			["Fights"] = {
+				["Fight2"] = {
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 215,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 215,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 215,
+						},
+					},
+					["TimeSpent"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Taureis-Thrall"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["PartialResist"] = {
+						["Cobra Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Concussive Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Cobra Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Concussive Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 3.5,
+					["Damage"] = 27879,
+					["Overhealing"] = 215,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 27879,
+									["min"] = 27879,
+									["count"] = 1,
+									["amount"] = 27879,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 27879,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+						["Frost"] = 27879,
+					},
+					["DamagedWho"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Taureis-Thrall"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 27879,
+								},
+							},
+							["amount"] = 27879,
+						},
+					},
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Taureis-Thrall"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["RunicPowerGain"] = 10,
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 10,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+								["Obliterate"] = {
+									["count"] = 0,
+								},
+								["Runic Attenuation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Runic Attenuation"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["CurrentFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Runic Attenuation"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Melee"] = 0,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Runic Attenuation"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoHealed"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 58082,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 58082,
+					},
+					["PartialAbsorb"] = {
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 58082,
+								},
+							},
+							["amount"] = 58082,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 448,
+									["min"] = 448,
+									["count"] = 1,
+									["amount"] = 448,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 448,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 448,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 10,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 58082,
+									["min"] = 58082,
+									["count"] = 1,
+									["amount"] = 58082,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 58082,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Physical"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDone"] = {
+						["Frost"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 0,
+								},
+								["Howling Blast"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["OverallData"] = {
+					["TimeHealing"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.27,
+								},
+							},
+							["amount"] = 0.27,
+						},
+					},
+					["OverHeals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 448,
+									["min"] = 26,
+									["count"] = 8,
+									["amount"] = 2463,
+								},
+							},
+							["count"] = 8,
+							["amount"] = 2463,
+						},
+					},
+					["TimeSpent"] = {
+						["Taureis-Thrall"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 3,
+								},
+								["Howling Blast"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 8.63,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 1.96,
+								},
+								["Howling Blast"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8.96,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 0.27,
+								},
+							},
+							["amount"] = 0.27,
+						},
+					},
+					["DamageTaken"] = 49686,
+					["PartialResist"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 17,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 14,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+						["Concussive Shot"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 2,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Falling"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Cobra Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 17,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 17,
+							["amount"] = 0,
+						},
+						["Auto Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 14,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 14,
+							["amount"] = 0,
+						},
+						["Kill Command"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+						["Concussive Shot"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 2,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 28.36,
+					["ElementDone"] = {
+						["Melee"] = 82080,
+						["Frost"] = 315966,
+					},
+					["ElementTaken"] = {
+						["Physical"] = 49686,
+					},
+					["WhoHealed"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 607,
+								},
+							},
+							["amount"] = 607,
+						},
+					},
+					["Damage"] = 398046,
+					["HealedWho"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Leech"] = {
+									["count"] = 607,
+								},
+							},
+							["amount"] = 607,
+						},
+					},
+					["TimeHeal"] = 0.27,
+					["Heals"] = {
+						["Leech"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 607,
+									["min"] = 607,
+									["count"] = 1,
+									["amount"] = 607,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 607,
+						},
+					},
+					["Overhealing"] = 2463,
+					["WhoDamaged"] = {
+						["Environment"] = {
+							["Details"] = {
+								["Falling"] = {
+									["count"] = 49686,
+								},
+							},
+							["amount"] = 49686,
+						},
+					},
+					["Healing"] = 607,
+					["ElementHitsDone"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+						["Frost"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Miss"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Physical"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+								["Miss"] = {
+									["count"] = 34,
+								},
+							},
+							["amount"] = 35,
+						},
+					},
+					["Attacks"] = {
+						["Howling Blast"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 58082,
+									["min"] = 58082,
+									["count"] = 4,
+									["amount"] = 232328,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 232328,
+						},
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 78732,
+									["min"] = 3348,
+									["count"] = 2,
+									["amount"] = 82080,
+								},
+							},
+							["count"] = 2,
+							["amount"] = 82080,
+						},
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 27880,
+									["min"] = 27879,
+									["count"] = 3,
+									["amount"] = 83638,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 83638,
+						},
+					},
+					["HealingTaken"] = 607,
+					["DamagedWho"] = {
+						["Taureis-Thrall"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3348,
+								},
+							},
+							["amount"] = 3348,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 27880,
+								},
+								["Howling Blast"] = {
+									["count"] = 116164,
+								},
+							},
+							["amount"] = 144044,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 27879,
+								},
+								["Howling Blast"] = {
+									["count"] = 116164,
+								},
+							},
+							["amount"] = 144043,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 27879,
+								},
+							},
+							["amount"] = 27879,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 78732,
+								},
+							},
+							["amount"] = 78732,
+						},
+					},
+					["TimeDamage"] = 28.09,
+					["TimeDamaging"] = {
+						["Taureis-Thrall"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 3,
+								},
+								["Howling Blast"] = {
+									["count"] = 5.63,
+								},
+							},
+							["amount"] = 8.63,
+						},
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 1.96,
+								},
+								["Howling Blast"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 8.96,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["RunicPowerGain"] = 72,
+					["RunicPowerGainedFrom"] = {
+						["Corpselus"] = {
+							["Details"] = {
+								["Remorseless Winter"] = {
+									["count"] = 10,
+								},
+								["Howling Blast"] = {
+									["count"] = 40,
+								},
+								["Obliterate"] = {
+									["count"] = 20,
+								},
+								["Runic Attenuation"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 72,
+						},
+					},
+					["RunicPowerGained"] = {
+						["Remorseless Winter"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 10,
+						},
+						["Howling Blast"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 40,
+								},
+							},
+							["amount"] = 40,
+						},
+						["Obliterate"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 20,
+								},
+							},
+							["amount"] = 20,
+						},
+						["Runic Attenuation"] = {
+							["Details"] = {
+								["Corpselus"] = {
+									["count"] = 2,
+								},
+							},
+							["amount"] = 2,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 684156.955,
+			["LastActive"] = 684631.956,
+		},
+		["Audanah-Thrall"] = {
+			["GUID"] = "Player-3678-09549998",
+			["LastEventHealth"] = {
+				"313 (86%)", -- [1]
+				"313 (86%)", -- [2]
+				"313 (86%)", -- [3]
+				"313 (86%)", -- [4]
+				"313 (86%)", -- [5]
+				"313 (86%)", -- [6]
+				"299 (83%)", -- [7]
+				"324 (90%)", -- [8]
+				"360 (100%)", -- [9]
+				"360 (100%)", -- [10]
+				"332 (92%)", -- [11]
+				"360 (100%)", -- [12]
+				"360 (100%)", -- [13]
+				"352 (97%)", -- [14]
+				"352 (97%)", -- [15]
+				"344 (95%)", -- [16]
+				"344 (95%)", -- [17]
+				"340 (94%)", -- [18]
+				"336 (93%)", -- [19]
+				"336 (93%)", -- [20]
+				"331 (91%)", -- [21]
+				"327 (90%)", -- [22]
+				"327 (90%)", -- [23]
+				"323 (89%)", -- [24]
+				"323 (89%)", -- [25]
+				"323 (89%)", -- [26]
+				"323 (89%)", -- [27]
+				"314 (87%)", -- [28]
+				"314 (87%)", -- [29]
+				"307 (85%)", -- [30]
+				"307 (85%)", -- [31]
+				"299 (83%)", -- [32]
+				"299 (83%)", -- [33]
+				"360 (100%)", -- [34]
+				"360 (100%)", -- [35]
+				"360 (100%)", -- [36]
+				"360 (100%)", -- [37]
+				"360 (100%)", -- [38]
+				"360 (100%)", -- [39]
+				"360 (100%)", -- [40]
+				"360 (100%)", -- [41]
+				"360 (100%)", -- [42]
+				"360 (100%)", -- [43]
+				"360 (100%)", -- [44]
+				"345 (95%)", -- [45]
+				"345 (95%)", -- [46]
+				"331 (91%)", -- [47]
+				"331 (91%)", -- [48]
+				"331 (91%)", -- [49]
+				"331 (91%)", -- [50]
+			},
+			["LastAttackedBy"] = "Prairie Stalker",
+			["LastEventType"] = {
+				"DAMAGE", -- [1]
+				"DAMAGE", -- [2]
+				"DAMAGE", -- [3]
+				"DAMAGE", -- [4]
+				"DAMAGE", -- [5]
+				"DAMAGE", -- [6]
+				"DAMAGE", -- [7]
+				"DAMAGE", -- [8]
+				"DAMAGE", -- [9]
+				"DAMAGE", -- [10]
+				"DAMAGE", -- [11]
+				"DAMAGE", -- [12]
+				"DAMAGE", -- [13]
+				"DAMAGE", -- [14]
+				"DAMAGE", -- [15]
+				"DAMAGE", -- [16]
+				"DAMAGE", -- [17]
+				"DAMAGE", -- [18]
+				"DAMAGE", -- [19]
+				"DAMAGE", -- [20]
+				"DAMAGE", -- [21]
+				"DAMAGE", -- [22]
+				"DAMAGE", -- [23]
+				"DAMAGE", -- [24]
+				"DAMAGE", -- [25]
+				"DAMAGE", -- [26]
+				"DAMAGE", -- [27]
+				"DAMAGE", -- [28]
+				"DAMAGE", -- [29]
+				"DAMAGE", -- [30]
+				"DAMAGE", -- [31]
+				"DAMAGE", -- [32]
+				"DAMAGE", -- [33]
+				"DAMAGE", -- [34]
+				"DAMAGE", -- [35]
+				"DAMAGE", -- [36]
+				"DAMAGE", -- [37]
+				"DAMAGE", -- [38]
+				"DAMAGE", -- [39]
+				"DAMAGE", -- [40]
+				"DAMAGE", -- [41]
+				"DAMAGE", -- [42]
+				"DAMAGE", -- [43]
+				"DAMAGE", -- [44]
+				"DAMAGE", -- [45]
+				"DAMAGE", -- [46]
+				"DAMAGE", -- [47]
+				"DAMAGE", -- [48]
+				"DAMAGE", -- [49]
+				"DAMAGE", -- [50]
+			},
+			["TimeWindows"] = {
+				["ActiveTime"] = {
+					65.93, -- [1]
+				},
+				["DamageTaken"] = {
+					171, -- [1]
+				},
+				["TimeDamage"] = {
+					65.93, -- [1]
+				},
+				["DOT_Time"] = {
+					63, -- [1]
+				},
+				["Damage"] = {
+					889, -- [1]
+				},
+			},
+			["enClass"] = "SHAMAN",
+			["unit"] = "Audanah-Thrall",
+			["level"] = 8,
+			["LastDamageAbility"] = "Melee",
+			["LastFightIn"] = 9,
+			["LastEventNum"] = {
+				[46] = 3.88888888888889,
+				[13] = 2.22222222222222,
+				[26] = 2.5,
+				[10] = 1.94444444444444,
+				[24] = 1.11111111111111,
+				[29] = 1.94444444444444,
+				[8] = 3.88888888888889,
+				[31] = 2.22222222222222,
+				[50] = 5,
+				[18] = 1.11111111111111,
+				[19] = 1.11111111111111,
+				[4] = 3.88888888888889,
+				[21] = 1.38888888888889,
+				[22] = 1.11111111111111,
+				[44] = 4.16666666666667,
+				[15] = 2.22222222222222,
+			},
+			["type"] = "Grouped",
+			["FightsSaved"] = 5,
+			["LastDamageTaken"] = 7,
+			["TimeLast"] = {
+				["DamageTaken"] = 684630.961,
+				["ActiveTime"] = 684608.962,
+				["TimeDamage"] = 684608.962,
+				["OVERALL"] = 684630.961,
+				["DOT_Time"] = 684508.957,
+				["Damage"] = 684608.962,
+			},
+			["Owner"] = false,
+			["LastAbility"] = 684609.774,
+			["NextEventNum"] = 11,
+			["LastEventHealthNum"] = {
+				86.9444444444445, -- [1]
+				86.9444444444445, -- [2]
+				86.9444444444445, -- [3]
+				86.9444444444445, -- [4]
+				86.9444444444445, -- [5]
+				86.9444444444445, -- [6]
+				83.0555555555556, -- [7]
+				90, -- [8]
+				100, -- [9]
+				100, -- [10]
+				92.2222222222222, -- [11]
+				100, -- [12]
+				100, -- [13]
+				97.7777777777778, -- [14]
+				97.7777777777778, -- [15]
+				95.5555555555556, -- [16]
+				95.5555555555556, -- [17]
+				94.4444444444445, -- [18]
+				93.3333333333333, -- [19]
+				93.3333333333333, -- [20]
+				91.9444444444445, -- [21]
+				90.8333333333333, -- [22]
+				90.8333333333333, -- [23]
+				89.7222222222222, -- [24]
+				89.7222222222222, -- [25]
+				89.7222222222222, -- [26]
+				89.7222222222222, -- [27]
+				87.2222222222222, -- [28]
+				87.2222222222222, -- [29]
+				85.2777777777778, -- [30]
+				85.2777777777778, -- [31]
+				83.0555555555556, -- [32]
+				83.0555555555556, -- [33]
+				100, -- [34]
+				100, -- [35]
+				100, -- [36]
+				100, -- [37]
+				100, -- [38]
+				100, -- [39]
+				100, -- [40]
+				100, -- [41]
+				100, -- [42]
+				100, -- [43]
+				100, -- [44]
+				95.8333333333333, -- [45]
+				95.8333333333333, -- [46]
+				91.9444444444445, -- [47]
+				91.9444444444445, -- [48]
+				91.9444444444445, -- [49]
+				91.9444444444445, -- [50]
+			},
+			["LastEvents"] = {
+				"Audanah-Thrall Lightning Bolt Venture Co. Worker Hit -35 (Nature)", -- [1]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -11 (Fire)", -- [2]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -11 (Fire)", -- [3]
+				"Venture Co. Worker Melee Audanah-Thrall Hit -14 (Physical)", -- [4]
+				"Audanah-Thrall Lightning Bolt Venture Co. Worker Hit -34 (Nature)", -- [5]
+				"Audanah-Thrall Earth Shock Venture Co. Worker Hit -49 (Nature)", -- [6]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -11 (Fire)", -- [7]
+				"Venture Co. Worker Melee Audanah-Thrall Hit -14 (Physical)", -- [8]
+				"Audanah-Thrall Flame Shock Prairie Stalker Hit -22 (Fire)", -- [9]
+				"Prairie Stalker Melee Audanah-Thrall Hit -7 (Physical)", -- [10]
+				"Audanah-Thrall Lightning Bolt Venture Co. Worker Hit -35 (Nature)", -- [11]
+				"Audanah-Thrall Flame Shock Venture Co. Supervisor Hit -22 (Fire)", -- [12]
+				"Venture Co. Supervisor Melee Audanah-Thrall Hit -8 (Physical)", -- [13]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Tick -11 (Fire)", -- [14]
+				"Venture Co. Supervisor Melee Audanah-Thrall Hit -8 (Physical)", -- [15]
+				"Audanah-Thrall Lightning Bolt Venture Co. Supervisor Hit -35 (Nature)", -- [16]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Crit -23 (Fire)", -- [17]
+				"Venture Co. Supervisor Motivate (DoT) Audanah-Thrall Tick -4 (Shadow)", -- [18]
+				"Venture Co. Supervisor Motivate (DoT) Audanah-Thrall Tick -4 (Shadow)", -- [19]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Tick -11 (Fire)", -- [20]
+				"Venture Co. Supervisor Motivate (DoT) Audanah-Thrall Tick -5 (Shadow)", -- [21]
+				"Venture Co. Supervisor Motivate (DoT) Audanah-Thrall Tick -4 (Shadow)", -- [22]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Tick -11 (Fire)", -- [23]
+				"Venture Co. Supervisor Motivate (DoT) Audanah-Thrall Tick -4 (Shadow)", -- [24]
+				"Audanah-Thrall Lightning Bolt Venture Co. Supervisor Hit -35 (Nature)", -- [25]
+				"Venture Co. Supervisor Melee Audanah-Thrall Hit -9 (Physical)", -- [26]
+				"Audanah-Thrall Flame Shock Venture Co. Supervisor Hit -22 (Fire)", -- [27]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Tick -12 (Fire)", -- [28]
+				"Venture Co. Supervisor Melee Audanah-Thrall Hit -7 (Physical)", -- [29]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Tick -11 (Fire)", -- [30]
+				"Venture Co. Supervisor Melee Audanah-Thrall Hit -8 (Physical)", -- [31]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Supervisor Tick -11 (Fire)", -- [32]
+				"Audanah-Thrall Lightning Bolt Venture Co. Supervisor Hit -35 (Nature)", -- [33]
+				"Audanah-Thrall Flame Shock Venture Co. Worker Hit -22 (Fire)", -- [34]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -11 (Fire)", -- [35]
+				"Audanah-Thrall Lightning Bolt Venture Co. Worker Hit -35 (Nature)", -- [36]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -12 (Fire)", -- [37]
+				"Audanah-Thrall Flame Shock Venture Co. Worker Hit -22 (Fire)", -- [38]
+				"Audanah-Thrall Flame Shock Supervisor Fizsprocket Hit -22 (Fire)", -- [39]
+				"Audanah-Thrall Flame Shock Supervisor Fizsprocket Hit -21 (Fire)", -- [40]
+				"Audanah-Thrall Flame Shock (DoT) Supervisor Fizsprocket Tick -12 (Fire)", -- [41]
+				"Audanah-Thrall Flame Shock Supervisor Fizsprocket Hit -22 (Fire)", -- [42]
+				"Audanah-Thrall Flame Shock (DoT) Supervisor Fizsprocket Tick -12 (Fire)", -- [43]
+				"Venture Co. Worker Melee Audanah-Thrall Hit -15 (Physical)", -- [44]
+				"Audanah-Thrall Flame Shock Venture Co. Worker Hit -22 (Fire)", -- [45]
+				"Venture Co. Worker Melee Audanah-Thrall Hit -14 (Physical)", -- [46]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -11 (Fire)", -- [47]
+				"Audanah-Thrall Lightning Bolt Venture Co. Worker Hit -35 (Nature)", -- [48]
+				"Audanah-Thrall Flame Shock (DoT) Venture Co. Worker Tick -11 (Fire)", -- [49]
+				"Venture Co. Worker Melee Audanah-Thrall Hit -18 (Physical)", -- [50]
+			},
+			["Name"] = "Audanah-Thrall",
+			["LastEventIncoming"] = {
+				false, -- [1]
+				false, -- [2]
+				false, -- [3]
+				true, -- [4]
+				false, -- [5]
+				false, -- [6]
+				false, -- [7]
+				true, -- [8]
+				false, -- [9]
+				true, -- [10]
+				false, -- [11]
+				false, -- [12]
+				true, -- [13]
+				false, -- [14]
+				true, -- [15]
+				false, -- [16]
+				false, -- [17]
+				true, -- [18]
+				true, -- [19]
+				false, -- [20]
+				true, -- [21]
+				true, -- [22]
+				false, -- [23]
+				true, -- [24]
+				false, -- [25]
+				true, -- [26]
+				false, -- [27]
+				false, -- [28]
+				true, -- [29]
+				false, -- [30]
+				true, -- [31]
+				false, -- [32]
+				false, -- [33]
+				false, -- [34]
+				false, -- [35]
+				false, -- [36]
+				false, -- [37]
+				false, -- [38]
+				false, -- [39]
+				false, -- [40]
+				false, -- [41]
+				false, -- [42]
+				false, -- [43]
+				true, -- [44]
+				false, -- [45]
+				true, -- [46]
+				false, -- [47]
+				false, -- [48]
+				false, -- [49]
+				true, -- [50]
+			},
+			["LastEventTimes"] = {
+				684505.206, -- [1]
+				684505.206, -- [2]
+				684507.287, -- [3]
+				684507.287, -- [4]
+				684507.378, -- [5]
+				684507.378, -- [6]
+				684509.238, -- [7]
+				684513.432, -- [8]
+				684609.774, -- [9]
+				684631.133, -- [10]
+				683949.187, -- [11]
+				684277.927, -- [12]
+				684279.053, -- [13]
+				684279.926, -- [14]
+				684281.067, -- [15]
+				684281.624, -- [16]
+				684281.928, -- [17]
+				684282.723, -- [18]
+				684283.71, -- [19]
+				684283.933, -- [20]
+				684284.712, -- [21]
+				684285.713, -- [22]
+				684285.934, -- [23]
+				684286.712, -- [24]
+				684286.875, -- [25]
+				684287.684, -- [26]
+				684287.684, -- [27]
+				684287.924, -- [28]
+				684289.531, -- [29]
+				684289.886, -- [30]
+				684291.344, -- [31]
+				684291.889, -- [32]
+				684293.046, -- [33]
+				684350.803, -- [34]
+				684352.758, -- [35]
+				684354.363, -- [36]
+				684354.847, -- [37]
+				684355.773, -- [38]
+				684359.844, -- [39]
+				684361.411, -- [40]
+				684361.955, -- [41]
+				684362.972, -- [42]
+				684363.861, -- [43]
+				684494.078, -- [44]
+				684499.273, -- [45]
+				684500.872, -- [46]
+				684501.27, -- [47]
+				684502.981, -- [48]
+				684503.283, -- [49]
+				684504.133, -- [50]
+			},
+			["Fights"] = {
+				["CurrentFightData"] = {
+					["DOTs"] = {
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Venture Co. Worker"] = {
+									["count"] = 0,
+								},
+								["Supervisor Fizsprocket"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Fire"] = 0,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 0,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight1"] = {
+					["DOTs"] = {
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Venture Co. Supervisor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 22,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Fire"] = 22,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Motivate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 22,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight4"] = {
+					["DOTs"] = {
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Venture Co. Worker"] = {
+									["count"] = 15,
+								},
+							},
+							["amount"] = 15,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 61,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 4,
+								},
+							},
+							["amount"] = 4,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 6,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 61,
+					},
+					["DOT_Time"] = 15,
+					["Damage"] = 230,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 153,
+						["Fire"] = 77,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 4,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 49,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 104,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 55,
+								},
+								["Flame Shock"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 230,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 61,
+								},
+							},
+							["amount"] = 61,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 4,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 4,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 3.72,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 6.24,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 13.46,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 13.46,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 49,
+									["count"] = 1,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 49,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 34,
+									["count"] = 3,
+									["amount"] = 104,
+								},
+							},
+							["count"] = 3,
+							["amount"] = 104,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Tick"] = {
+									["max"] = 11,
+									["min"] = 11,
+									["count"] = 5,
+									["amount"] = 55,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 55,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 22,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 22,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 13.46,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 3.72,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 6.24,
+								},
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 13.46,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["LastFightData"] = {
+					["DOTs"] = {
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Venture Co. Supervisor"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["ElementDoneResist"] = {
+					},
+					["Ressed"] = 0,
+					["DamageTaken"] = 0,
+					["RageGainedFrom"] = {
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DeathCount"] = 0,
+					["HOT_Time"] = 0,
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["ElementTakenAbsorb"] = {
+					},
+					["ElementTaken"] = {
+						["Melee"] = 0,
+						["Shadow"] = 0,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 22,
+					["ElementTakenBlock"] = {
+					},
+					["TimeHeal"] = 0,
+					["RessedWho"] = {
+					},
+					["Dispels"] = 0,
+					["ElementTakenResist"] = {
+					},
+					["ElementDoneAbsorb"] = {
+					},
+					["FAttacks"] = {
+					},
+					["RunicPowerGainedFrom"] = {
+					},
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Fire"] = 22,
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["PartialBlock"] = {
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 0,
+								},
+								["Motivate (DoT)"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["EnergyGainedFrom"] = {
+					},
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["CCBroken"] = {
+					},
+					["ElementDoneBlock"] = {
+					},
+					["TimeHealing"] = {
+					},
+					["OverHeals"] = {
+					},
+					["ManaGainedFrom"] = {
+					},
+					["RunicPowerGained"] = {
+					},
+					["CCBreak"] = 0,
+					["RageGained"] = {
+					},
+					["HealedWho"] = {
+					},
+					["EnergyGain"] = 0,
+					["ManaGained"] = {
+					},
+					["FDamage"] = 0,
+					["Interrupts"] = 0,
+					["Overhealing"] = 0,
+					["TimeSpent"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["WhoDispelled"] = {
+					},
+					["InterruptData"] = {
+					},
+					["RunicPowerGain"] = 0,
+					["Heals"] = {
+					},
+					["WhoHealed"] = {
+					},
+					["EnergyGained"] = {
+					},
+					["ActiveTime"] = 3.5,
+					["Healing"] = 0,
+					["FDamagedWho"] = {
+					},
+					["Dispelled"] = 0,
+					["Attacks"] = {
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 22,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 22,
+						},
+					},
+					["HealingTaken"] = 0,
+					["RageGain"] = 0,
+					["TimeDamage"] = 3.5,
+					["TimeDamaging"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["ManaGain"] = 0,
+					["HOTs"] = {
+					},
+					["DispelledWho"] = {
+					},
+				},
+				["Fight3"] = {
+					["DOTs"] = {
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Venture Co. Worker"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeSpent"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["DamageTaken"] = 14,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 1,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 1,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 0,
+					["ElementTaken"] = {
+						["Melee"] = 14,
+					},
+					["DOT_Time"] = 0,
+					["Damage"] = 0,
+					["ElementDone"] = {
+						["Nature"] = 0,
+						["Fire"] = 0,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 1,
+								},
+							},
+							["amount"] = 1,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["TimeDamage"] = 0,
+					["TimeDamaging"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 0,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 0,
+								},
+								["Flame Shock"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+					["Attacks"] = {
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+								["Tick"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 0,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 0,
+						},
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 14,
+								},
+							},
+							["amount"] = 14,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 0,
+								},
+								["Crit"] = {
+									["count"] = 0,
+								},
+								["Hit"] = {
+									["count"] = 0,
+								},
+							},
+							["amount"] = 0,
+						},
+					},
+				},
+				["OverallData"] = {
+					["DOTs"] = {
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Venture Co. Supervisor"] = {
+									["count"] = 21,
+								},
+								["Supervisor Fizsprocket"] = {
+									["count"] = 6,
+								},
+								["Venture Co. Worker"] = {
+									["count"] = 36,
+								},
+							},
+							["amount"] = 63,
+						},
+					},
+					["TimeSpent"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 3.8,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 10.51,
+								},
+								["Flame Shock"] = {
+									["count"] = 4.31,
+								},
+							},
+							["amount"] = 18.62,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Flame Shock (DoT)"] = {
+									["count"] = 1.43,
+								},
+								["Flame Shock"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 7.52,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 7.79,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 17.07,
+								},
+								["Flame Shock"] = {
+									["count"] = 11.43,
+								},
+							},
+							["amount"] = 36.29,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["DamageTaken"] = 171,
+					["PartialResist"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 13,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Resist"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 0,
+							["amount"] = 5,
+						},
+					},
+					["PartialAbsorb"] = {
+						["Melee"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 13,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 13,
+							["amount"] = 0,
+						},
+						["Motivate (DoT)"] = {
+							["Details"] = {
+								["No Absorb"] = {
+									["max"] = 0,
+									["min"] = 0,
+									["count"] = 5,
+									["amount"] = 0,
+								},
+							},
+							["count"] = 5,
+							["amount"] = 0,
+						},
+					},
+					["ActiveTime"] = 65.93,
+					["ElementTaken"] = {
+						["Melee"] = 150,
+						["Shadow"] = 21,
+					},
+					["DOT_Time"] = 63,
+					["Damage"] = 889,
+					["ElementDone"] = {
+						["Nature"] = 397,
+						["Fire"] = 492,
+					},
+					["ElementHitsTaken"] = {
+						["Melee"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 13,
+								},
+							},
+							["amount"] = 13,
+						},
+						["Shadow"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 5,
+								},
+							},
+							["amount"] = 5,
+						},
+					},
+					["DamagedWho"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 105,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 90,
+								},
+								["Flame Shock"] = {
+									["count"] = 44,
+								},
+							},
+							["amount"] = 239,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Flame Shock (DoT)"] = {
+									["count"] = 24,
+								},
+								["Flame Shock"] = {
+									["count"] = 65,
+								},
+							},
+							["amount"] = 89,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 49,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 243,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 159,
+								},
+								["Flame Shock"] = {
+									["count"] = 88,
+								},
+							},
+							["amount"] = 539,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 22,
+								},
+							},
+							["amount"] = 22,
+						},
+					},
+					["TimeDamage"] = 65.93,
+					["TimeDamaging"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Lightning Bolt"] = {
+									["count"] = 3.8,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 10.51,
+								},
+								["Flame Shock"] = {
+									["count"] = 4.31,
+								},
+							},
+							["amount"] = 18.62,
+						},
+						["Supervisor Fizsprocket"] = {
+							["Details"] = {
+								["Flame Shock (DoT)"] = {
+									["count"] = 1.43,
+								},
+								["Flame Shock"] = {
+									["count"] = 6.09,
+								},
+							},
+							["amount"] = 7.52,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Earth Shock"] = {
+									["count"] = 0,
+								},
+								["Lightning Bolt"] = {
+									["count"] = 7.79,
+								},
+								["Flame Shock (DoT)"] = {
+									["count"] = 17.07,
+								},
+								["Flame Shock"] = {
+									["count"] = 11.43,
+								},
+							},
+							["amount"] = 36.29,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Flame Shock"] = {
+									["count"] = 3.5,
+								},
+							},
+							["amount"] = 3.5,
+						},
+					},
+					["Attacks"] = {
+						["Earth Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 49,
+									["min"] = 49,
+									["count"] = 1,
+									["amount"] = 49,
+								},
+							},
+							["count"] = 1,
+							["amount"] = 49,
+						},
+						["Lightning Bolt"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 35,
+									["min"] = 34,
+									["count"] = 10,
+									["amount"] = 348,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 348,
+						},
+						["Flame Shock (DoT)"] = {
+							["Details"] = {
+								["Crit"] = {
+									["max"] = 24,
+									["min"] = 23,
+									["count"] = 3,
+									["amount"] = 70,
+								},
+								["Tick"] = {
+									["max"] = 12,
+									["min"] = 11,
+									["count"] = 18,
+									["amount"] = 203,
+								},
+							},
+							["count"] = 21,
+							["amount"] = 273,
+						},
+						["Flame Shock"] = {
+							["Details"] = {
+								["Hit"] = {
+									["max"] = 22,
+									["min"] = 21,
+									["count"] = 10,
+									["amount"] = 219,
+								},
+							},
+							["count"] = 10,
+							["amount"] = 219,
+						},
+					},
+					["WhoDamaged"] = {
+						["Venture Co. Supervisor"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 40,
+								},
+								["Motivate (DoT)"] = {
+									["count"] = 21,
+								},
+							},
+							["amount"] = 61,
+						},
+						["Prairie Stalker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 7,
+								},
+							},
+							["amount"] = 7,
+						},
+						["Venture Co. Worker"] = {
+							["Details"] = {
+								["Melee"] = {
+									["count"] = 103,
+								},
+							},
+							["amount"] = 103,
+						},
+					},
+					["ElementHitsDone"] = {
+						["Nature"] = {
+							["Details"] = {
+								["Hit"] = {
+									["count"] = 11,
+								},
+							},
+							["amount"] = 11,
+						},
+						["Fire"] = {
+							["Details"] = {
+								["Tick"] = {
+									["count"] = 18,
+								},
+								["Crit"] = {
+									["count"] = 3,
+								},
+								["Hit"] = {
+									["count"] = 10,
+								},
+							},
+							["amount"] = 31,
+						},
+					},
+				},
+			},
+			["UnitLockout"] = 683937.953,
+			["LastActive"] = 684630.961,
+		},
+	},
+	["FightNum"] = 9,
+	["CombatTimes"] = {
+		{
+			683937.953, -- [1]
+			683950.962, -- [2]
+			"21:57:18", -- [3]
+			"21:57:31", -- [4]
+			"Venture Co. Worker", -- [5]
+		}, -- [1]
+		{
+			684156.955, -- [1]
+			684195.959, -- [2]
+			"22:00:58", -- [3]
+			"22:01:36", -- [4]
+			"Taureis-Thrall", -- [5]
+		}, -- [2]
+		{
+			684276.954, -- [1]
+			684294.952, -- [2]
+			"22:02:58", -- [3]
+			"22:03:15", -- [4]
+			"Venture Co. Supervisor", -- [5]
+		}, -- [3]
+		{
+			684341.954, -- [1]
+			684365.956, -- [2]
+			"22:04:02", -- [3]
+			"22:04:26", -- [4]
+			"Venture Co. Worker", -- [5]
+		}, -- [4]
+		{
+			684376.956, -- [1]
+			684381.957, -- [2]
+			"22:04:38", -- [3]
+			"22:04:42", -- [4]
+			"Venture Co. Supervisor", -- [5]
+		}, -- [5]
+		{
+			684493.957, -- [1]
+			684509.955, -- [2]
+			"22:06:34", -- [3]
+			"22:06:50", -- [4]
+			"Venture Co. Worker", -- [5]
+		}, -- [6]
+		{
+			684512.955, -- [1]
+			684531.961, -- [2]
+			"22:06:53", -- [3]
+			"22:07:12", -- [4]
+			"Venture Co. Worker", -- [5]
+		}, -- [7]
+		{
+			684549.958, -- [1]
+			684552.959, -- [2]
+			"22:07:30", -- [3]
+			"22:07:33", -- [4]
+			"Supervisor Fizsprocket", -- [5]
+		}, -- [8]
+		{
+			684604.96, -- [1]
+			684613.956, -- [2]
+			"22:08:25", -- [3]
+			"22:08:34", -- [4]
+			"Prairie Stalker", -- [5]
+		}, -- [9]
+	},
+	["FoughtWho"] = {
+		"Prairie Stalker 22:08:25-22:08:34", -- [1]
+		"Supervisor Fizsprocket 22:07:30-22:07:33", -- [2]
+		"Venture Co. Worker 22:06:53-22:07:12", -- [3]
+		"Venture Co. Worker 22:06:34-22:06:50", -- [4]
+		"Venture Co. Supervisor 22:04:38-22:04:42", -- [5]
+	},
+}

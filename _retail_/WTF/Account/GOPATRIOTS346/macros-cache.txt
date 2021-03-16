@@ -1,0 +1,57 @@
+VER 3 0000000000000026 "AAP_MACRO" "INV_MISC_QUESTIONMARK"
+/script print('no button yet')
+END
+VER 3 0000000000000025 "Arena" "SPELL_SHADOW_TELEPORT"
+#showtooltip Hand of Freedom
+/cast Hand of Freedom [@Hatenicholas]
+END
+VER 3 0000000000000029 "Cyclone" "132207"
+/cast [@focus] Cyclone
+END
+VER 3 000000000000000E "Decursive" "INV_Misc_QuestionMark"
+/stopcasting
+/cast [target=mouseover,nomod,exists] Cleanse;  [target=mouseover,exists,mod:ctrl] Cleanse; [target=mouseover,exists,mod:shift] Cleanse
+END
+VER 3 0000000000000028 "Foreskin" "136112"
+#showtooltip Barkskin
+/cast Barkskin
+/cast [@Ozeroth] Ironbark 
+/use Dread Gladiator's Medallion
+END
+VER 3 0000000000000010 "H OK" "Ability_Creature_Cursed_02"
+/target Ahn'kahar Guardian
+END
+VER 3 0000000000000014 "HELP" "INV_Misc_QuestionMark"
+Help! I'm webbed!
+END
+VER 3 0000000000000022 "Nick" "INV_Misc_QuestionMark"
+Nick sucks
+END
+VER 3 0000000000000015 "Recount" "Ability_Druid_Dreamstate"
+/recount show
+END
+VER 3 0000000000000023 "Rune of Power" "SPELL_MAGE_ICEFLOWS"
+/cast ice floes
+/cast rune of power
+END
+VER 3 000000000000001F "sit" "INV_Misc_QuestionMark"
+/sit
+END
+VER 3 0000000000000021 "Stand" "INV_Misc_QuestionMark"
+/stand
+END
+VER 3 000000000000001A "TARGET" "INV_Misc_QuestionMark"
+/target scion
+END
+VER 3 0000000000000017 "ToC" "INV_Misc_QuestionMark"
+/tar Snobold Vassal
+END
+VER 3 0000000000000012 "web duty" "INV_Misc_QuestionMark"
+/tar web
+END
+VER 3 0000000000000024 "Yeah" "INV_MISC_QUESTIONMARK"
+/target Defiled Soul
+END
+VER 3 000000000000001E "Zoom" "INV_Misc_QuestionMark"
+/console cameraDistanceMaxFactor 4
+END

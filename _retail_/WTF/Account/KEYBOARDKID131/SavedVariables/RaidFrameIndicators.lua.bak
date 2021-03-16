@@ -1,0 +1,32 @@
+
+IndicatorsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
+		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
+	},
+	["profiles"] = {
+		["Corpsel - Alexstrasza"] = {
+		},
+		["Mafiki - Alexstrasza"] = {
+		},
+		["Velosara - Thrall"] = {
+		},
+		["Fackligery - Sargeras"] = {
+		},
+		["Chonkcity - Thrall"] = {
+		},
+		["Amarelli - Hyjal"] = {
+		},
+		["Corpselus - Thrall"] = {
+		},
+	},
+}

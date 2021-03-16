@@ -1,0 +1,23 @@
+
+DataStore_StatsDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["lastUpdate"] = 1469674819,
+				["Stats"] = {
+					["Ranged"] = "1-2|0|0|0|16.190908432007",
+					["HealthMax"] = 212760,
+					["Melee"] = "3083-3514|2.2590000629425|3721|0|16.190908432007|0",
+					["MaxPower"] = "6|100",
+					["Defense"] = "1868|400|3|9.4108734130859|0|0",
+					["PVP"] = "13693|0",
+					["Base"] = "3721|1068|3546|569|1868",
+					["Spell"] = "569|569|0|16.190908432007|624|0",
+				},
+			},
+		},
+	},
+}

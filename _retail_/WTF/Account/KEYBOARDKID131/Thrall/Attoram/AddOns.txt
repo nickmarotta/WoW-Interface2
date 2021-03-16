@@ -1,0 +1,4 @@
+DynamicCam: disabled
+Recount: enabled
+ConsolePort: disabled
+ConsolePortKeyboard: disabled

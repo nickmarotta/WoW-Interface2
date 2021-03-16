@@ -1,0 +1,23 @@
+
+Gladius2DB = {
+	["profileKeys"] = {
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
+	},
+	["profiles"] = {
+		["Eyowen - Thrall"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1094.311617575731,
+			},
+			["y"] = {
+				["arena1"] = 594.3221858419929,
+			},
+		},
+		["Awaste - Thrall"] = {
+			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
+		},
+	},
+}

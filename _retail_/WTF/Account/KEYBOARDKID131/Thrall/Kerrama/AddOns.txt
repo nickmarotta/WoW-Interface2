@@ -1,0 +1,13 @@
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+ConsolePortUI: disabled
+ConsolePortUI_NPC: disabled
+WeakAurasCompanion: enabled
+ConsolePort: disabled
+ConsolePortHelp: disabled
+ConsolePortKeyboard: disabled
+ConsolePortLoader: disabled
+VuhDoOptions: disabled
+VuhDo: disabled
+Quartz: enabled

@@ -1,0 +1,33 @@
+
+DataStore_CharactersDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["XPMax"] = 657000,
+				["played"] = 6199854,
+				["guildRankName"] = "Recruit",
+				["isResting"] = true,
+				["lastUpdate"] = 1469674848,
+				["class"] = "Death Knight",
+				["race"] = "Blood Elf",
+				["level"] = 100,
+				["XP"] = 0,
+				["RestXP"] = 0,
+				["money"] = 131748506,
+				["gender"] = 2,
+				["subZone"] = "Corpselus's Garrison",
+				["zone"] = "Frostwall",
+				["guildRankIndex"] = 6,
+				["name"] = "Corpselus",
+				["faction"] = "Horde",
+				["englishRace"] = "BloodElf",
+				["guildName"] = "Phoenix",
+				["lastLogoutTimestamp"] = 1469674848,
+				["englishClass"] = "DEATHKNIGHT",
+			},
+		},
+	},
+}

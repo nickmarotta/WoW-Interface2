@@ -1,0 +1,71 @@
+
+AutoVendorDB = {
+	["profileKeys"] = {
+		["Attorum - Thrall"] = "Attorum - Thrall",
+		["Vulara - Thrall"] = "Vulara - Thrall",
+		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
+		["Syandea - Hyjal"] = "Syandea - Hyjal",
+		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Corptwo - Thrall"] = "Corptwo - Thrall",
+		["Songfire - Hyjal"] = "Songfire - Hyjal",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Zynzo - Thrall"] = "Zynzo - Thrall",
+		["Zarafina - Thrall"] = "Zarafina - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Naraka - Thrall"] = "Naraka - Thrall",
+		["Tyuty - Thrall"] = "Tyuty - Thrall",
+		["Naakari - Hyjal"] = "Naakari - Hyjal",
+		["Kerrama - Thrall"] = "Kerrama - Thrall",
+		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
+		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
+		["Zarathia - Thrall"] = "Zarathia - Thrall",
+		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
+		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+	},
+	["profiles"] = {
+		["Attorum - Thrall"] = {
+		},
+		["Mafiki - Alexstrasza"] = {
+		},
+		["Fackligery - Sargeras"] = {
+		},
+		["Amarelli - Hyjal"] = {
+		},
+		["Corpselus - Thrall"] = {
+			["guildbankrepair"] = true,
+		},
+		["Corpsel - Alexstrasza"] = {
+		},
+		["Velosara - Thrall"] = {
+		},
+		["Naraka - Thrall"] = {
+		},
+		["Zynzo - Thrall"] = {
+		},
+		["Zarafina - Thrall"] = {
+		},
+		["Chonkcity - Thrall"] = {
+		},
+		["Oturran - Thrall"] = {
+		},
+		["Ronami - Thrall"] = {
+		},
+		["Badnäme - Alexstrasza"] = {
+		},
+		["Zarathia - Thrall"] = {
+		},
+		["Salocinn - Thrall"] = {
+		},
+		["Mafiki - Thrall"] = {
+		},
+		["Vulara - Thrall"] = {
+		},
+	},
+}

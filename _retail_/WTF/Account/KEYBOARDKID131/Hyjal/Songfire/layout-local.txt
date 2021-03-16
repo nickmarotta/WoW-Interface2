@@ -1,0 +1,8 @@
+Version: 1
+Frame: OneBagFrame
+FrameLevel: 1
+Anchor: CENTER
+X: 151
+Y: -195
+W: 481
+H: 266

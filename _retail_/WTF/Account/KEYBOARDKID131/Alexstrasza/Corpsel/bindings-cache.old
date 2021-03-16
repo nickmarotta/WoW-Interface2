@@ -1,0 +1,26 @@
+BINDINGMODE 0
+bind Q ACTIONBUTTON11
+bind E ACTIONBUTTON12
+bind X CLICK BT4Button38:LeftButton
+bind Z CLICK BT4Button84:LeftButton
+bind - NONE
+bind = NONE
+bind F1 CLICK BT4Button13:LeftButton
+bind F2 CLICK BT4Button14:LeftButton
+bind F3 CLICK BT4Button15:LeftButton
+bind F4 CLICK BT4Button16:LeftButton
+bind F5 CLICK BT4Button17:LeftButton
+bind F CLICK BT4Button26:LeftButton
+bind F8 CLICK BT4Button20:LeftButton
+bind F9 CLICK BT4Button21:LeftButton
+bind F10 NONE
+bind F11 NONE
+bind F12 NONE
+bind NUMPAD1 CLICK BT4Button22:LeftButton
+bind NUMPAD3 CLICK BT4Button24:LeftButton
+bind F6 CLICK BT4Button18:LeftButton
+bind F7 CLICK BT4Button19:LeftButton
+bind ` CLICK BT4Button25:LeftButton
+bind NUMPAD2 CLICK BT4Button23:LeftButton
+bind [ PAWN_COMPARE_LEFT
+bind ] PAWN_COMPARE_RIGHT

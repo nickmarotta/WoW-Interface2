@@ -1,0 +1,55 @@
+VER 3 010000000000000B " " "132096"
+/cast [@arena1] Mind Freeze
+END
+VER 3 0100000000000002 " " "132172"
+#showtooltip 15
+/use 15
+END
+VER 3 0100000000000001 " " "132307"
+#showtooltip 6
+/use 6
+END
+VER 3 0100000000000014 " " "644389"
+/cast [@focus] Asphyxiate
+END
+VER 3 0100000000000016 " " "132303"
+/cast [@focus] Death Grip
+END
+VER 3 010000000000001B " ALL" "INV_MISC_QUESTIONMARK"
+#showtooltip Pillar of Frost 
+/cast Empower Rune Weapon
+/use Sinful Aspirant's Badge of Ferocity
+/cast Pillar of Frost
+/use Spare Meat Hook
+/use Overwhelming Power Crystal
+/cast Raise Dead
+/cast Chill Streak
+END
+VER 3 010000000000001C "Feet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Death's Due
+END
+VER 3 010000000000000A "focus" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/use [@focus,exists,nodead][]Raise Ally
+END
+VER 3 0100000000000019 "Heal" "136066"
+#showtooltip Lichborne
+/cast !Lichborne;
+/cast [target=player] Death Coil
+END
+VER 3 0100000000000013 "Kred" "135885"
+/target Kred
+/cast Raise Ally
+END
+VER 3 010000000000001A "Oz" "2065631"
+/target Ozeroth
+/cast Raise Ally
+END
+VER 3 010000000000001D "Suku" "132117"
+/target Suku-Blackrock
+/cast Raise Ally
+END
+VER 3 0100000000000017 "UI Scale" "INV_MISC_QUESTIONMARK"
+ /run SetCVar("UIScale", 0.5)
+END

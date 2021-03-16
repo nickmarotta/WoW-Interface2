@@ -1,0 +1,10 @@
+# Ignore everything 
+* 
+# But descend into directories 
+!*/ 
+# Recursively allow files under subtree 
+!*/WTF/**
+!*/Interface/**
+# You can be specific with these rules 
+#!/somether/deep/path/** 
+!.gitignore

@@ -1,0 +1,4 @@
+VER 3 0100000000000001 " " "ABILITY_CREATURE_CURSED_05"
+#showtooltip Touch of Death
+/cast Touch of Death
+END

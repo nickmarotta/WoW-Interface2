@@ -1,0 +1,120 @@
+
+DeathNoteDB = {
+	["profileKeys"] = {
+		["Attorum - Thrall"] = "Attorum - Thrall",
+		["Vulara - Thrall"] = "Vulara - Thrall",
+		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
+		["Syandea - Hyjal"] = "Syandea - Hyjal",
+		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Corptwo - Thrall"] = "Corptwo - Thrall",
+		["Songfire - Hyjal"] = "Songfire - Hyjal",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Zynzo - Thrall"] = "Zynzo - Thrall",
+		["Zarafina - Thrall"] = "Zarafina - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Naraka - Thrall"] = "Naraka - Thrall",
+		["Tyuty - Thrall"] = "Tyuty - Thrall",
+		["Naakari - Hyjal"] = "Naakari - Hyjal",
+		["Kerrama - Thrall"] = "Kerrama - Thrall",
+		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
+		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
+		["Zarathia - Thrall"] = "Zarathia - Thrall",
+		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
+		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+	},
+	["profiles"] = {
+		["Attorum - Thrall"] = {
+		},
+		["Vulara - Thrall"] = {
+		},
+		["Fackligery - Sargeras"] = {
+		},
+		["Amarelli - Hyjal"] = {
+		},
+		["Syandea - Hyjal"] = {
+		},
+		["Corpsel - Alexstrasza"] = {
+		},
+		["Velosara - Thrall"] = {
+		},
+		["Corptwo - Thrall"] = {
+		},
+		["Songfire - Hyjal"] = {
+		},
+		["Yjuwsgv - Thrall"] = {
+		},
+		["Zynzo - Thrall"] = {
+			["searchbox_text"] = "",
+			["display"] = {
+				["y"] = 3.28204345703125,
+				["x"] = 4.376129150390625,
+				["h"] = 499.9999389648438,
+				["w"] = 700.0000610351562,
+				["namelist"] = 2,
+			},
+		},
+		["Zarafina - Thrall"] = {
+			["searchbox_text"] = "",
+		},
+		["Raluh - Thrall"] = {
+		},
+		["Naraka - Thrall"] = {
+		},
+		["Tyuty - Thrall"] = {
+		},
+		["Naakari - Hyjal"] = {
+		},
+		["Kerrama - Thrall"] = {
+		},
+		["Oturran - Thrall"] = {
+		},
+		["Ronami - Thrall"] = {
+			["searchbox_text"] = "",
+			["display"] = {
+				["namelist"] = 2,
+			},
+		},
+		["Mafiki - Thrall"] = {
+			["searchbox_text"] = "",
+			["display"] = {
+				["namelist"] = 2,
+			},
+		},
+		["Corpselus - Thrall"] = {
+			["searchbox_text"] = "",
+			["display"] = {
+				["columns"] = {
+					60.00002288818359, -- [1]
+					90.00003051757812, -- [2]
+					60.00002288818359, -- [3]
+					99.99996948242188, -- [4]
+				},
+				["w"] = 700.0000610351562,
+				["y"] = 68.90586853027344,
+				["h"] = 500.0000915527344,
+				["namelist"] = 2,
+				["x"] = -9.333526611328125,
+			},
+		},
+		["Badnäme - Alexstrasza"] = {
+		},
+		["Zarathia - Thrall"] = {
+		},
+		["Vartizzle - Thrall"] = {
+		},
+		["Chonkcity - Thrall"] = {
+		},
+		["Mafiki - Alexstrasza"] = {
+			["searchbox_text"] = "",
+		},
+		["Salocinn - Thrall"] = {
+		},
+	},
+}

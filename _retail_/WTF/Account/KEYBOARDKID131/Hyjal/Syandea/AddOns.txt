@@ -1,0 +1,6 @@
+DynamicCam: enabled
+ConsolePort: disabled
+ConsolePortKeyboard: disabled
+ConsolePortUI: disabled
+ConsolePortUI_NPC: disabled
+Immersion: enabled

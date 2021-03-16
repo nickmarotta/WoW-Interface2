@@ -1,0 +1,5 @@
+ConsolePortUI: disabled
+ConsolePortUI_NPC: disabled
+ConsolePort: disabled
+GTFO: disabled
+DynamicCam: disabled

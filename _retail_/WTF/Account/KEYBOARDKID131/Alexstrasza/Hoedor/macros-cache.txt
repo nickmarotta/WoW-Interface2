@@ -1,0 +1,6 @@
+VER 3 0100000000000001 "Burst" "INV_MISC_QUESTIONMARK"
+#showtooltip Berserker Rage
+/cast Berserker Rage
+/cast Recklessness
+/cast Blood Fury
+END

@@ -1,0 +1,13 @@
+BigWigs_Core: enabled
+BigWigs_Options: enabled
+BigWigs_Plugins: enabled
+WeakAurasCompanion: enabled
+Details: disabled
+Details_DataStorage: disabled
+Details_EncounterDetails: disabled
+Details_RaidCheck: disabled
+Details_Streamer: disabled
+Details_TinyThreat: disabled
+Details_Vanguard: disabled
+BossNotes: disabled
+DynamicCam: disabled

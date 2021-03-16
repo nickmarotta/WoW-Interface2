@@ -1,0 +1,2452 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame11"] = {
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:16]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3942:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: Do you have any interest in doing low level dungeons ?",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20840.126,
+					["serverTime"] = 1613536275,
+					["extraData"] = {
+						53, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:23]|h|r [W From] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3943:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: When?",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20847.487,
+					["serverTime"] = 1613536282,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						52, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:28]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3944:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: r n",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20851.864,
+					["serverTime"] = 1613536287,
+					["extraData"] = {
+						53, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:37]|h|r [W From] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3946:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: Oh, sure, how low and what role?",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20861.334,
+					["serverTime"] = 1613536296,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						52, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:31:48]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3950:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: Any but tank",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20872.337,
+					["serverTime"] = 1613536307,
+					["extraData"] = {
+						53, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:17]|h|r [W From] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3955:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: Is low level shadowlands, or earlier?",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20901.539,
+					["serverTime"] = 1613536336,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						52, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:32:52]|h|r [W From] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3957:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cfffefefe|Kq31|k|r|h|cffd8d8d8]|r: Im fine with either, just so I know which character to be on",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20936.214,
+					["serverTime"] = 1613536371,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						52, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [7]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:42]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq31|k:12:3961:BN_INLINE_TOAST_ALERT:0|h[|Kq31|k]|h has gone offline.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 20986.148,
+					["serverTime"] = 1613536421,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:42]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq31|k:12:3962:BN_INLINE_TOAST_ALERT:0|h[|Kq31|k]|h has gone offline.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 20986.148,
+					["serverTime"] = 1613536421,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [9]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:42]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq31|k:12:3963:BN_INLINE_TOAST_ALERT:0|h[|Kq31|k]|h has gone offline.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 20986.148,
+					["serverTime"] = 1613536421,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:33:49]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:3964:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-Battleneticon:14:0:0:0|t|cffa0a0a0|Kq31|k|r|h|cffd8d8d8]|r: Its earlier",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 20993.683,
+					["serverTime"] = 1613536428,
+					["extraData"] = {
+						53, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [11]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:37:42]|h|r [W From] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:4045:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-Battleneticon:14:0:0:0|t|cffa0a0a0|Kq31|k|r|h|cffd8d8d8]|r: This is Josh",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 21226.276,
+					["serverTime"] = 1613536661,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						52, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [12]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:38:05]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:4058:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-Battleneticon:14:0:0:0|t|cffa0a0a0|Kq31|k|r|h|cffd8d8d8]|r: Hi josh",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 21249.609,
+					["serverTime"] = 1613536684,
+					["extraData"] = {
+						53, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:38:07]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:4060:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-Battleneticon:14:0:0:0|t|cffa0a0a0|Kq31|k|r|h|cffd8d8d8]|r: love you",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 21251.314,
+					["serverTime"] = 1613536686,
+					["extraData"] = {
+						53, -- [1]
+						false, -- [2]
+						52, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [14]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:38:40]|h|r [W From] |cffd8d8d8[|r|HBNplayer:|Kq31|k:12:4075:BN_WHISPER:|Kq31|k:Zeddicus#1298|h|TInterface\\FriendsFrame\\Battlenet-Battleneticon:14:0:0:0|t|cffa0a0a0|Kq31|k|r|h|cffd8d8d8]|r: <3",
+					["b"] = 0.9647059440612793,
+					["r"] = 0,
+					["g"] = 1,
+					["timestamp"] = 21284.635,
+					["serverTime"] = 1613536719,
+					["extraData"] = {
+						52, -- [1]
+						false, -- [2]
+						52, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:44:42]|h|r |TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq31|k:12:4136:BN_INLINE_TOAST_ALERT:0|h[|Kq31|k] (|TInterface\\ChatFrame\\UI-ChatIcon-WOW:14:14:0:0|tZeesta)|h has come online.",
+					["b"] = 1,
+					["r"] = 0.5098039507865906,
+					["g"] = 0.7725490927696228,
+					["timestamp"] = 21646.49,
+					["serverTime"] = 1613537081,
+					["extraData"] = {
+						54, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [16]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 22501.652,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [17]
+			},
+			["headIndex"] = 17,
+			["maxElements"] = 128,
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 3,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[23:58:57]|h|r You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [3]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 66,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "|cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Visions of N'Zoth|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 24302.604,
+					["serverTime"] = 1613539738,
+				}, -- [1]
+				{
+					["message"] = "Dungeon Difficulty set to Normal.",
+					["serverTime"] = 1613539753,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24318.616,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [2]
+				{
+					["message"] = "You have invited Zeesta-Blackrock to join your group.",
+					["serverTime"] = 1613539754,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24318.875,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [3]
+				{
+					["message"] = "Zeesta-Blackrock joins the party.",
+					["serverTime"] = 1613539757,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24322.194,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clairbear-Thrall:4:CHANNEL:2|h|cfffefefeClairbear|r|h|cffd8d8d8]|r: GOFUNDME: TRYING TO GET MY MISSIVES, GOAL 0/10000",
+					["serverTime"] = 1613539828,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24393.57,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [5]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:5:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: need guild signs will pay 600g",
+					["serverTime"] = 1613539842,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24406.886,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [6]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Clairbear-Thrall:6:YELL|h|cfffefefeClairbear|r|h|cffd8d8d8]|r: GOFUNDME: TRYING TO GET MY MISSIVES, GOAL 0/10000 WILL SUCK YOUR DICK FOR GOLD",
+					["serverTime"] = 1613539871,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						8, -- [3]
+						9, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24435.788,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [7]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Doobrip-Thrall:7:CHANNEL:2|h|cfffef367Doobrip|r|h|cffd8d8d8]|r: Need DPS for M Altimor",
+					["serverTime"] = 1613539871,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24436.029,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [8]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Masetdrood-Thrall:8:CHANNEL:2|h|cfffe7b09Masetdrood|r|h|cffd8d8d8]|r: WTS Mythic+10-15 in time / Torghast any layer / Twisting Corridors! PST :)",
+					["serverTime"] = 1613539873,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24438.549,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [9]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zerit-Thrall:9:CHANNEL:2|h|cff006fdcZerit|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-246182-3678-94125872|h[Guild: Mist]|h|r 1/10M 10/10H (Tue/Thurs 8pm-11pm EST) is a CE-focused guild recruiting all exceptional DPS for our core roster. PM for more info.",
+					["serverTime"] = 1613539875,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24440.409,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [10]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:10:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: lf guild signs paying 600g",
+					["serverTime"] = 1613539883,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24448.279,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [11]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Smolowo-Thrall:11:CHANNEL:2|h|cfffefefeSmolowo|r|h|cffd8d8d8]|r: is... is it safe now?",
+					["serverTime"] = 1613539886,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24450.898,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [12]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tranity-Thrall:12:CHANNEL:2|h|cffc31d39Tranity|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00The Last Dynasty|r|cffffffff>|r Is a well established and very active social gaming community! We run lots of mythics and plenty of raiding with RBG's on the side! We could always use Tanks and Healers for Mythics and PvP! PST for more info!",
+					["serverTime"] = 1613539902,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						18, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24467.413,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Doobrip-Thrall:13:CHANNEL:2|h|cfffef367Doobrip|r|h|cffd8d8d8]|r: Need DPS for M Altimor PST",
+					["serverTime"] = 1613539926,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24490.98,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Andolari-Thrall:14:CHANNEL:2|h|cfffefefeAndolari|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-106306-3678-89305871|h[Guild: Void]|h|r 9/10H is looking for ranged dps to fill out our mythic roster. Shadow /w OS pref. Mage as well. Tues & Thurs 8 - 11 server. 1900CR RBG team. All welcome to join.",
+					["serverTime"] = 1613539928,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24493.261,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:15:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: LF guild signs paying 600g by guild master ORG",
+					["serverTime"] = 1613539960,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24525.659,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Doobrip-Thrall:16:CHANNEL:2|h|cfffef367Doobrip|r|h|cffd8d8d8]|r: Need DPS for M Altimor PST",
+					["serverTime"] = 1613539981,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24546.254,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vullkân-Thrall:17:CHANNEL:2|h|cffc59a6cVullkân|r|h|cffd8d8d8]|r: wts |cff1eff00|Hitem:164521::::::::60:71:::::::|h[Voodoo Stalker's Mantle]|h|r|cff1eff00|Hitem:164545::::::::60:71:::::::|h[Wild Marauder Pauldrons]|h|r|cff1eff00|Hitem:164399::::::::60:71:::::::|h[Dragonrider's Helmet]|h|r 15k each",
+					["serverTime"] = 1613539997,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						22, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24562.529,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "Greeb Ramrocket yells: The zeppelin to Warsong Hold has just arrived! All aboard for Borean Tundra!",
+					["serverTime"] = 1613540017,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24581.853,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [19]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:19:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: LF guild signs paying 600g each ORG",
+					["serverTime"] = 1613540027,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24592.672,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schmoopie-Thrall:20:CHANNEL:2|h|cff006fdcSchmoopie|r|h|cffd8d8d8]|r: anyone know how to do the floss?",
+					["serverTime"] = 1613540059,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24624.177,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gankles-Thrall:21:CHANNEL:2|h|cfffef367Gankles|r|h|cffd8d8d8]|r: I asked my dentist for tips.",
+					["serverTime"] = 1613540079,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24644.267,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|cff33ff99AutoVendor|r: Automatically sold 2 items for 2|TInterface\\MoneyFrame\\UI-GoldIcon:10:10:2:0|t 87|TInterface\\MoneyFrame\\UI-SilverIcon:10:10:2:0|t 1|TInterface\\MoneyFrame\\UI-CopperIcon:10:10:2:0|t.",
+					["timestamp"] = 24650.768,
+					["serverTime"] = 1613540086,
+				}, -- [23]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:22:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: LF guild signs paying 600g",
+					["serverTime"] = 1613540093,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24658.409,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Valensi-BurningBlade:23:CHANNEL:1|h|cfffefefeValensi|r-|cffbbe8d0Bur|r|h|cffd8d8d8]|r: anyone seen a troll rogue lately lol",
+					["serverTime"] = 1613540094,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24659.749,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clairbear-Thrall:24:CHANNEL:2|h|cfffefefeClairbear|r|h|cffd8d8d8]|r: GOFUNDME: TRYING TO GET MY MISSIVES, GOAL 600/10000 WILL SUCK YOUR DICK FOR GOLD PLEASE",
+					["serverTime"] = 1613540095,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24659.99,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schmoopie-Thrall:25:CHANNEL:2|h|cff006fdcSchmoopie|r|h|cffd8d8d8]|r: did he put you in his dentist chair and show it to you?",
+					["serverTime"] = 1613540105,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24669.915,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Toxicmelo-Ghostlands:26:YELL|h|cff8687edToxicmelo|r-|cff53de0aGho|r|h|cffd8d8d8]|r: GOTTA GO FAST",
+					["serverTime"] = 1613540105,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						8, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24670.167,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [28]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Toxicmelo-Ghostlands:27:YELL|h|cff8687edToxicmelo|r-|cff53de0aGho|r|h|cffd8d8d8]|r: GOTTA GO FAST",
+					["serverTime"] = 1613540105,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						8, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24670.167,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gankles-Thrall:28:CHANNEL:2|h|cfffef367Gankles|r|h|cffd8d8d8]|r: he showed me something else then. he had a BIG needle.",
+					["serverTime"] = 1613540126,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24690.801,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schmoopie-Thrall:29:CHANNEL:2|h|cff006fdcSchmoopie|r|h|cffd8d8d8]|r: did he poke you with it?",
+					["serverTime"] = 1613540141,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24706.447,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:30:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: lf guild sign 600g",
+					["serverTime"] = 1613540143,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24708.555,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Satisfactíon-Thrall:31:CHANNEL:2|h|cfffef367Satisfactíon|r|h|cffd8d8d8]|r: what's gonna be your guild's name?",
+					["serverTime"] = 1613540151,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24716.175,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schmoopie-Thrall:32:CHANNEL:2|h|cff006fdcSchmoopie|r|h|cffd8d8d8]|r: Biden's Patriots",
+					["serverTime"] = 1613540160,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24725.492,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "Forsaken Refugee says: We never asked to be brought back... or to endure this.",
+					["serverTime"] = 1613540163,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						36, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24728.042,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [35]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gálgadot-Thrall:34:CHANNEL:2|h|cffc59a6cGálgadot|r|h|cffd8d8d8]|r: lick our darnassus",
+					["serverTime"] = 1613540163,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24728.295,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Commandokir-Thrall:35:CHANNEL:2|h|cffa9d271Commandokir|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:183035::::::::60:254::5:5:7188:42:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r 70k",
+					["serverTime"] = 1613540166,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24730.959,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:36:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: lf guild signs 600g each",
+					["serverTime"] = 1613540187,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24751.781,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Satisfactíon-Thrall:37:CHANNEL:2|h|cfffef367Satisfactíon|r|h|cffd8d8d8]|r: nice name",
+					["serverTime"] = 1613540193,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						34, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24757.952,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Orangepuddle-Thrall:38:CHANNEL:2|h|cff006fdcOrangepuddle|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00No Warchief!|r|cffffffff>|r 6/10H Looking for Range DPS and Healers. Raid Tuesdays 830-11 Friday 830-11 (Fridays pushed later but official raid end time is 11) PST for more details and question",
+					["serverTime"] = 1613540199,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24763.869,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hugz-Thrall:39:CHANNEL:2|h|cffc59a6cHugz|r|h|cffd8d8d8]|r: trump 2030",
+					["serverTime"] = 1613540210,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24775.366,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Literalism-Thrall:40:CHANNEL:2|h|cff3ec6eaLiteralism|r|h|cffd8d8d8]|r: WTS M+ 0-17 Keys || Keystone Master Mount || Torghast || Heroic CN TONIGHT || Mythic Nathria Any Boss || Gold Only! Pst for info :)",
+					["serverTime"] = 1613540213,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						46, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24778.664,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schmoopie-Thrall:41:CHANNEL:2|h|cff006fdcSchmoopie|r|h|cffd8d8d8]|r: trump 2024",
+					["serverTime"] = 1613540215,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24780.292,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:42:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: SOMEONE COME GET THIS FREE 600 GOLD sign my damn guild",
+					["serverTime"] = 1613540231,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24796.009,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gálgadot-Thrall:43:CHANNEL:2|h|cffc59a6cGálgadot|r|h|cffd8d8d8]|r: whats the guild name?",
+					["serverTime"] = 1613540239,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24804.305,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [45]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Commandokir-Thrall:44:CHANNEL:2|h|cffa9d271Commandokir|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:183035::::::::60:254::5:5:7188:42:7194:1485:6646:1:28:752:::|h[Ardent Sunstar Signet]|h|r 70k",
+					["serverTime"] = 1613540248,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						40, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24813.744,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:45:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: it doesnt matter",
+					["serverTime"] = 1613540249,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24814.079,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sweatyhands-Thrall:46:CHANNEL:2|h|cff00fe97Sweatyhands|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-12580-3678-83600869|h[Guild: The Imperium]|h|rWe're currently looking for consistant Healers and Dps for our Heroic core, our raid times are Thur 10:30-1am and Friday 11pm to 2am server time. Pst me for more info!\",",
+					["serverTime"] = 1613540254,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						48, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24819.512,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gálgadot-Thrall:47:CHANNEL:2|h|cffc59a6cGálgadot|r|h|cffd8d8d8]|r: but it does.",
+					["serverTime"] = 1613540256,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						38, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24821.206,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Buzzwords-Thrall:48:CHANNEL:2|h|cfffefefeBuzzwords|r|h|cffd8d8d8]|r: I'll sign it",
+					["serverTime"] = 1613540258,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24823.112,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Schmoopie-Thrall:49:CHANNEL:2|h|cff006fdcSchmoopie|r|h|cffd8d8d8]|r: wait for biden to start another war in middle east and initiate a draft. the liberals will be beggining for orange man to make a comeback",
+					["serverTime"] = 1613540259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						26, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24824.7,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Souperman-Thrall:50:CHANNEL:2|h|cffc31d39Souperman|r|h|cffd8d8d8]|r: ill do it for 601 gold",
+					["serverTime"] = 1613540264,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24829.208,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:51:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: 602",
+					["serverTime"] = 1613540270,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24835.159,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Souperman-Thrall:52:CHANNEL:2|h|cffc31d39Souperman|r|h|cffd8d8d8]|r: 599",
+					["serverTime"] = 1613540278,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						52, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24842.834,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Galadorie-Thrall:53:CHANNEL:2|h|cffc31d39Galadorie|r|h|cffd8d8d8]|r: 7",
+					["serverTime"] = 1613540283,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						54, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24848.389,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Thechamp-Thrall:54:CHANNEL:2|h|cfffef367Thechamp|r|h|cffd8d8d8]|r: im in org",
+					["serverTime"] = 1613540285,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24850.523,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Buzzwords-Thrall:55:CHANNEL:2|h|cfffefefeBuzzwords|r|h|cffd8d8d8]|r: Just |cffffff00|Hinvplr:Buzzwords-Thrall|h[invite]|h|r me. No need to pay for my sig",
+					["serverTime"] = 1613540287,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24852.341,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zommbie-Thrall:56:CHANNEL:2|h|cffc31d39Zommbie|r|h|cffd8d8d8]|r: 600k",
+					["serverTime"] = 1613540298,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24862.824,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunaraei-Thrall:57:CHANNEL:2|h|cffc31d39Lunaraei|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:50380::::::::60:252::::1:28:1087:::|h[Battered Hilt]|h|r pm offers",
+					["serverTime"] = 1613540298,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						58, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24863.554,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "Greeb Ramrocket yells: The zeppelin to Warsong Hold has just arrived! All aboard for Borean Tundra!",
+					["serverTime"] = 1613540315,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						24, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24880.619,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [60]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h|cffd8d8d8[|r|Hplayer:Mystixx-Thrall:59:CHANNEL:1|h|cff3ec6eaMystixx|r|h|cffd8d8d8]|r: Thechamp |cffffff00|Hinvplr:Mystixx-Thrall|h[invite]|h|r me",
+					["serverTime"] = 1613540334,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						60, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24898.886,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Totou-Thrall:60:CHANNEL:2|h|cfffe7b09Totou|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:184799::::::::60:102:::3:6652:1472:6646:1:28:1707:::|h[Wolf-Fanged Fist]|h|r |cffa335ee|Hitem:184804::::::::60:102:::3:6652:1472:6646:1:28:1707:::|h[Ulfius' Calming Claymore]|h|r |cffa335ee|Hitem:184807::::::::60:102:::3:6652:1472:6646:1:28:1707:::|h[Relic of the First Ones]|h|r",
+					["serverTime"] = 1613540343,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						62, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24908.57,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Minggaa-Thrall:61:CHANNEL:2|h|cfffefefeMinggaa|r|h|cffd8d8d8]|r: 2",
+					["serverTime"] = 1613540346,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						64, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24910.974,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
+					["serverTime"] = 1613540383,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						30, -- [3]
+						66, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24947.784,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1613540383,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						3, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24947.784,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [65]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Orgrimmar]|h",
+					["serverTime"] = 1613540383,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						70, -- [3]
+						71, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 24947.784,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mooncurse-Thrall:4531:CHANNEL:2|h|cffa9d271Mooncurse|r|h|cffd8d8d8]|r: OHHHHH",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537909,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						328, -- [4]
+						["n"] = 4,
+					},
+				}, -- [67]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zasaramel-Thrall:4532:CHANNEL:2|h|cff3ec6eaZasaramel|r|h|cffd8d8d8]|r: But each realm will only be down a few minutes",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537910,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						305, -- [4]
+						["n"] = 4,
+					},
+				}, -- [68]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Banbaz-Thrall:4533:CHANNEL:2|h|cffc31d39Banbaz|r|h|cffd8d8d8]|r: NERF WINDMILLS",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537910,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						368, -- [4]
+						["n"] = 4,
+					},
+				}, -- [69]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clobbulous-Thrall:4534:CHANNEL:2|h|cff3ec6eaClobbulous|r|h|cffd8d8d8]|r: I PEE HARD",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537910,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						148, -- [4]
+						["n"] = 4,
+					},
+				}, -- [70]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Chspurgeon-Thrall:4535:CHANNEL:2|h|cffc31d39Chspurgeon|r|h|cffd8d8d8]|r: how long is reset?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537911,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						370, -- [4]
+						["n"] = 4,
+					},
+				}, -- [71]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tristorn-Thrall:4536:CHANNEL:2|h|cfffe7b09Tristorn|r|h|cffd8d8d8]|r: ahhhhhhhhh",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537912,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						362, -- [4]
+						["n"] = 4,
+					},
+				}, -- [72]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clairbear-Thrall:4537:CHANNEL:2|h|cfffefefeClairbear|r|h|cffd8d8d8]|r: FUCK TRUMP",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537913,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						372, -- [4]
+						["n"] = 4,
+					},
+				}, -- [73]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Imatrollmon-Thrall:4538:CHANNEL:2|h|cfffef367Imatrollmon|r|h|cffd8d8d8]|r: hi",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537913,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						374, -- [4]
+						["n"] = 4,
+					},
+				}, -- [74]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mooncurse-Thrall:4539:CHANNEL:2|h|cffa9d271Mooncurse|r|h|cffd8d8d8]|r: END OF WORLD",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537913,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						328, -- [4]
+						["n"] = 4,
+					},
+				}, -- [75]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kaestanori-Thrall:4540:CHANNEL:2|h|cffc59a6cKaestanori|r|h|cffd8d8d8]|r: AAAAAAAAAAAAAAAAAAAA",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537914,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+				}, -- [76]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Walrusmoon-Thrall:4541:CHANNEL:2|h|cffc31d39Walrusmoon|r|h|cffd8d8d8]|r: IM GAAAAAYYYYYYY",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537916,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						376, -- [4]
+						["n"] = 4,
+					},
+				}, -- [77]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunaraei-Thrall:4542:CHANNEL:2|h|cffc31d39Lunaraei|r|h|cffd8d8d8]|r: It's the end of the world as we know itr",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537918,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						263, -- [4]
+						["n"] = 4,
+					},
+				}, -- [78]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Troltoll-Thrall:4543:CHANNEL:2|h|cfffe7b09Troltoll|r|h|cffd8d8d8]|r: What happens to us when the server goes out?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537918,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						378, -- [4]
+						["n"] = 4,
+					},
+				}, -- [79]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Suuof-Thrall:4544:CHANNEL:2|h|cfffe7b09Suuof|r|h|cffd8d8d8]|r: GOOD BYE CRUEL WORLD",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537918,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						380, -- [4]
+						["n"] = 4,
+					},
+				}, -- [80]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clairbear-Thrall:4545:CHANNEL:2|h|cfffefefeClairbear|r|h|cffd8d8d8]|r: suck my cock trump",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537919,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						372, -- [4]
+						["n"] = 4,
+					},
+				}, -- [81]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kuulivan-Thrall:4546:CHANNEL:2|h|cffc31d39Kuulivan|r|h|cffd8d8d8]|r: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537920,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						163, -- [4]
+						["n"] = 4,
+					},
+				}, -- [82]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darthomer-Thrall:4547:CHANNEL:2|h|cfff38bb9Darthomer|r|h|cffd8d8d8]|r: END OF THE WORLD!!!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537921,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						382, -- [4]
+						["n"] = 4,
+					},
+				}, -- [83]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ragermeister-Thrall:4548:CHANNEL:2|h|cffc59a6cRagermeister|r|h|cffd8d8d8]|r: FEL DEEDS AWAKE...RIDE NOW, RIDE FOR RUIN, AND THE WORLDS ENDINGGGGGGG!\\",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537921,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						152, -- [4]
+						["n"] = 4,
+					},
+				}, -- [84]
+				{
+					["message"] = "[SERVER] Shutdown in 0:15",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537922,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [85]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kuulivan-Thrall:4550:CHANNEL:2|h|cffc31d39Kuulivan|r|h|cffd8d8d8]|r: SSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537922,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						163, -- [4]
+						["n"] = 4,
+					},
+				}, -- [86]
+				{
+					["message"] = "[SERVER] Shutdown in 0:15",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537923,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [87]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hórns-Thrall:4552:CHANNEL:2|h|cfffe7b09Hórns|r|h|cffd8d8d8]|r: 10",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537924,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						384, -- [4]
+						["n"] = 4,
+					},
+				}, -- [88]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zaerha-Thrall:4553:CHANNEL:2|h|cffa22fc8Zaerha|r|h|cffd8d8d8]|r: GOODBYE FRIENS!!!!!!!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537924,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						386, -- [4]
+						["n"] = 4,
+					},
+				}, -- [89]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ronami-Thrall:4554:CHANNEL:2|h|cffc59a6cRonami|r|h|cffd8d8d8]|r: YEP COCK",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537924,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						108, -- [4]
+						["n"] = 4,
+					},
+				}, -- [90]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mistyfied-Thrall:4555:CHANNEL:2|h|cfffef367Mistyfied|r|h|cffd8d8d8]|r: Covid/Zul Gurub is going to kill us",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537924,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						219, -- [4]
+						["n"] = 4,
+					},
+				}, -- [91]
+				{
+					["message"] = "Greeb Ramrocket yells: The zeppelin to Warsong Hold has just arrived! All aboard for Borean Tundra!",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537925,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						48, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+				}, -- [92]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wongpanda-Thrall:4557:CHANNEL:2|h|cff3ec6eaWongpanda|r|h|cffd8d8d8]|r: LOLZ",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537925,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						90, -- [4]
+						["n"] = 4,
+					},
+				}, -- [93]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Darthomer-Thrall:4558:CHANNEL:2|h|cfff38bb9Darthomer|r|h|cffd8d8d8]|r: nye!!!!!!!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537925,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						382, -- [4]
+						["n"] = 4,
+					},
+				}, -- [94]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hórns-Thrall:4559:CHANNEL:2|h|cfffe7b09Hórns|r|h|cffd8d8d8]|r: 9",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537925,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						384, -- [4]
+						["n"] = 4,
+					},
+				}, -- [95]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Clobbulous-Thrall:4560:CHANNEL:2|h|cff3ec6eaClobbulous|r|h|cffd8d8d8]|r: I PEE LEFT",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537926,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						148, -- [4]
+						["n"] = 4,
+					},
+				}, -- [96]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rozekill-Thrall:4561:CHANNEL:2|h|cfffefefeRozekill|r|h|cffd8d8d8]|r: See y'all in an hour",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537926,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						356, -- [4]
+						["n"] = 4,
+					},
+				}, -- [97]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jens-Thrall:4562:CHANNEL:2|h|cffc59a6cJens|r|h|cffd8d8d8]|r: im gay",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537927,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						388, -- [4]
+						["n"] = 4,
+					},
+				}, -- [98]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kaestanori-Thrall:4563:CHANNEL:2|h|cffc59a6cKaestanori|r|h|cffd8d8d8]|r: WE'RE ALL GAAAAAAY",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537927,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						92, -- [4]
+						["n"] = 4,
+					},
+				}, -- [99]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lunaraei-Thrall:4564:CHANNEL:2|h|cffc31d39Lunaraei|r|h|cffd8d8d8]|r: And I feel FIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIINE!!!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537928,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						263, -- [4]
+						["n"] = 4,
+					},
+				}, -- [100]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Allytoaster-Thrall:4565:CHANNEL:2|h|cff3ec6eaAllytoaster|r|h|cffd8d8d8]|r: Trump lost LOLOLOLOLOL",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537928,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						352, -- [4]
+						["n"] = 4,
+					},
+				}, -- [101]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Suuof-Thrall:4566:CHANNEL:2|h|cfffe7b09Suuof|r|h|cffd8d8d8]|r: REEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537929,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						380, -- [4]
+						["n"] = 4,
+					},
+				}, -- [102]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Waup-Thrall:4567:CHANNEL:2|h|cfff38bb9Waup|r|h|cffd8d8d8]|r: hsewgaesfqwrf",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537929,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						269, -- [4]
+						["n"] = 4,
+					},
+				}, -- [103]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Umbrage-Thrall:4568:CHANNEL:2|h|cfffefefeUmbrage|r|h|cffd8d8d8]|r: Democrats suck donkey cock",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537930,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						390, -- [4]
+						["n"] = 4,
+					},
+				}, -- [104]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ceradyn-Thrall:4569:CHANNEL:2|h|cfffe7b09Ceradyn|r|h|cffd8d8d8]|r: |cffffffff|Hurl:onlyfans.com|h[onlyfans.com]|h|r/loons",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537930,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						392, -- [4]
+						["n"] = 4,
+					},
+				}, -- [105]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mochiyushi-Thrall:4570:CHANNEL:2|h|cff00fe97Mochiyushi|r|h|cffd8d8d8]|r: YEP COCK",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537930,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						394, -- [4]
+						["n"] = 4,
+					},
+				}, -- [106]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cónstantínê-Thrall:4571:CHANNEL:2|h|cffa22fc8Cónstantínê|r|h|cffd8d8d8]|r: FUCK YOU",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537930,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						253, -- [4]
+						["n"] = 4,
+					},
+				}, -- [107]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eviuh-Thrall:4572:CHANNEL:2|h|cfff38bb9Eviuh|r|h|cffd8d8d8]|r: later gayboys",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537930,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						396, -- [4]
+						["n"] = 4,
+					},
+				}, -- [108]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Waup-Thrall:4573:CHANNEL:2|h|cfff38bb9Waup|r|h|cffd8d8d8]|r: egewg",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537930,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						269, -- [4]
+						["n"] = 4,
+					},
+				}, -- [109]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tristorn-Thrall:4574:CHANNEL:2|h|cfffe7b09Tristorn|r|h|cffd8d8d8]|r: fuck the politics",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537931,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						362, -- [4]
+						["n"] = 4,
+					},
+				}, -- [110]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lávittz-Thrall:4575:CHANNEL:2|h|cff3ec6eaLávittz|r|h|cffd8d8d8]|r: 911 was an inside job",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537932,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						398, -- [4]
+						["n"] = 4,
+					},
+				}, -- [111]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shàundi-Thrall:4576:CHANNEL:2|h|cfffefefeShàundi|r|h|cffd8d8d8]|r: goodnight",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537932,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						400, -- [4]
+						["n"] = 4,
+					},
+				}, -- [112]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eatingbutts-Thrall:4577:CHANNEL:2|h|cff8687edEatingbutts|r|h|cffd8d8d8]|r: [Guild: Always Eating] Looking for some good pals to help us grow. We are a guild focused on night time players EST 1a.m- 6a.m. Looking for players for Mythic+ as well as players for a raid group. Players looking to learn in a stress free enviroment",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537933,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [113]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vidarus-Thrall:4578:CHANNEL:2|h|cffa9d271Vidarus|r|h|cffd8d8d8]|r: butts",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537933,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						366, -- [4]
+						["n"] = 4,
+					},
+				}, -- [114]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bibiki-Thrall:4579:CHANNEL:2|h|cff00fe97Bibiki|r|h|cffd8d8d8]|r: LUST!",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537934,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						402, -- [4]
+						["n"] = 4,
+					},
+				}, -- [115]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ragermeister-Thrall:4580:CHANNEL:2|h|cffc59a6cRagermeister|r|h|cffd8d8d8]|r: GARROSH DID NOTHING WRONG",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537934,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						152, -- [4]
+						["n"] = 4,
+					},
+				}, -- [116]
+				{
+					["message"] = "|cff8687edAwaste|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537934,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						6, -- [3]
+						7, -- [4]
+						["n"] = 4,
+					},
+				}, -- [117]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vullz-Thrall:4582:CHANNEL:2|h|cffc59a6cVullz|r|h|cffd8d8d8]|r: TRUMP 2024",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537934,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						360, -- [4]
+						["n"] = 4,
+					},
+				}, -- [118]
+				{
+					["message"] = "You have been disconnected from Blizzard services.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 24300.734,
+					["serverTime"] = 1613537936,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [119]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 30 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 24300.734,
+				}, -- [120]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 24300.734,
+				}, -- [121]
+				{
+					["message"] = "|Hbuggrabber:Ronami:000001982B9BD060:|h|cffff0000[Error 000001982B9BD060]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 24292.651,
+				}, -- [122]
+				{
+					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.3 |r(|cff9482C99.0.2 Shadowlands|r)  ",
+					["timestamp"] = 24292.651,
+				}, -- [123]
+				{
+					["message"] = "|cff33ff99Simple iLevel|r: Loading v3.4.7",
+					["timestamp"] = 24292.651,
+				}, -- [124]
+				{
+					["message"] = "|cff33ff99Simple iLevel|r: Group Module Loaded 3.4.7",
+					["timestamp"] = 24292.651,
+				}, -- [125]
+				{
+					["message"] = "|cff33ff99Simple iLevel|r: Social Module Loaded 3.4.7",
+					["timestamp"] = 24292.651,
+				}, -- [126]
+				{
+					["message"] = "Guild Message of the Day: \"Please respond to calendar invite for guild achievements next weekend. Need 10 people in order to get raid achievements. Also if you want to be a true homie, update any alt guild notes with your main's name so I can make sure they have the correct perms.\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 24300.701,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [127]
+				{
+					["message"] = "|cff0cbd0cEasy Frames|cffffffff loaded. Options: |cff0cbd0c/ef",
+					["timestamp"] = 24300.734,
+				}, -- [128]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

@@ -1,0 +1,11 @@
+
+EasyDestroyData = {
+	["Filters"] = {
+	},
+	["Options"] = {
+		["CharacterFavorites"] = false,
+		["ConfiguratorShown"] = false,
+	},
+	["Blacklist"] = {
+	},
+}

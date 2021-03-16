@@ -1,0 +1,29 @@
+
+DataStore_AgendaDB = {
+	["profileKeys"] = {
+		["Corpselus - Alexstrasza"] = "Corpselus - Alexstrasza",
+	},
+	["global"] = {
+		["Options"] = {
+			["WeeklyResetHour"] = 6,
+			["WeeklyResetDay"] = 2,
+			["NextWeeklyReset"] = "2016-08-02",
+		},
+		["Characters"] = {
+			["Default.Alexstrasza.Corpselus"] = {
+				["Contacts"] = {
+					["Baddnews"] = {
+						["note"] = "",
+					},
+					["Evilwalks"] = {
+						["note"] = "",
+					},
+					["Eltsbeth"] = {
+						["note"] = "",
+					},
+				},
+				["lastUpdate"] = 1469674819,
+			},
+		},
+	},
+}

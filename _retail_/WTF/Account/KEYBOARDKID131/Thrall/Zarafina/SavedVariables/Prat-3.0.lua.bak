@@ -1,0 +1,1202 @@
+
+Prat3CharDB = {
+	["history"] = {
+		["cmdhistory"] = {
+			["ChatFrame10EditBox"] = {
+			},
+			["ChatFrame7EditBox"] = {
+			},
+			["ChatFrame5EditBox"] = {
+			},
+			["ChatFrame8EditBox"] = {
+			},
+			["ChatFrame4EditBox"] = {
+			},
+			["ChatFrame6EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
+			},
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame2EditBox"] = {
+			},
+			["ChatFrame9EditBox"] = {
+			},
+		},
+	},
+}
+Prat3HighCPUPerCharDB = {
+	["time"] = 1495145732,
+	["scrollback"] = {
+		["ChatFrame5"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame4"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame3"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame7"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame6"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame8"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame10"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame9"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 0,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame1"] = {
+			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 71,
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
+			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["PushBack"] = nil --[[ skipped inline function ]],
+			["RemoveIf"] = nil --[[ skipped inline function ]],
+			["Clear"] = nil --[[ skipped inline function ]],
+			["PushFront"] = nil --[[ skipped inline function ]],
+			["OnLoad"] = nil --[[ skipped inline function ]],
+			["IsEmpty"] = nil --[[ skipped inline function ]],
+			["IsFull"] = nil --[[ skipped inline function ]],
+			["elements"] = {
+				{
+					["message"] = "Guild Message of the Day: \"See Shadowlands raiding spreadsheet in Discord.\"",
+					["serverTime"] = 1605660175,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 439108.221,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "|Hplayer:Zarafina-Thrall|h[|cfffefefeZarafina|r]|h has earned the achievement |cffffff00|Hachievement:14271:Player-3678-09A1EE4B:1:11:14:20:4294967295:4294967295:4294967295:4294967295|h[WoW's 16th Anniversary]|h|r!",
+					["serverTime"] = 1605660175,
+					["r"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+					["timestamp"] = 439108.221,
+					["extraData"] = {
+						65, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [2]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 439108.221,
+				}, -- [3]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 439108.221,
+				}, -- [4]
+				{
+					["message"] = "|Hbuggrabber:Zarafina:000001CD3631F970:|h|cffff0000[Error 000001CD3631F970]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 439088.226,
+				}, -- [5]
+				{
+					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A SLB 2 |r(|cff9482C99.0 Shadowlands|r)  ",
+					["timestamp"] = 439088.226,
+				}, -- [6]
+				{
+					["message"] = "Switching Lang to enUS",
+					["r"] = 0.7,
+					["timestamp"] = 439108.178,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [7]
+				{
+					["message"] = "Guild Message of the Day: \"See Shadowlands raiding spreadsheet in Discord.\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 439108.178,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [8]
+				{
+					["message"] = "|cFFFF8C00WARNING: |rThe |cFFFF0000HandyNotes: Visions of N'Zoth|r plugin will no longer receive updates. Please uninstall the old plugin and download the new |cFF0066FFHandyNotes: Battle for Azeroth|r plugin instead!",
+					["timestamp"] = 439110.778,
+					["serverTime"] = 1605660177,
+				}, -- [9]
+				{
+					["message"] = "Switching Lang to enUS",
+					["r"] = 0.7,
+					["serverTime"] = 1605660179,
+					["timestamp"] = 439113.109,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [10]
+				{
+					["message"] = "  HealBot 9.0.1.5 loaded.",
+					["r"] = 0.7,
+					["serverTime"] = 1605660181,
+					["timestamp"] = 439114.785,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [11]
+				{
+					["message"] = "[HealBot] /hb h -- Display help",
+					["r"] = 0.7,
+					["serverTime"] = 1605660181,
+					["timestamp"] = 439114.785,
+					["g"] = 0.7,
+					["b"] = 1,
+				}, -- [12]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shevra-Thrall:1:CHANNEL:2|h|cfffef367Shevra|r|h|cffd8d8d8]|r: Its not hidden dumb ass",
+					["serverTime"] = 1605660182,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439115.456,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [13]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Väros-Thrall:2:CHANNEL:2|h|cff8687edVäros|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-113221-3678-83146867|h[Guild: Essential Staff]|h|r (Tue/Thr 7-10pm EST) CE-Focused Guild recruiting the following; 1MDPS, pref Warr. PST",
+					["serverTime"] = 1605660184,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439117.463,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [14]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spicyzen-Thrall:3:CHANNEL:2|h|cff00fe97Spicyzen|r|h|cffd8d8d8]|r: @DH i mean to be fair, it's the same as the democrats spending 10's of millions to prove russian interferance then come 2020 say there's absolutely no chance the voting was impacted in any way",
+					["serverTime"] = 1605660184,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439117.72,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [15]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Poisonslime-Thrall:4:CHANNEL:2|h|cfffef367Poisonslime|r|h|cffd8d8d8]|r: how long does it take npcs to respawn?",
+					["serverTime"] = 1605660186,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439119.456,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [16]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sinok-Thrall:5:CHANNEL:2|h|cfffef367Sinok|r|h|cffd8d8d8]|r: He also had a British and Irish back account too, ZOMGF",
+					["serverTime"] = 1605660191,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439125.103,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [17]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ohmwrecker-Thrall:6:CHANNEL:2|h|cff006fdcOhmwrecker|r|h|cffd8d8d8]|r: Projection is the GOPs favorite strategy, qq harder",
+					["serverTime"] = 1605660199,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439132.465,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [18]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Illizug-Thrall:9:CHANNEL:2|h|cffa22fc8Illizug|r|h|cffd8d8d8]|r: About 4 years for NPCs to respawn, give or take.",
+					["serverTime"] = 1605660203,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439136.971,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Spicyzen-Thrall:12:CHANNEL:2|h|cff00fe97Spicyzen|r|h|cffd8d8d8]|r: being someone who didnt vote for either, it's fun listening to the two sides argue, because its the same repeated argument, it just flips sides depending on whos in office",
+					["serverTime"] = 1605660217,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439150.733,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [20]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shevra-Thrall:13:CHANNEL:2|h|cfffef367Shevra|r|h|cffd8d8d8]|r: npc spawn when a liberal has a baby",
+					["serverTime"] = 1605660220,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439153.703,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [21]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jenikira-Thrall:14:CHANNEL:2|h|cff006fdcJenikira|r|h|cffd8d8d8]|r: the worst thing about being a liberal is that hald the country thinks that science and having empathy is a liberal conspiracy",
+					["serverTime"] = 1605660231,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439163.613,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [22]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h |cffffff00Valley of Strength is under attack!|r",
+					["serverTime"] = 1605660237,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						18, -- [3]
+						19, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439169.206,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [23]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lightbinded-Thrall:16:CHANNEL:2|h|cfff38bb9Lightbinded|r|h|cffd8d8d8]|r: empathy is for the weak.",
+					["serverTime"] = 1605660246,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439178.501,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [24]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tartarta-Thrall:17:CHANNEL:2|h|cfffef367Tartarta|r|h|cffd8d8d8]|r: one side thinks science is fake news",
+					["serverTime"] = 1605660250,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439182.181,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tartarta-Thrall:18:CHANNEL:2|h|cfffef367Tartarta|r|h|cffd8d8d8]|r: tell meagain how one side is not just right",
+					["serverTime"] = 1605660256,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439188.379,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [26]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cighal-Thrall:19:CHANNEL:2|h|cff00fe97Cighal|r|h|cffd8d8d8]|r: Agreed Spicyzen...they keep throwing the same insults back and forth not realizing it applies to their brand of kool-aid as well lol",
+					["serverTime"] = 1605660256,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439188.634,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [27]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sinok-Thrall:20:CHANNEL:2|h|cfffef367Sinok|r|h|cffd8d8d8]|r: Liberals are so empathetic they kill babies",
+					["serverTime"] = 1605660259,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						10, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439191.997,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lightbinded-Thrall:21:CHANNEL:2|h|cfff38bb9Lightbinded|r|h|cffd8d8d8]|r: decimate the weeeeaakkkkk",
+					["serverTime"] = 1605660261,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439193.808,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [29]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Väros-Thrall:22:CHANNEL:2|h|cff8687edVäros|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-113221-3678-83146867|h[Guild: Essential Staff]|h|r (Tue/Thr 7-10pm EST) CE-Focused Guild recruiting the following; 1MDPS, pref Warr. PST",
+					["serverTime"] = 1605660267,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439199.344,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [30]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taeyeon-Thrall:23:CHANNEL:2|h|cfffefefeTaeyeon|r|h|cffd8d8d8]|r: Acuity (12/12M) WTS |cff71d5ff|Hspell:308814:0|h[Ny'alotha Allseer]|h|r - Mythic N'Zoth's mount. Only accepting GOLD. DM for info!",
+					["serverTime"] = 1605660267,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439200.114,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [31]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Illizug-Thrall:24:CHANNEL:2|h|cffa22fc8Illizug|r|h|cffd8d8d8]|r: Some people think science is a belief system.",
+					["serverTime"] = 1605660271,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439203.497,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [32]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shevra-Thrall:25:CHANNEL:2|h|cfffef367Shevra|r|h|cffd8d8d8]|r: the worst thing about being a liberal is claming to believe in science while disregarding biology.",
+					["serverTime"] = 1605660273,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439205.359,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [33]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Orelsa-Thrall:26:CHANNEL:2|h|cff3ec6eaOrelsa|r|h|cffd8d8d8]|r: it's the tenderest meat",
+					["serverTime"] = 1605660278,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439210.776,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [34]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Illizug-Thrall:27:CHANNEL:2|h|cffa22fc8Illizug|r|h|cffd8d8d8]|r: ^see?",
+					["serverTime"] = 1605660281,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439213.229,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [35]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Imdontrump-Thrall:28:CHANNEL:2|h|cffa9d271Imdontrump|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00The Trump Train|r|cffffffff>|r is now recruiting anyone that supports Trump for some casual fun. We will win the lawsuits and get 4 more years. The SCOTUS is on our side. PST for |cffffff00|Hinvplr:Imdontrump-Thrall|h[invite]|h|r.",
+					["serverTime"] = 1605660282,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439214.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [36]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tartarta-Thrall:29:CHANNEL:2|h|cfffef367Tartarta|r|h|cffd8d8d8]|r: well when science goes against your relgion you either admit your wrong or double down",
+					["serverTime"] = 1605660289,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439221.525,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [37]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shezooks-Thrall:30:CHANNEL:2|h|cfffefefeShezooks|r|h|cffd8d8d8]|r: are people able to tell the difference between liberals and lefties yet",
+					["serverTime"] = 1605660291,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439223.802,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [38]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rhabyt-Thrall:31:CHANNEL:2|h|cff00fe97Rhabyt|r|h|cffd8d8d8]|r: I wish people would stop refering to Democrats as \"Liberals\" the terms are not synonymous",
+					["serverTime"] = 1605660293,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439225.309,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [39]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lightbinded-Thrall:32:CHANNEL:2|h|cfff38bb9Lightbinded|r|h|cffd8d8d8]|r: where's that weirdo agumons or w.e his name was, I miss my punching bag.",
+					["serverTime"] = 1605660300,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439232.958,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [40]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jenikira-Thrall:33:CHANNEL:2|h|cff006fdcJenikira|r|h|cffd8d8d8]|r: what biology exactly? if you mean people's gender that is an entirely different subject",
+					["serverTime"] = 1605660302,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439234.626,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [41]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hastead-Thrall:34:CHANNEL:2|h|cffa9d271Hastead|r|h|cffd8d8d8]|r: BB Boosting is recruiting for boosting in Shadowlands. Recruiters, Advertisers, Boosters needed. Daily Payout. Chill Community. |cffffffff|Hurl:https://discord.gg/c4YemQs|h[https://discord.gg/c4YemQs]|h|r -Gold Only",
+					["serverTime"] = 1605660303,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						37, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439235.371,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [42]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mandragerin-Thrall:35:CHANNEL:2|h|cffa9d271Mandragerin|r|h|cffd8d8d8]|r: Oh boy, politcla talk in Trade!!!",
+					["serverTime"] = 1605660306,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439238.23,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [43]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jacób-Thrall:36:CHANNEL:2|h|cffa9d271Jacób|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Eat My Parse|r|cffffffff>|r Is looking for experienced raiders for our roster going into Shadowlands. We are taking any applications but are primarily looking for melee dps, healers, and a tank. We are also looking for an experienced raid leader for Mythic Prog.",
+					["serverTime"] = 1605660309,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						41, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439242.121,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [44]
+				{
+					["message"] = "Snurk Bucksquick yells: The zeppelin to Grom'gol has just arrived! All aboard for Stranglethorn!",
+					["serverTime"] = 1605660309,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439242.121,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [45]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kriprex-Thrall:38:CHANNEL:2|h|cffc31d39Kriprex|r|h|cffd8d8d8]|r: is there a new quest for the pre patch?",
+					["serverTime"] = 1605660314,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439246.708,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [46]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tartarta-Thrall:39:CHANNEL:2|h|cfffef367Tartarta|r|h|cffd8d8d8]|r: anyone who dosent support trump = liberal communist antifa",
+					["serverTime"] = 1605660314,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439247.043,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [47]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shevra-Thrall:40:CHANNEL:2|h|cfffef367Shevra|r|h|cffd8d8d8]|r: liberals let lefties take over",
+					["serverTime"] = 1605660315,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439247.521,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [48]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Excisìon-Thrall:41:CHANNEL:2|h|cfff38bb9Excisìon|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Metanoia|r|cffffffff>|r  Raid schedule: Tues Thurs Sat. 9pm-12 central time. We are currently in search of Healers/dps with a focus on Melee dps!!!! We plan on clearing all content from raids/m+/PVP and everything between!! 5/12m GM/RL! Come hangout with us!!!!!!!",
+					["serverTime"] = 1605660323,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						47, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439255.985,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [49]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Väros-Thrall:42:CHANNEL:2|h|cff8687edVäros|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-113221-3678-83146867|h[Guild: Essential Staff]|h|r (Tue/Thr 7-10pm EST) CE-Focused Guild recruiting the following; 1MDPS, pref Warr. PST",
+					["serverTime"] = 1605660326,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439258.735,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [50]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mochiyushi-Thrall:43:CHANNEL:2|h|cff00fe97Mochiyushi|r|h|cffd8d8d8]|r: Are you lonely? Steamy, hot, sexy guild near you recruiting members. Our guild is throbbing for you to be in it. Engorge our membership and join |cffffffff<|r|cff00ff00Natural Selection|r|cffffffff>|r today for a good time. Pst for |cffffff00|Hinvplr:Mochiyushi-Thrall|h[inv]|h|r",
+					["serverTime"] = 1605660326,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						49, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439258.981,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [51]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tartarta-Thrall:44:CHANNEL:2|h|cfffef367Tartarta|r|h|cffd8d8d8]|r: even tho biden is moderate right",
+					["serverTime"] = 1605660327,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439259.558,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [52]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shezooks-Thrall:45:CHANNEL:2|h|cfffefefeShezooks|r|h|cffd8d8d8]|r: There is no actual leftist with political power in the united states lol",
+					["serverTime"] = 1605660331,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439263.696,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [53]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Jenikira-Thrall:46:CHANNEL:2|h|cff006fdcJenikira|r|h|cffd8d8d8]|r: I'll be commy antifa all day legooo",
+					["serverTime"] = 1605660333,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						16, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439265.432,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [54]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Illizug-Thrall:47:CHANNEL:2|h|cffa22fc8Illizug|r|h|cffd8d8d8]|r: I'm just over here all registered independent.  Y'all both look kinda crazy to me.",
+					["serverTime"] = 1605660335,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439268.105,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [55]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shevra-Thrall:48:CHANNEL:2|h|cfffef367Shevra|r|h|cffd8d8d8]|r: biden does whatever beijing says",
+					["serverTime"] = 1605660342,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439274.458,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [56]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Brotakh-Thrall:49:CHANNEL:2|h|cffa9d271Brotakh|r|h|cffd8d8d8]|r: If the lawsuits remain past Dec 13th and the electoral college can't select an uncontested President, it goes to the House",
+					["serverTime"] = 1605660346,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439278.96,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [57]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Rhabyt-Thrall:50:CHANNEL:2|h|cff00fe97Rhabyt|r|h|cffd8d8d8]|r: Liberal litterally means open to change, nothing to do with politics",
+					["serverTime"] = 1605660348,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						35, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439280.803,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [58]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cstuh-Thrall:51:CHANNEL:2|h|cffa9d271Cstuh|r|h|cffd8d8d8]|r: who gives a fuck",
+					["serverTime"] = 1605660354,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439286.96,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [59]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lightbinded-Thrall:52:CHANNEL:2|h|cfff38bb9Lightbinded|r|h|cffd8d8d8]|r: the great reset is coming guys.",
+					["serverTime"] = 1605660355,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						21, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439287.747,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [60]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kalimdorick-Thrall:53:CHANNEL:2|h|cfffefefeKalimdorick|r|h|cffd8d8d8]|r: People who come to trade chat to talk politics are scum.",
+					["serverTime"] = 1605660361,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						55, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439293.95,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [61]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aquamane-Thrall:54:CHANNEL:2|h|cffa9d271Aquamane|r|h|cffd8d8d8]|r: i can feel it",
+					["serverTime"] = 1605660362,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439294.663,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [62]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danzig-Thrall:55:CHANNEL:2|h|cfffef367Danzig|r|h|cffd8d8d8]|r: Illizug thinks he's all unique and cool as a useless cuck",
+					["serverTime"] = 1605660363,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						59, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439295.236,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [63]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Sookalou-Thrall:56:CHANNEL:2|h|cff006fdcSookalou|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-58762-3678-87480867|h[Guild: Voljins Gyros]|h|r is a social guild on Thrall looking for new members! All levels welcome. Dungeons, Mythic+’s, questing, and we are re-forming our raid group! Come and hang out with us!",
+					["serverTime"] = 1605660365,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						61, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439297.628,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [64]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Goldparsley:57|h|cff3ec6eaGoldparsley|r|h|cffd8d8d8]|r has come online.",
+					["serverTime"] = 1605660374,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						63, -- [3]
+						64, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439306.45,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Illizug-Thrall:58:CHANNEL:2|h|cffa22fc8Illizug|r|h|cffd8d8d8]|r: Not really, my vote is entirely disenfranchised.",
+					["serverTime"] = 1605660376,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						14, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439308.494,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [66]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Legênd-Thrall:59:CHANNEL:2|h|cffa9d271Legênd|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00The Eternal|r|cffffffff>|r Looking for a new home for shadowlands? Wanna do mythic + & raid with experienced people come join our family! Mythics Keys each week. Raid times are Wed&Fri 8pm-11pm. If your looking for fun friendly environment look no futher.",
+					["serverTime"] = 1605660376,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						65, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439308.742,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Taeyeon-Thrall:60:CHANNEL:2|h|cfffefefeTaeyeon|r|h|cffd8d8d8]|r: Acuity (12/12M) WTS |cff71d5ff|Hspell:308814:0|h[Ny'alotha Allseer]|h|r - Mythic N'Zoth's mount. Only accepting GOLD. DM for info!",
+					["serverTime"] = 1605660379,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						27, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439311.902,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mandragerin-Thrall:61:CHANNEL:2|h|cffa9d271Mandragerin|r|h|cffd8d8d8]|r: And Trump does whatever Putin says",
+					["serverTime"] = 1605660379,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439312.129,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [69]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ohmwrecker-Thrall:62:CHANNEL:2|h|cff006fdcOhmwrecker|r|h|cffd8d8d8]|r: Enlightened centrism lmao",
+					["serverTime"] = 1605660383,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						1, -- [3]
+						12, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439316.082,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [70]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Orgrimmar]|h",
+					["serverTime"] = 1605660386,
+					["r"] = 1,
+					["extraData"] = {
+						67, -- [1]
+						false, -- [2]
+						67, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 439318.994,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [71]
+			},
+			["maxElements"] = 128,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
+			["TransformIf"] = nil --[[ skipped inline function ]],
+			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
+			["GetNumElements"] = nil --[[ skipped inline function ]],
+			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+	},
+}

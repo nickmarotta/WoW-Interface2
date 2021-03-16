@@ -1,0 +1,34 @@
+
+RecountPerCharDB = {
+	["version"] = "1.3",
+	["combatants"] = {
+		["Zarafina"] = {
+			["GUID"] = "Player-3678-0972FC33",
+			["type"] = "Self",
+			["GuardianReverseGUIDs"] = {
+				["Quzyap"] = {
+					["LatestGuardian"] = 0,
+					["GUIDs"] = {
+						[0] = "Creature-0-3882-0-14721-416-0000407551",
+					},
+				},
+			},
+			["Owner"] = false,
+			["enClass"] = "WARLOCK",
+			["Name"] = "Zarafina",
+			["Pet"] = {
+				"Quzyap <Zarafina>", -- [1]
+			},
+			["Fights"] = {
+			},
+			["level"] = 1,
+			["UnitLockout"] = 1277097.176,
+			["LastFightIn"] = 0,
+		},
+	},
+	["FightNum"] = 0,
+	["CombatTimes"] = {
+	},
+	["FoughtWho"] = {
+	},
+}
