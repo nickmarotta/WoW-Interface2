@@ -11,7 +11,7 @@ PawnCommon = {
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0416,
+	["LastVersion"] = 2.0521,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
@@ -53,9 +53,6 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN1"] = {
 			["IconTexturePath"] = 136048,
 			["PerCharacterOptions"] = {
-				["Mafiki-Thrall"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "0070de",
 			["LocalizedName"] = "Shaman: Elemental",
@@ -224,17 +221,17 @@ PawnCommon = {
 				["CritRating"] = 7.1,
 				["IsStaff"] = -1000000,
 				["HasteRating"] = 5.21,
-				["MasteryRating"] = 5.44,
+				["IsDagger"] = -1000000,
 				["IsCrossbow"] = -1000000,
 				["IsGun"] = -1000000,
+				["OffHandDps"] = 2.82,
 				["IsFrill"] = -1000000,
+				["Versatility"] = 5.59,
 				["IsBow"] = -1000000,
 				["Strength"] = 2.84,
-				["Versatility"] = 5.59,
-				["OffHandDps"] = 2.82,
 				["Dps"] = 9.98,
 				["IsShield"] = -1000000,
-				["IsDagger"] = -1000000,
+				["MasteryRating"] = 5.44,
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -301,6 +298,9 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN1"] = {
 			["IconTexturePath"] = 135920,
 			["PerCharacterOptions"] = {
+				["Zynzo-Thrall"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f58cba",
 			["LocalizedName"] = "Paladin: Holy",
@@ -364,24 +364,6 @@ PawnCommon = {
 			["UnenchantedColor"] = "6566b2",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
-			["PerCharacterOptions"] = {
-				["Mafiki-Alexstrasza"] = {
-					["Visible"] = true,
-				},
-			},
-			["Color"] = "0070de",
-			["LocalizedName"] = "Shaman: Restoration",
-			["ClassID"] = 7,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "0054a6",
-			["SpecID"] = 3,
-		},
 		["\"MrRobot\":DEMONHUNTER2"] = {
 			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
@@ -399,6 +381,27 @@ PawnCommon = {
 			["Provider"] = "MrRobot",
 			["UnenchantedColor"] = "7a2496",
 			["SpecID"] = 2,
+		},
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
+			["PerCharacterOptions"] = {
+				["Mafiki-Thrall"] = {
+					["Visible"] = true,
+				},
+				["Mafiki-Alexstrasza"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "0070de",
+			["LocalizedName"] = "Shaman: Restoration",
+			["ClassID"] = 7,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 3,
 		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
@@ -553,9 +556,6 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
-				["Zynzo-Thrall"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "f58cba",
 			["LocalizedName"] = "Paladin: Protection",

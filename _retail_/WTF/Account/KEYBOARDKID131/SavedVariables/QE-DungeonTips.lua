@@ -6,7 +6,7 @@ QEConfig = {
 	["Fluff"] = false,
 	["ClassChoice"] = "Show my class only",
 	["Important"] = true,
-	["FrameOpacity"] = 0.55,
+	["TargetTrigger"] = "Show targeted mob",
 	["Advanced"] = true,
 	["Defensives"] = true,
 	["FrameHeight"] = 175,
@@ -15,5 +15,5 @@ QEConfig = {
 	["FontSize"] = 12,
 	["RoleChoice"] = "Show my role only",
 	["FrameWidth"] = 450,
-	["TargetTrigger"] = "Show targeted mob",
+	["FrameOpacity"] = 0.55,
 }

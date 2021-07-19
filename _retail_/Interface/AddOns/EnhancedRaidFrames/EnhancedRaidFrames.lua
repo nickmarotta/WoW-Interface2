@@ -1,26 +1,14 @@
---Enhanced Raid Frames, a World of Warcraft® user interface addon.
-
---This file is part of Enhanced Raid Frames.
---
---Enhanced Raid Frames is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---Enhanced Raid Frames is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this add-on.  If not, see <https://www.gnu.org/licenses/>.
---
---Copyright for Enhanced Raid Frames is held by Britt Yazel (aka Soyier), 2017-2020.
+-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+-- Copyright (c) 2017-2021 Britt W. Yazel
+-- This code is licensed under the MIT license (see LICENSE for details)
 
 local addonName, addonTable = ... --make use of the default addon namespace
-addonTable.EnhancedRaidFrames = LibStub("AceAddon-3.0"):NewAddon("EnhancedRaidFrames", "AceTimer-3.0", "AceHook-3.0", "AceEvent-3.0", "AceBucket-3.0", "AceConsole-3.0")
+
+---@class EnhancedRaidFrames : AceAddon-3.0 @define The main addon object for the Enhanced Raid Frames add-on
+addonTable.EnhancedRaidFrames = LibStub("AceAddon-3.0"):NewAddon("EnhancedRaidFrames", "AceTimer-3.0", "AceHook-3.0", "AceEvent-3.0", "AceBucket-3.0", "AceConsole-3.0", "AceSerializer-3.0")
 local EnhancedRaidFrames = addonTable.EnhancedRaidFrames
 
+local LibDeflate = LibStub:GetLibrary("LibDeflate")
 local L = LibStub("AceLocale-3.0"):GetLocale("EnhancedRaidFrames")
 
 EnhancedRaidFrames.allAuras = " "
@@ -28,19 +16,22 @@ EnhancedRaidFrames.auraStrings = {{}, {}, {}, {}, {}, {}, {}, {}, {}}  -- Matrix
 
 if WOW_PROJECT_ID == WOW_PROJECT_CLASSIC then --boolean check to set a flag if the current session is WoW Classic. Retail == 1, Classic == 2
 	EnhancedRaidFrames.isWoWClassic = true
+elseif WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC then
+	EnhancedRaidFrames.isWoWClassic_TBC = true
 end
 
 EnhancedRaidFrames.DATABASE_VERSION = 2
 
+
 --Declare Color Globals
 EnhancedRaidFrames.NORMAL_COLOR = NORMAL_FONT_COLOR or CreateColor(1.0, 0.82, 0.0) --the default game text color, dull yellow color
 EnhancedRaidFrames.WHITE_COLOR = WHITE_FONT_COLOR or CreateColor(1.0, 1.0, 1.0) --default game white color for text
-EnhancedRaidFrames.RED_COLOR = RED_FONT_COLOR or CreateColor(1.0, 0.1, 0.1) --solid red color
-EnhancedRaidFrames.YELLOW_COLOR = YELLOW_FONT_COLOR or CreateColor(1.0, 1.0, 0.0) --solid yellow color
-EnhancedRaidFrames.GREEN_COLOR = CreateColorFromHexString("FFA9D271") --poison text color
-EnhancedRaidFrames.PURPLE_COLOR = CreateColorFromHexString("FFA330C9") --curse text color
-EnhancedRaidFrames.BROWN_COLOR = CreateColorFromHexString("FFC79C6E") --disease text color
-EnhancedRaidFrames.BLUE_COLOR = CreateColorFromHexString("FF0070DE") --magic text color
+EnhancedRaidFrames.RED_COLOR = DIM_RED_FONT_COLOR or CreateColor(0.8, 0.1, 0.1) --solid red color
+EnhancedRaidFrames.YELLOW_COLOR = DARKYELLOW_FONT_COLOR or CreateColor(1.0, 0.82, 0.0) --solid yellow color
+EnhancedRaidFrames.GREEN_COLOR = CreateColor(0.6627, 0.8235, 0.4431) --poison text color
+EnhancedRaidFrames.PURPLE_COLOR = CreateColor(0.6392, 0.1882, 0.7882) --curse text color
+EnhancedRaidFrames.BROWN_COLOR = CreateColor(0.7804, 0.6118, 0.4314) --disease text color
+EnhancedRaidFrames.BLUE_COLOR = CreateColor(0.0, 0.4392, 0.8706) --magic text color
 
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------
@@ -98,7 +89,7 @@ end
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------
 
--- Create our database, import saved variables, and set up our configuration panels
+--- Create our database, import saved variables, and set up our configuration panels
 function EnhancedRaidFrames:Setup()
 	-- Set up database defaults
 	local defaults = self:CreateDefaults()
@@ -110,7 +101,7 @@ function EnhancedRaidFrames:Setup()
 	local profiles = LibStub("AceDBOptions-3.0"):GetOptionsTable(self.db) --create the config panel for profiles
 
 	-- Per spec profiles
-	if not self.isWoWClassic then
+	if not self.isWoWClassic and not self.isWoWClassic_TBC then
 		local LibDualSpec = LibStub('LibDualSpec-1.0')
 		LibDualSpec:EnhanceDatabase(self.db, "EnhancedRaidFrames") --enhance the database object with per spec profile features
 		LibDualSpec:EnhanceOptions(profiles, self.db) -- enhance the profiles config panel with per spec profile features
@@ -127,12 +118,14 @@ function EnhancedRaidFrames:Setup()
 	local generalOptions = self:CreateGeneralOptions()
 	local indicatorOptions = self:CreateIndicatorOptions()
 	local iconOptions = self:CreateIconOptions()
+	local importExportProfileOptions = self:CreateProfileImportExportOptions()
 
 	self.config = LibStub("AceConfigRegistry-3.0")
 	self.config:RegisterOptionsTable("Enhanced Raid Frames", generalOptions)
 	self.config:RegisterOptionsTable("ERF Indicator Options", indicatorOptions)
 	self.config:RegisterOptionsTable("ERF Icon Options", iconOptions)
 	self.config:RegisterOptionsTable("ERF Profiles", profiles)
+	self.config:RegisterOptionsTable("ERF Import Export Profile Options", importExportProfileOptions)
 
 	-- Add to config panels to in-game interface options
 	self.dialog = LibStub("AceConfigDialog-3.0")
@@ -140,9 +133,11 @@ function EnhancedRaidFrames:Setup()
 	self.dialog:AddToBlizOptions("ERF Indicator Options", L["Indicator Options"], "Enhanced Raid Frames")
 	self.dialog:AddToBlizOptions("ERF Icon Options", L["Icon Options"], "Enhanced Raid Frames")
 	self.dialog:AddToBlizOptions("ERF Profiles", L["Profiles"], "Enhanced Raid Frames")
+	self.dialog:AddToBlizOptions("ERF Import Export Profile Options", (L["Profile"].." "..L["Import"].."/"..L["Export"]), "Enhanced Raid Frames")
 end
 
--- Update all raid frames
+--- Update all raid frames
+---@param setAppearance boolean
 function EnhancedRaidFrames:UpdateAllFrames(setAppearance)
 	--don't do any work if the raid frames aren't shown
 	if not CompactRaidFrameContainer:IsShown() then
@@ -181,5 +176,51 @@ function EnhancedRaidFrames:RefreshConfig()
 			self.auraStrings[i][j] = auraName
 			j = j + 1
 		end
+	end
+end
+
+
+function EnhancedRaidFrames:GetSerializedAndCompressedProfile()
+	local uncompressed = EnhancedRaidFrames:Serialize(EnhancedRaidFrames.db.profile) --serialize the database into a string value
+	local compressed = LibDeflate:CompressZlib(uncompressed) --compress the data
+	local encoded = LibDeflate:EncodeForPrint(compressed) --encode the data for print for copy+paste
+	return encoded
+end
+
+
+function EnhancedRaidFrames:SetSerializedAndCompressedProfile(input)
+	--check if the input is empty
+	if input == "" then
+		EnhancedRaidFrames:Print(L["No data to import."].." "..L["Aborting."])
+		return
+	end
+
+	--decode and check if decoding worked properly
+	local decoded = LibDeflate:DecodeForPrint(input)
+	if decoded == nil then
+		EnhancedRaidFrames:Print(L["Decoding failed."].." "..L["Aborting."])
+		return
+	end
+
+	--uncompress and check if uncompresion worked properly
+	local uncompressed = LibDeflate:DecompressZlib(decoded)
+	if uncompressed == nil then
+		EnhancedRaidFrames:Print(L["Decompression failed."].." "..L["Aborting."])
+		return
+	end
+
+	--deserialize the data and return it back into a table format
+	local result, newProfile = EnhancedRaidFrames:Deserialize(uncompressed)
+
+	if result == true and newProfile then --if we successfully deserialize, load the new table and reload
+		for k,v in pairs(newProfile) do
+			if type(v) == "table" then
+				EnhancedRaidFrames.db.profile[k] = CopyTable(v)
+			else
+				EnhancedRaidFrames.db.profile[k] = v
+			end
+		end
+	else
+		EnhancedRaidFrames:Print(L["Data import Failed."].." "..L["Aborting."])
 	end
 end

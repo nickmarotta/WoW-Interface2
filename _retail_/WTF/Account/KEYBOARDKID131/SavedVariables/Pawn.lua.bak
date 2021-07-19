@@ -53,9 +53,6 @@ PawnCommon = {
 		["\"MrRobot\":SHAMAN1"] = {
 			["IconTexturePath"] = 136048,
 			["PerCharacterOptions"] = {
-				["Mafiki-Thrall"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "0070de",
 			["ClassID"] = 7,
@@ -234,17 +231,17 @@ PawnCommon = {
 				["CritRating"] = 7.1,
 				["IsStaff"] = -1000000,
 				["HasteRating"] = 5.21,
-				["OffHandDps"] = 2.82,
+				["IsDagger"] = -1000000,
 				["IsCrossbow"] = -1000000,
 				["IsGun"] = -1000000,
-				["IsFrill"] = -1000000,
 				["IsBow"] = -1000000,
-				["Strength"] = 2.84,
+				["IsFrill"] = -1000000,
 				["MasteryRating"] = 5.44,
-				["IsDagger"] = -1000000,
-				["Versatility"] = 5.59,
-				["IsShield"] = -1000000,
 				["Dps"] = 9.98,
+				["Strength"] = 2.84,
+				["OffHandDps"] = 2.82,
+				["IsShield"] = -1000000,
+				["Versatility"] = 5.59,
 			},
 		},
 		["\"MrRobot\":ROGUE3"] = {
@@ -382,23 +379,26 @@ PawnCommon = {
 			["SpecID"] = 1,
 			["UnenchantedColor"] = "957552",
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":SHAMAN3"] = {
+			["IconTexturePath"] = 136052,
 			["PerCharacterOptions"] = {
-				["Attorum-Thrall"] = {
+				["Mafiki-Thrall"] = {
+					["Visible"] = true,
+				},
+				["Mafiki-Alexstrasza"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "a330c9",
-			["ClassID"] = 12,
-			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["Color"] = "0070de",
+			["ClassID"] = 7,
+			["LocalizedName"] = "Shaman: Restoration",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 2,
-			["UnenchantedColor"] = "7a2496",
+			["SpecID"] = 3,
+			["UnenchantedColor"] = "0054a6",
 		},
 		["\"MrRobot\":DRUID2"] = {
 			["IconTexturePath"] = 132115,
@@ -418,9 +418,6 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN2"] = {
 			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
-				["Zynzo-Thrall"] = {
-					["Visible"] = true,
-				},
 			},
 			["Color"] = "f58cba",
 			["ClassID"] = 2,
@@ -568,23 +565,23 @@ PawnCommon = {
 			["SpecID"] = 3,
 			["UnenchantedColor"] = "bf3950",
 		},
-		["\"MrRobot\":SHAMAN3"] = {
-			["IconTexturePath"] = 136052,
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
 			["PerCharacterOptions"] = {
-				["Mafiki-Alexstrasza"] = {
+				["Attorum-Thrall"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "0070de",
-			["ClassID"] = 7,
-			["LocalizedName"] = "Shaman: Restoration",
+			["Color"] = "a330c9",
+			["ClassID"] = 12,
+			["LocalizedName"] = "Demon Hunter: Vengeance",
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["SpecID"] = 3,
-			["UnenchantedColor"] = "0054a6",
+			["SpecID"] = 2,
+			["UnenchantedColor"] = "7a2496",
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -604,6 +601,9 @@ PawnCommon = {
 		["\"MrRobot\":PALADIN1"] = {
 			["IconTexturePath"] = 135920,
 			["PerCharacterOptions"] = {
+				["Zynzo-Thrall"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "f58cba",
 			["ClassID"] = 2,
@@ -654,6 +654,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowSpecIcons"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["LastVersion"] = 2.0416,
+	["LastVersion"] = 2.0521,
 	["ShownGettingStarted"] = true,
 }

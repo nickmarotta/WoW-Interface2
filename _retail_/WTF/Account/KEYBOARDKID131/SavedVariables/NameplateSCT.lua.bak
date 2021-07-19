@@ -1,0 +1,15 @@
+
+NameplateSCTDB = {
+	["profileKeys"] = {
+		["Mafiki - Thrall"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+	},
+	["global"] = {
+		["animations"] = {
+			["autoattack"] = "disabled",
+			["ability"] = "rainfall",
+			["animationspeed"] = 1.7,
+		},
+		["textShadow"] = true,
+	},
+}

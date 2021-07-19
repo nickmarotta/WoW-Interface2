@@ -15,6 +15,7 @@ mod:SetRespawnTime(30)
 local anima = {}
 local concentratedAnimaCount = 1
 local conjuredManifestationList = {}
+local mobCollector = {}
 local conjuredManifestationCount = 1
 local enabledContainer = 0 -- 1: Desires, 2: Bottles, 3: Sins, 4: Adds
 
@@ -52,8 +53,8 @@ end
 --
 
 local sharedSufferingMarker = mod:AddMarkerOption(false, "player", 1, 324983, 1, 2, 3) -- Shared Suffering
-local concentratedAnimaMarker = mod:AddMarkerOption(false, "player", 8, 332664, 8, 7, 6, 5) -- Concentrated Anima
-local conjuredManifestationMarker = mod:AddMarkerOption(true, "npc", 8, -22618, 8, 7, 6, 5) -- Conjured Manifestation
+local concentratedAnimaMarker = mod:AddMarkerOption(false, "player", 8, 332664, 8, 7, 6) -- Concentrated Anima
+local conjuredManifestationMarker = mod:AddMarkerOption(true, "npc", 8, -22618, 8, 7) -- Conjured Manifestation
 function mod:GetOptions()
 	return {
 		"custom_off_experimental",
@@ -113,10 +114,8 @@ function mod:OnBossEnable()
 	self:Log("SPELL_CAST_START", "BottledAnima", 342280, 342281, 342282) -- Bottled Anima, Lingering Anima, Replicating Anima
 
 	-- Container of Sin
-	self:RegisterEvent("RAID_BOSS_WHISPER")
-	self:RegisterMessage("BigWigs_BossComm") -- Early Shared Suffering Warnings
-	self:Log("SPELL_AURA_APPLIED", "SharedSufferingApplied", 324983)
-	self:Log("SPELL_AURA_REMOVED", "SharedSufferingRemoved", 324983)
+	self:Log("SPELL_AURA_APPLIED", "SharedSufferingPreDebuffApplied", 355553) -- Shared Suffering Pre-Debuff
+	self:Log("SPELL_AURA_REMOVED", "SharedSufferingRemoved", 324983) -- Shared Suffering Normal Debuff
 
 	-- Container of Concentrated Anima
 	self:Log("SPELL_CAST_START", "ConcentratedAnima", 342320, 342321) -- Lightly Concentrated Anima, Concentrated Anima
@@ -133,6 +132,7 @@ end
 
 function mod:OnEngage()
 	conjuredManifestationList = {}
+	mobCollector = {}
 	conjuredManifestationCount = 1
 	concentratedAnimaCount = 1
 	enabledContainer = 0
@@ -362,52 +362,30 @@ function mod:BottledAnima(args)
 end
 
 do
-	local playerList, onMe = {}, false
-	local function wipe() playerList = {} end
-	local function addPlayerToList(self, name)
-		if not tContains(playerList, name) then
-			local count = #playerList+1
-			playerList[count] = name
-			playerList[name] = count -- Set raid marker
-			self:NewTargetsMessage(324983, "yellow", playerList, 3, L.sins, nil, 4)
-			self:CustomIcon(sharedSufferingMarker, name, count)
-			if count == 1 then
-				self:SimpleTimer(wipe, 5)
-				self:Bar(324983, enabledContainer == 3 and (self:Mythic() and 30 or 35) or 51, L.sins)
-			end
+	local playerList, prev = {}, 0
+	function mod:SharedSufferingPreDebuffApplied(args)
+		local t = args.time
+		if t-prev > 3 then
+			prev = t
+			playerList = {}
 		end
-	end
 
-	function mod:RAID_BOSS_WHISPER(_, msg)
-		--|TInterface\\Icons\\SPELL_SHAMAN_SPECTRALTRANSFORMATION.BLP:20|tYou have been chosen for |cFFFF0000|Hspell:324983|h[Shared Suffering]|h|r!
-		if msg:find("324983", nil, true) then -- Shared Suffering
-			onMe = true
-			self:Say(324983, L.sins)
-			self:PlaySound(324983, "warning")
-			self:Sync("SharedSufferingTarget")
-		end
-	end
-
-	function mod:BigWigs_BossComm(_, msg, _, name)
-		if msg == "SharedSufferingTarget" then
-			addPlayerToList(self, name)
-		end
-	end
-
-	function mod:SharedSufferingApplied(args)
-		addPlayerToList(self, args.destName)
-		if self:Me(args.destGUID) and not onMe then
-			onMe = true
+		if self:Me(args.destGUID) then
 			self:Say(324983, L.sins)
 			self:PlaySound(324983, "warning")
 		end
-		-- 40s until orbs blow up; do we want a timer?
+
+		local count = #playerList+1
+		playerList[count] = args.destName
+		playerList[args.destName] = count -- Set raid marker
+		self:NewTargetsMessage(324983, "yellow", playerList, 3, L.sins)
+		self:CustomIcon(sharedSufferingMarker, args.destName, count)
+		if count == 1 then
+			self:Bar(324983, enabledContainer == 3 and (self:Mythic() and 30 or 35) or 51, L.sins)
+		end
 	end
 
 	function mod:SharedSufferingRemoved(args)
-		if self:Me(args.destGUID) then
-			onMe = false
-		end
 		self:CustomIcon(sharedSufferingMarker, args.destName)
 	end
 end
@@ -426,7 +404,7 @@ do
 	local isOnMe = false
 	function mod:ConcentratedAnimaApplied(args)
 		local count = #playerList+1
-		local icon = 9-count -- 8, 7, 6, 5
+		local icon = 9-count -- 8, 7, 6
 		proxList[count] = args.destName
 		playerList[count] = args.destName
 		playerList[args.destName] = icon -- Set raid marker
@@ -482,8 +460,9 @@ function mod:Condemn(args)
 			self:PlaySound(args.spellId, "alert")
 		end
 	end
-	if self:GetOption(conjuredManifestationMarker) and not conjuredManifestationList[args.sourceGUID] then
-		conjuredManifestationList[args.sourceGUID] = (8 - (conjuredManifestationCount % 4) + 1) -- 8, 7, 6, 5
+	if self:GetOption(conjuredManifestationMarker) and not mobCollector[args.sourceGUID] and not conjuredManifestationList[args.sourceGUID] then
+		mobCollector[args.sourceGUID] = true
+		conjuredManifestationList[args.sourceGUID] = 9-conjuredManifestationCount -- 8, 7 (max 2 adds per wave)
 		conjuredManifestationCount = conjuredManifestationCount + 1
 		for k, v in next, conjuredManifestationList do
 			local unit = self:GetUnitIdByGUID(k)

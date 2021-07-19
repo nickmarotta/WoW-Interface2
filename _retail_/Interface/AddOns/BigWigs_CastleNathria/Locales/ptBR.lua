@@ -25,8 +25,6 @@ if L then
 
 	L.custom_on_repeating_say_laser = "Repetir dizer Ejeção Volátil"
 	L.custom_on_repeating_say_laser_desc = "Mensagens ditas repetitivas para Ejeção Volátil, para ajudar os outros a se moverem."
-
-	L.tempPrint = "Nós adicionamos gritos de vida para o Miasma. Se você antes usava uma WeakAura para isso, você pode querer exclui-la para prevenir gritos duplos."
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "ptBR")
@@ -62,7 +60,6 @@ end
 
 L = BigWigs:NewBossLocale("The Council of Blood", "ptBR")
 if L then
-	L.macabre_start_emote = "Assumam seus lugares na Dança Macabra!" -- [RAID_BOSS_EMOTE] Take your places for the Danse Macabre!#Dance Controller#4#false"
 	L.custom_on_repeating_dark_recital = "Repetir Recital Sombrio"
 	L.custom_on_repeating_dark_recital_desc = "Repetir Recital Sombrio diz mensagens com ícones {rt1}, {rt2} para encontrar seu parceiro de dança."
 
@@ -118,8 +115,6 @@ end
 
 L = BigWigs:NewBossLocale("Sire Denathrius", "ptBR")
 if L then
-	L.add_spawn = "Cabalistas Carmesim respondem ao chamado de Denathrius." -- [RAID_BOSS_EMOTE] Crimson Cabalists answer the call of Denathrius.#Sire Denathrius#4#true"
-
 	L.infobox_stacks = "%d |4Pilha:Pilhas;: %d |4jogador:jogadores;" -- 4 Stacks: 5 players // 1 Stack: 1 player
 
 	L.custom_on_repeating_nighthunter = "Repetir grito de Caçador Noturno"
@@ -166,6 +161,7 @@ if L then
 	L.antiquarian = "Antiquária Sinistra"
 	L.conservator = "Conservador Nathriano"
 	L.archivist = "Arquivista-chefe Nathriana"
+	L.hierarch = "Hierarca da Corte"
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	L.goliath = "Golias da Legião de Pedra"

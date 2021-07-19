@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -74,7 +74,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
+			["headIndex"] = 8,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -86,6 +86,85 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["b"] = 0,
+					["serverTime"] = 1626393792,
+					["timestamp"] = 163110.608,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 163110.608,
+					["serverTime"] = 1626401586,
+					["r"] = 1,
+				}, -- [2]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["b"] = 0,
+					["r"] = 1,
+					["serverTime"] = 1626401602,
+					["timestamp"] = 163110.608,
+					["g"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 163110.608,
+					["serverTime"] = 1626404287,
+					["b"] = 0,
+				}, -- [4]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1626405127,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 163110.608,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [5]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 163110.608,
+				}, -- [6]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 163110.608,
+				}, -- [7]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 163100.32,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [8]
 			},
 			["maxElements"] = 128,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
@@ -93,6 +172,72 @@ Prat3HighCPUPerCharDB = {
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
+		},
+		["ChatFrame12"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:46:49]|h|r [W To] |cffd8d8d8[|r|Hplayer:Anguskhän-Thrall:750:WHISPER:ANGUSKHÄN-THRALL|h|cffc31d39Anguskhän|r:1|h|cffd8d8d8]|r: y u so gud",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580114.106,
+					["serverTime"] = 1626223607,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						300, -- [3]
+						301, -- [4]
+						["n"] = 4,
+					},
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:00]|h|r [W To] |cffd8d8d8[|r|Hplayer:Anguskhän-Thrall:751:WHISPER:ANGUSKHÄN-THRALL|h|cffc31d39Anguskhän|r:1|h|cffd8d8d8]|r: much wow",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580125.085,
+					["serverTime"] = 1626223618,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						300, -- [3]
+						301, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:02]|h|r [W To] |cffd8d8d8[|r|Hplayer:Anguskhän-Thrall:752:WHISPER:ANGUSKHÄN-THRALL|h|cffc31d39Anguskhän|r:1|h|cffd8d8d8]|r: such dmg",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580126.421,
+					["serverTime"] = 1626223620,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						300, -- [3]
+						301, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:47:05]|h|r [W From] |cffd8d8d8[|r|Hplayer:Anguskhän-Thrall:753:WHISPER:ANGUSKHÄN-THRALL|h|cffc31d39Anguskhän|r:1|h|cffd8d8d8]|r: buttons",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580130.046,
+					["serverTime"] = 1626223623,
+					["extraData"] = {
+						8, -- [1]
+						false, -- [2]
+						300, -- [3]
+						302, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+			},
+			["headIndex"] = 4,
 		},
 		["ChatFrame7"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
@@ -138,23 +283,119 @@ Prat3HighCPUPerCharDB = {
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
-		["ChatFrame14"] = {
+		["ChatFrame13"] = {
 			["maxElements"] = 128,
 			["elements"] = {
 				{
-					["message"] = "|cff979797|Hpratcopy|h[22:45:59]|h|r [W From] |cffd8d8d8[|r|Hplayer:Sniffyy-LaughingSkull:2678:WHISPER:SNIFFYY-LAUGHINGSKULL|h|cfffefefeSniffyy|r-|cff87f9e1Lau|r|h|cffd8d8d8]|r: |cffffff00|Hachievement:14460:Player-67-0DBBC0C3:1:2:6:21:4294967295:4294967295:4294967295:4294967295|h[Ahead of the Curve: Sire Denathrius]|h|r",
-					["serverTime"] = 1614138357,
+					["message"] = "|cff979797|Hpratcopy|h[20:56:38]|h|r [W To] |cffd8d8d8[|r|Hplayer:Haíneko-Thrall:902:WHISPER:HAÍNEKO-THRALL|h|cffa9d271Haíneko|r|h|cffd8d8d8]|r: :O",
+					["b"] = 1,
 					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580702.3470000001,
+					["serverTime"] = 1626224196,
 					["extraData"] = {
-						0, -- [1]
+						10, -- [1]
 						false, -- [2]
-						765, -- [3]
-						766, -- [4]
+						361, -- [3]
+						362, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 622932.769,
-					["g"] = 0.501960813999176,
+				}, -- [1]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:32]|h|r [W From] |cffd8d8d8[|r|Hplayer:Haíneko-Thrall:934:WHISPER:HAÍNEKO-THRALL|h|cffa9d271Haíneko|r|h|cffd8d8d8]|r: :{}",
 					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580816.706,
+					["serverTime"] = 1626224310,
+					["extraData"] = {
+						8, -- [1]
+						false, -- [2]
+						361, -- [3]
+						371, -- [4]
+						["n"] = 4,
+					},
+				}, -- [2]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:58:51]|h|r [W To] |cffd8d8d8[|r|Hplayer:Haíneko-Thrall:939:WHISPER:HAÍNEKO-THRALL|h|cffa9d271Haíneko|r|h|cffd8d8d8]|r: you raiding ?",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580835.625,
+					["serverTime"] = 1626224329,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						361, -- [3]
+						362, -- [4]
+						["n"] = 4,
+					},
+				}, -- [3]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[20:59:16]|h|r [W From] |cffd8d8d8[|r|Hplayer:Haíneko-Thrall:943:WHISPER:HAÍNEKO-THRALL|h|cffa9d271Haíneko|r|h|cffd8d8d8]|r: Not tonight",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580860.382,
+					["serverTime"] = 1626224354,
+					["extraData"] = {
+						8, -- [1]
+						false, -- [2]
+						361, -- [3]
+						371, -- [4]
+						["n"] = 4,
+					},
+				}, -- [4]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:06]|h|r [W To] |cffd8d8d8[|r|Hplayer:Haíneko-Thrall:953:WHISPER:HAÍNEKO-THRALL|h|cffa9d271Haíneko|r|h|cffd8d8d8]|r: </3",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580911.31,
+					["serverTime"] = 1626224404,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						361, -- [3]
+						362, -- [4]
+						["n"] = 4,
+					},
+				}, -- [5]
+				{
+					["message"] = "|cff979797|Hpratcopy|h[21:00:11]|h|r [W To] |cffd8d8d8[|r|Hplayer:Haíneko-Thrall:956:WHISPER:HAÍNEKO-THRALL|h|cffa9d271Haíneko|r|h|cffd8d8d8]|r: love you anyway!",
+					["b"] = 1,
+					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 580915.469,
+					["serverTime"] = 1626224409,
+					["extraData"] = {
+						10, -- [1]
+						false, -- [2]
+						361, -- [3]
+						362, -- [4]
+						["n"] = 4,
+					},
+				}, -- [6]
+			},
+			["headIndex"] = 6,
+		},
+		["ChatFrame11"] = {
+			["maxElements"] = 128,
+			["elements"] = {
+				{
+					["message"] = "|cff979797|Hpratcopy|h[22:42:41]|h|r [W From] |cffd8d8d8[|r|Hplayer:Anguskhän-Thrall:2680:WHISPER:ANGUSKHÄN-THRALL|h|cffc31d39Anguskhän|r:1|h|cffd8d8d8]|r: roll on this waist nerd",
+					["extraData"] = {
+						8, -- [1]
+						false, -- [2]
+						132, -- [3]
+						133, -- [4]
+						["n"] = 4,
+					},
+					["b"] = 1,
+					["serverTime"] = 1626403359,
+					["timestamp"] = 161341.416,
+					["g"] = 0.501960813999176,
+					["r"] = 1,
 				}, -- [1]
 			},
 			["headIndex"] = 1,
@@ -227,7 +468,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 15,
+			["headIndex"] = 58,
 			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -240,1882 +481,1849 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|cfffefefeGhosse|r has died.",
-					["serverTime"] = 1615519322,
-					["r"] = 1,
+					["message"] = "Awaste receives loot: |cffa335ee|Hitem:182743::::::::60:251::16:3:1511:5887:7245:2:28:1279:37:7:::::|h[Focused Malignancy]|h|r.",
+					["serverTime"] = 1626407784,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						68, -- [3]
+						73, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40726.739,
-					["g"] = 1,
+					["timestamp"] = 165766.659,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [1]
 				{
-					["message"] = "You receive currency: |cff0070dd|Hcurrency:1792:0|h[Honor]|h|r x40.",
-					["serverTime"] = 1615519324,
+					["message"] = "Awaste receives loot: |cffa335ee|Hitem:182769::::::::60:251::16:3:1511:5887:7245:2:28:1279:37:7:::::|h[Combusting Engine]|h|r.",
+					["serverTime"] = 1626407784,
 					["r"] = 0,
 					["extraData"] = {
-						59, -- [1]
+						28, -- [1]
 						false, -- [2]
-						328, -- [3]
-						329, -- [4]
+						68, -- [3]
+						73, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40728.531,
+					["timestamp"] = 165766.725,
 					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [2]
 				{
-					["message"] = "You have been awarded 20 Honor.",
-					["serverTime"] = 1615519324,
-					["r"] = 0.8784314393997192,
+					["message"] = "You receive loot: |cff0070dd|Hitem:184772::::::::60:251:::::::::|h[Ritual Maldracite Crystal]|h|rx4",
+					["serverTime"] = 1626407784,
+					["r"] = 0,
 					["extraData"] = {
-						35, -- [1]
+						28, -- [1]
 						false, -- [2]
-						330, -- [3]
-						331, -- [4]
+						68, -- [3]
+						72, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40728.531,
-					["g"] = 0.7921569347381592,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 165767.105,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [3]
 				{
-					["message"] = "Your group has been disbanded.",
-					["serverTime"] = 1615519336,
-					["r"] = 1,
+					["message"] = "You receive loot: |cffa335ee|Hitem:181866::::::::60:251::16:3:1511:5887:7245:2:28:1279:37:7:::::|h[Withering Plague]|h|r",
+					["serverTime"] = 1626407784,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						68, -- [3]
+						72, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40740.258,
-					["g"] = 1,
+					["timestamp"] = 165767.105,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [4]
 				{
-					["message"] = "You have been removed from the group.",
-					["serverTime"] = 1615519336,
+					["message"] = "You receive loot: |cffa335ee|Hitem:178793::::::::60:251::16:5:7586:7359:6652:1543:6646:1:28:1279:::::|h[Abdominal Securing Chestguard]|h|r |cffffd200|Hshareitem:178793::::::::60:251::16:5:7586:7359:6652:1543:6646:1:28:1279::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1626407784,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						68, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165767.105,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [5]
+				{
+					["message"] = "|cffff80ff|Htransmogappearance:111501|h[Abdominal Securing Chestguard]|h|r has been added to your appearance collection.",
+					["serverTime"] = 1626407785,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40740.258,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [5]
-				{
-					["message"] = "Loot Specialization set to: Frost",
-					["serverTime"] = 1615519336,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40740.258,
+					["timestamp"] = 165767.139,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [6]
 				{
-					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
-					["serverTime"] = 1615519338,
+					["message"] = "You loot 52 Gold, 18 Silver, 44 Copper",
+					["serverTime"] = 1626407785,
 					["r"] = 1,
 					["extraData"] = {
-						67, -- [1]
+						29, -- [1]
 						false, -- [2]
-						10, -- [3]
-						11, -- [4]
+						84, -- [3]
+						85, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40741.737,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 165768.106,
+					["g"] = 1,
+					["b"] = 0,
 				}, -- [7]
 				{
-					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
-					["serverTime"] = 1615519338,
-					["r"] = 1,
+					["message"] = "Reayna receives loot: |cffa335ee|Hitem:182657::::::::60:251::16:3:1511:5887:7245:2:28:1279:37:7:::::|h[Deadly Chain]|h|r.",
+					["serverTime"] = 1626407787,
+					["r"] = 0,
 					["extraData"] = {
-						69, -- [1]
+						28, -- [1]
 						false, -- [2]
-						13, -- [3]
-						14, -- [4]
+						68, -- [3]
+						71, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40741.737,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 165769.915,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [8]
 				{
-					["message"] = "|cfffefefeGhosse|r-BleedingHollow has left the instance group.",
-					["serverTime"] = 1615519338,
-					["r"] = 1,
+					["message"] = "Reayna receives loot: |cffa335ee|Hitem:178798::::::::60:251::33:5:7601:7359:6652:1543:6646:1:28:1279:::::|h[Grips of Overwhelming Beatings]|h|r.",
+					["serverTime"] = 1626407787,
+					["r"] = 0,
 					["extraData"] = {
-						1, -- [1]
+						28, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						68, -- [3]
+						71, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40741.737,
-					["g"] = 1,
+					["timestamp"] = 165770.061,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [9]
 				{
-					["message"] = "|cfff38bb9Kred|r has left the instance group.",
-					["serverTime"] = 1615519338,
+					["message"] = "Grandmaster Vole yells: Victory and glory are yours! May you fight forever, Maw Walkers!",
+					["serverTime"] = 1626407795,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40741.737,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165777.346,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [10]
 				{
-					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq15|k:4:1907:BN_INLINE_TOAST_ALERT:0|h[|Kq15|k] (|TInterface\\ChatFrame\\UI-ChatIcon-Battlenet:14:14:0:0|tSpaceman)|h has come online.",
-					["serverTime"] = 1615519338,
-					["r"] = 0.5098039507865906,
-					["extraData"] = {
-						54, -- [1]
-						false, -- [2]
-						286, -- [3]
-						334, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40741.737,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
-				}, -- [11]
-				{
-					["message"] = "|cfffefefeGhosse|r-BleedingHollow leaves the party.",
-					["serverTime"] = 1615519344,
+					["message"] = "|cff8687edAwaste|r leaves the party.",
+					["serverTime"] = 1626407865,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40748.122,
+					["timestamp"] = 165847.682,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [11]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1626407894,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 165876.757,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [12]
 				{
-					["message"] = "You leave the group.",
-					["serverTime"] = 1615519388,
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
+					["serverTime"] = 1626407896,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						68, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						44, -- [3]
+						45, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40792.465,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165878.103,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [13]
 				{
-					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
-					["serverTime"] = 1615519390,
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
+					["serverTime"] = 1626407896,
 					["r"] = 1,
 					["extraData"] = {
-						67, -- [1]
+						70, -- [1]
 						false, -- [2]
-						10, -- [3]
-						11, -- [4]
+						49, -- [3]
+						50, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40793.928,
+					["timestamp"] = 165878.103,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [14]
 				{
-					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
-					["serverTime"] = 1615519390,
-					["r"] = 1,
+					["message"] = "You receive loot: |cffffffff|Hitem:179314::::::::60:251:::::::::|h[Creeping Crawler Meat]|h|rx3",
+					["serverTime"] = 1626407926,
+					["r"] = 0,
 					["extraData"] = {
-						69, -- [1]
+						28, -- [1]
 						false, -- [2]
-						13, -- [3]
-						14, -- [4]
+						68, -- [3]
+						72, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40793.928,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 165908.428,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [15]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1798:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Hoes - Death Knight",
-					["serverTime"] = 1615518540,
-					["r"] = 0.4627451300621033,
+					["message"] = "You receive loot: |cff1eff00|Hitem:172094::::::::60:251:::::::::|h[Callous Hide]|h|rx3",
+					["serverTime"] = 1626407926,
+					["r"] = 0,
 					["extraData"] = {
-						50, -- [1]
+						28, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						68, -- [3]
+						72, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 39943.814,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165908.563,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [16]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1799:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Holyjoy - Paladin",
-					["serverTime"] = 1615518540,
-					["r"] = 0.4627451300621033,
+					["message"] = "You receive loot: |cffffffff|Hitem:173032::::::::60:251:::::::::|h[Lost Sole]|h|rx4",
+					["serverTime"] = 1626407926,
+					["r"] = 0,
 					["extraData"] = {
-						50, -- [1]
+						28, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						68, -- [3]
+						72, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 39943.814,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165908.756,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [17]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1800:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Liù - Druid",
-					["serverTime"] = 1615518551,
-					["r"] = 0.4627451300621033,
+					["message"] = "You receive loot: |cffffffff|Hitem:173034::::::::60:251:::::::::|h[Silvergill Pike]|h|rx3",
+					["serverTime"] = 1626407926,
+					["r"] = 0,
 					["extraData"] = {
-						50, -- [1]
+						28, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						68, -- [3]
+						72, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 39954.986,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165908.89,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [18]
 				{
-					["message"] = "|cfffefefeGhosse|r has died.",
-					["serverTime"] = 1615518679,
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1626407944,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						["n"] = 1,
 					},
-					["timestamp"] = 40083.31,
+					["timestamp"] = 165926.073,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [19]
 				{
-					["message"] = "|cff71d5ff|Hdeath:9|h[You died.]|h",
-					["serverTime"] = 1615518693,
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["serverTime"] = 1626407945,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						68, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						44, -- [3]
+						45, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40096.813,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165927.062,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [20]
 				{
-					["message"] = "You receive currency: |cff0070dd|Hcurrency:1792:0|h[Honor]|h|r x30.",
-					["serverTime"] = 1615518698,
-					["r"] = 0,
+					["message"] = "|Hchannel:channel:2|h[2] |h Changed Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1626407945,
+					["r"] = 1,
 					["extraData"] = {
-						59, -- [1]
+						69, -- [1]
 						false, -- [2]
-						328, -- [3]
-						329, -- [4]
+						1, -- [3]
+						47, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40102.286,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165927.062,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [21]
 				{
-					["message"] = "You have been awarded 10 Honor.",
-					["serverTime"] = 1615518698,
-					["r"] = 0.8784314393997192,
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Oribos]|h",
+					["serverTime"] = 1626407945,
+					["r"] = 1,
 					["extraData"] = {
-						35, -- [1]
+						70, -- [1]
 						false, -- [2]
-						330, -- [3]
-						331, -- [4]
+						49, -- [3]
+						50, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40102.286,
-					["g"] = 0.7921569347381592,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 165927.062,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [22]
 				{
-					["message"] = "The battle has ended. This arena will close in 2 |4Min:Min;",
-					["serverTime"] = 1615518704,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Doncita-Thrall:274:CHANNEL:2|h|cff00fe97Doncita|r|h|cffd8d8d8]|r: WTS M+ 0-20! TIMED||UNTIMED +15 455k || +14 392k  || +12 282k || +10 193k || Specific Key +15 Timed 675k || DISCOUNT DEALS FOR 4 RUNS || TAZAVESH || Loot Funnel || Leveling Boost || PVP BOOST || ONLY GOLD  HUOKAN COMMUNITY",
+					["serverTime"] = 1626407963,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						26, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 40108.022,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165945.542,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [23]
 				{
-					["message"] = "|cfffefefeGhosse|r-BleedingHollow has left the instance group.",
-					["serverTime"] = 1615518705,
+					["message"] = "Auction created.",
+					["serverTime"] = 1626407967,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40108.791,
+					["timestamp"] = 165949.944,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [24]
 				{
-					["message"] = "|cfff38bb9Kred|r has left the instance group.",
-					["serverTime"] = 1615518711,
+					["message"] = "Auction created.",
+					["serverTime"] = 1626407970,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40115.265,
+					["timestamp"] = 165952.622,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [25]
 				{
-					["message"] = "Your group has been disbanded.",
-					["serverTime"] = 1615518718,
+					["message"] = "Auction created.",
+					["serverTime"] = 1626407973,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40122.288,
+					["timestamp"] = 165955.194,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [26]
 				{
-					["message"] = "You have been removed from the group.",
-					["serverTime"] = 1615518718,
+					["message"] = "Auction created.",
+					["serverTime"] = 1626407975,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40122.288,
+					["timestamp"] = 165958.024,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [27]
 				{
-					["message"] = "Loot Specialization set to: Frost",
-					["serverTime"] = 1615518718,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lomeg-Thrall:279:CHANNEL:2|h|cffc59a6cLomeg|r|h|cffd8d8d8]|r: [WTS] PvE boosts: fast leveling to 60 in 8 hours, Sanctum NM/HC raid, Mythic +10-15 runs, 240-260 ilvl gear, Tazavesh Hard Mode. We have over 16,203 TrustPilot reviews. Please, visit |cffffffff|Hurl:WowVendor.net|h[WowVendor.net]|h|r for more info!",
+					["serverTime"] = 1626407979,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40122.288,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [28]
-				{
-					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
-					["serverTime"] = 1615518718,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
+						69, -- [1]
 						false, -- [2]
-						10, -- [3]
-						11, -- [4]
+						1, -- [3]
+						16, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40122.288,
+					["timestamp"] = 165961.608,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [28]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bellsalles-Thrall:280:CHANNEL:2|h|cffc59a6cBellsalles|r|h|cffd8d8d8]|r: WTS M+ 0-15 /+10=192k/ +12=282k / +15=455k /(DISCOUNT DEALS FOR 4 RUNS)/KSM +15=608k (per key)  Torghast/Selling  Sanctum OF Domination FULL CLEAR H/Power level 51-60/PVP BOOST ONLY GOLD Wisp me for more info|cffffffff<|r|cff00ff00HUOKAN COMMUNITY|r|cffffffff>|r",
+					["serverTime"] = 1626407983,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						32, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165965.599,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [29]
 				{
-					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
-					["serverTime"] = 1615518718,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kurimag-Thrall:281:CHANNEL:2|h|cff3ec6eaKurimag|r|h|cffd8d8d8]|r: !WTS Mythic +15-455K |cffffffff<|r|cff00ff00TIMED 608K SPECIFIC KEY KSM|r|cffffffff>|r!M +10-20/ +10-192k/ +12-282k/ +14-392K-(SPECIAL DEAL FOR 4 RUNS)!TORGHAST-LAYER 1-10!PVP!RAID Santum Of Domination N-HC !!OnlyGold|cffffffff<|r|cff00ff00<Houkan Community|r|cffffffff>|r",
+					["serverTime"] = 1626407988,
 					["r"] = 1,
 					["extraData"] = {
 						69, -- [1]
 						false, -- [2]
-						13, -- [3]
-						14, -- [4]
+						1, -- [3]
+						40, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40122.288,
+					["timestamp"] = 165970.942,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [30]
 				{
-					["message"] = "A role check has been initiated. Your group will be queued when all members have selected a role.",
-					["serverTime"] = 1615518723,
+					["message"] = "You receive loot: |cffffffff|Hitem:172052::::::::60:251:::::::::|h[Aethereal Meat]|h|rx4",
+					["serverTime"] = 1626407990,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						68, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165972.446,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [31]
+				{
+					["message"] = "You receive loot: |cffffffff|Hitem:173033::::::::60:251:::::::::|h[Iridescent Amberjack]|h|rx3",
+					["serverTime"] = 1626407990,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						68, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165972.66,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [32]
+				{
+					["message"] = "You receive loot: |cffffffff|Hitem:172089::::::::60:251:::::::::|h[Desolate Leather]|h|rx7",
+					["serverTime"] = 1626407990,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						68, -- [3]
+						72, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165972.748,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [33]
+				{
+					["message"] = "Auction created.",
+					["serverTime"] = 1626408010,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40127.34,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [31]
-				{
-					["message"] = "Corpselus has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
-					["serverTime"] = 1615518723,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40127.34,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [32]
-				{
-					["message"] = "Ghosse-BleedingHollow has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
-					["serverTime"] = 1615518725,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40129.086,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [33]
-				{
-					["message"] = "Kred has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:1:20|t Healer",
-					["serverTime"] = 1615518726,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40130.309,
+					["timestamp"] = 165993.01,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [34]
 				{
-					["message"] = "Your group has joined the queue for 3v3.",
-					["serverTime"] = 1615518726,
+					["message"] = "Auction created.",
+					["serverTime"] = 1626408012,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40130.309,
+					["timestamp"] = 165994.79,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [35]
 				{
-					["message"] = "Loot Specialization set to: Frost",
-					["serverTime"] = 1615518744,
-					["r"] = 1,
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq33|k:47:287:BN_INLINE_TOAST_ALERT:0|h[|Kq33|k]|h has gone offline.",
+					["serverTime"] = 1626408014,
+					["r"] = 0.5098039507865906,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40147.79,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [36]
-				{
-					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
-					["serverTime"] = 1615518745,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
+						54, -- [1]
 						false, -- [2]
-						10, -- [3]
-						11, -- [4]
+						8, -- [3]
+						86, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
+					["timestamp"] = 165996.342,
+					["g"] = 0.7725490927696228,
+					["b"] = 1,
+				}, -- [36]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Krantzz-Thrall:288:CHANNEL:2|h|cff3ec6eaKrantzz|r|h|cffd8d8d8]|r: WTS M+ 0-18 Timed/Untimed //M15-455K//M14-392.5K//M12-282.5K//M10-192.5K// Special Deals for 4+ Keys - Tazavesh Normal(500k)/Hardmode(1M)-Torghast Layer 9(55K) 10(75K) 11(100K) and more! DM me for details <3 - Houkan Community - GOLD ONLY",
+					["serverTime"] = 1626408016,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						87, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165998.42,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [37]
 				{
-					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
-					["serverTime"] = 1615518745,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Vusale-Thrall:289:CHANNEL:2|h|cffc59a6cVusale|r|h|cffd8d8d8]|r: !!WTS M +15 455K!!  WTS M+ 0-20  ((SPECIAL DEAL ON 4 RUNS)) l +14 392K l  l +12 282K l  l +10 192K l !KSM DEALS! / WTS TAZAVESH / WTS H & N SoD / WTS TORGHAST & TC / WTS LVL BOOST / ONLY GOLD >Huokan Community< PM",
+					["serverTime"] = 1626408034,
 					["r"] = 1,
 					["extraData"] = {
 						69, -- [1]
 						false, -- [2]
-						13, -- [3]
-						14, -- [4]
+						1, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
+					["timestamp"] = 166016.306,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
 				}, -- [38]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1815:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena1 (Warrior/Arms)",
-					["serverTime"] = 1615518745,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pandagordo-Thrall:290:CHANNEL:2|h|cff00fe97Pandagordo|r|h|cffd8d8d8]|r: RECRUITING [Guild: No Phö Given] Previously a guild that strived for CE, is now rebuilding the core. We are currently 5/10N, we aim have a full core and progress into mythic. Raid times are Fridays and Saturdays at 9-12 PM EST. Pst for info!",
+					["serverTime"] = 1626408052,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						69, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						1, -- [3]
+						89, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 166034.566,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [39]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1816:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena2 (Shaman/Elemental)",
-					["serverTime"] = 1615518745,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lomeg-Thrall:291:CHANNEL:2|h|cffc59a6cLomeg|r|h|cffd8d8d8]|r: [WТS] Sanctum of Domination Heroic & Normal Carry Tonight! Get ilvl 226-246 gear, achieves, and AOTC! Fast Guild runs with LOOT TRADING. We have over 16,203 TrustPilot reviews. Please, visit |cffffffff|Hurl:WowVendor.org|h[WowVendor.org]|h|r for more info!",
+					["serverTime"] = 1626408072,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						69, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						1, -- [3]
+						16, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 166054.871,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [40]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1817:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena3 (Priest/Discipline)",
-					["serverTime"] = 1615518745,
+					["message"] = "|cffa9d271Reayna|r has gone offline.",
+					["serverTime"] = 1626408076,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						1, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
-					["g"] = 0.4980392456054688,
+					["timestamp"] = 166058.872,
+					["g"] = 1,
 					["b"] = 0,
 				}, -- [41]
 				{
-					["message"] = "Party converted to Raid",
-					["serverTime"] = 1615518745,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dermacks-Thrall:293:CHANNEL:2|h|cffa9d271Dermacks|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-251752-3678-97263873|h[Guild: No Skill Only Luck]|h|r AOTC CN is a semi casual guild looking to work our way into Mythic this tier! In need of healers and DPS. Raid times Tue/Fri 8-11pm EST. Pst for info!",
+					["serverTime"] = 1626408077,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						69, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						1, -- [3]
+						36, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 166059.743,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [42]
 				{
-					["message"] = "You are in both a party and an instance group. You may communicate with your party with \"/p\" and with your instance group with \"/i\".",
-					["serverTime"] = 1615518745,
+					["message"] = "A buyer has been found for your auction of Desolate Leather.",
+					["serverTime"] = 1626408091,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
+					["timestamp"] = 166073.999,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [43]
 				{
-					["message"] = "Raid Difficulty set to Normal.",
-					["serverTime"] = 1615518745,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Kratti-Thrall:295:CHANNEL:2|h|cff00fe97Kratti|r|h|cffd8d8d8]|r: !!WTS +15 Only 455k>//Mythic Keys +10-20!/+14 392.5K /+12 282.5k /+10 192.5K /(SPECIAL DEAL FOR 4 RUNS)!!WTS TAZAVESH |cffffffff<|r|cff00ff00WTS SoD HC|r|cffffffff>|r!WTS! Torghast/WTS leveling 51-60) ONLY GOLD >>HUOKAN COMMUNITY<<",
+					["serverTime"] = 1626408095,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						69, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						1, -- [3]
+						42, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40148.976,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 166077.484,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [44]
 				{
-					["message"] = "Legacy Raid Difficulty set to 10 Player.",
-					["serverTime"] = 1615518745,
+					["message"] = "You gained: |cffffffff25|TInterface\\MoneyFrame\\UI-SilverIcon:0:0:2:0|t|r",
+					["serverTime"] = 1626408103,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
+						["n"] = 1,
 					},
-					["timestamp"] = 40148.976,
+					["timestamp"] = 166085.446,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [45]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1822:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Arms WARRIOR",
-					["serverTime"] = 1615518745,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eldalvana-Thrall:296:CHANNEL:2|h|cffa9d271Eldalvana|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:186362::::::::5:1448::5:5:7188:42:7576:1485:6646:1:28:2105:::::|h[Bindings of the Subjugated]|h|r lvl 239 +3 socket PST",
+					["serverTime"] = 1626408108,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						69, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40149.212,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 166090.494,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [46]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1823:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Elemental SHAMAN",
-					["serverTime"] = 1615518745,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Cokan-Thrall:297:CHANNEL:2|h|cff00fe97Cokan|r|h|cffd8d8d8]|r: WTS +15 only 455k||Runs with lootfunnel now DM+info||Tazavesh Normal/Hard|| Special deal KSM 4 +15 Specific 608k per key|| 4 +10 untimed 580k|| 4 +14 untimed 1336k ||4 +15 untimed 1548k||Torghast||Sanctum Normal/Heroic||Leveling51-60/ONLY GOLD HUOKAN",
+					["serverTime"] = 1626408109,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						69, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						1, -- [3]
+						12, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40149.212,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 166091.198,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [47]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1824:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Discipline PRIEST",
-					["serverTime"] = 1615518745,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Hallsie-Thrall:298:CHANNEL:2|h|cff006fdcHallsie|r|h|cffd8d8d8]|r: !!WTS +15 Only 455k>//Mythic Keys +10-20!/+14 392.5K /+12 282.5k /+10 192.5K /(SPECIAL DEAL FOR 4 RUNS)|cffffffff<|r|cff00ff00WTS   Sanctum of Domination  HC|r|cffffffff>|r!WTS! Torghast/WTS leveling 51-60) ONLY GOLD >>HUOKAN COMMUNITY<<",
+					["serverTime"] = 1626408116,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						69, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						1, -- [3]
+						20, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40149.212,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 166098.784,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [48]
 				{
-					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615518762,
-					["r"] = 0,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pandagordo-Thrall:299:CHANNEL:2|h|cff00fe97Pandagordo|r|h|cffd8d8d8]|r: RECRUITING [Guild: No Phö Given] Previously a guild that strived for CE, is now rebuilding the core. We are currently 5/10N, we aim have a full core and progress into mythic. Raid times are Fridays and Saturdays at 9-12 PM EST. Pst for info!",
+					["serverTime"] = 1626408117,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						69, -- [1]
 						false, -- [2]
-						19, -- [3]
-						165, -- [4]
+						1, -- [3]
+						89, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40165.995,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 166099.684,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [49]
 				{
-					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615518762,
-					["r"] = 0,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Savagemote-Thrall:300:CHANNEL:2|h|cff006fdcSavagemote|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-234940-3678-65342759|h[Guild: Banana Brigade]|h|r  Is recruiting all dps for Sanctum pushing for aotc/mythic content 4/10H Sun-Mon 8-11est.",
+					["serverTime"] = 1626408129,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						69, -- [1]
 						false, -- [2]
-						19, -- [3]
-						165, -- [4]
+						1, -- [3]
+						91, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40166.057,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 166111.246,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [50]
 				{
-					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615518762,
-					["r"] = 0,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lomeg-Thrall:301:CHANNEL:2|h|cffc59a6cLomeg|r|h|cffd8d8d8]|r: [WТS] Mythic +10-15 key CARRY. Runs start every hour! Get NEW ilvl 233-252+ Gear, Mythic+ Rating and KSM Season 2 rewards. We have over 16,203 TrustPilot reviews. Please, visit |cffffffff|Hurl:WowVendor.org|h[WowVendor.org]|h|r for more info!",
+					["serverTime"] = 1626408164,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						69, -- [1]
 						false, -- [2]
-						19, -- [3]
-						165, -- [4]
+						1, -- [3]
+						16, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40166.146,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 166146.272,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [51]
 				{
-					["message"] = "Thirty seconds until the Arena battle begins!",
-					["serverTime"] = 1615518766,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eldalvana-Thrall:302:CHANNEL:2|h|cffa9d271Eldalvana|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:186362::::::::5:1448::5:5:7188:42:7576:1485:6646:1:28:2105:::::|h[Bindings of the Subjugated]|h|r lvl 239 +3 socket PST",
+					["serverTime"] = 1626408168,
 					["r"] = 1,
 					["extraData"] = {
-						37, -- [1]
+						69, -- [1]
 						false, -- [2]
-						326, -- [3]
-						327, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40170.565,
-					["g"] = 0.4705882668495178,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 166150.774,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [52]
 				{
-					["message"] = "Fifteen seconds until the Arena battle begins!",
-					["serverTime"] = 1615518781,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Pandagordo-Thrall:303:CHANNEL:2|h|cff00fe97Pandagordo|r|h|cffd8d8d8]|r: RECRUITING [Guild: No Phö Given] Previously a guild that strived for CE, is now rebuilding the core. We are currently 5/10N, we aim have a full core and progress into mythic. Raid times are Fridays and Saturdays at 9-12 PM EST. Pst for info!",
+					["serverTime"] = 1626408183,
 					["r"] = 1,
 					["extraData"] = {
-						37, -- [1]
+						69, -- [1]
 						false, -- [2]
-						326, -- [3]
-						327, -- [4]
+						1, -- [3]
+						89, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40185.74,
-					["g"] = 0.4705882668495178,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 166165.659,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [53]
 				{
-					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq59|k:46:1830:BN_INLINE_TOAST_ALERT:0|h[|Kq59|k]|h has gone offline.",
-					["serverTime"] = 1615518794,
-					["r"] = 0.5098039507865906,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Akhainur-Thrall:304:CHANNEL:2|h|cff006fdcAkhainur|r|h|cffd8d8d8]|r: WTS torghast layer 1-11 (5gems) &Twisting Corridor1-8. Gold only",
+					["serverTime"] = 1626408187,
+					["r"] = 1,
 					["extraData"] = {
-						54, -- [1]
+						69, -- [1]
 						false, -- [2]
-						286, -- [3]
-						332, -- [4]
+						1, -- [3]
+						93, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40198.473,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
+					["timestamp"] = 166169.356,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [54]
 				{
-					["message"] = "The Arena battle has begun!",
-					["serverTime"] = 1615518796,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Eldalvana-Thrall:305:CHANNEL:2|h|cffa9d271Eldalvana|r|h|cffd8d8d8]|r: WTS |cffa335ee|Hitem:186362::::::::5:1448::5:5:7188:42:7576:1485:6646:1:28:2105:::::|h[Bindings of the Subjugated]|h|r lvl 239 +3 socket PST",
+					["serverTime"] = 1626408207,
 					["r"] = 1,
 					["extraData"] = {
-						37, -- [1]
+						69, -- [1]
 						false, -- [2]
-						326, -- [3]
-						327, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40200.197,
-					["g"] = 0.4705882668495178,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 166189.836,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [55]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1832:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Hollowhinata - Priest",
-					["serverTime"] = 1615518796,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
+					["serverTime"] = 1626408216,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						68, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						44, -- [3]
+						45, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40200.738,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 166198.578,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [56]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1833:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Hellobro - Warrior",
-					["serverTime"] = 1615518796,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:channel:2|h[2] |h Left Channel: |Hchannel:CHANNEL:2|h[2. Trade - City]|h",
+					["serverTime"] = 1626408216,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						69, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						1, -- [3]
+						47, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40200.738,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 166198.578,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [57]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1834:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Shamij - Shaman",
-					["serverTime"] = 1615518796,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Oribos]|h",
+					["serverTime"] = 1626408216,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						70, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						49, -- [3]
+						50, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40200.738,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 166198.578,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
 				}, -- [58]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1835:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
-					["serverTime"] = 1615518844,
-					["r"] = 1,
-					["extraData"] = {
-						63, -- [1]
-						false, -- [2]
-						324, -- [3]
-						325, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40248.485,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["message"] = "BigWigs: |cffffff00Defeated 'Gorechop' after 1 |4Min:Min; 35 |4Sec:Sec;.|r",
+					["timestamp"] = 165275.076,
+					["serverTime"] = 1626407292,
 				}, -- [59]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1836:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
-					["serverTime"] = 1615518844,
-					["r"] = 0.4627451300621033,
+					["message"] = "Grandmaster Vole yells: Another trial down! Looks like we might have some real contenders here!",
+					["serverTime"] = 1626407297,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40248.485,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165279.338,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [60]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1837:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: Hollowhinata (Priest)",
-					["serverTime"] = 1615518914,
+					["message"] = "Xav the Unfallen yells: You had best make this interesting.",
+					["serverTime"] = 1626407512,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						15, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40318.388,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 165494.541,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [61]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1838:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Hollowhinata (Priest)",
-					["serverTime"] = 1615518914,
-					["r"] = 0.4627451300621033,
-					["extraData"] = {
-						50, -- [1]
-						false, -- [2]
-						314, -- [3]
-						323, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40318.388,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?* |cFFFFBB00Boss First Target|r: Foxrifice    ",
+					["timestamp"] = 165494.824,
+					["serverTime"] = 1626407512,
 				}, -- [62]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1839:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
-					["serverTime"] = 1615518915,
+					["message"] = "Xav the Unfallen yells: My blade knows no equal.",
+					["serverTime"] = 1626407518,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						15, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40319.071,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 165500.418,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [63]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1840:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: |cffa5a5a5Hellobro|r (Warrior)",
-					["serverTime"] = 1615518915,
-					["r"] = 0.4627451300621033,
+					["message"] = "Xav the Unfallen yells: Can you match my strength?!",
+					["serverTime"] = 1626407529,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40319.071,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165512.1,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [64]
 				{
-					["message"] = "|cfffefefeGhosse|r has died.",
-					["serverTime"] = 1615518932,
+					["message"] = "Xav the Unfallen yells: You! Show me what you can do.",
+					["serverTime"] = 1626407542,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40336.191,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165524.669,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [65]
 				{
-					["message"] = "|cff71d5ff|Hdeath:10|h[You died.]|h",
-					["serverTime"] = 1615518969,
+					["message"] = "Xav the Unfallen yells: Fall before the storm.",
+					["serverTime"] = 1626407548,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40373.279,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165530.735,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [66]
 				{
-					["message"] = "You receive currency: |cff0070dd|Hcurrency:1792:0|h[Honor]|h|r x30.",
-					["serverTime"] = 1615518973,
-					["r"] = 0,
+					["message"] = "|TInterface\\Icons\\Ability_PVP_GladiatorMedallion.blp:20|t Reayna has defeated Corpselus in glorious combat!",
+					["serverTime"] = 1626407559,
+					["r"] = 1,
 					["extraData"] = {
-						59, -- [1]
+						43, -- [1]
 						false, -- [2]
-						328, -- [3]
-						329, -- [4]
+						77, -- [3]
+						80, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40377.526,
-					["g"] = 0.6666666865348816,
+					["timestamp"] = 165541.871,
+					["g"] = 0.8666667342185974,
 					["b"] = 0,
 				}, -- [67]
 				{
-					["message"] = "You have been awarded 10 Honor.",
-					["serverTime"] = 1615518973,
-					["r"] = 0.8784314393997192,
+					["message"] = "Xav the Unfallen yells: Fall before the storm.",
+					["serverTime"] = 1626407564,
+					["r"] = 1,
 					["extraData"] = {
-						35, -- [1]
+						15, -- [1]
 						false, -- [2]
-						330, -- [3]
-						331, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40377.526,
-					["g"] = 0.7921569347381592,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 165546.52,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [68]
 				{
-					["message"] = "The battle has ended. This arena will close in 2 |4Min:Min;",
-					["serverTime"] = 1615518979,
+					["message"] = "Xav the Unfallen yells: Cower before my might!",
+					["serverTime"] = 1626407570,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						15, -- [1]
+						false, -- [2]
+						55, -- [3]
+						56, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 40383.387,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165552.223,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [69]
 				{
-					["message"] = "Your group has been disbanded.",
-					["serverTime"] = 1615518987,
+					["message"] = "|cffa9d271Reayna|r has died.",
+					["serverTime"] = 1626407576,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40391.38,
+					["timestamp"] = 165558.547,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [70]
 				{
-					["message"] = "You have been removed from the group.",
-					["serverTime"] = 1615518987,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:202:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) <EH> Reayna got hit by |cff71d5ff|Hspell:320729:0|h[Massive Cleave]|h|r for 15.8k (34%) and |cff71d5ff|Hspell:339415:0|h[Deafening Crash]|h|r for 31.7k (68%).",
+					["serverTime"] = 1626407577,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40391.38,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165559.792,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [71]
 				{
-					["message"] = "Loot Specialization set to: Frost",
-					["serverTime"] = 1615518987,
+					["message"] = "Xav the Unfallen yells: My blade knows no equal.",
+					["serverTime"] = 1626407591,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						15, -- [1]
+						false, -- [2]
+						55, -- [3]
+						56, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 40391.38,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165573.222,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [72]
 				{
-					["message"] = "|cfffefefeGhosse|r-BleedingHollow has left the instance group.",
-					["serverTime"] = 1615518989,
+					["message"] = "Xav the Unfallen yells: Can you match my strength?!",
+					["serverTime"] = 1626407600,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40392.736,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165582.52,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [73]
 				{
-					["message"] = "|cfff38bb9Kred|r has left the instance group.",
-					["serverTime"] = 1615518989,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:205:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) <EH> Corpselus got hit by |cff71d5ff|Hspell:317231:0|h[Crushing Slam]|h|r for 20.3k (48%).",
+					["serverTime"] = 1626407607,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40392.736,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165589.543,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [74]
 				{
-					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
-					["serverTime"] = 1615518989,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:206:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) <EH> Reayna got hit by |cff71d5ff|Hspell:317231:0|h[Crushing Slam]|h|r for 22.8k (57%).",
+					["serverTime"] = 1626407607,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						67, -- [1]
+						3, -- [1]
 						false, -- [2]
-						10, -- [3]
-						11, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40392.736,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 165589.543,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [75]
 				{
-					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
-					["serverTime"] = 1615518989,
+					["message"] = "Xav the Unfallen yells: Fight for glory!",
+					["serverTime"] = 1626407612,
 					["r"] = 1,
 					["extraData"] = {
-						69, -- [1]
+						15, -- [1]
 						false, -- [2]
-						13, -- [3]
-						14, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40392.736,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 165595.101,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [76]
 				{
-					["message"] = "A role check has been initiated. Your group will be queued when all members have selected a role.",
-					["serverTime"] = 1615518991,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:208:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) <EH> Reayna got hit by |cff71d5ff|Hspell:320729:0|h[Massive Cleave]|h|r for 17.6k (44%).",
+					["serverTime"] = 1626407613,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40394.776,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165596.077,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [77]
 				{
-					["message"] = "Corpselus has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
-					["serverTime"] = 1615518991,
+					["message"] = "Xav the Unfallen yells: Fall before the storm.",
+					["serverTime"] = 1626407621,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						15, -- [1]
+						false, -- [2]
+						55, -- [3]
+						56, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 40394.776,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165603.584,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [78]
 				{
-					["message"] = "Kred has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:1:20|t Healer",
-					["serverTime"] = 1615518992,
+					["message"] = "|TInterface\\Icons\\Ability_PVP_GladiatorMedallion.blp:20|t Awaste has defeated Corpselus in glorious combat!",
+					["serverTime"] = 1626407630,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
+						43, -- [1]
+						false, -- [2]
+						77, -- [3]
+						81, -- [4]
+						["n"] = 4,
 					},
-					["timestamp"] = 40396.418,
-					["g"] = 1,
+					["timestamp"] = 165612.184,
+					["g"] = 0.8666667342185974,
 					["b"] = 0,
 				}, -- [79]
 				{
-					["message"] = "Ghosse-BleedingHollow has chosen: |TInterface\\LFGFrame\\UI-LFG-ICON-PORTRAITROLES.blp:16:16:0:0:64:64:20:39:22:41|t Damage",
-					["serverTime"] = 1615518998,
+					["message"] = "Xav the Unfallen yells: Cower before my might!",
+					["serverTime"] = 1626407635,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40402.266,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [80]
-				{
-					["message"] = "Your group has joined the queue for 3v3.",
-					["serverTime"] = 1615518998,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40402.266,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165617.752,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [80]
+				{
+					["message"] = "Xav the Unfallen yells: That was... a good... fight...",
+					["serverTime"] = 1626407641,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						55, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165623.177,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [81]
 				{
-					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq43|k:1:1853:BN_INLINE_TOAST_ALERT:0|h[|Kq43|k]|h has gone offline.",
-					["serverTime"] = 1615519018,
+					["message"] = "BigWigs: |cffffff00Defeated 'Xav the Unfallen' after 2 |4Min:Min; 8 |4Sec:Sec;.|r",
+					["timestamp"] = 165623.973,
+					["serverTime"] = 1626407641,
+				}, -- [82]
+				{
+					["message"] = "Grandmaster Vole yells: Incredible! Our challengers have conquered the trials and advance to the final round!",
+					["serverTime"] = 1626407646,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						55, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165628.384,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [83]
+				{
+					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq36|k:52:214:BN_INLINE_TOAST_ALERT:0|h[|Kq36|k]|h has gone offline.",
+					["serverTime"] = 1626407646,
 					["r"] = 0.5098039507865906,
 					["extraData"] = {
 						54, -- [1]
 						false, -- [2]
-						286, -- [3]
-						333, -- [4]
+						8, -- [3]
+						79, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40422.334,
+					["timestamp"] = 165629,
 					["g"] = 0.7725490927696228,
 					["b"] = 1,
-				}, -- [82]
-				{
-					["message"] = "Loot Specialization set to: Frost",
-					["serverTime"] = 1615519040,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 40444.171,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [83]
-				{
-					["message"] = "|Hchannel:channel:1|h[1] |h Left Channel: |Hchannel:CHANNEL:1|h[1. General - Ardenweald]|h",
-					["serverTime"] = 1615519041,
-					["r"] = 1,
-					["extraData"] = {
-						67, -- [1]
-						false, -- [2]
-						10, -- [3]
-						11, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40445.298,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [84]
 				{
-					["message"] = "|Hchannel:channel:3|h[3] |h Left Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Ardenweald]|h",
-					["serverTime"] = 1615519041,
+					["message"] = "Grandmaster Vole yells: Return to the central chamber! It's time to begin the main event!",
+					["serverTime"] = 1626407654,
 					["r"] = 1,
 					["extraData"] = {
-						69, -- [1]
+						15, -- [1]
 						false, -- [2]
-						13, -- [3]
-						14, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.298,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
+					["timestamp"] = 165636.422,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [85]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1856:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena1 (Mage/Fire)",
-					["serverTime"] = 1615519041,
+					["message"] = "Grandmaster Vole yells: Soldiers of Maldraxxus! Are you ready for some carnage?!",
+					["serverTime"] = 1626407662,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						15, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.298,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 165644.191,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [86]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1857:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena2 (Rogue/Subtlety)",
-					["serverTime"] = 1615519041,
+					["message"] = "Grandmaster Vole yells: Our rising stars now face the longest-reigning champion the Theater of Pain has ever known: Mordretha, the Endless Empress!",
+					["serverTime"] = 1626407670,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						15, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.298,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 165652.168,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [87]
 				{
-					["message"] = "Party converted to Raid",
-					["serverTime"] = 1615519041,
+					["message"] = "Mordretha, the Endless Empress yells: At long last, a worthy contender...",
+					["serverTime"] = 1626407687,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.298,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165669.307,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [88]
 				{
-					["message"] = "You are in both a party and an instance group. You may communicate with your party with \"/p\" and with your instance group with \"/i\".",
-					["serverTime"] = 1615519041,
+					["message"] = "Mordretha, the Endless Empress yells: Behold my power and despair!",
+					["serverTime"] = 1626407692,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.298,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165674.416,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [89]
 				{
-					["message"] = "Raid Difficulty set to Normal.",
-					["serverTime"] = 1615519041,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						3, -- [3]
-						4, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40445.298,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: Word of Recall (OLD) from Foxrifice |cFFFFBB00Boss First Target|r: Foxrifice    ",
+					["timestamp"] = 165674.953,
+					["serverTime"] = 1626407692,
 				}, -- [90]
 				{
-					["message"] = "Legacy Raid Difficulty set to 10 Player.",
-					["serverTime"] = 1615519041,
+					["message"] = "Mordretha, the Endless Empress yells: My magic reaches beyond your mortal ken.",
+					["serverTime"] = 1626407708,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.298,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165690.344,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [91]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1862:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Fire MAGE",
-					["serverTime"] = 1615519041,
-					["r"] = 0.4627451300621033,
+					["message"] = "Mordretha, the Endless Empress yells: Reality turns its ire against you.",
+					["serverTime"] = 1626407716,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.561,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165698.833,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [92]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1863:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Subtlety ROGUE",
-					["serverTime"] = 1615519041,
-					["r"] = 0.4627451300621033,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Paisan-Thrall:222:SAY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: Manifest Death",
+					["serverTime"] = 1626407718,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						2, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						30, -- [3]
+						60, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40445.561,
-					["g"] = 0.7843137979507446,
+					["timestamp"] = 165700.605,
+					["g"] = 1,
 					["b"] = 1,
 				}, -- [93]
 				{
-					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615519044,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:223:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: Manifest Death",
+					["serverTime"] = 1626407718,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						19, -- [3]
-						165, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40448.099,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165700.605,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [94]
 				{
-					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615519044,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Paisan-Thrall:224:SAY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: 3",
+					["serverTime"] = 1626407721,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						19, -- [3]
-						165, -- [4]
+						30, -- [3]
+						60, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40448.174,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165703.596,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [95]
 				{
-					["message"] = "Kred creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615519044,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:225:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: 3",
+					["serverTime"] = 1626407721,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						19, -- [3]
-						165, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40448.299,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165703.596,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [96]
 				{
-					["message"] = "Ghosse-BleedingHollow creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615519046,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Paisan-Thrall:226:SAY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: 2",
+					["serverTime"] = 1626407722,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						19, -- [3]
-						162, -- [4]
+						30, -- [3]
+						60, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.541,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165704.496,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [97]
 				{
-					["message"] = "Ghosse-BleedingHollow creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615519046,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:227:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: 2",
+					["serverTime"] = 1626407722,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						19, -- [3]
-						162, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.6,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165704.496,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [98]
 				{
-					["message"] = "Ghosse-BleedingHollow creates: |cffffffff|Hitem:177278::::::::60:251:::::::|h[Phial of Serenity]|h|r.",
-					["serverTime"] = 1615519046,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Paisan-Thrall:228:SAY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: 1",
+					["serverTime"] = 1626407723,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						19, -- [3]
-						162, -- [4]
+						30, -- [3]
+						60, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.759,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 165705.575,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [99]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1870:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Fire MAGE",
-					["serverTime"] = 1615519047,
-					["r"] = 0.4627451300621033,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:229:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: 1",
+					["serverTime"] = 1626407723,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						2, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.884,
-					["g"] = 0.7843137979507446,
+					["timestamp"] = 165705.575,
+					["g"] = 1,
 					["b"] = 1,
 				}, -- [100]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1871:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Subtlety ROGUE",
-					["serverTime"] = 1615519047,
-					["r"] = 0.4627451300621033,
+					["message"] = "Mordretha, the Endless Empress yells: All whom you have slain cry out for vengeance!",
+					["serverTime"] = 1626407733,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.884,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165715.837,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [101]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1872:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Enemy Spec: Holy PALADIN",
-					["serverTime"] = 1615519047,
-					["r"] = 0.4627451300621033,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:231:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) <EH> Reayna got hit by |cff71d5ff|Hspell:339573:0|h[Echoes of Carnage]|h|r for 12.7k (32%).",
+					["serverTime"] = 1626407741,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						50, -- [1]
+						3, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.884,
-					["g"] = 0.7843137979507446,
+					["timestamp"] = 165723.827,
+					["g"] = 0.6666666865348816,
 					["b"] = 1,
 				}, -- [102]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1873:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) Enemy spec: arena3 (Paladin/Holy)",
-					["serverTime"] = 1615519047,
+					["message"] = "Mordretha, the Endless Empress yells: You shall be swept into oblivion.",
+					["serverTime"] = 1626407751,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						15, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40450.884,
-					["g"] = 0.4980392456054688,
-					["b"] = 0,
+					["timestamp"] = 165734.09,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [103]
 				{
-					["message"] = "You have unlearned |cff71d5ff|Hspell:207167:0|h[Blinding Sleet]|h|r.",
-					["serverTime"] = 1615519050,
+					["message"] = "Mordretha, the Endless Empress yells: Death itself demands your souls.",
+					["serverTime"] = 1626407760,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40454.392,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165742.575,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [104]
 				{
-					["message"] = "You have learned a new spell: |cff71d5ff|Hspell:108194:0|h[Asphyxiate]|h|r.",
-					["serverTime"] = 1615519050,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Paisan-Thrall:234:SAY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: Manifest Death",
+					["serverTime"] = 1626407762,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						2, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						30, -- [3]
+						60, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40454.392,
+					["timestamp"] = 165744.362,
 					["g"] = 1,
-					["b"] = 0,
+					["b"] = 1,
 				}, -- [105]
 				{
-					["message"] = "Thirty seconds until the Arena battle begins!",
-					["serverTime"] = 1615519069,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:235:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: Manifest Death",
+					["serverTime"] = 1626407762,
 					["r"] = 1,
 					["extraData"] = {
-						37, -- [1]
+						2, -- [1]
 						false, -- [2]
-						326, -- [3]
-						327, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40473.444,
-					["g"] = 0.4705882668495178,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 165744.362,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [106]
 				{
-					["message"] = "Fifteen seconds until the Arena battle begins!",
-					["serverTime"] = 1615519084,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:236:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: 3",
+					["serverTime"] = 1626407765,
 					["r"] = 1,
 					["extraData"] = {
-						37, -- [1]
+						2, -- [1]
 						false, -- [2]
-						326, -- [3]
-						327, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40488.626,
-					["g"] = 0.4705882668495178,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 165747.365,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [107]
 				{
-					["message"] = "The Arena battle has begun!",
-					["serverTime"] = 1615519099,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:237:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: 2",
+					["serverTime"] = 1626407766,
 					["r"] = 1,
 					["extraData"] = {
-						37, -- [1]
+						2, -- [1]
 						false, -- [2]
-						326, -- [3]
-						327, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40503.109,
-					["g"] = 0.4705882668495178,
-					["b"] = 0.03921568766236305,
+					["timestamp"] = 165748.23,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [108]
 				{
-					["message"] = "High King Maulgar says: Let the games... BEGIN!",
-					["serverTime"] = 1615519099,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Foxrifice-Thrall:238:SAY|h|cffa22fc8Foxrifice|r|h|cffd8d8d8]|r: 1",
+					["serverTime"] = 1626407767,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
+						2, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						30, -- [3]
+						59, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40503.33,
+					["timestamp"] = 165749.371,
 					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["b"] = 1,
 				}, -- [109]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1880:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Vyaqt - Mage",
-					["serverTime"] = 1615519099,
-					["r"] = 0.4627451300621033,
+					["message"] = "Mordretha, the Endless Empress yells: You shall be swept into oblivion.",
+					["serverTime"] = 1626407778,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40503.554,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165760.798,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [110]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1881:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Tired - Paladin",
-					["serverTime"] = 1615519100,
-					["r"] = 0.4627451300621033,
+					["message"] = "Mordretha, the Endless Empress yells: All... things... must end...",
+					["serverTime"] = 1626407779,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40503.792,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165761.568,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [111]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1882:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) Sneakybroe - Rogue",
-					["serverTime"] = 1615519111,
-					["r"] = 0.4627451300621033,
-					["extraData"] = {
-						50, -- [1]
-						false, -- [2]
-						314, -- [3]
-						323, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40515.386,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["message"] = "|cff33ff99<AngryKeystones>|r |cffeda55fBeat the timer for Theater of Pain in 33:29.032. You were 3:30.968 ahead of the timer, and missed +2 by 3:53.032.|r",
+					["timestamp"] = 165761.819,
+					["serverTime"] = 1626407779,
 				}, -- [112]
 				{
-					["message"] = "High King Maulgar says: Yes, yes!",
-					["serverTime"] = 1615519153,
+					["message"] = "The Primus whispers: A victory well earned. You have proven that none of the weapons in Zovaal's arsenal can best you.",
+					["serverTime"] = 1626407779,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
+						16, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						66, -- [3]
+						67, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40557.361,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165762.004,
+					["g"] = 0.7098039388656616,
+					["b"] = 0.9215686917304993,
 				}, -- [113]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1884:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Sneakybroe (Rogue)",
-					["serverTime"] = 1615519199,
-					["r"] = 0.4627451300621033,
+					["message"] = "|cffd8d8d8[|r|Hplayer:Awaste-Thrall:242:GUILD|h|cff8687edAwaste|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:11185:Player-3678-0B077519:1:7:15:21:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r |cffffffff(|rCompleted 11/20/17|cffffffff)|r!",
+					["serverTime"] = 1626407779,
+					["r"] = 0.250980406999588,
 					["extraData"] = {
-						50, -- [1]
+						48, -- [1]
 						false, -- [2]
-						314, -- [3]
-						323, -- [4]
+						62, -- [3]
+						63, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40603.101,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 165762.004,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
 				}, -- [114]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1885:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: Sneakybroe (Rogue)",
-					["serverTime"] = 1615519199,
+					["message"] = "|cffd8d8d8[|r|Hplayer:Awaste-Thrall:243:ACHIEVEMENT|h|cff8687edAwaste|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:11185:Player-3678-0B077519:1:7:15:21:4294967295:4294967295:4294967295:4294967295|h[Keystone Conqueror]|h|r |cffffffff(|rCompleted 11/20/17|cffffffff)|r!",
+					["serverTime"] = 1626407779,
 					["r"] = 1,
 					["extraData"] = {
-						63, -- [1]
+						47, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						64, -- [3]
+						65, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40603.101,
-					["g"] = 0.4980392456054688,
+					["timestamp"] = 165762.004,
+					["g"] = 1,
 					["b"] = 0,
 				}, -- [115]
 				{
-					["message"] = "High King Maulgar says: Yes, yes!",
-					["serverTime"] = 1615519199,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:244:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) Thank you for travelling with ElitismHelper. Amount of failure damage:",
+					["serverTime"] = 1626407779,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						13, -- [1]
+						3, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40603.101,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165762.004,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [116]
 				{
-					["message"] = "High King Maulgar says: Finish him!",
-					["serverTime"] = 1615519245,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:245:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) 1. |cff00ff00Corpselus|r 35.7k",
+					["serverTime"] = 1626407779,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						13, -- [1]
+						3, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40649.437,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165762.004,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [117]
 				{
-					["message"] = "|cfff38bb9Kred|r has died.",
-					["serverTime"] = 1615519245,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:246:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) 2. |cfff38bb9Paisan|r 39.2k",
+					["serverTime"] = 1626407779,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40649.477,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165762.004,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [118]
 				{
-					["message"] = "High King Maulgar says: Finish him!",
-					["serverTime"] = 1615519256,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:247:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) 3. |cffa22fc8Foxrifice|r 41.7k",
+					["serverTime"] = 1626407779,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						13, -- [1]
+						3, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40660.462,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165762.004,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [119]
 				{
-					["message"] = "|cff71d5ff|Hdeath:11|h[You died.]|h",
-					["serverTime"] = 1615519258,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:248:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) 4. |cff8687edAwaste|r 75.3k",
+					["serverTime"] = 1626407779,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						3, -- [3]
-						4, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40661.822,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 165762.004,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [120]
 				{
-					["message"] = "High King Maulgar says: Yes, yes!",
-					["serverTime"] = 1615519269,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Paisan-Thrall:249:PARTY|h|cfff38bb9Paisan|r|h|cffd8d8d8]|r: (|cFF00ffe2226.3|r) 5. |cffa9d271Reayna|r 221.7k",
+					["serverTime"] = 1626407779,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						13, -- [1]
+						3, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						74, -- [3]
+						75, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40673.274,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165762.004,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [121]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1892:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Tired (Paladin)",
-					["serverTime"] = 1615519287,
-					["r"] = 0.4627451300621033,
-					["extraData"] = {
-						50, -- [1]
-						false, -- [2]
-						314, -- [3]
-						323, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40691.279,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["message"] = "BigWigs: |cffffff00Defeated 'Mordretha, the Endless Empress' after 1 |4Min:Min; 27 |4Sec:Sec;.|r",
+					["timestamp"] = 165762.376,
+					["serverTime"] = 1626407780,
 				}, -- [122]
 				{
-					["message"] = "|Hchannel:INSTANCE_CHAT|h[I] |h|cffd8d8d8[|r|Hplayer:Kred-Thrall:1893:INSTANCE_CHAT|h|cfff38bb9Kred|r|h|cffd8d8d8]|r: (|cFF00ffce220.3|r) LOW HEALTH: Tired (Paladin)",
-					["serverTime"] = 1615519287,
-					["r"] = 1,
+					["message"] = "You receive currency: |cffa335ee|Hcurrency:1191:0|h[Valor]|h|rx135",
+					["serverTime"] = 1626407780,
+					["r"] = 0,
 					["extraData"] = {
-						63, -- [1]
+						59, -- [1]
 						false, -- [2]
-						324, -- [3]
-						325, -- [4]
+						82, -- [3]
+						83, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40691.279,
-					["g"] = 0.4980392456054688,
+					["timestamp"] = 165763.033,
+					["g"] = 0.6666666865348816,
 					["b"] = 0,
 				}, -- [123]
 				{
-					["message"] = "High King Maulgar says: Yes, yes!",
-					["serverTime"] = 1615519287,
-					["r"] = 1,
+					["message"] = "You receive currency: |cffa335ee|Hcurrency:1947:0|h[Bonus Valor]|h|rx65",
+					["serverTime"] = 1626407780,
+					["r"] = 0,
 					["extraData"] = {
-						13, -- [1]
+						59, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						82, -- [3]
+						83, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40691.483,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165763.033,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [124]
 				{
-					["message"] = "You are in Spectator Mode. To abandon this battle, right click the Arena icon on the minimap and select 'Leave Arena'.",
-					["serverTime"] = 1615519311,
+					["message"] = "Theater of Pain (Level 10) completed in 33:29 (3 |4min:min; 31 |4sec:sec; left). This is a new Fortified record!",
+					["serverTime"] = 1626407783,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 40715.226,
+					["timestamp"] = 165765.74,
 					["g"] = 1,
 					["b"] = 0,
 				}, -- [125]
 				{
-					["message"] = "High King Maulgar says: Finish him!",
-					["serverTime"] = 1615519311,
+					["message"] = "New personal best for |cffffd100Corpselus|r, |cffffd100Awaste|r, |cffffd100Reayna|r, |cffffd100Paisan|r! Bonus Valor earned.",
+					["serverTime"] = 1626407783,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						1, -- [3]
-						2, -- [4]
-						["n"] = 4,
+						1, -- [1]
+						["n"] = 1,
 					},
-					["timestamp"] = 40715.49,
+					["timestamp"] = 165765.74,
 					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["b"] = 0,
 				}, -- [126]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:1896:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00ffa6208.2|r) LOW HEALTH: Tired (Paladin)",
-					["serverTime"] = 1615519312,
-					["r"] = 0.4627451300621033,
-					["extraData"] = {
-						50, -- [1]
-						false, -- [2]
-						314, -- [3]
-						323, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 40716.572,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
-				}, -- [127]
-				{
-					["message"] = "High King Maulgar says: Finish her!",
-					["serverTime"] = 1615519313,
+					["message"] = "Grandmaster Vole yells: Yes! Mordretha has been defeated! I can hardly believe it! All hail the new champions of the arena!",
+					["serverTime"] = 1626407784,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
+						15, -- [1]
 						false, -- [2]
-						1, -- [3]
-						2, -- [4]
+						55, -- [3]
+						56, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 40717.647,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 165766.165,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [127]
+				{
+					["message"] = "Awaste receives loot: |cffff8000|Hitem:183375::::::::60:251::16::1:28:1279:::::|h[Memory of the Diabolic Raiment]|h|r.",
+					["serverTime"] = 1626407784,
+					["r"] = 0,
+					["extraData"] = {
+						28, -- [1]
+						false, -- [2]
+						68, -- [3]
+						73, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 165766.595,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
 				}, -- [128]
 			},
 			["maxElements"] = 128,

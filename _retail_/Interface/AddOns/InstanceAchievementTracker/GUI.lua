@@ -45,13 +45,12 @@ AchievementTrackerNPCCache = {}
 
 -- Purpose:         Information about the current release. This is mianly used to detect which addon should output messages to chat to avoid spam
 Config.majorVersion = 3						--Addon with a higher major version change have priority over a lower major version
-Config.minorVersion = 18    				--Addon with a minor version change have prioirty over a lower minor version
+Config.minorVersion = 29    				--Addon with a minor version change have prioirty over a lower minor version
 Config.revisionVersion = 0					--Addon with a revision change have the same priorty as a lower revision verison
 Config.releaseType = ""                     --Release type (Alpha, Beta, Release)
 
 -- Purpose:         Used to detect which version of the game the user is running. This is used so we can add features for different versions of the game.
-local _, _, _, tocVersionloc = GetBuildInfo()
-core.tocVersion = tocVersionloc
+core.gameVersion, core.gameBuild, core.gameDate, core.tocVersion = GetBuildInfo()
 
 ------------------------------------------------------
 ---- Localisation
@@ -62,7 +61,7 @@ function Config:getLocalisedInstanceName(instanceID)
 end
 
 function Config:getLocalisedScenarioName(dungeonID)
-    return GetDungeonInfo(dungeonID)
+    return C_LFGInfo.GetDungeonInfo(dungeonID).name
 end
 
 function Config:getLocalisedEncouterName(encounterID,instanceType)
@@ -370,6 +369,9 @@ function Tab_OnClick(self)
             UIConfig.Main2.options6 = Config:CreateCheckBox("TOPLEFT", UIConfig.Main2.options4, "TOPLEFT", 0, -25, "AchievementTracker_ToggleAchievementAnnounce")
             UIConfig.Main2.options6:SetScript("OnClick", ATToggleAchievementAnnounce_OnClick)
             UIConfig.Main2.options7 = Config:CreateText2("TOPLEFT", UIConfig.Main2.options6, "TOPLEFT", 30, -9, L["GUI_AnnounceTracking"],"GameFontHighlight")
+            UIConfig.Main2.options7:SetWordWrap(true)
+            UIConfig.Main2.options7:SetWidth(320)
+            UIConfig.Main2.options7:SetJustifyH("LEFT")
             UIConfig.Main2.options6:SetScript("OnEnter", function(self)
                 AltGameTooltip:SetOwner(self, "ANCHOR_TOPRIGHT")
                 AltGameTooltip:SetText(L["GUI_AnnounceAchievementsToGroupDescription"],1.0,0.82,0.0,1,true)
@@ -1058,19 +1060,19 @@ local function SetTabs(frame, numTabs, ...)
     end
 
     --Tabs for other addons
-    local tab = CreateFrame("Button", "InstanceAchievementTrackerTab", frame, "OptionsFrameTabButtonTemplate")
-    tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
-    tab:SetText("Dungeons & Raids")  --This select the variables arguments passed into the function. Needs updating each expansion
-    tab:SetScript("OnClick", IAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
-    tab:SetPoint("TOPLEFT")
-    tab:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, 20)
+    -- local tab = CreateFrame("Button", "InstanceAchievementTrackerTab", frame, "OptionsFrameTabButtonTemplate")
+    -- tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
+    -- tab:SetText("Dungeons & Raids")  --This select the variables arguments passed into the function. Needs updating each expansion
+    -- tab:SetScript("OnClick", IAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
+    -- tab:SetPoint("TOPLEFT")
+    -- tab:SetPoint("TOPLEFT", frame, "TOPLEFT", 0, 20)
 
-    local tab = CreateFrame("Button", "ExplorationAchievementTrackerTab", _G["InstanceAchievementTrackerTab"], "OptionsFrameTabButtonTemplate")
-    tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
-    tab:SetText("Exploration")  --This select the variables arguments passed into the function. Needs updating each expansion
-    tab:SetScript("OnClick", EAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
-    tab:SetPoint("TOPLEFT")
-    tab:SetPoint("TOPLEFT", _G["InstanceAchievementTrackerTab"], "TOPLEFT", 120, 0)
+    -- local tab = CreateFrame("Button", "ExplorationAchievementTrackerTab", _G["InstanceAchievementTrackerTab"], "OptionsFrameTabButtonTemplate")
+    -- tab:SetID(100)                                 --This is used when clicking on the tab to load the correct frames
+    -- tab:SetText("Exploration")  --This select the variables arguments passed into the function. Needs updating each expansion
+    -- tab:SetScript("OnClick", EAT_OnClick)       --This will run the Tab_OnClick() function once the user has selected a tab so we can load the correct frames into the GUI
+    -- tab:SetPoint("TOPLEFT")
+    -- tab:SetPoint("TOPLEFT", _G["InstanceAchievementTrackerTab"], "TOPLEFT", 120, 0)
 
 	Tab_OnClick(_G[frameName.."Tab1"]) --Load in the main frame to begin with
 
@@ -1759,10 +1761,22 @@ function Instance_OnClick(self)
                     button.contentText:SetFont("Fonts\\FRIZQT__.TTF", 12);
                 end
                 local achievementLink = GetAchievementLink(instanceLocation["boss" .. counter2].achievement)
+		        achievementLink = achievementLink:gsub("&", "&amp;"); -- & in the achievement name would resolve the html syntax wrong
                 if core.achievementTrackingEnabled == false then
-		            button.contentText:SetText("<html><body><p>" .. L["GUI_Achievement"] .. ": " .. achievementLink .. "<br /><br />" .. tacticsStr .. "</p></body></html>")
+                    if instanceLocation["boss" .. counter2].image ~= nil then
+                        local imageTable = instanceLocation["boss" .. counter2].image
+                        button.contentText:SetText("<html><body><p>" .. L["GUI_Achievement"] .. ": " .. achievementLink .. "<br /><br />" .. tacticsStr .. "</p><img src='Interface\\AddOns\\InstanceAchievementTracker\\Images\\" .. imageTable[1] .. "' width='" .. imageTable[2] .. "' height='" .. imageTable[3] .. "' align='center'/></body></html>")
+                    else
+                        button.contentText:SetText("<html><body><p>" .. L["GUI_Achievement"] .. ": " .. achievementLink .. "<br /><br />" .. tacticsStr .. "</p></body></html>")
+                    end
                 else
-                    button.contentText:SetText("<html><body><p>" .. L["GUI_Achievement"] .. ": " .. achievementLink .. "<br /><br />" .. players .. "<br /><br />" .. tacticsStr .. "</p></body></html>")
+                    if instanceLocation["boss" .. counter2].image ~= nil then
+                        local imageTable = instanceLocation["boss" .. counter2].image
+                        button.contentText:SetText("<html><body><p>" .. L["GUI_Achievement"] .. ": " .. achievementLink .. "<br /><br />" .. players .. "<br /><br />" .. tacticsStr .. "</p><img src='Interface\\AddOns\\InstanceAchievementTracker\\Images\\" .. imageTable[1] .. "' width='" .. imageTable[2] .. "' height='" .. imageTable[3] .. "' align='center'/></body></html>")
+                    else
+                        button.contentText:SetText("<html><body><p>" .. L["GUI_Achievement"] .. ": " .. achievementLink .. "<br /><br />" .. players .. "<br /><br />" .. tacticsStr .. "</p></body></html>")
+                    end
+
                 end
 
                 if playersFound == false and core.achievementDisplayStatus == "grey" then
@@ -2242,6 +2256,7 @@ function IATInfoFrame:Reset()
     IATInfoFrame:SetSubHeading2()
     IATInfoFrame:SetText2()
     core.InfoFrame_PlayersTable = {}
+    core.InfoFrame_DynamicTable = {}
     core:sendDebugMessage("InfoFrame has been reset")
 end
 
@@ -2359,9 +2374,9 @@ function IAT_HasAchievement(achievementID)
                 for boss, _ in pairs(core.Instances[expansion][instanceType][instance]) do
                     if boss ~= "name" then
                         if core.Instances[expansion][instanceType][instance][boss].achievement == achievementID then
-							-- Achievement found
-							lastExpansion, lastInstanceType, lastInstance = expansion, instanceType, instance
-							return true
+                            -- Achievement found
+                            lastExpansion, lastInstanceType, lastInstance = expansion, instanceType, instance
+                            return true
                         end
                     end
                 end
@@ -2377,17 +2392,17 @@ function IAT_DisplayAchievement(achievementID)
     -- Open IAT Gui and display the specific achievement
 
 	-- Check here if IAT_HasAchievement has already been called for the same achievement ID
-	local valid = lastAchievementID == achievementID;
-    if valid then
-		valid = IAT_HasAchievement(achievementID)
-	end
+    local valid = lastAchievementID == achievementID;
+    if not valid then
+        valid = IAT_HasAchievement(achievementID)
+    end
 	-- If valid and none of the other 3 are nil, show the tactics
     if valid and lastExpansion and lastInstanceType and lastInstance then
-		IAT_InstanceType = lastInstanceType
-		IAT_InstanceLocation = lastInstance
-		IAT_CurrentTab = lastExpansion
+        IAT_InstanceType = lastInstanceType
+        IAT_InstanceLocation = lastInstance
+        IAT_CurrentTab = lastExpansion
 
-		Config:Instance_OnClickAPI("API")
+        Config:Instance_OnClickAPI("API")
 
         Config:ToggleOn()
 

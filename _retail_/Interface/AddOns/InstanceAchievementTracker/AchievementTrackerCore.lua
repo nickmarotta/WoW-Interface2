@@ -259,6 +259,12 @@ local relayAddonPlayer = nil
 local relayAddonVersion = 0
 local masterAddonPlayer = nil				--The player who is currently the master addon
 local versionRequestSent = false			--When adds send version request, only do this once per fight.
+local checkBrodcast = false
+local broadcastMessage = nil
+local broadcastMajorVersion = nil
+local brodcastMinorVersion = nil
+local firstBroadcast = 10
+local newRequestRecieved = false
 
 --------------------------------------
 -- InfoFrame Variables
@@ -1834,6 +1840,29 @@ end
 --This is done so we know which achievements we need to be tracking and so we know which achievements to scan the players in the group for
 function events:PLAYER_ENTERING_WORLD()
 	getInstanceInfomation()
+
+	--Optimise SavedVariables file to save space
+	C_Timer.After(60, function()
+		if #AchievementTrackerDebug > 50000 then
+			local n = math.abs(50000 - #AchievementTrackerDebug)
+
+			for i = 1, n do
+				AchievementTrackerDebug[i] = nil
+			end
+
+			local j = 0
+			for i = 1, n do
+				if AchievementTrackerDebug[i] ~= nil then
+					j = j + 1
+					AchievementTrackerDebug[j] = AchievementTrackerDebug[i]
+				end
+			end
+
+			for i=j+1,n do
+				AchievementTrackerDebug[i] = nil
+			end
+		end
+	end)
 end
 
 --Fired when the player enters a new zone.
@@ -1919,6 +1948,9 @@ function checkAndClearInstanceVariables()
 		core.instanceVariablesReset = true --This is done so we only reset instance variables once, rather than everytime the player changes zone
 		trackAchievementsUIAutomatic = false
 
+		core:sendDebugMessage("Resetting PlayerRank")
+		playerRank = -1
+
 		--Reset Achievement Variabless
 		playersToScan = {}
 		playersScanned = {}
@@ -1954,6 +1986,7 @@ function checkAndClearInstanceVariables()
 			core.IATInfoFrame:SetText2()
 			core.infoFrameShown = false
 			core.InfoFrame_PlayersTable = {}
+			core.InfoFrame_DynamicTable = {}
 			core.infoFrameLock = false
 		else
 			core:sendDebugMessage("InfoFrame was not active")
@@ -1968,243 +2001,292 @@ end
 --Used to communicate between everyone in the group using the addon to decide which addon is the master addon
 --The master addon is detected at the start of every fight so we don't have to worry about if a player is in the instance/offline etc
 function events:CHAT_MSG_ADDON(self, prefix, message, channel, sender)
+	--Check to see if we should aknowledge the request or not. Must come from the "Whizzey" prefix and unit must resolve
 	--Addon is checking who should be leader
 	local name, realm = UnitName("Player")
 	local nameSend, realmSend = strsplit("-", sender)
 
-	if string.match(message, "demote") then
-		--Another addon has requested that this adodn demotes itself
-		local nameFetched, realmFetched, message = strsplit("-", message)
+	if nameSend ~= nil and prefix ~= nil then
+		if prefix == "Whizzey" and UnitExists(nameSend) then
+			if string.match(message, "demote") then
+				--Another addon has requested that this adodn demotes itself
+				local nameFetched, realmFetched, message = strsplit("-", message)
 
-		if nameFetched == name then
-			--Demote this player
-			core:sendDebugMessage("Demoting Myself...")
-			masterAddon = false
-		end
-	elseif string.match(message, "info") then
-		--Other addons have returned the requested info
-		local info, addonIDRecieved, nameRecieved, masterAddonRecieved, playerRankRecieved, majorVersionRecieved, minorVersionRecieved, onlyTrackMissingAchievementsRecieved = strsplit(",", message)
-		local demotionRequired = false
-
-		if nameRecieved ~= name then
-			local allVariablesRecieved = true
-			if masterAddonRecieved ~= nil then
-				core:sendDebugMessage("------------NEW REQUEST------------")
-				core:sendDebugMessage("Recieved Info From: " .. sender)
-				if addonIDRecieved ~= nil then
-					core:sendDebugMessage("AddonID: " .. addonIDRecieved .. " : " .. tostring(addonID))
-				else
-					allVariablesRecieved = false
-				end
-				if masterAddonRecieved ~= nil then
-					core:sendDebugMessage("Master Addon: " .. masterAddonRecieved .. " : " .. tostring(masterAddon))
-				else
-					allVariablesRecieved = false
-				end
-				if playerRankRecieved ~= nil then
-					core:sendDebugMessage("Player Rank: " .. playerRankRecieved .. " : " .. tostring(playerRank))
-				else
-					allVariablesRecieved = false
-				end
-				if majorVersionRecieved ~= nil then
-					core:sendDebugMessage("Major Version: " .. majorVersionRecieved .. " : " .. tostring(core.Config.majorVersion))
-				else
-					allVariablesRecieved = false
-				end
-				if minorVersionRecieved ~= nil then
-					core:sendDebugMessage("Minor Version: " .. minorVersionRecieved .. " : " .. tostring(core.Config.minorVersion))
-				else
-					allVariablesRecieved = false
-				end
-				if onlyTrackMissingAchievementsRecieved ~= nil then
-					core:sendDebugMessage("Only Track Missing Achievements: " .. onlyTrackMissingAchievementsRecieved .. " : " .. tostring(core.trackingSupressed))
-				else
-					allVariablesRecieved = false
-				end
-			end
-
-			if masterAddonRecieved == "true" and blockRequirementsCheck == false and allVariablesRecieved == true then
-
-				core:sendDebugMessage("Make it to tracking")
-
-				if onlyTrackMissingAchievementsRecieved == "true" and core.trackingSupressed == false then
-					--Other player is supressing achievements but this addon is not so set this to the master addon
-					core:sendDebugMessage("0.1: " .. sender .. " is supressing achievements so demote")
-					masterAddon = true
-					demotionRequired = true
-				elseif onlyTrackMissingAchievementsRecieved == "false" and core.trackingSupressed == true then
-					core:sendDebugMessage("0.2: This addon is supressing messages so demote")
-					--This addon is supressing achievements but other addon is not so demote this addon
+				if nameFetched == name then
+					--Demote this player
+					core:sendDebugMessage(nameSend .. " Has told me to demote myself")
+					core:sendDebugMessage("Demoting Myself...")
 					masterAddon = false
 
-					--Since we have found an addon with higher requirements there is no need to check further requests for this encounter
-					blockRequirementsCheck = true
-					core:sendDebugMessage("Blocking additional requests till end of fight since another addon has better requirements")
-				elseif tonumber(majorVersionRecieved) < core.Config.majorVersion then
-					--Major version recieved from other player is lower so set this addon to the master addon
-					core:sendDebugMessage("1: " .. sender .. " has a lower major version. Setting this addon to master")
-					core:sendDebugMessage("Setting Master Addon 2")
-					masterAddon = true
-					demotionRequired = true
-				elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) < core.Config.minorVersion then
-					--Major version recieved from other player is the same but other player has lower minor version so set this addon to the master addon
-					core:sendDebugMessage("2: " .. sender .. " has a lower minor version. Setting this addon to master")
-					core:sendDebugMessage("Setting Master Addon 3")
-					masterAddon = true
-					demotionRequired = true
-				elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) == core.Config.minorVersion and tonumber(playerRankRecieved) < playerRank then
-					--Other player has same major and minor version but has lower rank than this addon so set this addon to the master addon
-					core:sendDebugMessage("3: " .. sender .. " has a lower rank. Setting this addon to master")
-					core:sendDebugMessage("Setting Master Addon 4")
-					masterAddon = true
-					demotionRequired = true
-				elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) == core.Config.minorVersion and tonumber(playerRankRecieved) == playerRank and tonumber(addonIDRecieved) < addonID then
-					--Other player has exact same requirements but has lower addonID so set this addon to the master addon
-					core:sendDebugMessage("3: " .. sender .. " has a lower Addon ID. Setting this addon to master")
-					core:sendDebugMessage("Setting Master Addon 5")
-					masterAddon = true
-					demotionRequired = true
-				elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) == core.Config.minorVersion and tonumber(playerRankRecieved) == playerRank and tonumber(addonIDRecieved) == addonID then
-					--Everything about the 2 addons are completely identical. Keep rolling for a random new addonID number until it's different from the one recieved
-					core:sendDebugMessage("5: " .. sender .. " Both addon have the same requirements. Sorting players name into alphabetical order. Player first will get master")
-					names = {}
-					names[1] = nameSend
-					names[2] = UnitName("Player")
+					--Wait a few seconds for all requests to process. If we did not recieve any legitimate requests but was asked to demote outself
+					--revert this addon to being Master. This might mean multiple people are outputting for the fight, but will hopefully resolve the
+					--issue where no one in the group is outputting messages at all
+					C_Timer.After(2, function()
+						if newRequestRecieved == false then
+							core:sendDebugMessage("Critical Error: I was asked to demote but no one sent any legimate requests. Promoting myself back to master")
+							masterAddon = true
+						else
+							core:sendDebugMessage("Demotion was legimate. No need to promote myself")
+						end
+					end)
+				end
+			elseif string.match(message, "info") then
+				--Other addons have returned the requested info
+				local info, addonIDRecieved, nameRecieved, masterAddonRecieved, playerRankRecieved, majorVersionRecieved, minorVersionRecieved, onlyTrackMissingAchievementsRecieved, sentInstanceID = strsplit(",", message)
+				local demotionRequired = false
 
-					local sortedKeys = getKeysSortedByValue(names, function(a, b) return a < b end)
-
-					local counter = 1
-					for _, key in ipairs(sortedKeys) do
-						if counter == 1 then
-							core:sendDebugMessage(names[key])
-							if names[key] == UnitName("Player") then
-								core:sendDebugMessage("5.5: Setting This addon to master")
-								masterAddon = true
-							else
-								core:sendDebugMessage("5.5: Demoting this addon")
-								masterAddon = false
-
-								--Since we have found an addon with higher requirements there is no need to check further requests for this encounter
-								blockRequirementsCheck = true
-								core:sendDebugMessage("Blocking additional requests till end of fight since another addon has better requirements")
-							end
-							counter = counter + 1
+				if nameRecieved ~= name then
+					local allVariablesRecieved = true
+					if masterAddonRecieved ~= nil then
+						core:sendDebugMessage("------------NEW REQUEST------------")
+						core:sendDebugMessage("Recieved Info From: " .. sender)
+						newRequestRecieved = true
+						if addonIDRecieved ~= nil then
+							core:sendDebugMessage("AddonID: " .. addonIDRecieved .. " : " .. tostring(addonID))
+						else
+							allVariablesRecieved = false
+						end
+						if masterAddonRecieved ~= nil then
+							core:sendDebugMessage("Master Addon: " .. masterAddonRecieved .. " : " .. tostring(masterAddon))
+						else
+							allVariablesRecieved = false
+						end
+						if playerRankRecieved ~= nil then
+							core:sendDebugMessage("Player Rank: " .. playerRankRecieved .. " : " .. tostring(playerRank))
+						else
+							allVariablesRecieved = false
+						end
+						if majorVersionRecieved ~= nil then
+							core:sendDebugMessage("Major Version: " .. majorVersionRecieved .. " : " .. tostring(core.Config.majorVersion))
+						else
+							allVariablesRecieved = false
+						end
+						if minorVersionRecieved ~= nil then
+							core:sendDebugMessage("Minor Version: " .. minorVersionRecieved .. " : " .. tostring(core.Config.minorVersion))
+						else
+							allVariablesRecieved = false
+						end
+						if onlyTrackMissingAchievementsRecieved ~= nil then
+							core:sendDebugMessage("Only Track Missing Achievements: " .. onlyTrackMissingAchievementsRecieved .. " : " .. tostring(core.trackingSupressed))
+						else
+							allVariablesRecieved = false
+						end
+						if sentInstanceID ~= nil and core.instance ~= nil then
+							core:sendDebugMessage("Instance ID: " .. sentInstanceID .. " : " .. tostring(core.instance))
+						end
+						if core.instance ~= nil then
+							core:sendDebugMessage("I am in an instance")
+						else
+							core:sendDebugMessage("I am not in an instance")
 						end
 					end
-				else
-					core:sendDebugMessage("4: " .. sender .. " has better requirements. Not setting this addon to master")
-					--Other addon has the better requirements so this addon should not be the master addon
-					masterAddon = false
 
-					--Since we have found an addon with higher requirements there is no need to check further requests for this encounter
-					blockRequirementsCheck = true
-					core:sendDebugMessage("Blocking additional requests till end of fight since another addon has better requirements")
+					if masterAddonRecieved == "true" and blockRequirementsCheck == false and allVariablesRecieved == true and core.instance ~= nil then
+
+						core:sendDebugMessage("Make it to tracking")
+
+						if onlyTrackMissingAchievementsRecieved == "true" and core.trackingSupressed == false then
+							--Other player is supressing achievements but this addon is not so set this to the master addon
+							core:sendDebugMessage("0.1: " .. sender .. " is supressing achievements so demote")
+							masterAddon = true
+							demotionRequired = true
+						elseif onlyTrackMissingAchievementsRecieved == "false" and core.trackingSupressed == true then
+							core:sendDebugMessage("0.2: This addon is supressing messages so demote")
+							--This addon is supressing achievements but other addon is not so demote this addon
+							masterAddon = false
+
+							--Since we have found an addon with higher requirements there is no need to check further requests for this encounter
+							blockRequirementsCheck = true
+							core:sendDebugMessage("Blocking additional requests till end of fight since another addon has better requirements")
+						elseif tonumber(majorVersionRecieved) < core.Config.majorVersion then
+							--Major version recieved from other player is lower so set this addon to the master addon
+							core:sendDebugMessage("1: " .. sender .. " has a lower major version. Setting this addon to master")
+							core:sendDebugMessage("Setting Master Addon 2")
+							masterAddon = true
+							demotionRequired = true
+						elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) < core.Config.minorVersion then
+							--Major version recieved from other player is the same but other player has lower minor version so set this addon to the master addon
+							core:sendDebugMessage("2: " .. sender .. " has a lower minor version. Setting this addon to master")
+							core:sendDebugMessage("Setting Master Addon 3")
+							masterAddon = true
+							demotionRequired = true
+						elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) == core.Config.minorVersion and tonumber(playerRankRecieved) < playerRank then
+							--Other player has same major and minor version but has lower rank than this addon so set this addon to the master addon
+							core:sendDebugMessage("3: " .. sender .. " has a lower rank. Setting this addon to master")
+							core:sendDebugMessage("Setting Master Addon 4")
+							masterAddon = true
+							demotionRequired = true
+						elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) == core.Config.minorVersion and tonumber(playerRankRecieved) == playerRank and tonumber(addonIDRecieved) < addonID then
+							--Other player has exact same requirements but has lower addonID so set this addon to the master addon
+							core:sendDebugMessage("3: " .. sender .. " has a lower Addon ID. Setting this addon to master")
+							core:sendDebugMessage("Setting Master Addon 5")
+							masterAddon = true
+							demotionRequired = true
+						elseif tonumber(majorVersionRecieved) == core.Config.majorVersion and tonumber(minorVersionRecieved) == core.Config.minorVersion and tonumber(playerRankRecieved) == playerRank and tonumber(addonIDRecieved) == addonID then
+							--Everything about the 2 addons are completely identical. Keep rolling for a random new addonID number until it's different from the one recieved
+							core:sendDebugMessage("5: " .. sender .. " Both addon have the same requirements. Sorting players name into alphabetical order. Player first will get master")
+							names = {}
+							names[1] = nameSend
+							names[2] = UnitName("Player")
+
+							local sortedKeys = getKeysSortedByValue(names, function(a, b) return a < b end)
+
+							local counter = 1
+							for _, key in ipairs(sortedKeys) do
+								if counter == 1 then
+									core:sendDebugMessage(names[key])
+									if names[key] == UnitName("Player") then
+										core:sendDebugMessage("5.5: Setting This addon to master")
+										masterAddon = true
+									else
+										core:sendDebugMessage("5.5: Demoting this addon")
+										masterAddon = false
+
+										--Since we have found an addon with higher requirements there is no need to check further requests for this encounter
+										blockRequirementsCheck = true
+										core:sendDebugMessage("Blocking additional requests till end of fight since another addon has better requirements")
+									end
+									counter = counter + 1
+								end
+							end
+						else
+							core:sendDebugMessage("4: " .. sender .. " has better requirements. Not setting this addon to master")
+							--Other addon has the better requirements so this addon should not be the master addon
+							masterAddon = false
+
+							--Since we have found an addon with higher requirements there is no need to check further requests for this encounter
+							blockRequirementsCheck = true
+							core:sendDebugMessage("Blocking additional requests till end of fight since another addon has better requirements")
+						end
+
+						--Check if player is in same location as player requesting control.
+						if sentInstanceID ~= nil and core.instance ~= nil then
+							if sentInstanceID ~= tostring(core.instance) then
+								--Players are in different instances. Both addons can be master
+								core:sendDebugMessage("6: " .. sender .. " is in different instance. Both addons can be master")
+								masterAddon = true
+								blockRequirementsCheck = false
+								demotionRequired = false
+							end
+						end
+					elseif masterAddonRecieved == "false" and blockRequirementsCheck == false then
+						--Other player addon is not master addon so set this addon to the master addon
+						core:sendDebugMessage("5: " .. sender .. " is not the master addon. Setting this addon to master")
+						core:sendDebugMessage("Setting Master Addon 7")
+						masterAddon = true
+					end
 				end
-			elseif masterAddonRecieved == "false" and blockRequirementsCheck == false then
-				--Other player addon is not master addon so set this addon to the master addon
-				core:sendDebugMessage("5: " .. sender .. " is not the master addon. Setting this addon to master")
-				core:sendDebugMessage("Setting Master Addon 7")
-				masterAddon = true
-			end
-		end
 
-		--Other addon has lower requirements so ask them to demote themself
-		if demotionRequired == true then
-			core:sendDebugMessage("Asking " .. sender .. " to demote themselves")
-			C_ChatInfo.SendAddonMessage("Whizzey", sender .. "-demote", "RAID")
-		end
-	elseif string.match(message, "syncMessage") then
-		local sync, message = strsplit("-", message)
-		core:sendDebugMessage("Recieved the following message from addon user: " .. message)
-
-		--Add new message to the message queue
-		table.insert(core.syncMessageQueue, message)
-
-		--Track additional variables for the instance if they are not tied to a boss/encounter
-		if pcall(function() core[core.instanceClear]:ScanMessageSyncQueue() end) == true then
-			core[core.instanceClear]:ScanMessageSyncQueue()
-		end
-	elseif string.match(message, "relay123") then
-		-- core:sendDebugMessage(sender)
-		--The master addon does not have RW privalleges. If this addon has permission then let the masterAddon know
-		if playerRank > 0 and core.trackingSupressed == false then
-			--We do have permission. Let the master addon know
-			C_ChatInfo.SendAddonMessage("Whizzey", "relaySend," .. tostring(core.Config.majorVersion) .. "," .. tostring(core.Config.minorVersion), "RAID")
-			-- core:sendDebugMessage("relaySend," .. tostring(core.Config.majorVersion) .. "," .. tostring(core.Config.minorVersion))
-
-		end
-	elseif string.match(message, "relaySend") and masterAddon == true then
-		--The master addon has recieved an addon/addons that have the ability to output to raid warning. Lets ask highest Minor and same Major version to relay message
-		local name, realm = strsplit("-", sender)
-		local sync, major, minor = strsplit(",", message)
-		core:sendDebugMessage("Made it to relaySend")
-		-- print(relayAddonPlayer,core.Config.majorVersion,major,minor,core.Config.minorVersion)
-		if relayAddonPlayer == nil and tonumber(core.Config.majorVersion) >= tonumber(major) then
-			--First addon found so set to relay addon
-			relayAddonPlayer = name
-			relayAddonVersion = minor
-			core:sendDebugMessage("Setting the following addon to relay addon: " .. relayAddonPlayer .. " with version: " .. relayAddonVersion)
-		elseif tonumber(core.Config.majorVersion) >= tonumber(major) and tonumber(minor) > tonumber(relayAddonVersion) then
-			--This addon has better version so set to relay addon
-			relayAddonPlayer = name
-			relayAddonVersion = minor
-			core:sendDebugMessage("Setting the following addon to relay addon: " .. relayAddonPlayer .. " with version: " .. relayAddonVersion)
-		end
-	elseif string.match(message, "relayMessage") then
-		--Relay message if this addon has been asked to relay the message
-		local sync, player, message = strsplit(",", message)
-
-		-- print(player ..  " : " .. UnitName("player"))
-		if player == UnitName("player") then
-			core:sendDebugMessage("Relay message outputting message...")
-			SendChatMessage("[IAT] " .. message,"RAID_WARNING",DEFAULT_CHAT_FRAME.editBox.languageID)
-		end
-	elseif string.match(message, "masterAddonPlayer") then
-		--This is so independent tracking achievements can be sent to the master addon
-		local sync, player = strsplit(",", message)
-		masterAddonPlayer = player
-	elseif string.match(message, "masterOutput") then
-		--Master Addon should output independent achievement tracking
-		core:sendDebugMessage("In Master")
-		if masterAddon == true then
-			core:sendDebugMessage("Im master addon")
-			local sync, messageOutput = strsplit(",", message)
-			core:sendDebugMessage(messageOutput)
-			--core:sendMessage(messageOutput,true)
-		end
-	elseif string.match(message, "reqIAT") then
-		--We have been asked by another addon if we are tracking this achievement. Lets respond and update InfoFrame
-		local sync, major, minor, updateInfoFrame = strsplit(",", message)
-		if updateInfoFrame == "true" and core.achievementTrackingEnabled == true then
-			if tonumber(core.Config.majorVersion) >= tonumber(major) and tonumber(core.Config.minorVersion) >= tonumber(minor) then
-				core:sendDebugMessage(major .. core.Config.majorVersion .. minor .. core.Config.minorVersion)
-				InfoFrame_SetPlayerComplete(UnitName("Player"))
-
-				--Tell all other addons to set me to green. Only do this once per fight
-				if versionRequestSent == false then
-					versionRequestSent = true
-					C_ChatInfo.SendAddonMessage("Whizzey", "IATGreen," .. UnitName("Player"), "RAID")
+				--Other addon has lower requirements so ask them to demote themself
+				if demotionRequired == true then
+					core:sendDebugMessage("Asking " .. sender .. " to demote themselves")
+					C_ChatInfo.SendAddonMessage("Whizzey", sender .. "-demote", "RAID")
 				end
-			end
-		end
-	elseif string.match(message, "moveIAT") then
-		local sync, playerMoving, nameOfPlayer = strsplit(",", message)
-		core:sendDebugMessage(nameOfPlayer .. " is moving " .. playerMoving)
-	elseif string.match(message, "sendVersionIAT") then
-		--Send Version Check
-		core:printMessage("Requesting version check from all players")
-		C_ChatInfo.SendAddonMessage("Whizzey", "getVersionIAT," .. UnitName("Player") .. "," .. core.Config.majorVersion .. "," .. core.Config.minorVersion .. "," .. core.Config.revisionVersion , "RAID")
-	elseif string.match(message, "getVersionIAT") then
-		--Get Version Check
-		local sync, player, major, minor, revision = strsplit(",", message)
-		if versionCheckInitiated == true then
-			print(player, major, minor, revision)
-		end
-	elseif string.match(message, "IAT") then
-		local sync, name = strsplit(",", message)
+			elseif string.match(message, "syncMessage") then
+				local sync, message = strsplit("-", message)
+				core:sendDebugMessage("Recieved the following message from addon user: " .. message)
 
-		core:sendDebugMessage("Attempting to set to green: " .. name)
-		InfoFrame_SetPlayerComplete(name)
+				--Add new message to the message queue
+				table.insert(core.syncMessageQueue, message)
+
+				--Track additional variables for the instance if they are not tied to a boss/encounter
+				if pcall(function() core[core.instanceClear]:ScanMessageSyncQueue() end) == true then
+					core[core.instanceClear]:ScanMessageSyncQueue()
+				end
+			elseif string.match(message, "relay123") then
+				-- core:sendDebugMessage(sender)
+				--The master addon does not have RW privalleges. If this addon has permission then let the masterAddon know
+				if playerRank > 0 and core.trackingSupressed == false then
+					--We do have permission. Let the master addon know
+					C_ChatInfo.SendAddonMessage("Whizzey", "relaySend," .. tostring(core.Config.majorVersion) .. "," .. tostring(core.Config.minorVersion), "RAID")
+					-- core:sendDebugMessage("relaySend," .. tostring(core.Config.majorVersion) .. "," .. tostring(core.Config.minorVersion))
+
+				end
+			elseif string.match(message, "relaySend") and masterAddon == true then
+				--The master addon has recieved an addon/addons that have the ability to output to raid warning. Lets ask highest Minor and same Major version to relay message
+				local name, realm = strsplit("-", sender)
+				local sync, major, minor = strsplit(",", message)
+				core:sendDebugMessage("Made it to relaySend")
+				-- print(relayAddonPlayer,core.Config.majorVersion,major,minor,core.Config.minorVersion)
+				if relayAddonPlayer == nil and tonumber(core.Config.majorVersion) >= tonumber(major) then
+					--First addon found so set to relay addon
+					relayAddonPlayer = name
+					relayAddonVersion = minor
+					core:sendDebugMessage("Setting the following addon to relay addon: " .. relayAddonPlayer .. " with version: " .. relayAddonVersion)
+				elseif tonumber(core.Config.majorVersion) >= tonumber(major) and tonumber(minor) > tonumber(relayAddonVersion) then
+					--This addon has better version so set to relay addon
+					relayAddonPlayer = name
+					relayAddonVersion = minor
+					core:sendDebugMessage("Setting the following addon to relay addon: " .. relayAddonPlayer .. " with version: " .. relayAddonVersion)
+				end
+			elseif string.match(message, "relayMessage") then
+				--Relay message if this addon has been asked to relay the message
+				local sync, player, message = strsplit(",", message)
+
+				-- print(player ..  " : " .. UnitName("player"))
+				if player == UnitName("player") then
+					core:sendDebugMessage("Relay message outputting message...")
+					message = message:gsub('IATCOMMA', ',')
+					SendChatMessage("[IAT] " .. message,"RAID_WARNING",DEFAULT_CHAT_FRAME.editBox.languageID)
+				end
+			elseif string.match(message, "masterAddonPlayer") then
+				--This is so independent tracking achievements can be sent to the master addon
+				local sync, player = strsplit(",", message)
+				core:printMessage(player .. " is outputting messages for this fight")
+				masterAddonPlayer = player
+			elseif string.match(message, "masterOutput") then
+				--Master Addon should output independent achievement tracking
+				core:sendDebugMessage("In Master")
+				if masterAddon == true then
+					core:sendDebugMessage("Im master addon")
+					local sync, messageOutput = strsplit(",", message)
+					core:sendDebugMessage(messageOutput)
+					--core:sendMessage(messageOutput,true)
+				end
+			elseif string.match(message, "reqIAT") then
+				--We have been asked by another addon if we are tracking this achievement. Lets respond and update InfoFrame
+				local sync, major, minor, updateInfoFrame = strsplit(",", message)
+				if updateInfoFrame == "true" and core.achievementTrackingEnabled == true then
+					if tonumber(core.Config.majorVersion) >= tonumber(major) and tonumber(core.Config.minorVersion) >= tonumber(minor) then
+						core:sendDebugMessage(major .. core.Config.majorVersion .. minor .. core.Config.minorVersion)
+						InfoFrame_SetPlayerComplete(UnitName("Player"))
+
+						--Tell all other addons to set me to green. Only do this once per fight
+						if versionRequestSent == false then
+							versionRequestSent = true
+							C_ChatInfo.SendAddonMessage("Whizzey", "IATGreen," .. UnitName("Player"), "RAID")
+						end
+					end
+				end
+			elseif string.match(message, "moveIAT") then
+				local sync, playerMoving, nameOfPlayer = strsplit(",", message)
+				core:sendDebugMessage(nameOfPlayer .. " is moving " .. playerMoving)
+			elseif string.match(message, "sendVersionIAT") then
+				--Send Version Check
+				core:printMessage("Requesting version check from all players")
+				C_ChatInfo.SendAddonMessage("Whizzey", "getVersionIAT," .. UnitName("Player") .. "," .. core.Config.majorVersion .. "," .. core.Config.minorVersion .. "," .. core.Config.revisionVersion , "RAID")
+			elseif string.match(message, "getVersionIAT") then
+				--Get Version Check
+				local sync, player, major, minor, revision = strsplit(",", message)
+				if versionCheckInitiated == true then
+					print(player, major, minor, revision)
+				end
+			elseif string.match(message, "aliveIAT") then
+				local sync, name, sentMajor, sentMinor = strsplit(",", message)
+				broadcastMessage = true
+				if sentMajor ~= nil and sentMinor ~= nil then
+					broadcastMajorVersion = sentMajor
+					brodcastMinorVersion = sentMinor
+				end
+			elseif string.match(message, "IAT") then
+				local sync, name = strsplit(",", message)
+
+				core:sendDebugMessage("Attempting to set to green: " .. name)
+				InfoFrame_SetPlayerComplete(name)
+			end
+		else
+			--core:sendDebugMessage("Ignoring request from " .. sender .. " with message " .. message)
+		end
 	end
 end
 
@@ -2610,9 +2692,7 @@ function detectBossByEncounterID(id)
 			core:printMessage(L["Core_NoTrackingForInstance"])
 
 			--Announce to chat if enabled
-			if core.announceTrackedAchievementsToChat == true then
-				core:sendMessage(L["Core_NoTrackingForInstance"])
-			end
+			core:sendMessage(L["Core_NoTrackingForInstance"],true)
 		end
 	end
 
@@ -2781,16 +2861,7 @@ function core:logMessage(message)
 		end
 	end
 
-	--If table is below maximun amount of entries then insert value. Else make table shrink to correct size
-	if #AchievementTrackerDebug < 500000 then
-		table.insert(AchievementTrackerDebug, monthDay .. "/" .. month .. "/" .. year .. " " .. hour .. ":" .. minute ..  " " .. message)
-	else
-		while #AchievementTrackerDebug >= 500000 do
-			table.remove(AchievementTrackerDebug, 1)
-		end
-		table.insert(AchievementTrackerDebug, monthDay .. "/" .. month .. "/" .. year .. " " .. hour .. ":" .. minute ..  " " .. message)
-	end
-
+	table.insert(AchievementTrackerDebug, monthDay .. "/" .. month .. "/" .. year .. " " .. hour .. ":" .. minute ..  " " .. message)
 end
 
 --Output messages to the chat. All messages get sent this function for easy management
@@ -2805,14 +2876,21 @@ function core:sendMessage(message, outputToRW, messageType)
 						SendChatMessage("[IAT] " .. message,"RAID_WARNING",DEFAULT_CHAT_FRAME.editBox.languageID)
 						core:logMessage("[IAT] " .. message)
 					elseif outputToRW == true and announceToRaidWarning == true then
-						SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
 						core:logMessage("[IAT] " .. message)
-						RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
+						if outputToRW == true and relayAddonPlayer ~= nil then
+							message = message:gsub(',', 'IATCOMMA')
+							C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. message, "RAID")
+						else
+							RaidNotice_AddMessage(RaidWarningFrame, "[IAT] " .. message, ChatTypeInfo["RAID_WARNING"])
+							SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
+						end
 					else
 						--print("Outputting normally")
 						SendChatMessage("[IAT] " .. message,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
 						core:logMessage("[IAT] " .. message)
 					end
+
+
 
 					if outputToRW == true and enableSound == true and messageType == "completed" then
 						--print(type(completedSound))
@@ -2833,15 +2911,20 @@ function core:sendMessage(message, outputToRW, messageType)
 							PlaySoundFile(failedSound, "Master")
 						end
 					end
+
+					--Send alive signal to other IAT users
+					C_ChatInfo.SendAddonMessage("Whizzey", "aliveIAT," .. UnitName("Player") .. "," .. core.Config.majorVersion .. "," .. core.Config.minorVersion, "RAID")
 				end
 			elseif masterAddon == true and requestToRun == true then
 				if message ~= "setup" then
 					--We need to store the messages in a queue while the master addon is being decided
 					if outputToRW == true then
 						core:sendDebugMessage("Inserting into Message Queue: " .. message .. ",true")
+						message = message:gsub(',', 'IATCOMMA')
 						table.insert(messageQueue, message .. ",true")
 					else
 						core:sendDebugMessage("Inserting into Message Queue: " .. message .. ",false")
+						message = message:gsub(',', 'IATCOMMA')
 						table.insert(messageQueue, message .. ",false")
 					end
 				end
@@ -2849,12 +2932,20 @@ function core:sendMessage(message, outputToRW, messageType)
 				--Initate a request to see if this addon should be the master addon
 				if requestToRun == false then
 					requestToRun = true
+					firstBroadcast = 10
 
 					--Broadcast addon info to decide whether it should be the master addon or not
 					core:sendDebugMessage("Setting Master Addon 8")
 					masterAddon = true
 					local name, realm = UnitName("Player")
-					C_ChatInfo.SendAddonMessage("Whizzey", "info," .. tostring(addonID) .. "," .. name .. "," .. tostring(masterAddon) .. "," .. tostring(playerRank) .. "," .. tostring(core.Config.majorVersion) .. "," .. tostring(core.Config.minorVersion) .. "," .. tostring(core.trackingSupressed), "RAID")
+
+					local sendInstanceID = core.instance
+
+					if sendInstanceID == nil then
+						sendInstanceID = ""
+					end
+
+					C_ChatInfo.SendAddonMessage("Whizzey", "info," .. tostring(addonID) .. "," .. name .. "," .. tostring(masterAddon) .. "," .. tostring(playerRank) .. "," .. tostring(core.Config.majorVersion) .. "," .. tostring(core.Config.minorVersion) .. "," .. tostring(core.trackingSupressed) .. "," .. tostring(sendInstanceID), "RAID")
 
 					C_Timer.After(3, function()
 						if masterAddon == true then
@@ -2905,6 +2996,7 @@ function core:sendMessage(message, outputToRW, messageType)
 							if #messageQueue > 0 then
 								for k, v in pairs(messageQueue) do
 									local v, outputToRW2 = strsplit(",", v)
+									v = v:gsub('IATCOMMA', ',')
 									-- print("Outputting from Message Queue: " .. v .. outputToRW2)
 									-- print(core.chatType)
 									if outputToRW2 == "true" and core.chatType == "RAID" and announceToRaidWarning == true and (UnitIsGroupAssistant("Player") or UnitIsGroupLeader("Player")) then
@@ -2922,6 +3014,15 @@ function core:sendMessage(message, outputToRW, messageType)
 										SendChatMessage("[IAT] " .. v,core.chatType,DEFAULT_CHAT_FRAME.editBox.languageID)
 										core:logMessage("[IAT] " .. v)
 									end
+
+									--Relay Raid warning message if needed
+									local tmpMessage = v
+									C_Timer.After(3, function()
+										if outputToRW2 == "true" and relayAddonPlayer ~= nil then
+											C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. tmpMessage, "RAID")
+										end
+									end)
+
 
 									if outputToRW2 == true and enableSound == true and messageType == "completed" then
 										--print(type(completedSound))
@@ -2963,6 +3064,30 @@ function core:sendMessage(message, outputToRW, messageType)
 				--We are not the master addon but lets check if there are RW messages that we need to relay
 				if outputToRW == true and relayAddonPlayer ~= nil then
 					C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. message, "RAID")
+				end
+
+				--Check if other addon is still broadcasting
+				if masterAddon == false then
+					if checkBrodcast == false then
+						checkBrodcast = true
+						C_Timer.After(firstBroadcast, function()
+							firstBroadcast = 1
+							if broadcastMessage ~= true and broadcastMajorVersion == tostring(core.Config.majorVersion) and brodcastMinorVersion == tostring(core.Config.minorVersion) then
+								core:sendDebugMessage("Critical Error. Master addon is not broadcasting...")
+								masterAddon = false
+								requestToRun = false
+								electionFinished = false
+								messageQueue = {}
+								firstBroadcast = 10
+								broadcastMajorVersion = nil
+								brodcastMinorVersion = nil
+							else
+								core:sendDebugMessage("Critical Error but version mismatch. Not going to try and take control")
+							end
+							checkBrodcast = false
+							broadcastMessage = nil
+						end)
+					end
 				end
 			end
 		elseif debugModeChat == true then
@@ -3137,11 +3262,6 @@ function core:getAchievementFailed(index)
 	if core.achievementsFailed[value] == false then
 		core:sendMessage(GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"],true,"failed")
 		core.achievementsFailed[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"], "RAID")
-		end
 	end
 end
 
@@ -3155,11 +3275,6 @@ function core:getAchievementFailedWithMessageBefore(message, index)
 
 		core:sendMessage(message .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"],true,"failed")
 		core.achievementsFailed[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. message .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"], "RAID")
-		end
 	end
 end
 
@@ -3172,11 +3287,6 @@ function core:getAchievementFailedWithMessageAfter(message, index)
 	if core.achievementsFailed[value] == false then
 		core:sendMessage(GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"] .. " " .. message,true,"failed")
 		core.achievementsFailed[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"] .. " " .. message, "RAID")
-		end
 	end
 end
 
@@ -3189,11 +3299,6 @@ function core:getAchievementFailedWithMessageBeforeAndAfter(messageBefore, messa
 	if core.achievementsFailed[value] == false then
 		core:sendMessage(messageBefore .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"] .. " " .. messageAfter,true,"failed")
 		core.achievementsFailed[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. messageBefore .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_Failed"] .. " " .. messageAfter, "RAID")
-		end
 	end
 end
 
@@ -3214,11 +3319,6 @@ function core:getAchievementFailedPersonal(index)
 		if core:has_value(core.currentBosses[value].players, playerName) then
 			--Player needs achievement but has failed it
 			core:sendMessage(playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")",true,"failed")
-
-			--Relay message to addon which has RW permissions if masterAddon does have permissions
-			if relayAddonPlayer ~= nil then
-				C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
-			end
 		end
 		core.playersFailedPersonal[playerName] = true
 	end
@@ -3242,13 +3342,27 @@ function core:getAchievementFailedPersonalWithName(index, sender, outputMessage)
 			--Player needs achievement but has failed it
 			if outputMessage == true then
 				core:sendMessage(playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")",true,"failed")
-
-				--Relay message to addon which has RW permissions if masterAddon does have permissions
-				if relayAddonPlayer ~= nil then
-					C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
-				end
 			end
 		end
+		core.playersFailedPersonal[playerName] = true
+	end
+end
+
+function core:getAchievementFailedPersonalWithCustomMessage(index, sender, message)
+	local value = index
+	if index == nil then
+		value = 1
+	end
+	local playerName = sender
+	if string.find(playerName, "-") then
+		local name, realm = strsplit("-", playerName)
+		playerName = name
+	end
+	if core.playersFailedPersonal[playerName] == nil then
+		--Players has not been hit already
+		--Check if the player actually needs the achievement
+		--Player needs achievement but has failed it
+		core:sendMessage(playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. message .. ")",true,"failed")
 		core.playersFailedPersonal[playerName] = true
 	end
 end
@@ -3303,11 +3417,6 @@ function core:getAchievementFailedPersonalWithReason(reason, index)
 		if core:has_value(core.currentBosses[value].players, playerName) then
 			--Player needs achievement but has failed it
 			core:sendMessage(playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")(" .. L["Core_Reason"] .. ": " .. reason .. ")",true,"failed")
-
-			--Relay message to addon which has RW permissions if masterAddon does have permissions
-			if relayAddonPlayer ~= nil then
-				C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasFailed"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")(" .. L["Core_Reason"] .. ": " .. reason .. ")", "RAID")
-			end
 		end
 		core.playersFailedPersonal[playerName] = true
 	end
@@ -3326,11 +3435,6 @@ function core:getAchievementSuccess(index)
 	if core.achievementsCompleted[value] == false then
 		core:sendMessage(GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"],true,"completed")
 		core.achievementsCompleted[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"], "RAID")
-		end
 	end
 end
 
@@ -3343,11 +3447,6 @@ function core:getAchievementSuccessManual(index)
 	if core.achievementsCompleted[value] == false then
 		core:sendMessage(GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMetManual"],true,"completed")
 		core.achievementsCompleted[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"], "RAID")
-		end
 	end
 end
 
@@ -3360,11 +3459,6 @@ function core:getAchievementSuccessWithMessageBefore(message, index)
 	if core.achievementsCompleted[value] == false then
 		core:sendMessage(message .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"],true,"completed")
 		core.achievementsCompleted[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. message .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"], "RAID")
-		end
 	end
 end
 
@@ -3377,11 +3471,6 @@ function core:getAchievementSuccessWithMessageAfter(message, index)
 	if core.achievementsCompleted[value] == false then
 		core:sendMessage(GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"] .. " " .. message,true,"completed")
 		core.achievementsCompleted[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. GetAchievementLink(core.achievementIDs[value]) .. " " .. L["Core_CriteriaMet"] .. " " .. message, "RAID")
-		end
 	end
 end
 
@@ -3394,11 +3483,6 @@ function core:getAchievementSuccessWithMessageBeforeAndAfter(messageBefore, mess
 	if core.achievementsCompleted[value] == false then
 		core:sendMessage(messageBefore .. " " .. GetAchievementLink(core.achievementIDs[value]) .. L["Core_CriteriaMet"] .. " " .. messageAfter,true,"completed")
 		core.achievementsCompleted[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. messageBefore .. " " .. GetAchievementLink(core.achievementIDs[value]) .. L["Core_CriteriaMet"] .. " " .. messageAfter, "RAID")
-		end
 	end
 end
 
@@ -3411,11 +3495,6 @@ function core:getAchievementSuccessWithCustomMessage(messageBefore, messageAfter
 	if core.achievementsCompleted[value] == false then
 		core:sendMessage(messageBefore .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. messageAfter,true,"completed")
 		core.achievementsCompleted[value] = true
-
-		--Relay message to addon which has RW permissions if masterAddon does have permissions
-		if relayAddonPlayer ~= nil then
-			C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. messageBefore .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " " .. messageAfter, "RAID")
-		end
 	end
 end
 
@@ -3441,11 +3520,6 @@ function core:getAchievementSuccessPersonal(index, location)
 			if core:has_value(core.currentBosses[value].players, playerName) then
 				--Player needs achievement but has failed it
 				core:sendMessage(playerName .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")",true,"completed")
-
-				--Relay message to addon which has RW permissions if masterAddon does have permissions
-				if relayAddonPlayer ~= nil then
-					C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
-				end
 			end
 			core.playersSuccessPersonal[playerName] = true
 		end
@@ -3461,11 +3535,6 @@ function core:getAchievementSuccessPersonal(index, location)
 			if core:has_value(core.currentBosses[value].players, playerName) then
 				--Player needs achievement but has failed it
 				core:sendMessage(playerName .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")",true,"completed")
-
-				--Relay message to addon which has RW permissions if masterAddon does have permissions
-				if relayAddonPlayer ~= nil then
-					C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. playerName .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
-				end
 			end
 			core.playersSuccessPersonal[playerName] = true
 		end
@@ -3487,13 +3556,24 @@ function core:getAchievementSuccessPersonalWithName(index, sender, outputMessage
 			--Player needed achievements and has met requirements
 			if outputMessage == true then
 				core:sendMessage(sender .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")",true)
-
-				--Relay message to addon which has RW permissions if masterAddon does have permissions
-				if relayAddonPlayer ~= nil then
-					C_ChatInfo.SendAddonMessage("Whizzey", "relayMessage," .. relayAddonPlayer .. "," .. sender .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. L["Core_PersonalAchievement"] .. ")", "RAID")
-				end
 			end
 		end
+		core.playersSuccessPersonal[sender] = true
+	end
+end
+
+function core:getAchievementSuccessPersonalWithMessage(index, sender, message)
+	local value = index
+	if index == nil then
+		value = 1
+	end
+	if string.find(sender, "-") then
+		local name, realm = strsplit("-", sender)
+		sender = name
+	end
+	if core.playersSuccessPersonal[sender] == nil then
+		--Player needed achievements and has met requirements
+		core:sendMessage(sender .. " " .. L["Shared_HasCompleted"] .. " " .. GetAchievementLink(core.achievementIDs[value]) .. " (" .. message .. ")",true)
 		core.playersSuccessPersonal[sender] = true
 	end
 end
@@ -3616,6 +3696,11 @@ function core:clearVariables()
 	relayAddonPlayer = nil
 	relayAddonVersion = 0
 	versionRequestSent = false
+	broadcastMajorVersion = nil
+	brodcastMinorVersion = nil
+	newRequestRecieved = false
+	checkBrodcast = false
+	broadcastMessage = nil
 
 	core.groupSizeInInstance = 0
 
@@ -3650,6 +3735,7 @@ function core:clearVariables()
 		core.IATInfoFrame:SetText2()
 		core.infoFrameShown = false
 		core.InfoFrame_PlayersTable = {}
+		core.InfoFrame_DynamicTable = {}
 	elseif core.infoFrameLock == true then
 		core:sendDebugMessage("InfoFrame is in locked state")
 	else
@@ -3666,7 +3752,7 @@ function core:clearVariables()
 			if Transcriptor:IsLogging() == 1 then
 				Transcriptor:StopLog(1)
 				core:printMessage(L["Core_TranscriptorLogDisabled"])
-				RaidNotice_AddMessage(RaidWarningFrame, "[IAT] Transcriptor Log Stopped", ChatTypeInfo["SYSTEM"])
+				--RaidNotice_AddMessage(RaidWarningFrame, "[IAT] Transcriptor Log Stopped", ChatTypeInfo["SYSTEM"])
 			end
 		end
 	end

@@ -1,26 +1,13 @@
---Enhanced Raid Frames, a World of Warcraft® user interface addon.
-
---This file is part of Enhanced Raid Frames.
---
---Enhanced Raid Frames is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---Enhanced Raid Frames is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this add-on.  If not, see <https://www.gnu.org/licenses/>.
---
---Copyright for Enhanced Raid Frames is held by Britt Yazel (aka Soyier), 2017-2020.
+-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+-- Copyright (c) 2017-2021 Britt W. Yazel
+-- This code is licensed under the MIT license (see LICENSE for details)
 
 local L = LibStub("AceLocale-3.0"):NewLocale("EnhancedRaidFrames", "ruRU", false)
 
 if not L then return end
 
+--[[Translation missing --]]
+--[[ L["Aborting."] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Animations"] = ""--]] 
 --[[Translation missing --]]
@@ -72,6 +59,12 @@ if not L then return end
 --[[Translation missing --]]
 --[[ L["customRangeCheck_desc"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["Data import Failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decoding failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decompression failed."] = ""--]] 
+--[[Translation missing --]]
 --[[ L["Default Icon Visibility"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Disease"] = ""--]] 
@@ -79,6 +72,14 @@ if not L then return end
 --[[ L["diseaseWildcard_desc"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Example"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental Options"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental_Options_Warning"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Export"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["frameScale_desc"] = ""--]] 
 --[[Translation missing --]]
@@ -117,6 +118,16 @@ if not L then return end
 --[[ L["iconPosition_desc"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["iconSize_desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Import"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Import or Export the current profile:"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_Desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_WarningDesc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportWarning"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Indicator Color"] = ""--]] 
 --[[Translation missing --]]
@@ -164,6 +175,8 @@ if not L then return end
 --[[Translation missing --]]
 --[[ L["missingOnly_desc"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["No data to import."] = ""--]] 
+--[[Translation missing --]]
 --[[ L["None"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Open the Blizzard Raid Profiles Menu"] = ""--]] 
@@ -183,6 +196,8 @@ if not L then return end
 --[[ L["Power Bar Vertical Offset"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["powerBarOffset_desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Profile"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Profiles"] = ""--]] 
 --[[Translation missing --]]

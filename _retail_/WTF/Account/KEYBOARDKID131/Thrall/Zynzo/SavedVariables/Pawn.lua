@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0415,
+	["LastVersion"] = 2.0521,
 	["LastPlayerFullName"] = "Zynzo-Thrall",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {

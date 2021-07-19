@@ -31,6 +31,7 @@ mod:RegisterEnableMob(
 	173604, -- Sinister Antiquarian
 	173609, -- Nathrian Conservator
 	173633, -- Nathrian Archivist
+	165483, -- Court Hierarch
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	173178 -- Stone Legion Goliath
@@ -40,7 +41,6 @@ mod:RegisterEnableMob(
 -- Locals
 --
 
-local castCollector = {}
 local playerListFeast = {}
 
 --------------------------------------------------------------------------------
@@ -74,6 +74,7 @@ if L then
 	L.antiquarian = "Sinister Antiquarian"
 	L.conservator = "Nathrian Conservator"
 	L.archivist = "Nathrian Archivist"
+	L.hierarch = "Court Hierarch"
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	L.goliath = "Stone Legion Goliath"
@@ -86,10 +87,10 @@ end
 function mod:GetOptions()
 	return {
 		--[[ Pre Shriekwing ]]--
-		343322, -- Curse of Moldovaak
-		343320, -- Curse of Caramain
-		343325, -- Curse of Sindrel
-		343316, -- Curse of Hargitas
+		{343322, "DISPEL"}, -- Curse of Moldovaak
+		{343320, "DISPEL"}, -- Curse of Caramain
+		{343325, "DISPEL"}, -- Curse of Sindrel
+		{343316, "DISPEL"}, -- Curse of Hargitas
 		343155, -- Stoneskin
 		343302, -- Granite Wings
 
@@ -113,6 +114,7 @@ function mod:GetOptions()
 		{342770, "EMPHASIZE"}, -- Eradication Seeds
 		{339975, "TANK_HEALER"}, -- Grievous Strike
 		{342752, "HEALER"}, -- Weeping Burden
+		341146, -- Sin Bolt Volley
 
 		--[[ Sludgefist -> Stone Legion Generals ]]--
 		343271, -- Ravenous Feast
@@ -133,6 +135,7 @@ function mod:GetOptions()
 		[342770] = L.antiquarian,
 		[339975] = L.conservator,
 		[342752] = L.archivist,
+		[341146] = L.hierarch,
 		[343271] = L.goliath,
 	},{
 		[343302] = CL.knockback, -- Granite Wings (Knockback)
@@ -142,7 +145,6 @@ function mod:GetOptions()
 end
 
 function mod:OnBossEnable()
-	castCollector = {}
 	playerListFeast = {}
 
 	--[[ General ]]--
@@ -168,7 +170,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "GroundDamage", 339553) -- Lingering Anima
 	self:Log("SPELL_PERIODIC_DAMAGE", "GroundDamage", 339553)
 	self:Log("SPELL_PERIODIC_MISSED", "GroundDamage", 339553)
-	self:RegisterEvent("UNIT_SPELLCAST_SUCCEEDED")
+	self:Log("SPELL_CAST_SUCCESS", "BottledAnima", 339557)
 	self:Log("SPELL_AURA_APPLIED", "WarpedDesiresApplied", 339528)
 	self:Log("SPELL_AURA_APPLIED_DOSE", "WarpedDesiresApplied", 339528)
 	self:Log("SPELL_AURA_APPLIED", "ConcentrateAnima", 339527)
@@ -181,6 +183,7 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED_DOSE", "GrievousStrikeApplied", 339975)
 	self:Log("SPELL_AURA_REMOVED", "GrievousStrikeRemoved", 339975)
 	self:Log("SPELL_CAST_SUCCESS", "WeepingBurden", 342752)
+	self:Log("SPELL_CAST_START", "SinBoltVolley", 341146)
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	self:Log("SPELL_CAST_SUCCESS", "RavenousFeast", 343271)
@@ -192,28 +195,43 @@ end
 
 --[[ Pre Shriekwing ]]--
 function mod:Curse(args)
-	self:Message(args.spellId, "yellow", CL.on_group:format(args.spellName))
-	self:PlaySound(args.spellId, "alarm")
+	if self:Dispeller("curse", nil, args.spellId) then
+		self:Message(args.spellId, "yellow", CL.on_group:format(args.spellName))
+	end
 end
 
-function mod:Stoneskin(args)
-	self:Message(args.spellId, "red", CL.casting:format(args.spellName))
-	local _, ready = self:Interrupter()
-	if ready then
-		self:PlaySound(args.spellId, "alert")
+do
+	local prev = 0
+	function mod:Stoneskin(args)
+		local canDo, ready = self:Interrupter()
+		local t = args.time
+		if canDo and t-prev > 1 then
+			prev = t
+			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+			if ready then
+				self:PlaySound(args.spellId, "alert")
+			end
+		end
 	end
 end
 
 function mod:StoneskinApplied(args)
-	if bit.band(args.destFlags, 0x400) == 0 then -- COMBATLOG_OBJECT_TYPE_PLAYER
+	if not self:Player(args.destFlags) and self:Dispeller("magic", true) then
 		self:Message(args.spellId, "orange", CL.buff_other:format(args.destName, args.spellName))
-		self:PlaySound(args.spellId, "warning")
+		self:PlaySound(args.spellId, "info")
 	end
 end
 
-function mod:GraniteWings(args)
-	self:Message(args.spellId, "orange", CL.casting:format(CL.knockback))
-	self:PlaySound(args.spellId, "long")
+do
+	local prev = 0
+	function mod:GraniteWings(args)
+		local t = args.time
+		if t-prev > 1 then
+			prev = t
+			self:Message(args.spellId, "orange", CL.casting:format(CL.knockback))
+			self:PlaySound(args.spellId, "long")
+		end
+	end
 end
 
 --[[ Shriekwing -> Huntsman Altimor ]]--
@@ -238,7 +256,7 @@ end
 
 function mod:MastercraftedGamesmansSnare(args)
 	self:Message(341352, "yellow", CL.incoming:format(CL.traps))
-	self:PlaySound(341352, "warning")
+	self:PlaySound(341352, "alarm")
 end
 
 function mod:RestoreStone(args)
@@ -289,20 +307,16 @@ do
 	end
 end
 
-function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, castGUID, spellId)
-	if castCollector[castGUID] then return end -- Throttle the same cast from multiple unitIds (target/focus/nameplate)
-
-	if spellId == 339557 then -- Bottled Anima
-		castCollector[castGUID] = true
-		self:Message(spellId, "yellow", CL.incoming:format(self:SpellName(spellId)))
-		self:Bar(spellId, 9.7)
-		self:PlaySound(spellId, "info")
-	end
+function mod:BottledAnima(args)
+	self:Message(args.spellId, "yellow", CL.incoming:format(args.spellName))
+	self:Bar(args.spellId, 9.7)
+	self:PlaySound(args.spellId, "info")
 end
 
 function mod:WarpedDesiresApplied(args)
-	self:NewStackMessage(args.spellId, "purple", args.destName, args.amount, 2)
-	if args.amount then -- 2+
+	local amount = args.amount or 1
+	self:NewStackMessage(args.spellId, "purple", args.destName, amount, 3)
+	if amount > 2 then
 		self:PlaySound(args.spellId, "alarm")
 	end
 end
@@ -345,31 +359,47 @@ do
 	end
 end
 
-function mod:GrievousStrikeApplied(args)
-	local amount = args.amount or 1
-	if amount == 1 then
-		if self:Tank(args.destName) then
-			self:TargetMessage(args.spellId, "purple", args.destName)
-			self:PlaySound(args.spellId, "long")
-		elseif self:Healer() then
-			self:TargetMessage(args.spellId, "orange", args.destName)
-		end
-	else
-		if self:Tank(args.destName) then
-			self:NewStackMessage(args.spellId, "purple", args.destName, amount)
-			self:PlaySound(args.spellId, "long")
-		elseif self:Healer() then
-			self:NewStackMessage(args.spellId, "orange", args.destName, amount)
+do
+	local stacks = {}
+	function mod:GrievousStrikeApplied(args)
+		local amount = args.amount or 1
+		if amount == 1 then
+			-- If this applies at full health then it's instantly removed
+			-- Prevent pointless applied/removed messages by not alerting until 0.2s has passed
+			local spellId, destName, destGUID = args.spellId, args.destName, args.destGUID -- SetOption:339975:
+			stacks[destGUID] = true
+			self:SimpleTimer(function()
+				if stacks[destGUID] then
+					stacks[destGUID] = nil
+					if self:Tank(destName) then
+						self:TargetMessage(spellId, "purple", destName)
+						self:PlaySound(spellId, "info")
+					elseif self:Healer() then
+						self:TargetMessage(spellId, "orange", destName)
+					end
+				end
+			end, 0.2)
+		else
+			stacks[args.destGUID] = nil
+			if self:Tank(args.destName) then
+				self:NewStackMessage(args.spellId, "purple", args.destName, amount)
+				self:PlaySound(args.spellId, "info")
+			elseif self:Healer() then
+				self:NewStackMessage(args.spellId, "orange", args.destName, amount)
+			end
 		end
 	end
-end
 
-function mod:GrievousStrikeRemoved(args)
-	if self:Tank(args.destName) then
-		self:Message(args.spellId, "green", CL.removed_from:format(args.spellName, self:ColorName(args.destName)))
-		self:PlaySound(args.spellId, "info")
-	elseif self:Healer() then
-		self:Message(args.spellId, "green", CL.removed_from:format(args.spellName, self:ColorName(args.destName)))
+	function mod:GrievousStrikeRemoved(args)
+		if stacks[args.destGUID] then
+			stacks[args.destGUID] = nil -- Prevent showing the "removed" warning if it was instantly removed
+		else
+			if self:Tank(args.destName) then
+				self:Message(args.spellId, "green", CL.removed_from:format(args.spellName, self:ColorName(args.destName)))
+			elseif self:Healer() then
+				self:Message(args.spellId, "green", CL.removed_from:format(args.spellName, self:ColorName(args.destName)))
+			end
+		end
 	end
 end
 
@@ -381,6 +411,21 @@ do
 			prev = t
 			self:Message(args.spellId, "yellow", CL.on_group:format(args.spellName))
 			self:PlaySound(args.spellId, "alarm")
+		end
+	end
+end
+
+do
+	local prev = 0
+	function mod:SinBoltVolley(args)
+		local canDo, ready = self:Interrupter()
+		local t = args.time
+		if canDo and t-prev > 1 then
+			prev = t
+			self:Message(args.spellId, "red", CL.casting:format(args.spellName))
+			if ready then
+				self:PlaySound(args.spellId, "alert")
+			end
 		end
 	end
 end

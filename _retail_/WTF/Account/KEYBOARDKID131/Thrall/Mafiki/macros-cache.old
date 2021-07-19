@@ -1,3 +1,7 @@
+VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Ancestral Protection Totem
+END
 VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@player] Earthbind Totem
@@ -11,10 +15,6 @@ VER 3 0100000000000012 " " "INV_MISC_QUESTIONMARK"
 #showtooltip Lava Burst
 /stopcasting
 /cast Lava Burst
-END
-VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@player] Ancestral Protection Totem
 END
 VER 3 0100000000000016 "AR" "INV_MISC_QUESTIONMARK"
 #showtooltip Hex

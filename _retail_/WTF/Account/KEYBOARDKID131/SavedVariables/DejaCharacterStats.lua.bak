@@ -247,8 +247,8 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -552,8 +552,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -737,8 +737,8 @@ DCS_ClassSpecDB = {
 		}, -- [49]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -1043,8 +1043,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Oturran:Thrall:5",
 	},
@@ -1294,12 +1294,12 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Tyuty:Thrall:5",
 	},
-	["Zarafina:Thrall:3"] = {
+	["Mafiki:Thrall:1"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -1335,27 +1335,22 @@ DCS_ClassSpecDB = {
 		}, -- [8]
 		{
 			["statKey"] = "ConquestCategory",
-			["hidden"] = true,
 		}, -- [9]
 		{
 			["statKey"] = "RATING_2V2",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [10]
 		{
 			["statKey"] = "RATING_3V3",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [11]
 		{
 			["statKey"] = "RATING_RBG",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [12]
 		{
 			["statKey"] = "CONQUEST_PROGRESS",
 			["hideAt"] = 0,
-			["hidden"] = true,
 		}, -- [13]
 		{
 			["statKey"] = "GeneralCategory",
@@ -1548,7 +1543,7 @@ DCS_ClassSpecDB = {
 				"TANK", -- [1]
 			},
 		}, -- [61]
-		["uniqueKey"] = "Zarafina:Thrall:3",
+		["uniqueKey"] = "Mafiki:Thrall:1",
 	},
 	["Ronami:Thrall:5"] = {
 		{
@@ -1793,8 +1788,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 		}, -- [61]
 		["uniqueKey"] = "Ronami:Thrall:5",
 	},
@@ -1983,8 +1978,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hideAt"] = 0,
 			["hidden"] = false,
+			["hideAt"] = 0,
 		}, -- [50]
 		{
 			["statKey"] = "RatingCategory",
@@ -2042,7 +2037,7 @@ DCS_ClassSpecDB = {
 		}, -- [61]
 		["uniqueKey"] = "Zynzo:Thrall:2",
 	},
-	["Mafiki:Thrall:1"] = {
+	["Zarafina:Thrall:3"] = {
 		{
 			["statKey"] = "ItemLevelFrame",
 		}, -- [1]
@@ -2078,22 +2073,27 @@ DCS_ClassSpecDB = {
 		}, -- [8]
 		{
 			["statKey"] = "ConquestCategory",
+			["hidden"] = true,
 		}, -- [9]
 		{
 			["statKey"] = "RATING_2V2",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [10]
 		{
 			["statKey"] = "RATING_3V3",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [11]
 		{
 			["statKey"] = "RATING_RBG",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [12]
 		{
 			["statKey"] = "CONQUEST_PROGRESS",
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [13]
 		{
 			["statKey"] = "GeneralCategory",
@@ -2286,7 +2286,7 @@ DCS_ClassSpecDB = {
 				"TANK", -- [1]
 			},
 		}, -- [61]
-		["uniqueKey"] = "Mafiki:Thrall:1",
+		["uniqueKey"] = "Zarafina:Thrall:3",
 	},
 	["Yjuwsgv:Thrall:5"] = {
 		{
@@ -2531,8 +2531,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -2810,8 +2810,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3004,8 +3004,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = false,
 			["hideAt"] = 0,
+			["hidden"] = false,
 		}, -- [50]
 		{
 			["statKey"] = "RatingCategory",
@@ -3301,8 +3301,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Corpselus:Thrall:3",
 	},
@@ -3546,8 +3546,8 @@ DCS_ClassSpecDB = {
 		}, -- [60]
 		{
 			["statKey"] = "STAGGER",
-			["hideAt"] = 0,
 			["hidden"] = true,
+			["hideAt"] = 0,
 			["roles"] = {
 				"TANK", -- [1]
 			},
@@ -3800,8 +3800,8 @@ DCS_ClassSpecDB = {
 			["roles"] = {
 				"TANK", -- [1]
 			},
-			["hidden"] = true,
 			["hideAt"] = 0,
+			["hidden"] = true,
 		}, -- [61]
 		["uniqueKey"] = "Zynzo:Thrall:1",
 	},

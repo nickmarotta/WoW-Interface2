@@ -67,10 +67,6 @@ end)
 end)
 	--
 	
-	
-	
-
-
 
 	-- Header Panel
 	QE_HeaderPanel = CreateFrame("Frame", "QE_HeaderFrame", QE_ParentFrame)	
@@ -327,9 +323,9 @@ function addon:setEnabled()
 	
 
 	if inInstance and QEConfig.ShowFrame == "Show in separate frame" and (
-		addon.acceptedDungeons[mapID] or (mapID and
-		(mapID > 1833 and mapID < 1911) or -- Torghast Maps
-		(mapID > 1756 and mapID < 1812))) -- Torghast Maps
+		addon.acceptedDungeons[mapID] or (mapID and mapID ~= nil and
+		((mapID > 1833 and mapID < 1911) or -- Torghast Maps
+		(mapID > 1756 and mapID < 1812)))) -- Torghast Maps
 		 then
 		if addon:checkInstance() then
 			--QE_HeaderPanel:Show()

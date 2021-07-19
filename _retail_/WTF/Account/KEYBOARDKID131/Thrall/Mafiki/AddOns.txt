@@ -125,3 +125,7 @@ LittleWigs_Classic: enabled
 LittleWigs_BattleForAzeroth: enabled
 LittleWigs_BurningCrusade: enabled
 BigWigs_Shadowlands: enabled
+!KalielsTracker: disabled
+BigWigs_CastleNathria: enabled
+LittleWigs_WarlordsOfDraenor: enabled
+BigWigs_SanctumOfDomination: enabled

@@ -40,7 +40,7 @@ Immersion: disabled
 InstanceAchievementTracker: disabled
 SexyMap: disabled
 ShadowedUnitFrames: disabled
-Simulationcraft: disabled
+Simulationcraft: enabled
 TipTac: enabled
 Gladius: disabled
 Ace3: enabled
@@ -58,3 +58,15 @@ Kui_Nameplates: disabled
 Kui_Nameplates_Core_Config: disabled
 AAP-Core: disabled
 HereBeDragons: enabled
+BigWigs_Shadowlands: enabled
+SimpleILevel: enabled
+SimpleILevel_Group: enabled
+SimpleILevel_Social: enabled
+CallbackHandler: enabled
+LibDBIcon-1.0: enabled
+LibInspect: enabled
+GuildMemberInfo: enabled
+LibDogTag-3.0: enabled
+LibRealmInfo: enabled
+LibDBIcon: enabled
+LibDataBroker-1.1: enabled

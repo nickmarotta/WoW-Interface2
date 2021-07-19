@@ -16,6 +16,7 @@ core._2296.Events = CreateFrame("Frame")
 local burdenOfSinCounter = 0
 local initialSetup = false
 local burdernOfSinStackPlayers = {}
+local MarchOfThePenitentCast = false
 
 ------------------------------------------------------
 ---- Huntsman Altimor
@@ -57,6 +58,9 @@ local stoneLegionGeneralKaaelKilled = false
 local stoneLegionGeneralGeneralGrashaalKilled = false
 local playersWithAnimaInfection = {}
 local playersWithAnimaInfusion= {}
+local playerFailedAchievement = false
+local checkForDeadPlayers = false
+local deadPlayerTimer = false
 
 --Timer for Blooming Roses
 local bloomingTimerStarted = false
@@ -259,8 +263,8 @@ function core._2296:LadyInervaDarkvein()
                 core:sendMessage(format(L["Shared_MobSpawningInXMinutes"], getNPCName(173430), "2"),true)
             elseif darkAnimusCounter == 60 then
                 core:sendMessage(format(L["Shared_MobSpawningInXMinutes"], getNPCName(173430), "1"),true)
-            elseif darkAnimusCounter < 11 then
-                core:sendMessage(format(L["Shared_MobSpawningInXSeconds"], getNPCName(173430), darkAnimusCounter),true)
+            elseif darkAnimusCounter == 10 then
+                core:sendMessage(format(L["Shared_MobSpawningInXSeconds"], getNPCName(173430), "10"),true)
             end
             core:sendDebugMessage(darkAnimusCounter)
             darkAnimusCounter = darkAnimusCounter - 1
@@ -323,6 +327,7 @@ function core._2296:StoneLegionGenerals()
 
     if initialStoneLegionSetup == false then
         initialStoneLegionSetup = true
+        playerFailedAchievement = false
         local playersWithoutBuff = ""
         local playersFailed = false
 		for player,status in pairs(core.InfoFrame_PlayersTable) do
@@ -365,6 +370,7 @@ function core._2296:StoneLegionGenerals()
                 if playersBloomingRose[playerTmp] == nil then
                     core:getAchievementFailedWithMessageAfter("(" .. playerTmp .. ")")
                     InfoFrame_SetPlayerFailed(playerTmp)
+                    playerFailedAchievement = true
                 end
             end)
         end
@@ -408,6 +414,7 @@ function core._2296:StoneLegionGenerals()
                 InfoFrame_SetPlayerFailed(core.destName)
                 if stoneLegionGeneralKaaelKilled == false and stoneLegionGeneralGeneralGrashaalKilled == false then
                     core:getAchievementFailedWithMessageAfter("(" .. core.destName .. ")")
+                    playerFailedAchievement = true
                 end
                 BloomingFlowersCounter = BloomingFlowersCounter - 1
                 playersBloomingRose[core.destName] = nil
@@ -437,7 +444,7 @@ function core._2296:SireDenathrius()
     end
 
     --Player has lost a stack of Burden of Sin
-    if (core.type == "SPELL_AURA_REMOVED_DOSE" or core.type == "SPELL_AURA_REMOVED") and core.spellId == 326699 then
+    if (core.type == "SPELL_AURA_REMOVED_DOSE" or core.type == "SPELL_AURA_REMOVED") and core.spellId == 326699 and MarchOfThePenitentCast == false then
         if core.destName ~= nil then
             local name = core.destName
             if string.find(name, "-") then
@@ -457,6 +464,7 @@ function core._2296:SireDenathrius()
     --March of the Penitent cast
     if core.type == "SPELL_CAST_START" and core.spellId == 328117 then
         --Check if all players are at 0 stacks of Burden of Sin
+        MarchOfThePenitentCast = true
         local AchievementFailed = false
         for player,stacks in pairs(burdernOfSinStackPlayers) do
             if stacks > 0 then
@@ -567,6 +575,7 @@ function core._2296:ClearVariables()
     burdenOfSinCounter = 0
     initialSetup = false
     burdernOfSinStackPlayers = {}
+    MarchOfThePenitentCast = false
 
     ------------------------------------------------------
     ---- Huntsman Altimor
@@ -619,6 +628,9 @@ function core._2296:ClearVariables()
     WiltingFlowersCounter = 0
     playersWithAnimaInfection = {}
     playersWithAnimaInfusion = {}
+    playerFailedAchievement = false
+    checkForDeadPlayers = false
+    deadPlayerTimer = false
 
     if (stoneLegionGeneralGeneralGrashaalKilled == false and stoneLegionGeneralKaaelKilled == true) or (stoneLegionGeneralKaaelKilled == false and stoneLegionGeneralGeneralGrashaalKilled == true) then
         stoneLegionGeneralGeneralGrashaalKilled = false

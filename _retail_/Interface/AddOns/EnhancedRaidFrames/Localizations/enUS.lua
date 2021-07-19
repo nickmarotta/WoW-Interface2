@@ -1,21 +1,6 @@
---Enhanced Raid Frames, a World of Warcraft® user interface addon.
-
---This file is part of Enhanced Raid Frames.
---
---Enhanced Raid Frames is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---Enhanced Raid Frames is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this add-on.  If not, see <https://www.gnu.org/licenses/>.
---
---Copyright for Enhanced Raid Frames is held by Britt Yazel (aka Soyier), 2017-2020.
+-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+-- Copyright (c) 2017-2021 Britt W. Yazel
+-- This code is licensed under the MIT license (see LICENSE for details)
 
 local L = LibStub("AceLocale-3.0"):NewLocale("EnhancedRaidFrames", "enUS", true)
 
@@ -223,3 +208,43 @@ L["indicatorGlow_desc"] = "Display a glow animation effect on the indicator to m
 L["Glow At Countdown Time"] = true
 L["glowRemainingSecs_desc1"] = "The amount of time (in seconds) remaining on the buff or debuff countdown before the glowing starts"
 L["glowRemainingSecs_desc2"] = "'0' means it will always glow"
+
+
+
+L["Profile"] = true
+L["Import"] = true
+L["Export"] = true
+L["Import or Export the current profile:"] = true
+L["ImportExport_Desc"] = [[
+
+Below you will find a text representation of your Enhanced Raid Frame profile.
+
+To export this profile, select and copy all of the text below and paste it somewhere safe.
+
+To import a profile, replace all of the text below and press accept.
+
+]]
+L["ImportExport_WarningDesc"] = [[
+
+Copying and pasting profile data can be a time consuming experience. It may stall your game for multiple seconds.
+
+WARNING: This will overwrite the current profile, and any changes you have made will be lost.
+]]
+L["ImportWarning"] = "Are you absolutely certain you wish to import this profile? The current profile will be overwritten."
+L["No data to import."] = true
+L["Decoding failed."] = true
+L["Decompression failed."] = true
+L["Data import Failed."] = true
+L["Aborting."] = true
+
+L["Experimental"] = true
+L["Experimental Options"] = true
+L["Experimental_Options_Warning"] = [[
+
+Warning:
+
+Here you will fill find experimental and potentially dangerous options.
+
+Use at your own risk.
+
+]]

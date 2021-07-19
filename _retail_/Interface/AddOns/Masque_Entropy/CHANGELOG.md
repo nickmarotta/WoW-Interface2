@@ -1,4 +1,3 @@
-## 9.0.5
+## 9.1.0
 
-- Updated the `Interface` version for Classic to `11306`.
-- Updated the `Interface` version for Retail to `90005`.
+- Updated the `Interface` version for _Retail_ to `90100`.

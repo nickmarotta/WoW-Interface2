@@ -17,9 +17,9 @@ HandyNotes_TreasureHunterDB = {
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -54,11 +54,11 @@ HandyNotes_TreasureHunterDB = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Corpsel - Alexstrasza"] = {
 		},
 		["Mafiki - Thrall"] = {
 		},
-		["Corpsel - Alexstrasza"] = {
+		["Salocinn - Thrall"] = {
 		},
 	},
 }

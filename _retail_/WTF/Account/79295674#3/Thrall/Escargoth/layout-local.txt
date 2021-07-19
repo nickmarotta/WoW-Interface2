@@ -1,0 +1,8 @@
+Version: 1
+Frame: QE_ParentFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 21
+Y: -139
+W: 420
+H: 120

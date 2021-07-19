@@ -8,15 +8,15 @@ KuiNameplatesCoreSaved = {
 	["profiles"] = {
 		["default"] = {
 			["classpowers_on_target"] = false,
-			["execute_enabled"] = false,
 			["font_size_normal"] = 14,
+			["execute_enabled"] = false,
+			["cvar_enable"] = true,
+			["classpowers_y"] = -8,
 			["execute_colour"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["classpowers_y"] = -8,
-			["cvar_enable"] = true,
 			["colour_player_class"] = true,
 		},
 		["NICK"] = {

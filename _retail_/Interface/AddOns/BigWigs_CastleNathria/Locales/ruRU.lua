@@ -12,8 +12,8 @@ end
 
 L = BigWigs:NewBossLocale("Sun King's Salvation", "ruRU")
 if L then
-	--L.shield_removed = "%s removed after %.1fs" -- "Shield removed after 1.1s" s = seconds
-	--L.shield_remaining = "%s remaining: %s (%.1f%%)" -- "Shield remaining: 2.1K (5.3%)"
+	L.shield_removed = "%s убран спустя %.1fс" -- "Shield removed after 1.1s" s = seconds
+	L.shield_remaining = "%s : осталось %s (%.1f%%)" -- "Shield remaining: 2.1K (5.3%)"
 end
 
 L = BigWigs:NewBossLocale("Hungering Destroyer", "ruRU")
@@ -25,8 +25,6 @@ if L then
 
 	L.custom_on_repeating_say_laser = "Постоянные сообщения у целей Нестабильный выброс"
 	L.custom_on_repeating_say_laser_desc = "Повторение сообщений у игроков, отмеченных Нестабильным выбросом, помогающие при движении видеть их тем игрокам, которые изначально не видели первое сообщение."
-
-	L.tempPrint = "Мы добавили /крики о здоровье целей Ненасытные миазмы. Если вы ранее использовали для этого WeakAuras, вы можете их удалить, чтобы избежать двойных /криков."
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "ruRU")
@@ -38,7 +36,7 @@ end
 
 L = BigWigs:NewBossLocale("Lady Inerva Darkvein", "ruRU")
 if L then
-	-- L.times = "%dx %s"
+	L.times = "%dx %s"
 
 	L.level = "%s (Уровень |cffffff00%d|r)"
 	L.full = "%s (|cffff0000ПОЛНЫЙ|r)"
@@ -62,7 +60,6 @@ end
 
 L = BigWigs:NewBossLocale("The Council of Blood", "ruRU")
 if L then
-	L.macabre_start_emote = "Занимайте свои места и приготовьтесь к пляске смерти!" -- [RAID_BOSS_EMOTE] Take your places for the Danse Macabre!#Dance Controller#4#false"
 	L.custom_on_repeating_dark_recital = "Повторение Тёмного бала"
 	L.custom_on_repeating_dark_recital_desc = "Спам сообщений в /сказать с метками {rt1}, {rt2} чтобы найти своего партнёра для танца во время Тёмного бала."
 
@@ -118,8 +115,6 @@ end
 
 L = BigWigs:NewBossLocale("Sire Denathrius", "ruRU")
 if L then
-	L.add_spawn = "Алые кабалисты откликнулись на призыв Денатрия." -- [RAID_BOSS_EMOTE] Crimson Cabalists answer the call of Denathrius.#Sire Denathrius#4#true"
-
 	L.infobox_stacks = "%d |4Стак:Стака:Стаков;: %d |4игрок:игрока:игроков;" -- 4 Stacks: 5 players // 1 Stack: 1 player
 
 	L.custom_on_repeating_nighthunter = "Повторение крика о Ночном охотнике"
@@ -166,6 +161,7 @@ if L then
 	L.antiquarian = "Зловещий антиквар"
 	L.conservator = "Нафрийский охранитель"
 	L.archivist = "Нафрийский архивариус"
+	L.hierarch = "Придворный иерарх"
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	L.goliath = "Голиаф из Каменного легиона"

@@ -1,5 +1,5 @@
--- Generated from CurseForge on Sat Mar  6 07:07:32 UTC 2021
-local _, ns = ...
+-- Generated from CurseForge on Wed May 12 07:08:54 UTC 2021
+local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("frFR") then
 	local L = ns.L or ns:NewLocale()
@@ -262,8 +262,8 @@ L["SHOW_ROLE_ICONS"] = "Afficher les icônes de rôles dans les info-bulles"
 L["SHOW_ROLE_ICONS_DESC"] = "Lorsque cette option est activée, les principaux rôles du joueur en Mythique+ seront affichés dans les info-bulles."
 L["SHOW_SCORE_IN_COMBAT"] = "Afficher le score en combat"
 L["SHOW_SCORE_IN_COMBAT_DESC"] = "Le désactiver pour diminuer l'impact sur les performances lorsque l'on survole un joueur en combat."
-L["SHOW_SCORE_WITH_MODIFIER"] = "Montre l'Info-bulle avec modificateur Raider.IO"
-L["SHOW_SCORE_WITH_MODIFIER_DESC"] = "Désactive l'Affichage des Fonnées lors du survol des joueurs, sauf si une touche de modification est maintenue."
+L["SHOW_SCORE_WITH_MODIFIER"] = "Montre l'Info-bulle Raider.IO avec modificateur"
+L["SHOW_SCORE_WITH_MODIFIER_DESC"] = "Désactive l'Affichage des Données lors du survol des joueurs, sauf si une touche de modification est maintenue."
 L["TANK"] = "Tank"
 L["TANK_SCORE"] = "Score en tank"
 L["TIMED_10_RUNS"] = "10-14+ dans les temps"

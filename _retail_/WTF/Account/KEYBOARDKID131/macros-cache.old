@@ -16,12 +16,6 @@ VER 3 00000000000000BE "Enchant" "135754"
 /script TradeSkillFrame.DetailsFrame:Create();
 /use Enchanting Vellum
 END
-VER 3 0000000000000151 "hbCrashProt_0" "Spell_Holy_SealOfSacrifice"
-1:H:1:1:Group:
-END
-VER 3 0000000000000150 "hbCrashProt_1" "Spell_Holy_SealOfSacrifice"
-Mafik:p:ayer-3678-0CB7719A:1:
-END
 VER 3 00000000000000D3 "LOOT " "INV_MISC_QUESTIONMARK"
 Keystone Level    End of Dungeon    Weekly Great Vault
 Mythic 2    187    200
@@ -43,6 +37,9 @@ Piff-Mal'Ganis
 END
 VER 3 0000000000000002 "RESET LOOT SPEC" "237513"
 your loot spec is blood fix it now 
+END
+VER 3 0000000000000153 "shrink" "237589"
+/run C_NamePlate.SetNamePlateFriendlySize(60, 30)
 END
 VER 3 00000000000000D2 "Skull " "135988"
 /script SetRaidTarget("target",8)

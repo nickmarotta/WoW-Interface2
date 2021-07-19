@@ -1,26 +1,13 @@
---Enhanced Raid Frames, a World of Warcraft® user interface addon.
-
---This file is part of Enhanced Raid Frames.
---
---Enhanced Raid Frames is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---Enhanced Raid Frames is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this add-on.  If not, see <https://www.gnu.org/licenses/>.
---
---Copyright for Enhanced Raid Frames is held by Britt Yazel (aka Soyier), 2017-2020.
+-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+-- Copyright (c) 2017-2021 Britt W. Yazel
+-- This code is licensed under the MIT license (see LICENSE for details)
 
 local L = LibStub("AceLocale-3.0"):NewLocale("EnhancedRaidFrames", "zhCN", false)
 
 if not L then return end
 
+--[[Translation missing --]]
+--[[ L["Aborting."] = ""--]] 
 L["Animations"] = "动画效果"
 L["Attached to Cursor"] = "附着在光标上"
 L["Aura Watch List"] = "光环监视列表"
@@ -48,10 +35,24 @@ L["Curse"] = "诅咒"
 L["curseWildcard_desc"] = "任何诅咒类型的减益"
 L["customRange_desc"] = "代替默认的超出距离指示器（默认为40码）"
 L["customRangeCheck_desc"] = "将默认的40码超出距离指示器修改为指定的距离"
+--[[Translation missing --]]
+--[[ L["Data import Failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decoding failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decompression failed."] = ""--]] 
 L["Default Icon Visibility"] = "系统默认图标的可见性"
 L["Disease"] = "疾病"
 L["diseaseWildcard_desc"] = "任何疾病类型的减益"
 L["Example"] = "举例"
+--[[Translation missing --]]
+--[[ L["Experimental"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental Options"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental_Options_Warning"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Export"] = ""--]] 
 L["frameScale_desc"] = "团队框架相对于正常尺寸的比例"
 L["General"] = "通常"
 L["General Options"] = "通常设置"
@@ -72,6 +73,16 @@ L["iconAlpha_desc"] = "图标不透明度的百分比"
 --[[ L["iconOptions_desc"] = ""--]] 
 L["iconPosition_desc"] = "图标相对于团队框架的位置"
 L["iconSize_desc"] = "图标的像素大小"
+--[[Translation missing --]]
+--[[ L["Import"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Import or Export the current profile:"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_Desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_WarningDesc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportWarning"] = ""--]] 
 L["Indicator Color"] = "指示器颜色"
 L["Indicator Font"] = "指示器字体"
 L["Indicator Glow Effect"] = "指示器发光效果"
@@ -115,6 +126,8 @@ L["Indicator Options"] = "指示器设置"
 --[[Translation missing --]]
 --[[ L["missingOnly_desc"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["No data to import."] = ""--]] 
+--[[Translation missing --]]
 --[[ L["None"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Open the Blizzard Raid Profiles Menu"] = ""--]] 
@@ -134,6 +147,8 @@ L["Indicator Options"] = "指示器设置"
 --[[ L["Power Bar Vertical Offset"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["powerBarOffset_desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Profile"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Profiles"] = ""--]] 
 --[[Translation missing --]]

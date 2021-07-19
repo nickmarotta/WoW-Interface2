@@ -3,32 +3,13603 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "21:33:23",
-			["date_start"] = "21:32:36",
-			["name"] = "Lord Chamberlain",
-			["total_time"] = 46.65499999999884,
+			["date_end"] = "08:54:47",
+			["date_start"] = "08:49:24",
+			["name"] = "The Tarragrue",
+			["total_time"] = 323.028999999995,
 		}, -- [1]
 		{
-			["date_end"] = "21:31:43",
-			["date_start"] = "21:30:52",
-			["name"] = "High Adjudicator Aleez",
-			["total_time"] = 50.58399999999529,
+			["date_end"] = "08:46:41",
+			["date_start"] = "08:44:31",
+			["name"] = "The Tarragrue",
+			["total_time"] = 131.0559999999969,
 		}, -- [2]
 		{
-			["date_end"] = "21:29:27",
-			["date_start"] = "21:28:38",
-			["name"] = "Echelon",
-			["total_time"] = 49.39699999999721,
+			["date_start"] = "13:29:34",
+			["date_end"] = "13:30:29",
+			["name"] = "Ner'zhul",
+			["total_time"] = 56.08200000000215,
 		}, -- [3]
 		{
-			["date_end"] = "21:26:09",
-			["date_start"] = "21:25:22",
-			["name"] = "Halkias, the Sin-Stained Goliath",
-			["total_time"] = 46.96099999999569,
+			["date_start"] = "13:25:58",
+			["date_end"] = "13:27:53",
+			["name"] = "Bonemaw",
+			["total_time"] = 114.9529999999941,
 		}, -- [4]
 	},
 	["hide_on_combat"] = false,
 	["IndividualSpells"] = {
+		{
+			[347679] = {
+				{
+					29.32499999999709, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					125.3099999999977, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					221.2129999999888, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					317.2319999999891, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[347490] = {
+				{
+					58.11299999999756, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					94.55899999999383, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					154.4529999999941, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					190.4979999999923, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					250.4099999999889, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					286.4529999999941, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[350280] = {
+				{
+					13.58099999999104, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					56.90399999999499, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					84.83699999999953, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					112.7849999999889, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					152.8459999999905, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					179.9660000000004, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					207.4669999999896, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					248.7889999999898, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					276.7369999999937, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					304.7209999999905, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+			[346985] = {
+				{
+					11.73499999998603, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [1]
+				{
+					50.63899999999558, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [2]
+				{
+					78.54999999998836, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [3]
+				{
+					106.4909999999945, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [4]
+				{
+					146.580999999991, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [5]
+				{
+					174.4829999999929, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [6]
+				{
+					202.3919999999926, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [7]
+				{
+					242.4929999999877, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [8]
+				{
+					269.630999999994, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [9]
+				{
+					297.1889999999985, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [10]
+			},
+			[354080] = {
+				{
+					34.13199999999779, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					39.15499999999884, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					44.18199999998615, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					130.1089999999967, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					135.1429999999964, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					140.1229999999923, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					226.0349999999889, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					231.0099999999948, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					236.0269999999873, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					322.0559999999969, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+			[347269] = {
+				{
+					13.58099999999104, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kaoruchan-Area52", -- [5]
+				}, -- [1]
+				{
+					56.90399999999499, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Norfleet-Zul'jin", -- [5]
+				}, -- [2]
+				{
+					84.83699999999953, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thenendoa-Area52", -- [5]
+				}, -- [3]
+				{
+					112.7849999999889, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Worvean", -- [5]
+				}, -- [4]
+				{
+					152.8459999999905, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Psälm-WyrmrestAccord", -- [5]
+				}, -- [5]
+				{
+					179.9660000000004, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gwenzin-Jubei'Thos", -- [5]
+				}, -- [6]
+				{
+					207.4669999999896, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kittymeows-Barthilas", -- [5]
+				}, -- [7]
+				{
+					248.7889999999898, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kittymeows-Barthilas", -- [5]
+				}, -- [8]
+				{
+					276.7369999999937, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Aksara", -- [5]
+				}, -- [9]
+				{
+					304.7209999999905, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thenendoa-Area52", -- [5]
+				}, -- [10]
+			},
+			[347668] = {
+				{
+					8.286999999996624, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					21.68299999998999, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					52.45199999999022, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					80.39599999999336, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					108.310999999987, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					147.9889999999869, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					175.9089999999997, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					203.8189999999886, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					243.9249999999884, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					270.6669999999867, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					299.0409999999974, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+			},
+			[347283] = {
+				{
+					6.365999999994529, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					48.12199999998848, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					74.82399999999325, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					101.1549999999988, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					143.6639999999898, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					170.3619999999937, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					196.2439999999915, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					239.5720000000001, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					266.2719999999972, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					292.2309999999998, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+		}, -- [1]
+		{
+			[347679] = {
+				{
+					28.41300000000047, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[347490] = {
+				{
+					57.22800000000279, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					104.5589999999938, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[350280] = {
+				{
+					13.47099999999045, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					56.00400000000082, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					83.92500000000291, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[346985] = {
+				{
+					12.05199999999604, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [1]
+				{
+					49.71899999999732, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [2]
+				{
+					77.63199999999779, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Spiritpree", -- [5]
+				}, -- [3]
+				{
+					127.0080000000016, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Ashîro-Aegwynn", -- [5]
+				}, -- [4]
+			},
+			[354080] = {
+				{
+					33.22599999999511, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					38.25199999999313, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					43.1929999999993, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[347269] = {
+				{
+					13.47099999999045, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fobz-Khaz'goroth", -- [5]
+				}, -- [1]
+				{
+					56.00400000000082, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Ashîro-Aegwynn", -- [5]
+				}, -- [2]
+				{
+					83.92500000000291, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+			},
+			[347668] = {
+				{
+					8.611999999993714, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					21.98399999999674, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					51.15099999999802, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					79.05400000000373, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					128.6359999999986, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[347283] = {
+				{
+					6.690999999991618, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					46.77099999999336, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					72.29399999999441, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					108.4140000000043, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [2]
+		{
+			[154442] = {
+				{
+					6.923999999999069, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					16.66399999999703, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					25.17499999999563, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					36.10699999999633, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					45.80699999999342, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+		}, -- [3]
+		{
+			[153681] = {
+				{
+					9.635000000002037, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [1]
+				{
+					21.79000000000087, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					52.13400000000547, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Selisabeth", -- [5]
+				}, -- [3]
+				{
+					58.22600000000239, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Windfury Totem", -- [5]
+				}, -- [4]
+				{
+					95.88900000000285, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [5]
+				{
+					104.3990000000049, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [6]
+			},
+			[165578] = {
+				{
+					7.997000000003027, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					51.70900000000256, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					95.45300000000134, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[153496] = {
+				{
+					52.72800000000279, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [1]
+				{
+					54.22800000000279, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Windfury Totem", -- [5]
+				}, -- [2]
+				{
+					56.91800000000512, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [3]
+				{
+					58.22600000000239, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+				{
+					61.55299999999988, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [5]
+				{
+					62.99700000000303, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [6]
+				{
+					65.59300000000076, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [7]
+				{
+					67.93500000000495, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [8]
+				{
+					70.5480000000025, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [9]
+				{
+					72.6840000000011, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [10]
+				{
+					74.0260000000053, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [11]
+				{
+					77.44500000000698, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Windfury Totem", -- [5]
+				}, -- [12]
+				{
+					78.90000000000146, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Selisabeth", -- [5]
+				}, -- [13]
+				{
+					97.10400000000664, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [14]
+				{
+					101.9590000000026, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [15]
+				{
+					106.9670000000042, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [16]
+				{
+					112.2020000000048, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [17]
+			},
+			[153804] = {
+				{
+					30.35600000000704, -- [1]
+					"Bonemaw", -- [2]
+					153804, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					66.80200000000332, -- [1]
+					"Bonemaw", -- [2]
+					153804, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[154175] = {
+				{
+					17.71399999999994, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					46.8550000000032, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					46.8550000000032, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					47.66700000000128, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					89.39900000000489, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					90.61900000000605, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					90.61900000000605, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					112.4690000000046, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+		}, -- [4]
+		{
+			[154327] = {
+				{
+					11.19200000000274, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					11.19200000000274, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					11.20300000000134, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					11.20300000000134, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					59.9320000000007, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					59.9320000000007, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					59.9320000000007, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					59.9320000000007, -- [1]
+					"Shadowmoon Enslaver", -- [2]
+					154327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[153623] = {
+				{
+					22.52399999999761, -- [1]
+					"Nhallish", -- [2]
+					153623, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[152792] = {
+				{
+					15.95900000000256, -- [1]
+					"Nhallish", -- [2]
+					152792, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[152962] = {
+				{
+					37.07899999999791, -- [1]
+					"Nhallish", -- [2]
+					152962, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [5]
+		{
+			[153240] = {
+				{
+					8.763999999995576, -- [1]
+					"Sadana Bloodfury", -- [2]
+					153240, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					34.66100000000006, -- [1]
+					"Sadana Bloodfury", -- [2]
+					153240, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					65.04299999999785, -- [1]
+					"Sadana Bloodfury", -- [2]
+					153240, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[153164] = {
+				{
+					32.22000000000116, -- [1]
+					"Defiled Spirit", -- [2]
+					153164, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[164974] = {
+				{
+					44.3660000000018, -- [1]
+					"Sadana Bloodfury", -- [2]
+					164974, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[153153] = {
+				{
+					23.72200000000157, -- [1]
+					"Sadana Bloodfury", -- [2]
+					153153, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[153094] = {
+				{
+					15.21699999999692, -- [1]
+					"Sadana Bloodfury", -- [2]
+					153094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					56.52399999999761, -- [1]
+					"Sadana Bloodfury", -- [2]
+					153094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [6]
+		{
+			[157040] = {
+				{
+					43.71800000000076, -- [1]
+					"Teron'gor", -- [2]
+					157040, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[156968] = {
+				{
+					19.47200000000157, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [1]
+				{
+					21.89199999999983, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [2]
+				{
+					24.32600000000093, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [3]
+				{
+					31.58100000000559, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [4]
+				{
+					34.00700000000506, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [5]
+				{
+					36.44900000000052, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [6]
+				{
+					38.87900000000082, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [7]
+				{
+					44.96199999999953, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [8]
+				{
+					47.37200000000303, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [9]
+				{
+					52.22100000000501, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [10]
+				{
+					54.65800000000309, -- [1]
+					"Teron'gor", -- [2]
+					156968, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [11]
+			},
+			[157168] = {
+				{
+					21.76499999999942, -- [1]
+					"Felborne Abyssal", -- [2]
+					157168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+				{
+					34.00700000000506, -- [1]
+					"Felborne Abyssal", -- [2]
+					157168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					46.16600000000472, -- [1]
+					"Felborne Abyssal", -- [2]
+					157168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+				{
+					58.30099999999948, -- [1]
+					"Felborne Abyssal", -- [2]
+					157168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+			},
+			[157001] = {
+				{
+					31.4429999999993, -- [1]
+					"Teron'gor", -- [2]
+					157001, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [1]
+				{
+					52.0940000000046, -- [1]
+					"Teron'gor", -- [2]
+					157001, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Selisabeth", -- [5]
+				}, -- [2]
+			},
+			[156965] = {
+				{
+					35.22200000000157, -- [1]
+					"Teron'gor", -- [2]
+					156965, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [1]
+			},
+			[156842] = {
+				{
+					8.531999999999243, -- [1]
+					"Teron'gor", -- [2]
+					156842, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [1]
+				{
+					37.66600000000472, -- [1]
+					"Teron'gor", -- [2]
+					156842, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					53.44200000000274, -- [1]
+					"Teron'gor", -- [2]
+					156842, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [3]
+			},
+			[157039] = {
+				{
+					43.61100000000442, -- [1]
+					"Teron'gor", -- [2]
+					157039, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[164841] = {
+				{
+					27.73400000000402, -- [1]
+					"Teron'gor", -- [2]
+					164841, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					44.76200000000245, -- [1]
+					"Teron'gor", -- [2]
+					164841, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [7]
+		{
+			[153764] = {
+				{
+					34.21399999999994, -- [1]
+					"Azzakel", -- [2]
+					153764, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[153499] = {
+				{
+					52.87900000000082, -- [1]
+					"Azzakel", -- [2]
+					153499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[153234] = {
+				{
+					16.71300000000338, -- [1]
+					"Azzakel", -- [2]
+					153234, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [1]
+			},
+			[153396] = {
+				{
+					20.06900000000314, -- [1]
+					"Azzakel", -- [2]
+					153396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [1]
+				{
+					58.94000000000233, -- [1]
+					"Azzakel", -- [2]
+					153396, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+			},
+			[157173] = {
+				{
+					48.71800000000076, -- [1]
+					"Felguard", -- [2]
+					157173, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[153762] = {
+				{
+					34.22700000000623, -- [1]
+					"Unknown", -- [2]
+					153762, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[153727] = {
+				{
+					53.39300000000367, -- [1]
+					"Unknown", -- [2]
+					153727, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.39300000000367, -- [1]
+					"Unknown", -- [2]
+					153727, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					53.39300000000367, -- [1]
+					"Unknown", -- [2]
+					153727, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					53.39300000000367, -- [1]
+					"Unknown", -- [2]
+					153727, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[177763] = {
+				{
+					62.64800000000105, -- [1]
+					"Unknown", -- [2]
+					177763, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					62.64800000000105, -- [1]
+					"Unknown", -- [2]
+					177763, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [8]
+		{
+			[153477] = {
+				{
+					21.19700000000012, -- [1]
+					"Soulbinder Nyami", -- [2]
+					153477, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[155327] = {
+				{
+					28.20799999999872, -- [1]
+					"Soulbinder Nyami", -- [2]
+					155327, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[154415] = {
+				{
+					34.95600000000559, -- [1]
+					"Soulbinder Nyami", -- [2]
+					154415, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [1]
+			},
+			[167092] = {
+				{
+					46.60100000000239, -- [1]
+					"Cackling Pyromaniac", -- [2]
+					167092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					46.60100000000239, -- [1]
+					"Cackling Pyromaniac", -- [2]
+					167092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					46.60100000000239, -- [1]
+					"Cackling Pyromaniac", -- [2]
+					167092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					46.60100000000239, -- [1]
+					"Cackling Pyromaniac", -- [2]
+					167092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					46.60100000000239, -- [1]
+					"Cackling Pyromaniac", -- [2]
+					167092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					46.60100000000239, -- [1]
+					"Cackling Pyromaniac", -- [2]
+					167092, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[157794] = {
+				{
+					3.581000000005588, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					5.615000000005239, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					5.615000000005239, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					16.92900000000373, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					18.94000000000233, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					30.29000000000087, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					32.30900000000111, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					32.30900000000111, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					43.65800000000309, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					45.67599999999948, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					45.67599999999948, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					46.60100000000239, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					46.60100000000239, -- [1]
+					"Sargerei Magus", -- [2]
+					157794, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+			},
+			[154477] = {
+				{
+					6.243000000002212, -- [1]
+					"Soulbinder Nyami", -- [2]
+					154477, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [1]
+				{
+					14.7390000000014, -- [1]
+					"Soulbinder Nyami", -- [2]
+					154477, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [2]
+				{
+					32.94600000000355, -- [1]
+					"Soulbinder Nyami", -- [2]
+					154477, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [3]
+				{
+					43.87700000000041, -- [1]
+					"Soulbinder Nyami", -- [2]
+					154477, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+			},
+			[157168] = {
+				{
+					46.60100000000239, -- [1]
+					"Felborne Abyssal", -- [2]
+					157168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+			},
+		}, -- [9]
+		{
+			[157465] = {
+				{
+					27.59500000000116, -- [1]
+					"Vigilant Kaathar", -- [2]
+					157465, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[155646] = {
+				{
+					3.717000000004191, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					7.733000000000175, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					11.00500000000466, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					16.14500000000408, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					20.7410000000018, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					24.69400000000314, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					28.03300000000309, -- [1]
+					"Vigilant Kaathar", -- [2]
+					155646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+			},
+			[152954] = {
+				{
+					7.165000000000873, -- [1]
+					"Vigilant Kaathar", -- [2]
+					152954, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					15.65000000000146, -- [1]
+					"Vigilant Kaathar", -- [2]
+					152954, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					24.19300000000658, -- [1]
+					"Vigilant Kaathar", -- [2]
+					152954, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[153002] = {
+				{
+					30.94400000000314, -- [1]
+					"Vigilant Kaathar", -- [2]
+					153002, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [10]
+		{
+			[320771] = {
+				{
+					3.035999999963678, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [1]
+				{
+					5.467000000004191, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [2]
+				{
+					10.71399999997811, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+				{
+					12.74799999996321, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [4]
+				{
+					15.19599999999628, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [5]
+				{
+					16.80099999997765, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [6]
+				{
+					27.35699999995995, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [7]
+				{
+					28.96599999995669, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [8]
+				{
+					31.39499999996042, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [9]
+				{
+					35.8640000000014, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [10]
+				{
+					39.50500000000466, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [11]
+				{
+					42.33199999999488, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [12]
+				{
+					52.04799999995157, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [13]
+				{
+					54.46599999995669, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [14]
+				{
+					56.91599999996834, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [15]
+				{
+					61.76799999998184, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [16]
+				{
+					66.63000000000466, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [17]
+			},
+			[320772] = {
+				{
+					19.33099999994738, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					44.86999999999534, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					69.55999999999767, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[321754] = {
+				{
+					13.68799999996554, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					37.99599999998463, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					62.70299999997951, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[321894] = {
+				{
+					25.81699999998091, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rackran-Azralon", -- [5]
+				}, -- [1]
+				{
+					64.6929999999702, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lave-Ragnaros", -- [5]
+				}, -- [2]
+			},
+			[320788] = {
+				{
+					8.396999999997206, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rackran-Azralon", -- [5]
+				}, -- [1]
+				{
+					33.93399999995017, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lave-Ragnaros", -- [5]
+				}, -- [2]
+				{
+					59.84899999998743, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+			},
+		}, -- [11]
+		{
+			[320200] = {
+				{
+					4.670999999972992, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lave-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					8.304999999993015, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rackran-Azralon", -- [5]
+				}, -- [2]
+				{
+					15.60099999996601, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+			},
+			[320208] = {
+				{
+					17.17399999999907, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320208, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					35.41300000000047, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320208, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					53.59399999998277, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320208, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[343556] = {
+				{
+					34.02700000000186, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					343556, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+			},
+			[327664] = {
+				{
+					11.46099999995204, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					327664, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320358] = {
+				{
+					52.23699999996461, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[322681] = {
+				{
+					10.15799999999581, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					322681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lave-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					28.3859999999986, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					322681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tecleta-Ragnaros", -- [5]
+				}, -- [2]
+				{
+					46.59799999999814, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					322681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tecleta-Ragnaros", -- [5]
+				}, -- [3]
+			},
+			[334476] = {
+				{
+					29.38899999996647, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334476, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					41.52499999996508, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334476, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326574] = {
+				{
+					0.7619999999878928, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					326574, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320359] = {
+				{
+					49.01699999999255, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320359, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[334488] = {
+				{
+					25.72999999998137, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [1]
+				{
+					39.60599999997066, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [2]
+				{
+					48.80499999999302, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+				{
+					62.17199999996228, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [4]
+			},
+			[320376] = {
+				{
+					6.813999999954831, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [1]
+				{
+					20.16499999997905, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [2]
+				{
+					44.45299999997951, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+				{
+					59.03699999995297, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [4]
+				{
+					63.08299999998417, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Black Ox Statue", -- [5]
+				}, -- [5]
+			},
+			[326629] = {
+				{
+					1.667999999946915, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					326629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					49.01699999999255, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					326629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [12]
+		{
+			[321226] = {
+				{
+					8.106000000028871, -- [1]
+					"Amarth", -- [2]
+					321226, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320171] = {
+				{
+					14.96800000005169, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [1]
+				{
+					17.39000000001397, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [2]
+				{
+					24.65100000001257, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+			},
+			[320012] = {
+				{
+					6.895000000018627, -- [1]
+					"Amarth", -- [2]
+					320012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[333629] = {
+				{
+					16.89100000000326, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tecleta-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					19.2960000000312, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					21.73500000004424, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rackran-Azralon", -- [5]
+				}, -- [3]
+			},
+			[320170] = {
+				{
+					14.96800000005169, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tecleta-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					17.39000000001397, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rackran-Azralon", -- [5]
+				}, -- [2]
+				{
+					24.65100000001257, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+			},
+			[333488] = {
+				{
+					30.75300000002608, -- [1]
+					"Amarth", -- [2]
+					333488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[328667] = {
+				{
+					20.09400000004098, -- [1]
+					"Reanimated Mage", -- [2]
+					328667, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [13]
+		{
+			[320596] = {
+				{
+					14.21199999999953, -- [1]
+					"Blightbone", -- [2]
+					320596, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+			},
+			[320614] = {
+				{
+					17.59600000001956, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tecleta-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					18.80400000000373, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [2]
+			},
+			[320637] = {
+				{
+					25.14600000000792, -- [1]
+					"Blightbone", -- [2]
+					320637, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320655] = {
+				{
+					5.965000000025611, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [1]
+				{
+					20.50400000001537, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [2]
+				{
+					32.63500000000931, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thunderbowl-Illidan", -- [5]
+				}, -- [3]
+			},
+			[321575] = {
+				{
+					43.73299999994924, -- [1]
+					"Zolramus Necromancer", -- [2]
+					321575, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					43.73299999994924, -- [1]
+					"Zolramus Necromancer", -- [2]
+					321575, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					43.73299999994924, -- [1]
+					"Zolramus Necromancer", -- [2]
+					321575, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[328146] = {
+				{
+					21.37300000002142, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.53600000002189, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					22.59600000001956, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [14]
+		{
+			[325258] = {
+				{
+					15.11199999996461, -- [1]
+					"Mueh'zala", -- [2]
+					325258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					47.88800000003539, -- [1]
+					"Mueh'zala", -- [2]
+					325258, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326221] = {
+				{
+					61.10100000002421, -- [1]
+					"Mueh'zala", -- [2]
+					326221, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[334810] = {
+				{
+					123.811999999918, -- [1]
+					"Mueh'zala", -- [2]
+					334810, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[325725] = {
+				{
+					3.912000000011176, -- [1]
+					"Mueh'zala", -- [2]
+					325725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					29.81600000010803, -- [1]
+					"Mueh'zala", -- [2]
+					325725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					40.75699999998324, -- [1]
+					"Mueh'zala", -- [2]
+					325725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					60.81000000005588, -- [1]
+					"Mueh'zala", -- [2]
+					325725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[327646] = {
+				{
+					6.933999999891967, -- [1]
+					"Mueh'zala", -- [2]
+					327646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+				{
+					26.91100000008009, -- [1]
+					"Mueh'zala", -- [2]
+					327646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+				{
+					36.91599999996834, -- [1]
+					"Mueh'zala", -- [2]
+					327646, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [3]
+			},
+			[326171] = {
+				{
+					71.0889999999199, -- [1]
+					"Mueh'zala", -- [2]
+					326171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[327426] = {
+				{
+					71.59799999999814, -- [1]
+					"Shattered Visage", -- [2]
+					327426, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					71.59799999999814, -- [1]
+					"Shattered Visage", -- [2]
+					327426, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					71.59799999999814, -- [1]
+					"Shattered Visage", -- [2]
+					327426, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					71.59799999999814, -- [1]
+					"Shattered Visage", -- [2]
+					327426, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[334970] = {
+				{
+					81.11599999992177, -- [1]
+					"Mueh'zala", -- [2]
+					334970, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [15]
+		{
+			[320230] = {
+				{
+					36.29899999988265, -- [1]
+					"Dealer Xy'exa", -- [2]
+					320230, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[323687] = {
+				{
+					6.988999999826774, -- [1]
+					"Dealer Xy'exa", -- [2]
+					323687, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+			},
+			[324090] = {
+				{
+					9.414999999804422, -- [1]
+					"Dealer Xy'exa", -- [2]
+					324090, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					26.44199999980629, -- [1]
+					"Dealer Xy'exa", -- [2]
+					324090, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [16]
+		{
+			[320830] = {
+				{
+					47.18500000005588, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Nintu-Blackrock", -- [5]
+				}, -- [1]
+				{
+					47.2980000001844, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					47.40400000009686, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [3]
+				{
+					54.67700000014156, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+				{
+					55.09000000008382, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tredda-Kil'jaeden", -- [5]
+				}, -- [5]
+				{
+					55.30400000000373, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bubafeet", -- [5]
+				}, -- [6]
+				{
+					61.04700000002049, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Nintu-Blackrock", -- [5]
+				}, -- [7]
+				{
+					61.23999999999069, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tredda-Kil'jaeden", -- [5]
+				}, -- [8]
+				{
+					61.55500000016764, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320830, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [9]
+			},
+			[320144] = {
+				{
+					33.22900000005029, -- [1]
+					"Millificent Manastorm", -- [2]
+					320144, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+				{
+					41.23700000019744, -- [1]
+					"Millificent Manastorm", -- [2]
+					320144, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+				{
+					49.22900000005029, -- [1]
+					"Millificent Manastorm", -- [2]
+					320144, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [3]
+				{
+					57.2180000001099, -- [1]
+					"Millificent Manastorm", -- [2]
+					320144, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [4]
+				{
+					65.21500000008382, -- [1]
+					"Millificent Manastorm", -- [2]
+					320144, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [5]
+			},
+			[320823] = {
+				{
+					37.73500000010245, -- [1]
+					"Millificent Manastorm", -- [2]
+					320823, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					45.72299999999814, -- [1]
+					"Millificent Manastorm", -- [2]
+					320823, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					53.73600000003353, -- [1]
+					"Millificent Manastorm", -- [2]
+					320823, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					61.72800000011921, -- [1]
+					"Millificent Manastorm", -- [2]
+					320823, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[332509] = {
+				{
+					2.772000000113621, -- [1]
+					"Millificent Manastorm", -- [2]
+					332509, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320168] = {
+				{
+					8.040000000037253, -- [1]
+					"Millificent Manastorm", -- [2]
+					320168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tredda-Kil'jaeden", -- [5]
+				}, -- [1]
+			},
+			[320787] = {
+				{
+					10.02200000011362, -- [1]
+					"Millhouse Manastorm", -- [2]
+					320787, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					18.03400000021793, -- [1]
+					"Millhouse Manastorm", -- [2]
+					320787, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320825] = {
+				{
+					46.80600000009872, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+				{
+					46.80600000009872, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+				{
+					46.80600000009872, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Nintu-Blackrock", -- [5]
+				}, -- [3]
+				{
+					54.52200000011362, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+				{
+					54.52200000011362, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bubafeet", -- [5]
+				}, -- [5]
+				{
+					54.52200000011362, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tredda-Kil'jaeden", -- [5]
+				}, -- [6]
+				{
+					61.04700000002049, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Nintu-Blackrock", -- [5]
+				}, -- [7]
+				{
+					61.04700000002049, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tredda-Kil'jaeden", -- [5]
+				}, -- [8]
+				{
+					61.04700000002049, -- [1]
+					"Mechanical Bomb Squirrel", -- [2]
+					320825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [9]
+			},
+			[320008] = {
+				{
+					22.03400000021793, -- [1]
+					"Millhouse Manastorm", -- [2]
+					320008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+			},
+			[324047] = {
+				{
+					22.04300000006333, -- [1]
+					"Millificent Manastorm", -- [2]
+					324047, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Millificent Manastorm", -- [5]
+				}, -- [1]
+			},
+		}, -- [17]
+		{
+			[322759] = {
+				{
+					25.80800000019372, -- [1]
+					"Hakkar the Soulflayer", -- [2]
+					322759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[323064] = {
+				{
+					27.81600000010803, -- [1]
+					"Hakkar the Soulflayer", -- [2]
+					323064, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[323544] = {
+				{
+					17.52900000009686, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					21.17700000014156, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					22.25100000016391, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					25.78100000019185, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					26.01600000006147, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					29.35100000002421, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					32.08700000005774, -- [1]
+					"Son of Hakkar", -- [2]
+					323544, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+			},
+			[322736] = {
+				{
+					11.56099999998696, -- [1]
+					"Hakkar the Soulflayer", -- [2]
+					322736, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+				{
+					20.45200000004843, -- [1]
+					"Hakkar the Soulflayer", -- [2]
+					322736, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+			},
+			[323166] = {
+				{
+					8.418999999994412, -- [1]
+					"Hakkar the Soulflayer", -- [2]
+					323166, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					33.09000000008382, -- [1]
+					"Hakkar the Soulflayer", -- [2]
+					323166, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [18]
+		{
+			[342863] = {
+				{
+					31.85600000014529, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					80.43100000009872, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					177.283000000054, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					226.314000000013, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					326.4140000001062, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[343005] = {
+				{
+					22.86199999996461, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					68.72299999999814, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					168.6689999999944, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					215.5700000000652, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					317.9510000001174, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[345936] = {
+				{
+					130.0180000001565, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					138.1200000001118, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					275.7800000000279, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					284.2620000001043, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					293.9650000000838, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[329362] = {
+				{
+					113.4660000000149, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					259.2550000001211, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328857] = {
+				{
+					9.702999999979511, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					27.92500000004657, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [2]
+				{
+					46.10400000005029, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					64.32300000009127, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [4]
+				{
+					87.42700000014156, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					155.5030000000261, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [6]
+				{
+					173.3519999999553, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [7]
+				{
+					191.9869999999646, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [8]
+				{
+					210.2260000000242, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [9]
+				{
+					233.2970000000205, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [10]
+				{
+					304.8179999999702, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [11]
+				{
+					323.002000000095, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [12]
+				{
+					340.8300000000745, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [13]
+				{
+					359.4540000001434, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [14]
+			},
+			[330711] = {
+				{
+					53.56200000015087, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					101.6540000000969, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					200.1180000000168, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					247.4729999999981, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					348.9610000001267, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[343995] = {
+				{
+					106.5930000001099, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					252.3759999999311, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[345397] = {
+				{
+					12.66100000008009, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					38.13700000010431, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					65.58600000012666, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					91.58600000012666, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					158.4540000001434, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					183.9869999999646, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					211.9110000000801, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					237.4310000000987, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					307.7399999999907, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					333.2120000000577, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					361.188000000082, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+			},
+		}, -- [19]
+		{
+			[343364] = {
+				{
+					545.7290000000503, -- [1]
+					"Shriekwing", -- [2]
+					343364, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[345397] = {
+				{
+					12.2300000002142, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					37.77600000007078, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					65.70800000010058, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					91.25100000016391, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					161.7460000000428, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					187.2570000002161, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					215.1860000002198, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					240.6830000001937, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					307.4970000002068, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					333.1550000000279, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					364.6320000002161, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					390.4260000002105, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					454.8390000001527, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					480.3740000000689, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					511.875, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					537.4340000001248, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					562.533000000054, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+			},
+			[343995] = {
+				{
+					106.2480000001378, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					255.6820000000298, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					402.9920000000857, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[342863] = {
+				{
+					31.14300000015646, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					80.05400000000373, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					180.4930000000168, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					229.5450000001583, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					326.8370000000577, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					375.4620000000577, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					474.0590000001248, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					522.6430000001565, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[328857] = {
+				{
+					9.258000000147149, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					27.51100000017323, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [2]
+				{
+					45.71200000005774, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					63.95900000003167, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					87.07600000011735, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [5]
+				{
+					158.7890000001062, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+				{
+					177.0180000001565, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [7]
+				{
+					195.2390000000596, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [8]
+				{
+					213.4670000001788, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [9]
+				{
+					236.5439999999944, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [10]
+				{
+					304.5709999999963, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [11]
+				{
+					322.9170000001323, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [12]
+				{
+					341.1320000002161, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [13]
+				{
+					359.3850000000093, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [14]
+				{
+					382.6200000001118, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [15]
+				{
+					451.9000000001397, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [16]
+				{
+					470.1280000000261, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [17]
+				{
+					488.3610000000335, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [18]
+				{
+					506.5740000000224, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [19]
+				{
+					529.6460000001825, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lilbuttroach-Mal'Ganis", -- [5]
+				}, -- [20]
+				{
+					549.0720000001602, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [21]
+			},
+			[343005] = {
+				{
+					22.41899999999441, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					69.83700000005774, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					171.939000000013, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					218.877000000095, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					317.7030000002123, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					362.8190000001341, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					465.0250000001397, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					510.0220000001136, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					554.9540000001434, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+			},
+			[345936] = {
+				{
+					129.7350000001025, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					138.2600000000093, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					147.943000000203, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					279.1020000001881, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					287.627000000095, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					424.0230000000447, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					432.5220000001136, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					441.0420000001323, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[330711] = {
+				{
+					53.88800000003539, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					101.3020000001416, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					203.3870000001043, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					250.7450000001118, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					349.0320000001229, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					397.0490000001155, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					496.5250000001397, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					544.0500000000466, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[329362] = {
+				{
+					113.1510000000708, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					262.5400000000373, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					409.8470000000671, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [20]
+		{
+			[322654] = {
+				{
+					7.652000000001863, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					7.652000000001863, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					7.652000000001863, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					7.652000000001863, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					7.652000000001863, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+			},
+			[322614] = {
+				{
+					19.77499999990687, -- [1]
+					"Tred'ova", -- [2]
+					322614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigcôcks-Illidan", -- [5]
+				}, -- [1]
+				{
+					78.85299999988638, -- [1]
+					"Tred'ova", -- [2]
+					322614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigcôcks-Illidan", -- [5]
+				}, -- [2]
+				{
+					97.09499999997206, -- [1]
+					"Tred'ova", -- [2]
+					322614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigcôcks-Illidan", -- [5]
+				}, -- [3]
+			},
+			[322450] = {
+				{
+					22.62299999990501, -- [1]
+					"Tred'ova", -- [2]
+					322450, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Cocoon of Lakali", -- [5]
+				}, -- [1]
+				{
+					54.99699999997392, -- [1]
+					"Tred'ova", -- [2]
+					322450, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Cocoon of Lakali", -- [5]
+				}, -- [2]
+			},
+			[326281] = {
+				{
+					22.87699999986216, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					25.86699999985285, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					28.87999999988824, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					31.88100000005215, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					34.87800000002608, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					56.25, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					59.24399999994785, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					62.24699999997392, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					65.25600000005215, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					68.25600000005215, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+			[322563] = {
+				{
+					48.0089999998454, -- [1]
+					"Tred'ova", -- [2]
+					322563, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Amaranthé", -- [5]
+				}, -- [1]
+				{
+					83.20900000003166, -- [1]
+					"Tred'ova", -- [2]
+					322563, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+			},
+			[322550] = {
+				{
+					46.57499999995343, -- [1]
+					"Tred'ova", -- [2]
+					322550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					81.71200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[322709] = {
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					39.21200000005774, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					71.57400000002235, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					91.00499999988824, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					91.01899999985471, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+			},
+		}, -- [21]
+		{
+			[336759] = {
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [32]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [33]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [36]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [37]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [39]
+				{
+					143.1080000000075, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [40]
+			},
+			[321669] = {
+				{
+					29.99699999997392, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					29.99699999997392, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					29.99699999997392, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					29.99699999997392, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					33.06000000005588, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					33.06000000005588, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					33.06000000005588, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					33.06000000005588, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					36.25099999993108, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					36.26200000010431, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					36.27700000000186, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					36.69399999990128, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					39.89700000011362, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					39.89700000011362, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					39.89700000011362, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					40.34599999990314, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					43.0339999999851, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					43.0339999999851, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					43.0339999999851, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					43.99200000008568, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					46.28600000008009, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					46.28600000008009, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					46.28600000008009, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					80.99500000011176, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					80.99500000011176, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					80.99500000011176, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					80.99500000011176, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					84.07099999999627, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					84.07099999999627, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					84.07099999999627, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+				{
+					84.07099999999627, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					87.72200000006706, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [32]
+				{
+					87.72200000006706, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [33]
+				{
+					87.72200000006706, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					87.73399999993853, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					90.9089999999851, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [36]
+				{
+					90.9089999999851, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [37]
+				{
+					90.9210000000894, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					91.36599999992177, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [39]
+				{
+					93.92999999993481, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [40]
+				{
+					93.92999999993481, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [41]
+				{
+					94.57499999995343, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [42]
+				{
+					95.00099999993108, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [43]
+				{
+					97.14999999990687, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [44]
+				{
+					97.17299999995157, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [45]
+				{
+					125.9450000000652, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [46]
+				{
+					125.9450000000652, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [47]
+				{
+					125.9450000000652, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [48]
+				{
+					125.9450000000652, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [49]
+				{
+					128.9790000000503, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [50]
+				{
+					128.9790000000503, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [51]
+				{
+					129.0290000000969, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [52]
+				{
+					129.0290000000969, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [53]
+				{
+					131.9830000000075, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [54]
+				{
+					131.9830000000075, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [55]
+				{
+					132.3489999999292, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [56]
+				{
+					132.6780000000726, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [57]
+				{
+					135.1210000000428, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [58]
+				{
+					135.1210000000428, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [59]
+				{
+					135.4750000000931, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [60]
+				{
+					136.3260000001174, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [61]
+				{
+					138.1280000000261, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [62]
+				{
+					138.1280000000261, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [63]
+			},
+			[321834] = {
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+			[341709] = {
+				{
+					19.40700000012294, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					42.49399999994785, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					69.20999999996275, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					93.50099999993108, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					119.0100000000093, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[336499] = {
+				{
+					26.99699999997392, -- [1]
+					"Mistcaller", -- [2]
+					336499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					77.98600000003353, -- [1]
+					"Mistcaller", -- [2]
+					336499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					122.9469999999274, -- [1]
+					"Mistcaller", -- [2]
+					336499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[336813] = {
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					8.28000000002794, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					22.84899999992922, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					36.20800000010058, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					51.97200000006706, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					66.56300000008196, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					82.35899999993853, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					98.14899999997579, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					111.5060000000522, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [32]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [33]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					127.316000000108, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [36]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [37]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					143.0970000000671, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [39]
+				{
+					143.1080000000075, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [40]
+			},
+			[321891] = {
+				{
+					22.42400000011548, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+				{
+					45.49900000006892, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigcôcks-Illidan", -- [5]
+				}, -- [2]
+				{
+					72.2160000000149, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Amaranthé", -- [5]
+				}, -- [3]
+				{
+					96.51900000008754, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Amaranthé", -- [5]
+				}, -- [4]
+				{
+					122.0109999999404, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigcôcks-Illidan", -- [5]
+				}, -- [5]
+			},
+		}, -- [22]
+		{
+			[321772] = {
+				{
+					22.49699999997392, -- [1]
+					"Droman Oulfarran", -- [2]
+					321772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					80.81000000005588, -- [1]
+					"Droman Oulfarran", -- [2]
+					321772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[323138] = {
+				{
+					14.81199999991804, -- [1]
+					"Ingra Maloch", -- [2]
+					323138, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					60.11800000001676, -- [1]
+					"Ingra Maloch", -- [2]
+					323138, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					78.33499999996275, -- [1]
+					"Ingra Maloch", -- [2]
+					323138, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[322557] = {
+				{
+					101.3470000000671, -- [1]
+					"Drust Soulcleaver", -- [2]
+					322557, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [1]
+			},
+			[328756] = {
+				{
+					81.94999999995343, -- [1]
+					"Ingra Maloch", -- [2]
+					328756, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[321005] = {
+				{
+					39.52199999988079, -- [1]
+					"Ingra Maloch", -- [2]
+					321005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Droman Oulfarran", -- [5]
+				}, -- [1]
+				{
+					97.80899999989197, -- [1]
+					"Ingra Maloch", -- [2]
+					321005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Droman Oulfarran", -- [5]
+				}, -- [2]
+			},
+			[325163] = {
+				{
+					101.3470000000671, -- [1]
+					"Mistveil Defender", -- [2]
+					325163, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [1]
+				{
+					101.3470000000671, -- [1]
+					"Mistveil Defender", -- [2]
+					325163, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [2]
+			},
+			[323137] = {
+				{
+					10.20900000003167, -- [1]
+					"Droman Oulfarran", -- [2]
+					323137, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.93699999991804, -- [1]
+					"Droman Oulfarran", -- [2]
+					323137, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					73.38299999991432, -- [1]
+					"Droman Oulfarran", -- [2]
+					323137, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[323057] = {
+				{
+					7.300999999977648, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					10.90800000005402, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					18.22900000005029, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+				{
+					21.54000000003725, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					51.01900000008754, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					63.45200000004843, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+				{
+					66.8070000000298, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Amaranthé", -- [5]
+				}, -- [7]
+			},
+			[323177] = {
+				{
+					14.81199999991804, -- [1]
+					"Droman Oulfarran", -- [2]
+					323177, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					60.11800000001676, -- [1]
+					"Droman Oulfarran", -- [2]
+					323177, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					78.33499999996275, -- [1]
+					"Droman Oulfarran", -- [2]
+					323177, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[331718] = {
+				{
+					101.3470000000671, -- [1]
+					"Mistveil Defender", -- [2]
+					331718, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					101.3470000000671, -- [1]
+					"Mistveil Defender", -- [2]
+					331718, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [23]
+		{
+			[323683] = {
+				{
+					24.99600000004284, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323683, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					71.18100000009872, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323683, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					101.5490000001155, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323683, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[323608] = {
+				{
+					18.01399999996647, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					64.2039999999106, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					90.90800000005402, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					118.8249999999534, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[324079] = {
+				{
+					10.19100000010803, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					28.42500000004657, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					56.39999999990687, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					75.82700000004843, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					98.90100000007078, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					115.8919999999926, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+			},
+			[339706] = {
+				{
+					64.4890000000596, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					64.4890000000596, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					64.4890000000596, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					64.4890000000596, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					88.75799999991432, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					88.75799999991432, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					88.75799999991432, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					88.77000000001863, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					113.0360000000801, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					113.0360000000801, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					113.0360000000801, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					113.0360000000801, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+			},
+			[339573] = {
+				{
+					47.46500000008382, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					339573, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[324449] = {
+				{
+					25.19900000002235, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					71.39599999994971, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					124.8040000000037, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[339550] = {
+				{
+					53.76399999996647, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.76399999996647, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					53.76399999996647, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					54.15800000005402, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					54.15800000005402, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					54.15800000005402, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					78.04300000006333, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					78.04300000006333, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					78.45100000011735, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					78.45100000011735, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					78.45100000011735, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					78.45100000011735, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					102.3500000000931, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					102.3500000000931, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					102.3500000000931, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					102.7469999999739, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					102.7469999999739, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					102.7469999999739, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+			},
+			[323825] = {
+				{
+					29.50099999993108, -- [1]
+					"Grasping Rift", -- [2]
+					323825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					75.69100000010803, -- [1]
+					"Grasping Rift", -- [2]
+					323825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					106.0590000001248, -- [1]
+					"Grasping Rift", -- [2]
+					323825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [24]
+		{
+			[320050] = {
+				{
+					15.98600000003353, -- [1]
+					"Xav the Unfallen", -- [2]
+					320050, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					56.05000000004657, -- [1]
+					"Xav the Unfallen", -- [2]
+					320050, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					86.37900000018999, -- [1]
+					"Xav the Unfallen", -- [2]
+					320050, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[317231] = {
+				{
+					23.80000000004657, -- [1]
+					"Xav the Unfallen", -- [2]
+					317231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					59.88100000005215, -- [1]
+					"Xav the Unfallen", -- [2]
+					317231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					90.16000000014901, -- [1]
+					"Xav the Unfallen", -- [2]
+					317231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[331618] = {
+				{
+					9.88800000003539, -- [1]
+					"Xav the Unfallen", -- [2]
+					331618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					40.26900000008754, -- [1]
+					"Xav the Unfallen", -- [2]
+					331618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					75.47200000006706, -- [1]
+					"Xav the Unfallen", -- [2]
+					331618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[320644] = {
+				{
+					5.762000000104308, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					36.16700000013225, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					51.94000000017695, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					78.64500000001863, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[320114] = {
+				{
+					33.07300000009127, -- [1]
+					"Xav the Unfallen", -- [2]
+					320114, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[339415] = {
+				{
+					27.28900000010617, -- [1]
+					"Xav the Unfallen", -- [2]
+					339415, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					62.88600000017323, -- [1]
+					"Xav the Unfallen", -- [2]
+					339415, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320729] = {
+				{
+					20.31500000017695, -- [1]
+					"Xav the Unfallen", -- [2]
+					320729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					66.377000000095, -- [1]
+					"Xav the Unfallen", -- [2]
+					320729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					94.1610000000801, -- [1]
+					"Xav the Unfallen", -- [2]
+					320729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [25]
+		{
+			[323110] = {
+				{
+					15.20100000011735, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					16.79200000013225, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					21.23200000007637, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					22.81200000015087, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					27.32300000009127, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					38.24200000008568, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					39.83799999998882, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					44.29100000020117, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					45.87900000018999, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					54.375, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					58.82700000004843, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					60.11300000012852, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					64.90300000016578, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					66.17200000002049, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					71.05800000019372, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					72.22200000006706, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					79.51500000013039, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					80.76900000008754, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					85.63700000010431, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					86.89199999999255, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					91.75400000018999, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					92.92900000000373, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					102.6590000002179, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					103.8570000000764, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					108.7160000000149, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					109.8820000002161, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					114.7530000000261, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+			},
+			[323107] = {
+				{
+					14.11200000019744, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					15.73400000017136, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					20.18600000021979, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					21.7980000001844, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					26.27200000011362, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					37.19200000003912, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					38.8090000001248, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					43.25800000014715, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					44.87200000020675, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					51.18000000016764, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					53.3550000002142, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					57.82099999999628, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					59.02900000009686, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					63.89000000013039, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					65.1050000002142, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					69.97000000020489, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					71.18800000008196, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					78.49200000008568, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					79.7070000001695, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					84.5820000001695, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					85.78900000010617, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					90.65800000005402, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					91.86800000001676, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					101.568000000203, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					102.7880000001751, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					107.627000000095, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					108.8500000000931, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					113.7000000001863, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					114.9110000000801, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+			},
+			[331316] = {
+				{
+					121.2770000000019, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					121.2770000000019, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					121.2770000000019, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					121.2770000000019, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[342135] = {
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					121.2770000000019, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					121.2770000000019, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[318406] = {
+				{
+					17.12000000011176, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					36.55200000014156, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					55.96100000012666, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					81.502000000095, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					100.9320000000298, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					120.3420000001788, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[317605] = {
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[333861] = {
+				{
+					121.2770000000019, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [1]
+				{
+					121.2770000000019, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [2]
+				{
+					121.2770000000019, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [3]
+				{
+					121.2770000000019, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [4]
+			},
+			[331288] = {
+				{
+					121.2770000000019, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [1]
+				{
+					121.2770000000019, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [2]
+				{
+					121.2770000000019, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [3]
+			},
+			[323515] = {
+				{
+					10.76699999999255, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					25.33500000019558, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					41.127000000095, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					60.53700000001118, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					75.127000000095, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					89.72700000018813, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+				{
+					105.4890000000596, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [7]
+			},
+			[336996] = {
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					121.2770000000019, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[323542] = {
+				{
+					7.652000000001863, -- [1]
+					"Unknown", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					7.652000000001863, -- [1]
+					"Unknown", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					30.73300000000745, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					30.73300000000745, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					51.38500000000931, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					51.38500000000931, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					72.002000000095, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					72.03500000014901, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					95.13200000021607, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					95.13200000021607, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					115.7330000000075, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					115.7330000000075, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+			},
+		}, -- [26]
+		{
+			[317605] = {
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					107.589999999851, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[333839] = {
+				{
+					107.589999999851, -- [1]
+					"Rek the Hardened", -- [2]
+					333839, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[331316] = {
+				{
+					107.589999999851, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					107.589999999851, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[342135] = {
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					107.589999999851, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[331275] = {
+				{
+					107.589999999851, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [1]
+			},
+			[336996] = {
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[333845] = {
+				{
+					107.589999999851, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [1]
+			},
+			[333861] = {
+				{
+					107.589999999851, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [2]
+				{
+					107.589999999851, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [3]
+				{
+					107.589999999851, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [4]
+			},
+			[331288] = {
+				{
+					107.589999999851, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [2]
+				{
+					107.589999999851, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [3]
+			},
+			[333827] = {
+				{
+					107.589999999851, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.589999999851, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[319626] = {
+				{
+					2.057999999960885, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					28.77000000001863, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					54.24800000013784, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					82.85800000000745, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[319521] = {
+				{
+					14.20600000000559, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					34.84700000006706, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					55.47100000013597, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					76.15100000007078, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					96.80200000014156, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+		}, -- [27]
+		{
+			[333827] = {
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[333231] = {
+				{
+					21.99600000004284, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					34.03200000012294, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326892] = {
+				{
+					55.43599999998696, -- [1]
+					"Dessia the Decapitator", -- [2]
+					326892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [1]
+			},
+			[332868] = {
+				{
+					93.02399999997579, -- [1]
+					"Trap Door Rift", -- [2]
+					332868, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[333845] = {
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [2]
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [3]
+			},
+			[320120] = {
+				{
+					2.064999999944121, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					4.625999999931082, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					9.496999999973923, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					26.48300000000745, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+				{
+					28.92699999990873, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [5]
+				{
+					31.34600000013597, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [6]
+				{
+					34.99200000008568, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [7]
+				{
+					38.63899999996647, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [8]
+				{
+					44.66700000013225, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [9]
+				{
+					47.11300000012852, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [10]
+				{
+					50.76900000008754, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [11]
+				{
+					53.17800000007264, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [12]
+				{
+					56.84899999992922, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [13]
+				{
+					72.63400000007823, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [14]
+				{
+					77.50099999993108, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [15]
+				{
+					79.93699999991804, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [16]
+				{
+					83.55600000009872, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [17]
+			},
+			[333861] = {
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [2]
+				{
+					93.02399999997579, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [3]
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [4]
+				{
+					93.02399999997579, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [5]
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [6]
+			},
+			[333839] = {
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					333839, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					333839, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320300] = {
+				{
+					7.069000000134111, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					16.76799999992363, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					19.50300000002608, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [3]
+				{
+					27.69999999995343, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [4]
+				{
+					31.34600000013597, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [5]
+				{
+					36.19999999995343, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [6]
+				{
+					38.8859999999404, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tagrash-Lethon", -- [5]
+				}, -- [7]
+			},
+			[320277] = {
+				{
+					0.2020000000484288, -- [1]
+					"Sathel the Accursed", -- [2]
+					320277, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[331288] = {
+				{
+					93.02399999997579, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [2]
+			},
+			[320293] = {
+				{
+					24.03600000008009, -- [1]
+					"Sathel the Accursed", -- [2]
+					320293, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[331275] = {
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [2]
+			},
+			[324085] = {
+				{
+					53.60899999993853, -- [1]
+					"Dessia the Decapitator", -- [2]
+					324085, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320069] = {
+				{
+					21.40299999993295, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					45.6820000000298, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					67.55400000000373, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+			},
+			[331316] = {
+				{
+					93.02399999997579, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					93.02399999997579, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[317605] = {
+				{
+					93.02399999997579, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					93.02399999997579, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					93.02399999997579, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[320248] = {
+				{
+					73.03700000001118, -- [1]
+					"Paceran the Virulent", -- [2]
+					320248, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[336996] = {
+				{
+					93.02399999997579, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[342135] = {
+				{
+					93.02399999997579, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					93.02399999997579, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					93.02399999997579, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					93.02399999997579, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[320272] = {
+				{
+					13.53900000010617, -- [1]
+					"Sathel the Accursed", -- [2]
+					320272, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dessia the Decapitator", -- [5]
+				}, -- [1]
+			},
+			[320063] = {
+				{
+					13.31700000003912, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					26.68500000005588, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					40.02799999993295, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					53.4000000001397, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					71.62400000006892, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+			},
+		}, -- [28]
+		{
+			[320063] = {
+				{
+					12.50500000012107, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					25.90300000016578, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					39.27800000016578, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					52.60200000018813, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					85.87400000006892, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					99.98200000007637, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+			},
+			[333231] = {
+				{
+					13.51699999999255, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					25.6820000000298, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					39.3410000000149, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					65.98800000012852, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[326892] = {
+				{
+					58.27100000018254, -- [1]
+					"Dessia the Decapitator", -- [2]
+					326892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [1]
+				{
+					69.81500000017695, -- [1]
+					"Dessia the Decapitator", -- [2]
+					326892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [2]
+				{
+					81.97500000009313, -- [1]
+					"Dessia the Decapitator", -- [2]
+					326892, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [3]
+			},
+			[332868] = {
+				{
+					111.627000000095, -- [1]
+					"Trap Door Rift", -- [2]
+					332868, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[333845] = {
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					333845, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Advent Nevermore", -- [5]
+				}, -- [3]
+			},
+			[320120] = {
+				{
+					2.610000000102446, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					5.029000000096858, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					7.465000000083819, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					9.889000000199303, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [4]
+				{
+					12.32600000011735, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					14.752000000095, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [6]
+				{
+					18.39600000018254, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [7]
+				{
+					20.83600000012666, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [8]
+				{
+					23.26800000015646, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [9]
+				{
+					25.69599999999628, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [10]
+				{
+					28.14000000013039, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [11]
+				{
+					30.58000000007451, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [12]
+				{
+					34.21200000005774, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [13]
+				{
+					45.15100000007078, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [14]
+				{
+					47.57000000006519, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [15]
+				{
+					51.18300000019372, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [16]
+				{
+					53.61700000008568, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [17]
+				{
+					56.04000000003725, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [18]
+				{
+					58.4660000000149, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [19]
+				{
+					62.10300000011921, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [20]
+				{
+					64.53500000014901, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [21]
+				{
+					68.18500000005588, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [22]
+				{
+					70.60100000002421, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [23]
+				{
+					73.03100000019185, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [24]
+				{
+					77.90200000000186, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Plutoniø-Quel'Thalas", -- [5]
+				}, -- [25]
+				{
+					81.55200000014156, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [26]
+				{
+					93.69900000002235, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Plutoniø-Quel'Thalas", -- [5]
+				}, -- [27]
+				{
+					100.9990000000689, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [28]
+			},
+			[333861] = {
+				{
+					111.627000000095, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [3]
+				{
+					111.627000000095, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [4]
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [5]
+				{
+					111.627000000095, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [6]
+			},
+			[333839] = {
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					333839, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					333839, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320300] = {
+				{
+					15.97600000002421, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Plutoniø-Quel'Thalas", -- [5]
+				}, -- [1]
+				{
+					29.35100000002421, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					32.0570000000298, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					34.48300000000745, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [4]
+				{
+					36.9000000001397, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					41.50900000007823, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+				{
+					45.15100000007078, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [7]
+				{
+					47.93500000005588, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [8]
+				{
+					50.40100000007078, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [9]
+				{
+					60.89600000018254, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [10]
+				{
+					63.67900000000373, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Antx-Jaedenar", -- [5]
+				}, -- [11]
+			},
+			[333827] = {
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					333827, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[320293] = {
+				{
+					20.81600000010803, -- [1]
+					"Sathel the Accursed", -- [2]
+					320293, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[331275] = {
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [3]
+			},
+			[324085] = {
+				{
+					56.44700000016019, -- [1]
+					"Dessia the Decapitator", -- [2]
+					324085, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320069] = {
+				{
+					21.84600000013597, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					46.13600000017323, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [2]
+				{
+					91.07400000002235, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+			},
+			[342135] = {
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					111.627000000095, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[317605] = {
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					111.627000000095, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[320248] = {
+				{
+					58.87800000002608, -- [1]
+					"Paceran the Virulent", -- [2]
+					320248, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[336996] = {
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[331288] = {
+				{
+					111.627000000095, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [3]
+			},
+			[320272] = {
+				{
+					10.29399999999441, -- [1]
+					"Sathel the Accursed", -- [2]
+					320272, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Paceran the Virulent", -- [5]
+				}, -- [1]
+				{
+					57.6730000001844, -- [1]
+					"Sathel the Accursed", -- [2]
+					320272, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dessia the Decapitator", -- [5]
+				}, -- [2]
+			},
+			[331316] = {
+				{
+					111.627000000095, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					111.627000000095, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					111.627000000095, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [29]
+		{
+			[342863] = {
+				{
+					31.19800000000396, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					80.06099999998696, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					176.75, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					225.7789999999804, -- [1]
+					"Shriekwing", -- [2]
+					342863, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[343005] = {
+				{
+					22.44599999999628, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					68.61799999998766, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					168.2319999999891, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					213.1259999999893, -- [1]
+					"Shriekwing", -- [2]
+					343005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[345397] = {
+				{
+					12.26199999998789, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					37.74299999998766, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					65.4780000000028, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					91.21399999997811, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					158.002999999997, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					183.5019999999786, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					214.9819999999891, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					240.5799999999872, -- [1]
+					"Shriekwing", -- [2]
+					345397, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[329362] = {
+				{
+					113.1199999999953, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					259.9569999999949, -- [1]
+					"Shriekwing", -- [2]
+					329362, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328857] = {
+				{
+					9.307000000000698, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [1]
+				{
+					27.52799999999115, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					45.74799999999232, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [3]
+				{
+					63.9769999999844, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					87.06299999999464, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [5]
+				{
+					155.0619999999763, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [6]
+				{
+					173.2789999999804, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [7]
+				{
+					191.4839999999967, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [8]
+				{
+					209.6869999999763, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [9]
+				{
+					232.7679999999818, -- [1]
+					"Shriekwing", -- [2]
+					328857, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eskandar-Blackrock", -- [5]
+				}, -- [10]
+			},
+			[330711] = {
+				{
+					53.90699999997742, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					101.2819999999774, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					199.4369999999763, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					247.1879999999946, -- [1]
+					"Shriekwing", -- [2]
+					330711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[343995] = {
+				{
+					106.2299999999814, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					253.0939999999828, -- [1]
+					"Shriekwing", -- [2]
+					343995, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[345936] = {
+				{
+					127.2269999999844, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					135.7209999999905, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					144.2029999999795, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					276.5019999999786, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					285.0309999999881, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					294.7479999999923, -- [1]
+					"Shriekwing", -- [2]
+					345936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+		}, -- [30]
+		{
+			[320771] = {
+				{
+					3.564999999987776, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					6.006999999997788, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					10.86599999999453, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					14.51499999999942, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					16.95799999999872, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [5]
+				{
+					27.86999999999534, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [6]
+				{
+					30.29699999999139, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [7]
+				{
+					35.17699999999604, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [8]
+				{
+					38.82399999999325, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [9]
+				{
+					41.26900000000023, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [10]
+				{
+					50.97899999999208, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [11]
+				{
+					53.40399999999499, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [12]
+				{
+					55.83799999998882, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [13]
+				{
+					60.68899999999849, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [14]
+				{
+					65.53800000000047, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [15]
+				{
+					74.06099999998696, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [16]
+				{
+					77.69999999999709, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [17]
+				{
+					80.12799999999697, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [18]
+				{
+					84.98899999998685, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [19]
+				{
+					87.42399999999907, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [20]
+				{
+					89.8469999999943, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [21]
+				{
+					100.7659999999887, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [22]
+				{
+					103.1979999999894, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [23]
+				{
+					105.6259999999893, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [24]
+				{
+					110.4799999999959, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [25]
+				{
+					112.8969999999972, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [26]
+				{
+					115.3220000000001, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [27]
+				{
+					123.8410000000004, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [28]
+				{
+					126.2669999999926, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [29]
+				{
+					128.7009999999864, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [30]
+				{
+					131.1389999999956, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320771, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [31]
+			},
+			[321754] = {
+				{
+					11.77799999999115, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					36.10299999998824, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					61.60699999998906, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					85.91199999999662, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					111.3889999999956, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321754, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[320772] = {
+				{
+					19.875, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					44.17799999999988, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					68.47799999998824, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					92.78399999999965, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					118.2739999999903, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[320788] = {
+				{
+					8.931999999986147, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [1]
+				{
+					33.24099999999453, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [2]
+				{
+					58.78499999998894, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [3]
+				{
+					83.05399999998917, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [4]
+				{
+					108.5589999999938, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [5]
+				{
+					134.0889999999927, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					320788, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [6]
+			},
+			[322274] = {
+				{
+					50.97899999999208, -- [1]
+					"Zolramus Siphoner", -- [2]
+					322274, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+				{
+					96.7219999999943, -- [1]
+					"Zolramus Siphoner", -- [2]
+					322274, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [2]
+				{
+					125.0499999999884, -- [1]
+					"Zolramus Siphoner", -- [2]
+					322274, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [3]
+			},
+			[321894] = {
+				{
+					25.93599999998696, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [1]
+				{
+					63.61499999999069, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [2]
+				{
+					98.8469999999943, -- [1]
+					"Nalthor the Rimebinder", -- [2]
+					321894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [3]
+			},
+		}, -- [31]
+		{
+			[320200] = {
+				{
+					5.055999999996857, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [1]
+				{
+					8.68399999999383, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					15.97699999999895, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [3]
+				{
+					55.70299999999406, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					59.76199999998789, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [5]
+				{
+					67.04499999999825, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [6]
+				{
+					70.69899999999325, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [7]
+				{
+					74.34100000000035, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320200, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [8]
+			},
+			[320208] = {
+				{
+					17.55499999999302, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320208, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					73.48999999999069, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320208, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[343556] = {
+				{
+					35.66899999999441, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					343556, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [1]
+			},
+			[327664] = {
+				{
+					11.82799999999406, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					327664, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					62.94399999998859, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					327664, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320358] = {
+				{
+					52.69199999999546, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[322681] = {
+				{
+					10.55599999999686, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					322681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [1]
+				{
+					28.81699999999546, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					322681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [2]
+				{
+					66.48500000000058, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					322681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+			},
+			[334476] = {
+				{
+					29.82499999999709, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334476, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					44.68299999998999, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334476, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326574] = {
+				{
+					1.507999999987078, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					326574, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320359] = {
+				{
+					49.48199999998906, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					320359, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[334488] = {
+				{
+					26.15099999999802, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					46.82099999999628, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					334488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+			},
+			[320376] = {
+				{
+					8.413000000000466, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					23.00400000000082, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					63.13099999999395, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					78.903999999995, -- [1]
+					"Stitchflesh's Creation", -- [2]
+					320376, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+			},
+			[326629] = {
+				{
+					2.034999999988941, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					326629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					49.48199999998906, -- [1]
+					"Surgeon Stitchflesh", -- [2]
+					326629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [32]
+		{
+			[320170] = {
+				{
+					7.967999999993481, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [1]
+				{
+					20.11800000000221, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					22.53399999999965, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					24.97899999999208, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					54.1359999999986, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [5]
+				{
+					61.45699999999488, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [6]
+				{
+					63.88300000000163, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [7]
+				{
+					66.33400000000256, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [8]
+				{
+					68.74599999999919, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [9]
+				{
+					71.19499999999243, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [10]
+				{
+					73.62900000000081, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [11]
+				{
+					82.79499999999825, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [12]
+				{
+					96.66999999999825, -- [1]
+					"Amarth", -- [2]
+					320170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [13]
+			},
+			[333629] = {
+				{
+					17.19099999999162, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					19.6079999999929, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [2]
+				{
+					22.04999999998836, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					23.89800000000105, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [4]
+				{
+					63.38199999999779, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [5]
+				{
+					65.81699999999546, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [6]
+				{
+					68.25599999999395, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [7]
+				{
+					70.70500000000175, -- [1]
+					"Reanimated Crossbowman", -- [2]
+					333629, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Platedbanana-Barthilas", -- [5]
+				}, -- [8]
+			},
+			[321247] = {
+				{
+					45.22099999999045, -- [1]
+					"Amarth", -- [2]
+					321247, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					92.60599999999977, -- [1]
+					"Amarth", -- [2]
+					321247, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320171] = {
+				{
+					7.967999999993481, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					20.11800000000221, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					22.53399999999965, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					24.97899999999208, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					54.1359999999986, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [5]
+				{
+					61.45699999999488, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [6]
+				{
+					63.88300000000163, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [7]
+				{
+					66.33400000000256, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [8]
+				{
+					82.79499999999825, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [9]
+				{
+					96.66999999999825, -- [1]
+					"Amarth", -- [2]
+					320171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [10]
+			},
+			[333488] = {
+				{
+					31.08999999999651, -- [1]
+					"Amarth", -- [2]
+					333488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					76.0619999999908, -- [1]
+					"Amarth", -- [2]
+					333488, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[321226] = {
+				{
+					8.406999999991967, -- [1]
+					"Amarth", -- [2]
+					321226, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					54.57399999999325, -- [1]
+					"Amarth", -- [2]
+					321226, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[321253] = {
+				{
+					45.22099999999045, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					45.22099999999045, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					45.22099999999045, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					45.22099999999045, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					92.60599999999977, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					92.60599999999977, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					92.60599999999977, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					92.60599999999977, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					92.60599999999977, -- [1]
+					"Final Harvest", -- [2]
+					321253, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+			},
+			[328667] = {
+				{
+					20.39499999998952, -- [1]
+					"Reanimated Mage", -- [2]
+					328667, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					67.81500000000233, -- [1]
+					"Reanimated Mage", -- [2]
+					328667, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320012] = {
+				{
+					5.976999999998952, -- [1]
+					"Amarth", -- [2]
+					320012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					52.13300000000163, -- [1]
+					"Amarth", -- [2]
+					320012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [33]
+		{
+			[320596] = {
+				{
+					11.25199999999313, -- [1]
+					"Blightbone", -- [2]
+					320596, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [1]
+				{
+					44.06100000000151, -- [1]
+					"Blightbone", -- [2]
+					320596, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					76.88199999999779, -- [1]
+					"Blightbone", -- [2]
+					320596, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [3]
+			},
+			[320614] = {
+				{
+					15.82499999999709, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [1]
+				{
+					15.82499999999709, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					49.15799999999581, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [3]
+				{
+					51.08499999999185, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					51.57799999999406, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [5]
+				{
+					51.67799999999988, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [6]
+				{
+					53.5969999999943, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [7]
+				{
+					54.08199999999488, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [8]
+				{
+					54.18899999999849, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [9]
+				{
+					56.11999999999534, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [10]
+				{
+					56.59900000000198, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [11]
+				{
+					59.10499999999593, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Totaldark", -- [5]
+				}, -- [12]
+				{
+					81.47599999999511, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [13]
+				{
+					81.47599999999511, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [14]
+				{
+					83.99700000000303, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [15]
+				{
+					86.51299999999173, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [16]
+				{
+					89.02399999999034, -- [1]
+					"Carrion Worm", -- [2]
+					320614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [17]
+			},
+			[320637] = {
+				{
+					24.60300000000279, -- [1]
+					"Blightbone", -- [2]
+					320637, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					55.00299999999697, -- [1]
+					"Blightbone", -- [2]
+					320637, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					84.19499999999243, -- [1]
+					"Blightbone", -- [2]
+					320637, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[321575] = {
+				{
+					99.36000000000058, -- [1]
+					"Zolramus Necromancer", -- [2]
+					321575, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					99.36000000000058, -- [1]
+					"Zolramus Necromancer", -- [2]
+					321575, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					99.36000000000058, -- [1]
+					"Zolramus Necromancer", -- [2]
+					321575, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[338022] = {
+				{
+					0.1, -- [1]
+					"Patchwerk Soldier", -- [2]
+					338022, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					0.1, -- [1]
+					"Patchwerk Soldier", -- [2]
+					338022, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					12.38700000000245, -- [1]
+					"Patchwerk Soldier", -- [2]
+					338022, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					14.81500000000233, -- [1]
+					"Patchwerk Soldier", -- [2]
+					338022, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					22.10599999999977, -- [1]
+					"Patchwerk Soldier", -- [2]
+					338022, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [5]
+			},
+			[328146] = {
+				{
+					20.20900000000256, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					20.40499999999884, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					23.20799999999872, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					58.66599999999744, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					59.61599999999453, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					65.94099999999162, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					89.23500000000058, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					94.44499999999243, -- [1]
+					"Carrion Worm", -- [2]
+					328146, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[320655] = {
+				{
+					5.361999999993714, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [1]
+				{
+					19.95599999999104, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [2]
+				{
+					33.33299999999872, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [3]
+				{
+					50.36299999999756, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [4]
+				{
+					63.76699999999255, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [5]
+				{
+					89.28299999999581, -- [1]
+					"Blightbone", -- [2]
+					320655, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Fellsbadman", -- [5]
+				}, -- [6]
+			},
+		}, -- [34]
+		{
+			[323683] = {
+				{
+					24.01300000003539, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323683, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					60.43900000001304, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323683, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[323608] = {
+				{
+					17.05200000002515, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.87200000009034, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					323608, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[324079] = {
+				{
+					9.271000000066124, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [1]
+				{
+					27.42900000000373, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					45.64500000001863, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324079, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+			},
+			[323825] = {
+				{
+					28.53800000005867, -- [1]
+					"Grasping Rift", -- [2]
+					323825, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[339573] = {
+				{
+					36.70900000003167, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					339573, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[324449] = {
+				{
+					24.2170000000624, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					60.64699999999721, -- [1]
+					"Mordretha, the Endless Empress", -- [2]
+					324449, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[339550] = {
+				{
+					43.0010000000475, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					43.0010000000475, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					43.41300000005867, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					43.41300000005867, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					43.82300000009127, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					43.82300000009127, -- [1]
+					"Echo of Battle", -- [2]
+					339550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[339706] = {
+				{
+					53.73600000003353, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.73600000003353, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					53.73600000003353, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					53.73600000003353, -- [1]
+					"Echo Bullrider", -- [2]
+					339706, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [35]
+		{
+			[320050] = {
+				{
+					15.82499999995343, -- [1]
+					"Xav the Unfallen", -- [2]
+					320050, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					55.89099999994505, -- [1]
+					"Xav the Unfallen", -- [2]
+					320050, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[317231] = {
+				{
+					27.12899999995716, -- [1]
+					"Xav the Unfallen", -- [2]
+					317231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					67.2139999999199, -- [1]
+					"Xav the Unfallen", -- [2]
+					317231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[331618] = {
+				{
+					9.728000000002794, -- [1]
+					"Xav the Unfallen", -- [2]
+					331618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					40.1239999999525, -- [1]
+					"Xav the Unfallen", -- [2]
+					331618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					75.32600000000093, -- [1]
+					"Xav the Unfallen", -- [2]
+					331618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[320644] = {
+				{
+					5.646999999997206, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					36.02099999994971, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					51.7829999999376, -- [1]
+					"Xav the Unfallen", -- [2]
+					320644, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[320114] = {
+				{
+					32.91399999998976, -- [1]
+					"Xav the Unfallen", -- [2]
+					320114, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[339415] = {
+				{
+					23.13000000000466, -- [1]
+					"Xav the Unfallen", -- [2]
+					339415, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					63.20299999997951, -- [1]
+					"Xav the Unfallen", -- [2]
+					339415, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[320729] = {
+				{
+					20.13099999993574, -- [1]
+					"Xav the Unfallen", -- [2]
+					320729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					60.20699999993667, -- [1]
+					"Xav the Unfallen", -- [2]
+					320729, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [36]
+		{
+			[323110] = {
+				{
+					14.60299999988638, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					15.77199999999721, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					20.73399999993853, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					22.29899999999907, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					38.08699999994133, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					40.08199999993667, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					44.11399999994319, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					46.22299999999814, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					55.93899999989662, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					58.79899999999907, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					60.37899999995716, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					65.22499999997672, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					66.49099999992177, -- [1]
+					"Oozing Leftovers", -- [2]
+					323110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+			},
+			[333839] = {
+				{
+					69.42300000006799, -- [1]
+					"Rek the Hardened", -- [2]
+					333839, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[323107] = {
+				{
+					13.5339999999851, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					14.76499999989756, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					19.62899999995716, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					21.25499999988824, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					37.01699999999255, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					39.05799999996088, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					43.11499999999069, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					45.12999999988824, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					49.16699999989942, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					54.84499999997206, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					57.6929999999702, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					59.29799999995157, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					64.18899999989662, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					65.3969999999972, -- [1]
+					"Oozing Leftovers", -- [2]
+					323107, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+			},
+			[331316] = {
+				{
+					69.42300000006799, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					69.42300000006799, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					69.42300000006799, -- [1]
+					"Dokigg the Brutalizer", -- [2]
+					331316, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[342135] = {
+				{
+					69.42300000006799, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					69.42300000006799, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					69.42300000006799, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					69.42300000006799, -- [1]
+					"Heavin the Breaker", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[323542] = {
+				{
+					7.061999999918044, -- [1]
+					"Unknown", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					7.061999999918044, -- [1]
+					"Unknown", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					30.18299999996088, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					30.18299999996088, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					50.82399999990594, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					50.82399999990594, -- [1]
+					"Oozing Leftovers", -- [2]
+					323542, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[318406] = {
+				{
+					16.54699999990407, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					35.96299999998882, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					55.41999999992549, -- [1]
+					"Gorechop", -- [2]
+					318406, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[333861] = {
+				{
+					69.42300000006799, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [1]
+				{
+					69.42300000006799, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [2]
+				{
+					69.42300000006799, -- [1]
+					"Advent Nevermore", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [3]
+			},
+			[317605] = {
+				{
+					69.42300000006799, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					69.42300000006799, -- [1]
+					"Nekthara the Mangler", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					69.42300000006799, -- [1]
+					"Rek the Hardened", -- [2]
+					317605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[331288] = {
+				{
+					69.42300000006799, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [1]
+				{
+					69.42300000006799, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [2]
+			},
+			[323515] = {
+				{
+					10.18299999996088, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [1]
+				{
+					24.76899999997113, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					40.5669999999227, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+				{
+					59.99699999997392, -- [1]
+					"Gorechop", -- [2]
+					323515, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [4]
+			},
+			[336996] = {
+				{
+					69.42300000006799, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					69.42300000006799, -- [1]
+					"Nekthara the Mangler", -- [2]
+					336996, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[331275] = {
+				{
+					69.42300000006799, -- [1]
+					"Advent Nevermore", -- [2]
+					331275, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rek the Hardened", -- [5]
+				}, -- [1]
+			},
+		}, -- [37]
+		{
+			[342135] = {
+				{
+					61.6600000000326, -- [1]
+					"Nekthara the Mangler", -- [2]
+					342135, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[319626] = {
+				{
+					2.766999999992549, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					29.49400000006426, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					54.99300000001676, -- [1]
+					"Kul'tharok", -- [2]
+					319626, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[319521] = {
+				{
+					14.91700000001583, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					35.56200000003446, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					56.22500000009313, -- [1]
+					"Kul'tharok", -- [2]
+					319521, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[333861] = {
+				{
+					61.6600000000326, -- [1]
+					"Harugia the Bloodthirsty", -- [2]
+					333861, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Heavin the Breaker", -- [5]
+				}, -- [1]
+			},
+			[331288] = {
+				{
+					61.6600000000326, -- [1]
+					"Heavin the Breaker", -- [2]
+					331288, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Harugia the Bloodthirsty", -- [5]
+				}, -- [1]
+			},
+		}, -- [38]
+		{
+			[324085] = {
+				{
+					38.01699999999255, -- [1]
+					"Dessia the Decapitator", -- [2]
+					324085, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320069] = {
+				{
+					21.5920000000624, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [1]
+				{
+					44.68299999996088, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					66.55000000004657, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320069, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+			},
+			[320272] = {
+				{
+					10.08900000003632, -- [1]
+					"Sathel the Accursed", -- [2]
+					320272, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Paceran the Virulent", -- [5]
+				}, -- [1]
+				{
+					24.65399999998044, -- [1]
+					"Sathel the Accursed", -- [2]
+					320272, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dessia the Decapitator", -- [5]
+				}, -- [2]
+			},
+			[320063] = {
+				{
+					12.29500000004191, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [1]
+				{
+					25.65399999998044, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					39.40099999995437, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+				{
+					53.59799999999814, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [4]
+				{
+					70.58299999998417, -- [1]
+					"Dessia the Decapitator", -- [2]
+					320063, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [5]
+			},
+			[320300] = {
+				{
+					2.366000000038184, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [1]
+				{
+					5.14000000001397, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					7.505000000004657, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [3]
+				{
+					13.3070000000298, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [4]
+				{
+					21.80500000005122, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [5]
+				{
+					27.88500000000931, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [6]
+				{
+					42.46400000003632, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sendmoons", -- [5]
+				}, -- [7]
+				{
+					45.24800000002142, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [8]
+				{
+					47.64199999999255, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [9]
+				{
+					50.11600000003818, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [10]
+				{
+					54.60699999995995, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [11]
+				{
+					58.26699999999255, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [12]
+				{
+					60.98400000005495, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [13]
+				{
+					63.78099999995902, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [14]
+				{
+					69.17900000000373, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [15]
+				{
+					71.95999999996275, -- [1]
+					"Sathel the Accursed", -- [2]
+					320300, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sendmoons", -- [5]
+				}, -- [16]
+			},
+			[320293] = {
+				{
+					35.16700000001583, -- [1]
+					"Sathel the Accursed", -- [2]
+					320293, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[320120] = {
+				{
+					20.60600000002887, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [1]
+				{
+					23.0339999999851, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					31.53099999995902, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+				{
+					33.95000000006985, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+				{
+					42.46400000003632, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [5]
+				{
+					44.89300000004005, -- [1]
+					"Paceran the Virulent", -- [2]
+					320120, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [6]
+			},
+			[333231] = {
+				{
+					9.934000000008382, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					24.55200000002515, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					38.81200000003446, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					52.44799999997485, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					66.99499999999534, -- [1]
+					"Sathel the Accursed", -- [2]
+					333231, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[320248] = {
+				{
+					29.50800000003073, -- [1]
+					"Paceran the Virulent", -- [2]
+					320248, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [39]
+		{
+			[322304] = {
+				{
+					8.161000000080094, -- [1]
+					"Margrave Stradama", -- [2]
+					322304, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					49.41300000005867, -- [1]
+					"Margrave Stradama", -- [2]
+					322304, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328533] = {
+				{
+					107.1850000000559, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[328365] = {
+				{
+					107.1850000000559, -- [1]
+					"Venomous Sniper", -- [2]
+					328365, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Defender of Many Eyes", -- [5]
+				}, -- [1]
+			},
+			[327233] = {
+				{
+					107.1850000000559, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.1850000000559, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					107.1850000000559, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[336451] = {
+				{
+					107.1850000000559, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.1850000000559, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					107.1850000000559, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[322475] = {
+				{
+					22.63400000007823, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					23.6480000000447, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					24.14300000004005, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					24.67100000008941, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					25.1589999999851, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					25.64300000004005, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					26.15000000002328, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					26.64199999999255, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					27.1600000000326, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					27.65399999998044, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					37.15600000007544, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					37.65000000002328, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					38.14400000008754, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					38.64400000008754, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					39.1490000000922, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					39.65700000000652, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					40.15700000000652, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					40.65100000007078, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					41.15500000002794, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					41.64699999999721, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					61.50699999998324, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					61.51600000006147, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					61.51600000006147, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					61.5240000000922, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					61.5240000000922, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					61.5240000000922, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					61.5240000000922, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					72.4330000000773, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					72.4330000000773, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					72.4330000000773, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [32]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [33]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [36]
+				{
+					76.95100000000093, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [37]
+				{
+					86.4440000000177, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					86.4440000000177, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [39]
+				{
+					86.4440000000177, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [40]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [41]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [42]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [43]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [44]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [45]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [46]
+				{
+					90.44200000003912, -- [1]
+					"Plague Crash", -- [2]
+					322475, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [47]
+			},
+			[322232] = {
+				{
+					60.14600000006612, -- [1]
+					"Margrave Stradama", -- [2]
+					322232, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					97.83299999998417, -- [1]
+					"Margrave Stradama", -- [2]
+					322232, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[322236] = {
+				{
+					58.51100000005681, -- [1]
+					"Malignant Spawn", -- [2]
+					322236, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[328343] = {
+				{
+					107.1850000000559, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					107.1850000000559, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					107.1850000000559, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+		}, -- [40]
+		{
+			[332313] = {
+				{
+					17.67000000004191, -- [1]
+					"Domina Venomblade", -- [2]
+					332313, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					54.13100000005215, -- [1]
+					"Domina Venomblade", -- [2]
+					332313, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[325552] = {
+				{
+					4.53000000002794, -- [1]
+					"Domina Venomblade", -- [2]
+					325552, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [1]
+				{
+					27.64399999997113, -- [1]
+					"Domina Venomblade", -- [2]
+					325552, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					49.47100000001956, -- [1]
+					"Domina Venomblade", -- [2]
+					325552, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+				{
+					70.1469999999972, -- [1]
+					"Domina Venomblade", -- [2]
+					325552, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [4]
+			},
+			[325245] = {
+				{
+					9.591000000014901, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					32.69500000006519, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					54.56000000005588, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					75.19099999999162, -- [1]
+					"Domina Venomblade", -- [2]
+					325245, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[332314] = {
+				{
+					17.67000000004191, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					17.74400000006426, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					17.74400000006426, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					17.74400000006426, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					54.13100000005215, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					54.13100000005215, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					54.13100000005215, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					54.13100000005215, -- [1]
+					"Assassin Stalker", -- [2]
+					332314, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+			[327233] = {
+				{
+					6.952000000048429, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					19.07299999997485, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					31.26300000003539, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					43.39300000004005, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					70.11800000001676, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					79.03300000005402, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[325395] = {
+				{
+					22.03300000005402, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.03300000005402, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					58.5, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					58.5, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					58.5, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					60.54200000001583, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					60.92099999997299, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					60.92099999997299, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					62.97299999999814, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					62.97299999999814, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					65.78700000001118, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					68.23999999999069, -- [1]
+					"Shadowclone Stalker", -- [2]
+					325395, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+			},
+			[336451] = {
+				{
+					15.46400000003632, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					28.44599999999628, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					42.21299999998882, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					52.72200000006706, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					71.35600000002887, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					74.5910000000149, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					79.03300000005402, -- [1]
+					"Defender of Many Eyes", -- [2]
+					336451, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+			},
+			[340357] = {
+				{
+					79.03300000005402, -- [1]
+					"Pestilence Slime", -- [2]
+					340357, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[346989] = {
+				{
+					79.03300000005402, -- [1]
+					"Pestilence Slime", -- [2]
+					346989, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[328343] = {
+				{
+					79.03300000005402, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					79.03300000005402, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					79.03300000005402, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					79.03300000005402, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					79.03300000005402, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[328533] = {
+				{
+					79.03300000005402, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					79.03300000005402, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					79.03300000005402, -- [1]
+					"Defender of Many Eyes", -- [2]
+					328533, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[328651] = {
+				{
+					79.03300000005402, -- [1]
+					"Venomous Sniper", -- [2]
+					328651, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					79.03300000005402, -- [1]
+					"Venomous Sniper", -- [2]
+					328651, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328365] = {
+				{
+					79.03300000005402, -- [1]
+					"Venomous Sniper", -- [2]
+					328365, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Defender of Many Eyes", -- [5]
+				}, -- [1]
+			},
+		}, -- [41]
+		{
+			[328180] = {
+				{
+					15.66599999996834, -- [1]
+					"Plaguebinder", -- [2]
+					328180, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [1]
+			},
+			[328094] = {
+				{
+					2.285999999963678, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sendmoons", -- [5]
+				}, -- [1]
+				{
+					4.729999999981374, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sendmoons", -- [5]
+				}, -- [2]
+				{
+					6.510999999940395, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+				{
+					8.383000000030734, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [4]
+				{
+					10.80999999993946, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [5]
+				{
+					13.23300000000745, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [6]
+				{
+					18.95199999993201, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [7]
+				{
+					21.75699999998324, -- [1]
+					"Plaguebinder", -- [2]
+					328094, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [8]
+			},
+			[328338] = {
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					328338, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					328338, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					328338, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[332617] = {
+				{
+					53.27199999999721, -- [1]
+					"Doctor Ickus", -- [2]
+					332617, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					95.70600000000559, -- [1]
+					"Doctor Ickus", -- [2]
+					332617, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[322410] = {
+				{
+					107.7430000000168, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					128.4349999999395, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					131.2909999999683, -- [1]
+					"Congealed Slime", -- [2]
+					322410, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[329110] = {
+				{
+					10.70900000003167, -- [1]
+					"Doctor Ickus", -- [2]
+					329110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [1]
+				{
+					30.1600000000326, -- [1]
+					"Doctor Ickus", -- [2]
+					329110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					64.17999999993481, -- [1]
+					"Doctor Ickus", -- [2]
+					329110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [3]
+				{
+					100.5890000000363, -- [1]
+					"Doctor Ickus", -- [2]
+					329110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [4]
+				{
+					121.0209999999497, -- [1]
+					"Doctor Ickus", -- [2]
+					329110, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [5]
+			},
+			[328343] = {
+				{
+					138.5620000000345, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					138.5620000000345, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					138.5620000000345, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					138.5620000000345, -- [1]
+					"Venomfang", -- [2]
+					328343, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[329217] = {
+				{
+					34.18499999993946, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					37.23100000002887, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					40.29799999995157, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					71.81700000003912, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					74.85399999993388, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					77.95799999998417, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					109.4159999999683, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					112.4969999999739, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					115.5869999999413, -- [1]
+					"Doctor Ickus", -- [2]
+					329217, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+			},
+			[321999] = {
+				{
+					3.195999999996275, -- [1]
+					"Pestilence Slime", -- [2]
+					321999, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					6.839000000036322, -- [1]
+					"Pestilence Slime", -- [2]
+					321999, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					10.50899999996182, -- [1]
+					"Pestilence Slime", -- [2]
+					321999, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					14.13500000000931, -- [1]
+					"Pestilence Slime", -- [2]
+					321999, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					17.79599999997299, -- [1]
+					"Pestilence Slime", -- [2]
+					321999, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[321935] = {
+				{
+					107.6809999999823, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					128.341999999946, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					130.7589999999618, -- [1]
+					"Congealed Slime", -- [2]
+					321935, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[334899] = {
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					138.5620000000345, -- [1]
+					"Venomous Sniper", -- [2]
+					334899, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+			},
+			[341443] = {
+				{
+					27.81299999996554, -- [1]
+					"Unknown", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					36.73999999999069, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					66.15700000000652, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					104.6520000000019, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					137.2900000000373, -- [1]
+					"Erupting Ooze", -- [2]
+					341443, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+			},
+			[333737] = {
+				{
+					53.78799999994226, -- [1]
+					"Unknown", -- [2]
+					333737, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					96.25500000000466, -- [1]
+					"Congealed Slime", -- [2]
+					333737, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[340356] = {
+				{
+					22.69499999994878, -- [1]
+					"Pestilence Slime", -- [2]
+					340356, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[322358] = {
+				{
+					6.839000000036322, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [1]
+				{
+					9.003000000026077, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					55.18499999993946, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [3]
+				{
+					56.39699999999721, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sendmoons", -- [5]
+				}, -- [4]
+				{
+					57.61699999996927, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [5]
+				{
+					58.8190000000177, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [6]
+				{
+					60.02799999993295, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [7]
+				{
+					61.24399999994785, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [8]
+				{
+					62.45400000002701, -- [1]
+					"Doctor Ickus", -- [2]
+					322358, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [9]
+			},
+		}, -- [42]
+		{
+			[324490] = {
+				{
+					27.9069999998901, -- [1]
+					"Globgrog", -- [2]
+					324490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[324667] = {
+				{
+					17.19099999999162, -- [1]
+					"Globgrog", -- [2]
+					324667, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[324459] = {
+				{
+					22.89399999997113, -- [1]
+					"Globgrog", -- [2]
+					324459, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[327233] = {
+				{
+					34.39999999990687, -- [1]
+					"Plaguebelcher", -- [2]
+					327233, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[324652] = {
+				{
+					7.899999999906868, -- [1]
+					"Globgrog", -- [2]
+					324652, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kurst-Blackrock", -- [5]
+				}, -- [1]
+				{
+					7.899999999906868, -- [1]
+					"Globgrog", -- [2]
+					324652, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Deedah-Blackrock", -- [5]
+				}, -- [2]
+				{
+					7.899999999906868, -- [1]
+					"Globgrog", -- [2]
+					324652, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [3]
+				{
+					7.899999999906868, -- [1]
+					"Globgrog", -- [2]
+					324652, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Sendmoons", -- [5]
+				}, -- [4]
+				{
+					7.899999999906868, -- [1]
+					"Globgrog", -- [2]
+					324652, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Purrdy", -- [5]
+				}, -- [5]
+			},
+			[332865] = {
+				{
+					13.18699999991804, -- [1]
+					"Globgrog", -- [2]
+					332865, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[324527] = {
+				{
+					7.899999999906868, -- [1]
+					"Globgrog", -- [2]
+					324527, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [43]
+		{
+			[329170] = {
+				{
+					25.90600000001723, -- [1]
+					"Sinstone Statue", -- [2]
+					329170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [1]
+				{
+					52.58899999997811, -- [1]
+					"Sinstone Statue", -- [2]
+					329170, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [2]
+			},
+			[323437] = {
+				{
+					14.22200000000885, -- [1]
+					"Lord Chamberlain", -- [2]
+					323437, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+				{
+					77.38099999999395, -- [1]
+					"Lord Chamberlain", -- [2]
+					323437, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+			},
+			[329171] = {
+				{
+					26.40600000001723, -- [1]
+					"Sinstone Statue", -- [2]
+					329171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [1]
+				{
+					53.09700000000885, -- [1]
+					"Sinstone Statue", -- [2]
+					329171, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [2]
+			},
+			[329104] = {
+				{
+					22.71899999998277, -- [1]
+					"Lord Chamberlain", -- [2]
+					329104, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					49.38899999996647, -- [1]
+					"Lord Chamberlain", -- [2]
+					329104, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[329168] = {
+				{
+					25.39699999999721, -- [1]
+					"Sinstone Statue", -- [2]
+					329168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [1]
+				{
+					52.08899999997811, -- [1]
+					"Sinstone Statue", -- [2]
+					329168, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [2]
+			},
+			[329172] = {
+				{
+					26.90299999999115, -- [1]
+					"Sinstone Statue", -- [2]
+					329172, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [1]
+				{
+					53.60099999996601, -- [1]
+					"Sinstone Statue", -- [2]
+					329172, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Lord Chamberlain", -- [5]
+				}, -- [2]
+			},
+			[323236] = {
+				{
+					19.37599999998929, -- [1]
+					"Lord Chamberlain", -- [2]
+					323236, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[323150] = {
+				{
+					8.163000000000466, -- [1]
+					"Sinstone Statue", -- [2]
+					323150, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Telekinetic Toss Stalker", -- [5]
+				}, -- [1]
+			},
+			[329113] = {
+				{
+					23.90299999999115, -- [1]
+					"Lord Chamberlain", -- [2]
+					329113, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					50.58199999999488, -- [1]
+					"Lord Chamberlain", -- [2]
+					329113, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328791] = {
+				{
+					35.13400000002002, -- [1]
+					"Lord Chamberlain", -- [2]
+					328791, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					61.85099999996601, -- [1]
+					"Lord Chamberlain", -- [2]
+					328791, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[323209] = {
+				{
+					6.64100000000326, -- [1]
+					"Sinstone Statue", -- [2]
+					323209, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					79.49900000001071, -- [1]
+					"Sinstone Statue", -- [2]
+					323209, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [44]
+		{
+			[338012] = {
+				{
+					24.71400000003632, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					26.00800000003073, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					27.32099999999628, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					28.6140000000014, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					29.41200000001118, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					49.41899999999441, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					50.72000000003027, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					52.0230000000447, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					53.3190000000177, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					54.10800000000745, -- [1]
+					"Anima Fountain", -- [2]
+					338012, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+			[329340] = {
+				{
+					23.40799999999581, -- [1]
+					"High Adjudicator Aleez", -- [2]
+					329340, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					48.11900000000605, -- [1]
+					"High Adjudicator Aleez", -- [2]
+					329340, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326829] = {
+				{
+					55.97800000000279, -- [1]
+					"Inquisitor Sigar", -- [2]
+					326829, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [1]
+			},
+		}, -- [45]
+		{
+			[319941] = {
+				{
+					28.36699999996927, -- [1]
+					"Echelon", -- [2]
+					319941, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					59.96599999995669, -- [1]
+					"Echelon", -- [2]
+					319941, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328125] = {
+				{
+					20.23099999997066, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					20.56699999998091, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					20.67999999999302, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					20.72800000000279, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					20.89399999997113, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					22.69599999999628, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					29.38000000000466, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					29.38000000000466, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					29.39299999998184, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					59.30400000000373, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					60.18499999999767, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					60.96999999997206, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					62.19499999994878, -- [1]
+					"Undying Stonefiend", -- [2]
+					328125, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+			},
+			[328322] = {
+				{
+					20.94599999999628, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					54.95299999997951, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+				{
+					54.95299999997951, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [3]
+				{
+					58.57099999999628, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [4]
+				{
+					58.57099999999628, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [5]
+				{
+					70.72899999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [6]
+				{
+					70.72899999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [7]
+				{
+					70.72899999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Furiousmcgee", -- [5]
+				}, -- [8]
+				{
+					70.72899999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [9]
+				{
+					71.5229999999865, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [10]
+				{
+					74.35399999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [11]
+				{
+					74.35399999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [12]
+				{
+					74.35399999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [13]
+				{
+					74.35399999999208, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [14]
+				{
+					75.14199999999255, -- [1]
+					"Undying Stonefiend", -- [2]
+					328322, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Turof-Ragnaros", -- [5]
+				}, -- [15]
+			},
+			[328206] = {
+				{
+					21.85899999999674, -- [1]
+					"Echelon", -- [2]
+					328206, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.45199999999022, -- [1]
+					"Echelon", -- [2]
+					328206, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[328124] = {
+				{
+					13.33199999999488, -- [1]
+					"Undying Stonefiend", -- [2]
+					328124, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					13.34299999999348, -- [1]
+					"Undying Stonefiend", -- [2]
+					328124, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					13.34299999999348, -- [1]
+					"Undying Stonefiend", -- [2]
+					328124, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					63.14599999994971, -- [1]
+					"Undying Stonefiend", -- [2]
+					328124, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					63.14599999994971, -- [1]
+					"Undying Stonefiend", -- [2]
+					328124, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					63.14599999994971, -- [1]
+					"Undying Stonefiend", -- [2]
+					328124, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[319733] = {
+				{
+					13.34299999999348, -- [1]
+					"Echelon", -- [2]
+					319733, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					63.1589999999851, -- [1]
+					"Echelon", -- [2]
+					319733, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326389] = {
+				{
+					8.489999999990687, -- [1]
+					"Echelon", -- [2]
+					326389, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					31.58799999998882, -- [1]
+					"Echelon", -- [2]
+					326389, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					48.60599999997066, -- [1]
+					"Echelon", -- [2]
+					326389, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					68, -- [1]
+					"Echelon", -- [2]
+					326389, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+		}, -- [46]
+		{
+			[322936] = {
+				{
+					4.99800000002142, -- [1]
+					"Halkias", -- [2]
+					322936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					18.4089999999851, -- [1]
+					"Halkias", -- [2]
+					322936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					30.51699999999255, -- [1]
+					"Halkias", -- [2]
+					322936, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[322943] = {
+				{
+					12.84299999999348, -- [1]
+					"Halkias", -- [2]
+					322943, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					24.95199999999022, -- [1]
+					"Halkias", -- [2]
+					322943, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[322711] = {
+				{
+					38.82199999998557, -- [1]
+					"Halkias", -- [2]
+					322711, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+		}, -- [47]
+		{
+			[322654] = {
+				{
+					7.115999999979977, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					7.115999999979977, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					7.115999999979977, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					7.115999999979977, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					7.115999999979977, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322654, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+			},
+			[322614] = {
+				{
+					19.26500000001397, -- [1]
+					"Tred'ova", -- [2]
+					322614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xrift-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					61.72600000002421, -- [1]
+					"Tred'ova", -- [2]
+					322614, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xrift-Ragnaros", -- [5]
+				}, -- [2]
+			},
+			[322450] = {
+				{
+					19.6710000000312, -- [1]
+					"Tred'ova", -- [2]
+					322450, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Cocoon of Lakali", -- [5]
+				}, -- [1]
+				{
+					41.51600000000326, -- [1]
+					"Tred'ova", -- [2]
+					322450, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Cocoon of Lakali", -- [5]
+				}, -- [2]
+			},
+			[326281] = {
+				{
+					19.92300000000978, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					22.92200000002049, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					44.02399999997579, -- [1]
+					"Tred'ova", -- [2]
+					326281, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[322563] = {
+				{
+					66.05300000001444, -- [1]
+					"Tred'ova", -- [2]
+					322563, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xrift-Ragnaros", -- [5]
+				}, -- [1]
+			},
+			[322550] = {
+				{
+					64.61200000002282, -- [1]
+					"Tred'ova", -- [2]
+					322550, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[322709] = {
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					27.72100000001956, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					27.7390000000014, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					49.58600000001025, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					69.39299999998184, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					69.40200000000186, -- [1]
+					"Tred'ova", -- [2]
+					322709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+			},
+		}, -- [48]
+		{
+			[336759] = {
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336759, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+			},
+			[321669] = {
+				{
+					25.17999999999302, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					25.17999999999302, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					25.17999999999302, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					25.17999999999302, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					28.23300000000745, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					28.23300000000745, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					28.23300000000745, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					28.23300000000745, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					31.26500000001397, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					31.48200000001816, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					31.48200000001816, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					31.85700000001816, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					53.05900000000838, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					53.05900000000838, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					53.05900000000838, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					53.05900000000838, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					56.12599999998929, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					56.12599999998929, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					56.12599999998929, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					56.51899999997113, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					59.28800000000047, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					59.28800000000047, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					60.15299999999115, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					62.35599999997066, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					62.35599999997066, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					88.2609999999986, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					88.2609999999986, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					88.27600000001257, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					88.27600000001257, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					91.31299999996554, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+				{
+					91.31299999996554, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					91.31299999996554, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [32]
+				{
+					91.31299999996554, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [33]
+				{
+					94.52399999997579, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					94.53800000000047, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [35]
+				{
+					94.53800000000047, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [36]
+				{
+					94.70199999999022, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [37]
+				{
+					97.75400000001537, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					97.75400000001537, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [39]
+				{
+					97.75400000001537, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [40]
+				{
+					97.75400000001537, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [41]
+				{
+					100.7939999999944, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [42]
+				{
+					100.7939999999944, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [43]
+				{
+					100.7939999999944, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [44]
+				{
+					101.0129999999772, -- [1]
+					"Illusionary Clone", -- [2]
+					321669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [45]
+			},
+			[321828] = {
+				{
+					59.25, -- [1]
+					"Mistcaller", -- [2]
+					321828, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+				{
+					81.125, -- [1]
+					"Mistcaller", -- [2]
+					321828, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [2]
+			},
+			[321834] = {
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					39.83899999997811, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					54.40999999997439, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					321834, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+			},
+			[341709] = {
+				{
+					18.22999999998137, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					43.69799999997485, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					66.75299999996787, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					91.04300000000512, -- [1]
+					"Mistcaller", -- [2]
+					341709, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[336499] = {
+				{
+					22.17499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					50.04999999998836, -- [1]
+					"Mistcaller", -- [2]
+					336499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					85.25899999996182, -- [1]
+					"Mistcaller", -- [2]
+					336499, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+			},
+			[336813] = {
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					10.72999999998137, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					25.3069999999716, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					39.84999999997672, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [14]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					54.42499999998836, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [18]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					70.18599999998696, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [20]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					88.40200000000186, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [24]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [26]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					102.9649999999674, -- [1]
+					"Mistcaller", -- [2]
+					336813, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+			},
+			[321891] = {
+				{
+					21.24199999996927, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Xrift-Ragnaros", -- [5]
+				}, -- [1]
+				{
+					46.69599999999628, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Furiousmcgee", -- [5]
+				}, -- [2]
+				{
+					69.75899999996182, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Arçher", -- [5]
+				}, -- [3]
+				{
+					94.05300000001444, -- [1]
+					"Illusionary Vulpin", -- [2]
+					321891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [4]
+			},
+		}, -- [49]
+		{
+			[321772] = {
+				{
+					23.7729999999865, -- [1]
+					"Droman Oulfarran", -- [2]
+					321772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[325163] = {
+				{
+					63.85599999997066, -- [1]
+					"Mistveil Defender", -- [2]
+					325163, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [1]
+				{
+					63.85599999997066, -- [1]
+					"Mistveil Defender", -- [2]
+					325163, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [2]
+			},
+			[323138] = {
+				{
+					15.24400000000605, -- [1]
+					"Ingra Maloch", -- [2]
+					323138, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					61.36799999995856, -- [1]
+					"Ingra Maloch", -- [2]
+					323138, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[322557] = {
+				{
+					63.85599999997066, -- [1]
+					"Drust Soulcleaver", -- [2]
+					322557, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [1]
+				{
+					63.85599999997066, -- [1]
+					"Drust Soulcleaver", -- [2]
+					322557, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Drust Soulcleaver", -- [5]
+				}, -- [2]
+			},
+			[331718] = {
+				{
+					63.85599999997066, -- [1]
+					"Mistveil Defender", -- [2]
+					331718, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					63.85599999997066, -- [1]
+					"Mistveil Defender", -- [2]
+					331718, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[321005] = {
+				{
+					40.77600000001257, -- [1]
+					"Ingra Maloch", -- [2]
+					321005, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Droman Oulfarran", -- [5]
+				}, -- [1]
+			},
+			[322569] = {
+				{
+					63.85599999997066, -- [1]
+					"Drust Soulcleaver", -- [2]
+					322569, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					63.85599999997066, -- [1]
+					"Drust Soulcleaver", -- [2]
+					322569, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[323057] = {
+				{
+					18.57099999999628, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Steakdh", -- [5]
+				}, -- [1]
+				{
+					21.79800000000978, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [2]
+				{
+					52.26399999996647, -- [1]
+					"Ingra Maloch", -- [2]
+					323057, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Furiousmcgee", -- [5]
+				}, -- [3]
+			},
+			[323177] = {
+				{
+					15.24400000000605, -- [1]
+					"Droman Oulfarran", -- [2]
+					323177, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					61.36799999995856, -- [1]
+					"Droman Oulfarran", -- [2]
+					323177, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[326319] = {
+				{
+					0.3260000000009313, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [1]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [2]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [3]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [4]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [5]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [6]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [7]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [8]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [9]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [10]
+				{
+					63.85599999997066, -- [1]
+					"Drust Harvester", -- [2]
+					326319, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tirnenn Villager", -- [5]
+				}, -- [11]
+			},
+			[323137] = {
+				{
+					10.27799999999115, -- [1]
+					"Droman Oulfarran", -- [2]
+					323137, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					55.18900000001304, -- [1]
+					"Droman Oulfarran", -- [2]
+					323137, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+		}, -- [50]
 		{
 			[329170] = {
 				{
@@ -156,15 +13727,23 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [1]
+		}, -- [51]
 		{
-			[346866] = {
+			[323538] = {
 				{
-					4.764999999999418, -- [1]
-					"Loyal Stoneborn", -- [2]
-					346866, -- [3]
+					18.8660000000018, -- [1]
+					"High Adjudicator Aleez", -- [2]
+					323538, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigasstank-Kel'Thuzad", -- [5]
 				}, -- [1]
+				{
+					34.63499999999476, -- [1]
+					"High Adjudicator Aleez", -- [2]
+					323538, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bigasstank-Kel'Thuzad", -- [5]
+				}, -- [2]
 			},
 			[338012] = {
 				{
@@ -228,6 +13807,14 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [10]
 			},
+			[346866] = {
+				{
+					4.764999999999418, -- [1]
+					"Loyal Stoneborn", -- [2]
+					346866, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[329340] = {
 				{
 					21.77999999999884, -- [1]
@@ -242,23 +13829,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			[323538] = {
-				{
-					18.8660000000018, -- [1]
-					"High Adjudicator Aleez", -- [2]
-					323538, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bigasstank-Kel'Thuzad", -- [5]
-				}, -- [1]
-				{
-					34.63499999999476, -- [1]
-					"High Adjudicator Aleez", -- [2]
-					323538, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bigasstank-Kel'Thuzad", -- [5]
-				}, -- [2]
-			},
-		}, -- [2]
+		}, -- [52]
 		{
 			[326771] = {
 				{
@@ -376,7 +13947,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
 			},
-		}, -- [3]
+		}, -- [53]
 		{
 			[322936] = {
 				{
@@ -423,7 +13994,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [4]
+		}, -- [54]
 		{
 			[46164] = {
 				{
@@ -677,7 +14248,7 @@ DetailsTimeLineDB = {
 					"Belindline-Blackrock", -- [5]
 				}, -- [19]
 			},
-		}, -- [5]
+		}, -- [55]
 		{
 			[44286] = {
 				{
@@ -1023,9 +14594,9 @@ DetailsTimeLineDB = {
 					"Zug", -- [5]
 				}, -- [1]
 			},
-		}, -- [6]
+		}, -- [56]
 		{
-		}, -- [7]
+		}, -- [57]
 		{
 			[44505] = {
 				{
@@ -1817,7 +15388,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [8]
+		}, -- [58]
 		{
 			[267459] = {
 				{
@@ -1910,7 +15481,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [9]
+		}, -- [59]
 		{
 			[269097] = {
 				{
@@ -1934,8 +15505,22 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [10]
+		}, -- [60]
 		{
+			[267905] = {
+				{
+					31.65499999999884, -- [1]
+					"Brother Ironhull", -- [2]
+					267905, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					63.20300000000862, -- [1]
+					"Brother Ironhull", -- [2]
+					267905, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[267899] = {
 				{
 					7.834000000002561, -- [1]
@@ -1967,6 +15552,14 @@ DetailsTimeLineDB = {
 					267899, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
+			},
+			[267891] = {
+				{
+					19.5109999999986, -- [1]
+					"Galecaller Faye", -- [2]
+					267891, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[267818] = {
 				{
@@ -2000,30 +15593,38 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 			},
-			[267891] = {
-				{
-					19.5109999999986, -- [1]
-					"Galecaller Faye", -- [2]
-					267891, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[267905] = {
-				{
-					31.65499999999884, -- [1]
-					"Brother Ironhull", -- [2]
-					267905, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					63.20300000000862, -- [1]
-					"Brother Ironhull", -- [2]
-					267905, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-		}, -- [11]
+		}, -- [61]
 		{
+			[265001] = {
+				{
+					34.59300000002259, -- [1]
+					"Aqualing", -- [2]
+					265001, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulwàrk-Zul'jin", -- [5]
+				}, -- [1]
+				{
+					37.22800000000279, -- [1]
+					"Aqualing", -- [2]
+					265001, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulwàrk-Zul'jin", -- [5]
+				}, -- [2]
+				{
+					42.10400000002119, -- [1]
+					"Aqualing", -- [2]
+					265001, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulwàrk-Zul'jin", -- [5]
+				}, -- [3]
+				{
+					44.52800000002026, -- [1]
+					"Aqualing", -- [2]
+					265001, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Bulwàrk-Zul'jin", -- [5]
+				}, -- [4]
+			},
 			[264101] = {
 				{
 					19.80100000000675, -- [1]
@@ -2037,6 +15638,14 @@ DetailsTimeLineDB = {
 					264101, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[264903] = {
+				{
+					27.54500000001281, -- [1]
+					"Aqu'sirr", -- [2]
+					264903, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[264560] = {
 				{
@@ -2068,45 +15677,7 @@ DetailsTimeLineDB = {
 					"Mafiki", -- [5]
 				}, -- [4]
 			},
-			[264903] = {
-				{
-					27.54500000001281, -- [1]
-					"Aqu'sirr", -- [2]
-					264903, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[265001] = {
-				{
-					34.59300000002259, -- [1]
-					"Aqualing", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulwàrk-Zul'jin", -- [5]
-				}, -- [1]
-				{
-					37.22800000000279, -- [1]
-					"Aqualing", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulwàrk-Zul'jin", -- [5]
-				}, -- [2]
-				{
-					42.10400000002119, -- [1]
-					"Aqualing", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulwàrk-Zul'jin", -- [5]
-				}, -- [3]
-				{
-					44.52800000002026, -- [1]
-					"Aqualing", -- [2]
-					265001, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Bulwàrk-Zul'jin", -- [5]
-				}, -- [4]
-			},
-		}, -- [12]
+		}, -- [62]
 		{
 			[330574] = {
 				{
@@ -2175,7 +15746,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
 			},
-		}, -- [13]
+		}, -- [63]
 		{
 			[272457] = {
 				{
@@ -2269,7 +15840,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [14]
+		}, -- [64]
 		{
 			[260455] = {
 				{
@@ -2412,8 +15983,16 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [15]
+		}, -- [65]
 		{
+			[264603] = {
+				{
+					18.73000000001048, -- [1]
+					"Elder Leaxa", -- [2]
+					264603, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[260879] = {
 				{
 					16.29099999999744, -- [1]
@@ -2450,15 +16029,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-			[264603] = {
-				{
-					18.73000000001048, -- [1]
-					"Elder Leaxa", -- [2]
-					264603, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-		}, -- [16]
+		}, -- [66]
 		{
 			[320771] = {
 				{
@@ -2667,7 +16238,7 @@ DetailsTimeLineDB = {
 					"Vesmir", -- [5]
 				}, -- [1]
 			},
-		}, -- [17]
+		}, -- [67]
 		{
 			[320200] = {
 				{
@@ -2799,7 +16370,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [18]
+		}, -- [68]
 		{
 			[321226] = {
 				{
@@ -3018,7 +16589,7 @@ DetailsTimeLineDB = {
 					"Daumawth", -- [5]
 				}, -- [3]
 			},
-		}, -- [19]
+		}, -- [69]
 		{
 			[321821] = {
 				{
@@ -3156,104 +16727,8 @@ DetailsTimeLineDB = {
 					"Daumawth", -- [5]
 				}, -- [2]
 			},
-		}, -- [20]
+		}, -- [70]
 		{
-			[307725] = {
-				{
-					84.47100000001956, -- [1]
-					"Prophet Skitra", -- [2]
-					307725, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					226.9699999999721, -- [1]
-					"Prophet Skitra", -- [2]
-					307725, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[307937] = {
-				{
-					11.54799999995157, -- [1]
-					"Prophet Skitra", -- [2]
-					307937, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					50.43199999991339, -- [1]
-					"Prophet Skitra", -- [2]
-					307937, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					150.435999999987, -- [1]
-					"Prophet Skitra", -- [2]
-					307937, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					189.3240000000224, -- [1]
-					"Prophet Skitra", -- [2]
-					307937, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					293.6899999999441, -- [1]
-					"Prophet Skitra", -- [2]
-					307937, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					332.560999999987, -- [1]
-					"Prophet Skitra", -- [2]
-					307937, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-			},
-			[307950] = {
-				{
-					11.54799999995157, -- [1]
-					"Prophet Skitra", -- [2]
-					307950, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Miflin-Quel'Thalas", -- [5]
-				}, -- [1]
-				{
-					50.43199999991339, -- [1]
-					"Prophet Skitra", -- [2]
-					307950, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Pandamoniium-Barthilas", -- [5]
-				}, -- [2]
-				{
-					150.4259999999777, -- [1]
-					"Prophet Skitra", -- [2]
-					307950, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Yikami-Zul'jin", -- [5]
-				}, -- [3]
-				{
-					189.3240000000224, -- [1]
-					"Prophet Skitra", -- [2]
-					307950, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Yikami-Zul'jin", -- [5]
-				}, -- [4]
-				{
-					293.6899999999441, -- [1]
-					"Prophet Skitra", -- [2]
-					307950, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Ozeroth", -- [5]
-				}, -- [5]
-				{
-					332.560999999987, -- [1]
-					"Prophet Skitra", -- [2]
-					307950, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Imathayus-Sargeras", -- [5]
-				}, -- [6]
-			},
 			[307977] = {
 				{
 					0.2129999999888241, -- [1]
@@ -3935,7 +17410,103 @@ DetailsTimeLineDB = {
 					"Eskandar-Blackrock", -- [5]
 				}, -- [97]
 			},
-		}, -- [21]
+			[307937] = {
+				{
+					11.54799999995157, -- [1]
+					"Prophet Skitra", -- [2]
+					307937, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					50.43199999991339, -- [1]
+					"Prophet Skitra", -- [2]
+					307937, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					150.435999999987, -- [1]
+					"Prophet Skitra", -- [2]
+					307937, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					189.3240000000224, -- [1]
+					"Prophet Skitra", -- [2]
+					307937, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					293.6899999999441, -- [1]
+					"Prophet Skitra", -- [2]
+					307937, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					332.560999999987, -- [1]
+					"Prophet Skitra", -- [2]
+					307937, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+			},
+			[307725] = {
+				{
+					84.47100000001956, -- [1]
+					"Prophet Skitra", -- [2]
+					307725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					226.9699999999721, -- [1]
+					"Prophet Skitra", -- [2]
+					307725, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[307950] = {
+				{
+					11.54799999995157, -- [1]
+					"Prophet Skitra", -- [2]
+					307950, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Miflin-Quel'Thalas", -- [5]
+				}, -- [1]
+				{
+					50.43199999991339, -- [1]
+					"Prophet Skitra", -- [2]
+					307950, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pandamoniium-Barthilas", -- [5]
+				}, -- [2]
+				{
+					150.4259999999777, -- [1]
+					"Prophet Skitra", -- [2]
+					307950, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Yikami-Zul'jin", -- [5]
+				}, -- [3]
+				{
+					189.3240000000224, -- [1]
+					"Prophet Skitra", -- [2]
+					307950, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Yikami-Zul'jin", -- [5]
+				}, -- [4]
+				{
+					293.6899999999441, -- [1]
+					"Prophet Skitra", -- [2]
+					307950, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Ozeroth", -- [5]
+				}, -- [5]
+				{
+					332.560999999987, -- [1]
+					"Prophet Skitra", -- [2]
+					307950, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Imathayus-Sargeras", -- [5]
+				}, -- [6]
+			},
+		}, -- [71]
 		{
 			[306995] = {
 				{
@@ -4347,7 +17918,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [12]
 			},
-		}, -- [22]
+		}, -- [72]
 		{
 			[45438] = {
 				{
@@ -4576,7 +18147,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-		}, -- [23]
+		}, -- [73]
 		{
 			[310552] = {
 				{
@@ -10782,105 +24353,31 @@ DetailsTimeLineDB = {
 					"Nelìel-Azralon", -- [5]
 				}, -- [886]
 			},
-			[310396] = {
+			[308941] = {
 				{
-					47.58300000010058, -- [1]
+					84.36599999992177, -- [1]
 					"Drest'agath", -- [2]
-					310396, -- [3]
+					308941, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
 				}, -- [1]
 				{
-					47.61700000008568, -- [1]
-					"Eye of Drest'agath", -- [2]
-					310396, -- [3]
+					185.3870000001043, -- [1]
+					"Drest'agath", -- [2]
+					308941, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
 				}, -- [2]
 				{
-					97.38300000014715, -- [1]
+					249.9490000000224, -- [1]
 					"Drest'agath", -- [2]
-					310396, -- [3]
+					308941, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
 				}, -- [3]
 				{
-					142.533000000054, -- [1]
+					361.5320000001229, -- [1]
 					"Drest'agath", -- [2]
-					310396, -- [3]
+					308941, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
 				}, -- [4]
-				{
-					142.566000000108, -- [1]
-					"Eye of Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [5]
-				{
-					204.5320000001229, -- [1]
-					"Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [6]
-				{
-					262.9820000000764, -- [1]
-					"Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [7]
-				{
-					309.2480000001378, -- [1]
-					"Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [8]
-				{
-					309.2990000001155, -- [1]
-					"Eye of Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [9]
-				{
-					354.3649999999907, -- [1]
-					"Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [10]
-				{
-					354.3649999999907, -- [1]
-					"Eye of Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [11]
-				{
-					400.6980000000913, -- [1]
-					"Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [12]
-				{
-					400.6980000000913, -- [1]
-					"Eye of Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [13]
-				{
-					400.7480000001378, -- [1]
-					"Eye of Drest'agath", -- [2]
-					310396, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Glare Stalker", -- [5]
-				}, -- [14]
 			},
 			[310614] = {
 				{
@@ -11572,104 +25069,104 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [15]
 			},
-			[315766] = {
+			[310396] = {
 				{
-					87.6500000001397, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					47.58300000010058, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Toxxin-Dalvengyr", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [1]
 				{
-					91.23300000000745, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					47.61700000008568, -- [1]
+					"Eye of Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Moofongo-Zul'jin", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [2]
 				{
-					94.86599999992177, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					97.38300000014715, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Apothecarry-Azralon", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [3]
 				{
-					188.6659999999683, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					142.533000000054, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Moofongo-Zul'jin", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [4]
 				{
-					191.8659999999218, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					142.566000000108, -- [1]
+					"Eye of Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Madchi", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [5]
 				{
-					253.1990000000224, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					204.5320000001229, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Noscopez-Area52", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [6]
 				{
-					256.816000000108, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					262.9820000000764, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Toxxin-Dalvengyr", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [7]
 				{
-					260.4660000000149, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					309.2480000001378, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Khalastrya-Azralon", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [8]
 				{
-					364.8310000000056, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					309.2990000001155, -- [1]
+					"Eye of Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Anønÿmøus-Azralon", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [9]
 				{
-					364.8310000000056, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					354.3649999999907, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Elstrandae", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [10]
 				{
-					368.4310000000987, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					354.3649999999907, -- [1]
+					"Eye of Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Pastorbate-Zul'jin", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [11]
 				{
-					368.8149999999441, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					400.6980000000913, -- [1]
+					"Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Zephanee-Feathermoon", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [12]
 				{
-					372.0649999999441, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					400.6980000000913, -- [1]
+					"Eye of Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Yoshimatsu", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [13]
 				{
-					372.4810000001453, -- [1]
-					"Tentacle of Drest'agath", -- [2]
-					315766, -- [3]
+					400.7480000001378, -- [1]
+					"Eye of Drest'agath", -- [2]
+					310396, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Anønÿmøus-Azralon", -- [5]
+					"Void Glare Stalker", -- [5]
 				}, -- [14]
 			},
 			[310580] = {
@@ -12592,31 +26089,105 @@ DetailsTimeLineDB = {
 					"Moofongo-Zul'jin", -- [5]
 				}, -- [21]
 			},
-			[308941] = {
+			[315766] = {
 				{
-					84.36599999992177, -- [1]
-					"Drest'agath", -- [2]
-					308941, -- [3]
+					87.6500000001397, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Toxxin-Dalvengyr", -- [5]
 				}, -- [1]
 				{
-					185.3870000001043, -- [1]
-					"Drest'agath", -- [2]
-					308941, -- [3]
+					91.23300000000745, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Moofongo-Zul'jin", -- [5]
 				}, -- [2]
 				{
-					249.9490000000224, -- [1]
-					"Drest'agath", -- [2]
-					308941, -- [3]
+					94.86599999992177, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Apothecarry-Azralon", -- [5]
 				}, -- [3]
 				{
-					361.5320000001229, -- [1]
-					"Drest'agath", -- [2]
-					308941, -- [3]
+					188.6659999999683, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Moofongo-Zul'jin", -- [5]
 				}, -- [4]
+				{
+					191.8659999999218, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Madchi", -- [5]
+				}, -- [5]
+				{
+					253.1990000000224, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Noscopez-Area52", -- [5]
+				}, -- [6]
+				{
+					256.816000000108, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Toxxin-Dalvengyr", -- [5]
+				}, -- [7]
+				{
+					260.4660000000149, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Khalastrya-Azralon", -- [5]
+				}, -- [8]
+				{
+					364.8310000000056, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Anønÿmøus-Azralon", -- [5]
+				}, -- [9]
+				{
+					364.8310000000056, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Elstrandae", -- [5]
+				}, -- [10]
+				{
+					368.4310000000987, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Pastorbate-Zul'jin", -- [5]
+				}, -- [11]
+				{
+					368.8149999999441, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Zephanee-Feathermoon", -- [5]
+				}, -- [12]
+				{
+					372.0649999999441, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Yoshimatsu", -- [5]
+				}, -- [13]
+				{
+					372.4810000001453, -- [1]
+					"Tentacle of Drest'agath", -- [2]
+					315766, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Anønÿmøus-Azralon", -- [5]
+				}, -- [14]
 			},
 			[308953] = {
 				{
@@ -12626,7 +26197,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [24]
+		}, -- [74]
 		{
 			[308373] = {
 				{
@@ -20360,7 +33931,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [25]
+		}, -- [75]
 		{
 			[316030] = {
 				{
@@ -20767,7 +34338,7 @@ DetailsTimeLineDB = {
 					"Moofongo-Zul'jin", -- [5]
 				}, -- [3]
 			},
-		}, -- [26]
+		}, -- [76]
 		{
 			[306995] = {
 				{
@@ -20976,7 +34547,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [27]
+		}, -- [77]
 		{
 			[316030] = {
 				{
@@ -21405,7 +34976,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [14]
 			},
-		}, -- [28]
+		}, -- [78]
 		{
 			[313239] = {
 				{
@@ -21978,7 +35549,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [29]
 			},
-		}, -- [29]
+		}, -- [79]
 		{
 			[307937] = {
 				{
@@ -22013,7 +35584,7 @@ DetailsTimeLineDB = {
 					"Kapricorhn-Dalaran", -- [5]
 				}, -- [2]
 			},
-		}, -- [30]
+		}, -- [80]
 		{
 			[305722] = {
 				{
@@ -22347,7 +35918,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [31]
+		}, -- [81]
 		{
 			[305722] = {
 				{
@@ -22618,7 +36189,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [32]
+		}, -- [82]
 		{
 			[310129] = {
 				{
@@ -22653,7 +36224,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [33]
+		}, -- [83]
 		{
 			[314373] = {
 				{
@@ -22885,7 +36456,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-		}, -- [34]
+		}, -- [84]
 		{
 			[313239] = {
 				{
@@ -23146,7 +36717,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [35]
+		}, -- [85]
 		{
 			[306995] = {
 				{
@@ -23485,7 +37056,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-		}, -- [36]
+		}, -- [86]
 		{
 			[257315] = {
 				{
@@ -23548,7 +37119,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [37]
+		}, -- [87]
 		{
 			[256363] = {
 				{
@@ -24153,7 +37724,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [38]
+		}, -- [88]
 		{
 			[256979] = {
 				{
@@ -24399,7 +37970,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [39]
+		}, -- [89]
 		{
 			[255952] = {
 				{
@@ -24622,7 +38193,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [40]
+		}, -- [90]
 		{
 			[269843] = {
 				{
@@ -24686,7 +38257,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [10]
 			},
-		}, -- [41]
+		}, -- [91]
 		{
 			[272457] = {
 				{
@@ -25010,9 +38581,9 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [42]
+		}, -- [92]
 		{
-		}, -- [43]
+		}, -- [93]
 		{
 			[260333] = {
 				{
@@ -25454,7 +39025,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 			},
-		}, -- [44]
+		}, -- [94]
 		{
 			[264757] = {
 				{
@@ -25469,6 +39040,32 @@ DetailsTimeLineDB = {
 					264757, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
+			},
+			[260894] = {
+				{
+					18.88300000003073, -- [1]
+					"Elder Leaxa", -- [2]
+					260894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					30.98300000000745, -- [1]
+					"Blood Effigy", -- [2]
+					260894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					34.63300000003073, -- [1]
+					"Elder Leaxa", -- [2]
+					260894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					50.38300000003073, -- [1]
+					"Elder Leaxa", -- [2]
+					260894, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
 			},
 			[264603] = {
 				{
@@ -25522,163 +39119,8 @@ DetailsTimeLineDB = {
 					"Eskandar-Blackrock", -- [5]
 				}, -- [6]
 			},
-			[260894] = {
-				{
-					18.88300000003073, -- [1]
-					"Elder Leaxa", -- [2]
-					260894, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					30.98300000000745, -- [1]
-					"Blood Effigy", -- [2]
-					260894, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					34.63300000003073, -- [1]
-					"Elder Leaxa", -- [2]
-					260894, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					50.38300000003073, -- [1]
-					"Elder Leaxa", -- [2]
-					260894, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-		}, -- [45]
+		}, -- [95]
 		{
-			[268007] = {
-				{
-					5.183000000019092, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Suku-Blackrock", -- [5]
-				}, -- [1]
-				{
-					11.25, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Suku-Blackrock", -- [5]
-				}, -- [2]
-				{
-					18.53299999999581, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Suku-Blackrock", -- [5]
-				}, -- [3]
-				{
-					92.61599999997998, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Draconmar", -- [5]
-				}, -- [4]
-				{
-					98.69900000002235, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Suku-Blackrock", -- [5]
-				}, -- [5]
-				{
-					199.3819999999832, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Mafiki", -- [5]
-				}, -- [6]
-				{
-					205.4320000000298, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Draconmar", -- [5]
-				}, -- [7]
-				{
-					211.5160000000033, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Draconmar", -- [5]
-				}, -- [8]
-				{
-					218.7989999999991, -- [1]
-					"Heart Guardian", -- [2]
-					268007, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Draconmar", -- [5]
-				}, -- [9]
-			},
-			[273677] = {
-				{
-					83.86599999997998, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					83.86599999997998, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					83.86599999997998, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					83.86599999997998, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					193.0659999999916, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					193.0659999999916, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					193.0659999999916, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					193.0659999999916, -- [1]
-					"Hoodoo Hexer", -- [2]
-					273677, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-			},
-			[268008] = {
-				{
-					115.0329999999958, -- [1]
-					"Plague Doctor", -- [2]
-					268008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					159.9160000000265, -- [1]
-					"Plague Doctor", -- [2]
-					268008, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
 			[268061] = {
 				{
 					20.31699999998091, -- [1]
@@ -25772,7 +39214,136 @@ DetailsTimeLineDB = {
 					"Suku-Blackrock", -- [5]
 				}, -- [13]
 			},
-		}, -- [46]
+			[268007] = {
+				{
+					5.183000000019092, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Suku-Blackrock", -- [5]
+				}, -- [1]
+				{
+					11.25, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Suku-Blackrock", -- [5]
+				}, -- [2]
+				{
+					18.53299999999581, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Suku-Blackrock", -- [5]
+				}, -- [3]
+				{
+					92.61599999997998, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Draconmar", -- [5]
+				}, -- [4]
+				{
+					98.69900000002235, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Suku-Blackrock", -- [5]
+				}, -- [5]
+				{
+					199.3819999999832, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [6]
+				{
+					205.4320000000298, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Draconmar", -- [5]
+				}, -- [7]
+				{
+					211.5160000000033, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Draconmar", -- [5]
+				}, -- [8]
+				{
+					218.7989999999991, -- [1]
+					"Heart Guardian", -- [2]
+					268007, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Draconmar", -- [5]
+				}, -- [9]
+			},
+			[268008] = {
+				{
+					115.0329999999958, -- [1]
+					"Plague Doctor", -- [2]
+					268008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					159.9160000000265, -- [1]
+					"Plague Doctor", -- [2]
+					268008, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[273677] = {
+				{
+					83.86599999997998, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					83.86599999997998, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					83.86599999997998, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					83.86599999997998, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					193.0659999999916, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					193.0659999999916, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					193.0659999999916, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					193.0659999999916, -- [1]
+					"Hoodoo Hexer", -- [2]
+					273677, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+			},
+		}, -- [96]
 		{
 			[266512] = {
 				{
@@ -25918,7 +39489,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [47]
+		}, -- [97]
 		{
 			[264235] = {
 				{
@@ -26207,7 +39778,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-		}, -- [48]
+		}, -- [98]
 		{
 			[263371] = {
 				{
@@ -26342,7 +39913,7 @@ DetailsTimeLineDB = {
 					"Mafiki", -- [5]
 				}, -- [6]
 			},
-		}, -- [49]
+		}, -- [99]
 		{
 			[276229] = {
 				{
@@ -26705,7 +40276,7 @@ DetailsTimeLineDB = {
 					"Mexan", -- [5]
 				}, -- [1]
 			},
-		}, -- [50]
+		}, -- [100]
 		{
 			[259474] = {
 				{
@@ -26839,7 +40410,7 @@ DetailsTimeLineDB = {
 					"Draconmar", -- [5]
 				}, -- [2]
 			},
-		}, -- [51]
+		}, -- [101]
 		{
 			[268362] = {
 				{
@@ -27160,7 +40731,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-		}, -- [52]
+		}, -- [102]
 		{
 			[263275] = {
 				{
@@ -27482,7 +41053,7 @@ DetailsTimeLineDB = {
 					"Wanton Sapper", -- [5]
 				}, -- [6]
 			},
-		}, -- [53]
+		}, -- [103]
 		{
 			[268936] = {
 				{
@@ -27716,7 +41287,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 			},
-		}, -- [54]
+		}, -- [104]
 		{
 			[266939] = {
 				{
@@ -27947,7 +41518,7 @@ DetailsTimeLineDB = {
 					"Goreclub", -- [5]
 				}, -- [2]
 			},
-		}, -- [55]
+		}, -- [105]
 		{
 			[270493] = {
 				{
@@ -27963,6 +41534,22 @@ DetailsTimeLineDB = {
 					270493, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Vezdox", -- [5]
+				}, -- [2]
+			},
+			[267618] = {
+				{
+					18.08300000001327, -- [1]
+					"Mchimba the Embalmer", -- [2]
+					267618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gandkru-Barthilas", -- [5]
+				}, -- [1]
+				{
+					54.53299999999581, -- [1]
+					"Mchimba the Embalmer", -- [2]
+					267618, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Eyowen", -- [5]
 				}, -- [2]
 			},
 			[267639] = {
@@ -27988,23 +41575,7 @@ DetailsTimeLineDB = {
 					"Eyowen", -- [5]
 				}, -- [1]
 			},
-			[267618] = {
-				{
-					18.08300000001327, -- [1]
-					"Mchimba the Embalmer", -- [2]
-					267618, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gandkru-Barthilas", -- [5]
-				}, -- [1]
-				{
-					54.53299999999581, -- [1]
-					"Mchimba the Embalmer", -- [2]
-					267618, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Eyowen", -- [5]
-				}, -- [2]
-			},
-		}, -- [56]
+		}, -- [106]
 		{
 			[265923] = {
 				{
@@ -28134,7 +41705,7 @@ DetailsTimeLineDB = {
 					"Vezdox", -- [5]
 				}, -- [5]
 			},
-		}, -- [57]
+		}, -- [107]
 		{
 			[249919] = {
 				{
@@ -28175,7 +41746,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [58]
+		}, -- [108]
 		{
 			[250258] = {
 				{
@@ -28245,7 +41816,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
-		}, -- [59]
+		}, -- [109]
 		{
 			[255577] = {
 				{
@@ -28291,7 +41862,7 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-		}, -- [60]
+		}, -- [110]
 		{
 			[257407] = {
 				{
@@ -28363,84 +41934,447 @@ DetailsTimeLineDB = {
 					"Eskandar-Blackrock", -- [5]
 				}, -- [2]
 			},
-		}, -- [61]
+		}, -- [111]
 	},
 	["useicons"] = true,
 	["cooldowns_timeline"] = {
 		{
-			["Tehral-Kel'Thuzad"] = {
+			["Serci-Shandris"] = {
 				{
-					11.12199999999575, -- [1]
-					"Tehral-Kel'Thuzad", -- [2]
+					159.8879999999917, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					265202, -- [3]
+				}, -- [1]
+				{
+					162.4609999999957, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					64901, -- [3]
+				}, -- [2]
+			},
+			["Cauterized"] = {
+				{
+					67.91399999998976, -- [1]
+					"Cauterized", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+			["Kittymeows-Barthilas"] = {
+				{
+					3.614999999990687, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					102342, -- [3]
+				}, -- [1]
+				{
+					114.1419999999926, -- [1]
+					"Torra-Jubei'Thos", -- [2]
+					102342, -- [3]
+				}, -- [2]
+				{
+					116.380999999994, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
+				}, -- [3]
+				{
+					157.2519999999931, -- [1]
+					"Kittymeows-Barthilas", -- [2]
+					22812, -- [3]
+				}, -- [4]
+				{
+					170.5359999999928, -- [1]
+					"Kittymeows-Barthilas", -- [2]
+					22812, -- [3]
+				}, -- [5]
+				{
+					213.0399999999936, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					102342, -- [3]
+				}, -- [6]
+				{
+					230.6939999999886, -- [1]
+					"Kittymeows-Barthilas", -- [2]
+					22812, -- [3]
+				}, -- [7]
+				{
+					247.4599999999919, -- [1]
+					"Torra-Jubei'Thos", -- [2]
+					203651, -- [3]
+				}, -- [8]
+				{
+					273.054999999993, -- [1]
+					"Kittymeows-Barthilas", -- [2]
+					29166, -- [3]
+				}, -- [9]
+				{
+					304.4929999999877, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					740, -- [3]
+				}, -- [10]
+			},
+			["Norfleet-Zul'jin"] = {
+				{
+					65.21199999999953, -- [1]
+					"Norfleet-Zul'jin", -- [2]
+					45438, -- [3]
+				}, -- [1]
+				{
+					315.9779999999882, -- [1]
+					"Norfleet-Zul'jin", -- [2]
+					45438, -- [3]
+				}, -- [2]
+			},
+			["Støøge-Zul'jin"] = {
+				{
+					1.775999999998021, -- [1]
+					"Støøge-Zul'jin", -- [2]
+					48792, -- [3]
+				}, -- [1]
+				{
+					184.5639999999985, -- [1]
+					"Støøge-Zul'jin", -- [2]
+					48792, -- [3]
+				}, -- [2]
+				{
+					295.7489999999962, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					51052, -- [3]
+				}, -- [3]
+			},
+			["Agacrow-Kil'jaeden"] = {
+				{
+					21.34999999999127, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					22812, -- [3]
+				}, -- [1]
+				{
+					101.6899999999878, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					22812, -- [3]
+				}, -- [2]
+				{
+					112.0539999999892, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					61336, -- [3]
+				}, -- [3]
+				{
+					176.2289999999921, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					22812, -- [3]
+				}, -- [4]
+				{
+					210.5439999999944, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					108238, -- [3]
+				}, -- [5]
+				{
+					211.4309999999969, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					61336, -- [3]
+				}, -- [6]
+				{
+					243.377999999997, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					22812, -- [3]
+				}, -- [7]
+				{
+					256.9239999999991, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					77761, -- [3]
+				}, -- [8]
+				{
+					306.2739999999903, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					22812, -- [3]
+				}, -- [9]
+			},
+			["Psälm-WyrmrestAccord"] = {
+				{
+					39.2729999999865, -- [1]
+					"The Tarragrue", -- [2]
+					122470, -- [3]
+				}, -- [1]
+				{
+					168.9229999999952, -- [1]
+					"The Tarragrue", -- [2]
+					122470, -- [3]
+				}, -- [2]
+				{
+					277.2549999999901, -- [1]
+					"The Tarragrue", -- [2]
+					122470, -- [3]
+				}, -- [3]
+				{
+					297.1719999999914, -- [1]
+					"Psälm-WyrmrestAccord", -- [2]
+					243435, -- [3]
+				}, -- [4]
+			},
+			["Dedaelyn-Area52"] = {
+				{
+					119.9189999999944, -- [1]
+					"Dedaelyn-Area52", -- [2]
+					45438, -- [3]
+				}, -- [1]
+				{
+					161.3589999999967, -- [1]
+					"Dedaelyn-Area52", -- [2]
+					45438, -- [3]
+				}, -- [2]
+			},
+			["Bullshiza-Mal'Ganis"] = {
+				{
+					205.3119999999908, -- [1]
+					"Bullshiza-Mal'Ganis", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
+			["Kaoruchan-Area52"] = {
+				{
+					21.39099999998871, -- [1]
+					"Kaoruchan-Area52", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+			["Torra-Jubei'Thos"] = {
+				{
+					146.7359999999899, -- [1]
+					"Torra-Jubei'Thos", -- [2]
+					12975, -- [3]
+				}, -- [1]
+				{
+					174.6119999999937, -- [1]
+					"Torra-Jubei'Thos", -- [2]
+					871, -- [3]
+				}, -- [2]
+				{
+					176.0759999999864, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [3]
+				{
+					283.6109999999899, -- [1]
+					"Torra-Jubei'Thos", -- [2]
+					871, -- [3]
+				}, -- [4]
+			},
+			["Ashîro-Aegwynn"] = {
+				{
+					39.29599999998754, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					98008, -- [3]
+				}, -- [1]
+				{
+					192.6559999999881, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [2]
+				{
+					224.9199999999983, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					98008, -- [3]
+				}, -- [3]
+				{
+					249.1849999999977, -- [1]
+					"Ashîro-Aegwynn", -- [2]
 					108271, -- [3]
+				}, -- [4]
+				{
+					292.1079999999929, -- [1]
+					"The Tarragrue", -- [2]
+					198103, -- [3]
+				}, -- [5]
+			},
+			["Ocolot-Barthilas"] = {
+				{
+					45.69099999999162, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [1]
+				{
+					231.3909999999887, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					97462, -- [3]
+				}, -- [2]
+			},
+			["Worvean"] = {
+				{
+					119.7729999999865, -- [1]
+					"Worvean", -- [2]
+					31224, -- [3]
 				}, -- [1]
 			},
 			["Mafiki"] = {
 				{
-					3.363999999994121, -- [1]
+					34.29899999999907, -- [1]
 					"[*] raid wide cooldown", -- [2]
 					108280, -- [3]
+				}, -- [1]
+				{
+					222.5359999999928, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [2]
+				{
+					243.5380000000005, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					16191, -- [3]
+				}, -- [3]
+			},
+			["Zenaxia-Stormscale"] = {
+				{
+					23.5509999999922, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					116849, -- [3]
+				}, -- [1]
+				{
+					47.95599999999104, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					322118, -- [3]
+				}, -- [2]
+				{
+					87.82200000000012, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					115310, -- [3]
+				}, -- [3]
+				{
+					213.6219999999885, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					322118, -- [3]
+				}, -- [4]
+				{
+					300.1489999999903, -- [1]
+					"Kaoruchan-Area52", -- [2]
+					116849, -- [3]
+				}, -- [5]
+			},
+			["Galthran-Jubei'Thos"] = {
+				{
+					132.6199999999953, -- [1]
+					"Galthran-Jubei'Thos", -- [2]
+					48743, -- [3]
 				}, -- [1]
 			},
 		}, -- [1]
 		{
-			["Mafiki"] = {
+			["Thenendoa-Area52"] = {
 				{
-					38.75, -- [1]
-					"[*] raid wide cooldown", -- [2]
-					98008, -- [3]
+					41.27700000000186, -- [1]
+					"Thenendoa-Area52", -- [2]
+					45438, -- [3]
 				}, -- [1]
 			},
-			["Tehral-Kel'Thuzad"] = {
+			["Psälm-WyrmrestAccord"] = {
 				{
-					3.625, -- [1]
-					"Tehral-Kel'Thuzad", -- [2]
-					108271, -- [3]
+					37.86000000000058, -- [1]
+					"The Tarragrue", -- [2]
+					122470, -- [3]
+				}, -- [1]
+			},
+			["Fobz-Khaz'goroth"] = {
+				{
+					20.00599999999395, -- [1]
+					"Fobz-Khaz'goroth", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+			["Worvean"] = {
+				{
+					36.97699999999895, -- [1]
+					"Worvean", -- [2]
+					31224, -- [3]
+				}, -- [1]
+			},
+			["Mafiki"] = {
+				{
+					63.82699999999022, -- [1]
+					"[*] raid wide cooldown", -- [2]
+					108280, -- [3]
+				}, -- [1]
+			},
+			["Kittymeows-Barthilas"] = {
+				{
+					41.15399999999499, -- [1]
+					"Kittymeows-Barthilas", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
+			["Kaoruchan-Area52"] = {
+				{
+					51.40299999999115, -- [1]
+					"Kaoruchan-Area52", -- [2]
+					45438, -- [3]
+				}, -- [1]
+			},
+			["Preeminance-Area52"] = {
+				{
+					45.9259999999922, -- [1]
+					"Preeminance-Area52", -- [2]
+					109304, -- [3]
+				}, -- [1]
+			},
+			["Støøge-Zul'jin"] = {
+				{
+					6.122999999992317, -- [1]
+					"Støøge-Zul'jin", -- [2]
+					48792, -- [3]
+				}, -- [1]
+			},
+			["Bullshiza-Mal'Ganis"] = {
+				{
+					32.30499999999302, -- [1]
+					"Bullshiza-Mal'Ganis", -- [2]
+					22812, -- [3]
+				}, -- [1]
+			},
+			["Zenaxia-Stormscale"] = {
+				{
+					24.57499999999709, -- [1]
+					"Bullshiza-Mal'Ganis", -- [2]
+					116849, -- [3]
+				}, -- [1]
+			},
+			["Agacrow-Kil'jaeden"] = {
+				{
+					5.044999999998254, -- [1]
+					"Agacrow-Kil'jaeden", -- [2]
+					22812, -- [3]
 				}, -- [1]
 			},
 		}, -- [2]
 		{
+			["Dirkamar-Arthas"] = {
+				{
+					2.796999999998661, -- [1]
+					"Ner'zhul", -- [2]
+					204021, -- [3]
+				}, -- [1]
+			},
+			["Selisabeth"] = {
+				{
+					35.90199999999459, -- [1]
+					"Selisabeth", -- [2]
+					642, -- [3]
+				}, -- [1]
+			},
 			["Mafiki"] = {
 				{
-					12.9320000000007, -- [1]
+					8.257999999994354, -- [1]
 					"[*] raid wide cooldown", -- [2]
 					108280, -- [3]
 				}, -- [1]
-			},
-			["Tehral-Kel'Thuzad"] = {
-				{
-					3.586999999999534, -- [1]
-					"Tehral-Kel'Thuzad", -- [2]
-					108271, -- [3]
-				}, -- [1]
-				{
-					4.756999999997788, -- [1]
-					"Echelon", -- [2]
-					198103, -- [3]
-				}, -- [2]
 			},
 		}, -- [3]
 		{
-			["Prîestitute-Kel'Thuzad"] = {
-				{
-					22.25699999999779, -- [1]
-					"Prîestitute-Kel'Thuzad", -- [2]
-					47585, -- [3]
-				}, -- [1]
-			},
 			["Mafiki"] = {
 				{
-					11.36000000000058, -- [1]
+					7.111000000004424, -- [1]
 					"[*] raid wide cooldown", -- [2]
 					108280, -- [3]
 				}, -- [1]
-			},
-			["Tehral-Kel'Thuzad"] = {
 				{
-					14.82999999999447, -- [1]
-					"Tehral-Kel'Thuzad", -- [2]
-					108271, -- [3]
-				}, -- [1]
+					108.6890000000058, -- [1]
+					"Mafiki", -- [2]
+					114052, -- [3]
+				}, -- [2]
 			},
 		}, -- [4]
 	},
@@ -28452,8 +42386,1128 @@ DetailsTimeLineDB = {
 	},
 	["deaths_data"] = {
 		{
+			["Serci-Shandris"] = {
+				{
+					["time"] = 236.226999999999,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5418, -- [3]
+							1626353596.553, -- [4]
+							45174, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5417, -- [3]
+							1626353598.539, -- [4]
+							43485, -- [5]
+							"The Tarragrue", -- [6]
+							3062, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5417, -- [3]
+							1626353600.555, -- [4]
+							39778, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Cramptron-EmeraldDream"] = {
+				{
+					["time"] = 130.3449999999866,
+					["events"] = {
+						{
+							true, -- [1]
+							347737, -- [2]
+							43700, -- [3]
+							1626353494.974, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							3110, -- [10]
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["Galthran-Jubei'Thos"] = {
+				{
+					["time"] = 145.3499999999913,
+					["events"] = {
+					},
+				}, -- [1]
+			},
+			["Zenaxia-Stormscale"] = {
+				{
+					["time"] = 130.3449999999866,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5438, -- [3]
+							1626353490.963, -- [4]
+							31025, -- [5]
+							"The Tarragrue", -- [6]
+							196, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5438, -- [3]
+							1626353492.959, -- [4]
+							29703, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							347671, -- [2]
+							42132, -- [3]
+							1626353494.974, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							6035, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Torra-Jubei'Thos"] = {
+				{
+					["time"] = 97.82799999999406,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							15507, -- [3]
+							1626353457.884, -- [4]
+							49095, -- [5]
+							"The Tarragrue", -- [6]
+							192, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							30979, -- [3]
+							1626353460.693, -- [4]
+							51619, -- [5]
+							"The Tarragrue", -- [6]
+							18898, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							47539, -- [3]
+							1626353462.423, -- [4]
+							43375, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							4164, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
 		}, -- [1]
 		{
+			["Thenendoa-Area52"] = {
+				{
+					["time"] = 69.15899999999965,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5672, -- [3]
+							1626353135.958, -- [4]
+							5105, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5672, -- [3]
+							1626353137.968, -- [4]
+							2745, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5672, -- [3]
+							1626353139.965, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							1110, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Fobz-Khaz'goroth"] = {
+				{
+					["time"] = 85.17199999999139,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5461, -- [3]
+							1626353151.953, -- [4]
+							7340, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5460, -- [3]
+							1626353153.952, -- [4]
+							1880, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5460, -- [3]
+							1626353155.978, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							3212, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Taijeron-Caelestrasz"] = {
+				{
+					["time"] = 33.4890000000014,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5423, -- [3]
+							1626353101.438, -- [4]
+							28620, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5423, -- [3]
+							1626353103.471, -- [4]
+							26398, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							347737, -- [2]
+							43379, -- [3]
+							1626353104.262, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							16470, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Lionsavenger"] = {
+				{
+					["time"] = 33.4890000000014,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5414, -- [3]
+							1626353100.786, -- [4]
+							15478, -- [5]
+							"The Tarragrue", -- [6]
+							192, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5415, -- [3]
+							1626353102.788, -- [4]
+							11936, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							347737, -- [2]
+							25989, -- [3]
+							1626353104.237, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							13887, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Cauterized"] = {
+				{
+					["time"] = 38.64199999999255,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							3296, -- [3]
+							1626353107.425, -- [4]
+							27427, -- [5]
+							"The Tarragrue", -- [6]
+							694, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							347737, -- [2]
+							26365, -- [3]
+							1626353109.224, -- [4]
+							2126, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							3296, -- [3]
+							1626353109.448, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							1170, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Kittymeows-Barthilas"] = {
+				{
+					["time"] = 105.7770000000019,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							23231, -- [3]
+							1626353173.873, -- [4]
+							38330, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							6808, -- [3]
+							1626353175.863, -- [4]
+							14048, -- [5]
+							"The Tarragrue", -- [6]
+							192, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							31402, -- [3]
+							1626353176.572, -- [4]
+							14923, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							16479, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Ovechkina-Nordrassil"] = {
+				{
+					["time"] = 111.7200000000012,
+					["events"] = {
+						{
+							true, -- [1]
+							87023, -- [2]
+							3370, -- [3]
+							1626353181.014, -- [4]
+							7426, -- [5]
+							"Ovechkina-Nordrassil", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							true, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							6119, -- [3]
+							1626353181.859, -- [4]
+							1307, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							87023, -- [2]
+							3370, -- [3]
+							1626353182.526, -- [4]
+							1, -- [5]
+							"Ovechkina-Nordrassil", -- [6]
+							nil, -- [7]
+							4, -- [8]
+							true, -- [9]
+							1986, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Aksara"] = {
+				{
+					["time"] = 33.4890000000014,
+					["events"] = {
+						{
+							true, -- [1]
+							347737, -- [2]
+							39913, -- [3]
+							1626353104.262, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							3933, -- [10]
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["Støøge-Zul'jin"] = {
+				{
+					["time"] = 69.23699999999371,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							58135, -- [3]
+							1626353140.026, -- [4]
+							32763, -- [5]
+							"The Tarragrue", -- [6]
+							10410, -- [7]
+							1, -- [8]
+							false, -- [9]
+							14962, -- [10]
+						}, -- [1]
+					},
+				}, -- [1]
+			},
+			["Agacrow-Kil'jaeden"] = {
+				{
+					["time"] = 20.42299999999523,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							45565, -- [3]
+							1626353089.448, -- [4]
+							33604, -- [5]
+							"The Tarragrue", -- [6]
+							18820, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							45599, -- [3]
+							1626353091.199, -- [4]
+							27428, -- [5]
+							"The Tarragrue", -- [6]
+							14166, -- [7]
+							1, -- [8]
+							false, -- [9]
+							4005, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+				{
+					["time"] = 33.4890000000014,
+					["events"] = {
+						{
+							true, -- [1]
+							347737, -- [2]
+							43174, -- [3]
+							1626353104.237, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							245, -- [7]
+							32, -- [8]
+							false, -- [9]
+							1170, -- [10]
+						}, -- [1]
+					},
+				}, -- [2]
+			},
+			["Gwenzin-Jubei'Thos"] = {
+				{
+					["time"] = 101.5939999999973,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5681, -- [3]
+							1626353169.87, -- [4]
+							1022, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5681, -- [3]
+							1626353171.861, -- [4]
+							257, -- [5]
+							"The Tarragrue", -- [6]
+							4663, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							23290, -- [3]
+							1626353172.373, -- [4]
+							257, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							23033, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Kaoruchan-Area52"] = {
+				{
+					["time"] = 70.7329999999929,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							37664, -- [3]
+							1626353137.011, -- [4]
+							56080, -- [5]
+							"The Tarragrue", -- [6]
+							12194, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							36182, -- [3]
+							1626353141.525, -- [4]
+							32610, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							3572, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+			["Kalunom-Winterhoof"] = {
+				{
+					["time"] = 38.44800000000396,
+					["events"] = {
+						{
+							true, -- [1]
+							347737, -- [2]
+							43434, -- [3]
+							1626353104.262, -- [4]
+							2353, -- [5]
+							"The Tarragrue", -- [6]
+							12167, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							347737, -- [2]
+							43434, -- [3]
+							1626353109.254, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							37732, -- [10]
+						}, -- [2]
+					},
+				}, -- [1]
+			},
+			["Ashîro-Aegwynn"] = {
+				{
+					["time"] = 129.8760000000038,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							30071, -- [3]
+							1626353196.217, -- [4]
+							43900, -- [5]
+							"The Tarragrue", -- [6]
+							13170, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							346985, -- [2]
+							28795, -- [3]
+							1626353197.814, -- [4]
+							11384, -- [5]
+							"The Tarragrue", -- [6]
+							13170, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							91741, -- [3]
+							1626353200.647, -- [4]
+							11411, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							80330, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Psälm-WyrmrestAccord"] = {
+				{
+					["time"] = 95.07399999999325,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5344, -- [3]
+							1626353161.865, -- [4]
+							6721, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5345, -- [3]
+							1626353163.862, -- [4]
+							3243, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5344, -- [3]
+							1626353165.88, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							1361, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Preeminance-Area52"] = {
+				{
+					["time"] = 95.07399999999325,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5431, -- [3]
+							1626353161.865, -- [4]
+							7756, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5431, -- [3]
+							1626353163.875, -- [4]
+							2248, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5431, -- [3]
+							1626353165.88, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							3183, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Mafiki"] = {
+				{
+					["time"] = 93.18399999999383,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5354, -- [3]
+							1626353161.946, -- [4]
+							8014, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							354173, -- [2]
+							7390, -- [3]
+							1626353163.453, -- [4]
+							2334, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5354, -- [3]
+							1626353163.958, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							382, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Worvean"] = {
+				{
+					["time"] = 91.47099999999045,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							22877, -- [3]
+							1626353159.252, -- [4]
+							7802, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							15075, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							3592, -- [3]
+							1626353160.746, -- [4]
+							4403, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							22801, -- [3]
+							1626353162.252, -- [4]
+							5007, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							17794, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Cramptron-EmeraldDream"] = {
+				{
+					["time"] = 38.44800000000396,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5463, -- [3]
+							1626353106.805, -- [4]
+							13829, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5463, -- [3]
+							1626353108.789, -- [4]
+							14384, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							347737, -- [2]
+							43701, -- [3]
+							1626353109.224, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							28737, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Serci-Shandris"] = {
+				{
+					["time"] = 33.43099999999686,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5417, -- [3]
+							1626353099.425, -- [4]
+							30464, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5418, -- [3]
+							1626353101.438, -- [4]
+							27554, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5418, -- [3]
+							1626353103.471, -- [4]
+							29009, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Torra-Jubei'Thos"] = {
+				{
+					["time"] = 62.5969999999943,
+					["events"] = {
+						{
+							true, -- [1]
+							1, -- [2]
+							17512, -- [3]
+							1626353129.23, -- [4]
+							29558, -- [5]
+							"The Tarragrue", -- [6]
+							9518, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							18017, -- [3]
+							1626353130.44, -- [4]
+							47687, -- [5]
+							"The Tarragrue", -- [6]
+							7868, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							48798, -- [3]
+							1626353133.376, -- [4]
+							44347, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							4451, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Bullshiza-Mal'Ganis"] = {
+				{
+					["time"] = 33.4890000000014,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5487, -- [3]
+							1626353101.438, -- [4]
+							25340, -- [5]
+							"The Tarragrue", -- [6]
+							5396, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							4389, -- [3]
+							1626353103.471, -- [4]
+							24340, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							347671, -- [2]
+							34529, -- [3]
+							1626353104.215, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							9590, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Zenaxia-Stormscale"] = {
+				{
+					["time"] = 33.4890000000014,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5438, -- [3]
+							1626353101.438, -- [4]
+							23516, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5438, -- [3]
+							1626353103.471, -- [4]
+							18748, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							347737, -- [2]
+							42132, -- [3]
+							1626353104.262, -- [4]
+							1, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							22625, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Norfleet-Zul'jin"] = {
+				{
+					["time"] = 64.7329999999929,
+					["events"] = {
+						{
+							true, -- [1]
+							357431, -- [2]
+							5339, -- [3]
+							1626353131.957, -- [4]
+							26536, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							357431, -- [2]
+							5338, -- [3]
+							1626353133.967, -- [4]
+							21539, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							32, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							35756, -- [3]
+							1626353135.52, -- [4]
+							22893, -- [5]
+							"The Tarragrue", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							12863, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
 		}, -- [2]
 		{
 		}, -- [3]
@@ -28462,234 +43516,1371 @@ DetailsTimeLineDB = {
 	},
 	["debuff_timeline"] = {
 		{
-			["Bigasstank-Kel'Thuzad"] = {
-				[335338] = {
-					35.21999999999389, -- [1]
-					36.22599999999511, -- [2]
-					36.22599999999511, -- [3]
-					39.2239999999947, -- [4]
+			["Thenendoa-Area52"] = {
+				[347269] = {
+					84.85299999998824, -- [1]
+					92.85299999998824, -- [2]
+					304.7209999999905, -- [3]
+					312.7369999999937, -- [4]
 					["stacks"] = {
 					},
-					["source"] = "Lord Chamberlain",
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.30899999999383, -- [1]
+					48.31499999998778, -- [2]
+					80.41099999999278, -- [3]
+					120.4409999999916, -- [4]
+					175.9089999999997, -- [5]
+					215.9209999999875, -- [6]
+					299.0409999999974, -- [7]
+					323.028999999995, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					6.365999999994529, -- [1]
+					27.37099999999919, -- [2]
+					101.1549999999988, -- [3]
+					118.5759999999864, -- [4]
+					143.6639999999898, -- [5]
+					164.6739999999991, -- [6]
+					170.3619999999937, -- [7]
+					186.3099999999977, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
 					["active"] = false,
 				},
 			},
-			["Eurozlol"] = {
-				[137619] = {
-					46.65499999999884, -- [1]
+			["Fobz-Khaz'goroth"] = {
+				[357431] = {
+					21.68299999998999, -- [1]
+					61.68499999999767, -- [2]
+					80.41099999999278, -- [3]
+					120.4409999999916, -- [4]
+					243.9249999999884, -- [5]
+					283.9239999999991, -- [6]
 					["stacks"] = {
 					},
-					["source"] = "Sapnasty-EmeraldDream",
-					["active"] = true,
+					["source"] = "The Tarragrue",
+					["active"] = false,
 				},
-			},
-			["Eightbawlz"] = {
-				[51714] = {
-					46.65499999999884, -- [1]
-					46.65499999999884, -- [2]
+				[347283] = {
+					196.2439999999915, -- [1]
+					217.2399999999907, -- [2]
+					239.5720000000001, -- [3]
+					260.5829999999987, -- [4]
+					266.2889999999898, -- [5]
+					287.2969999999914, -- [6]
 					["stacks"] = {
 					},
-					["source"] = "Goréfiend-Illidan",
+					["source"] = "The Tarragrue",
 					["active"] = false,
 				},
 			},
-			["Drtyfiend"] = {
-				[115804] = {
-					46.65499999999884, -- [1]
-					46.65499999999884, -- [2]
+			["Taijeron-Caelestrasz"] = {
+				[357431] = {
+					52.47099999999045, -- [1]
+					92.47699999999895, -- [2]
+					147.9889999999869, -- [3]
+					188.0279999999912, -- [4]
+					203.8189999999886, -- [5]
+					243.8269999999902, -- [6]
+					243.9249999999884, -- [7]
+					311.9309999999969, -- [8]
 					["stacks"] = {
 					},
-					["source"] = "Purz-EmeraldDream",
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					74.82399999999325, -- [1]
+					87.83599999999569, -- [2]
+					196.2439999999915, -- [3]
+					198.6699999999983, -- [4]
+					239.5720000000001, -- [5]
+					249.6440000000002, -- [6]
+					266.2889999999898, -- [7]
+					287.2969999999914, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Lionsavenger"] = {
+				[347283] = {
+					196.2439999999915, -- [1]
+					212.156999999992, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Cauterized"] = {
+				[357431] = {
+					8.30899999999383, -- [1]
+					48.31499999998778, -- [2]
+					80.41099999999278, -- [3]
+					120.4409999999916, -- [4]
+					147.9889999999869, -- [5]
+					188.0049999999901, -- [6]
+					203.8189999999886, -- [7]
+					243.8269999999902, -- [8]
+					299.0409999999974, -- [9]
+					323.028999999995, -- [10]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					48.13799999999174, -- [1]
+					67.91399999998976, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Kittymeows-Barthilas"] = {
+				[347269] = {
+					207.4669999999896, -- [1]
+					215.4709999999905, -- [2]
+					248.7889999999898, -- [3]
+					256.8089999999938, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					52.47099999999045, -- [1]
+					120.4879999999976, -- [2]
+					203.8189999999886, -- [3]
+					243.8269999999902, -- [4]
+					299.0409999999974, -- [5]
+					323.028999999995, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					101.1549999999988, -- [1]
+					122.1609999999928, -- [2]
+					170.3619999999937, -- [3]
+					178.0099999999948, -- [4]
+					239.5720000000001, -- [5]
+					260.5829999999987, -- [6]
+					266.2889999999898, -- [7]
+					287.2969999999914, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Aksara"] = {
+				[347269] = {
+					276.7369999999937, -- [1]
+					284.7329999999929, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347274] = {
+					124.3489999999874, -- [1]
+					134.3459999999905, -- [2]
+					288.3399999999965, -- [3]
+					298.3479999999981, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					6.365999999994529, -- [1]
+					7.913999999989756, -- [2]
+					48.13799999999174, -- [3]
+					64.96600000000035, -- [4]
+					143.6639999999898, -- [5]
+					164.6739999999991, -- [6]
+					170.3619999999937, -- [7]
+					175.2939999999944, -- [8]
+					292.2469999999885, -- [9]
+					296.5239999999903, -- [10]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347554] = {
+					121.0869999999995, -- [1]
+					123.0759999999864, -- [2]
+					285.0919999999896, -- [3]
+					287.0969999999943, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					21.68299999998999, -- [1]
+					93.69999999999709, -- [2]
+					108.310999999987, -- [3]
+					188.3229999999894, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Støøge-Zul'jin"] = {
+				[357431] = {
+					8.30899999999383, -- [1]
+					48.31499999998778, -- [2]
+					52.47099999999045, -- [3]
+					92.47699999999895, -- [4]
+					108.310999999987, -- [5]
+					148.3279999999941, -- [6]
+					243.9249999999884, -- [7]
+					311.9309999999969, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					48.13799999999174, -- [1]
+					69.13399999999092, -- [2]
+					74.82399999999325, -- [3]
+					87.83599999999569, -- [4]
+					170.3619999999937, -- [5]
+					191.3539999999921, -- [6]
+					239.5720000000001, -- [7]
+					251.5359999999928, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Agacrow-Kil'jaeden"] = {
+				[347554] = {
+					21.77199999999721, -- [1]
+					23.7899999999936, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[346985] = {
+					11.75299999999697, -- [1]
+					15.75, -- [2]
+					50.66199999999662, -- [3]
+					54.67199999999139, -- [4]
+					106.5109999999986, -- [5]
+					110.5139999999956, -- [6]
+					202.4079999999958, -- [7]
+					206.4130000000005, -- [8]
+					242.4929999999877, -- [9]
+					246.4969999999885, -- [10]
+					297.1889999999985, -- [11]
+					301.2199999999866, -- [12]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[346986] = {
+					11.75299999999697, -- [1]
+					31.76599999998871, -- [2]
+					50.66199999999662, -- [3]
+					70.66199999999662, -- [4]
+					106.5109999999986, -- [5]
+					126.5229999999865, -- [6]
+					202.4079999999958, -- [7]
+					222.4079999999958, -- [8]
+					242.4929999999877, -- [9]
+					262.4919999999984, -- [10]
+					297.1889999999985, -- [11]
+					317.2149999999965, -- [12]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347274] = {
+					25.02799999999115, -- [1]
+					35.04299999999057, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Gwenzin-Jubei'Thos"] = {
+				[347274] = {
+					260.0409999999974, -- [1]
+					264.3940000000002, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347554] = {
+					257.0759999999864, -- [1]
+					258.7829999999958, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					48.13799999999174, -- [1]
+					52.87299999999232, -- [2]
+					74.82399999999325, -- [3]
+					78.21999999998661, -- [4]
+					101.1549999999988, -- [5]
+					122.1609999999928, -- [6]
+					239.5720000000001, -- [7]
+					258.6399999999994, -- [8]
+					292.2469999999885, -- [9]
+					313.2339999999967, -- [10]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347269] = {
+					179.9660000000004, -- [1]
+					187.9749999999913, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.30899999999383, -- [1]
+					48.29799999999523, -- [2]
+					147.9889999999869, -- [3]
+					311.9889999999869, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Kaoruchan-Area52"] = {
+				[347274] = {
+					96.27999999999884, -- [1]
+					106.2839999999997, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347554] = {
+					93.30599999999686, -- [1]
+					95.01900000000023, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					52.47099999999045, -- [1]
+					92.47699999999895, -- [2]
+					108.310999999987, -- [3]
+					148.3279999999941, -- [4]
+					270.6669999999867, -- [5]
+					310.6719999999914, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347269] = {
+					13.58099999999104, -- [1]
+					21.59100000000035, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[307747] = {
+					13.88399999999092, -- [1]
+					17.18999999998778, -- [2]
+					62.41300000000047, -- [3]
+					64.11699999999837, -- [4]
+					161.8979999999865, -- [5]
+					163.4399999999878, -- [6]
+					218.3699999999953, -- [7]
+					220.0889999999927, -- [8]
+					270.6669999999867, -- [9]
+					272.1049999999959, -- [10]
+					321.2289999999921, -- [11]
+					323.028999999995, -- [12]
+					["stacks"] = {
+					},
+					["source"] = "[*] Radiant Spark",
+					["active"] = false,
+				},
+				[347283] = {
+					48.13799999999174, -- [1]
+					57.9149999999936, -- [2]
+					143.6639999999898, -- [3]
+					151.4249999999884, -- [4]
+					196.2439999999915, -- [5]
+					217.2399999999907, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Dedaelyn-Area52"] = {
+				[347283] = {
+					74.82399999999325, -- [1]
+					87.83599999999569, -- [2]
+					170.3619999999937, -- [3]
+					180.3579999999929, -- [4]
+					196.2439999999915, -- [5]
+					199.3649999999907, -- [6]
+					292.2469999999885, -- [7]
+					313.2339999999967, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					80.41099999999278, -- [1]
+					119.9189999999944, -- [2]
+					147.9889999999869, -- [3]
+					161.3589999999967, -- [4]
+					175.9089999999997, -- [5]
+					215.9209999999875, -- [6]
+					243.9249999999884, -- [7]
+					283.9239999999991, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Kalunom-Winterhoof"] = {
+				[347283] = {
+					6.365999999994529, -- [1]
+					17.18999999998778, -- [2]
+					101.1549999999988, -- [3]
+					122.1609999999928, -- [4]
+					143.6639999999898, -- [5]
+					164.6739999999991, -- [6]
+					196.2439999999915, -- [7]
+					217.2399999999907, -- [8]
+					266.2889999999898, -- [9]
+					287.2969999999914, -- [10]
+					292.2469999999885, -- [11]
+					313.2339999999967, -- [12]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					21.68299999998999, -- [1]
+					61.68499999999767, -- [2]
+					108.310999999987, -- [3]
+					148.3279999999941, -- [4]
+					203.8189999999886, -- [5]
+					243.8269999999902, -- [6]
+					243.9249999999884, -- [7]
+					283.9239999999991, -- [8]
+					299.0409999999974, -- [9]
+					323.028999999995, -- [10]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Torra-Jubei'Thos"] = {
+				[346986] = {
+					78.54999999998836, -- [1]
+					97.81099999998696, -- [2]
+					146.580999999991, -- [3]
+					166.5869999999995, -- [4]
+					174.5019999999931, -- [5]
+					194.502999999997, -- [6]
+					269.630999999994, -- [7]
+					289.6349999999948, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Serci-Shandris"] = {
+				[357431] = {
+					52.47099999999045, -- [1]
+					92.47699999999895, -- [2]
+					175.9089999999997, -- [3]
+					236.226999999999, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					143.6639999999898, -- [1]
+					151.5999999999913, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Bullshiza-Mal'Ganis"] = {
+				[357431] = {
+					21.68299999998999, -- [1]
+					61.68499999999767, -- [2]
+					80.41099999999278, -- [3]
+					120.4409999999916, -- [4]
+					243.9249999999884, -- [5]
+					311.9309999999969, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					74.82399999999325, -- [1]
+					82.28899999998976, -- [2]
+					266.2889999999898, -- [3]
+					287.2969999999914, -- [4]
+					292.2469999999885, -- [5]
+					305.0469999999914, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Psälm-WyrmrestAccord"] = {
+				[347269] = {
+					152.8459999999905, -- [1]
+					160.9249999999884, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.30899999999383, -- [1]
+					48.31499999998778, -- [2]
+					80.41099999999278, -- [3]
+					120.4409999999916, -- [4]
+					175.9089999999997, -- [5]
+					215.9209999999875, -- [6]
+					270.6669999999867, -- [7]
+					310.6719999999914, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					6.365999999994529, -- [1]
+					20.54799999999523, -- [2]
+					48.13799999999174, -- [3]
+					57.9149999999936, -- [4]
+					74.82399999999325, -- [5]
+					87.83599999999569, -- [6]
+					292.2469999999885, -- [7]
+					311.4029999999912, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Worvean"] = {
+				[347269] = {
+					112.7849999999889, -- [1]
+					120.7909999999974, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					21.68299999998999, -- [1]
+					24.85199999999895, -- [2]
+					108.310999999987, -- [3]
+					114.8449999999866, -- [4]
+					147.9889999999869, -- [5]
+					162.8439999999973, -- [6]
+					175.9089999999997, -- [7]
+					182.8509999999951, -- [8]
+					270.6669999999867, -- [9]
+					285.8529999999882, -- [10]
+					299.0409999999974, -- [11]
+					299.859999999986, -- [12]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					48.13799999999174, -- [1]
+					61.84100000000035, -- [2]
+					101.1549999999988, -- [3]
+					105.8319999999949, -- [4]
+					239.5720000000001, -- [5]
+					246.8410000000004, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Ashîro-Aegwynn"] = {
+				[347283] = {
+					6.365999999994529, -- [1]
+					10.94599999999628, -- [2]
+					170.3619999999937, -- [3]
+					172.726999999999, -- [4]
+					196.2439999999915, -- [5]
+					212.1989999999933, -- [6]
+					266.2889999999898, -- [7]
+					278.7339999999967, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.30899999999383, -- [1]
+					13.7219999999943, -- [2]
+					52.47099999999045, -- [3]
+					56.72099999999045, -- [4]
+					203.8189999999886, -- [5]
+					208.7409999999945, -- [6]
+					299.0409999999974, -- [7]
+					316.7259999999951, -- [8]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Norfleet-Zul'jin"] = {
+				[347269] = {
+					56.90399999999499, -- [1]
+					64.9259999999922, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					80.41099999999278, -- [1]
+					120.4409999999916, -- [2]
+					147.9889999999869, -- [3]
+					188.0049999999901, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					143.6639999999898, -- [1]
+					164.6739999999991, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[307747] = {
+					15.18199999998615, -- [1]
+					17.85099999999511, -- [2]
+					64.9259999999922, -- [3]
+					65.21199999999953, -- [4]
+					124.1839999999938, -- [5]
+					126.0019999999931, -- [6]
+					173.7929999999906, -- [7]
+					174.4639999999927, -- [8]
+					220.7749999999942, -- [9]
+					222.8769999999931, -- [10]
+					268.185999999987, -- [11]
+					268.8619999999937, -- [12]
+					314.705999999991, -- [13]
+					315.708999999988, -- [14]
+					["stacks"] = {
+					},
+					["source"] = "[*] Radiant Spark",
+					["active"] = false,
+				},
+			},
+			["Zenaxia-Stormscale"] = {
+				[357431] = {
+					8.30899999999383, -- [1]
+					62.30699999998615, -- [2]
+					108.310999999987, -- [3]
+					130.3220000000001, -- [4]
+					243.9249999999884, -- [5]
+					283.9239999999991, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					170.3619999999937, -- [1]
+					179.4109999999928, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Mafiki"] = {
+				[347283] = {
+					6.365999999994529, -- [1]
+					14.04799999999523, -- [2]
+					101.1549999999988, -- [3]
+					103.880999999994, -- [4]
+					143.6639999999898, -- [5]
+					146.9130000000005, -- [6]
+					239.5720000000001, -- [7]
+					241.2549999999901, -- [8]
+					266.2889999999898, -- [9]
+					287.2969999999914, -- [10]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					147.9889999999869, -- [1]
+					188.0049999999901, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Ocolot-Barthilas"] = {
+				[347554] = {
+					65.01199999998789, -- [1]
+					67.02699999998731, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					175.9089999999997, -- [1]
+					243.9249999999884, -- [2]
+					299.0409999999974, -- [3]
+					323.028999999995, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					6.365999999994529, -- [1]
+					27.37099999999919, -- [2]
+					74.82399999999325, -- [3]
+					87.83599999999569, -- [4]
+					292.2469999999885, -- [5]
+					313.2339999999967, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347274] = {
+					68.28299999999581, -- [1]
+					78.29099999999744, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Galthran-Jubei'Thos"] = {
+				[357431] = {
+					8.30899999999383, -- [1]
+					48.31499999998778, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					101.1549999999988, -- [1]
+					104.7309999999998, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
 					["active"] = false,
 				},
 			},
 		}, -- [1]
 		{
-			["Bigasstank-Kel'Thuzad"] = {
-				[323650] = {
-					17.85599999999977, -- [1]
-					24.18299999999726, -- [2]
+			["Thenendoa-Area52"] = {
+				[347283] = {
+					6.690999999991618, -- [1]
+					21.61299999999756, -- [2]
+					46.77099999999336, -- [3]
+					67.79299999999057, -- [4]
 					["stacks"] = {
 					},
-					["source"] = "Ghastly Parishioner",
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					51.15099999999802, -- [1]
+					69.14299999999639, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
 					["active"] = false,
 				},
 			},
-			["Prîestitute-Kel'Thuzad"] = {
-				[323650] = {
-					38.49399999999878, -- [1]
-					44.48300000000018, -- [2]
+			["Fobz-Khaz'goroth"] = {
+				[347269] = {
+					13.47099999999045, -- [1]
+					21.48699999999371, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Ghastly Parishioner",
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.611999999993714, -- [1]
+					20.00599999999395, -- [2]
+					51.15099999999802, -- [3]
+					85.14800000000105, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					46.77099999999336, -- [1]
+					67.79299999999057, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Taijeron-Caelestrasz"] = {
+				[347283] = {
+					6.690999999991618, -- [1]
+					20.39299999999639, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.611999999993714, -- [1]
+					33.43099999999686, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Lionsavenger"] = {
+				[357431] = {
+					21.98399999999674, -- [1]
+					33.43099999999686, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Cauterized"] = {
+				[357431] = {
+					8.611999999993714, -- [1]
+					38.61499999999069, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Kittymeows-Barthilas"] = {
+				[347283] = {
+					72.29399999999441, -- [1]
+					90.56599999999162, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					79.05400000000373, -- [1]
+					105.7660000000033, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Ovechkina-Nordrassil"] = {
+				[357431] = {
+					79.05400000000373, -- [1]
+					111.7200000000012, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					108.4140000000043, -- [1]
+					111.7200000000012, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Aksara"] = {
+				[347283] = {
+					6.690999999991618, -- [1]
+					27.70199999999022, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Støøge-Zul'jin"] = {
+				[347283] = {
+					46.77099999999336, -- [1]
+					67.79299999999057, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Agacrow-Kil'jaeden"] = {
+				[346986] = {
+					12.05199999999604, -- [1]
+					20.39299999999639, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[346985] = {
+					12.05199999999604, -- [1]
+					16.04499999999825, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Gwenzin-Jubei'Thos"] = {
+				[347283] = {
+					6.690999999991618, -- [1]
+					9.936000000001513, -- [2]
+					72.29399999999441, -- [3]
+					93.30299999999988, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					79.05400000000373, -- [1]
+					101.5760000000009, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Kaoruchan-Area52"] = {
+				[307747] = {
+					17.76299999999174, -- [1]
+					21.13399999999092, -- [2]
+					64.93499999999767, -- [3]
+					66.03500000000349, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "[*] Radiant Spark",
+					["active"] = false,
+				},
+				[357431] = {
+					51.15099999999802, -- [1]
+					51.40299999999115, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Kalunom-Winterhoof"] = {
+				[347283] = {
+					6.690999999991618, -- [1]
+					27.70199999999022, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Torra-Jubei'Thos"] = {
+				[346986] = {
+					49.71899999999732, -- [1]
+					62.56999999999243, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Mafiki"] = {
+				[347269] = {
+					83.92500000000291, -- [1]
+					91.92500000000291, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					51.15099999999802, -- [1]
+					93.15200000000186, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					46.77099999999336, -- [1]
+					55.59999999999127, -- [2]
+					72.29399999999441, -- [3]
+					74.80000000000291, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Preeminance-Area52"] = {
+				[357431] = {
+					21.98399999999674, -- [1]
+					61.98200000000361, -- [2]
+					79.05400000000373, -- [3]
+					95.07399999999325, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					72.29399999999441, -- [1]
+					93.30299999999988, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Ashîro-Aegwynn"] = {
+				[347269] = {
+					56.00400000000082, -- [1]
+					64.00899999999092, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					21.98399999999674, -- [1]
+					33.55299999999988, -- [2]
+					51.15099999999802, -- [3]
+					58.54799999999523, -- [4]
+					128.6359999999986, -- [5]
+					129.849000000002, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					46.77099999999336, -- [1]
+					67.79299999999057, -- [2]
+					72.29399999999441, -- [3]
+					85.55199999999604, -- [4]
+					108.4140000000043, -- [5]
+					120.5489999999991, -- [6]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[346986] = {
+					127.0080000000016, -- [1]
+					129.849000000002, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Psälm-WyrmrestAccord"] = {
+				[357431] = {
+					8.611999999993714, -- [1]
+					48.62299999999232, -- [2]
+					79.05400000000373, -- [3]
+					95.06100000000151, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					46.77099999999336, -- [1]
+					67.79299999999057, -- [2]
+					72.29399999999441, -- [3]
+					93.30299999999988, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Cramptron-EmeraldDream"] = {
+				[357431] = {
+					21.98399999999674, -- [1]
+					38.41799999999057, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Worvean"] = {
+				[357431] = {
+					21.98399999999674, -- [1]
+					35.67299999999523, -- [2]
+					51.15099999999802, -- [3]
+					51.6710000000021, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					72.29399999999441, -- [1]
+					77.67199999999139, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Norfleet-Zul'jin"] = {
+				[307747] = {
+					16.39500000000408, -- [1]
+					20.06500000000233, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Radiant Spark",
+					["active"] = false,
+				},
+				[357431] = {
+					51.15099999999802, -- [1]
+					64.71399999999267, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[347283] = {
+					6.690999999991618, -- [1]
+					20.36499999999069, -- [2]
+					46.77099999999336, -- [3]
+					64.71399999999267, -- [4]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Bullshiza-Mal'Ganis"] = {
+				[347283] = {
+					6.690999999991618, -- [1]
+					27.70199999999022, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+				[357431] = {
+					8.611999999993714, -- [1]
+					33.40899999999965, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Zenaxia-Stormscale"] = {
+				[357431] = {
+					8.611999999993714, -- [1]
+					33.45599999999104, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
+					["active"] = false,
+				},
+			},
+			["Serci-Shandris"] = {
+				[357431] = {
+					8.611999999993714, -- [1]
+					33.4890000000014, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "The Tarragrue",
 					["active"] = false,
 				},
 			},
 		}, -- [2]
 		{
-			["Bigasstank-Kel'Thuzad"] = {
-				[319703] = {
-					17.5989999999947, -- [1]
-					18.62099999999919, -- [2]
+			["Selisabeth"] = {
+				[154469] = {
+					31.71599999999307, -- [1]
+					33.5769999999975, -- [2]
+					34.37299999999959, -- [3]
+					34.49599999999919, -- [4]
 					["stacks"] = {
 					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-			},
-			["Prîestitute-Kel'Thuzad"] = {
-				[319703] = {
-					49.27300000000105, -- [1]
-					49.39699999999721, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-			},
-			["Circumsized-Kel'Thuzad"] = {
-				[344874] = {
-					29.66199999999662, -- [1]
-					37.6359999999986, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-			},
-			["Mafiki"] = {
-				[319603] = {
-					22.59799999999814, -- [1]
-					26.60699999999633, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-				[319703] = {
-					30.33299999999872, -- [1]
-					31.54499999999825, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-				[319611] = {
-					26.60699999999633, -- [1]
-					29.00999999999476, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "[*] Turned to Stone",
-					["active"] = false,
-				},
-				[344874] = {
-					29.66199999999662, -- [1]
-					37.62099999999919, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-			},
-			["Tehral-Kel'Thuzad"] = {
-				[319703] = {
-					20.40899999999965, -- [1]
-					20.70499999999447, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
-					["active"] = false,
-				},
-				[344874] = {
-					29.66199999999662, -- [1]
-					37.62099999999919, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Echelon",
+					["source"] = "[*] Ritual of Bones",
 					["active"] = false,
 				},
 			},
 		}, -- [3]
 		{
-			["Bigasstank-Kel'Thuzad"] = {
-				[323001] = {
-					5.248999999996158, -- [1]
-					6.550999999999476, -- [2]
-					23.53600000000006, -- [3]
-					26.24799999999959, -- [4]
-					31.04899999999907, -- [5]
-					32.82200000000012, -- [6]
-					43.11999999999534, -- [7]
-					46.96099999999569, -- [8]
+			["Selisabeth"] = {
+				[158061] = {
+					33.57600000000093, -- [1]
+					71.33800000000338, -- [2]
+					74.4030000000057, -- [3]
+					114.9529999999941, -- [4]
 					["stacks"] = {
 					},
-					["source"] = "Halkias",
+					["source"] = "[*] Blessed Waters of Purity",
 					["active"] = false,
 				},
 			},
-			["Prîestitute-Kel'Thuzad"] = {
-				[322977] = {
-					20.57299999999668, -- [1]
-					28.58399999999529, -- [2]
+			["Blindkid-Lightning'sBlade"] = {
+				[158061] = {
+					33.54500000000553, -- [1]
+					39.01800000000367, -- [2]
+					50.51800000000367, -- [3]
+					50.59100000000035, -- [4]
+					51.22800000000279, -- [5]
+					54.61800000000221, -- [6]
+					71.86100000000442, -- [7]
+					75.48400000000402, -- [8]
+					75.81300000000192, -- [9]
+					76.99300000000221, -- [10]
 					["stacks"] = {
 					},
-					["source"] = "Halkias",
+					["source"] = "[*] Blessed Waters of Purity",
 					["active"] = false,
 				},
-				[323001] = {
-					41.11200000000099, -- [1]
-					42.69999999999709, -- [2]
-					43.8859999999986, -- [3]
-					44.57600000000093, -- [4]
+				[153692] = {
+					43.43800000000192, -- [1]
+					43.64400000000023, -- [2]
+					110.2770000000019, -- [3]
+					110.8530000000028, -- [4]
 					["stacks"] = {
 					},
-					["source"] = "Halkias",
+					["source"] = "[*] Necrotic Pitch",
+					["active"] = false,
+				},
+			},
+			["Dirkamar-Arthas"] = {
+				[153692] = {
+					30.4690000000046, -- [1]
+					30.5570000000007, -- [2]
+					34.26900000000023, -- [3]
+					34.92200000000594, -- [4]
+					35.43300000000454, -- [5]
+					36.75700000000506, -- [6]
+					37.03900000000431, -- [7]
+					38.4690000000046, -- [8]
+					38.83400000000256, -- [9]
+					39.94100000000617, -- [10]
+					66.02000000000407, -- [11]
+					66.12900000000081, -- [12]
+					70.49300000000221, -- [13]
+					78.23500000000058, -- [14]
+					83.10600000000704, -- [15]
+					86.19000000000233, -- [16]
+					96.19100000000617, -- [17]
+					98.52300000000105, -- [18]
+					["stacks"] = {
+					},
+					["source"] = "[*] Necrotic Pitch",
+					["active"] = false,
+				},
+			},
+			["Rainork-Whisperwind"] = {
+				[158061] = {
+					33.68100000000413, -- [1]
+					41.09700000000157, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Blessed Waters of Purity",
+					["active"] = false,
+				},
+				[153692] = {
+					84.66500000000087, -- [1]
+					86.34500000000116, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "[*] Necrotic Pitch",
 					["active"] = false,
 				},
 			},
 			["Mafiki"] = {
-				[323001] = {
-					14.04200000000128, -- [1]
-					14.51399999999558, -- [2]
-					30.06599999999889, -- [3]
-					30.98099999999977, -- [4]
-					42.61899999999878, -- [5]
-					43.37199999999575, -- [6]
+				[153692] = {
+					68.54500000000553, -- [1]
+					71.48500000000058, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Halkias",
+					["source"] = "[*] Necrotic Pitch",
 					["active"] = false,
 				},
-			},
-			["Circumsized-Kel'Thuzad"] = {
-				[323001] = {
-					10.03399999999965, -- [1]
-					10.63799999999901, -- [2]
-					17.09300000000076, -- [3]
-					18.39400000000023, -- [4]
+				[158061] = {
+					78.85000000000582, -- [1]
+					104.9880000000048, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Halkias",
-					["active"] = false,
-				},
-			},
-			["Tehral-Kel'Thuzad"] = {
-				[323001] = {
-					5.281999999999243, -- [1]
-					6.701000000000931, -- [2]
-					31.04899999999907, -- [3]
-					32.36099999999715, -- [4]
-					32.68400000000111, -- [5]
-					32.82200000000012, -- [6]
-					35.13999999999942, -- [7]
-					35.57299999999668, -- [8]
-					40.70899999999529, -- [9]
-					41.72999999999593, -- [10]
-					45.04599999999482, -- [11]
-					46.96099999999569, -- [12]
-					["stacks"] = {
-					},
-					["source"] = "Halkias",
+					["source"] = "[*] Blessed Waters of Purity",
 					["active"] = false,
 				},
 			},
@@ -28698,366 +44889,893 @@ DetailsTimeLineDB = {
 	["window_scale"] = 1,
 	["BossSpellCast"] = {
 		{
-			["Lord Chamberlain"] = {
+			["The Tarragrue"] = {
 				{
-					15.76199999999517, -- [1]
-					"Lord Chamberlain", -- [2]
-					329104, -- [3]
+					6.365999999994529, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					16.93599999999424, -- [1]
-					"Lord Chamberlain", -- [2]
-					329113, -- [3]
+					8.286999999996624, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					25.20999999999913, -- [1]
-					"Lord Chamberlain", -- [2]
-					323392, -- [3]
+					11.73499999998603, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
 				}, -- [3]
 				{
-					28.22099999999773, -- [1]
-					"Lord Chamberlain", -- [2]
-					323393, -- [3]
+					13.58099999999104, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Sinstone Statue", -- [5]
+					"Kaoruchan-Area52", -- [5]
 				}, -- [4]
 				{
-					40.07299999999668, -- [1]
-					"Lord Chamberlain", -- [2]
-					329104, -- [3]
+					13.58099999999104, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					41.26799999999639, -- [1]
-					"Lord Chamberlain", -- [2]
-					329113, -- [3]
+					21.68299999998999, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
-			},
-			["Sinstone Statue"] = {
 				{
-					8.19999999999709, -- [1]
-					"Sinstone Statue", -- [2]
-					323209, -- [3]
+					29.32499999999709, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					9.703999999997905, -- [1]
-					"Sinstone Statue", -- [2]
-					323150, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Telekinetic Toss Stalker", -- [5]
-				}, -- [2]
-				{
-					18.44700000000012, -- [1]
-					"Sinstone Statue", -- [2]
-					329168, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
-				}, -- [3]
-				{
-					18.94700000000012, -- [1]
-					"Sinstone Statue", -- [2]
-					329170, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
-				}, -- [4]
-				{
-					19.45099999999366, -- [1]
-					"Sinstone Statue", -- [2]
-					329171, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
-				}, -- [5]
-				{
-					19.93799999999465, -- [1]
-					"Sinstone Statue", -- [2]
-					329172, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
-				}, -- [6]
-				{
-					42.77599999999802, -- [1]
-					"Sinstone Statue", -- [2]
-					329168, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
 				}, -- [7]
 				{
-					43.28499999999622, -- [1]
-					"Sinstone Statue", -- [2]
-					329170, -- [3]
+					34.13199999999779, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
 				}, -- [8]
 				{
-					43.78699999999662, -- [1]
-					"Sinstone Statue", -- [2]
-					329171, -- [3]
+					39.15499999999884, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
 				}, -- [9]
 				{
-					44.28399999999965, -- [1]
-					"Sinstone Statue", -- [2]
-					329172, -- [3]
+					44.18199999998615, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Lord Chamberlain", -- [5]
 				}, -- [10]
+				{
+					48.12199999998848, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					50.63899999999558, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [12]
+				{
+					52.45199999999022, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
+				{
+					56.90399999999499, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Norfleet-Zul'jin", -- [5]
+				}, -- [14]
+				{
+					56.90399999999499, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+				{
+					58.11299999999756, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					74.82399999999325, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					78.54999999998836, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [18]
+				{
+					80.39599999999336, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					84.83699999999953, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thenendoa-Area52", -- [5]
+				}, -- [20]
+				{
+					84.83699999999953, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					94.55899999999383, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					101.1549999999988, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					106.4909999999945, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [24]
+				{
+					108.310999999987, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
+				{
+					112.7849999999889, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Worvean", -- [5]
+				}, -- [26]
+				{
+					112.7849999999889, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [27]
+				{
+					125.3099999999977, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [28]
+				{
+					130.1089999999967, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [29]
+				{
+					135.1429999999964, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [30]
+				{
+					140.1229999999923, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [31]
+				{
+					143.6639999999898, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [32]
+				{
+					146.580999999991, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [33]
+				{
+					147.9889999999869, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [34]
+				{
+					152.8459999999905, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Psälm-WyrmrestAccord", -- [5]
+				}, -- [35]
+				{
+					152.8459999999905, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [36]
+				{
+					154.4529999999941, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [37]
+				{
+					170.3619999999937, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [38]
+				{
+					174.4829999999929, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [39]
+				{
+					175.9089999999997, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [40]
+				{
+					179.9660000000004, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gwenzin-Jubei'Thos", -- [5]
+				}, -- [41]
+				{
+					179.9660000000004, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [42]
+				{
+					190.4979999999923, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [43]
+				{
+					196.2439999999915, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [44]
+				{
+					202.3919999999926, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [45]
+				{
+					203.8189999999886, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [46]
+				{
+					207.4669999999896, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kittymeows-Barthilas", -- [5]
+				}, -- [47]
+				{
+					207.4669999999896, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [48]
+				{
+					221.2129999999888, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [49]
+				{
+					226.0349999999889, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [50]
+				{
+					231.0099999999948, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [51]
+				{
+					236.0269999999873, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [52]
+				{
+					239.5720000000001, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [53]
+				{
+					242.4929999999877, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [54]
+				{
+					243.9249999999884, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [55]
+				{
+					248.7889999999898, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Kittymeows-Barthilas", -- [5]
+				}, -- [56]
+				{
+					248.7889999999898, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [57]
+				{
+					250.4099999999889, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [58]
+				{
+					266.2719999999972, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [59]
+				{
+					269.630999999994, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [60]
+				{
+					270.6669999999867, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [61]
+				{
+					276.7369999999937, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Aksara", -- [5]
+				}, -- [62]
+				{
+					276.7369999999937, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [63]
+				{
+					286.4529999999941, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [64]
+				{
+					292.2309999999998, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [65]
+				{
+					297.1889999999985, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
+				}, -- [66]
+				{
+					299.0409999999974, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [67]
+				{
+					304.7209999999905, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Thenendoa-Area52", -- [5]
+				}, -- [68]
+				{
+					304.7209999999905, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [69]
+				{
+					317.2319999999891, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [70]
+				{
+					322.0559999999969, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [71]
 			},
 		}, -- [1]
 		{
-			["Anima Fountain"] = {
+			["The Tarragrue"] = {
 				{
-					23.07400000000052, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					6.690999999991618, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					24.38699999999517, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					8.611999999993714, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					25.68899999999849, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					12.05199999999604, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Agacrow-Kil'jaeden", -- [5]
 				}, -- [3]
 				{
-					26.99399999999878, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					13.47099999999045, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Fobz-Khaz'goroth", -- [5]
 				}, -- [4]
 				{
-					27.79400000000169, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					13.47099999999045, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					48.58000000000175, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					21.98399999999674, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
 				{
-					49.87099999999919, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					28.41300000000047, -- [1]
+					"The Tarragrue", -- [2]
+					347679, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [7]
 				{
-					50.58399999999529, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					33.22599999999511, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 				{
-					50.58399999999529, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					38.25199999999313, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [9]
 				{
-					50.58399999999529, -- [1]
-					"Anima Fountain", -- [2]
-					338012, -- [3]
+					43.1929999999993, -- [1]
+					"The Tarragrue", -- [2]
+					354080, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [10]
-			},
-			["Loyal Stoneborn"] = {
 				{
-					4.764999999999418, -- [1]
-					"Loyal Stoneborn", -- [2]
-					346866, -- [3]
+					46.77099999999336, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			["High Adjudicator Aleez"] = {
+				}, -- [11]
 				{
-					18.8660000000018, -- [1]
-					"High Adjudicator Aleez", -- [2]
-					323538, -- [3]
+					49.71899999999732, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bigasstank-Kel'Thuzad", -- [5]
-				}, -- [1]
+					"Torra-Jubei'Thos", -- [5]
+				}, -- [12]
 				{
-					21.77999999999884, -- [1]
-					"High Adjudicator Aleez", -- [2]
-					329340, -- [3]
+					51.15099999999802, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
+				}, -- [13]
 				{
-					34.63499999999476, -- [1]
-					"High Adjudicator Aleez", -- [2]
-					323538, -- [3]
+					56.00400000000082, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Bigasstank-Kel'Thuzad", -- [5]
-				}, -- [3]
+					"Ashîro-Aegwynn", -- [5]
+				}, -- [14]
 				{
-					47.27399999999761, -- [1]
-					"High Adjudicator Aleez", -- [2]
-					329340, -- [3]
+					56.00400000000082, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
+				}, -- [15]
+				{
+					57.22800000000279, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					72.29399999999441, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					77.63199999999779, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Spiritpree", -- [5]
+				}, -- [18]
+				{
+					79.05400000000373, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [19]
+				{
+					83.92500000000291, -- [1]
+					"The Tarragrue", -- [2]
+					347269, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [20]
+				{
+					83.92500000000291, -- [1]
+					"The Tarragrue", -- [2]
+					350280, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [21]
+				{
+					104.5589999999938, -- [1]
+					"The Tarragrue", -- [2]
+					347490, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [22]
+				{
+					108.4140000000043, -- [1]
+					"The Tarragrue", -- [2]
+					347283, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [23]
+				{
+					127.0080000000016, -- [1]
+					"The Tarragrue", -- [2]
+					346985, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Ashîro-Aegwynn", -- [5]
+				}, -- [24]
+				{
+					128.6359999999986, -- [1]
+					"The Tarragrue", -- [2]
+					347668, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [25]
 			},
 		}, -- [2]
 		{
-			["Echelon"] = {
+			["Ner'zhul"] = {
 				{
-					8.695999999996275, -- [1]
-					"Echelon", -- [2]
-					326389, -- [3]
+					6.923999999999069, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					13.58599999999569, -- [1]
-					"Echelon", -- [2]
-					319733, -- [3]
+					16.66399999999703, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 				{
-					22.0879999999961, -- [1]
-					"Echelon", -- [2]
-					328206, -- [3]
+					25.17499999999563, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [3]
 				{
-					28.60099999999511, -- [1]
-					"Echelon", -- [2]
-					319941, -- [3]
+					36.10699999999633, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 				{
-					31.80099999999948, -- [1]
-					"Echelon", -- [2]
-					326389, -- [3]
+					45.80699999999342, -- [1]
+					"Ner'zhul", -- [2]
+					154442, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
-				{
-					48.79400000000169, -- [1]
-					"Echelon", -- [2]
-					326389, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-			},
-			["Undying Stonefiend"] = {
-				{
-					13.58599999999569, -- [1]
-					"Undying Stonefiend", -- [2]
-					328124, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					13.58599999999569, -- [1]
-					"Undying Stonefiend", -- [2]
-					328124, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					13.58599999999569, -- [1]
-					"Undying Stonefiend", -- [2]
-					328124, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					27.79699999999866, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					29.15399999999499, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					29.21099999999569, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					29.21099999999569, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					29.25400000000082, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					29.25400000000082, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					29.66199999999662, -- [1]
-					"Undying Stonefiend", -- [2]
-					328125, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-			},
-			["Stoneborn Slasher"] = {
-				{
-					49.39699999999721, -- [1]
-					"Stoneborn Slasher", -- [2]
-					326771, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
 			},
 		}, -- [3]
 		{
-			["Halkias"] = {
+			["Bonemaw"] = {
 				{
-					5.231999999996333, -- [1]
-					"Halkias", -- [2]
-					322936, -- [3]
+					7.997000000003027, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					13.01599999999598, -- [1]
-					"Halkias", -- [2]
-					322943, -- [3]
+					9.635000000002037, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
 				}, -- [2]
 				{
-					20.57299999999668, -- [1]
-					"Halkias", -- [2]
-					322977, -- [3]
+					17.71399999999994, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Prîestitute-Kel'Thuzad", -- [5]
 				}, -- [3]
 				{
-					23.45100000000093, -- [1]
-					"Halkias", -- [2]
-					322936, -- [3]
+					21.79000000000087, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
 				}, -- [4]
 				{
-					30.02599999999802, -- [1]
-					"Halkias", -- [2]
-					322943, -- [3]
+					30.35600000000704, -- [1]
+					"Bonemaw", -- [2]
+					153804, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
 				{
-					36.6140000000014, -- [1]
-					"Halkias", -- [2]
-					322711, -- [3]
+					46.8550000000032, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
+				{
+					51.70900000000256, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					52.13400000000547, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Selisabeth", -- [5]
+				}, -- [8]
+				{
+					58.22600000000239, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Windfury Totem", -- [5]
+				}, -- [9]
+				{
+					66.80200000000332, -- [1]
+					"Bonemaw", -- [2]
+					153804, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+				{
+					89.39900000000489, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					95.45300000000134, -- [1]
+					"Bonemaw", -- [2]
+					165578, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					95.88900000000285, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [13]
+				{
+					104.3990000000049, -- [1]
+					"Bonemaw", -- [2]
+					153681, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [14]
+				{
+					112.4690000000046, -- [1]
+					"Bonemaw", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [15]
+			},
+			["Carrion Worm"] = {
+				{
+					46.8550000000032, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					47.66700000000128, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					52.72800000000279, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [3]
+				{
+					54.22800000000279, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Windfury Totem", -- [5]
+				}, -- [4]
+				{
+					56.91800000000512, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [5]
+				{
+					58.22600000000239, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [6]
+				{
+					61.55299999999988, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [7]
+				{
+					62.99700000000303, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [8]
+				{
+					65.59300000000076, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [9]
+				{
+					67.93500000000495, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [10]
+				{
+					70.5480000000025, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [11]
+				{
+					72.6840000000011, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [12]
+				{
+					74.0260000000053, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [13]
+				{
+					77.44500000000698, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Windfury Totem", -- [5]
+				}, -- [14]
+				{
+					78.90000000000146, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Selisabeth", -- [5]
+				}, -- [15]
+				{
+					90.61900000000605, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [16]
+				{
+					90.61900000000605, -- [1]
+					"Carrion Worm", -- [2]
+					154175, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [17]
+				{
+					97.10400000000664, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Blindkid-Lightning'sBlade", -- [5]
+				}, -- [18]
+				{
+					101.9590000000026, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Dirkamar-Arthas", -- [5]
+				}, -- [19]
+				{
+					106.9670000000042, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mafiki", -- [5]
+				}, -- [20]
+				{
+					112.2020000000048, -- [1]
+					"Carrion Worm", -- [2]
+					153496, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rainork-Whisperwind", -- [5]
+				}, -- [21]
 			},
 		}, -- [4]
 	},

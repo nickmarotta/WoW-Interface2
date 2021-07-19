@@ -1,3 +1,6 @@
+VER 3 0100000000000016 " " "132303"
+/cast [@focus] Death Grip
+END
 VER 3 010000000000000B " " "132096"
 /cast [@arena1] Mind Freeze
 END
@@ -12,9 +15,6 @@ END
 VER 3 0100000000000014 " " "644389"
 /cast [@focus] Asphyxiate
 END
-VER 3 0100000000000016 " " "132303"
-/cast [@focus] Death Grip
-END
 VER 3 010000000000001B " ALL" "INV_MISC_QUESTIONMARK"
 #showtooltip Pillar of Frost 
 /cast Empower Rune Weapon
@@ -25,9 +25,17 @@ VER 3 010000000000001B " ALL" "INV_MISC_QUESTIONMARK"
 /cast Raise Dead
 /cast Chill Streak
 END
+VER 3 010000000000001E "AltFoc" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [mod:alt, @focus] Mind Freeze; Mind Freeze
+END
 VER 3 010000000000001C "Feet" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@player] Death's Due
+END
+VER 3 010000000000001F "Feet" "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Anti-Magic Zone
 END
 VER 3 010000000000000A "focus" "INV_MISC_QUESTIONMARK"
 #showtooltip

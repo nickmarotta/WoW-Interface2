@@ -68,14 +68,15 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	[172847] = {
+	[169489] = {
 		["isAzeriteArmor"] = false,
-		[425] = {
-			["Corrupted Aspirant's Emblem"] = {
+		[415] = {
+			["Azsh'ari Stormsurger Cape"] = {
 				{
-					"6515", -- [1]
-					"1537", -- [2]
-					"4785", -- [3]
+					"6300", -- [1]
+					"6292", -- [2]
+					"1502", -- [3]
+					"4786", -- [4]
 				}, -- [1]
 			},
 		},
@@ -94,15 +95,14 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
-	[169489] = {
+	[172847] = {
 		["isAzeriteArmor"] = false,
-		[415] = {
-			["Azsh'ari Stormsurger Cape"] = {
+		[425] = {
+			["Corrupted Aspirant's Emblem"] = {
 				{
-					"6300", -- [1]
-					"6292", -- [2]
-					"1502", -- [3]
-					"4786", -- [4]
+					"6515", -- [1]
+					"1537", -- [2]
+					"4785", -- [3]
 				}, -- [1]
 			},
 		},

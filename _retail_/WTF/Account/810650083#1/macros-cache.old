@@ -1,0 +1,16 @@
+VER 3 0000000000000005 "maelie" "INV_MISC_QUESTIONMARK"
+/script print(C_QuestLog.IsQuestFlaggedCompleted(64298))
+END
+VER 3 0000000000000001 "misdirect" "132180"
+#showtooltip Misdirection
+/cast [@focus,exists] Misdirection
+/cast [@pet,exists] Misdirection
+/petattack
+END
+VER 3 0000000000000004 "turtle" "INV_MISC_QUESTIONMARK"
+/cancelaura aspect of the turtle
+/cast kill shot
+END
+VER 3 0000000000000002 "Vault" "2967109"
+/run LoadAddOn("Blizzard_WeeklyRewards");WeeklyRewardsFrame:Show()
+END

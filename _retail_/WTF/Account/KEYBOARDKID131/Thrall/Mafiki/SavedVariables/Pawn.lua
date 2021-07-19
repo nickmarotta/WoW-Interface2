@@ -1,92 +1,93 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0416,
+	["LastVersion"] = 2.0521,
 	["ItemLevels"] = {
 		{
-			["ID"] = 174151,
-			["Level"] = 115,
-			["Link"] = "|cffa335ee|Hitem:174151::::::::50:264::3:5:4822:1487:4786:6505:4775::::|h[Helm of Actualized Visions]|h|r",
+			["ID"] = 178816,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:178816::::::::60:262::35:6:7350:7359:42:7194:1527:6646::::|h[Nathrian Usurper's Mask]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 158075,
-			["Level"] = 137,
-			["Link"] = "|cffe6cc80|Hitem:158075::::::::55:264::11:4:4932:4933:6316:1551::::|h[Heart of Azeroth]|h|r",
+			["ID"] = 184144,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:184144::::::::60:264::81:4:6652:7194:1492:6646:1:28:2060:::|h[Muckformed Chain Choker]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 172263,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:172263::::::::60:262::13:2:6893:7185:4:9:60:28:391:29:49:30:36:::|h[Shadowscale Pauldrons]|h|r",
+			["ID"] = 186745,
+			["Level"] = 207,
+			["Link"] = "|cffa335ee|Hitem:186745::::::::60:262::74:4:7693:6652:1479:6646:1:28:2060:::::|h[Razorwing Scale Spaulders]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 172258,
-			["Level"] = 168,
-			["Link"] = "|cff0070dd|Hitem:172258::::::::60:262::13:2:6893:7185:4:9:60:28:391:29:49:30:36:::|h[Shadowscale Vest]|h|r",
+			["ID"] = 181654,
+			["Level"] = 190,
+			["Link"] = "|cffa335ee|Hitem:181654::::::::60:262::26:4:6652:1472:5887:6646:1:28:2043:::::|h[Fleshscale Chainmail]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 175569,
-			["Level"] = 129,
-			["Link"] = "|cff1eff00|Hitem:175569::::::::60:262:::2:6907:1684:2:28:807:9:59:::|h[Eventide Belt of the Peerless]|h|r",
+			["ID"] = 182976,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:182976::::::::60:262::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Double-Chained Utility Belt]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 175665,
-			["Level"] = 120,
-			["Link"] = "|cff1eff00|Hitem:175665::::::::58:262::11:1:6707:2:28:1233:9:56:::|h[Dreamthorn Legguards]|h|r",
+			["ID"] = 186744,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:186744::::::::60:264::14:4:7692:6652:1472:6646::::::|h[Razorwing Scale Pants]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 175654,
-			["Level"] = 114,
-			["Link"] = "|cff1eff00|Hitem:175654::::::::57:262::11:1:6707:2:28:1229:9:55:::|h[Dreamthorn Sabatons]|h|r",
+			["ID"] = 185869,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:185869::::::::60:262::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Razorwing Scale Striders]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 181428,
-			["Level"] = 148,
-			["Link"] = "|cff0070dd|Hitem:181428::::::::60:262::25:4:6652:7193:1472:6616:1:28:2060:::|h[Gormhusk Wristguards]|h|r",
+			["ID"] = 178703,
+			["Level"] = 197,
+			["Link"] = "|cffa335ee|Hitem:178703::::::::60:264::16:6:7380:7359:41:7193:1511:6646:1:28:1279:::|h[Hiveswarm Bracers]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 181663,
-			["Level"] = 148,
-			["Link"] = "|cff0070dd|Hitem:181663::::::::60:262::26:3:6652:1472:6616:1:28:1707:::|h[Fleshscale Gauntlets]|h|r",
+			["ID"] = 185870,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:185870::::::::60:262::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Razorwing Scale Grips]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178736,
-			["Level"] = 158,
+			["ID"] = 178824,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:178736::::::::60:262::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Stitchflesh's Misplaced Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178824::::::::60:262::23:6:7376:7359:6652:7193:1498:6646:1:28:749:::|h[Signet of the False Accuser]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178781,
-			["Level"] = 158,
+			["ID"] = 178871,
+			["Level"] = 184,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:178781::::::::60:262::1:5:6805:6652:7193:1472:4785:1:28:747:::|h[Ritual Commander's Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:262::23:6:7376:7359:6652:7194:1498:6646:1:28:749:::|h[Bloodoath Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 181502,
-			["Level"] = 155,
+			["ID"] = 178783,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cff0070dd|Hitem:181502::::::::60:262::74:4:6652:1472:5852:6616:1:28:2060:::|h[Rejuvenating Serum]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178783::::::::60:264::35:5:7370:7359:6652:1524:6646::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 133462,
-			["Level"] = 150,
+			["ID"] = 178783,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cff0070dd|Hitem:133462::::::::59:264::22:2:7191:6652:2:9:59:28:181:::|h[Vial of the Sunwell]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178783::::::::60:262::35:5:7370:7359:6652:1524:6646::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 169223,
-			["Level"] = 141,
-			["Link"] = "|cffff8000|Hitem:169223::::::::50:264::11:2:6280:1472::::|h[Ashjra'kamas, Shroud of Resolve]|h|r",
+			["ID"] = 183034,
+			["Level"] = 213,
+			["Link"] = "|cffa335ee|Hitem:183034::::::::60:264::5:4:7188:6652:1485:6646:1:28:752:::|h[Cowled Batwing Cloak]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 178943,
-			["Level"] = 131,
+			["ID"] = 186765,
+			["Level"] = 200,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff1eff00|Hitem:178943::::::::60:262:::3:6908:6652:1700:2:28:1707:9:60:::|h[Gore-Smudged Dagger of the Feverflare]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186765::::::::60:262::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Vault Patroller's Mace]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178950,
-			["Level"] = 131,
-			["Link"] = "|cff1eff00|Hitem:178950::::::::60:262:::3:6908:6652:1710:2:28:1707:9:60:::|h[Blackhound Bulwark of the Aurora]|h|r",
+			["ID"] = 186765,
+			["Level"] = 200,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:186765::::::::60:264::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Vault Patroller's Mace]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = true,

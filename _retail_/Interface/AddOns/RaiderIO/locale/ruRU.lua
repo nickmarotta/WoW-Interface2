@@ -1,5 +1,5 @@
--- Generated from CurseForge on Sat Mar  6 07:07:37 UTC 2021
-local _, ns = ...
+-- Generated from CurseForge on Wed May 12 07:08:59 UTC 2021
+local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ruRU") then
 	local L = ns.L or ns:NewLocale()

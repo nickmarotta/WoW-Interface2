@@ -1,544 +1,5 @@
 
 EncounterDetailsDB = {
-	["emotes"] = {
-		{
-			{
-				0.1, -- [1]
-				"The hunt begins!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				7.102000000013504, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				16.66700000001583, -- [1]
-				"Margore, make them bleed!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				28.78899999998976, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				40.22500000000582, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				41.83300000001327, -- [1]
-				"Margore, make them bleed!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				51.79399999999441, -- [1]
-				"Your deaths will not be as quick!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				54.48699999999371, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				55.69899999999325, -- [1]
-				"Bargast, come!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				64.05300000001444, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				67.69599999999627, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [11]
-			{
-				73.73800000001211, -- [1]
-				"Bargast, rend their souls!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				89.51699999999255, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				99.80199999999604, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				101.0629999999946, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				114.3980000000156, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				127.4029999999912, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				131.0420000000158, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [18]
-			{
-				134.4929999999877, -- [1]
-				"Bargast, rend their souls!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				139.4789999999921, -- [1]
-				"%s is becoming resistant to crowd control effects!", -- [2]
-				"Shade of Bargast", -- [3]
-				3, -- [4]
-			}, -- [20]
-			{
-				150.2589999999909, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				159.0130000000063, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [22]
-			{
-				161.4200000000128, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [23]
-			{
-				161.8470000000089, -- [1]
-				"You killed my favorite!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				164.676999999996, -- [1]
-				"Hecutis, here! Now!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [25]
-			{
-				172.7790000000096, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				180.0100000000093, -- [1]
-				"Hecutis, shatter bones!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				195.6389999999956, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [28]
-			{
-				205.3589999999967, -- [1]
-				"Hecutis, shatter bones!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [29]
-			{
-				209.3859999999986, -- [1]
-				"|TInterface\\ICONS\\INV_SinStoneGolemPet.BLP:20|t You have been targeted by |cFFFF0000|Hspell:334852|h[Petrifying Howl]|h|r!", -- [2]
-				"Awaste", -- [3]
-				2, -- [4]
-			}, -- [30]
-			{
-				220.9670000000042, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [31]
-			{
-				225.6229999999923, -- [1]
-				"Hecutis, shatter bones!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [32]
-			{
-				241.6290000000154, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [33]
-			{
-				246.2829999999958, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [34]
-			{
-				256.0100000000093, -- [1]
-				"Hecutis, shatter bones!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [35]
-			{
-				265.4949999999953, -- [1]
-				"Your deaths will not be as quick!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [36]
-			{
-				265.698000000004, -- [1]
-				"Precious! No!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [37]
-			{
-				271.8040000000037, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [38]
-			["boss"] = "Huntsman Altimor",
-		}, -- [1]
-		{
-			{
-				6.447000000014668, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				15.9550000000163, -- [1]
-				"Margore, make them bleed!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				17.6480000000156, -- [1]
-				"|TInterface\\ICONS\\Ability_Blackhand_Marked4Death.BLP:20|t You have been targeted by |cFFFF0000|Hspell:334939|h[Vicious Lunge]|h|r!", -- [2]
-				"Awaste", -- [3]
-				2, -- [4]
-			}, -- [3]
-			{
-				28.05000000001746, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				37.95300000000862, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				41.41700000001583, -- [1]
-				"Margore, make them bleed!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				51.22500000000582, -- [1]
-				"Your deaths will not be as quick!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				53.79899999999907, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				55.78299999999581, -- [1]
-				"Bargast, come!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [9]
-			{
-				64.72500000000582, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				68.33800000001793, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [11]
-			{
-				74.22400000001653, -- [1]
-				"Bargast, rend their souls!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [12]
-			{
-				90.0450000000128, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				98.75400000001537, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [14]
-			{
-				99.99700000000303, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				112.0500000000175, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				124.3159999999916, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [17]
-			{
-				129.176999999996, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [18]
-			{
-				135.0679999999993, -- [1]
-				"Bargast, rend their souls!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				150.8330000000133, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				159.5629999999946, -- [1]
-				"My hounds feed well today.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				160.7609999999986, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [22]
-			{
-				161.9770000000135, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [23]
-			{
-				174.0279999999912, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [24]
-			{
-				175.0610000000161, -- [1]
-				"You killed my favorite!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [25]
-			{
-				177.122000000003, -- [1]
-				"My hounds feed well today.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [26]
-			{
-				177.6020000000135, -- [1]
-				"Hecutis, here! Now!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [27]
-			{
-				184.2989999999991, -- [1]
-				"My hounds feed well today.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [28]
-			["boss"] = "Huntsman Altimor",
-		}, -- [2]
-		{
-			{
-				6.180999999982305, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [1]
-			{
-				16.77799999999115, -- [1]
-				"Margore, make them bleed!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [2]
-			{
-				28.9089999999851, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [3]
-			{
-				40.1699999999837, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [4]
-			{
-				41.70599999997648, -- [1]
-				"Margore, make them bleed!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [5]
-			{
-				51.26999999998952, -- [1]
-				"Your deaths will not be as quick!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [6]
-			{
-				54.32799999997951, -- [1]
-				"Bargast, come!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [7]
-			{
-				63.28800000000047, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [8]
-			{
-				66.90200000000186, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [9]
-			{
-				73.07799999997951, -- [1]
-				"Bargast, rend their souls!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [10]
-			{
-				88.56999999997788, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [11]
-			{
-				98.50999999998021, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [12]
-			{
-				99.73699999999371, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [13]
-			{
-				111.6900000000023, -- [1]
-				"Nothing escapes my sights.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [14]
-			{
-				117.24099999998, -- [1]
-				"My hounds feed well today.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [15]
-			{
-				124.0109999999986, -- [1]
-				"I have enough bolts for everyone!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [16]
-			{
-				128.7219999999797, -- [1]
-				"|TInterface\\Icons\\Ability_Druid_MarkofUrsol.blp:20|t Bargast begins casting |cFFFF0000|Hspell:334797|h[Rip Soul]|h|r!", -- [2]
-				"Bargast", -- [3]
-				1, -- [4]
-			}, -- [17]
-			{
-				133.502999999997, -- [1]
-				"Bargast, rend their souls!", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [18]
-			{
-				141.0650000000023, -- [1]
-				"My pets will enjoy gnawing your bones.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [19]
-			{
-				148.6259999999893, -- [1]
-				"My hounds feed well today.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [20]
-			{
-				149.3349999999919, -- [1]
-				"This bolt has your name on it.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [21]
-			{
-				155.3389999999781, -- [1]
-				"My pets will enjoy gnawing your bones.", -- [2]
-				"Huntsman Altimor", -- [3]
-				7, -- [4]
-			}, -- [22]
-			["boss"] = "Huntsman Altimor",
-		}, -- [3]
-	},
 	["encounter_spells"] = {
 		[193473] = {
 			["school"] = 32,
@@ -635,8 +96,8 @@ EncounterDetailsDB = {
 		[334523] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hungering Destroyer",
 		},
@@ -835,6 +296,7 @@ EncounterDetailsDB = {
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
 			["source"] = "Coalesced Anima",
 		},
@@ -1687,8 +1149,8 @@ EncounterDetailsDB = {
 		[332296] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Hungering Destroyer",
 		},
@@ -3494,13 +2956,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Inerva Darkvein",
 		},
-		[329951] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
+		[324307] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Remornia",
+			["source"] = "Coalesced Anima",
+		},
+		[339639] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Ripped Soul",
 		},
 		[345425] = {
 			["school"] = 1,
@@ -3521,12 +2989,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Margore",
 		},
-		[332626] = {
-			["school"] = 32,
+		[342863] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sire Denathrius",
+			["source"] = "Shriekwing",
 		},
 		[341621] = {
 			["school"] = 1,
@@ -3546,19 +3015,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Missteak",
 		},
-		[317936] = {
-			["school"] = 2,
+		[346681] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Forsworn Champion",
-		},
-		[321253] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
+			["source"] = "Baroness Frieda",
+		},
+		[320772] = {
+			["school"] = 16,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Nalthor the Rimebinder",
 		},
 		[51750] = {
 			["school"] = 1,
@@ -3610,33 +3084,29 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lord Stavros",
 		},
-		[327123] = {
+		[346706] = {
 			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Remornia",
-		},
-		[321755] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Nalthor the Rimebinder",
-		},
-		[320596] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Blightbone",
+			["source"] = "Lord Stavros",
+		},
+		[328497] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+		},
+		[330959] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Baroness Frieda",
 		},
 		[330627] = {
 			["school"] = 32,
@@ -3662,22 +3132,19 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Garfrost",
 		},
+		[328887] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shriekwing",
+		},
 		[337255] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Tred'ova",
-		},
-		[23113] = {
-			["school"] = 4,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Molten Golem",
 		},
 		[325769] = {
 			["school"] = 32,
@@ -3704,13 +3171,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Tred'ova",
 		},
-		[328667] = {
-			["school"] = 16,
+		[346651] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Reanimated Mage",
+			["source"] = "Baroness Frieda",
 		},
 		[328839] = {
 			["school"] = 1,
@@ -3729,12 +3197,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "General Bjarngrim",
 		},
-		[337110] = {
+		[347425] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baroness Frieda",
+			["source"] = "Lord Stavros",
 		},
 		[326538] = {
 			["school"] = 32,
@@ -3811,13 +3279,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Skadi the Ruthless",
 		},
-		[328659] = {
-			["school"] = 1,
+		[322527] = {
+			["school"] = 8,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Reborn Phoenix",
+			["source"] = "Tred'ova",
 		},
 		[326455] = {
 			["school"] = 4,
@@ -3886,14 +3354,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rockbound Vanquisher",
 		},
-		[333861] = {
+		[335598] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Harugia the Bloodthirsty",
+			["source"] = "Rockbound Vanquisher",
 		},
 		[59168] = {
 			["school"] = 8,
@@ -3917,12 +3384,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sinister Reflection",
 		},
-		[333002] = {
-			["school"] = 32,
+		[325506] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Vile Occultist",
+			["source"] = "Rockbound Vanquisher",
 		},
 		[59795] = {
 			["school"] = 8,
@@ -3949,14 +3418,12 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kul'tharok",
 		},
-		[320614] = {
+		[181113] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Carrion Worm",
+			["source"] = "Rockbound Vanquisher",
 		},
 		[329565] = {
 			["school"] = 1,
@@ -3987,31 +3454,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Svala Sorrowgrave",
 		},
-		[322614] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Tred'ova",
-		},
-		[320063] = {
-			["school"] = 1,
+		[334625] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dessia the Decapitator",
+			["source"] = "Devos",
 		},
-		[340860] = {
-			["school"] = 8,
-			["type"] = "DEBUFF",
+		[328248] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Root of Extinction",
+			["source"] = "Vile Occultist",
+		},
+		[47737] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Chaotic Rift",
 		},
 		[327481] = {
 			["school"] = 64,
@@ -4040,23 +3506,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rimefang",
 		},
-		[69028] = {
+		[340807] = {
+			["school"] = 64,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Artificer Xy'mox",
+		},
+		[326700] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Krick",
-		},
-		[324085] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Dessia the Decapitator",
+			["source"] = "Sire Denathrius",
 		},
 		[334476] = {
 			["school"] = 40,
@@ -4083,13 +3546,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Commander Stoutbeard",
 		},
-		[58460] = {
-			["school"] = 1,
+		[68786] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Azure Enforcer",
+			["source"] = "Forgemaster Garfrost",
 		},
 		[329362] = {
 			["school"] = 1,
@@ -4125,13 +3589,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Artificer Xy'mox",
 		},
-		[329943] = {
+		[330580] = {
 			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Remornia",
+			["source"] = "Sire Denathrius",
 		},
 		[340872] = {
 			["school"] = 32,
@@ -4163,15 +3629,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Keristrasza",
 		},
-		[326851] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[324427] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Sire Denathrius",
+			["source"] = "Oryphrion",
 		},
 		[330217] = {
 			["school"] = 1,
@@ -4204,55 +3668,56 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Stitchflesh's Creation",
 		},
-		[330042] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Sire Denathrius",
-		},
-		[324392] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Oryphrion",
-		},
-		[316981] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Xav the Unfallen",
-		},
-		[321247] = {
-			["school"] = 32,
+		[328437] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Amarth",
+			["source"] = "Artificer Xy'mox",
 		},
-		[59408] = {
-			["school"] = 32,
+		[310542] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Anguskhän",
+		},
+		[343556] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Ritual Channeler",
+			["source"] = "Surgeon Stitchflesh",
 		},
-		[320300] = {
+		[45524] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anguskhän",
+		},
+		[334053] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Oryphrion",
+		},
+		[329455] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sathel the Accursed",
+			["source"] = "Hungering Destroyer",
 		},
 		[41107] = {
 			["school"] = 1,
@@ -4262,6 +3727,13 @@ EncounterDetailsDB = {
 				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "General Bjarngrim",
+		},
+		[51052] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Anguskhän",
 		},
 		[329711] = {
 			["school"] = 32,
@@ -4273,21 +3745,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Crimson Cabalist",
 		},
-		[332969] = {
-			["school"] = 1,
+		[339550] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-		},
-		[68785] = {
-			["school"] = 17,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Forgemaster Garfrost",
 		},
 		[317231] = {
 			["school"] = 1,
@@ -4298,14 +3762,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Xav the Unfallen",
 		},
-		[319626] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[57062] = {
+			["school"] = 64,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kul'tharok",
+			["source"] = "Anomalus",
 		},
 		[342923] = {
 			["school"] = 1,
@@ -4331,25 +3794,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Hungering Destroyer",
 		},
-		[319669] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[337249] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Kul'tharok",
+			["source"] = "Tred'ova",
 		},
-		[65116] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[320180] = {
+			["school"] = 40,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "General Bjarngrim",
+			["source"] = "Paceran the Virulent",
 		},
 		[317605] = {
 			["school"] = 1,
@@ -4391,15 +3850,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Garfrost",
 		},
-		[60067] = {
+		[65116] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Commander Stoutbeard",
+			["source"] = "General Bjarngrim",
 		},
 		[346762] = {
 			["school"] = 1,
@@ -4411,21 +3868,22 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Baroness Frieda",
 		},
-		[345561] = {
-			["school"] = 1,
+		[335013] = {
+			["school"] = 64,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Azules",
+			["source"] = "Artificer Xy'mox",
 		},
-		[56934] = {
-			["school"] = 4,
+		[320771] = {
+			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Grand Magus Telestra",
+			["source"] = "Nalthor the Rimebinder",
 		},
 		[342280] = {
 			["school"] = 32,
@@ -4451,16 +3909,12 @@ EncounterDetailsDB = {
 				["SPELL_DAMAGE"] = true,
 			},
 		},
-		[320069] = {
+		[332698] = {
 			["school"] = 1,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Dessia the Decapitator",
+			["source"] = "Sludgefist",
 		},
 		[321956] = {
 			["school"] = 16,
@@ -4504,7 +3958,7 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Maddawg-Turalyon",
 		},
-		[335111] = {
+		[335112] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
@@ -4512,13 +3966,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Huntsman Altimor",
 		},
-		[1604] = {
-			["school"] = 1,
+		[328468] = {
+			["school"] = 64,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Scourgelord Tyrannus",
+			["source"] = "Artificer Xy'mox",
 		},
 		[68789] = {
 			["school"] = 1,
@@ -4527,66 +3981,62 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Forgemaster Garfrost",
 		},
-		[323385] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Anguskhän",
-		},
-		[339706] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Echo Bullrider",
-		},
-		[334851] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Reanimated Shambling Horror",
-		},
-		[323608] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Mordretha, the Endless Empress",
-		},
-		[48276] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Svala Sorrowgrave",
-		},
-		[59837] = {
+		[322465] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Loken",
+			["source"] = "Tred'ova",
 		},
-		[320170] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
+		[118297] = {
+			["school"] = 4,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Primal Fire Elemental",
+		},
+		[48258] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Svala Sorrowgrave",
+		},
+		[98021] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Unknown",
+		},
+		[332318] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Amarth",
+			["source"] = "Sludgefist",
+		},
+		[320655] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Blightbone",
+		},
+		[31403] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Commander Stoutbeard",
 		},
 		[333980] = {
 			["school"] = 1,
@@ -4615,22 +4065,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Vilefiend",
 		},
-		[343022] = {
+		[52027] = {
 			["school"] = 1,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Shriekwing",
-		},
-		[334522] = {
-			["school"] = 32,
 			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Hungering Destroyer",
+			["source"] = "General Bjarngrim",
+		},
+		[325713] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Lady Inerva Darkvein",
 		},
 		[318102] = {
 			["school"] = 1,
@@ -4647,37 +4098,35 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Amarth",
 		},
-		[325184] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
-			},
-			["source"] = "Lady Inerva Darkvein",
-		},
-		[329298] = {
+		[332794] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Hungering Destroyer",
+			["source"] = "Sire Denathrius",
 		},
-		[52028] = {
-			["school"] = 1,
+		[108366] = {
+			["school"] = 32,
+			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Maddawg-Turalyon",
+		},
+		[319765] = {
+			["school"] = 32,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "General Bjarngrim",
+			["source"] = "Kul'tharok",
 		},
-		[55078] = {
+		[320278] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Rune Weapon",
+			["source"] = "Sathel the Accursed",
 		},
 		[332670] = {
 			["school"] = 1,
@@ -4694,14 +4143,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Missteak",
 		},
-		[325382] = {
+		[334792] = {
 			["school"] = 32,
-			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Lady Inerva Darkvein",
+			["source"] = "Huntsman Altimor",
 		},
 		[52042] = {
 			["school"] = 8,
@@ -4738,13 +4186,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gortok Palehoof",
 		},
-		[334792] = {
+		[325382] = {
 			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Huntsman Altimor",
+			["source"] = "Lady Inerva Darkvein",
 		},
 		[59331] = {
 			["school"] = 1,
@@ -4765,44 +4214,30 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Unknown",
 		},
-		[320278] = {
+		[55078] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_HEAL"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 			},
-			["source"] = "Sathel the Accursed",
+			["source"] = "Rune Weapon",
 		},
-		[319765] = {
-			["school"] = 32,
+		[52028] = {
+			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Kul'tharok",
+			["source"] = "General Bjarngrim",
 		},
-		[108366] = {
-			["school"] = 32,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-			},
-			["source"] = "Maddawg-Turalyon",
-		},
-		[332794] = {
+		[329298] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Sire Denathrius",
+			["source"] = "Hungering Destroyer",
 		},
-		[345495] = {
-			["school"] = 8,
-			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Frothing Pustule",
-		},
-		[325713] = {
+		[325184] = {
 			["school"] = 32,
 			["type"] = "DEBUFF",
 			["token"] = {
@@ -4811,81 +4246,100 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Lady Inerva Darkvein",
 		},
-		[52027] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "General Bjarngrim",
-		},
-		[31403] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Commander Stoutbeard",
-		},
-		[320655] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Blightbone",
-		},
-		[332318] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Sludgefist",
-		},
-		[98021] = {
+		[345495] = {
 			["school"] = 8,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
-				["SPELL_HEAL"] = true,
 			},
-			["source"] = "Unknown",
+			["source"] = "Frothing Pustule",
 		},
-		[48258] = {
+		[334522] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Hungering Destroyer",
+		},
+		[320170] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Amarth",
+		},
+		[343022] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Shriekwing",
+		},
+		[59837] = {
+			["school"] = 8,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Loken",
+		},
+		[48276] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
 			["source"] = "Svala Sorrowgrave",
 		},
-		[118297] = {
-			["school"] = 4,
+		[323608] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Primal Fire Elemental",
+			["source"] = "Mordretha, the Endless Empress",
 		},
-		[322465] = {
-			["school"] = 8,
+		[334851] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Tred'ova",
+			["source"] = "Reanimated Shambling Horror",
 		},
-		[328468] = {
-			["school"] = 64,
+		[339706] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Echo Bullrider",
+		},
+		[323385] = {
+			["school"] = 32,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Anguskhän",
+		},
+		[1604] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Artificer Xy'mox",
+			["source"] = "Scourgelord Tyrannus",
 		},
-		[335112] = {
+		[335111] = {
 			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
@@ -4902,12 +4356,16 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Keristrasza",
 		},
-		[332698] = {
+		[320069] = {
 			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sludgefist",
+			["source"] = "Dessia the Decapitator",
 		},
 		[334757] = {
 			["school"] = 32,
@@ -4917,30 +4375,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Bargast",
 		},
-		[335013] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Artificer Xy'mox",
-		},
-		[320771] = {
-			["school"] = 1,
+		[56934] = {
+			["school"] = 4,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Nalthor the Rimebinder",
+			["source"] = "Grand Magus Telestra",
 		},
-		[320180] = {
-			["school"] = 40,
+		[345561] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Azules",
+		},
+		[60067] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Paceran the Virulent",
+			["source"] = "Commander Stoutbeard",
 		},
 		[326574] = {
 			["school"] = 32,
@@ -4950,21 +4409,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Surgeon Stitchflesh",
 		},
-		[57062] = {
-			["school"] = 64,
+		[319669] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Anomalus",
-		},
-		[337249] = {
-			["school"] = 1,
-			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Tred'ova",
+			["source"] = "Kul'tharok",
+		},
+		[319626] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+			},
+			["source"] = "Kul'tharok",
 		},
 		[323250] = {
 			["school"] = 8,
@@ -4975,20 +4439,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Droman Oulfarran",
 		},
-		[339550] = {
-			["school"] = 32,
+		[68785] = {
+			["school"] = 17,
+			["type"] = "BUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Forgemaster Garfrost",
+		},
+		[332969] = {
+			["school"] = 1,
+			["token"] = {
 				["SPELL_DAMAGE"] = true,
 			},
-		},
-		[51052] = {
-			["school"] = 32,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Anguskhän",
 		},
 		[59268] = {
 			["school"] = 1,
@@ -5001,56 +4466,55 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Gortok Palehoof",
 		},
-		[329455] = {
+		[320300] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Hungering Destroyer",
+			["source"] = "Sathel the Accursed",
 		},
-		[334053] = {
-			["school"] = 1,
+		[59408] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Ritual Channeler",
+		},
+		[321247] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Amarth",
+		},
+		[316981] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Xav the Unfallen",
+		},
+		[324392] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 			},
 			["source"] = "Oryphrion",
 		},
-		[45524] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[330042] = {
+			["school"] = 1,
+			["type"] = "BUFF",
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Anguskhän",
-		},
-		[343556] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Surgeon Stitchflesh",
-		},
-		[310542] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Anguskhän",
-		},
-		[328437] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Artificer Xy'mox",
+			["source"] = "Sire Denathrius",
 		},
 		[326833] = {
 			["school"] = 32,
@@ -5062,28 +4526,28 @@ EncounterDetailsDB = {
 		[327089] = {
 			["school"] = 1,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
 				["SPELL_HEAL"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
 			["source"] = "Sire Denathrius",
 		},
-		[324427] = {
+		[326851] = {
+			["school"] = 32,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Sire Denathrius",
+		},
+		[329943] = {
 			["school"] = 1,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Oryphrion",
-		},
-		[330580] = {
-			["school"] = 1,
-			["type"] = "BUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_DAMAGE"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Sire Denathrius",
+			["source"] = "Remornia",
 		},
 		[328880] = {
 			["school"] = 64,
@@ -5093,14 +4557,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Artificer Xy'mox",
 		},
-		[68786] = {
-			["school"] = 16,
-			["type"] = "DEBUFF",
+		[58460] = {
+			["school"] = 1,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Forgemaster Garfrost",
+			["source"] = "Azure Enforcer",
 		},
 		[342691] = {
 			["school"] = 32,
@@ -5110,20 +4573,23 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Kul'tharok",
 		},
-		[326700] = {
+		[324085] = {
+			["school"] = 1,
+			["type"] = "BUFF",
+			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+			},
+			["source"] = "Dessia the Decapitator",
+		},
+		[69028] = {
 			["school"] = 32,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Sire Denathrius",
-		},
-		[340807] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_CAST_START"] = true,
-			},
-			["source"] = "Artificer Xy'mox",
+			["source"] = "Krick",
 		},
 		[322999] = {
 			["school"] = 1,
@@ -5142,30 +4608,31 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Rotspew",
 		},
-		[47737] = {
-			["school"] = 64,
+		[340860] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+			},
+			["source"] = "Root of Extinction",
+		},
+		[320063] = {
+			["school"] = 1,
+			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Chaotic Rift",
+			["source"] = "Dessia the Decapitator",
 		},
-		[328248] = {
+		[322614] = {
 			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Vile Occultist",
-		},
-		[334625] = {
-			["school"] = 64,
-			["token"] = {
-				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Devos",
+			["source"] = "Tred'ova",
 		},
 		[331440] = {
 			["school"] = 1,
@@ -5175,12 +4642,14 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Ingra Maloch",
 		},
-		[181113] = {
+		[320614] = {
 			["school"] = 1,
 			["token"] = {
+				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rockbound Vanquisher",
+			["source"] = "Carrion Worm",
 		},
 		[329906] = {
 			["school"] = 1,
@@ -5201,22 +4670,21 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Sathel the Accursed",
 		},
-		[325506] = {
-			["school"] = 1,
+		[333002] = {
+			["school"] = 32,
 			["token"] = {
 				["SPELL_CAST_START"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Rockbound Vanquisher",
+			["source"] = "Vile Occultist",
 		},
-		[335598] = {
+		[333861] = {
 			["school"] = 1,
-			["type"] = "BUFF",
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Rockbound Vanquisher",
+			["source"] = "Harugia the Bloodthirsty",
 		},
 		[57063] = {
 			["school"] = 64,
@@ -5260,13 +4728,13 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Torturer Darithos",
 		},
-		[322527] = {
-			["school"] = 8,
+		[328659] = {
+			["school"] = 1,
 			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Tred'ova",
+			["source"] = "Reborn Phoenix",
 		},
 		[333489] = {
 			["school"] = 32,
@@ -5294,21 +4762,20 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Illusionary Clone",
 		},
-		[347425] = {
+		[337110] = {
 			["school"] = 32,
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
-			},
-			["source"] = "Lord Stavros",
-		},
-		[346651] = {
-			["school"] = 32,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
 			},
 			["source"] = "Baroness Frieda",
+		},
+		[328667] = {
+			["school"] = 16,
+			["token"] = {
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Reanimated Mage",
 		},
 		[322493] = {
 			["school"] = 16,
@@ -5317,12 +4784,15 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Reanimated Mage",
 		},
-		[328887] = {
-			["school"] = 1,
+		[23113] = {
+			["school"] = 4,
+			["type"] = "DEBUFF",
 			["token"] = {
+				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
 			},
-			["source"] = "Shriekwing",
+			["source"] = "Molten Golem",
 		},
 		[8092] = {
 			["school"] = 32,
@@ -5333,29 +4803,33 @@ EncounterDetailsDB = {
 			},
 			["source"] = "Missteak",
 		},
-		[330959] = {
-			["school"] = 1,
-			["type"] = "BUFF",
+		[320596] = {
+			["school"] = 8,
+			["type"] = "DEBUFF",
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_PERIODIC_DAMAGE"] = true,
+				["SPELL_CAST_START"] = true,
+			},
+			["source"] = "Blightbone",
+		},
+		[321755] = {
+			["school"] = 16,
+			["type"] = "DEBUFF",
 			["token"] = {
 				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_SUCCESS"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baroness Frieda",
+			["source"] = "Nalthor the Rimebinder",
 		},
-		[328497] = {
-			["school"] = 1,
-			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-			},
-		},
-		[346706] = {
+		[327123] = {
 			["school"] = 32,
-			["type"] = "BUFF",
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
-				["SPELL_AURA_APPLIED"] = true,
+				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Lord Stavros",
+			["source"] = "Remornia",
 		},
 		[326075] = {
 			["school"] = 1,
@@ -5390,32 +4864,26 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Torturer Darithos",
 		},
-		[320772] = {
-			["school"] = 16,
-			["type"] = "BUFF",
+		[321253] = {
+			["school"] = 32,
 			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
-				["SPELL_CAST_START"] = true,
 				["SPELL_CAST_SUCCESS"] = true,
-			},
-			["source"] = "Nalthor the Rimebinder",
-		},
-		[346681] = {
-			["school"] = 1,
-			["type"] = "DEBUFF",
-			["token"] = {
-				["SPELL_AURA_APPLIED"] = true,
 				["SPELL_DAMAGE"] = true,
 			},
-			["source"] = "Baroness Frieda",
 		},
-		[342863] = {
-			["school"] = 1,
+		[317936] = {
+			["school"] = 2,
 			["token"] = {
-				["SPELL_CAST_SUCCESS"] = true,
 				["SPELL_CAST_START"] = true,
 			},
-			["source"] = "Shriekwing",
+			["source"] = "Forsworn Champion",
+		},
+		[332626] = {
+			["school"] = 32,
+			["token"] = {
+				["SPELL_DAMAGE"] = true,
+			},
+			["source"] = "Sire Denathrius",
 		},
 		[328890] = {
 			["school"] = 32,
@@ -5424,12 +4892,24 @@ EncounterDetailsDB = {
 			},
 			["source"] = "High Torturer Darithos",
 		},
-		[339639] = {
-			["school"] = 32,
+		[329951] = {
+			["school"] = 1,
+			["type"] = "DEBUFF",
 			["token"] = {
-				["SPELL_DAMAGE"] = true,
+				["SPELL_AURA_APPLIED"] = true,
 			},
-			["source"] = "Ripped Soul",
+			["source"] = "Remornia",
 		},
+	},
+	["emotes"] = {
+		{
+			["boss"] = "Devos, Paragon of Loyalty",
+		}, -- [1]
+		{
+			["boss"] = "Oryphrion",
+		}, -- [2]
+		{
+			["boss"] = "Ventunax",
+		}, -- [3]
 	},
 }

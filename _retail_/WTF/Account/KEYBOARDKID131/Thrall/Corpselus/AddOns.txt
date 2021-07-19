@@ -104,3 +104,6 @@ AAP-Core: disabled
 LittleWigs_BattleForAzeroth: enabled
 LittleWigs_Classic: enabled
 LittleWigs_BurningCrusade: enabled
+!KalielsTracker: disabled
+NameplateSCT: disabled
+BigWigs_SanctumOfDomination: enabled

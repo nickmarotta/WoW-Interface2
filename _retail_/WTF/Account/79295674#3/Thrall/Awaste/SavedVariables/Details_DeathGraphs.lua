@@ -5,48 +5,7 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Shriekwing",
 		["id"] = 2393,
-		["player_db"] = {
-			["Daumath"] = {
-				["name"] = "Daumath",
-				["class"] = "HUNTER",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Healmenoob"] = {
-				["name"] = "Healmenoob",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Kred"] = {
-				["name"] = "Kred",
-				["class"] = "PALADIN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Awaste"] = {
-				["name"] = "Awaste",
-				["class"] = "WARLOCK",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-			["Borty"] = {
-				["name"] = "Borty",
-				["class"] = "SHAMAN",
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 1,
@@ -56,41 +15,189 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Shriekwing",
 			["diff"] = 14,
-			["ej_instance_id"] = 1190,
 			["id"] = 2398,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["242614"] = {
-		["hash"] = "242614",
-		["type"] = "deaths",
-		["name"] = "The Council of Blood",
-		["id"] = 2426,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Castle Nathria",
-			["encounter"] = "The Council of Blood",
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "The Council of Blood",
-			["diff"] = 14,
-			["id"] = 2412,
 			["ej_instance_id"] = 1190,
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Trao-Blackrock"] = {
-				["name"] = "Trao-Blackrock",
-				["class"] = "MAGE",
+			["Daumath"] = {
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
 				["overall"] = {
 				},
+				["name"] = "Daumath",
+			},
+			["Healmenoob"] = {
+				["class"] = "PALADIN",
 				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Healmenoob",
+			},
+			["Kred"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Kred",
+			},
+			["Borty"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Borty",
+			},
+			["Awaste"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Awaste",
+			},
+		},
+	},
+	["2418-15"] = {
+		["hash"] = "2418-15",
+		["type"] = "deaths",
+		["name"] = "Huntsman Altimor",
+		["id"] = "2418-15",
+		["player_db"] = {
+			["Snurple"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Snurple",
+				["overall"] = {
+				},
+			},
+			["Crub"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Crub",
+				["overall"] = {
+				},
+			},
+			["Parzivál-Mal'Ganis"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Parzivál-Mal'Ganis",
+				["overall"] = {
+				},
+			},
+			["Orkhand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Orkhand",
+				["overall"] = {
+				},
+			},
+			["Healmenoob"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Healmenoob",
+				["overall"] = {
+				},
+			},
+			["Evale"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Evale",
+				["overall"] = {
+				},
+			},
+			["Daumawth"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Daumawth",
+				["overall"] = {
+				},
+			},
+			["Nickdonalds-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Nickdonalds-Blackrock",
+				["overall"] = {
+				},
+			},
+			["Eskandar-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Eskandar-Blackrock",
+				["overall"] = {
+				},
+			},
+			["Missteak"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Missteak",
+				["overall"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Ctcbrute",
+				["overall"] = {
+				},
+			},
+			["Awaste"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Awaste",
+				["overall"] = {
+				},
+			},
+			["Coasting"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Coasting",
+				["overall"] = {
+				},
+			},
+			["Sendmoons"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Sendmoons",
+				["overall"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Ampersand-Blackrock",
+				["overall"] = {
+				},
+			},
+			["Maddawg-Turalyon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Maddawg-Turalyon",
+				["overall"] = {
 				},
 			},
 		},
+		["diff"] = 15,
 	},
 	["2398-15"] = {
 		["hash"] = "2398-15",
@@ -99,100 +206,100 @@ DeathGraphsDBDeaths = {
 		["id"] = "2398-15",
 		["player_db"] = {
 			["Parzivál-Mal'Ganis"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Parzivál-Mal'Ganis",
 				["class"] = "PALADIN",
+				["name"] = "Parzivál-Mal'Ganis",
+				["overall"] = {
+				},
 			},
 			["Healmenoob"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Healmenoob",
 				["class"] = "PALADIN",
+				["name"] = "Healmenoob",
+				["overall"] = {
+				},
 			},
 			["Kred"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Kred",
 				["class"] = "PALADIN",
+				["name"] = "Kred",
+				["overall"] = {
+				},
 			},
 			["Nickdonalds-Blackrock"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Nickdonalds-Blackrock",
 				["class"] = "DEMONHUNTER",
+				["name"] = "Nickdonalds-Blackrock",
+				["overall"] = {
+				},
 			},
 			["Eskandar-Blackrock"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Eskandar-Blackrock",
 				["class"] = "WARRIOR",
+				["name"] = "Eskandar-Blackrock",
+				["overall"] = {
+				},
 			},
 			["Orkbow"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Orkbow",
 				["class"] = "HUNTER",
+				["name"] = "Orkbow",
+				["overall"] = {
+				},
 			},
 			["Ctcbrute"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Ctcbrute",
 				["class"] = "HUNTER",
+				["name"] = "Ctcbrute",
+				["overall"] = {
+				},
 			},
 			["Awaste"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Awaste",
 				["class"] = "WARLOCK",
-			},
-			["Ampersand-Blackrock"] = {
+				["name"] = "Awaste",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
-				["name"] = "Ampersand-Blackrock",
-				["class"] = "SHAMAN",
-			},
-			["Sendmoons"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Sendmoons",
-				["class"] = "DRUID",
 			},
 			["Evale"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Evale",
 				["class"] = "MONK",
+				["name"] = "Evale",
+				["overall"] = {
+				},
+			},
+			["Sendmoons"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Sendmoons",
+				["overall"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Ampersand-Blackrock",
+				["overall"] = {
+				},
 			},
 			["Maddawg-Turalyon"] = {
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-				["name"] = "Maddawg-Turalyon",
 				["class"] = "WARLOCK",
+				["name"] = "Maddawg-Turalyon",
+				["overall"] = {
+				},
 			},
 		},
 		["diff"] = 15,
@@ -202,7 +309,6 @@ DeathGraphsDBDeaths = {
 		["type"] = "deaths",
 		["name"] = "Sun King's Salvation",
 		["id"] = 2422,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 3,
@@ -212,19 +318,19 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Sun King's Salvation",
 			["diff"] = 14,
-			["id"] = 2402,
 			["ej_instance_id"] = 1190,
+			["id"] = 2402,
 			["killed"] = true,
 		},
 		["player_db"] = {
 		},
+		["diff"] = 14,
 	},
 	["241814"] = {
 		["hash"] = "241814",
 		["type"] = "deaths",
 		["name"] = "Huntsman Altimor",
 		["id"] = 2418,
-		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 4,
@@ -234,156 +340,68 @@ DeathGraphsDBDeaths = {
 			["try_number"] = 1,
 			["name"] = "Huntsman Altimor",
 			["diff"] = 14,
-			["id"] = 2418,
 			["ej_instance_id"] = 1190,
+			["id"] = 2418,
 			["killed"] = true,
 		},
 		["player_db"] = {
 			["Deedah-Blackrock"] = {
-				["name"] = "Deedah-Blackrock",
 				["class"] = "MONK",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Deedah-Blackrock",
 			},
 			["Daumath"] = {
-				["name"] = "Daumath",
 				["class"] = "HUNTER",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
-			},
-			["Bigups"] = {
-				["name"] = "Bigups",
-				["class"] = "ROGUE",
 				["overall"] = {
 				},
-				["deaths"] = {
-				},
+				["name"] = "Daumath",
 			},
 			["Borty"] = {
-				["name"] = "Borty",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Borty",
+			},
+			["Bigups"] = {
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Bigups",
 			},
 			["Ampersand-Blackrock"] = {
-				["name"] = "Ampersand-Blackrock",
 				["class"] = "SHAMAN",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Ampersand-Blackrock",
 			},
 			["Niobe-Blackrock"] = {
-				["name"] = "Niobe-Blackrock",
 				["class"] = "DRUID",
-				["overall"] = {
-				},
 				["deaths"] = {
 				},
+				["overall"] = {
+				},
+				["name"] = "Niobe-Blackrock",
 			},
 		},
+		["diff"] = 14,
 	},
 	["239414"] = {
 		["hash"] = "239414",
 		["type"] = "deaths",
 		["name"] = "Sludgefist",
 		["id"] = 2394,
-		["player_db"] = {
-			["Snurple"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Snurple",
-				["overall"] = {
-				},
-			},
-			["Daumath"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Daumath",
-				["overall"] = {
-				},
-			},
-			["Ctcbrute"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Ctcbrute",
-				["overall"] = {
-				},
-			},
-			["Bigups"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Bigups",
-				["overall"] = {
-				},
-			},
-			["Missteak"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Missteak",
-				["overall"] = {
-				},
-			},
-			["Coasting"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Coasting",
-				["overall"] = {
-				},
-			},
-			["Darrenpnad-Area52"] = {
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-				["name"] = "Darrenpnad-Area52",
-				["overall"] = {
-				},
-			},
-			["Deedah-Blackrock"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Deedah-Blackrock",
-				["overall"] = {
-				},
-			},
-			["Kred"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Kred",
-				["overall"] = {
-				},
-			},
-			["Anguskhän"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Anguskhän",
-				["overall"] = {
-				},
-			},
-			["Niobe-Blackrock"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Niobe-Blackrock",
-				["overall"] = {
-				},
-			},
-		},
+		["diff"] = 14,
 		["boss_table"] = {
 			["diff_string"] = "Normal",
 			["index"] = 8,
@@ -392,148 +410,130 @@ DeathGraphsDBDeaths = {
 			["mapid"] = 2296,
 			["try_number"] = 1,
 			["name"] = "Sludgefist",
-			["diff"] = 14,
-			["ej_instance_id"] = 1190,
 			["encounter"] = "Sludgefist",
+			["ej_instance_id"] = 1190,
+			["diff"] = 14,
 		},
-		["diff"] = 14,
-	},
-	["2418-15"] = {
-		["hash"] = "2418-15",
-		["type"] = "deaths",
-		["name"] = "Huntsman Altimor",
-		["id"] = "2418-15",
 		["player_db"] = {
 			["Snurple"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Snurple",
 				["class"] = "PALADIN",
-			},
-			["Crub"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Crub",
-				["class"] = "DEATHKNIGHT",
 			},
-			["Parzivál-Mal'Ganis"] = {
+			["Daumath"] = {
+				["name"] = "Daumath",
+				["class"] = "HUNTER",
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Parzivál-Mal'Ganis",
-				["class"] = "PALADIN",
-			},
-			["Orkhand"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Orkhand",
-				["class"] = "MAGE",
-			},
-			["Healmenoob"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Healmenoob",
-				["class"] = "PALADIN",
-			},
-			["Ampersand-Blackrock"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Ampersand-Blackrock",
-				["class"] = "SHAMAN",
-			},
-			["Sendmoons"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Sendmoons",
-				["class"] = "DRUID",
-			},
-			["Nickdonalds-Blackrock"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Nickdonalds-Blackrock",
-				["class"] = "DEMONHUNTER",
-			},
-			["Eskandar-Blackrock"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Eskandar-Blackrock",
-				["class"] = "WARRIOR",
-			},
-			["Coasting"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Coasting",
-				["class"] = "MONK",
 			},
 			["Ctcbrute"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Ctcbrute",
 				["class"] = "HUNTER",
-			},
-			["Awaste"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Awaste",
-				["class"] = "WARLOCK",
+			},
+			["Bigups"] = {
+				["name"] = "Bigups",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 			["Missteak"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
 				["name"] = "Missteak",
 				["class"] = "PRIEST",
-			},
-			["Daumawth"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Daumawth",
-				["class"] = "HUNTER",
 			},
-			["Evale"] = {
-				["overall"] = {
-				},
-				["deaths"] = {
-				},
-				["name"] = "Evale",
+			["Coasting"] = {
+				["name"] = "Coasting",
 				["class"] = "MONK",
-			},
-			["Maddawg-Turalyon"] = {
 				["overall"] = {
 				},
 				["deaths"] = {
 				},
-				["name"] = "Maddawg-Turalyon",
-				["class"] = "WARLOCK",
+			},
+			["Niobe-Blackrock"] = {
+				["name"] = "Niobe-Blackrock",
+				["class"] = "DRUID",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Deedah-Blackrock"] = {
+				["name"] = "Deedah-Blackrock",
+				["class"] = "MONK",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Kred"] = {
+				["name"] = "Kred",
+				["class"] = "PALADIN",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["name"] = "Anguskhän",
+				["class"] = "DEATHKNIGHT",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
+			},
+			["Darrenpnad-Area52"] = {
+				["name"] = "Darrenpnad-Area52",
+				["class"] = "ROGUE",
+				["overall"] = {
+				},
+				["deaths"] = {
+				},
 			},
 		},
-		["diff"] = 15,
+	},
+	["242614"] = {
+		["hash"] = "242614",
+		["type"] = "deaths",
+		["name"] = "The Council of Blood",
+		["id"] = 2426,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Castle Nathria",
+			["encounter"] = "The Council of Blood",
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "The Council of Blood",
+			["diff"] = 14,
+			["ej_instance_id"] = 1190,
+			["id"] = 2412,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Trao-Blackrock"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Trao-Blackrock",
+			},
+		},
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBEndurance = {
@@ -542,46 +542,59 @@ DeathGraphsDBEndurance = {
 		["type"] = "endurance",
 		["name"] = "Shriekwing",
 		["id"] = 2393,
+		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 1,
+			["zone"] = "Castle Nathria",
+			["encounter"] = "Shriekwing",
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "Shriekwing",
+			["diff"] = 14,
+			["id"] = 2398,
+			["ej_instance_id"] = 1190,
+			["killed"] = true,
+		},
 		["player_db"] = {
 			["Darrenpnad-Area52"] = {
 				["encounters"] = 1,
 				["points"] = 100,
-				["class"] = "ROGUE",
 				["deaths"] = {
 				},
+				["class"] = "ROGUE",
 			},
 			["Crub"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
+				["class"] = "DEATHKNIGHT",
 			},
 			["Ctcbrute"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "HUNTER",
 				["deaths"] = {
 				},
+				["class"] = "HUNTER",
 			},
 			["Trao-Blackrock"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "MAGE",
 				["deaths"] = {
 				},
+				["class"] = "MAGE",
 			},
 			["Missteak"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "PRIEST",
 				["deaths"] = {
 				},
+				["class"] = "PRIEST",
 			},
 			["Daumath"] = {
 				["encounters"] = 4,
 				["points"] = 390,
-				["class"] = "HUNTER",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -589,10 +602,12 @@ DeathGraphsDBEndurance = {
 						"Environment (Falling) |cFFFF3333901|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "HUNTER",
 			},
 			["Healmenoob"] = {
 				["encounters"] = 3,
 				["points"] = 280,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -605,12 +620,10 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333318,489|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "PALADIN",
 			},
 			["Kred"] = {
 				["encounters"] = 4,
 				["points"] = 390,
-				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -618,58 +631,32 @@ DeathGraphsDBEndurance = {
 						"Fall of the Unworthy |cFFFF33331,651,623|r", -- [3]
 					}, -- [1]
 				},
+				["class"] = "PALADIN",
 			},
-			["Deedah-Blackrock"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "MONK",
+			["Snurple"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
+				["class"] = "PALADIN",
 			},
 			["Coasting"] = {
 				["encounters"] = 4,
 				["points"] = 400,
+				["deaths"] = {
+				},
 				["class"] = "MONK",
-				["deaths"] = {
-				},
 			},
-			["Anguskhän"] = {
+			["Ampersand-Blackrock"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-			},
-			["Niobe-Blackrock"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Awaste"] = {
-				["encounters"] = 4,
-				["points"] = 390,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						153.7770000000019, -- [2]
-						"Volatile Ejection |cFFFF333329,384|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Bigups"] = {
-				["encounters"] = 4,
-				["points"] = 400,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
+				["class"] = "SHAMAN",
 			},
 			["Borty"] = {
 				["encounters"] = 4,
 				["points"] = 380,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -682,760 +669,49 @@ DeathGraphsDBEndurance = {
 						"Anima Web (DoT) |cFFFF333313,084|r", -- [3]
 					}, -- [2]
 				},
+				["class"] = "SHAMAN",
 			},
-			["Ampersand-Blackrock"] = {
+			["Awaste"] = {
+				["encounters"] = 4,
+				["points"] = 390,
+				["deaths"] = {
+					{
+						1, -- [1]
+						153.7770000000019, -- [2]
+						"Volatile Ejection |cFFFF333329,384|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "WARLOCK",
+			},
+			["Bigups"] = {
 				["encounters"] = 4,
 				["points"] = 400,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
-			},
-			["Snurple"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 1,
-			["zone"] = "Castle Nathria",
-			["encounter"] = "Shriekwing",
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "Shriekwing",
-			["diff"] = 14,
-			["ej_instance_id"] = 1190,
-			["id"] = 2398,
-			["killed"] = true,
-		},
-		["diff"] = 14,
-	},
-	["242614"] = {
-		["hash"] = "242614",
-		["type"] = "endurance",
-		["name"] = "The Council of Blood",
-		["id"] = 2426,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Castle Nathria",
-			["encounter"] = "The Council of Blood",
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "The Council of Blood",
-			["diff"] = 14,
-			["id"] = 2412,
-			["ej_instance_id"] = 1190,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Deedah-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Crub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Daumath"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Healmenoob"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Borty"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Trao-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 90,
-				["deaths"] = {
-					{
-						1, -- [1]
-						282.1560000000172, -- [2]
-						"Dark Recital |cFFFF3333980|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MAGE",
+				["class"] = "ROGUE",
 			},
 			["Niobe-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
 				["class"] = "DRUID",
-			},
-			["Coasting"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Missteak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Awaste"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Kred"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Bigups"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
 			},
 			["Anguskhän"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
 				["class"] = "DEATHKNIGHT",
 			},
-			["Ctcbrute"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-		},
-	},
-	["2398-15"] = {
-		["hash"] = "2398-15",
-		["type"] = "endurance",
-		["name"] = "Shriekwing",
-		["id"] = "2398-15",
-		["player_db"] = {
-			["Snurple"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Crub"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Parzivál-Mal'Ganis"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Ctcbrute"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						23.43100000001141, -- [2]
-						"Melee |cFFFF333324,235|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Trao-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Missteak"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Sendmoons"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Evale"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						140.6300000000047, -- [2]
-						"Sanguine Ichor (DoT) |cFFFF33334,073|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "MONK",
-			},
-			["Maddawg-Turalyon"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						102.3099999999977, -- [2]
-						"Wave of Blood |cFFFF33332,184|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Healmenoob"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						14.89499999998952, -- [2]
-						"Melee |cFFFF333321,380|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Kred"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						9.426999999996042, -- [2]
-						"Exsanguinated (DoT) |cFFFF33331,189|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "PALADIN",
-			},
-			["Nickdonalds-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-			},
-			["Coasting"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Orkbow"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Awaste"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						2, -- [1]
-						101.2619999999879, -- [2]
-						"Earsplitting Shriek |cFFFF333313,781|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "WARLOCK",
-			},
-			["Daumawth"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Eskandar-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-		},
-		["diff"] = 15,
-	},
-	["242214"] = {
-		["hash"] = "242214",
-		["type"] = "endurance",
-		["name"] = "Sun King's Salvation",
-		["id"] = 2422,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 3,
-			["zone"] = "Castle Nathria",
-			["encounter"] = "Sun King's Salvation",
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "Sun King's Salvation",
-			["diff"] = 14,
-			["id"] = 2402,
-			["ej_instance_id"] = 1190,
-			["killed"] = true,
-		},
-		["player_db"] = {
 			["Deedah-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 4,
+				["points"] = 400,
 				["deaths"] = {
 				},
 				["class"] = "MONK",
-			},
-			["Crub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Daumath"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Healmenoob"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Borty"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Missteak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Niobe-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-			},
-			["Coasting"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kred"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Awaste"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Bigups"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Trao-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Anguskhän"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Ctcbrute"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
 			},
 		},
-	},
-	["241814"] = {
-		["hash"] = "241814",
-		["type"] = "endurance",
-		["name"] = "Huntsman Altimor",
-		["id"] = 2418,
-		["diff"] = 14,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 4,
-			["zone"] = "Castle Nathria",
-			["encounter"] = "Huntsman Altimor",
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "Huntsman Altimor",
-			["diff"] = 14,
-			["id"] = 2418,
-			["ej_instance_id"] = 1190,
-			["killed"] = true,
-		},
-		["player_db"] = {
-			["Deedah-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Crub"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Daumath"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["deaths"] = {
-					{
-						1, -- [1]
-						110.372000000003, -- [2]
-						"Withering Touch (DoT) |cFFFF33333,111|r", -- [3]
-					}, -- [1]
-				},
-				["class"] = "HUNTER",
-			},
-			["Healmenoob"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Borty"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Missteak"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-			},
-			["Niobe-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 270,
-				["deaths"] = {
-					{
-						1, -- [1]
-						159.00900000002, -- [2]
-						"Withering Touch (DoT) |cFFFF33334,557|r", -- [3]
-					}, -- [1]
-					{
-						1, -- [1]
-						208.2960000000021, -- [2]
-						"Annihilate |cFFFF3333106,249|r", -- [3]
-					}, -- [2]
-				},
-				["class"] = "DRUID",
-			},
-			["Coasting"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-			},
-			["Kred"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-			},
-			["Awaste"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-			},
-			["Bigups"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "ROGUE",
-			},
-			["Trao-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-			},
-			["Anguskhän"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-			},
-			["Ctcbrute"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-		},
-	},
-	["239414"] = {
-		["hash"] = "239414",
-		["type"] = "endurance",
-		["name"] = "Sludgefist",
-		["id"] = 2394,
-		["player_db"] = {
-			["Deedah-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Crub"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Darrenpnad-Area52"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "ROGUE",
-				["deaths"] = {
-					{
-						2, -- [1]
-						179.3830000000016, -- [2]
-						"Shattering Chain |cFFFF3333100,100|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Daumath"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ctcbrute"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Borty"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Anguskhän"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-					{
-						1, -- [1]
-						44.05499999999302, -- [2]
-						"Melee |cFFFF333311,206|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Missteak"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Coasting"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "MONK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						43.58499999999185, -- [2]
-						"Shattering Chain |cFFFF333398,014|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Kred"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						179.3830000000016, -- [2]
-						"Shattering Chain |cFFFF333372,373|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Trao-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Awaste"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Snurple"] = {
-				["encounters"] = 2,
-				["points"] = 190,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						1, -- [1]
-						43.58499999999185, -- [2]
-						"Shattering Chain |cFFFF333382,848|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Bigups"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Niobe-Blackrock"] = {
-				["encounters"] = 2,
-				["points"] = 200,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-		},
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 8,
-			["zone"] = "Castle Nathria",
-			["id"] = 2399,
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "Sludgefist",
-			["diff"] = 14,
-			["ej_instance_id"] = 1190,
-			["encounter"] = "Sludgefist",
-		},
-		["diff"] = 14,
 	},
 	["2418-15"] = {
 		["hash"] = "2418-15",
@@ -1446,6 +722,7 @@ DeathGraphsDBEndurance = {
 			["Snurple"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						2, -- [1]
@@ -1453,18 +730,18 @@ DeathGraphsDBEndurance = {
 						"Sinseeker (DoT) |cFFFF33334,002|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 			["Crub"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
-				["class"] = "DEATHKNIGHT",
 			},
 			["Parzivál-Mal'Ganis"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "PALADIN",
 				["deaths"] = {
 					{
 						3, -- [1]
@@ -1472,32 +749,32 @@ DeathGraphsDBEndurance = {
 						"Shattering Stone |cFFFF33334,440|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "PALADIN",
 			},
 			["Ctcbrute"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Trao-Blackrock"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MAGE",
 				["deaths"] = {
 				},
-				["class"] = "MAGE",
 			},
 			["Missteak"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PRIEST",
 				["deaths"] = {
 				},
-				["class"] = "PRIEST",
 			},
 			["Sendmoons"] = {
 				["encounters"] = 3,
 				["points"] = 280,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1510,18 +787,18 @@ DeathGraphsDBEndurance = {
 						"Spreadshot |cFFFF33339,325|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "DRUID",
 			},
 			["Evale"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Maddawg-Turalyon"] = {
 				["encounters"] = 3,
 				["points"] = 290,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1529,46 +806,46 @@ DeathGraphsDBEndurance = {
 						"Sinseeker (DoT) |cFFFF333310,917|r", -- [3]
 					}, -- [1]
 				},
-				["class"] = "WARLOCK",
 			},
 			["Healmenoob"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Kred"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "PALADIN",
 				["deaths"] = {
 				},
-				["class"] = "PALADIN",
 			},
 			["Nickdonalds-Blackrock"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "DEMONHUNTER",
 				["deaths"] = {
 				},
-				["class"] = "DEMONHUNTER",
 			},
 			["Coasting"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["class"] = "MONK",
 			},
 			["Orkbow"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "HUNTER",
 				["deaths"] = {
 				},
-				["class"] = "HUNTER",
 			},
 			["Awaste"] = {
 				["encounters"] = 3,
 				["points"] = 280,
+				["class"] = "WARLOCK",
 				["deaths"] = {
 					{
 						1, -- [1]
@@ -1581,38 +858,761 @@ DeathGraphsDBEndurance = {
 						"Unstable Soul |cFFFF33331,853|r", -- [3]
 					}, -- [2]
 				},
-				["class"] = "WARLOCK",
-			},
-			["Eskandar-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-			},
-			["Daumawth"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
 			},
 			["Orkhand"] = {
 				["encounters"] = 3,
 				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Daumawth"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Eskandar-Blackrock"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["2398-15"] = {
+		["hash"] = "2398-15",
+		["type"] = "endurance",
+		["name"] = "Shriekwing",
+		["id"] = "2398-15",
+		["player_db"] = {
+			["Snurple"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Crub"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Parzivál-Mal'Ganis"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						23.43100000001141, -- [2]
+						"Melee |cFFFF333324,235|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Trao-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Missteak"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sendmoons"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Evale"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "MONK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						140.6300000000047, -- [2]
+						"Sanguine Ichor (DoT) |cFFFF33334,073|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Maddawg-Turalyon"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						102.3099999999977, -- [2]
+						"Wave of Blood |cFFFF33332,184|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Healmenoob"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						14.89499999998952, -- [2]
+						"Melee |cFFFF333321,380|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Kred"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						9.426999999996042, -- [2]
+						"Exsanguinated (DoT) |cFFFF33331,189|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Nickdonalds-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Coasting"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Orkbow"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						2, -- [1]
+						101.2619999999879, -- [2]
+						"Earsplitting Shriek |cFFFF333313,781|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Daumawth"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Eskandar-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+	["242214"] = {
+		["hash"] = "242214",
+		["type"] = "endurance",
+		["name"] = "Sun King's Salvation",
+		["id"] = 2422,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 3,
+			["zone"] = "Castle Nathria",
+			["encounter"] = "Sun King's Salvation",
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "Sun King's Salvation",
+			["diff"] = 14,
+			["ej_instance_id"] = 1190,
+			["id"] = 2402,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Deedah-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Crub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Daumath"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Healmenoob"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Borty"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Niobe-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Coasting"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Trao-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Bigups"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Kred"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Missteak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["241814"] = {
+		["hash"] = "241814",
+		["type"] = "endurance",
+		["name"] = "Huntsman Altimor",
+		["id"] = 2418,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 4,
+			["zone"] = "Castle Nathria",
+			["encounter"] = "Huntsman Altimor",
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "Huntsman Altimor",
+			["diff"] = 14,
+			["ej_instance_id"] = 1190,
+			["id"] = 2418,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Deedah-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Crub"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Daumath"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["class"] = "HUNTER",
+				["deaths"] = {
+					{
+						1, -- [1]
+						110.372000000003, -- [2]
+						"Withering Touch (DoT) |cFFFF33333,111|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Healmenoob"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Borty"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Niobe-Blackrock"] = {
+				["encounters"] = 3,
+				["points"] = 270,
+				["class"] = "DRUID",
+				["deaths"] = {
+					{
+						1, -- [1]
+						159.00900000002, -- [2]
+						"Withering Touch (DoT) |cFFFF33334,557|r", -- [3]
+					}, -- [1]
+					{
+						1, -- [1]
+						208.2960000000021, -- [2]
+						"Annihilate |cFFFF3333106,249|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Coasting"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Trao-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Bigups"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Kred"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Missteak"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["239414"] = {
+		["hash"] = "239414",
+		["type"] = "endurance",
+		["name"] = "Sludgefist",
+		["id"] = 2394,
+		["diff"] = 14,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 8,
+			["zone"] = "Castle Nathria",
+			["id"] = 2399,
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "Sludgefist",
+			["encounter"] = "Sludgefist",
+			["ej_instance_id"] = 1190,
+			["diff"] = 14,
+		},
+		["player_db"] = {
+			["Deedah-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+			},
+			["Crub"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Missteak"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+			},
+			["Daumath"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Ctcbrute"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+			},
+			["Borty"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+			},
+			["Niobe-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+			},
+			["Coasting"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						43.58499999999185, -- [2]
+						"Shattering Chain |cFFFF333398,014|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "MONK",
+			},
+			["Bigups"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "ROGUE",
+			},
+			["Snurple"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						43.58499999999185, -- [2]
+						"Shattering Chain |cFFFF333382,848|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Awaste"] = {
+				["encounters"] = 2,
+				["points"] = 200,
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+			},
+			["Trao-Blackrock"] = {
+				["encounters"] = 2,
+				["points"] = 200,
 				["deaths"] = {
 				},
 				["class"] = "MAGE",
 			},
+			["Kred"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						179.3830000000016, -- [2]
+						"Shattering Chain |cFFFF333372,373|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "PALADIN",
+			},
+			["Anguskhän"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						1, -- [1]
+						44.05499999999302, -- [2]
+						"Melee |cFFFF333311,206|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "DEATHKNIGHT",
+			},
+			["Darrenpnad-Area52"] = {
+				["encounters"] = 2,
+				["points"] = 190,
+				["deaths"] = {
+					{
+						2, -- [1]
+						179.3830000000016, -- [2]
+						"Shattering Chain |cFFFF3333100,100|r", -- [3]
+					}, -- [1]
+				},
+				["class"] = "ROGUE",
+			},
 		},
-		["diff"] = 15,
+	},
+	["242614"] = {
+		["hash"] = "242614",
+		["type"] = "endurance",
+		["name"] = "The Council of Blood",
+		["id"] = 2426,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Castle Nathria",
+			["encounter"] = "The Council of Blood",
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "The Council of Blood",
+			["diff"] = 14,
+			["ej_instance_id"] = 1190,
+			["id"] = 2412,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Deedah-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Crub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Daumath"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Healmenoob"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Borty"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Niobe-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Coasting"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Bigups"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Kred"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Missteak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Trao-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						282.1560000000172, -- [2]
+						"Dark Recital |cFFFF3333980|r", -- [3]
+					}, -- [1]
+				},
+			},
+		},
+		["diff"] = 14,
 	},
 }
 DeathGraphsDBCurrent = {
@@ -1622,9 +1622,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 30400,
 				["timeofdeath"] = 204.3090000000084,
 				["name"] = "Parzivál-Mal'Ganis",
-				["time"] = 1613094841.683,
-				["class"] = "PALADIN",
-				["timestring"] = "3m 24s",
 				["events"] = {
 					{
 						2, -- [1]
@@ -2011,6 +2008,9 @@ DeathGraphsDBCurrent = {
 						"Parzivál-Mal'Ganis", -- [6]
 					}, -- [34]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "3m 24s",
+				["time"] = 1613094841.683,
 			}, -- [1]
 		},
 		["bossname"] = "Huntsman Altimor",
@@ -2030,9 +2030,6 @@ DeathGraphsDBCurrent = {
 				["maxhealth"] = 39400,
 				["timeofdeath"] = 159.4459999999963,
 				["name"] = "Snurple",
-				["time"] = 1613094417.755,
-				["class"] = "PALADIN",
-				["timestring"] = "2m 39s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -2417,14 +2414,14 @@ DeathGraphsDBCurrent = {
 						"Snurple", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PALADIN",
+				["timestring"] = "2m 39s",
+				["time"] = 1613094417.755,
 			}, -- [1]
 			{
 				["maxhealth"] = 31997,
 				["timeofdeath"] = 162.3179999999993,
 				["name"] = "Sendmoons",
-				["time"] = 1613094420.627,
-				["class"] = "DRUID",
-				["timestring"] = "2m 42s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -2809,14 +2806,14 @@ DeathGraphsDBCurrent = {
 						"Sendmoons", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DRUID",
+				["timestring"] = "2m 42s",
+				["time"] = 1613094420.627,
 			}, -- [2]
 			{
 				["maxhealth"] = 31060,
 				["timeofdeath"] = 163.1050000000105,
 				["name"] = "Awaste",
-				["time"] = 1613094421.414,
-				["class"] = "WARLOCK",
-				["timestring"] = "2m 43s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -3201,14 +3198,14 @@ DeathGraphsDBCurrent = {
 						"Awaste", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARLOCK",
+				["timestring"] = "2m 43s",
+				["time"] = 1613094421.414,
 			}, -- [3]
 			{
 				["maxhealth"] = 35120,
 				["timeofdeath"] = 165.0929999999935,
 				["name"] = "Nickdonalds-Blackrock",
-				["time"] = 1613094423.402,
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "2m 45s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -3601,14 +3598,14 @@ DeathGraphsDBCurrent = {
 						"Nickdonalds-Blackrock", -- [6]
 					}, -- [33]
 				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "2m 45s",
+				["time"] = 1613094423.402,
 			}, -- [4]
 			{
 				["maxhealth"] = 30420,
 				["timeofdeath"] = 165.0929999999935,
 				["name"] = "Ampersand-Blackrock",
-				["time"] = 1613094423.402,
-				["class"] = "SHAMAN",
-				["timestring"] = "2m 45s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -3999,14 +3996,14 @@ DeathGraphsDBCurrent = {
 						"Ampersand-Blackrock", -- [6]
 					}, -- [33]
 				},
+				["class"] = "SHAMAN",
+				["timestring"] = "2m 45s",
+				["time"] = 1613094423.402,
 			}, -- [5]
 			{
 				["maxhealth"] = 61996,
 				["timeofdeath"] = 166.2479999999923,
 				["name"] = "Eskandar-Blackrock",
-				["time"] = 1613094424.557,
-				["class"] = "WARRIOR",
-				["timestring"] = "2m 46s",
 				["events"] = {
 					{
 						true, -- [1]
@@ -4401,14 +4398,14 @@ DeathGraphsDBCurrent = {
 						"Eskandar-Blackrock", -- [6]
 					}, -- [33]
 				},
+				["class"] = "WARRIOR",
+				["timestring"] = "2m 46s",
+				["time"] = 1613094424.557,
 			}, -- [6]
 			{
 				["maxhealth"] = 37100,
 				["timeofdeath"] = 167.1030000000028,
 				["name"] = "Orkhand",
-				["time"] = 1613094425.412,
-				["class"] = "MAGE",
-				["timestring"] = "2m 47s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -4793,14 +4790,14 @@ DeathGraphsDBCurrent = {
 						"Orkhand", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MAGE",
+				["timestring"] = "2m 47s",
+				["time"] = 1613094425.412,
 			}, -- [7]
 			{
 				["maxhealth"] = 32860,
 				["timeofdeath"] = 168.2700000000186,
 				["name"] = "Evale",
-				["time"] = 1613094426.579,
-				["class"] = "MONK",
-				["timestring"] = "2m 48s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5187,14 +5184,14 @@ DeathGraphsDBCurrent = {
 						"Evale", -- [6]
 					}, -- [33]
 				},
+				["class"] = "MONK",
+				["timestring"] = "2m 48s",
+				["time"] = 1613094426.579,
 			}, -- [8]
 			{
 				["maxhealth"] = 36480,
 				["timeofdeath"] = 169.7900000000082,
 				["name"] = "Missteak",
-				["time"] = 1613094428.099,
-				["class"] = "PRIEST",
-				["timestring"] = "2m 49s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5577,14 +5574,14 @@ DeathGraphsDBCurrent = {
 						"Missteak", -- [6]
 					}, -- [33]
 				},
+				["class"] = "PRIEST",
+				["timestring"] = "2m 49s",
+				["time"] = 1613094428.099,
 			}, -- [9]
 			{
 				["maxhealth"] = 38587,
 				["timeofdeath"] = 170.247000000003,
 				["name"] = "Daumawth",
-				["time"] = 1613094428.556,
-				["class"] = "HUNTER",
-				["timestring"] = "2m 50s",
 				["events"] = {
 					{
 						false, -- [1]
@@ -5971,6 +5968,9 @@ DeathGraphsDBCurrent = {
 						"Daumawth", -- [6]
 					}, -- [33]
 				},
+				["class"] = "HUNTER",
+				["timestring"] = "2m 50s",
+				["time"] = 1613094428.556,
 			}, -- [10]
 		},
 		["bossname"] = "Huntsman Altimor",
@@ -5986,6 +5986,41 @@ DeathGraphsDBCurrent = {
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
+	["2418-15"] = {
+		["deaths"] = {
+			[117] = {
+				1613094170, -- [1]
+			},
+			[165] = {
+				1613094445, -- [1]
+				1613094445, -- [2]
+			},
+			[110] = {
+				1613094170, -- [1]
+			},
+			[159] = {
+				1613094445, -- [1]
+			},
+			[163] = {
+				1613094445, -- [1]
+			},
+			[162] = {
+				1613094445, -- [1]
+			},
+			[112] = {
+				1613094170, -- [1]
+				1613094170, -- [2]
+				1613094170, -- [3]
+			},
+			[204] = {
+				1613094934, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["2398-15"] = {
 		["deaths"] = {
 			[26] = {
@@ -6009,49 +6044,14 @@ DeathGraphsDBGraph = {
 			[102] = {
 				1613093664, -- [1]
 			},
-			[263] = {
+			[279] = {
 				1613093664, -- [1]
 			},
 			[23] = {
 				1613093150, -- [1]
 			},
-			[279] = {
+			[263] = {
 				1613093664, -- [1]
-			},
-		},
-		["spells"] = {
-		},
-		["ids"] = {
-		},
-	},
-	["2418-15"] = {
-		["deaths"] = {
-			[110] = {
-				1613094170, -- [1]
-			},
-			[165] = {
-				1613094445, -- [1]
-				1613094445, -- [2]
-			},
-			[204] = {
-				1613094934, -- [1]
-			},
-			[159] = {
-				1613094445, -- [1]
-			},
-			[163] = {
-				1613094445, -- [1]
-			},
-			[112] = {
-				1613094170, -- [1]
-				1613094170, -- [2]
-				1613094170, -- [3]
-			},
-			[162] = {
-				1613094445, -- [1]
-			},
-			[117] = {
-				1613094170, -- [1]
 			},
 		},
 		["spells"] = {

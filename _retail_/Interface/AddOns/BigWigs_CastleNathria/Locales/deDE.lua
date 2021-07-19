@@ -7,7 +7,7 @@ end
 
 L = BigWigs:NewBossLocale("Huntsman Altimor", "deDE")
 if L then
-	 L.killed = "%s getötet"
+	L.killed = "%s getötet"
 end
 
 L = BigWigs:NewBossLocale("Sun King's Salvation", "deDE")
@@ -25,8 +25,6 @@ if L then
 
 	L.custom_on_repeating_say_laser = "Wiederholte Instabiler Ausstoß Ansage"
 	L.custom_on_repeating_say_laser_desc = "Gibt wiederholt Chatnachrichten für Instabilen Ausstoß aus um beim Annähern an Spieler in Reichweite der Chatnachrichten zu helfen, falls diese die erste Nachricht nicht gelesen haben."
-
-	L.tempPrint = "Es wurde eine Gesundheitsansage für Miasma hinzugefügt. Falls bislang eine WeakAura hierfür verwendet wurde, kann diese gelöscht werden um doppelte Ansagen zu vermeiden."
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "deDE")
@@ -62,7 +60,6 @@ end
 
 L = BigWigs:NewBossLocale("The Council of Blood", "deDE")
 if L then
-	L.macabre_start_emote = "Plätze für den Totentanz einnehmen!" -- [RAID_BOSS_EMOTE] Take your places for the Danse Macabre!#Dance Controller#4#false"
 	L.custom_on_repeating_dark_recital = "Wiederholte Dunkler Vortrag Ansage"
 	L.custom_on_repeating_dark_recital_desc = "Gibt wiederholt Chatnachrichten mit den Symbolen {rt1}, {rt2} aus, um den Partner beim Tanzen zu finden."
 
@@ -118,8 +115,6 @@ end
 
 L = BigWigs:NewBossLocale("Sire Denathrius", "deDE")
 if L then
-	L.add_spawn = "Blutrote Kabalisten folgen Denathrius' Ruf." -- [RAID_BOSS_EMOTE] Crimson Cabalists answer the call of Denathrius.#Sire Denathrius#4#true"
-
 	L.infobox_stacks = "%d |4Stapel:Stapel;: %d |4Spieler:Spieler;" -- 4 Stacks: 5 players // 1 Stack: 1 player
 
 	L.custom_on_repeating_nighthunter = "Wiederholtes Nachtjäger Schreien"
@@ -166,6 +161,7 @@ if L then
 	L.antiquarian = "Finstere Antiquarin"
 	L.conservator = "Konservator von Nathria"
 	L.archivist = "Archivarin von Nathria"
+	L.hierarch = "Hofhierarchin"
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	L.goliath = "Goliath der Steinlegion"

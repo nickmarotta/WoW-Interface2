@@ -30,7 +30,7 @@ Bagnon_Sets = {
 	},
 	["mineColor"] = {
 	},
-	["version"] = "9.0.5",
+	["version"] = "9.1.0",
 	["reagentColor"] = {
 	},
 	["refrigeColor"] = {
@@ -68,13 +68,14 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -104.7537841796875,
-			["x"] = -284.6339111328125,
+			["y"] = -139.21484375,
+			["x"] = -267.404296875,
 			["borderColor"] = {
 			},
 			["columns"] = 10,
 			["reverseBags"] = false,
 			["bagBreak"] = false,
+			["brokerObject"] = "BagnonLauncher",
 		},
 		["vault"] = {
 			["rules"] = {

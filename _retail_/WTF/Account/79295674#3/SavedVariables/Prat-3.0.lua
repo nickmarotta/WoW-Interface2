@@ -82,6 +82,7 @@ Prat3DB = {
 		},
 	},
 	["profileKeys"] = {
+		["Escargoth - Thrall"] = "Default",
 		["Eyowen - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
 	},

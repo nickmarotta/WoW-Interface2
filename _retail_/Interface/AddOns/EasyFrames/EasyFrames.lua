@@ -176,7 +176,7 @@ local defaults = {
             showHitIndicator = true,
             showSpecialbar = true,
             showRestIcon = true,
-            showStatusTexture = false,
+            showStatusTexture = true,
             showAttackBackground = true,
             attackBackgroundOpacity = 0.7,
             showGroupIndicator = true,
@@ -215,7 +215,7 @@ local defaults = {
             targetNameColor = { unpack(DEFAULT_FRAMES_NAME_COLOR) },
 
             showToTFrame = true,
-            showAttackBackground = false,
+            showAttackBackground = true,
             attackBackgroundOpacity = 0.7,
             showTargetCastbar = false,
             showPVPIcon = true,
@@ -252,7 +252,7 @@ local defaults = {
             focusNameColor = { unpack(DEFAULT_FRAMES_NAME_COLOR) },
 
             showToTFrame = true,
-            showAttackBackground = false,
+            showAttackBackground = true,
             attackBackgroundOpacity = 0.7,
             showPVPIcon = true,
         },

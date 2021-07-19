@@ -1,8 +1,9 @@
 
 TomTomDB = {
 	["profileKeys"] = {
-		["Eyowen - Thrall"] = "Default",
+		["Escargoth - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
+		["Eyowen - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -31,13 +32,16 @@ TomTomDB = {
 TomTomWaypoints = nil
 TomTomWaypointsM = {
 	["profileKeys"] = {
-		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Escargoth - Thrall"] = "Escargoth - Thrall",
 		["Awaste - Thrall"] = "Awaste - Thrall",
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
 	},
 	["profiles"] = {
-		["Eyowen - Thrall"] = {
+		["Escargoth - Thrall"] = {
 		},
 		["Awaste - Thrall"] = {
+		},
+		["Eyowen - Thrall"] = {
 		},
 	},
 }

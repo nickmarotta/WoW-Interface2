@@ -13,8 +13,8 @@ QEConfig = {
 	["Fluff"] = false,
 	["Important"] = true,
 	["TargetTrigger"] = "Show targeted mob",
-	["ClassChoice"] = "Show my class only",
+	["Dodge"] = true,
 	["RaidToggle"] = true,
 	["FrameWidth"] = 450,
-	["Dodge"] = true,
+	["ClassChoice"] = "Show my class only",
 }

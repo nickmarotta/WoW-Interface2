@@ -17,7 +17,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
@@ -33,11 +33,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
-		},
-		["BigWigs_Plugins_Wipe"] = {
-		},
-		["BigWigs_Plugins_Messages"] = {
+		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Proximity"] = {
 			["profiles"] = {
@@ -46,12 +42,17 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_Messages"] = {
+		},
+		["BigWigs_Plugins_BossBlock"] = {
+		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_Statistics"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 	},
 	["profileKeys"] = {
+		["Escargoth - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
 	},
 	["profiles"] = {

@@ -3,10 +3,10 @@ EasyFramesDB = {
 	["profileKeys"] = {
 		["Attorum - Thrall"] = "Default",
 		["Mafiki - Thrall"] = "Default",
-		["Ronami - Thrall"] = "Default",
+		["Zynzo - Thrall"] = "Default",
 		["Corpselus - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
-		["Zynzo - Thrall"] = "Default",
+		["Ronami - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

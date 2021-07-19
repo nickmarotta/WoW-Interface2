@@ -1,5 +1,5 @@
--- Generated from CurseForge on Sat Mar  6 07:07:39 UTC 2021
-local _, ns = ...
+-- Generated from CurseForge on Wed May 12 07:09:02 UTC 2021
+local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("zhTW") then
 	local L = ns.L or ns:NewLocale()

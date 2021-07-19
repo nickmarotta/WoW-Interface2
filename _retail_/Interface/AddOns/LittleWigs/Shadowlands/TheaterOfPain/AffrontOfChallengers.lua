@@ -37,7 +37,7 @@ function mod:GetOptions()
 		[320063] = -21582, -- Dessia the Decapitator
 		[320248] = -21581, -- Paceran the Virulent
 		[333231] = -21591, -- Sathel the Accursed
-		[333540] = -22272, -- Xira the Underhanded
+		[333540] = -23841, -- Xira the Underhanded
 	}
 end
 
@@ -55,7 +55,7 @@ function mod:OnBossEnable()
 end
 
 function mod:OnEngage()
-	self:Bar(320063, 8.5) -- SLam
+	self:Bar(320063, 8.5) -- Slam
 	self:Bar(320069, 21) -- Mortal Strike
 	self:Bar(333231, 9.7) -- Searing Death
 end

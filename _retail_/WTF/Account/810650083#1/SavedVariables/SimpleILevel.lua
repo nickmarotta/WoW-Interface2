@@ -1,0 +1,71 @@
+
+SIL_Settings = {
+	["global"] = {
+		["version"] = 3,
+	},
+	["profileKeys"] = {
+		["Reayna - Thrall"] = "Default",
+	},
+}
+SIL_CacheGUID = {
+	["Player-3678-0CF96115"] = {
+		["items"] = 15,
+		["time"] = 1626626214,
+		["name"] = "Reayna",
+		["score"] = 226.7333333333333,
+		["target"] = "player",
+		["class"] = "HUNTER",
+		["level"] = 60,
+		["realm"] = "Thrall",
+	},
+	["Player-3678-09621CA7"] = {
+		["items"] = false,
+		["time"] = false,
+		["name"] = "Teeidan",
+		["score"] = false,
+		["target"] = "target",
+		["class"] = "DEMONHUNTER",
+		["level"] = 60,
+		["realm"] = "Thrall",
+	},
+	["Player-3678-0CD93A49"] = {
+		["items"] = 16,
+		["time"] = 1626626037,
+		["name"] = "Foxrifice",
+		["score"] = 230.0625,
+		["target"] = "party1",
+		["class"] = "DEMONHUNTER",
+		["level"] = 60,
+		["realm"] = "Thrall",
+	},
+	["Player-3678-0B97F184"] = {
+		["items"] = false,
+		["time"] = false,
+		["name"] = "Asguard",
+		["score"] = false,
+		["target"] = "target",
+		["class"] = "DEATHKNIGHT",
+		["level"] = 60,
+		["realm"] = "Thrall",
+	},
+	["Player-3678-0B909E58"] = {
+		["items"] = 16,
+		["time"] = 1626625006,
+		["name"] = "Muknum",
+		["score"] = 222.625,
+		["target"] = "target",
+		["class"] = "WARRIOR",
+		["level"] = 60,
+		["realm"] = "Thrall",
+	},
+	["Player-3678-0D11C58D"] = {
+		["items"] = 15,
+		["time"] = 1626624958,
+		["name"] = "Ammeka",
+		["score"] = 185.2666666666667,
+		["target"] = "target",
+		["class"] = "DEATHKNIGHT",
+		["level"] = 60,
+		["realm"] = "Thrall",
+	},
+}

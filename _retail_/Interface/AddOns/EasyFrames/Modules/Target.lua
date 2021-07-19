@@ -171,6 +171,8 @@ function Target:SetHealthBarsFont()
     local fontStyle = db.target.healthBarFontStyle
 
     TargetFrameHealthBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
+    TargetFrameHealthBar.RightText:SetFont(fontFamily, fontSize, fontStyle)
+    TargetFrameHealthBar.LeftText:SetFont(fontFamily, fontSize, fontStyle)
 end
 
 function Target:SetManaBarsFont()
@@ -179,6 +181,8 @@ function Target:SetManaBarsFont()
     local fontStyle = db.target.manaBarFontStyle
 
     TargetFrameManaBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
+    TargetFrameManaBar.RightText:SetFont(fontFamily, fontSize, fontStyle)
+    TargetFrameManaBar.LeftText:SetFont(fontFamily, fontSize, fontStyle)
 end
 
 function Target:SetFrameNameFont()

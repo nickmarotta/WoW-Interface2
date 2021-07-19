@@ -1,3 +1,7 @@
+VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
+#showtooltip
+/cast [@player] Earthbind Totem
+END
 VER 3 0100000000000004 " " "Spell_Fire_FlameShock"
 #showtooltip
 /cast Flame Shock
@@ -11,10 +15,6 @@ END
 VER 3 0100000000000017 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cast [@player] Ancestral Protection Totem
-END
-VER 3 0100000000000018 " " "INV_MISC_QUESTIONMARK"
-#showtooltip
-/cast [@player] Earthbind Totem
 END
 VER 3 0100000000000016 "AR" "INV_MISC_QUESTIONMARK"
 #showtooltip Hex

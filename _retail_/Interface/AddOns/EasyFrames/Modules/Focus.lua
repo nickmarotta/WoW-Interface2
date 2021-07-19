@@ -171,6 +171,8 @@ function Focus:SetHealthBarsFont()
     local fontStyle = db.focus.healthBarFontStyle
 
     FocusFrameHealthBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
+    FocusFrameHealthBar.RightText:SetFont(fontFamily, fontSize, fontStyle)
+    FocusFrameHealthBar.LeftText:SetFont(fontFamily, fontSize, fontStyle)
 end
 
 function Focus:SetManaBarsFont()
@@ -179,6 +181,8 @@ function Focus:SetManaBarsFont()
     local fontStyle = db.focus.manaBarFontStyle
 
     FocusFrameManaBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
+    FocusFrameManaBar.RightText:SetFont(fontFamily, fontSize, fontStyle)
+    FocusFrameManaBar.LeftText:SetFont(fontFamily, fontSize, fontStyle)
 end
 
 function Focus:SetFrameNameFont()

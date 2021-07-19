@@ -1,26 +1,13 @@
---Enhanced Raid Frames, a World of Warcraft® user interface addon.
-
---This file is part of Enhanced Raid Frames.
---
---Enhanced Raid Frames is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---Enhanced Raid Frames is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this add-on.  If not, see <https://www.gnu.org/licenses/>.
---
---Copyright for Enhanced Raid Frames is held by Britt Yazel (aka Soyier), 2017-2020.
+-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+-- Copyright (c) 2017-2021 Britt W. Yazel
+-- This code is licensed under the MIT license (see LICENSE for details)
 
 local L = LibStub("AceLocale-3.0"):NewLocale("EnhancedRaidFrames", "deDE", false)
 
 if not L then return end
 
+--[[Translation missing --]]
+--[[ L["Aborting."] = ""--]] 
 L["Animations"] = "Animationen"
 L["Attached to Cursor"] = "Befestigt am Zeiger"
 L["Aura Watch List"] = "Aura Überwachungsliste"
@@ -46,10 +33,24 @@ L["Curse"] = "Fluch"
 L["curseWildcard_desc"] = "Irgendein Fluch Debuff"
 L["customRange_desc"] = "Überschreibt die normale außer Reichweite Indikator Distanz (Standard 40yards)"
 L["customRangeCheck_desc"] = "Ändert die Standard 40 yards außerhalb der Reichweite Distanz zu einer spezifizierten Distanz"
+--[[Translation missing --]]
+--[[ L["Data import Failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decoding failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decompression failed."] = ""--]] 
 L["Default Icon Visibility"] = "Standard Icon Sichtbarkeit"
 L["Disease"] = "Krankheit"
 L["diseaseWildcard_desc"] = "Irgendein Krankheits Debuff"
 L["Example"] = "Beispiel"
+--[[Translation missing --]]
+--[[ L["Experimental"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental Options"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental_Options_Warning"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Export"] = ""--]] 
 L["frameScale_desc"] = "Die Skalierung der Raidframes relativ zur normalen Größe"
 L["General"] = "Allgemeines"
 L["General Options"] = "Allgemeine Optionen"
@@ -70,6 +71,16 @@ L["iconAlpha_desc"] = "Die Opazität in Prozent des Raid Icons"
 --[[ L["iconOptions_desc"] = ""--]] 
 L["iconPosition_desc"] = "Position des Raid Icons relativ zu dem frame"
 L["iconSize_desc"] = "Die Größe des Raid Icons (in Pixeln)"
+--[[Translation missing --]]
+--[[ L["Import"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Import or Export the current profile:"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_Desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_WarningDesc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportWarning"] = ""--]] 
 L["Indicator Color"] = "Indikator Farbe"
 L["Indicator Font"] = "Indikator Schriftart"
 L["Indicator Glow Effect"] = "Indikator Leuchteffekt"
@@ -93,6 +104,8 @@ L["Middle Right"] = "Mitte Rechts"
 L["Mine Only"] = "Nur Meine"
 L["mineOnly_desc"] = "Zeige nur Buffs und Debuffs die von mir gewirkt wurden"
 L["missingOnly_desc"] = "Zeige nur wenn der Buff oder Debuff fehlt"
+--[[Translation missing --]]
+--[[ L["No data to import."] = ""--]] 
 L["None"] = "Kein Text"
 L["Open the Blizzard Raid Profiles Menu"] = "Öffne das Blizzard Raid Profil Menü"
 L["Out-of-Range"] = "Außer Reichweite"
@@ -105,6 +118,8 @@ L["Position"] = "Position"
 --[[ L["Power Bar Vertical Offset"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["powerBarOffset_desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Profile"] = ""--]] 
 L["Profiles"] = "Profile"
 L["pvpWildcard_desc"] = "Ob die Einheit für pvp markiert ist"
 L["Raidframe Scale"] = "Raidframe Skala"

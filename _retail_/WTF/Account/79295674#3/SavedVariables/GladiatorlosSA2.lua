@@ -1,8 +1,9 @@
 
 GladiatorlosSADB = {
 	["profileKeys"] = {
-		["Eyowen - Thrall"] = "Default",
+		["Escargoth - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
+		["Eyowen - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

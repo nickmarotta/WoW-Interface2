@@ -1,26 +1,13 @@
---Enhanced Raid Frames, a World of Warcraft® user interface addon.
-
---This file is part of Enhanced Raid Frames.
---
---Enhanced Raid Frames is free software: you can redistribute it and/or modify
---it under the terms of the GNU General Public License as published by
---the Free Software Foundation, either version 3 of the License, or
---(at your option) any later version.
---
---Enhanced Raid Frames is distributed in the hope that it will be useful,
---but WITHOUT ANY WARRANTY; without even the implied warranty of
---MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
---GNU General Public License for more details.
---
---You should have received a copy of the GNU General Public License
---along with this add-on.  If not, see <https://www.gnu.org/licenses/>.
---
---Copyright for Enhanced Raid Frames is held by Britt Yazel (aka Soyier), 2017-2020.
+-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+-- Copyright (c) 2017-2021 Britt W. Yazel
+-- This code is licensed under the MIT license (see LICENSE for details)
 
 local L = LibStub("AceLocale-3.0"):NewLocale("EnhancedRaidFrames", "frFR", false)
 
 if not L then return end
 
+--[[Translation missing --]]
+--[[ L["Aborting."] = ""--]] 
 L["Animations"] = "Animations"
 L["Attached to Cursor"] = "Attaché au curseur"
 L["Aura Watch List"] = "Liste de surveillance d'aura"
@@ -46,10 +33,24 @@ L["Curse"] = "Malédiction"
 L["curseWildcard_desc"] = "N'importe quel malédiction"
 L["customRange_desc"] = "Remplace la valeur par défaut (40 yards) de la distance de l'indicateur hors de portée"
 L["customRangeCheck_desc"] = "Change la valeur par défaut de 40 yard pour l'indicateur de hors de porté à la distance spécifiée"
+--[[Translation missing --]]
+--[[ L["Data import Failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decoding failed."] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Decompression failed."] = ""--]] 
 L["Default Icon Visibility"] = "Visibilité de l'icône par défaut"
 L["Disease"] = "Maladie"
 L["diseaseWildcard_desc"] = "N'importe quel debuff de maladie"
 L["Example"] = "Exemple"
+--[[Translation missing --]]
+--[[ L["Experimental"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental Options"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Experimental_Options_Warning"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Export"] = ""--]] 
 L["frameScale_desc"] = "L'échelle du cadre de raid par rapport à la taille normale"
 L["General"] = "Général"
 L["General Options"] = "Options générales"
@@ -70,6 +71,16 @@ L["iconAlpha_desc"] = "Le pourcentage d'opacité de l'icône de raid"
 --[[ L["iconOptions_desc"] = ""--]] 
 L["iconPosition_desc"] = "Position de l'icône de raid par rapport au cadre"
 L["iconSize_desc"] = "La taille de l'icône de raid en pixels"
+--[[Translation missing --]]
+--[[ L["Import"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Import or Export the current profile:"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_Desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportExport_WarningDesc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["ImportWarning"] = ""--]] 
 L["Indicator Color"] = "Couleur de l'indicateur"
 L["Indicator Font"] = "Police de l'indicateur"
 L["Indicator Glow Effect"] = "Indicateur d'effet lumineux"
@@ -93,6 +104,8 @@ L["Middle Right"] = "Milieu à droite"
 L["Mine Only"] = "Seulement les miens"
 L["mineOnly_desc"] = "Afficher uniquement les buffs et debuffs lancés par moi"
 L["missingOnly_desc"] = "Afficher uniquement lorsque le buff ou le debuff est manquant"
+--[[Translation missing --]]
+--[[ L["No data to import."] = ""--]] 
 L["None"] = "Aucun"
 L["Open the Blizzard Raid Profiles Menu"] = "Ouvrez le menu des profils de raids de Blizzard"
 L["Out-of-Range"] = "Hors de portée"
@@ -105,6 +118,8 @@ L["Position"] = "Position"
 --[[ L["Power Bar Vertical Offset"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["powerBarOffset_desc"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["Profile"] = ""--]] 
 L["Profiles"] = "Profils"
 L["pvpWildcard_desc"] = "si l'unité est marquée PvP"
 L["Raidframe Scale"] = "Échelle du cadre de raid"

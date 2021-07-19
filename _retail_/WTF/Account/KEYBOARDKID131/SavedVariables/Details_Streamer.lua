@@ -15,11 +15,11 @@ Details_StreamerDB = {
 		["Kerrama - Thrall"] = "Corpselus - Thrall",
 		["Oturran - Thrall"] = "Corpselus - Thrall",
 		["Naakari - Hyjal"] = "Corpselus - Thrall",
-		["Ronami - Thrall"] = "Corpselus - Thrall",
-		["Velosara - Thrall"] = "Corpselus - Thrall",
-		["Mafiki - Thrall"] = "Corpselus - Thrall",
-		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Corpsel - Alexstrasza"] = "Corpselus - Thrall",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
+		["Mafiki - Thrall"] = "Corpselus - Thrall",
+		["Velosara - Thrall"] = "Corpselus - Thrall",
+		["Ronami - Thrall"] = "Corpselus - Thrall",
 	},
 	["profiles"] = {
 		["Corpselus - Thrall"] = {

@@ -25,8 +25,6 @@ if L then
 
 	L.custom_on_repeating_say_laser = "重覆猛烈噴射說話"
 	L.custom_on_repeating_say_laser_desc = "當你你被標記為猛烈噴射的目標時，重覆發送說話訊息，以便接近你的玩家可以立刻看見並避開。"
-
-	L.tempPrint = "我們已經替瘴氣添增加了喊話提示。如果你之前為此使用過 WeakAuras 字符串，可能需要將其刪除以防止出現重覆喊話。"
 end
 
 L = BigWigs:NewBossLocale("Artificer Xy'mox", "zhTW")
@@ -62,7 +60,6 @@ end
 
 L = BigWigs:NewBossLocale("The Council of Blood", "zhTW")
 if L then
-	L.macabre_start_emote = "找好位置，準備開始跳死亡之舞！"
 	L.custom_on_repeating_dark_recital = "重覆黑暗伴舞喊話"
 	L.custom_on_repeating_dark_recital_desc = "使用 {rt1} 和 {rt2} 重覆黑暗伴舞喊話，方便你找到你的舞伴。"
 
@@ -107,7 +104,7 @@ if L then
 	L.eruption = "爆發" -- Short for Reverberating Eruption
 
 	L.custom_on_stop_timers = "總是顯示計時器"
-	-- L.custom_on_stop_timers_desc = "Just for testing right now"
+	--L.custom_on_stop_timers_desc = "Just for testing right now"
 
 	L.goliath_short = "巨人"
 	L.goliath_desc = "對即將到來的石源魔軍團巨人顯示警告和計時器。"
@@ -118,8 +115,6 @@ end
 
 L = BigWigs:NewBossLocale("Sire Denathrius", "zhTW")
 if L then
-	L.add_spawn = "赤紅秘術師回應了戴納瑟斯的呼喚。" -- [RAID_BOSS_EMOTE] Crimson Cabalists answer the call of Denathrius.#Sire Denathrius#4#true"
-
 	L.infobox_stacks = "%d 堆疊：%d 玩家" -- 4 Stacks: 5 players // 1 Stack: 1 player
 
 	L.custom_on_repeating_nighthunter = "重覆黑夜獵人喊話"
@@ -166,6 +161,7 @@ if L then
 	L.antiquarian = "邪惡的古物收藏家"
 	L.conservator = "納撒亞栽培者"
 	L.archivist = "納撒亞文獻管理員"
+	--L.hierarch = "Court Hierarch"
 
 	--[[ Sludgefist -> Stone Legion Generals ]]--
 	L.goliath = "石源魔軍團巨人"

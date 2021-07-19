@@ -1,9 +1,100 @@
 
 KalielsTrackerDB = {
 	["char"] = {
+		["Escargoth - Thrall"] = {
+			["quests"] = {
+				["cache"] = {
+					[59714] = {
+						["title"] = "A Fine Vintage",
+						["zone"] = "Revendreth",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[62371] = {
+						["title"] = "Tirna Scithe: A Warning Silence",
+						["zone"] = "Dungeon",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[40329] = {
+						["title"] = "Battle Pet Tamers: Warlords",
+						["zone"] = "Battle Pets",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[49135] = {
+						["title"] = "Antorus, the Burning Throne: The Heart of Argus",
+						["zone"] = "Antorus, the Burning Throne",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[62778] = {
+						["title"] = "Reinforcing Revendreth",
+						["zone"] = "Threads of Fate",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[62748] = {
+						["title"] = "Rallying Maldraxxus",
+						["zone"] = "Threads of Fate",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[31926] = {
+						["title"] = "Grand Master Antari",
+						["zone"] = "Battle Pets",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[58023] = {
+						["title"] = "One Big Problem",
+						["zone"] = "Ardenweald",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[62763] = {
+						["title"] = "Support the Court",
+						["zone"] = "Threads of Fate",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[32863] = {
+						["title"] = "What We've Been Training For",
+						["zone"] = "Battle Pets",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[31929] = {
+						["title"] = "Battle Pet Tamers: Northrend",
+						["zone"] = "Battle Pets",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+					[60509] = {
+						["title"] = "Not My Job",
+						["zone"] = "Revendreth",
+						["level"] = 57,
+						["startMapID"] = 0,
+						["isCalling"] = false,
+					},
+				},
+				["num"] = 12,
+			},
+		},
 		["Awaste - Thrall"] = {
 			["quests"] = {
-				["num"] = 10,
+				["num"] = 9,
 				["cache"] = {
 					[57644] = {
 						["title"] = "No Friend Left Behind",
@@ -22,6 +113,20 @@ KalielsTrackerDB = {
 					[62055] = {
 						["title"] = "Castle Nathria: Getting a Head",
 						["zone"] = "Castle Nathria",
+						["level"] = 60,
+						["isCalling"] = false,
+						["startMapID"] = 0,
+					},
+					[63892] = {
+						["title"] = "Diviner's Rune Chits",
+						["zone"] = "The Archivists' Codex",
+						["level"] = 60,
+						["isCalling"] = false,
+						["startMapID"] = 0,
+					},
+					[64597] = {
+						["title"] = "Sanctum of Domination - Damned If You Don't",
+						["zone"] = "Sanctum of Domination",
 						["level"] = 60,
 						["isCalling"] = false,
 						["startMapID"] = 0,
@@ -110,10 +215,11 @@ KalielsTrackerDB = {
 		},
 	},
 	["global"] = {
-		["helpTutorial"] = 9,
-		["version"] = "4.2.13",
+		["helpTutorial"] = 11,
+		["version"] = "4.3.0",
 	},
 	["profileKeys"] = {
+		["Escargoth - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
 	},
 	["profiles"] = {

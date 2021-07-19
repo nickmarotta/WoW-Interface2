@@ -234,6 +234,8 @@ function Player:SetHealthBarsFont()
     local fontStyle = db.player.healthBarFontStyle
 
     PlayerFrameHealthBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
+    PlayerFrameHealthBar.RightText:SetFont(fontFamily, fontSize, fontStyle)
+    PlayerFrameHealthBar.LeftText:SetFont(fontFamily, fontSize, fontStyle)
 end
 
 function Player:SetManaBarsFont()
@@ -242,6 +244,8 @@ function Player:SetManaBarsFont()
     local fontStyle = db.player.manaBarFontStyle
 
     PlayerFrameManaBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
+    PlayerFrameManaBar.RightText:SetFont(fontFamily, fontSize, fontStyle)
+    PlayerFrameManaBar.LeftText:SetFont(fontFamily, fontSize, fontStyle)
     PlayerFrameAlternateManaBar.TextString:SetFont(fontFamily, fontSize, fontStyle)
 end
 

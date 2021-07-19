@@ -1,4 +1,4 @@
-﻿HEALBOT_VERSION    = "9.0.2.10";
+﻿HEALBOT_VERSION    = "9.1.0.3";
 HEALBOT_VERSION_SC = HEALBOT_VERSION
 HEALBOT_ABOUT_URL = "healbot.dpm15.net"
 
@@ -6,7 +6,8 @@ local version = GetBuildInfo()
 local vMajor = string.split(".", version)
 HEALBOT_GAME_VERSION = tonumber(vMajor)
 
-if HEALBOT_GAME_VERSION==1 then HEALBOT_VERSION = "1.13.6.8" end
+if HEALBOT_GAME_VERSION==1 then HEALBOT_VERSION = "1.13.7.17" end
+if HEALBOT_GAME_VERSION==2 then HEALBOT_VERSION = "2.5.1.13" end
 
 function HealBot_globalVars()
     --Consumables
@@ -96,9 +97,24 @@ function HealBot_globalVars()
     
     --Racial Abilities
     HEALBOT_DARKFLIGHT                      = 68992 --GetSpellInfo(68992) or "--Darkflight";
-    HEALBOT_GIFT_OF_THE_NAARU               = 59547 --GetSpellInfo(59547) or "--Gift of the Naaru";
+    HEALBOT_GIFT_OF_THE_NAARU               = 28880 --GetSpellInfo(59547) or "--Gift of the Naaru";
     HEALBOT_STONEFORM                       = 20594 --GetSpellInfo(20594) or "--Stoneform";
 
+    --Weapon Enchants
+    HEALBOT_FLAMETONGUE_SPELL               = 318038
+    HEALBOT_FLAMETONGUE_ENCHANT             = 5400
+    HEALBOT_WINDFURY_SPELL                  = 33757
+    HEALBOT_WINDFURY_ENCHANT                = 5401
+    HEALBOT_BRILLIANT_MANA_OIL_SPELL        = 20748
+    HEALBOT_BRILLIANT_MANA_OIL_ENCHANT      = 2629
+    HEALBOT_SUPERIOR_MANA_OIL_SPELL         = 22521
+    HEALBOT_SUPERIOR_MANA_OIL_ENCHANT       = 28016
+    HEALBOT_BRILLIANT_WIZARD_OIL_SPELL      = 20749
+    HEALBOT_BRILLIANT_WIZARD_OIL_ENCHANT    = 2628
+    HEALBOT_SUPERIOR_WIZARD_OIL_SPELL       = 22522
+    HEALBOT_SUPERIOR_WIZARD_OIL_ENCHANT     = 28019
+    HEALBOT_BLESSED_WIZARD_OIL_SPELL        = 23123
+    HEALBOT_BLESSED_WIZARD_OIL_ENCHANT      = 2685
     --Harmful Spells
     --Death Knight
     HEALBOT_DEATH_COIL                      = 47541 --GetSpellInfo(47541) or "--Death Coil"
@@ -388,6 +404,7 @@ function HealBot_globalVars()
     HEALBOT_BLESSING_OF_KINGS               = 203538 --GetSpellInfo(203538) or "--Greater Blessing of Kings";
     HBC_BLESSING_OF_KINGS                   = 20217
     HBC_BLESSING_OF_LIGHT                   = 19977
+    HBC_BLESSING_OF_SALVATION               = 1038
     HEALBOT_BLESSING_OF_MIGHT               = 203528 --GetSpellInfo(203528) or "--Greater Blessing of Might";
     HBC_BLESSING_OF_MIGHT                   = 19740 --GetSpellInfo(19740) or "--Greater Blessing of Might";
     HBC_BLESSING_OF_SANCTUARY               = 20912
@@ -537,7 +554,11 @@ function HealBot_globalVars()
     HEALBOT_HIGH_TIDE                       = 157154 --GetSpellInfo(157154) or "--High Tide";
     HEALBOT_LIGHTNING_SHIELD                = 192106 --GetSpellInfo(192106) or "--Lightning Shield";
     HBC_LIGHTNING_SHIELD                    = 324
+    HBC_EARTH_SHIELD                        = 974
     HBC_ROCKBITER_WEAPON                    = 8017
+    HBC_FLAMETONGUE_WEAPON                  = 8024
+    HBC_WINDFURY_WEAPON                     = 8232
+    HBC_WATER_SHIELD                        = 24398
     HEALBOT_SHAMANISTIC_RAGE                = 30823 --GetSpellInfo(30823) or "--Shamanistic Rage";
     HEALBOT_SPIRITWALKERS_GRACE             = 79206 --GetSpellInfo(79206) or "--Spiritwalker's Grace";
     HEALBOT_SPIRIT_LINK_TOTEM               = 98008 --GetSpellInfo(98008) or "--Spirit Link Totem";

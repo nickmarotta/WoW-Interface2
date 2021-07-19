@@ -94,6 +94,7 @@ ACP_Data = {
 		["LittleWigs"] = true,
 		["Kui"] = true,
 		["ShadowedUnitFrames"] = true,
+		["SimpleILevel"] = true,
 		["ConsolePortUI"] = true,
 		["RaiderIO"] = true,
 	},
