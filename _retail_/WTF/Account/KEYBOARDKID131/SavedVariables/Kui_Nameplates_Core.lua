@@ -7,17 +7,17 @@ KuiNameplatesCoreSaved = {
 	["226_TARGET_SIZE"] = true,
 	["profiles"] = {
 		["default"] = {
-			["classpowers_on_target"] = false,
-			["font_size_normal"] = 14,
-			["execute_enabled"] = false,
-			["cvar_enable"] = true,
-			["classpowers_y"] = -8,
+			["colour_player_class"] = true,
 			["execute_colour"] = {
 				1, -- [1]
 				1, -- [2]
 				1, -- [3]
 			},
-			["colour_player_class"] = true,
+			["classpowers_y"] = -8,
+			["cvar_enable"] = true,
+			["font_size_normal"] = 14,
+			["execute_enabled"] = false,
+			["classpowers_on_target"] = false,
 		},
 		["NICK"] = {
 			["cvar_overlap_v"] = 0.75,
@@ -43,18 +43,18 @@ KuiNameplatesCoreSaved = {
 			["frame_width_personal"] = 150,
 			["health_text_hostile_max"] = 4,
 			["classpowers_y"] = -8,
-			["castbar_height"] = 10,
+			["name_vertical_offset"] = 0,
 			["colour_player_class"] = true,
 			["castbar_unin_colour"] = {
 				0.9607843137254902, -- [1]
 				0, -- [2]
 				0.05098039215686274, -- [3]
 			},
-			["powerbar_height"] = 8,
-			["target_arrows"] = true,
 			["frame_height"] = 20,
+			["target_arrows"] = true,
+			["powerbar_height"] = 8,
 			["cvar_enable"] = true,
-			["name_vertical_offset"] = 0,
+			["castbar_height"] = 10,
 			["castbar_colour"] = {
 				0.7490196078431373, -- [1]
 				0.7490196078431373, -- [2]

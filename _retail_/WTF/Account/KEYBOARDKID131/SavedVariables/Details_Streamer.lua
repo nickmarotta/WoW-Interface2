@@ -15,11 +15,12 @@ Details_StreamerDB = {
 		["Kerrama - Thrall"] = "Corpselus - Thrall",
 		["Oturran - Thrall"] = "Corpselus - Thrall",
 		["Naakari - Hyjal"] = "Corpselus - Thrall",
-		["Corpsel - Alexstrasza"] = "Corpselus - Thrall",
-		["Corpselus - Thrall"] = "Corpselus - Thrall",
-		["Mafiki - Thrall"] = "Corpselus - Thrall",
-		["Velosara - Thrall"] = "Corpselus - Thrall",
+		["Melleressra - Thrall"] = "Corpselus - Thrall",
 		["Ronami - Thrall"] = "Corpselus - Thrall",
+		["Velosara - Thrall"] = "Corpselus - Thrall",
+		["Mafiki - Thrall"] = "Corpselus - Thrall",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
+		["Corpsel - Alexstrasza"] = "Corpselus - Thrall",
 	},
 	["profiles"] = {
 		["Corpselus - Thrall"] = {
@@ -46,12 +47,12 @@ Details_StreamerDB = {
 				["radius"] = 160,
 				["hide"] = true,
 			},
-			["point"] = "CENTER",
+			["arrow_anchor_y"] = 0,
 			["arrow_anchor_x"] = 0,
-			["row_height"] = 20,
+			["main_frame_locked"] = false,
 			["row_texture"] = "Details Serenity",
-			["scale"] = 1,
-			["use_square_mode"] = false,
+			["main_frame_strata"] = "LOW",
+			["font_size"] = 10,
 			["author"] = "Details! Team",
 			["square_amount"] = 5,
 			["enabled"] = false,
@@ -63,9 +64,9 @@ Details_StreamerDB = {
 				["font_shadow"] = true,
 				["y"] = 3.0517578125e-05,
 				["x"] = 3.0517578125e-05,
-				["size"] = 32,
-				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
+				["update_speed"] = 0.05,
+				["size"] = 32,
 			},
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
@@ -74,22 +75,22 @@ Details_StreamerDB = {
 				0, -- [3]
 				0.2, -- [4]
 			},
-			["main_frame_strata"] = "LOW",
-			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
-			["use_spark"] = true,
-			["font_size"] = 10,
-			["x"] = 0,
-			["font_face"] = "Friz Quadrata TT",
-			["square_size"] = 32,
-			["y"] = 4.57763671875e-05,
 			["row_color"] = {
 				0.1, -- [1]
 				0.1, -- [2]
 				0.1, -- [3]
 				0.4, -- [4]
 			},
-			["main_frame_locked"] = false,
-			["arrow_anchor_y"] = 0,
+			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["y"] = 4.57763671875e-05,
+			["use_spark"] = true,
+			["x"] = 0,
+			["font_face"] = "Friz Quadrata TT",
+			["square_size"] = 32,
+			["use_square_mode"] = false,
+			["scale"] = 1,
+			["row_height"] = 20,
+			["point"] = "CENTER",
 		},
 	},
 }

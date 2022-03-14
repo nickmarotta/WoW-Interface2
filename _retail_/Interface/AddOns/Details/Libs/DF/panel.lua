@@ -16,6 +16,16 @@ local loadstring = loadstring --> lua local
 
 local IS_WOW_PROJECT_MAINLINE = WOW_PROJECT_ID == WOW_PROJECT_MAINLINE
 local IS_WOW_PROJECT_NOT_MAINLINE = WOW_PROJECT_ID ~= WOW_PROJECT_MAINLINE
+local IS_WOW_PROJECT_CLASSIC_ERA = WOW_PROJECT_ID == WOW_PROJECT_CLASSIC
+local IS_WOW_PROJECT_CLASSIC_TBC = WOW_PROJECT_ID == WOW_PROJECT_BURNING_CRUSADE_CLASSIC
+
+local UnitCastingInfo = UnitCastingInfo
+local UnitChannelInfo = UnitChannelInfo
+
+if IS_WOW_PROJECT_CLASSIC_ERA then
+    UnitCastingInfo = CastingInfo
+    UnitChannelInfo = ChannelInfo
+end
 
 local PixelUtil = PixelUtil or DFPixelUtil
 
@@ -1574,7 +1584,7 @@ function DF:IconPick (callback, close_when_select, param1, param2)
 		DF.IconPickFrame.preview:Hide()
 		
 		--serach
-		DF.IconPickFrame.searchLabel =  DF:NewLabel (DF.IconPickFrame, nil, "$parentSearchBoxLabel", nil, "search:", font, size, color)
+		DF.IconPickFrame.searchLabel =  DF:NewLabel (DF.IconPickFrame, nil, "$parentSearchBoxLabel", nil, "search:")
 		DF.IconPickFrame.searchLabel:SetPoint ("topleft", DF.IconPickFrame, "topleft", 12, -36)
 		DF.IconPickFrame.searchLabel:SetTemplate (DF:GetTemplate ("font", "ORANGE_FONT_TEMPLATE"))
 		
@@ -1972,23 +1982,88 @@ local SimplePanel_frame_backdrop_border_color = {0, 0, 0, 1}
 
 --with_label was making the frame stay in place while its parent moves
 --the slider was anchoring to with_label and here here were anchoring the slider again
-function DF:CreateScaleBar (frame, config)
-	local scaleBar, text = DF:CreateSlider (frame, 120, 14, 0.6, 1.6, 0.1, config.scale, true, "ScaleBar", nil, "Scale:", DF:GetTemplate ("slider", "OPTIONS_SLIDER_TEMPLATE"), DF:GetTemplate ("font", "ORANGE_FONT_TEMPLATE"))
-	--scaleBar:SetPoint ("right", frame.Close, "left", -26, 0)
-	text:SetPoint ("topleft", frame, "topleft", 12, -7)
-	scaleBar:SetFrameLevel (DF.FRAMELEVEL_OVERLAY)
-	scaleBar.OnValueChanged = function (_, _, value)
-		config.scale = value
-		if (not scaleBar.IsValueChanging) then
-			frame:SetScale (config.scale)
+function DF:CreateScaleBar(frame, config) --~scale
+	local scaleBar, text = DF:CreateSlider(frame, 120, 14, 0.6, 1.6, 0.1, config.scale, true, "ScaleBar", nil, "Scale:", DF:GetTemplate ("slider", "OPTIONS_SLIDER_TEMPLATE"), DF:GetTemplate ("font", "ORANGE_FONT_TEMPLATE"))
+	scaleBar.thumb:SetWidth(24)
+	scaleBar:SetValueStep(0.1)
+	scaleBar:SetObeyStepOnDrag(true)
+	scaleBar.mouseDown = false
+	rawset(scaleBar, "lockdown", true)
+
+	--create a custom editbox to enter the scale from text
+	local editbox = CreateFrame("editbox", nil, scaleBar.widget, "BackdropTemplate")
+	editbox:SetSize(40, 20)
+	editbox:SetJustifyH("center")
+	editbox:SetBackdrop({bgFile = [[Interface\ACHIEVEMENTFRAME\UI-GuildAchievement-Parchment-Horizontal-Desaturated]],
+	edgeFile = [[Interface\Buttons\WHITE8X8]],
+	tile = true, edgeSize = 1, tileSize = 64})
+	editbox:SetFontObject("GameFontHighlightSmall")
+	editbox:SetBackdropColor(0, 0, 0, 1)
+
+	editbox:SetScript("OnEditFocusGained", function()
+	end)
+
+	editbox:SetScript("OnEnterPressed", function()
+		editbox:ClearFocus()
+		editbox:Hide()
+		local text = editbox:GetText()
+		local newScale = DF.TextToFloor(text)
+
+		if (newScale) then
+			config.scale = newScale
+			scaleBar:SetValue(newScale)
+			frame:SetScale(newScale)
+			editbox.defaultValue = newScale
 		end
-	end
-	scaleBar:SetHook ("OnMouseUp", function()
-		frame:SetScale (config.scale)
 	end)
 	
-	scaleBar:SetAlpha (0.5)
+	editbox:SetScript("OnEscapePressed", function()
+		editbox:ClearFocus()
+		editbox:Hide()
+		editbox:SetText(editbox.defaultValue)
+	end)
+
+	scaleBar:SetScript("OnMouseDown", function(_, mouseButton)
+		if (mouseButton == "RightButton") then
+			editbox:Show()
+			editbox:SetAllPoints()
+			editbox:SetText(config.scale)
+			editbox:SetFocus(true)
+			editbox.defaultValue = config.scale
+
+		elseif (mouseButton == "LeftButton") then
+			scaleBar.mouseDown  = true
+		end
+	end)
+
+	scaleBar:SetScript("OnMouseUp", function(_, mouseButton)
+		if (mouseButton == "LeftButton") then
+			scaleBar.mouseDown  = false
+			frame:SetScale(config.scale)
+			editbox.defaultValue = config.scale
+		end
+	end)
+
+	text:SetPoint("topleft", frame, "topleft", 12, -7)
+	scaleBar:SetFrameLevel(DF.FRAMELEVEL_OVERLAY)
+	scaleBar.OnValueChanged = function(_, _, value)
+		if (scaleBar.mouseDown) then
+			config.scale = value
+		end
+	end
 	
+	scaleBar:SetAlpha(0.70)
+	editbox.defaultValue = config.scale
+	editbox:SetFocus(false)
+	editbox:SetAutoFocus(false)
+	editbox:ClearFocus()
+
+	C_Timer.After(1, function()
+		editbox:SetFocus(false)
+		editbox:SetAutoFocus(false)
+		editbox:ClearFocus()
+	end)
+
 	return scaleBar
 end
 
@@ -3908,7 +3983,7 @@ local tab_container_on_show = function (self)
 	self.SelectIndex (self.AllButtons[index], nil, index)
 end
 
-function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_table)
+function DF:CreateTabContainer (parent, title, frame_name, frameList, options_table)
 	
 	local options_text_template = DF:GetTemplate ("font", "OPTIONS_FONT_TEMPLATE")
 	local options_dropdown_template = DF:GetTemplate ("dropdown", "OPTIONS_DROPDOWN_TEMPLATE")
@@ -3917,13 +3992,13 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 	local options_button_template = DF:GetTemplate ("button", "OPTIONS_BUTTON_TEMPLATE")
 	
 	options_table = options_table or {}
-	local frame_width = parent:GetWidth()
+	local frameWidth = parent:GetWidth()
 	local frame_height = parent:GetHeight()
 	local y_offset = options_table.y_offset or 0
 	local button_width = options_table.button_width or 160
 	local button_height = options_table.button_height or 20
-	local button_anchor_x = options_table.button_x or 230
-	local button_anchor_y = options_table.button_y or -32
+	local buttonAnchorX = options_table.button_x or 230
+	local buttonAnchorY = options_table.button_y or -32
 	local button_text_size = options_table.button_text_size or 10
 	
 	local mainFrame = CreateFrame ("frame", frame_name, parent.widget or parent, "BackdropTemplate")
@@ -3948,7 +4023,7 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 		mainFrame.CanCloseWithRightClick = true
 	end
 	
-	for i, frame in ipairs (frame_list) do
+	for i, frame in ipairs (frameList) do
 		local f = CreateFrame ("frame", "$parent" .. frame.name, mainFrame, "BackdropTemplate")
 		f:SetAllPoints()
 		f:SetFrameLevel (210)
@@ -3992,10 +4067,13 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 	end
 	
 	--order buttons
-	local x = button_anchor_x
-	local y = button_anchor_y
-	local space_for_buttons = frame_width - (#frame_list*3) - button_anchor_x
+	local x = buttonAnchorX
+	local y = buttonAnchorY
+	local spaceBetweenButtons = 3
+
+	local space_for_buttons = frameWidth - (#frameList * spaceBetweenButtons) - buttonAnchorX
 	local amount_buttons_per_row = floor (space_for_buttons / button_width)
+
 	local last_button = mainFrame.AllButtons[1]
 	
 	mainFrame.AllButtons[1]:SetPoint ("topleft", mainTitle, "topleft", x, y)
@@ -4007,7 +4085,7 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 		x = x + button_width + 2
 		
 		if (i % amount_buttons_per_row == 0) then
-			x = button_anchor_x
+			x = buttonAnchorX
 			y = y - button_height - 1
 		end
 	end
@@ -4020,8 +4098,21 @@ function DF:CreateTabContainer (parent, title, frame_name, frame_list, options_t
 	return mainFrame
 end
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+-- ~right ~click to ~close
 
+function DF:CreateRightClickToClose(parent, xOffset, yOffset, color, fontSize)
+	--default values
+	xOffset = xOffset or 0
+	yOffset = yOffset or 0
+	color = color or "white"
+	fontSize = fontSize or 10
 
+	local label = DF:CreateLabel(parent, "right click to close", fontSize, color)
+	label:SetPoint("bottomright", parent, "bottomright", -4 + xOffset, 5 + yOffset)
+
+	return label
+end
 
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -4315,6 +4406,10 @@ DF.ScrollBoxFunctions.GetData = function (self)
 end
 
 DF.ScrollBoxFunctions.GetFrames = function (self)
+	return self.Frames
+end
+
+DF.ScrollBoxFunctions.GetLines = function (self) --alias of GetFrames
 	return self.Frames
 end
 
@@ -7215,7 +7310,7 @@ DF.StatusBarFunctions = {
 		{"UNIT_HEALTH", true},
 		{"UNIT_MAXHEALTH", true},
 		{(IS_WOW_PROJECT_NOT_MAINLINE) and "UNIT_HEALTH_FREQUENT", true}, -- this one is classic-only...
-		{(IS_WOW_PROJECT_MAINLINE) and "UNIT_HEAL_PREDICTION", true},
+		{"UNIT_HEAL_PREDICTION", true},
 		{(IS_WOW_PROJECT_MAINLINE) and "UNIT_ABSORB_AMOUNT_CHANGED", true},
 		{(IS_WOW_PROJECT_MAINLINE) and "UNIT_HEAL_ABSORB_AMOUNT_CHANGED", true},
 	}
@@ -7246,8 +7341,8 @@ DF.StatusBarFunctions = {
 				
 				--> check for settings and update some events
 				if (not self.Settings.ShowHealingPrediction) then
+					self:UnregisterEvent ("UNIT_HEAL_PREDICTION")
 					if IS_WOW_PROJECT_MAINLINE then
-						self:UnregisterEvent ("UNIT_HEAL_PREDICTION")
 						self:UnregisterEvent ("UNIT_HEAL_ABSORB_AMOUNT_CHANGED")
 					end
 					self.incomingHealIndicator:Hide()
@@ -7332,22 +7427,22 @@ DF.StatusBarFunctions = {
 		self:RunHooksForWidget ("OnHealthMaxChange", self, self.displayedUnit)
 	end
 
-	healthBarMetaFunctions.UpdateHealth = function (self)
+	healthBarMetaFunctions.UpdateHealth = function(self)
 		-- update max health regardless to avoid weird wrong values on UpdateMaxHealth sometimes
 		-- local maxHealth = UnitHealthMax (self.displayedUnit)
 		-- self:SetMinMaxValues (0, maxHealth)
 		-- self.currentHealthMax = maxHealth
 		
-		local health = UnitHealth (self.displayedUnit)
+		self.oldHealth = self.currentHealth
+		local health = UnitHealth(self.displayedUnit)
 		self.currentHealth = health
-		PixelUtil.SetStatusBarValue (self, health)
+		PixelUtil.SetStatusBarValue(self, health)
 
 		self:RunHooksForWidget ("OnHealthChange", self, self.displayedUnit)
 	end
 	
 	--health and absorbs prediction
 	healthBarMetaFunctions.UpdateHealPrediction = function (self)
-		if IS_WOW_PROJECT_NOT_MAINLINE then return end
 		local currentHealth = self.currentHealth
 		local currentHealthMax = self.currentHealthMax
 		local healthPercent = currentHealth / currentHealthMax
@@ -7363,7 +7458,7 @@ DF.StatusBarFunctions = {
 			--incoming heal on the unit from all sources
 			local unitHealIncoming = self.displayedUnit and UnitGetIncomingHeals (self.displayedUnit) or 0
 			--heal absorbs
-			local unitHealAbsorb = self.displayedUnit and UnitGetTotalHealAbsorbs (self.displayedUnit) or 0
+			local unitHealAbsorb = IS_WOW_PROJECT_MAINLINE and self.displayedUnit and UnitGetTotalHealAbsorbs (self.displayedUnit) or 0
 		
 			if (unitHealIncoming > 0) then
 				--calculate what is the percent of health incoming based on the max health the player has
@@ -7387,7 +7482,7 @@ DF.StatusBarFunctions = {
 			end
 		end
 		
-		if (self.Settings.ShowShields) then
+		if (self.Settings.ShowShields and IS_WOW_PROJECT_MAINLINE) then
 			--damage absorbs
 			local unitDamageAbsorb = self.displayedUnit and UnitGetTotalAbsorbs (self.displayedUnit) or 0
 		
@@ -8114,6 +8209,9 @@ DF.CastFrameFunctions = {
 			if (self.casting) then
 				local name, text, texture, startTime = UnitCastingInfo (self.unit)
 				if (name) then
+					--[[if not self.spellStartTime then
+						self:UpdateCastingInfo(self.unit)
+					end]]--
 					self.value = GetTime() - self.spellStartTime
 				end
 
@@ -8122,6 +8220,9 @@ DF.CastFrameFunctions = {
 			elseif (self.channeling) then
 				local name, text, texture, endTime = UnitChannelInfo (self.unit)
 				if (name) then
+					--[[if not self.spellEndTime then
+						self:UpdateChannelInfo(self.unit)
+					end]]--
 					self.value = self.spellEndTime - GetTime()
 				end
 
@@ -8315,10 +8416,12 @@ DF.CastFrameFunctions = {
 		
 		if (isChannel) then
 			self.channeling = true
+			self:UpdateChannelInfo(unit)
 			return self.unit == arg1 and "UNIT_SPELLCAST_CHANNEL_START"
 			
 		elseif (isRegularCast) then
 			self.casting = true
+			self:UpdateCastingInfo(unit)
 			return self.unit == arg1 and "UNIT_SPELLCAST_START"
 			
 		else
@@ -8332,10 +8435,9 @@ DF.CastFrameFunctions = {
 		end
 	end,
 	
-	UNIT_SPELLCAST_START = function (self, unit)
-
+	UpdateCastingInfo = function (self, unit)
 		local name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID
-		if IS_WOW_PROJECT_MAINLINE then
+		if not IS_WOW_PROJECT_CLASSIC_TBC then
 			name, text, texture, startTime, endTime, isTradeSkill, castID, notInterruptible, spellID = UnitCastingInfo (unit)
 		else
 			name, text, texture, startTime, endTime, isTradeSkill, castID, spellID = UnitCastingInfo (unit)
@@ -8368,7 +8470,7 @@ DF.CastFrameFunctions = {
 			self:SetAlpha (1)
 			self.Icon:SetTexture (texture)
 			self.Icon:Show()
-			self.Text:SetText (text)
+			self.Text:SetText (text or name)
 			
 			if (self.Settings.ShowCastTime and self.Settings.CanLazyTick) then
 				self.percentText:Show()
@@ -8392,12 +8494,18 @@ DF.CastFrameFunctions = {
 		--> update the interrupt cast border
 		self:UpdateInterruptState()
 		
+	end,
+	
+	UNIT_SPELLCAST_START = function (self, unit)
+
+		self:UpdateCastingInfo(unit)
+		
 		self:RunHooksForWidget ("OnCastStart", self, self.unit, "UNIT_SPELLCAST_START")
 	end,
 	
-	UNIT_SPELLCAST_CHANNEL_START = function (self, unit, ...)
+	UpdateChannelInfo = function (self, unit, ...)
 		local name, text, texture, startTime, endTime, isTradeSkill, notInterruptible, spellID
-		if IS_WOW_PROJECT_MAINLINE then
+		if not IS_WOW_PROJECT_CLASSIC_TBC then
 			name, text, texture, startTime, endTime, isTradeSkill, notInterruptible, spellID = UnitChannelInfo (unit)
 		else
 			name, text, texture, startTime, endTime, isTradeSkill, spellID = UnitChannelInfo (unit)
@@ -8453,6 +8561,12 @@ DF.CastFrameFunctions = {
 			
 		--> update the interrupt cast border
 		self:UpdateInterruptState()
+		
+	end,
+	
+	UNIT_SPELLCAST_CHANNEL_START = function (self, unit, ...)
+		
+		self:UpdateChannelInfo(unit, ...)
 
 		self:RunHooksForWidget ("OnCastStart", self, self.unit, "UNIT_SPELLCAST_CHANNEL_START")
 	end,
@@ -8523,7 +8637,7 @@ DF.CastFrameFunctions = {
 	UNIT_SPELLCAST_FAILED = function (self, unit, ...)
 		local unitID, castID, spellID = ...
 	
-		if (self.casting and castID == self.castID and not self.fadeOut) then
+		if ((self.casting or self.channeling) and castID == self.castID and not self.fadeOut) then
 			self.casting = nil
 			self.channeling = nil
 			self.failed = true
@@ -8544,7 +8658,7 @@ DF.CastFrameFunctions = {
 	UNIT_SPELLCAST_INTERRUPTED = function (self, unit, ...)
 		local unitID, castID, spellID = ...
 
-		if (self.casting and castID == self.castID and not self.fadeOut) then
+		if ((self.casting or self.channeling) and castID == self.castID and not self.fadeOut) then
 			self.casting = nil
 			self.channeling = nil
 			self.interrupted = true
@@ -8613,6 +8727,90 @@ DF.CastFrameFunctions = {
 	end,
 
 }
+
+-- for classic era use LibClassicCasterino:
+local LibCC = LibStub ("LibClassicCasterino", true)
+if IS_WOW_PROJECT_CLASSIC_ERA and LibCC then
+	local fCast = CreateFrame("frame")
+
+	local getCastBar = function (unitId)
+		local plateFrame = C_NamePlate.GetNamePlateForUnit (unitId)
+		if (not plateFrame) then
+			return
+		end
+
+		local castBar = plateFrame.unitFrame and plateFrame.unitFrame.castBar
+		if (not castBar) then
+			return
+		end
+
+		return castBar
+	end
+
+	local triggerCastEvent = function (castBar, event, unitId, ...)
+		if (castBar and castBar.OnEvent) then
+			castBar.OnEvent (castBar, event, unitId)
+		end
+	end
+
+	local funcCast = function (event, unitId, ...)
+		local castBar = getCastBar (unitId)
+		if (castBar) then
+			triggerCastEvent (castBar, event, unitId)
+		end
+	end
+
+	fCast.UNIT_SPELLCAST_START = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_STOP = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_DELAYED = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_FAILED = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_INTERRUPTED = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_CHANNEL_START = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_CHANNEL_UPDATE = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	fCast.UNIT_SPELLCAST_CHANNEL_STOP = function (self, event, unitId, ...)
+		triggerCastEvent (getCastBar (unitId), event, unitId)
+	end
+
+	if LibCC then
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_START", funcCast)
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_DELAYED", funcCast) -- only for player
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_STOP", funcCast)
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_FAILED", funcCast)
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_INTERRUPTED", funcCast)
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_CHANNEL_START", funcCast)
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_CHANNEL_UPDATE", funcCast) -- only for player
+		LibCC.RegisterCallback(fCast,"UNIT_SPELLCAST_CHANNEL_STOP", funcCast)
+
+		UnitCastingInfo = function(unit)
+			return LibCC:UnitCastingInfo (unit)
+		end	
+
+		UnitChannelInfo = function(unit)
+			return LibCC:UnitChannelInfo (unit)
+		end	
+	end
+end -- end classic era
 
 -- ~castbar
 
@@ -9504,6 +9702,8 @@ DF.TimeLineBlockFunctions = {
 		--dataIndex stores which line index from the data this line will use
 		--lineData store members: .text .icon .timeline
 		local lineData = data.lines [self.dataIndex]
+
+		self.spellId = lineData.spellId
 		
 		--if there's an icon, anchor the text at the right side of the icon
 		--this is the title and icon of the title
@@ -9645,6 +9845,14 @@ DF.TimeLineFunctions = {
 			line = CreateFrame ("frame", "$parentLine" .. index, self.body, "BackdropTemplate")
 			DF:Mixin (line, DF.TimeLineBlockFunctions)
 			self.lines [index] = line
+
+			local lineHeader = CreateFrame("frame", nil, line, "BackdropTemplate")
+			lineHeader:SetPoint("topleft", line, "topleft", 0, 0)
+			lineHeader:SetPoint("bottomleft", line, "bottomleft", 0, 0)
+			lineHeader:SetScript("OnEnter", self.options.header_on_enter)
+			lineHeader:SetScript("OnLeave", self.options.header_on_leave)
+
+			line.lineHeader = lineHeader
 			
 			--store the individual textures that shows the timeline information
 			line.blocks = {}
@@ -9745,6 +9953,7 @@ DF.TimeLineFunctions = {
 		for i = 1, #self.data.lines do
 			local line = self:GetLine (i)
 			line.dataIndex = i --this index is used inside the line update function to know which data to get
+			line.lineHeader:SetWidth(self.options.header_width)
 			line:SetBlocksFromData() --the function to update runs within the line object
 		end
 		
@@ -9766,15 +9975,14 @@ DF.TimeLineFunctions = {
 }
 
 --creates a regular scroll in horizontal position
-function DF:CreateTimeLineFrame (parent, name, options, timelineOptions)
-
+function DF:CreateTimeLineFrame(parent, name, options, timelineOptions)
 	local width = options and options.width or timeline_options.width
 	local height = options and options.height or timeline_options.height
 	local scrollWidth = 800 --placeholder until the timeline receives data
 	local scrollHeight = 800 --placeholder until the timeline receives data
 
-	local frameCanvas = CreateFrame ("scrollframe", name, parent, "BackdropTemplate")
-	DF:Mixin (frameCanvas, DF.TimeLineFunctions)
+	local frameCanvas = CreateFrame("scrollframe", name, parent, "BackdropTemplate")
+	DF:Mixin(frameCanvas, DF.TimeLineFunctions)
 	
 	frameCanvas.data = {}
 	frameCanvas.lines = {}
@@ -9801,10 +10009,11 @@ function DF:CreateTimeLineFrame (parent, name, options, timelineOptions)
 	frameCanvas.elapsedTimeFrame = DF:CreateElapsedTimeFrame (frameBody, frameCanvas:GetName() and frameCanvas:GetName() .. "ElapsedTimeFrame", timelineOptions)
 	
 	--create horizontal slider
-		local horizontalSlider = CreateFrame ("slider", nil, parent, "BackdropTemplate")
+		local horizontalSlider = CreateFrame ("slider", frameCanvas:GetName() .. "HorizontalSlider", parent, "BackdropTemplate")
 		horizontalSlider.bg = horizontalSlider:CreateTexture (nil, "background")
 		horizontalSlider.bg:SetAllPoints (true)
 		horizontalSlider.bg:SetTexture (0, 0, 0, 0.5)
+		frameCanvas.horizontalSlider = horizontalSlider
 
 		horizontalSlider:SetBackdrop (frameCanvas.options.slider_backdrop)
 		horizontalSlider:SetBackdropColor (unpack (frameCanvas.options.slider_backdrop_color))
@@ -9830,11 +10039,9 @@ function DF:CreateTimeLineFrame (parent, name, options, timelineOptions)
 				frameCanvas:SetHorizontalScroll (stepValue)
 			end
 		end)
-		
-		frameCanvas.horizontalSlider = horizontalSlider
 	
 	--create scale slider
-		local scaleSlider = CreateFrame ("slider", nil, parent, "BackdropTemplate")
+		local scaleSlider = CreateFrame("slider", frameCanvas:GetName() .. "ScaleSlider", parent, "BackdropTemplate")
 		scaleSlider.bg = scaleSlider:CreateTexture (nil, "background")
 		scaleSlider.bg:SetAllPoints (true)
 		scaleSlider.bg:SetTexture (0, 0, 0, 0.5)
@@ -9868,10 +10075,11 @@ function DF:CreateTimeLineFrame (parent, name, options, timelineOptions)
 		end)
 
 	--create vertical slider
-		local verticalSlider = CreateFrame ("slider", nil, parent, "BackdropTemplate")
+		local verticalSlider = CreateFrame ("slider", frameCanvas:GetName() .. "VerticalSlider", parent, "BackdropTemplate")
 		verticalSlider.bg = verticalSlider:CreateTexture (nil, "background")
 		verticalSlider.bg:SetAllPoints (true)
 		verticalSlider.bg:SetTexture (0, 0, 0, 0.5)
+		frameCanvas.verticalSlider = verticalSlider
 		
 		verticalSlider:SetBackdrop (frameCanvas.options.slider_backdrop)
 		verticalSlider:SetBackdropColor (unpack (frameCanvas.options.slider_backdrop_color))
@@ -9892,8 +10100,6 @@ function DF:CreateTimeLineFrame (parent, name, options, timelineOptions)
 		verticalSlider:SetScript ("OnValueChanged", function (self)
 		      frameCanvas:SetVerticalScroll (self:GetValue())
 		end)
-		
-		frameCanvas.verticalSlider = verticalSlider
 
 	--mouse scroll
 		frameCanvas:EnableMouseWheel (true)

@@ -2,15 +2,18 @@
 SimulationCraftDB = {
 	["profileKeys"] = {
 		["Escargoth - Thrall"] = "Escargoth - Thrall",
-		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Gobage - Thrall"] = "Gobage - Thrall",
 		["Awaste - Thrall"] = "Awaste - Thrall",
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
 	},
 	["profiles"] = {
 		["Escargoth - Thrall"] = {
 		},
-		["Eyowen - Thrall"] = {
+		["Gobage - Thrall"] = {
 		},
 		["Awaste - Thrall"] = {
+		},
+		["Eyowen - Thrall"] = {
 		},
 	},
 }

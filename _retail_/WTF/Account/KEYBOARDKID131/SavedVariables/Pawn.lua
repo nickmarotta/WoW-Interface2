@@ -7,11 +7,11 @@ PawnCommon = {
 	["ShowRelicUpgrades"] = false,
 	["ShowValuesForUpgradesOnly"] = true,
 	["ShowItemLevelUpgrades"] = true,
-	["ShownGettingStarted"] = true,
+	["Digits"] = 1,
 	["Debug"] = false,
 	["ColorTooltipBorder"] = true,
 	["ShowTooltipIcons"] = true,
-	["LastVersion"] = 2.0521,
+	["ShowLootUpgradeAdvisor"] = true,
 	["ShowSocketingAdvisor"] = true,
 	["Scales"] = {
 		["\"MrRobot\":HUNTER3"] = {
@@ -33,9 +33,6 @@ PawnCommon = {
 			["IconTexturePath"] = 136145,
 			["PerCharacterOptions"] = {
 				["Vartizzle-Thrall"] = {
-					["Visible"] = true,
-				},
-				["Salocinn-Thrall"] = {
 					["Visible"] = true,
 				},
 			},
@@ -134,6 +131,9 @@ PawnCommon = {
 		["\"MrRobot\":WARLOCK3"] = {
 			["IconTexturePath"] = 136186,
 			["PerCharacterOptions"] = {
+				["Salocinn-Thrall"] = {
+					["Visible"] = true,
+				},
 			},
 			["Color"] = "8788ee",
 			["LocalizedName"] = "Warlock: Destruction",
@@ -224,14 +224,14 @@ PawnCommon = {
 				["IsDagger"] = -1000000,
 				["IsCrossbow"] = -1000000,
 				["IsGun"] = -1000000,
-				["OffHandDps"] = 2.82,
-				["IsFrill"] = -1000000,
 				["Versatility"] = 5.59,
-				["IsBow"] = -1000000,
-				["Strength"] = 2.84,
-				["Dps"] = 9.98,
-				["IsShield"] = -1000000,
+				["IsFrill"] = -1000000,
 				["MasteryRating"] = 5.44,
+				["Dps"] = 9.98,
+				["Strength"] = 2.84,
+				["IsBow"] = -1000000,
+				["IsShield"] = -1000000,
+				["OffHandDps"] = 2.82,
 			},
 			["Color"] = "ff4d6b",
 			["ClassID"] = 6,
@@ -295,22 +295,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "bfbfbf",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":PALADIN1"] = {
-			["IconTexturePath"] = 135920,
+		["\"MrRobot\":DRUID1"] = {
+			["IconTexturePath"] = 136096,
 			["PerCharacterOptions"] = {
-				["Zynzo-Thrall"] = {
-					["Visible"] = true,
-				},
 			},
-			["Color"] = "f58cba",
-			["LocalizedName"] = "Paladin: Holy",
-			["ClassID"] = 2,
+			["Color"] = "ff7d0a",
+			["LocalizedName"] = "Druid: Balance",
+			["ClassID"] = 11,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "HEALER",
-			["DoNotShow2HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b7698b",
+			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 1,
 		},
 		["\"MrRobot\":DEATHKNIGHT1"] = {
@@ -364,23 +361,23 @@ PawnCommon = {
 			["UnenchantedColor"] = "6566b2",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":DEMONHUNTER2"] = {
-			["IconTexturePath"] = 1247265,
+		["\"MrRobot\":WARRIOR1"] = {
+			["IconTexturePath"] = 132355,
 			["PerCharacterOptions"] = {
-				["Attorum-Thrall"] = {
+				["Kerrama-Thrall"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "a330c9",
-			["LocalizedName"] = "Demon Hunter: Vengeance",
-			["ClassID"] = 12,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
-			["DoNotShow2HUpgrades"] = true,
+			["Color"] = "c79c6e",
+			["LocalizedName"] = "Warrior: Arms",
+			["ClassID"] = 1,
+			["DoNotShow1HUpgrades"] = true,
+			["Role"] = "DAMAGER",
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "7a2496",
-			["SpecID"] = 2,
+			["UnenchantedColor"] = "957552",
+			["SpecID"] = 1,
 		},
 		["\"MrRobot\":SHAMAN3"] = {
 			["IconTexturePath"] = 136052,
@@ -418,23 +415,23 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":DEATHKNIGHT3"] = {
-			["IconTexturePath"] = 135775,
+		["\"MrRobot\":PALADIN2"] = {
+			["IconTexturePath"] = 236264,
 			["PerCharacterOptions"] = {
-				["Corptwo-Thrall"] = {
+				["Zynzo-Thrall"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "ff4d6b",
-			["LocalizedName"] = "Death Knight: Unholy",
-			["ClassID"] = 6,
-			["DoNotShow1HUpgrades"] = true,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Color"] = "f58cba",
+			["LocalizedName"] = "Paladin: Protection",
+			["ClassID"] = 2,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bf3950",
-			["SpecID"] = 3,
+			["UnenchantedColor"] = "b7698b",
+			["SpecID"] = 2,
 		},
 		["\"MrRobot\":HUNTER1"] = {
 			["IconTexturePath"] = 461112,
@@ -454,19 +451,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "809f56",
 			["SpecID"] = 1,
 		},
-		["\"MrRobot\":ROGUE1"] = {
-			["IconTexturePath"] = 236270,
+		["\"MrRobot\":MAGE1"] = {
+			["IconTexturePath"] = 135932,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "fff569",
-			["LocalizedName"] = "Rogue: Assassination",
-			["ClassID"] = 4,
+			["Color"] = "3fc7eb",
+			["LocalizedName"] = "Mage: Arcane",
+			["ClassID"] = 8,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = true,
+			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bfb74e",
+			["UnenchantedColor"] = "2f95b0",
 			["SpecID"] = 1,
 		},
 		["\"MrRobot\":HUNTER2"] = {
@@ -475,10 +472,10 @@ PawnCommon = {
 				["Velosara-Thrall"] = {
 					["Visible"] = true,
 				},
-				["Vulara-Thrall"] = {
+				["Songfire-Hyjal"] = {
 					["Visible"] = true,
 				},
-				["Songfire-Hyjal"] = {
+				["Vulara-Thrall"] = {
 					["Visible"] = true,
 				},
 			},
@@ -538,53 +535,56 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf3950",
 			["SpecID"] = 2,
 		},
-		["\"MrRobot\":MAGE1"] = {
-			["IconTexturePath"] = 135932,
+		["\"MrRobot\":ROGUE1"] = {
+			["IconTexturePath"] = 236270,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "3fc7eb",
-			["LocalizedName"] = "Mage: Arcane",
-			["ClassID"] = 8,
+			["Color"] = "fff569",
+			["LocalizedName"] = "Rogue: Assassination",
+			["ClassID"] = 4,
 			["DoNotShow1HUpgrades"] = false,
 			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
-			["UpgradesFollowSpecialization"] = true,
-			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "2f95b0",
-			["SpecID"] = 1,
-		},
-		["\"MrRobot\":PALADIN2"] = {
-			["IconTexturePath"] = 236264,
-			["PerCharacterOptions"] = {
-			},
-			["Color"] = "f58cba",
-			["LocalizedName"] = "Paladin: Protection",
-			["ClassID"] = 2,
-			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "TANK",
 			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "b7698b",
-			["SpecID"] = 2,
+			["UnenchantedColor"] = "bfb74e",
+			["SpecID"] = 1,
 		},
-		["\"MrRobot\":WARRIOR1"] = {
-			["IconTexturePath"] = 132355,
+		["\"MrRobot\":DEATHKNIGHT3"] = {
+			["IconTexturePath"] = 135775,
 			["PerCharacterOptions"] = {
-				["Kerrama-Thrall"] = {
+				["Corptwo-Thrall"] = {
 					["Visible"] = true,
 				},
 			},
-			["Color"] = "c79c6e",
-			["LocalizedName"] = "Warrior: Arms",
-			["ClassID"] = 1,
+			["Color"] = "ff4d6b",
+			["LocalizedName"] = "Death Knight: Unholy",
+			["ClassID"] = 6,
 			["DoNotShow1HUpgrades"] = true,
 			["Role"] = "DAMAGER",
 			["DoNotShow2HUpgrades"] = false,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "957552",
-			["SpecID"] = 1,
+			["UnenchantedColor"] = "bf3950",
+			["SpecID"] = 3,
+		},
+		["\"MrRobot\":DEMONHUNTER2"] = {
+			["IconTexturePath"] = 1247265,
+			["PerCharacterOptions"] = {
+				["Attorum-Thrall"] = {
+					["Visible"] = true,
+				},
+			},
+			["Color"] = "a330c9",
+			["LocalizedName"] = "Demon Hunter: Vengeance",
+			["ClassID"] = 12,
+			["DoNotShow1HUpgrades"] = false,
+			["Role"] = "TANK",
+			["DoNotShow2HUpgrades"] = true,
+			["UpgradesFollowSpecialization"] = true,
+			["Provider"] = "MrRobot",
+			["UnenchantedColor"] = "7a2496",
+			["SpecID"] = 2,
 		},
 		["\"MrRobot\":DRUID3"] = {
 			["IconTexturePath"] = 132276,
@@ -601,19 +601,19 @@ PawnCommon = {
 			["UnenchantedColor"] = "bf5d07",
 			["SpecID"] = 3,
 		},
-		["\"MrRobot\":DRUID1"] = {
-			["IconTexturePath"] = 136096,
+		["\"MrRobot\":PALADIN1"] = {
+			["IconTexturePath"] = 135920,
 			["PerCharacterOptions"] = {
 			},
-			["Color"] = "ff7d0a",
-			["LocalizedName"] = "Druid: Balance",
-			["ClassID"] = 11,
+			["Color"] = "f58cba",
+			["LocalizedName"] = "Paladin: Holy",
+			["ClassID"] = 2,
 			["DoNotShow1HUpgrades"] = false,
-			["Role"] = "DAMAGER",
-			["DoNotShow2HUpgrades"] = false,
+			["Role"] = "HEALER",
+			["DoNotShow2HUpgrades"] = true,
 			["UpgradesFollowSpecialization"] = true,
 			["Provider"] = "MrRobot",
-			["UnenchantedColor"] = "bf5d07",
+			["UnenchantedColor"] = "b7698b",
 			["SpecID"] = 1,
 		},
 		["\"MrRobot\":SHAMAN2"] = {
@@ -654,6 +654,6 @@ PawnCommon = {
 	["ButtonPosition"] = 2,
 	["ShowSpecIcons"] = true,
 	["ShowQuestUpgradeAdvisor"] = true,
-	["ShowLootUpgradeAdvisor"] = true,
-	["Digits"] = 1,
+	["LastVersion"] = 2.053,
+	["ShownGettingStarted"] = true,
 }

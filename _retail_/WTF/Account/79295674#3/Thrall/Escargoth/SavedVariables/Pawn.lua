@@ -1,94 +1,95 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.052,
+	["LastVersion"] = 2.0528,
 	["LastPlayerFullName"] = "Escargoth-Thrall",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178759,
-			["Level"] = 140,
-			["Link"] = "|cff0070dd|Hitem:178759::::::::58:256::17:4:7217:6771:6652:7193:2:28:747:9:58:::|h[Depraved Physician's Mask]|h|r",
+			["ID"] = 178693,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178693::::::::60:258::23:6:7594:7359:6652:7574:1524:6646:1:28:749:::::|h[Cocoonsilk Cowl]|h|r",
 		}, -- [1]
 		{
-			["ID"] = 173797,
-			["Level"] = 128,
-			["Link"] = "|cffa335ee|Hitem:173797::::::::57:256::11:2:6706:7173:2:9:54:28:1707:::|h[Larion-Tooth Necklace]|h|r",
+			["ID"] = 186291,
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186291::::::::60:258::5:5:7188:6652:7574:1485:6646:1:28:2105:::::|h[Periapt of Pristine Preservation]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 181420,
-			["Level"] = 132,
-			["Link"] = "|cff0070dd|Hitem:181420::::::::58:258::53:2:7192:6652:2:28:807:9:58:::|h[Faemoss Amice]|h|r",
+			["ID"] = 185886,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:185886::::::::60:257::14:4:7692:6652:1472:6646::::::|h[Korthian Caretaker's Shoulderpads]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 178813,
-			["Level"] = 140,
-			["Link"] = "|cff0070dd|Hitem:178813::::::::58:256::17:3:7217:6771:6652:2:28:747:9:58:::|h[Sinlight Shroud]|h|r",
+			["ID"] = 173214,
+			["Level"] = 230,
+			["Link"] = "|cff0070dd|Hitem:173214::::::::60:258:::4:6893:6649:6647:7461:4:9:60:28:391:29:40:30:36:::::|h[Shadowlace Tunic]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 175568,
-			["Level"] = 80,
-			["Link"] = "|cff1eff00|Hitem:175568::::::::57:256::17:2:6907:1709:2:9:52:28:747:::|h[Shimmerbough Cord of the Aurora]|h|r",
+			["ID"] = 186356,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:186356::::::::60:258::6:5:7187:6652:7574:1498:6646:1:28:2106:::::|h[Forlorn Prisoner's Strap]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 178761,
-			["Level"] = 122,
-			["Link"] = "|cff0070dd|Hitem:178761::::::::57:256::17:3:7217:6771:6652:2:9:55:28:747:::|h[Leggings of the Erudite Scholar]|h|r",
+			["ID"] = 185859,
+			["Level"] = 200,
+			["Link"] = "|cffa335ee|Hitem:185859::::::::60:257::14:4:7692:6652:1472:6646::::::|h[Korthian Caretaker's Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 178831,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:178831::::::::60:256::1:4:6805:6652:1472:4785:1:28:747:::|h[Slippers of Leavened Station]|h|r",
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178831::::::::60:257::23:5:7595:7359:6652:1524:6646:1:28:749:::::|h[Slippers of Leavened Station]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178782,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:178782::::::::60:256::1:5:6805:6652:7194:1472:4785:1:28:747:::|h[Necropolis Lord's Shackles]|h|r",
+			["ID"] = 178806,
+			["Level"] = 210,
+			["Link"] = "|cffa335ee|Hitem:178806::::::::60:257::23:6:7609:7359:6652:7574:1524:6646:1:28:749:::::|h[Contaminated Gauze Wristwraps]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 178705,
-			["Level"] = 158,
-			["Link"] = "|cff0070dd|Hitem:178705::::::::60:256::1:4:6805:6652:1472:4785:1:28:747:::|h[Tricksprite Gloves]|h|r",
+			["ID"] = 186358,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:186358::::::::60:258::6:4:7187:6652:1498:6646:1:28:2106:::::|h[Soulcaster's Woven Grips]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178824,
-			["Level"] = 146,
+			["ID"] = 178871,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:178824::::::::59:256::17:4:7217:6771:6652:7193:2:28:747:9:59:::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:258::35:6:7614:7359:6652:7574:1540:6646::::::|h[Bloodoath Signet]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178824,
-			["Level"] = 146,
+			["ID"] = 178871,
+			["Level"] = 226,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cff0070dd|Hitem:178824::::::::59:256::17:4:7217:6771:6652:7193:2:9:59:28:747:::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178871::::::::60:257::35:6:7614:7359:6652:7574:1540:6646::::::|h[Bloodoath Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 179927,
-			["Level"] = 152,
+			["ID"] = 178783,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:179927::::::::58:258::11:3:6706:7173:6652:2:28:1707:9:58:::|h[Glowing Endmire Stinger]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178783::::::::60:258::23:5:7595:7359:6652:1524:6646:1:28:749:::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 179927,
-			["Level"] = 152,
+			["ID"] = 178783,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:179927::::::::58:258::11:3:6706:7173:6652:2:9:58:28:1707:::|h[Glowing Endmire Stinger]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178783::::::::60:257::23:5:7595:7359:6652:1524:6646:1:28:749:::::|h[Siphoning Phylactery Shard]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 117376,
-			["Level"] = 142,
-			["Link"] = "|cff0070dd|Hitem:117376::::::::58:256::22:1:7191:2:28:181:9:58:::|h[The Frost Lord's Battle Shroud]|h|r",
+			["ID"] = 178851,
+			["Level"] = 184,
+			["Link"] = "|cff0070dd|Hitem:178851::::::::60:257::1:4:6805:41:1498:4785:1:28:2044:::::|h[Cloak of Enveloping Manifestations]|h|r",
 		}, -- [15]
 		{
-			["ID"] = 181223,
-			["Level"] = 138,
+			["ID"] = 178789,
+			["Level"] = 210,
 			["AlsoFitsIn"] = 17,
-			["Link"] = "|cff0070dd|Hitem:181223::::::::59:256::53:2:7192:6652:2:28:807:9:59:::|h[Mace of Emberwrath]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178789::::::::60:257::23:5:7665:7359:6652:1524:6646:1:28:749:::::|h[Fleshcrafter's Knife]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 178828,
-			["Level"] = 146,
-			["Link"] = "|cff0070dd|Hitem:178828::::::::59:256::17:3:7217:6771:6652:2:28:747:9:59:::|h[Nathrian Tabernacle]|h|r",
+			["ID"] = 178709,
+			["Level"] = 197,
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cff0070dd|Hitem:178709::::::::60:258::2:4:6806:6652:1511:4785:1:28:748:::::|h[Scithewood Scepter]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

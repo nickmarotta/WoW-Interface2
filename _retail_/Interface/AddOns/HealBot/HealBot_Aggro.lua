@@ -27,7 +27,7 @@ function HealBot_Aggro_IndicatorClear(button)
 end
 
 function HealBot_Aggro_IndicatorUpdate(button)
-    if button.status.current<9 and button.frame<10 and button.aggro.status>=Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["ALERTIND"] then
+    if button.status.current<HealBot_Unit_Status["DEAD"] and button.frame<10 and button.aggro.status>=Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["ALERTIND"] then
         if button.aggro.status==1 then
             if button.aggro.ind~=1 then
                 button.aggro.ind=1
@@ -66,14 +66,12 @@ function HealBot_Aggro_IndicatorUpdate(button)
 end
 
 function HealBot_Aggro_UpdateUnit(button,status,threatStatus,threatPct,extra,threatValue,mobName)
-    if button.status.current<9 and UnitIsFriend("player",button.unit) and UnitAffectingCombat(button.unit) then
-        if status then
-            if Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["SHOW"] then
-                if threatStatus>Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["ALERT"] then
-                    HealBot_Aux_UpdateAggroBar(button)
-                else
-                    HealBot_Aux_ClearAggroBar(button)
-                end
+    if button.status.current<HealBot_Unit_Status["DEAD"] and UnitIsFriend("player",button.unit) and UnitAffectingCombat(button.unit) then
+        if status and Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["SHOW"] then
+            if threatStatus>Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["ALERT"] then
+                HealBot_Aux_UpdateAggroBar(button)
+            else
+                HealBot_Aux_ClearAggroBar(button)
             end
         else
             threatStatus=0
@@ -86,8 +84,11 @@ function HealBot_Aggro_UpdateUnit(button,status,threatStatus,threatPct,extra,thr
         threatValue=0
         mobName=""
     end
-    if (button.aggro.status==3 or threatStatus==3) and button.aggro.status~=threatStatus then
-        button.status.refresh=true
+    if (button.aggro.status==3 or threatStatus==3) then
+        if button.aggro.status~=threatStatus then
+            button.aggro.status=threatStatus
+            HealBot_Action_UpdateHealthButtonState(button, true)
+        end
     end
     button.aggro.status=threatStatus
     if Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["SHOW"] and 
@@ -101,11 +102,11 @@ function HealBot_Aggro_UpdateUnit(button,status,threatStatus,threatPct,extra,thr
         if Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["SHOWTEXT"]>1 then
             HealBot_Text_setNameText(button)
         end
-        if Healbot_Config_Skins.BarAggro[Healbot_Config_Skins.Current_Skin][button.frame]["SHOWTEXTPCT"] then
+        if not Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["TAGAGGROONLYTIP"] then
             HealBot_Text_setAggroText(button)
         end
         if HealBot_Aggro_luVars["pluginThreat"] and button.status.plugin then HealBot_Plugin_Threat_UnitUpdate(button) end
-        if HealBot_Data["TIPBUTTON"] and HealBot_Data["TIPBUTTON"]==button then HealBot_Action_RefreshTooltip() end
+        if button.mouseover and HealBot_Data["TIPBUTTON"] then HealBot_Action_RefreshTooltip() end
         if threatPct<1 then
             HealBot_Aux_ClearThreatBar(button)
         else
@@ -122,18 +123,23 @@ end
 
 function HealBot_Aggro_UpdateAggroText()
     for _,xButton in pairs(HealBot_Unit_Button) do
+        xButton.gref.txt["text4"]:SetText("")
         HealBot_Text_setAggroText(xButton, true)
     end
     for _,xButton in pairs(HealBot_Private_Button) do
+        xButton.gref.txt["text4"]:SetText("")
         HealBot_Text_setAggroText(xButton, true)
     end
     for _,xButton in pairs(HealBot_Pet_Button) do
+        xButton.gref.txt["text4"]:SetText("")
         HealBot_Text_setAggroText(xButton, true)
     end
     for _,xButton in pairs(HealBot_Vehicle_Button) do
+        xButton.gref.txt["text4"]:SetText("")
         HealBot_Text_setAggroText(xButton, true)
     end
     for _,xButton in pairs(HealBot_Extra_Button) do
+        xButton.gref.txt["text4"]:SetText("")
         HealBot_Text_setAggroText(xButton, true)
     end
 end

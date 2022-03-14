@@ -30,6 +30,8 @@ L["colorByTime_desc"] = "根据剩余时间来决定颜色"
 --[[Translation missing --]]
 --[[ L["colorByTime_low_desc"] = ""--]] 
 L["colorOverride_desc"] = "这将代替默认的颜色"
+--[[Translation missing --]]
+--[[ L["combatWildcard_desc"] = ""--]] 
 L["Countdown"] = "倒数计时"
 L["Curse"] = "诅咒"
 L["curseWildcard_desc"] = "任何诅咒类型的减益"

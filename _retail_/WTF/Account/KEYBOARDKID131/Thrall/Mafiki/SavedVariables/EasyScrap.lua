@@ -1,5 +1,17 @@
 
 EasyScrap_IgnoreList = {
+	[163866] = {
+		["isAzeriteArmor"] = false,
+		[370] = {
+			["Honorbound Skullcleaver"] = {
+				{
+					"6515", -- [1]
+					"1562", -- [2]
+					"4786", -- [3]
+				}, -- [1]
+			},
+		},
+	},
 	[159666] = {
 		["isAzeriteArmor"] = false,
 		[430] = {
@@ -14,6 +26,7 @@ EasyScrap_IgnoreList = {
 			},
 		},
 	},
+	["addonVersion"] = 31,
 	[159129] = {
 		["isAzeriteArmor"] = false,
 		[430] = {
@@ -24,19 +37,6 @@ EasyScrap_IgnoreList = {
 					"6515", -- [3]
 					"1602", -- [4]
 					"4786", -- [5]
-				}, -- [1]
-			},
-		},
-	},
-	["addonVersion"] = 31,
-	[163866] = {
-		["isAzeriteArmor"] = false,
-		[370] = {
-			["Honorbound Skullcleaver"] = {
-				{
-					"6515", -- [1]
-					"1562", -- [2]
-					"4786", -- [3]
 				}, -- [1]
 			},
 		},

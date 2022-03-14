@@ -13,9 +13,9 @@ ACP_Data = {
 		["LittleWigs"] = true,
 		["Kui"] = true,
 		["ShadowedUnitFrames"] = true,
-		["Masque"] = true,
-		["HealBot"] = true,
 		["RaiderIO"] = true,
+		["HealBot"] = true,
+		["Masque"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

@@ -2,8 +2,9 @@
 Details_StreamerDB = {
 	["characters"] = {
 		["Escargoth - Thrall"] = "Eyowen - Thrall",
-		["Awaste - Thrall"] = "Eyowen - Thrall",
 		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Eyowen - Thrall",
+		["Gobage - Thrall"] = "Eyowen - Thrall",
 	},
 	["profiles"] = {
 		["Eyowen - Thrall"] = {
@@ -45,7 +46,7 @@ Details_StreamerDB = {
 			["square_amount"] = 5,
 			["enabled"] = false,
 			["arrow_size"] = 10,
-			["use_spark"] = true,
+			["y"] = 4.57763671875e-05,
 			["row_spacement"] = 21,
 			["main_frame_color"] = {
 				0, -- [1]
@@ -55,6 +56,7 @@ Details_StreamerDB = {
 			},
 			["main_frame_strata"] = "LOW",
 			["arrow_texture"] = "Interface\\CHATFRAME\\ChatFrameExpandArrow",
+			["font_size"] = 10,
 			["per_second"] = {
 				["enabled"] = false,
 				["point"] = "CENTER",
@@ -66,11 +68,10 @@ Details_StreamerDB = {
 				["update_speed"] = 0.05,
 				["attribute_type"] = 1,
 			},
-			["font_size"] = 10,
 			["x"] = 0,
 			["font_face"] = "Friz Quadrata TT",
 			["square_size"] = 32,
-			["y"] = 4.57763671875e-05,
+			["use_spark"] = true,
 			["arrow_anchor_y"] = 0,
 			["main_frame_locked"] = false,
 			["use_square_mode"] = false,

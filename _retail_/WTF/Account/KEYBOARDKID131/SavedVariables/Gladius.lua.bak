@@ -16,6 +16,7 @@ Gladius2DB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
 		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
@@ -152,6 +153,16 @@ Gladius2DB = {
 				["arena1"] = 593.4333553081888,
 			},
 		},
+		["Melleressra - Thrall"] = {
+			["y"] = {
+				["arena1"] = 619.0334123525827,
+			},
+			["tagsVersion"] = 4,
+			["auraVersion"] = 1,
+			["x"] = {
+				["arena1"] = 1064.266574732465,
+			},
+		},
 		["Corpsel - Alexstrasza"] = {
 			["tagsVersion"] = 4,
 		},
@@ -168,11 +179,11 @@ Gladius2DB = {
 		["Mafiki - Thrall"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["x"] = {
-				["arena1"] = 943.5553425878607,
-			},
 			["y"] = {
 				["arena1"] = 550.2333507892399,
+			},
+			["x"] = {
+				["arena1"] = 943.5553425878607,
 			},
 		},
 	},

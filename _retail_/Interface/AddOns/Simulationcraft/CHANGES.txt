@@ -1,16 +1,10 @@
-lightweight tag aaa13656bdb4b495f875e6b5cb2feb7a70de28ba v9.1.0-01
+lightweight tag c653865e924d3666b0bcd828f8b605709cc36e37 v9.2.0
 Author:	Dave Hendler <sollaires@gmail.com>
-Date:	Wed Jun 30 08:17:33 2021 -0700
+Date:	Tue Feb 22 10:58:35 2022 -0800
 
-commit aaa13656bdb4b495f875e6b5cb2feb7a70de28ba
+commit c653865e924d3666b0bcd828f8b605709cc36e37
 Author: Dave Hendler <sollaires@gmail.com>
-Date:   Wed Jun 30 08:17:33 2021 -0700
+Date:   Tue Feb 22 10:58:35 2022 -0800
 
-    Add enhanced conduit detection, bump version for 9.1
-
-commit fd9cfabbd79652b3bfd7090c9f8a01c0c9e3e245
-Author: Dave Hendler <sollaires@gmail.com>
-Date:   Mon Jun 21 16:44:23 2021 -0700
-
-    Update addon version
+    Update version for 9.2 release
 

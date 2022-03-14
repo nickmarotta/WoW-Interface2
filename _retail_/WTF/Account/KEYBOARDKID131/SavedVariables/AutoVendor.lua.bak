@@ -7,27 +7,28 @@ AutoVendorDB = {
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Syandea - Hyjal"] = "Syandea - Hyjal",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Corptwo - Thrall"] = "Corptwo - Thrall",
 		["Songfire - Hyjal"] = "Songfire - Hyjal",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
-		["Naraka - Thrall"] = "Naraka - Thrall",
-		["Tyuty - Thrall"] = "Tyuty - Thrall",
-		["Naakari - Hyjal"] = "Naakari - Hyjal",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
-		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Tyuty - Thrall"] = "Tyuty - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Kerrama - Thrall"] = "Kerrama - Thrall",
+		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Naakari - Hyjal"] = "Naakari - Hyjal",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
-		["Kerrama - Thrall"] = "Kerrama - Thrall",
-		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Naraka - Thrall"] = "Naraka - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -39,7 +40,6 @@ AutoVendorDB = {
 		["Amarelli - Hyjal"] = {
 		},
 		["Corpselus - Thrall"] = {
-			["guildbankrepair"] = true,
 		},
 		["Corpsel - Alexstrasza"] = {
 		},
@@ -61,11 +61,11 @@ AutoVendorDB = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Vulara - Thrall"] = {
 		},
 		["Mafiki - Thrall"] = {
 		},
-		["Vulara - Thrall"] = {
+		["Salocinn - Thrall"] = {
 		},
 	},
 }

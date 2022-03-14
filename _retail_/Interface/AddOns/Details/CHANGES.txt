@@ -1,16 +1,22 @@
-tag 393a436ace1a703f50a50d26e6a7c32254c373aa DetailsRetail.9.1.0.8722.145
+tag b0c004fb037f0207a9fb55f8e083bd2b8acd4cef DetailsRetail.9.2.0.9720.146
 Author:	Tercio Jose <terciob19@hotmail.com>
-Date:	Thu Jul 15 12:02:32 2021 -0300
+Date:	Fri Mar 11 13:07:37 2022 -0300
 
-commit 10b1c14f2d0aa86e799b51ba19cecb68613b8856
+commit 2e7875f46ca7c1daea3da4c841adbaa4d6e7d313
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Thu Jul 15 12:02:07 2021 -0300
+Date:   Fri Mar 11 13:06:55 2022 -0300
 
-    Fixed Spikeball damage taken
+    new release with updates on the framework
 
-commit 37b7687d5fb56802cbb8038dfca5582ef844b06c
+commit 1de5bfdc824eeac6ea99a8d4494b1c595b0824a7
 Author: Tercio Jose <terciob19@hotmail.com>
-Date:   Wed Jul 14 23:36:16 2021 -0300
+Date:   Fri Mar 11 11:01:47 2022 -0300
 
-    Rewrite on the Painsmith's Spikeball handler
+    Fixed exit logs
+
+commit 6795fd2d6f2982da6f7313f944be9204be0b2799
+Author: Tercio Jose <terciob19@hotmail.com>
+Date:   Fri Mar 11 10:29:16 2022 -0300
+
+    framework update
 

@@ -28,6 +28,8 @@ L["colorByTime_desc"] = "Couleur déterminé par le temps restant"
 L["colorByTime_high_desc"] = "Le temps (en secondes) pour la limite supérieure"
 L["colorByTime_low_desc"] = "Le temps (en secondes) pour la limite inférieure"
 L["colorOverride_desc"] = "Cela va outrepasser les couleurs régulières"
+--[[Translation missing --]]
+--[[ L["combatWildcard_desc"] = ""--]] 
 L["Countdown"] = "Compte à rebours"
 L["Curse"] = "Malédiction"
 L["curseWildcard_desc"] = "N'importe quel malédiction"

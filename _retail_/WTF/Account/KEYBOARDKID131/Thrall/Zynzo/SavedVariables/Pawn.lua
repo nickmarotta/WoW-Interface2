@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0521,
+	["LastVersion"] = 2.053,
 	["LastPlayerFullName"] = "Zynzo-Thrall",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -26,9 +26,9 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:178751::::::::55:66::17:3:7217:6771:6652:2:28:747:9:55:::|h[Spare Meat Hook]|h|r",
 		},
 		[7] = {
-			["ID"] = 178818,
-			["Level"] = 116,
-			["Link"] = "|cff0070dd|Hitem:178818::::::::54:65::17:3:7217:6771:6652:2:28:747:9:54:::|h[Halkias's Towering Pillars]|h|r",
+			["ID"] = 181200,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:181200::::::::56:66::53:2:7192:6652:2:28:807:9:56:::::|h[Stonewrought Legguards]|h|r",
 		},
 		[14] = {
 			["ID"] = 178751,
@@ -64,15 +64,15 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:183672::::::::50:66:::2:1482:4786:1:28:1401:::|h[Cuirass of Undeath]|h|r",
 		},
 		[10] = {
-			["ID"] = 113744,
-			["Level"] = 57,
-			["Link"] = "|cff0070dd|Hitem:113744::::::::52:66::1:2:4244:126:2:28:1697:9:50:::|h[Kyparite Gauntlets of the Feverflare]|h|r",
+			["ID"] = 181199,
+			["Level"] = 120,
+			["Link"] = "|cff0070dd|Hitem:181199::::::::56:66::53:2:7192:6652:2:28:807:9:56:::::|h[Stonewrought Gauntlets]|h|r",
 		},
 		[11] = {
-			["ID"] = 183659,
-			["Level"] = 110,
+			["ID"] = 109772,
+			["Level"] = 124,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:183659::::::::50:66:::2:1482:4786:1:28:1401:::|h[Annhylde's Band]|h|r",
+			["Link"] = "|cff0070dd|Hitem:109772::::::::56:66::22:2:7464:6652:2:28:181:9:56:::::|h[Knucklebone of Lo'Dronar]|h|r",
 		},
 		[6] = {
 			["ID"] = 183595,
@@ -80,10 +80,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:183595::::::::50:66::14::1:28:1401:::|h[Argent Conscript's Buckle]|h|r",
 		},
 		[12] = {
-			["ID"] = 183659,
-			["Level"] = 110,
+			["ID"] = 109772,
+			["Level"] = 124,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:183659::::::::50:65:::2:1482:4786:1:28:1401:::|h[Annhylde's Band]|h|r",
+			["Link"] = "|cff0070dd|Hitem:109772::::::::56:66::22:2:7464:6652:2:9:56:28:181:::::|h[Knucklebone of Lo'Dronar]|h|r",
 		},
 		[9] = {
 			["ID"] = 173346,

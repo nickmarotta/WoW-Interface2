@@ -129,3 +129,13 @@ BigWigs_Shadowlands: enabled
 BigWigs_CastleNathria: enabled
 LittleWigs_WarlordsOfDraenor: enabled
 BigWigs_SanctumOfDomination: enabled
+TomTom: disabled
+DominationShardRankToolltip: enabled
+DominationSocketHelper: enabled
+ExRT: enabled
+EasyScrap: enabled
+EnhancedRaidFrames: enabled
+BigDebuffs: disabled
+OmniBar: disabled
+CallbackHandler-1.0: enabled
+OmniCD: disabled

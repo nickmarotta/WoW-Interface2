@@ -96,6 +96,17 @@ function InfoFrame_UpdatePlayersOnInfoFrameWithAdditionalInfo()
     end
 end
 
+function InfoFrame_GetHighestDynamicPlayer()
+    local highCounter = 0
+    local highPlayer = ""
+    for player, status in pairs(core.InfoFrame_DynamicTable) do
+        if status[2] > highCounter then
+            highCounter = status[2]
+        end
+    end
+    return highCounter
+end
+
 function InfoFrame_UpdateDynamicPlayerList()
     if next(core.InfoFrame_DynamicTable) == nil then
         --Table is empty. Do nothing
@@ -143,6 +154,24 @@ function InfoFrame_IncrementDynamicPlayer(player,count)
         if count ~= nil then
             --Increment player counter in table
             core.InfoFrame_DynamicTable[player][2] = core.InfoFrame_DynamicTable[player][2] + count
+
+            if core.InfoFrame_DynamicTable[player][2] >= 9 then
+                core.InfoFrame_DynamicTable[player] = {2,core.InfoFrame_DynamicTable[player][2]}
+            else
+                core.InfoFrame_DynamicTable[player] = {1,core.InfoFrame_DynamicTable[player][2]}
+            end
+        end
+    end
+end
+
+function InfoFrame_SetDynamicPlayer(player,count)
+    if core.InfoFrame_DynamicTable[player] == nil then
+        --Setup new player in table
+        core.InfoFrame_DynamicTable[player] = {1,count}
+    else
+        if count ~= nil then
+            --Increment player counter in table
+            core.InfoFrame_DynamicTable[player][2] = count
 
             if core.InfoFrame_DynamicTable[player][2] >= 9 then
                 core.InfoFrame_DynamicTable[player] = {2,core.InfoFrame_DynamicTable[player][2]}
@@ -367,6 +396,12 @@ function InfoFrame_GetPlayerStatusWithMessage(player)
 end
 
 function InfoFrame_GetPlayerFailed(player)
+    --Make sure we remove realm info from player before checking name
+    if string.find(player, "-") then
+        local name, realm = strsplit("-", player)
+        player = name
+    end
+
     if core.InfoFrame_PlayersTable[player] == 3 then
         return true
     else
@@ -625,6 +660,10 @@ end
 
 function InfoFrame_GetManualCounterCount()
     return core.manualCountCurrentSize
+end
+
+function InfoFrame_SetCustomMessage(message)
+    core.IATInfoFrame:SetText1(message)
 end
 
 function core.InfoFrame.Events:CHAT_MSG_RAID(self, text, playerName)

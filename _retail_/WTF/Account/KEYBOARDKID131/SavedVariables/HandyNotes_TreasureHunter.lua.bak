@@ -20,6 +20,7 @@ HandyNotes_TreasureHunterDB = {
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -59,6 +60,8 @@ HandyNotes_TreasureHunterDB = {
 		["Mafiki - Thrall"] = {
 		},
 		["Salocinn - Thrall"] = {
+		},
+		["Melleressra - Thrall"] = {
 		},
 	},
 }

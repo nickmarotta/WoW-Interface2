@@ -1,0 +1,9 @@
+## Interface: 90100
+## X-Min-Interface: 90100
+## Title: Domination Shard Rank Tooltip
+## Notes: Adds a rank to the bottom of a Domination Shard's tooltip
+## Author: |cff20d2ffMillgid|r (EU-Nordrassil)
+## Version: 9.1.0
+## DefaultState: enabled
+DominationShardRankToolltipdb.lua
+DominationShardRankToolltip.lua

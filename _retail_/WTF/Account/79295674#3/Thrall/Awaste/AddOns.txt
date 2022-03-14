@@ -70,3 +70,5 @@ LibDogTag-3.0: enabled
 LibRealmInfo: enabled
 LibDBIcon: enabled
 LibDataBroker-1.1: enabled
+BigWigs_SanctumOfDomination: enabled
+LittleWigs_MistsOfPandaria: enabled

@@ -19,6 +19,7 @@ Gladius2DB = {
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -155,11 +156,11 @@ Gladius2DB = {
 		["Mafiki - Thrall"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
-			["y"] = {
-				["arena1"] = 550.2333507892399,
-			},
 			["x"] = {
 				["arena1"] = 943.5553425878607,
+			},
+			["y"] = {
+				["arena1"] = 550.2333507892399,
 			},
 		},
 		["Velosara - Thrall"] = {
@@ -174,6 +175,16 @@ Gladius2DB = {
 		},
 		["Corpsel - Alexstrasza"] = {
 			["tagsVersion"] = 4,
+		},
+		["Melleressra - Thrall"] = {
+			["y"] = {
+				["arena1"] = 619.0334123525827,
+			},
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1064.266574732465,
+			},
+			["auraVersion"] = 1,
 		},
 	},
 }

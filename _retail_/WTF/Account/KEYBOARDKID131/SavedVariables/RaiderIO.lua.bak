@@ -1,38 +1,21 @@
 
 RaiderIO_Config = {
-	["previouslyEnabledLogging"] = true,
+	["previouslyEnabledLogging"] = false,
 	["displayWeeklyGuildBest"] = false,
 }
 RaiderIO_LastCharacter = "us-Corpselus-thrall"
 RaiderIO_MissingCharacters = {
-	["us-party4-thrall"] = true,
-	["us-Knigglez-thrall"] = true,
-	["us-Selisabeth-thrall"] = true,
-	["us-Hungg-thrall"] = true,
-	["us-Ulkalar-thrall"] = true,
-	["us-Awaste-thrall"] = true,
-	["us-Darkz-hyjal"] = true,
-	["us-Chronicdeeps-thrall"] = true,
-	["us-Arnaldo-thrall"] = true,
-	["us-Liljunebug-thrall"] = true,
-	["us-party5-thrall"] = true,
-	["us-Boojin-thrall"] = true,
-	["us-Sevyr-thrall"] = true,
-	["us-Uwub-thrall"] = true,
-	["us-Zhulel-thrall"] = true,
-	["us-Reayna-thrall"] = true,
-	["us-Shuckiez-thrall"] = true,
-	["us-Novichungus-thrall"] = true,
-	["us-Úlfurinn-thrall"] = true,
-	["us-Mafiki-thrall"] = true,
-	["us-Dizzyfangirl-malganis"] = true,
-	["us-Averpewpew-thrall"] = true,
-	["us-Akaino-thrall"] = true,
-	["us-Grimjuk-thrall"] = true,
-	["us-Tigolcritees-thrall"] = true,
-	["us-Rhude-thrall"] = true,
-	["us-Juaris-thrall"] = true,
+	["us-Baulor-thrall"] = true,
+	["us-Azogorn-thrall"] = true,
+	["us-Extrastretch-thrall"] = true,
+	["us-Magharzuul-thrall"] = true,
+	["us-Bramblecat-thrall"] = true,
+	["us-Heltrox-thrall"] = true,
+	["us-Sejul-thrall"] = true,
+	["us-Darbak-wyrmrest-accord"] = true,
 }
 RaiderIO_MissingServers = {
 }
 RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

@@ -1,13 +1,9 @@
-﻿HEALBOT_VERSION    = "9.1.0.3";
-HEALBOT_VERSION_SC = HEALBOT_VERSION
-HEALBOT_ABOUT_URL = "healbot.dpm15.net"
+﻿HEALBOT_VERSION_SC = "9.2.0.2";
+HEALBOT_VERSION    = GetAddOnMetadata("HealBot", "Version") or "9.x"
+HEALBOT_ABOUT_URL  = "healbot.dpm15.net"
 
-local version = GetBuildInfo()
-local vMajor = string.split(".", version)
+local vMajor         = string.split(".", select(1, GetBuildInfo()))
 HEALBOT_GAME_VERSION = tonumber(vMajor)
-
-if HEALBOT_GAME_VERSION==1 then HEALBOT_VERSION = "1.13.7.17" end
-if HEALBOT_GAME_VERSION==2 then HEALBOT_VERSION = "2.5.1.13" end
 
 function HealBot_globalVars()
     --Consumables
@@ -89,7 +85,7 @@ function HealBot_globalVars()
     HEALBOT_SHADOW_TOUCHED                  = 284556 --GetSpellInfo(284556) or "--Shadow-Touched"
     HEALBOT_INGENIOUS_MANA_BATTERY          = 169344 
     
-
+    HEALBOT_WELL_FED                        = "Well Fed"
     --Procs
     HEALBOT_CONCORDANCE_OF_THE_LEGIONFALL   = 242586 --GetSpellInfo(242586) or "--Concordance of the Legionfall";
     HEALBOT_BRACING_CHILL                   = 272276 --GetSpellInfo(267884) or "--Bracing Chill";
@@ -384,6 +380,7 @@ function HealBot_globalVars()
     HEALBOT_FOCUS_MAGIC                     = 54646 --GetSpellInfo(54646) or "--Focus Magic";
     HBC_FROST_ARMOR                         = 168
     HBC_ICE_ARMOR                           = 7302
+    HBC_MOLTEN_ARMOR                        = 30482
     HEALBOT_ICE_BARRIER                     = 11426 --GetSpellInfo(11426) or "--Ice Barrier"
     HEALBOT_ICE_BLOCK                       = 45438 --GetSpellInfo(45438) or "--Ice Block"
     HEALBOT_ICE_WARD                        = 111264 --GetSpellInfo(111264) or "--Ice Ward"
@@ -497,7 +494,7 @@ function HealBot_globalVars()
     HBC_INNER_FIRE                          = 588
     HEALBOT_INSPIRATION                     = 14893 --GetSpellInfo(14893) or "--Inspiration";
     HEALBOT_LEAP_OF_FAITH                   = 73325 --GetSpellInfo(73325) or "--Leap of Faith";
-    HEALBOT_LEVITATE                        = 111759 --GetSpellInfo(1706) or "--Levitate";
+    HEALBOT_LEVITATE                        = 1706 --GetSpellInfo(1706) or "--Levitate";
     HEALBOT_LIGHTWELL_RENEW                 = 7001 --GetSpellInfo(7001) or "--Lightwell Renew";
     HEALBOT_LIGHT_OF_TUURE                  = 208065 --GetSpellInfo(208065) or "--Light of T'uure";
     HEALBOT_MIND_QUICKENING                 = 49868 --GetSpellInfo(49868) or "--Mind Quickening"
@@ -570,6 +567,7 @@ function HealBot_globalVars()
     HEALBOT_UNLEASHED_FURY                  = 117012 --GetSpellInfo(117012) or "--Unleashed Fury";
     HEALBOT_WATER_SHIELD                    = 52127 --GetSpellInfo(52127) or "--Water Shield";
     HEALBOT_WATER_WALKING                   = 546 --GetSpellInfo(546) or "--Water Walking";
+    HEALBOT_WATER_BREATHING                 = 131 --GetSpellInfo(131) or "--Water Breathing";
     
     --Monk
     HEALBOT_BREATH_OF_THE_SERPENT           = 157535 --GetSpellInfo(157535) or "--Breath of the Serpent"
@@ -610,7 +608,7 @@ function HealBot_globalVars()
     HEALBOT_UNENDING_BREATH                 = 5697 --GetSpellInfo(5697) or "--Unending Breath"
     HEALBOT_UNENDING_RESOLVE                = 104773 --GetSpellInfo(104773) or "--Unending Resolve"
     HEALBOT_SOUL_LEECH                      = 108366 --GetSpellInfo(108370) or "--Soul Leech"
-    HBC_PHASE_SHIFT                         = GetSpellInfo(4511) or "Phase Shift"
+    HBC_PHASE_SHIFT                         = 4511 --GetSpellInfo(4511) or "Phase Shift"
     HBC_DETECT_LESSER_INVISIBILITY          = 132
     HBC_DETECT_INVISIBILITY                 = 2970
     HBC_DETECT_GREATER_INVISIBILITY         = 11743

@@ -4,9 +4,6 @@ EnhancedRaidFramesDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["global"] = {
-		["DB_VERSION"] = 2,
-	},
 	["profileKeys"] = {
 		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
@@ -23,9 +20,13 @@ EnhancedRaidFramesDB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
-		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
 		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
+	},
+	["global"] = {
+		["DB_VERSION"] = 2,
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -58,11 +59,13 @@ EnhancedRaidFramesDB = {
 		},
 		["Ronami - Thrall"] = {
 		},
-		["Corpsel - Alexstrasza"] = {
+		["Velosara - Thrall"] = {
 		},
 		["Salocinn - Thrall"] = {
 		},
-		["Velosara - Thrall"] = {
+		["Corpsel - Alexstrasza"] = {
+		},
+		["Melleressra - Thrall"] = {
 		},
 	},
 }

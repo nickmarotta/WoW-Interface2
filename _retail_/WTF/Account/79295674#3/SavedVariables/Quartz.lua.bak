@@ -18,9 +18,14 @@ Quartz3DB = {
 		},
 		["Range"] = {
 		},
-		["Mirror"] = {
-		},
 		["EnemyCasts"] = {
+		},
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["x"] = 925.2564697265625,
+				},
+			},
 		},
 		["GCD"] = {
 		},
@@ -40,18 +45,14 @@ Quartz3DB = {
 		},
 		["Interrupt"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["x"] = 925.2564697265625,
-				},
-			},
+		["Mirror"] = {
 		},
 		["Latency"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Escargoth - Thrall"] = "Default",
+		["Gobage - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
 	},
 	["profiles"] = {

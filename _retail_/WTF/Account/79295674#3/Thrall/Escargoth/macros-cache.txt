@@ -1,0 +1,5 @@
+VER 3 0100000000000001 "PISTEAK" "135892"
+#showtooltip
+/target Steakdh
+/cast Power Infusion
+END

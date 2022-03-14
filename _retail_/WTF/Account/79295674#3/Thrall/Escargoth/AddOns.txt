@@ -53,3 +53,15 @@ Prat-3.0_Libraries: disabled
 BigWigs_Voice: enabled
 LittleWigs: enabled
 LittleWigs_BurningCrusade: enabled
+LittleWigs_WrathOfTheLichKing: enabled
+OmniBar: disabled
+OmniCD: disabled
+Ace3: enabled
+LibButtonGlow-1.0: enabled
+LibActionButton-1.0: enabled
+LibKeyBound-1.0: enabled
+LibDBIcon-1.0: enabled
+LibWindow-1.1: enabled
+LibDualSpec-1.0: enabled
+BigDebuffs: disabled
+LittleWigs_MistsOfPandaria: enabled

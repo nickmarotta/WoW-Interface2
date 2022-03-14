@@ -1,13 +1,19 @@
+VER 3 0000000000000152 " " "INV_MISC_QUESTIONMARK"
+/run LoadAddOn("Blizzard_WeeklyRewards");WeeklyRewardsFrame:Show()
+END
 VER 3 0000000000000004 " " "136146"
 Gold
 325756
 END
-VER 3 0000000000000152 " " "INV_MISC_QUESTIONMARK"
-/run LoadAddOn("Blizzard_WeeklyRewards");WeeklyRewardsFrame:Show()
-END
 VER 3 00000000000000EE "AAP_MACRO" "INV_MISC_QUESTIONMARK"
 #showtooltip
 /click ExtraActionButton1
+END
+VER 3 0000000000000155 "Cancel" "INV_MISC_QUESTIONMARK"
+/pull 0
+END
+VER 3 0000000000000157 "Clicky" "1033183"
+/focus [@mouseover]
 END
 VER 3 0000000000000001 "Deathnote" "134331"
 /deathnote
@@ -16,17 +22,8 @@ VER 3 00000000000000BE "Enchant" "135754"
 /script TradeSkillFrame.DetailsFrame:Create();
 /use Enchanting Vellum
 END
-VER 3 00000000000000D3 "LOOT " "INV_MISC_QUESTIONMARK"
-Keystone Level    End of Dungeon    Weekly Great Vault
-Mythic 2    187    200
-Mythic 3    190    203
-Mythic 4    194    207
-Mythic 5    194    210
-Mythic 6    197    210
-Mythic 7    200    213
-Mythic 8    200    216
-Mythic 9    200    216
-Mythic 10    207
+VER 3 0000000000000156 "LOOT" "135901"
+/rw If you got gear that you don't need, link it in a whisper to Corpselus.
 END
 VER 3 00000000000000F7 "NotThrall" "134131"
 Eskandar-Blackrock
@@ -34,6 +31,9 @@ Nickdonalds-Blackrock
 Ampersand-Blackrock
 Trao-Blackrock
 Piff-Mal'Ganis 
+END
+VER 3 0000000000000154 "P10" "132337"
+/pull 10
 END
 VER 3 0000000000000002 "RESET LOOT SPEC" "237513"
 your loot spec is blood fix it now 

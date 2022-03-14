@@ -1,6 +1,6 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0405,
+	["LastVersion"] = 2.0525,
 	["LastPlayerFullName"] = "Salocinn-Thrall",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
@@ -21,19 +21,19 @@ PawnOptions = {
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 157734,
-			["Level"] = 16,
-			["Link"] = "|cff1eff00|Hitem:157734::::::::10:1454:::::::|h[Felburner's Robe]|h|r",
+			["ID"] = 24397,
+			["Level"] = 29,
+			["Link"] = "|cff0070dd|Hitem:24397::::::::23:267::1:1:6710:2:28:1887:9:23:::::|h[Raiments of Divine Authority]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 157736,
-			["Level"] = 16,
-			["Link"] = "|cff1eff00|Hitem:157736::::::::10:1454:::::::|h[Felburner's Cord]|h|r",
+			["ID"] = 51971,
+			["Level"] = 29,
+			["Link"] = "|cff0070dd|Hitem:51971::::::::23:267::1:2:4244:1705:2:28:1694:9:23:::::|h[Enumerated Belt of the Aurora]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 35976,
-			["Level"] = 20,
-			["Link"] = "|cff1eff00|Hitem:35976::::::::18:265::1:2:6654:1692:2:28:1868:9:18:::|h[Mur'ghoul Leggings of the Fireflash]|h|r",
+			["ID"] = 25711,
+			["Level"] = 29,
+			["Link"] = "|cff0070dd|Hitem:25711::::::::23:267::11:1:6710:2:28:1887:9:23:::::|h[Deadly Borer Leggings]|h|r",
 		}, -- [7]
 		{
 			["ID"] = 42760,
@@ -51,10 +51,10 @@ PawnOptions = {
 			["Link"] = "|cff0070dd|Hitem:37172::::::::18:265::1:1:6710:2:28:1868:9:18:::|h[Gloves of Glistening Runes]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 51991,
-			["Level"] = 26,
+			["ID"] = 25713,
+			["Level"] = 29,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cff0070dd|Hitem:51991::::::::21:265::1:2:4244:1695:2:28:1694:9:21:::|h[Turbulent Signet of the Fireflash]|h|r",
+			["Link"] = "|cff0070dd|Hitem:25713::::::::23:267::11:1:6710:2:28:1887:9:23:::::|h[Holy Healing Band]|h|r",
 		}, -- [11]
 		{
 			["ID"] = 51991,

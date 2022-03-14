@@ -1,0 +1,8 @@
+
+DSHDB = {
+	["profileKeys"] = {
+		["Escargoth - Thrall"] = "Escargoth - Thrall",
+		["Gobage - Thrall"] = "Gobage - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
+	},
+}

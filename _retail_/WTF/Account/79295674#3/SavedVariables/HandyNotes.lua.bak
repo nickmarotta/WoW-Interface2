@@ -2,30 +2,36 @@
 HandyNotesDB = {
 	["profileKeys"] = {
 		["Escargoth - Thrall"] = "Escargoth - Thrall",
-		["Awaste - Thrall"] = "Awaste - Thrall",
+		["Gobage - Thrall"] = "Gobage - Thrall",
 		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
 	},
 	["profiles"] = {
 		["Escargoth - Thrall"] = {
 		},
-		["Awaste - Thrall"] = {
+		["Gobage - Thrall"] = {
 		},
 		["Eyowen - Thrall"] = {
+		},
+		["Awaste - Thrall"] = {
 		},
 	},
 }
 HandyNotes_HandyNotesDB = {
 	["profileKeys"] = {
 		["Escargoth - Thrall"] = "Escargoth - Thrall",
-		["Awaste - Thrall"] = "Awaste - Thrall",
+		["Gobage - Thrall"] = "Gobage - Thrall",
 		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
 	},
 	["profiles"] = {
 		["Escargoth - Thrall"] = {
 		},
-		["Awaste - Thrall"] = {
+		["Gobage - Thrall"] = {
 		},
 		["Eyowen - Thrall"] = {
+		},
+		["Awaste - Thrall"] = {
 		},
 	},
 }

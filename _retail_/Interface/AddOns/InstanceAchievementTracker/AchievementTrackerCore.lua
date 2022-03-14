@@ -612,10 +612,10 @@ function getInstanceInfomation()
 					instanceCompatible = true
 
 					--Set instance we want to debug
-					-- core.instanceNameSpaces = "Castle Nathria"
-					-- core.instanceName = "CastleNathria"
-					-- core.instance = 2296
-					-- core.instanceClear = "_2296"
+					-- core.instanceNameSpaces = "Sepulcher of the First Ones"
+					-- core.instanceName = "SepulcherOfTheFirstOnes"
+					-- core.instance = 2481
+					-- core.instanceClear = "_2481"
 					-- core.expansion = 2
 					-- core.instanceType = "Raids"
 				end
@@ -2466,7 +2466,9 @@ function events:COMBAT_LOG_EVENT_UNFILTERED(self, ...)
 
 		if string.match(core.sourceGUID, "Creature") or string.match(core.sourceGUID, "Vehicle") then
 			core.currentSource = "Creature"
-		elseif string.match(core.destGUID, "Creature") or string.match(core.destGUID, "Vehicle") then
+		end
+
+		if string.match(core.destGUID, "Creature") or string.match(core.destGUID, "Vehicle") then
 			core.currentDest = "Creature"
 		end
 	end
@@ -2479,7 +2481,9 @@ function events:COMBAT_LOG_EVENT_UNFILTERED(self, ...)
 
 		if string.match(core.sourceGUID, "Player") then
 			core.currentSource = "Player"
-		elseif string.match(core.destGUID, "Player") then
+		end
+
+		if string.match(core.destGUID, "Player") then
 			core.currentDest = "Player"
 		end
 	end
@@ -2489,7 +2493,7 @@ function events:COMBAT_LOG_EVENT_UNFILTERED(self, ...)
 		--Start tracking the particular boss if the user has not disabled tracking for that boss
 		for i = 1, #core.currentBosses do
 			if core.currentBosses[i].enabled == true then
-				if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players ~= L["GUI_NoPlayersNeedAchievement"]) then
+				if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players[1] ~= L["GUI_NoPlayersNeedAchievement"]) then
 					core.currentBosses[i].track()
 
 					--If boss has an info frame then display it
@@ -2503,7 +2507,7 @@ function events:COMBAT_LOG_EVENT_UNFILTERED(self, ...)
 					end
 				end
 			elseif core.currentBosses[i].enabled == false and core.currentBosses[i].track == nil then
-				if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players ~= L["GUI_NoPlayersNeedAchievement"]) then
+				if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players[1] ~= L["GUI_NoPlayersNeedAchievement"]) then
 					--We have detected a boss fight but have no tracking for it. Lets automatically detect blizzard tracking and if something is found ask the user to report to author
 					core:detectBlizzardTrackingAutomatically()
 				end
@@ -2558,11 +2562,11 @@ function events:COMBAT_LOG_EVENT_UNFILTERED(self, ...)
 			--Start tracking the particular boss if the user has not disabled tracking for that boss
 			for i = 1, #core.currentBosses do
 				if core.currentBosses[i].enabled == true then
-					if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players ~= L["GUI_NoPlayersNeedAchievement"]) then
+					if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players[1] ~= L["GUI_NoPlayersNeedAchievement"]) then
 						core.currentBosses[i].track()
 					end
 				elseif core.currentBosses[i].enabled == false and core.currentBosses[i].track == nil then
-					if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players ~= L["GUI_NoPlayersNeedAchievement"]) then
+					if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players[1] ~= L["GUI_NoPlayersNeedAchievement"]) then
 						--We have detected a boss fight but have no tracking for it. Lets automatically detect blizzard tracking and if something is found ask the user to report to author
 						core:detectBlizzardTrackingAutomatically()
 					end
@@ -2811,12 +2815,11 @@ function core:getAchievementToTrack()
 				if core.currentBosses[i].partial == false and core.currentBosses[i].enabled == true then
 					--core.currentBosses[i].players = L["No players in the group need this achievement"] --DEBUG ONLY
 
-					if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players ~= L["GUI_NoPlayersNeedAchievement"]) then
+					if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players[1] ~= L["GUI_NoPlayersNeedAchievement"]) then
 						printMessage(L["GUI_Tracking"] .. ": " .. GetAchievementLink(core.currentBosses[i].achievement))
 					else
 						--User has decided to supress achievement so will get a lower rank in the addon syncing
 						core:sendDebugMessage("User supressing addon tracking")
-						core:sendDebugMessage(core.currentBosses[i].players)
 						core.trackingSupressed = true
 					end
 
@@ -2825,7 +2828,7 @@ function core:getAchievementToTrack()
 
 					--Announce to chat if enabled
 					if core.announceTrackedAchievementsToChat == true then
-						if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players ~= L["GUI_NoPlayersNeedAchievement"]) then
+						if core.onlyTrackMissingAchievements == false or (core.onlyTrackMissingAchievements == true and core.currentBosses[i].players[1] ~= L["GUI_NoPlayersNeedAchievement"]) then
 							core:sendMessage(L["GUI_Tracking"] .. ": "  .. GetAchievementLink(core.currentBosses[i].achievement))
 						end
 					end

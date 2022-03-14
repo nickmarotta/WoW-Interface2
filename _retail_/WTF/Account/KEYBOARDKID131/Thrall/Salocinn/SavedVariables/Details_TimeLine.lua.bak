@@ -3,26 +3,26 @@ DetailsTimeLineDB = {
 	["max_segments"] = 4,
 	["combat_data"] = {
 		{
-			["date_end"] = "21:05:17",
 			["date_start"] = "21:04:08",
+			["date_end"] = "21:05:17",
 			["name"] = "Nexus-Prince Shaffar",
 			["total_time"] = 71.8119999999999,
 		}, -- [1]
 		{
-			["date_end"] = "20:58:53",
 			["date_start"] = "20:58:20",
+			["date_end"] = "20:58:53",
 			["name"] = "Nexus-Prince Shaffar",
 			["total_time"] = 33,
 		}, -- [2]
 		{
-			["date_end"] = "20:52:54",
 			["date_start"] = "20:52:11",
+			["date_end"] = "20:52:54",
 			["name"] = "Tavarok",
 			["total_time"] = 45.14999999999964,
 		}, -- [3]
 		{
-			["date_end"] = "20:47:32",
 			["date_start"] = "20:46:33",
+			["date_end"] = "20:47:32",
 			["name"] = "Pandemonius",
 			["total_time"] = 61.51600000000144,
 		}, -- [4]
@@ -30,13 +30,56 @@ DetailsTimeLineDB = {
 	["hide_on_combat"] = false,
 	["IndividualSpells"] = {
 		{
-			[127801] = {
+			[32363] = {
 				{
-					71.8119999999999, -- [1]
-					"Unknown", -- [2]
-					127801, -- [3]
+					5.851000000000568, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
 				}, -- [1]
+				{
+					27.70100000000093, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [2]
+				{
+					31.31700000000092, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [3]
+				{
+					37.35000000000036, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [4]
+				{
+					47.06700000000092, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [5]
+				{
+					55.53399999999965, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [6]
+				{
+					60.39999999999964, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32363, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [7]
 			},
 			[32369] = {
 				{
@@ -261,6 +304,28 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
+			[127801] = {
+				{
+					71.8119999999999, -- [1]
+					"Unknown", -- [2]
+					127801, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[34605] = {
+				{
+					24.2510000000002, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					34605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					53.31700000000092, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					34605, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
 			[15254] = {
 				{
 					1.016999999999825, -- [1]
@@ -310,71 +375,6 @@ DetailsTimeLineDB = {
 					15254, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Mátchez", -- [5]
-				}, -- [7]
-			},
-			[34605] = {
-				{
-					24.2510000000002, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					34605, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					53.31700000000092, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					34605, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[32363] = {
-				{
-					5.851000000000568, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [1]
-				{
-					27.70100000000093, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [2]
-				{
-					31.31700000000092, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [3]
-				{
-					37.35000000000036, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [4]
-				{
-					47.06700000000092, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [5]
-				{
-					55.53399999999965, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [6]
-				{
-					60.39999999999964, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32363, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
 				}, -- [7]
 			},
 		}, -- [1]
@@ -573,19 +573,42 @@ DetailsTimeLineDB = {
 					"Odon-Galakrond", -- [5]
 				}, -- [6]
 			},
-			[32316] = {
+			[32364] = {
 				{
-					19.79999999999927, -- [1]
-					"Ethereal Spellbinder", -- [2]
-					32316, -- [3]
+					7.066999999999098, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32364, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
 				}, -- [1]
 				{
-					19.79999999999927, -- [1]
-					"Ethereal Spellbinder", -- [2]
-					32316, -- [3]
+					10.69999999999891, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32364, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
 				}, -- [2]
+				{
+					19.58299999999872, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32364, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [3]
+				{
+					24.04999999999927, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32364, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Rawknrl-Zul'jin", -- [5]
+				}, -- [4]
+				{
+					28.91599999999926, -- [1]
+					"Nexus-Prince Shaffar", -- [2]
+					32364, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Salocinn", -- [5]
+				}, -- [5]
 			},
 			[15254] = {
 				{
@@ -666,31 +689,42 @@ DetailsTimeLineDB = {
 					"Odon-Galakrond", -- [5]
 				}, -- [11]
 			},
-			[34933] = {
+			[32370] = {
 				{
-					19.16599999999926, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
+					17.56599999999889, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Void Tendril", -- [5]
 				}, -- [1]
 				{
-					21.69999999999891, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
+					25.23299999999836, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Mátchez", -- [5]
 				}, -- [2]
 				{
-					22.19999999999891, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
+					25.23299999999836, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Mátchez", -- [5]
 				}, -- [3]
 				{
-					30.89999999999964, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
+					25.23299999999836, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Mátchez", -- [5]
 				}, -- [4]
+				{
+					32.53299999999945, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Odon-Galakrond", -- [5]
+				}, -- [5]
 			},
 			[13323] = {
 				{
@@ -722,42 +756,19 @@ DetailsTimeLineDB = {
 					"Odon-Galakrond", -- [5]
 				}, -- [4]
 			},
-			[15785] = {
+			[32316] = {
 				{
-					14.53299999999945, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
+					19.79999999999927, -- [1]
+					"Ethereal Spellbinder", -- [2]
+					32316, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
 				}, -- [1]
 				{
-					18.18299999999908, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
+					19.79999999999927, -- [1]
+					"Ethereal Spellbinder", -- [2]
+					32316, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Salocinn", -- [5]
 				}, -- [2]
-				{
-					18.18299999999908, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Salocinn", -- [5]
-				}, -- [3]
-				{
-					19.38299999999981, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Odon-Galakrond", -- [5]
-				}, -- [4]
-				{
-					20.58299999999872, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Odon-Galakrond", -- [5]
-				}, -- [5]
 			},
 			[32365] = {
 				{
@@ -804,6 +815,32 @@ DetailsTimeLineDB = {
 					"Sandrene", -- [5]
 				}, -- [5]
 			},
+			[34933] = {
+				{
+					19.16599999999926, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					21.69999999999891, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					22.19999999999891, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					30.89999999999964, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
 			[17883] = {
 				{
 					8.08299999999872, -- [1]
@@ -827,78 +864,41 @@ DetailsTimeLineDB = {
 					"Sandrene", -- [5]
 				}, -- [3]
 			},
-			[32370] = {
+			[15785] = {
 				{
-					17.56599999999889, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
+					14.53299999999945, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Tendril", -- [5]
+					"Mátchez", -- [5]
 				}, -- [1]
 				{
-					25.23299999999836, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
-				}, -- [2]
-				{
-					25.23299999999836, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
-				}, -- [3]
-				{
-					25.23299999999836, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
-				}, -- [4]
-				{
-					32.53299999999945, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Odon-Galakrond", -- [5]
-				}, -- [5]
-			},
-			[32364] = {
-				{
-					7.066999999999098, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [1]
-				{
-					10.69999999999891, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [2]
-				{
-					19.58299999999872, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [3]
-				{
-					24.04999999999927, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32364, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [4]
-				{
-					28.91599999999926, -- [1]
-					"Nexus-Prince Shaffar", -- [2]
-					32364, -- [3]
+					18.18299999999908, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Salocinn", -- [5]
+				}, -- [2]
+				{
+					18.18299999999908, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Salocinn", -- [5]
+				}, -- [3]
+				{
+					19.38299999999981, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Odon-Galakrond", -- [5]
+				}, -- [4]
+				{
+					20.58299999999872, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Odon-Galakrond", -- [5]
 				}, -- [5]
 			},
 		}, -- [2]
@@ -1027,17 +1027,17 @@ DetailsTimeLineDB = {
 					"Rawknrl-Zul'jin", -- [5]
 				}, -- [1]
 			},
-			[32358] = {
+			[31403] = {
 				{
-					15.94999999999891, -- [1]
-					"Pandemonius", -- [2]
-					32358, -- [3]
+					8.851000000000568, -- [1]
+					"Ethereal Crypt Raider", -- [2]
+					31403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					46.33399999999892, -- [1]
-					"Pandemonius", -- [2]
-					32358, -- [3]
+					10.0669999999991, -- [1]
+					"Ethereal Crypt Raider", -- [2]
+					31403, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
@@ -1113,17 +1113,17 @@ DetailsTimeLineDB = {
 					"Dagkin", -- [5]
 				}, -- [10]
 			},
-			[31403] = {
+			[32358] = {
 				{
-					8.851000000000568, -- [1]
-					"Ethereal Crypt Raider", -- [2]
-					31403, -- [3]
+					15.94999999999891, -- [1]
+					"Pandemonius", -- [2]
+					32358, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 				{
-					10.0669999999991, -- [1]
-					"Ethereal Crypt Raider", -- [2]
-					31403, -- [3]
+					46.33399999999892, -- [1]
+					"Pandemonius", -- [2]
+					32358, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
@@ -1517,6 +1517,40 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
+			[47699] = {
+				{
+					9.015999999828637, -- [1]
+					"Crystalline Keeper", -- [2]
+					47699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					57.58299999963492, -- [1]
+					"Crystalline Keeper", -- [2]
+					47699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					58.36599999992177, -- [1]
+					"Crystalline Keeper", -- [2]
+					47699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					61.99899999983609, -- [1]
+					"Crystalline Keeper", -- [2]
+					47699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[48017] = {
+				{
+					43.4159999997355, -- [1]
+					"Ormorok the Tree-Shaper", -- [2]
+					48017, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 			[48016] = {
 				{
 					10.63299999991432, -- [1]
@@ -1554,40 +1588,6 @@ DetailsTimeLineDB = {
 					48016, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
-			},
-			[48017] = {
-				{
-					43.4159999997355, -- [1]
-					"Ormorok the Tree-Shaper", -- [2]
-					48017, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[47699] = {
-				{
-					9.015999999828637, -- [1]
-					"Crystalline Keeper", -- [2]
-					47699, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					57.58299999963492, -- [1]
-					"Crystalline Keeper", -- [2]
-					47699, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					58.36599999992177, -- [1]
-					"Crystalline Keeper", -- [2]
-					47699, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					61.99899999983609, -- [1]
-					"Crystalline Keeper", -- [2]
-					47699, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
 			},
 		}, -- [7]
 		{
@@ -1929,11 +1929,11 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [9]
 			},
-			[47748] = {
+			[47699] = {
 				{
-					25.09999999962747, -- [1]
-					"Anomalus", -- [2]
-					47748, -- [3]
+					61.93299999972805, -- [1]
+					"Crystalline Keeper", -- [2]
+					47699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -1995,11 +1995,11 @@ DetailsTimeLineDB = {
 					"Wild Imp", -- [5]
 				}, -- [6]
 			},
-			[47699] = {
+			[47748] = {
 				{
-					61.93299999972805, -- [1]
-					"Crystalline Keeper", -- [2]
-					47699, -- [3]
+					25.09999999962747, -- [1]
+					"Anomalus", -- [2]
+					47748, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [1]
 			},
@@ -2916,31 +2916,6 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [8]
 			},
-			[47748] = {
-				{
-					29.11599999992177, -- [1]
-					"Anomalus", -- [2]
-					47748, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[47743] = {
-				{
-					27.88299999991432, -- [1]
-					"Anomalus", -- [2]
-					47743, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[47751] = {
-				{
-					15.73300000000745, -- [1]
-					"Anomalus", -- [2]
-					47751, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Tittiana", -- [5]
-				}, -- [1]
-			},
 			[47699] = {
 				{
 					30.73300000000745, -- [1]
@@ -2978,6 +2953,31 @@ DetailsTimeLineDB = {
 					47699, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [6]
+			},
+			[47743] = {
+				{
+					27.88299999991432, -- [1]
+					"Anomalus", -- [2]
+					47743, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[47751] = {
+				{
+					15.73300000000745, -- [1]
+					"Anomalus", -- [2]
+					47751, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tittiana", -- [5]
+				}, -- [1]
+			},
+			[47748] = {
+				{
+					29.11599999992177, -- [1]
+					"Anomalus", -- [2]
+					47748, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 		}, -- [9]
 		{
@@ -3096,219 +3096,6 @@ DetailsTimeLineDB = {
 					47731, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
-			},
-			[47699] = {
-				{
-					84.73300000000745, -- [1]
-					"Crystalline Keeper", -- [2]
-					47699, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[15284] = {
-				{
-					84.73300000000745, -- [1]
-					"Azure Enforcer", -- [2]
-					15284, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [1]
-				{
-					84.73300000000745, -- [1]
-					"Azure Enforcer", -- [2]
-					15284, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [2]
-			},
-			[47736] = {
-				{
-					37.86700000008568, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47736, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					52.41700000036508, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47736, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-			},
-			[56969] = {
-				{
-					59.86700000008568, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [1]
-				{
-					74.43300000019372, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [2]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [3]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [4]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [5]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [6]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [7]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [8]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [9]
-				{
-					84.73300000000745, -- [1]
-					"Azure Scale-Binder", -- [2]
-					56969, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [10]
-			},
-			[47772] = {
-				{
-					73.53300000028685, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47772, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[47727] = {
-				{
-					33.93400000035763, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47727, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[58460] = {
-				{
-					84.73300000000745, -- [1]
-					"Azure Enforcer", -- [2]
-					58460, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [1]
-				{
-					84.73300000000745, -- [1]
-					"Azure Enforcer", -- [2]
-					58460, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Crazed Mana-Wraith", -- [5]
-				}, -- [2]
-			},
-			[47773] = {
-				{
-					1.516999999992549, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					3.850000000093132, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					6.317000000271946, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					8.717000000178814, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-				{
-					11.16700000036508, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [5]
-				{
-					19.66700000036508, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [6]
-				{
-					70.61700000008568, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [7]
-				{
-					79.06700000027195, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [8]
-				{
-					81.5, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [9]
-				{
-					83.95000000018626, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47773, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [10]
-			},
-			[47721] = {
-				{
-					35.13299999991432, -- [1]
-					"Grand Magus Telestra", -- [2]
-					47721, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Tittiana", -- [5]
-				}, -- [1]
 			},
 			[33833] = {
 				{
@@ -3900,6 +3687,219 @@ DetailsTimeLineDB = {
 					"Azure Enforcer", -- [5]
 				}, -- [84]
 			},
+			[15284] = {
+				{
+					84.73300000000745, -- [1]
+					"Azure Enforcer", -- [2]
+					15284, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [1]
+				{
+					84.73300000000745, -- [1]
+					"Azure Enforcer", -- [2]
+					15284, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [2]
+			},
+			[47721] = {
+				{
+					35.13299999991432, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47721, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Tittiana", -- [5]
+				}, -- [1]
+			},
+			[56969] = {
+				{
+					59.86700000008568, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [1]
+				{
+					74.43300000019372, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [2]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [3]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [4]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [5]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [6]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [7]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [8]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [9]
+				{
+					84.73300000000745, -- [1]
+					"Azure Scale-Binder", -- [2]
+					56969, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [10]
+			},
+			[47727] = {
+				{
+					33.93400000035763, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47727, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[47772] = {
+				{
+					73.53300000028685, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47772, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[58460] = {
+				{
+					84.73300000000745, -- [1]
+					"Azure Enforcer", -- [2]
+					58460, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [1]
+				{
+					84.73300000000745, -- [1]
+					"Azure Enforcer", -- [2]
+					58460, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Crazed Mana-Wraith", -- [5]
+				}, -- [2]
+			},
+			[47773] = {
+				{
+					1.516999999992549, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					3.850000000093132, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					6.317000000271946, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					8.717000000178814, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+				{
+					11.16700000036508, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [5]
+				{
+					19.66700000036508, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [6]
+				{
+					70.61700000008568, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [7]
+				{
+					79.06700000027195, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [8]
+				{
+					81.5, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [9]
+				{
+					83.95000000018626, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47773, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [10]
+			},
+			[47736] = {
+				{
+					37.86700000008568, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47736, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					52.41700000036508, -- [1]
+					"Grand Magus Telestra", -- [2]
+					47736, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+			},
+			[47699] = {
+				{
+					84.73300000000745, -- [1]
+					"Crystalline Keeper", -- [2]
+					47699, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
 		}, -- [10]
 		{
 			[47699] = {
@@ -4232,6 +4232,71 @@ DetailsTimeLineDB = {
 					"Znappy-Area52", -- [5]
 				}, -- [3]
 			},
+			[42669] = {
+				{
+					13.38299999991432, -- [1]
+					"Ingvar the Plunderer", -- [2]
+					42669, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[42708] = {
+				{
+					18.43399999989197, -- [1]
+					"Ingvar the Plunderer", -- [2]
+					42708, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+			},
+			[166420] = {
+				{
+					77.21100000012666, -- [1]
+					"Blackrock Deadeye", -- [2]
+					166420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
+				{
+					77.21100000012666, -- [1]
+					"Blackrock Deadeye", -- [2]
+					166420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [2]
+				{
+					77.21100000012666, -- [1]
+					"Blackrock Deadeye", -- [2]
+					166420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [3]
+				{
+					77.21100000012666, -- [1]
+					"Blackrock Deadeye", -- [2]
+					166420, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [4]
+			},
+			[173502] = {
+				{
+					77.21100000012666, -- [1]
+					"Gun Turret", -- [2]
+					173502, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gomgarn-Zul'jin", -- [5]
+				}, -- [1]
+				{
+					77.21100000012666, -- [1]
+					"Gun Turret", -- [2]
+					173502, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Gomgarn-Zul'jin", -- [5]
+				}, -- [2]
+				{
+					77.21100000012666, -- [1]
+					"Gun Turret", -- [2]
+					173502, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Serani-Blackhand", -- [5]
+				}, -- [3]
+			},
 			[166032] = {
 				{
 					77.21100000012666, -- [1]
@@ -4263,71 +4328,6 @@ DetailsTimeLineDB = {
 					166032, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [5]
-			},
-			[173502] = {
-				{
-					77.21100000012666, -- [1]
-					"Gun Turret", -- [2]
-					173502, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gomgarn-Zul'jin", -- [5]
-				}, -- [1]
-				{
-					77.21100000012666, -- [1]
-					"Gun Turret", -- [2]
-					173502, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Gomgarn-Zul'jin", -- [5]
-				}, -- [2]
-				{
-					77.21100000012666, -- [1]
-					"Gun Turret", -- [2]
-					173502, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Serani-Blackhand", -- [5]
-				}, -- [3]
-			},
-			[166420] = {
-				{
-					77.21100000012666, -- [1]
-					"Blackrock Deadeye", -- [2]
-					166420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-				{
-					77.21100000012666, -- [1]
-					"Blackrock Deadeye", -- [2]
-					166420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [2]
-				{
-					77.21100000012666, -- [1]
-					"Blackrock Deadeye", -- [2]
-					166420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [3]
-				{
-					77.21100000012666, -- [1]
-					"Blackrock Deadeye", -- [2]
-					166420, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [4]
-			},
-			[42708] = {
-				{
-					18.43399999989197, -- [1]
-					"Ingvar the Plunderer", -- [2]
-					42708, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
-			},
-			[42669] = {
-				{
-					13.38299999991432, -- [1]
-					"Ingvar the Plunderer", -- [2]
-					42669, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [1]
 			},
 		}, -- [11]
 		{
@@ -4554,29 +4554,11 @@ DetailsTimeLineDB = {
 		}, -- [13]
 	},
 	["useicons"] = true,
-	["cooldowns_timeline"] = {
-		{
-			["Odon-Galakrond"] = {
-				{
-					41.89999999999964, -- [1]
-					"Odon-Galakrond", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
-		}, -- [1]
-		{
-		}, -- [2]
-		{
-			["Salocinn"] = {
-				{
-					14.83300000000054, -- [1]
-					"Salocinn", -- [2]
-					104773, -- [3]
-				}, -- [1]
-			},
-		}, -- [3]
-		{
-		}, -- [4]
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
 	},
 	["window_scale"] = 1,
 	["deaths_data"] = {
@@ -4669,49 +4651,6 @@ DetailsTimeLineDB = {
 					},
 				}, -- [1]
 			},
-			["Odon-Galakrond"] = {
-				{
-					["time"] = 32.76599999999962,
-					["events"] = {
-						{
-							true, -- [1]
-							34933, -- [2]
-							116, -- [3]
-							1605232730.392, -- [4]
-							173, -- [5]
-							"Mana Leech", -- [6]
-							nil, -- [7]
-							64, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [1]
-						{
-							true, -- [1]
-							1, -- [2]
-							116, -- [3]
-							1605232730.592, -- [4]
-							173, -- [5]
-							"Ethereal Theurgist", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							-1, -- [10]
-						}, -- [2]
-						{
-							true, -- [1]
-							1, -- [2]
-							136, -- [3]
-							1605232732.209, -- [4]
-							24, -- [5]
-							"Ethereal Theurgist", -- [6]
-							nil, -- [7]
-							1, -- [8]
-							false, -- [9]
-							117, -- [10]
-						}, -- [3]
-					},
-				}, -- [1]
-			},
 			["Mátchez"] = {
 				{
 					["time"] = 25.86699999999837,
@@ -4751,6 +4690,49 @@ DetailsTimeLineDB = {
 							16, -- [8]
 							false, -- [9]
 							44, -- [10]
+						}, -- [3]
+					},
+				}, -- [1]
+			},
+			["Odon-Galakrond"] = {
+				{
+					["time"] = 32.76599999999962,
+					["events"] = {
+						{
+							true, -- [1]
+							34933, -- [2]
+							116, -- [3]
+							1605232730.392, -- [4]
+							173, -- [5]
+							"Mana Leech", -- [6]
+							nil, -- [7]
+							64, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [1]
+						{
+							true, -- [1]
+							1, -- [2]
+							116, -- [3]
+							1605232730.592, -- [4]
+							173, -- [5]
+							"Ethereal Theurgist", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							-1, -- [10]
+						}, -- [2]
+						{
+							true, -- [1]
+							1, -- [2]
+							136, -- [3]
+							1605232732.209, -- [4]
+							24, -- [5]
+							"Ethereal Theurgist", -- [6]
+							nil, -- [7]
+							1, -- [8]
+							false, -- [9]
+							117, -- [10]
 						}, -- [3]
 					},
 				}, -- [1]
@@ -4806,7 +4788,7 @@ DetailsTimeLineDB = {
 	},
 	["debuff_timeline"] = {
 		{
-			["Yarastrasza"] = {
+			["Warriorken"] = {
 				[323727] = {
 					71.8119999999999, -- [1]
 					71.8119999999999, -- [2]
@@ -4836,6 +4818,16 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
+			["Mátchez"] = {
+				[32365] = {
+					21.83400000000074, -- [1]
+					26.85000000000036, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Nexus-Prince Shaffar",
+					["active"] = false,
+				},
+			},
 			["Rambeau"] = {
 				[34914] = {
 					71.8119999999999, -- [1]
@@ -4851,16 +4843,6 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "Thrixx-AlteracMountains",
-					["active"] = false,
-				},
-			},
-			["Warriorken"] = {
-				[323727] = {
-					71.8119999999999, -- [1]
-					71.8119999999999, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Zealous Neophyte",
 					["active"] = false,
 				},
 			},
@@ -4930,13 +4912,13 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Mátchez"] = {
-				[32365] = {
-					21.83400000000074, -- [1]
-					26.85000000000036, -- [2]
+			["Yarastrasza"] = {
+				[323727] = {
+					71.8119999999999, -- [1]
+					71.8119999999999, -- [2]
 					["stacks"] = {
 					},
-					["source"] = "Nexus-Prince Shaffar",
+					["source"] = "Zealous Neophyte",
 					["active"] = false,
 				},
 			},
@@ -4967,12 +4949,28 @@ DetailsTimeLineDB = {
 		}, -- [1]
 		{
 			["Sandrene"] = {
+				[25602] = {
+					18.18299999999908, -- [1]
+					31.33299999999872, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Mana Leech",
+					["active"] = false,
+				},
 				[17883] = {
 					25.44999999999891, -- [1]
 					31.33299999999872, -- [2]
 					["stacks"] = {
 					},
 					["source"] = "Ethereal Spellbinder",
+					["active"] = false,
+				},
+				[32365] = {
+					16.18299999999908, -- [1]
+					20.41599999999926, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Nexus-Prince Shaffar",
 					["active"] = false,
 				},
 				[17145] = {
@@ -4987,22 +4985,6 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "Ethereal Theurgist",
-					["active"] = false,
-				},
-				[32365] = {
-					16.18299999999908, -- [1]
-					20.41599999999926, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Nexus-Prince Shaffar",
-					["active"] = false,
-				},
-				[25602] = {
-					18.18299999999908, -- [1]
-					31.33299999999872, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Mana Leech",
 					["active"] = false,
 				},
 			},
@@ -5058,24 +5040,6 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Odon-Galakrond"] = {
-				[13323] = {
-					27.88299999999981, -- [1]
-					27.91599999999926, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Ethereal Theurgist",
-					["active"] = false,
-				},
-				[17145] = {
-					27.91599999999926, -- [1]
-					32.73299999999836, -- [2]
-					["stacks"] = {
-					},
-					["source"] = "Ethereal Theurgist",
-					["active"] = false,
-				},
-			},
 			["Mátchez"] = {
 				[17883] = {
 					8.08299999999872, -- [1]
@@ -5091,6 +5055,24 @@ DetailsTimeLineDB = {
 					["stacks"] = {
 					},
 					["source"] = "Ethereal Apprentice",
+					["active"] = false,
+				},
+			},
+			["Odon-Galakrond"] = {
+				[13323] = {
+					27.88299999999981, -- [1]
+					27.91599999999926, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Ethereal Theurgist",
+					["active"] = false,
+				},
+				[17145] = {
+					27.91599999999926, -- [1]
+					32.73299999999836, -- [2]
+					["stacks"] = {
+					},
+					["source"] = "Ethereal Theurgist",
 					["active"] = false,
 				},
 			},
@@ -5138,7 +5120,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Mátchez"] = {
+			["Odon-Galakrond"] = {
 				[33919] = {
 					13.61599999999999, -- [1]
 					16.61599999999999, -- [2]
@@ -5150,7 +5132,7 @@ DetailsTimeLineDB = {
 					["active"] = false,
 				},
 			},
-			["Odon-Galakrond"] = {
+			["Mátchez"] = {
 				[33919] = {
 					13.61599999999999, -- [1]
 					16.61599999999999, -- [2]
@@ -5226,11 +5208,29 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
+	["cooldowns_timeline"] = {
+		{
+			["Odon-Galakrond"] = {
+				{
+					41.89999999999964, -- [1]
+					"Odon-Galakrond", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+		}, -- [1]
+		{
+		}, -- [2]
+		{
+			["Salocinn"] = {
+				{
+					14.83300000000054, -- [1]
+					"Salocinn", -- [2]
+					104773, -- [3]
+				}, -- [1]
+			},
+		}, -- [3]
+		{
+		}, -- [4]
 	},
 	["BossSpellCast"] = {
 		{
@@ -5746,77 +5746,94 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [2]
 			},
-			["Ethereal Apprentice"] = {
+			["Mana Leech"] = {
 				{
-					17.56599999999889, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
+					14.53299999999945, -- [1]
+					"Mana Leech", -- [2]
+					25602, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Tendril", -- [5]
+					"Rawknrl-Zul'jin", -- [5]
 				}, -- [1]
 				{
-					19.16599999999926, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32369, -- [3]
+					14.53299999999945, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Tendril", -- [5]
+					"Mátchez", -- [5]
 				}, -- [2]
 				{
-					21.58299999999872, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32369, -- [3]
+					15.73299999999836, -- [1]
+					"Mana Leech", -- [2]
+					25602, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Sandrene", -- [5]
+					"Rawknrl-Zul'jin", -- [5]
 				}, -- [3]
 				{
-					21.61599999999999, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32369, -- [3]
+					18.18299999999908, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Void Tendril", -- [5]
+					"Salocinn", -- [5]
 				}, -- [4]
 				{
-					25.23299999999836, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
+					18.18299999999908, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
+					"Salocinn", -- [5]
 				}, -- [5]
 				{
-					25.23299999999836, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
+					18.18299999999908, -- [1]
+					"Mana Leech", -- [2]
+					25602, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
+					"Sandrene", -- [5]
 				}, -- [6]
 				{
-					25.23299999999836, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
+					19.16599999999926, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
 				}, -- [7]
 				{
-					28.89999999999964, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32369, -- [3]
+					19.38299999999981, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Sandrene", -- [5]
+					"Odon-Galakrond", -- [5]
 				}, -- [8]
 				{
-					30.91599999999926, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32369, -- [3]
+					20.58299999999872, -- [1]
+					"Mana Leech", -- [2]
+					25602, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Sandrene", -- [5]
+					"Garkol", -- [5]
 				}, -- [9]
 				{
-					32.53299999999945, -- [1]
-					"Ethereal Apprentice", -- [2]
-					32370, -- [3]
+					20.58299999999872, -- [1]
+					"Mana Leech", -- [2]
+					15785, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Odon-Galakrond", -- [5]
 				}, -- [10]
+				{
+					21.69999999999891, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [11]
+				{
+					22.19999999999891, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [12]
+				{
+					30.89999999999964, -- [1]
+					"Mana Leech", -- [2]
+					34933, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [13]
 			},
 			["Ethereal Theurgist"] = {
 				{
@@ -5920,94 +5937,77 @@ DetailsTimeLineDB = {
 					"Odon-Galakrond", -- [5]
 				}, -- [15]
 			},
-			["Mana Leech"] = {
+			["Ethereal Apprentice"] = {
 				{
-					14.53299999999945, -- [1]
-					"Mana Leech", -- [2]
-					25602, -- [3]
+					17.56599999999889, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
+					"Void Tendril", -- [5]
 				}, -- [1]
 				{
-					14.53299999999945, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
+					19.16599999999926, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32369, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Mátchez", -- [5]
+					"Void Tendril", -- [5]
 				}, -- [2]
 				{
-					15.73299999999836, -- [1]
-					"Mana Leech", -- [2]
-					25602, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Rawknrl-Zul'jin", -- [5]
-				}, -- [3]
-				{
-					18.18299999999908, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Salocinn", -- [5]
-				}, -- [4]
-				{
-					18.18299999999908, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Salocinn", -- [5]
-				}, -- [5]
-				{
-					18.18299999999908, -- [1]
-					"Mana Leech", -- [2]
-					25602, -- [3]
+					21.58299999999872, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32369, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Sandrene", -- [5]
+				}, -- [3]
+				{
+					21.61599999999999, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32369, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Void Tendril", -- [5]
+				}, -- [4]
+				{
+					25.23299999999836, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mátchez", -- [5]
+				}, -- [5]
+				{
+					25.23299999999836, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Mátchez", -- [5]
 				}, -- [6]
 				{
-					19.16599999999926, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
+					25.23299999999836, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Mátchez", -- [5]
 				}, -- [7]
 				{
-					19.38299999999981, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
+					28.89999999999964, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32369, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Odon-Galakrond", -- [5]
+					"Sandrene", -- [5]
 				}, -- [8]
 				{
-					20.58299999999872, -- [1]
-					"Mana Leech", -- [2]
-					25602, -- [3]
+					30.91599999999926, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32369, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
-					"Garkol", -- [5]
+					"Sandrene", -- [5]
 				}, -- [9]
 				{
-					20.58299999999872, -- [1]
-					"Mana Leech", -- [2]
-					15785, -- [3]
+					32.53299999999945, -- [1]
+					"Ethereal Apprentice", -- [2]
+					32370, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 					"Odon-Galakrond", -- [5]
 				}, -- [10]
-				{
-					21.69999999999891, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [11]
-				{
-					22.19999999999891, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [12]
-				{
-					30.89999999999964, -- [1]
-					"Mana Leech", -- [2]
-					34933, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-				}, -- [13]
 			},
 			["Ethereal Spellbinder"] = {
 				{

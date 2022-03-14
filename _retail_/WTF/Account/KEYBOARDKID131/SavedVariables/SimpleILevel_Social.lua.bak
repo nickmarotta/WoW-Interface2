@@ -1,11 +1,13 @@
 
 SIL_Social = {
 	["profileKeys"] = {
+		["Zynzo - Thrall"] = "Default",
+		["Melleressra - Thrall"] = "Default",
 		["Attorum - Thrall"] = "Default",
+		["Salocinn - Thrall"] = "Default",
 		["Mafiki - Thrall"] = "Default",
-		["Ronami - Thrall"] = "Default",
 		["Corpselus - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
-		["Zynzo - Thrall"] = "Default",
+		["Ronami - Thrall"] = "Default",
 	},
 }

@@ -28,6 +28,8 @@ L["colorByTime_desc"] = "Farbe wird bestimmt anhand der verbleibenden Zeit"
 L["colorByTime_high_desc"] = "Die Zeit (in Sekunden) für die obere Grenze"
 L["colorByTime_low_desc"] = "Die Zeit (in Sekunden) für die untere Grenze"
 L["colorOverride_desc"] = "Dies überschreibt die normale Färbung"
+--[[Translation missing --]]
+--[[ L["combatWildcard_desc"] = ""--]] 
 L["Countdown"] = "Countdown"
 L["Curse"] = "Fluch"
 L["curseWildcard_desc"] = "Irgendein Fluch Debuff"

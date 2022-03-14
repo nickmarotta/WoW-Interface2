@@ -17,8 +17,10 @@ TomTomDB = {
 		["Oturran - Thrall"] = "Default",
 		["Ronami - Thrall"] = "Default",
 		["Zarathia - Thrall"] = "Default",
+		["Melleressra - Thrall"] = "Default",
 		["Corpsel - Alexstrasza"] = "Default",
 		["Velosara - Thrall"] = "Default",
+		["Salocinn - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -63,8 +65,10 @@ TomTomWaypointsM = {
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
 		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -99,9 +103,13 @@ TomTomWaypointsM = {
 		},
 		["Zarathia - Thrall"] = {
 		},
+		["Melleressra - Thrall"] = {
+		},
 		["Corpsel - Alexstrasza"] = {
 		},
 		["Velosara - Thrall"] = {
+		},
+		["Salocinn - Thrall"] = {
 		},
 	},
 }

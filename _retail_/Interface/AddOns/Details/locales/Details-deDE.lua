@@ -69,7 +69,7 @@ L["STRING_BOTTOM"] = "unten"
 L["STRING_BOTTOM_TO_TOP"] = "Unten nach Oben"
 L["STRING_CAST"] = "Wirkungen"
 L["STRING_CAUGHT"] = "gefangen"
-L["STRING_CCBROKE"] = "Entfernte Massenkontrolle"
+L["STRING_CCBROKE"] = "Entfernte CCs"
 L["STRING_CENTER"] = "Mitte"
 L["STRING_CENTER_UPPER"] = "Mitte"
 L["STRING_CHANGED_TO_CURRENT"] = "Segement gewechselt: |cFFFFFF00Aktuell|r"
@@ -103,8 +103,8 @@ L["STRING_CUSTOM_ATTRIBUTE_SCRIPT"] = "Benutzerdefiniertes Skript"
 L["STRING_CUSTOM_AUTHOR"] = "Autor:"
 L["STRING_CUSTOM_AUTHOR_DESC"] = "Wer hat diese Anzeige erstellt?"
 L["STRING_CUSTOM_CANCEL"] = "Abbrechen"
-L["STRING_CUSTOM_CC_DONE"] = "Verursachte Massenkontrolle"
-L["STRING_CUSTOM_CC_RECEIVED"] = "Erhaltene Massenkontrolle"
+L["STRING_CUSTOM_CC_DONE"] = "Verursachte CCs"
+L["STRING_CUSTOM_CC_RECEIVED"] = "Erhaltene CCs"
 L["STRING_CUSTOM_CREATE"] = "Erstellen"
 L["STRING_CUSTOM_CREATED"] = "Die neue Anzeige wurde erstellt."
 L["STRING_CUSTOM_DAMAGEONANYMARKEDTARGET"] = "Schaden auf anderweitig markierte Ziele"
@@ -406,6 +406,16 @@ L["STRING_OPTIONS_3D_UANCHOR"] = "Oberes 3D-Modell:"
 L["STRING_OPTIONS_3D_UENABLED_DESC"] = "Aktiviert oder deaktiviert die Nutzung eines 3D-Modells über den Balken."
 L["STRING_OPTIONS_3D_USELECT_DESC"] = "Wähle, welches 3D-Modell in der oberen Modellleiste verwendet werden soll."
 L["STRING_OPTIONS_ADVANCED"] = "Erweitert"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_OFFSET_DESC"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_ALIGNED_TEXT_COLUMNS_WARNING"] = ""--]] 
 L["STRING_OPTIONS_ALPHAMOD_ANCHOR"] = "Automatisch Verbergen:"
 L["STRING_OPTIONS_ALWAYS_USE"] = "Bei allen Charakteren benutzen"
 L["STRING_OPTIONS_ALWAYS_USE_DESC"] = "Wenn aktiviert, nutzen alle Charaktere das ausgewählte Profil. Andernfalls erscheint eine Anzeige, in der nach einem zu benutzenden Profil gefragt wird."
@@ -683,10 +693,14 @@ L["STRING_OPTIONS_ED_DESC"] = [=[|cFFFFFF00Manuell|r: Der Benutzer muss auf den 
 L["STRING_OPTIONS_ED1"] = "Manuell"
 L["STRING_OPTIONS_ED2"] = "Eingabeaufforderung"
 L["STRING_OPTIONS_ED3"] = "Automatisch"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_EDIT_CUSTOM_TEXT"] = ""--]] 
 L["STRING_OPTIONS_EDITIMAGE"] = "Bild bearbeiten"
 L["STRING_OPTIONS_EDITINSTANCE"] = "Bearbeitungsfenster:"
 L["STRING_OPTIONS_ERASECHARTDATA"] = "Ranglisten löschen"
 L["STRING_OPTIONS_ERASECHARTDATA_DESC"] = "Beim Ausloggen werden alle gesammelten Daten für Ranglisten gelöscht."
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_EXPORT_PROFILE"] = ""--]] 
 L["STRING_OPTIONS_EXTERNALS_TITLE"] = "Externe Widgets"
 L["STRING_OPTIONS_EXTERNALS_TITLE2"] = "Diese Optionen bestimmen das Verhalten vieler fremder Widgets."
 L["STRING_OPTIONS_GENERAL"] = "Allgemeine Einstellungen"
@@ -718,6 +732,12 @@ L["STRING_OPTIONS_ILVL_TRACKER_DESC"] = [=[Aktiviert und außerhalb eines Kampfe
 
 Deaktiviert liest es weiterhin die Gegenstandsstufe auf Anfrage von anderen Addons oder beim manuellen Inspizieren anderer Spieler.]=]
 L["STRING_OPTIONS_ILVL_TRACKER_TEXT"] = "Aktiviert"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_IMPORT_PROFILE"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_IMPORT_PROFILE_NAME"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_IMPORT_PROFILE_PASTE"] = ""--]] 
 L["STRING_OPTIONS_INSTANCE_ALPHA2"] = "Hintergrundfarbe"
 L["STRING_OPTIONS_INSTANCE_ALPHA2_DESC"] = "Mit dieser Option kann die Farbe des Fensterhintergrundes geändert werden."
 L["STRING_OPTIONS_INSTANCE_BACKDROP"] = "Hintergrundtextur"
@@ -837,6 +857,8 @@ L["STRING_OPTIONS_NICKNAME_DESC"] = [=[Lege deinen Spitznamen fest.
 Spitznamen werden an Gildenmitglieder gesendet und von Details! anstelle deines Charakternamens angezeigt.]=]
 L["STRING_OPTIONS_OPEN_ROWTEXT_EDITOR"] = "Balkentexteditor"
 L["STRING_OPTIONS_OPEN_TEXT_EDITOR"] = "Texteditor öffnen"
+--[[Translation missing --]]
+--[[ L["STRING_OPTIONS_OPENBROKER"] = ""--]] 
 L["STRING_OPTIONS_OVERALL_ALL"] = "Alle Segmente"
 L["STRING_OPTIONS_OVERALL_ALL_DESC"] = "Alle Segmente werden den Gesamtdaten hinzugefügt."
 L["STRING_OPTIONS_OVERALL_ANCHOR"] = "Gesamtdaten:"

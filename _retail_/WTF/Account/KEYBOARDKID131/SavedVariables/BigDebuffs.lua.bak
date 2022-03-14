@@ -1,0 +1,23 @@
+
+BigDebuffsDB = {
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["profileKeys"] = {
+		["Zynzo - Thrall"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
+	},
+	["profiles"] = {
+		["Default"] = {
+			["nameplates"] = {
+				["enabled"] = false,
+			},
+			["unitFrames"] = {
+				["arena1"] = {
+				},
+			},
+		},
+	},
+}

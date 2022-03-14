@@ -4,23 +4,20 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Awaste-thrall"
 RaiderIO_MissingCharacters = {
-	["us-Zagim-thrall"] = true,
-	["us-Varelm-thrall"] = true,
-	["us-Kiidman-thrall"] = true,
-	["us-Flayshow-thrall"] = true,
-	["us-Naomith-thrall"] = true,
-	["us-Prodeathly-thrall"] = true,
-	["us-Jacobsupreme-thrall"] = true,
-	["us-Shamanya-thrall"] = true,
-	["us-Edeén-azralon"] = true,
-	["us-Brovakíin-thrall"] = true,
-	["us-Skìttlës-thrall"] = true,
-	["us-Operate-thrall"] = true,
-	["us-Newele-thrall"] = true,
-	["us-Dorazzul-thrall"] = true,
-	["us-Hackings-thrall"] = true,
-	["us-Ichindar-thrall"] = true,
+	["us-Rzia-thrall"] = true,
+	["us-Guzzlette-thrall"] = true,
+	["us-Cynnea-thrall"] = true,
+	["us-Greywiñd-thrall"] = true,
+	["us-Gethvelor-thrall"] = true,
+	["us-Jagerbone-thrall"] = true,
+	["us-Truthtwin-thrall"] = true,
+	["us-Enmitÿ-thrall"] = true,
+	["us-Meica-thrall"] = true,
+	["us-Orionhu-thrall"] = true,
+	["us-Keyoshi-thrall"] = true,
 }
 RaiderIO_MissingServers = {
 }
 RaiderIO_CachedRuns = nil
+RaiderIO_RWF = {
+}

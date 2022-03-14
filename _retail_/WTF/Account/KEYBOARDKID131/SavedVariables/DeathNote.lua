@@ -7,27 +7,28 @@ DeathNoteDB = {
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Syandea - Hyjal"] = "Syandea - Hyjal",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
 		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Corptwo - Thrall"] = "Corptwo - Thrall",
 		["Songfire - Hyjal"] = "Songfire - Hyjal",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
-		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Naraka - Thrall"] = "Naraka - Thrall",
 		["Kerrama - Thrall"] = "Kerrama - Thrall",
 		["Tyuty - Thrall"] = "Tyuty - Thrall",
-		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Naakari - Hyjal"] = "Naakari - Hyjal",
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
-		["Naakari - Hyjal"] = "Naakari - Hyjal",
+		["Ronami - Thrall"] = "Ronami - Thrall",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
-		["Naraka - Thrall"] = "Naraka - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -42,20 +43,22 @@ DeathNoteDB = {
 		},
 		["Corpsel - Alexstrasza"] = {
 		},
+		["Yjuwsgv - Thrall"] = {
+		},
 		["Velosara - Thrall"] = {
 		},
 		["Corptwo - Thrall"] = {
 		},
 		["Songfire - Hyjal"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Raluh - Thrall"] = {
 		},
 		["Zynzo - Thrall"] = {
 			["searchbox_text"] = "",
 			["display"] = {
 				["y"] = 3.28204345703125,
-				["namelist"] = 2,
 				["h"] = 499.9999389648438,
+				["namelist"] = 2,
 				["w"] = 700.0000610351562,
 				["x"] = 4.376129150390625,
 			},
@@ -63,24 +66,23 @@ DeathNoteDB = {
 		["Zarafina - Thrall"] = {
 			["searchbox_text"] = "",
 		},
-		["Mafiki - Alexstrasza"] = {
-			["searchbox_text"] = "",
+		["Naraka - Thrall"] = {
 		},
 		["Kerrama - Thrall"] = {
 		},
 		["Tyuty - Thrall"] = {
+		},
+		["Naakari - Hyjal"] = {
+		},
+		["Chonkcity - Thrall"] = {
+		},
+		["Oturran - Thrall"] = {
 		},
 		["Ronami - Thrall"] = {
 			["searchbox_text"] = "",
 			["display"] = {
 				["namelist"] = 2,
 			},
-		},
-		["Chonkcity - Thrall"] = {
-		},
-		["Oturran - Thrall"] = {
-		},
-		["Naakari - Hyjal"] = {
 		},
 		["Mafiki - Thrall"] = {
 			["searchbox_text"] = "",
@@ -98,10 +100,10 @@ DeathNoteDB = {
 					99.99996948242188, -- [4]
 				},
 				["w"] = 700.0000610351562,
-				["y"] = 68.90586853027344,
+				["y"] = 71.36744689941406,
 				["h"] = 500.0000915527344,
-				["x"] = -9.333526611328125,
 				["namelist"] = 2,
+				["x"] = 16.92257690429688,
 			},
 		},
 		["Badnäme - Alexstrasza"] = {
@@ -110,11 +112,12 @@ DeathNoteDB = {
 		},
 		["Vartizzle - Thrall"] = {
 		},
-		["Naraka - Thrall"] = {
+		["Mafiki - Alexstrasza"] = {
+			["searchbox_text"] = "",
 		},
-		["Raluh - Thrall"] = {
+		["Salocinn - Thrall"] = {
 		},
-		["Yjuwsgv - Thrall"] = {
+		["Melleressra - Thrall"] = {
 		},
 	},
 }

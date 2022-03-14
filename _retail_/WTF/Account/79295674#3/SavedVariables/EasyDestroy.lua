@@ -1,7 +1,7 @@
 
 EasyDestroyData = {
 	["Alerts"] = 1,
-	["Filters"] = {
+	["Blacklist"] = {
 	},
 	["Options"] = {
 		["CharacterFavorites"] = false,
@@ -10,6 +10,6 @@ EasyDestroyData = {
 		["MinimapIcon"] = {
 		},
 	},
-	["Blacklist"] = {
+	["Filters"] = {
 	},
 }

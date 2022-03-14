@@ -1,11 +1,11 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0521,
+	["LastVersion"] = 2.0528,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178816,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:178816::::::::60:262::35:6:7350:7359:42:7194:1527:6646::::|h[Nathrian Usurper's Mask]|h|r",
+			["ID"] = 186341,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:186341::::::::60:264::3:4:7189:6652:1472:6646:1:28:2104:::::|h[Shadowsteel Facecage]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 184144,
@@ -24,47 +24,47 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:181654::::::::60:262::26:4:6652:1472:5887:6646:1:28:2043:::::|h[Fleshscale Chainmail]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 182976,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:182976::::::::60:262::5:5:7188:6652:7193:1485:6646:1:28:2060:::|h[Double-Chained Utility Belt]|h|r",
+			["ID"] = 186301,
+			["Level"] = 226,
+			["Link"] = "|cffa335ee|Hitem:186301::::::::60:264::3:4:7189:6652:1472:6646::::::|h[Coiled Stygian Grapnel]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 186744,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:186744::::::::60:264::14:4:7692:6652:1472:6646::::::|h[Razorwing Scale Pants]|h|r",
+			["ID"] = 185800,
+			["Level"] = 233,
+			["Link"] = "|cffa335ee|Hitem:185800::::::::60:264::54:5:7732:7359:6652:1550:6646:1:28:2042:::::|h[Orbitwarp Culottes]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 185869,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:185869::::::::60:262::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Razorwing Scale Striders]|h|r",
+			["ID"] = 185789,
+			["Level"] = 233,
+			["Link"] = "|cffa335ee|Hitem:185789::::::::60:264::54:5:7732:7359:6652:1550:6646:1:28:2042:::::|h[Sabatons of Measured Time]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 178703,
-			["Level"] = 197,
-			["Link"] = "|cffa335ee|Hitem:178703::::::::60:264::16:6:7380:7359:41:7193:1511:6646:1:28:1279:::|h[Hiveswarm Bracers]|h|r",
+			["ID"] = 178767,
+			["Level"] = 236,
+			["Link"] = "|cffa335ee|Hitem:178767::::::::60:264::35:6:7617:7359:6652:7575:1550:6646::::::|h[Tortured Assistant's Bindings]|h|r",
 		}, -- [9]
 		{
-			["ID"] = 185870,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:185870::::::::60:262::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Razorwing Scale Grips]|h|r",
+			["ID"] = 172324,
+			["Level"] = 210,
+			["Link"] = "|cffff8000|Hitem:172324::::::::60:264::64:5:6999:6717:6647:6650:1507:1:28:2142:::::|h[Handguards of the Primal Tides]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 178824,
-			["Level"] = 184,
+			["ID"] = 178933,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:178824::::::::60:262::23:6:7376:7359:6652:7193:1498:6646:1:28:749:::|h[Signet of the False Accuser]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178933::::::::60:262::35:6:7618:7359:6652:7575:1553:6646::::::|h[Arachnid Cipher Ring]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 178871,
-			["Level"] = 184,
+			["ID"] = 178933,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:178871::::::::60:262::23:6:7376:7359:6652:7194:1498:6646:1:28:749:::|h[Bloodoath Signet]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178933::::::::60:264::35:6:7618:7359:6652:7575:1553:6646::::::|h[Arachnid Cipher Ring]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 178783,
-			["Level"] = 210,
+			["ID"] = 180119,
+			["Level"] = 223,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:178783::::::::60:264::35:5:7370:7359:6652:1524:6646::::|h[Siphoning Phylactery Shard]|h|r",
+			["Link"] = "|cffa335ee|Hitem:180119::::::::60:264::16:5:7599:7359:6652:1537:6646:1:28:1279:::::|h[Boon of the Archon]|h|r",
 		}, -- [13]
 		{
 			["ID"] = 178783,
@@ -84,10 +84,9 @@ PawnOptions = {
 			["Link"] = "|cffa335ee|Hitem:186765::::::::60:262::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Vault Patroller's Mace]|h|r",
 		}, -- [16]
 		{
-			["ID"] = 186765,
-			["Level"] = 200,
-			["AlsoFitsIn"] = 16,
-			["Link"] = "|cffa335ee|Hitem:186765::::::::60:264::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Vault Patroller's Mace]|h|r",
+			["ID"] = 178712,
+			["Level"] = 223,
+			["Link"] = "|cffa335ee|Hitem:178712::::::::60:264::16:5:7655:7359:6652:1537:6646:1:28:1279:::::|h[Acidslough Bulwark]|h|r",
 		}, -- [17]
 	},
 	["AutoSelectScales"] = true,

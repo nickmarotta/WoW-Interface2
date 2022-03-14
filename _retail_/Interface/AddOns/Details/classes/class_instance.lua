@@ -414,7 +414,7 @@ end
 		Details.FadeHandler.Fader (self.windowSwitchButton, 1)
 		
 		self:Desagrupar (-1)
-		
+
 		if (self.modo == modo_raid) then
 			_detalhes.RaidTables:DisableRaidMode (self)
 			
@@ -647,6 +647,7 @@ end
 		end
 
 		self:DesaturateMenu()
+		self:Desagrupar (-1)
 		
 		self:CheckFor_EnabledTrashSuppression()
 		
@@ -1714,6 +1715,22 @@ function _detalhes:CheckSwitchOnCombatStart (check_segment)
 	
 end
 
+local createStatusbarOptions = function(optionsTable)
+	local newTable = {}
+	newTable.textColor = optionsTable.textColor
+	newTable.textSize = optionsTable.textSize
+	newTable.textFace = optionsTable.textFace
+	newTable.textXmod = optionsTable.textXmod
+	newTable.textYmod = optionsTable.textYmod
+	newTable.isHidden = optionsTable.isHidden
+	newTable.segmentType = optionsTable.segmentType
+	newTable.textAlign = optionsTable.textAlign
+	newTable.timeType = optionsTable.timeType
+	newTable.textStyle = optionsTable.textStyle
+
+	return newTable
+end
+
 function _detalhes:ExportSkin()
 
 	--create the table
@@ -1723,7 +1740,7 @@ function _detalhes:ExportSkin()
 
 	--export the keys
 	for key, value in pairs (self) do
-		if (_detalhes.instance_defaults [key] ~= nil) then	
+		if (_detalhes.instance_defaults [key] ~= nil) then
 			if (type (value) == "table") then
 				exported [key] = Details.CopyTable (value)
 			else
@@ -1731,14 +1748,14 @@ function _detalhes:ExportSkin()
 			end
 		end
 	end
-	
+
 	--export size and positioning
 	if (_detalhes.profile_save_pos) then
 		exported.posicao = self.posicao
 	else
 		exported.posicao = nil
 	end
-	
+
 	--export mini displays
 	if (self.StatusBar and self.StatusBar.left) then
 		exported.StatusBarSaved = {
@@ -1746,19 +1763,35 @@ function _detalhes:ExportSkin()
 			["center"] = self.StatusBar.center.real_name or "NONE",
 			["right"] = self.StatusBar.right.real_name or "NONE",
 		}
+
+		local leftOptions = createStatusbarOptions(self.StatusBar.left.options)
+		local centerOptions = createStatusbarOptions(self.StatusBar.center.options)
+		local rightOptions = createStatusbarOptions(self.StatusBar.right.options)
+
 		exported.StatusBarSaved.options = {
-			[exported.StatusBarSaved.left] = Details.CopyTable (self.StatusBar.left.options),
-			[exported.StatusBarSaved.center] = Details.CopyTable (self.StatusBar.center.options),
-			[exported.StatusBarSaved.right] = Details.CopyTable (self.StatusBar.right.options)
+			[exported.StatusBarSaved.left] = leftOptions,
+			[exported.StatusBarSaved.center] = centerOptions,
+			[exported.StatusBarSaved.right] = rightOptions,
 		}
 
 	elseif (self.StatusBarSaved) then
-		exported.StatusBarSaved = Details.CopyTable (self.StatusBarSaved)
-		
-	end
+		local leftName = self.StatusBarSaved.left
+		local centerName = self.StatusBarSaved.center
+		local rightName = self.StatusBarSaved.right
 
+		local options = self.StatusBarSaved.options
+
+		local leftOptions = createStatusbarOptions(options[leftName])
+		local centerOptions = createStatusbarOptions(options[centerName])
+		local rightOptions = createStatusbarOptions(options[rightName])
+
+		options[leftName] = leftOptions
+		options[centerName] = centerOptions
+		options[rightName] = rightOptions
+
+		exported.StatusBarSaved = DetailsFramework.table.copy({}, self.StatusBarSaved)
+	end
 	return exported
-	
 end
 
 function _detalhes:ApplySavedSkin (style)

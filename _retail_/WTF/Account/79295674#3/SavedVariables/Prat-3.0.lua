@@ -29,23 +29,30 @@ Prat3DB = {
 		},
 		["Prat_UrlCopy"] = {
 		},
-		["Prat_ChannelNames"] = {
-		},
-		["Prat_KeyBindings"] = {
-		},
 		["Prat_Font"] = {
 		},
 		["Prat_Bubbles"] = {
 		},
-		["Prat_ChatLog"] = {
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_KeyBindings"] = {
+		},
+		["Prat_Timestamps"] = {
+			["profiles"] = {
+				["Default"] = {
+					["show"] = {
+						["ChatFrame1"] = false,
+					},
+				},
+			},
 		},
 		["Prat_Scroll"] = {
 		},
-		["Prat_Achievements"] = {
-		},
 		["Prat_Mentions"] = {
 		},
-		["Prat_History"] = {
+		["Prat_Achievements"] = {
+		},
+		["Prat_Sounds"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -59,18 +66,11 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_Sounds"] = {
+		["Prat_History"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_Timestamps"] = {
-			["profiles"] = {
-				["Default"] = {
-					["show"] = {
-						["ChatFrame1"] = false,
-					},
-				},
-			},
+		["Prat_ChatLog"] = {
 		},
 		["Prat_Search"] = {
 		},
@@ -83,13 +83,14 @@ Prat3DB = {
 	},
 	["profileKeys"] = {
 		["Escargoth - Thrall"] = "Default",
-		["Eyowen - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
+		["Eyowen - Thrall"] = "Default",
+		["Gobage - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -97,7 +98,7 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 			},
 		},
 	},

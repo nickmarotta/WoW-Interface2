@@ -1,0 +1,38 @@
+
+OmniCDDB = {
+	["profileKeys"] = {
+		["Corpselus - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
+	},
+	["global"] = {
+		["oodVer"] = 2633,
+		["oodChk"] = 210916,
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+		["BattleRes"] = {
+		},
+	},
+	["version"] = 2.51,
+	["cooldowns"] = {
+	},
+	["profiles"] = {
+		["Default"] = {
+			["Party"] = {
+				["party"] = {
+					["manualPos"] = {
+						["raidCDBar"] = {
+							["y"] = 456.3250565042836,
+							["x"] = 157.5416911513366,
+						},
+						["interruptBar"] = {
+							["y"] = 415.2585785184056,
+							["x"] = 157.541641560274,
+						},
+					},
+				},
+			},
+		},
+	},
+}

@@ -49,6 +49,8 @@ if not L then return end
 --[[Translation missing --]]
 --[[ L["colorOverride_desc"] = ""--]] 
 --[[Translation missing --]]
+--[[ L["combatWildcard_desc"] = ""--]] 
+--[[Translation missing --]]
 --[[ L["Countdown"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["Curse"] = ""--]] 

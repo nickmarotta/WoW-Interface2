@@ -17,7 +17,7 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
-		["BigWigs_Plugins_Wipe"] = {
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_InfoBox"] = {
 		},
@@ -44,16 +44,17 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 		},
-		["BigWigs_Plugins_BossBlock"] = {
+		["BigWigs_Plugins_Wipe"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
 		},
-		["BigWigs_Plugins_Raid Icons"] = {
+		["BigWigs_Plugins_BossBlock"] = {
 		},
 	},
 	["profileKeys"] = {
 		["Escargoth - Thrall"] = "Default",
 		["Awaste - Thrall"] = "Default",
+		["Gobage - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -127,6 +128,26 @@ BigWigsStatsDB = {
 				["kills"] = 1,
 				["wipes"] = 1,
 				["best"] = 242.0840000000026,
+			},
+		},
+	},
+	[2450] = {
+		[2442] = {
+			["normal"] = {
+				["best"] = 314.8530000001192,
+				["kills"] = 1,
+			},
+		},
+		[2435] = {
+			["normal"] = {
+				["best"] = 366.5570000000298,
+				["kills"] = 1,
+			},
+		},
+		[2439] = {
+			["normal"] = {
+				["best"] = 309.627000000095,
+				["kills"] = 1,
 			},
 		},
 	},

@@ -1,3 +1,8 @@
+VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
+#showtooltip Shadow Bolt
+/cancelaura Burning Rush
+/cast Shadow Bolt
+END
 VER 3 0100000000000005 " " "INV_MISC_QUESTIONMARK"
 #showtooltip
 /cancelaura Burning Rush
@@ -8,10 +13,8 @@ VER 3 0100000000000006 " " "INV_MISC_QUESTIONMARK"
 /use Dreadfire Vessel
 /cast Decimating Bolt 
 END
-VER 3 0100000000000003 " " "INV_MISC_QUESTIONMARK"
-#showtooltip Shadow Bolt
-/cancelaura Burning Rush
-/cast Shadow Bolt
+VER 3 0100000000000007 "Egg" "INV_MISC_QUESTIONMARK"
+/run local i,_,_,_,n,t=0,GetQuestObjectiveInfo(64274,0,false);for q=64280,64281 do i=i+(C_QuestLog.IsQuestFlaggedCompleted(q)and 1 or 0)end;print('Eggs looted today: '..i..' of 2. You have turned in '..n..' of '..t..' eggs')
 END
 VER 3 0100000000000004 "Trinket" "INV_MISC_QUESTIONMARK"
 #showtooltip 

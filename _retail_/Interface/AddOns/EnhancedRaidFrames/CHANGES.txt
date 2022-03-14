@@ -1,10 +1,28 @@
-lightweight tag f5b9bc71db4e8ff0dc051a005753ac533436e9dc 3.4.1
+lightweight tag 8cd7392d6e1a65be0634719bddd5b59965d57128 3.4.4
 Author:	Britt Yazel <bwyazel@gmail.com>
-Date:	Tue Jul 13 21:21:01 2021 -0700
+Date:	Tue Feb 22 13:10:24 2022 -0800
 
-commit f5b9bc71db4e8ff0dc051a005753ac533436e9dc
+commit 8cd7392d6e1a65be0634719bddd5b59965d57128
 Author: Britt Yazel <bwyazel@gmail.com>
-Date:   Tue Jul 13 21:21:01 2021 -0700
+Date:   Tue Feb 22 13:10:24 2022 -0800
 
-    add new file to secondary .toc files
+    Bump TOC
+
+commit 884f689b565a450f8ad594c553971c0efc8a67b9
+Author: William Bradford Clark <wclark@redhat.com>
+Date:   Thu Nov 11 22:02:56 2021 -0500
+
+    Add a combat status indicator
+    
+    Useful for example in PvP to see who could be Sapped by an enemy Rogue,
+    or has dropped combat and could drink for mana.
+
+commit 884f689b565a450f8ad594c553971c0efc8a67b9
+Author: William Bradford Clark <wclark@redhat.com>
+Date:   Thu Nov 11 22:02:56 2021 -0500
+
+    Add a combat status indicator
+    
+    Useful for example in PvP to see who could be Sapped by an enemy Rogue,
+    or has dropped combat and could drink for mana.
 

@@ -1,5 +1,166 @@
 
 DeathGraphsDBDeaths = {
+	["2423-14"] = {
+		["hash"] = "2423-14",
+		["type"] = "deaths",
+		["name"] = "The Tarragrue",
+		["id"] = "2423-14",
+		["player_db"] = {
+			["Chaoticmunky-Mal'Ganis"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Chaoticmunky-Mal'Ganis",
+			},
+			["Pätula-Ragnaros"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Pätula-Ragnaros",
+			},
+			["Litebright-Area52"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Litebright-Area52",
+			},
+			["Holysteel-Area52"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Holysteel-Area52",
+			},
+			["Meltedcouch-Illidan"] = {
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Meltedcouch-Illidan",
+			},
+			["Steakdh"] = {
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Steakdh",
+			},
+			["Côntra-Velen"] = {
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Côntra-Velen",
+			},
+			["Cindrell-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cindrell-Tichondrius",
+			},
+			["Frayà-Tichondrius"] = {
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Frayà-Tichondrius",
+			},
+		},
+		["diff"] = 14,
+	},
+	["2429-14"] = {
+		["hash"] = "2429-14",
+		["type"] = "deaths",
+		["name"] = "The Nine",
+		["id"] = "2429-14",
+		["player_db"] = {
+		},
+		["diff"] = 14,
+	},
+	["2433-14"] = {
+		["hash"] = "2433-14",
+		["type"] = "deaths",
+		["name"] = "The Eye of the Jailer",
+		["id"] = "2433-14",
+		["player_db"] = {
+			["Holysteel-Area52"] = {
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Holysteel-Area52",
+			},
+			["Johnnyc-Area52"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Johnnyc-Area52",
+			},
+			["Cindrell-Tichondrius"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Cindrell-Tichondrius",
+			},
+			["Awaste"] = {
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Awaste",
+			},
+		},
+		["diff"] = 14,
+	},
+	["242614"] = {
+		["hash"] = "242614",
+		["type"] = "deaths",
+		["name"] = "The Council of Blood",
+		["id"] = 2426,
+		["boss_table"] = {
+			["diff_string"] = "Normal",
+			["index"] = 7,
+			["zone"] = "Castle Nathria",
+			["encounter"] = "The Council of Blood",
+			["mapid"] = 2296,
+			["try_number"] = 1,
+			["name"] = "The Council of Blood",
+			["diff"] = 14,
+			["ej_instance_id"] = 1190,
+			["id"] = 2412,
+			["killed"] = true,
+		},
+		["player_db"] = {
+			["Trao-Blackrock"] = {
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+				["overall"] = {
+				},
+				["name"] = "Trao-Blackrock",
+			},
+		},
+		["diff"] = 14,
+	},
 	["239314"] = {
 		["hash"] = "239314",
 		["type"] = "deaths",
@@ -61,143 +222,6 @@ DeathGraphsDBDeaths = {
 				["name"] = "Awaste",
 			},
 		},
-	},
-	["2418-15"] = {
-		["hash"] = "2418-15",
-		["type"] = "deaths",
-		["name"] = "Huntsman Altimor",
-		["id"] = "2418-15",
-		["player_db"] = {
-			["Snurple"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Snurple",
-				["overall"] = {
-				},
-			},
-			["Crub"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEATHKNIGHT",
-				["name"] = "Crub",
-				["overall"] = {
-				},
-			},
-			["Parzivál-Mal'Ganis"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Parzivál-Mal'Ganis",
-				["overall"] = {
-				},
-			},
-			["Orkhand"] = {
-				["deaths"] = {
-				},
-				["class"] = "MAGE",
-				["name"] = "Orkhand",
-				["overall"] = {
-				},
-			},
-			["Healmenoob"] = {
-				["deaths"] = {
-				},
-				["class"] = "PALADIN",
-				["name"] = "Healmenoob",
-				["overall"] = {
-				},
-			},
-			["Evale"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Evale",
-				["overall"] = {
-				},
-			},
-			["Daumawth"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Daumawth",
-				["overall"] = {
-				},
-			},
-			["Nickdonalds-Blackrock"] = {
-				["deaths"] = {
-				},
-				["class"] = "DEMONHUNTER",
-				["name"] = "Nickdonalds-Blackrock",
-				["overall"] = {
-				},
-			},
-			["Eskandar-Blackrock"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARRIOR",
-				["name"] = "Eskandar-Blackrock",
-				["overall"] = {
-				},
-			},
-			["Missteak"] = {
-				["deaths"] = {
-				},
-				["class"] = "PRIEST",
-				["name"] = "Missteak",
-				["overall"] = {
-				},
-			},
-			["Ctcbrute"] = {
-				["deaths"] = {
-				},
-				["class"] = "HUNTER",
-				["name"] = "Ctcbrute",
-				["overall"] = {
-				},
-			},
-			["Awaste"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Awaste",
-				["overall"] = {
-				},
-			},
-			["Coasting"] = {
-				["deaths"] = {
-				},
-				["class"] = "MONK",
-				["name"] = "Coasting",
-				["overall"] = {
-				},
-			},
-			["Sendmoons"] = {
-				["deaths"] = {
-				},
-				["class"] = "DRUID",
-				["name"] = "Sendmoons",
-				["overall"] = {
-				},
-			},
-			["Ampersand-Blackrock"] = {
-				["deaths"] = {
-				},
-				["class"] = "SHAMAN",
-				["name"] = "Ampersand-Blackrock",
-				["overall"] = {
-				},
-			},
-			["Maddawg-Turalyon"] = {
-				["deaths"] = {
-				},
-				["class"] = "WARLOCK",
-				["name"] = "Maddawg-Turalyon",
-				["overall"] = {
-				},
-			},
-		},
-		["diff"] = 15,
 	},
 	["2398-15"] = {
 		["hash"] = "2398-15",
@@ -505,9 +529,499 @@ DeathGraphsDBDeaths = {
 			},
 		},
 	},
+	["2418-15"] = {
+		["hash"] = "2418-15",
+		["type"] = "deaths",
+		["name"] = "Huntsman Altimor",
+		["id"] = "2418-15",
+		["player_db"] = {
+			["Snurple"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Snurple",
+				["overall"] = {
+				},
+			},
+			["Crub"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEATHKNIGHT",
+				["name"] = "Crub",
+				["overall"] = {
+				},
+			},
+			["Parzivál-Mal'Ganis"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Parzivál-Mal'Ganis",
+				["overall"] = {
+				},
+			},
+			["Orkhand"] = {
+				["deaths"] = {
+				},
+				["class"] = "MAGE",
+				["name"] = "Orkhand",
+				["overall"] = {
+				},
+			},
+			["Healmenoob"] = {
+				["deaths"] = {
+				},
+				["class"] = "PALADIN",
+				["name"] = "Healmenoob",
+				["overall"] = {
+				},
+			},
+			["Evale"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Evale",
+				["overall"] = {
+				},
+			},
+			["Daumawth"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Daumawth",
+				["overall"] = {
+				},
+			},
+			["Nickdonalds-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "DEMONHUNTER",
+				["name"] = "Nickdonalds-Blackrock",
+				["overall"] = {
+				},
+			},
+			["Eskandar-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARRIOR",
+				["name"] = "Eskandar-Blackrock",
+				["overall"] = {
+				},
+			},
+			["Missteak"] = {
+				["deaths"] = {
+				},
+				["class"] = "PRIEST",
+				["name"] = "Missteak",
+				["overall"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["deaths"] = {
+				},
+				["class"] = "HUNTER",
+				["name"] = "Ctcbrute",
+				["overall"] = {
+				},
+			},
+			["Awaste"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Awaste",
+				["overall"] = {
+				},
+			},
+			["Coasting"] = {
+				["deaths"] = {
+				},
+				["class"] = "MONK",
+				["name"] = "Coasting",
+				["overall"] = {
+				},
+			},
+			["Sendmoons"] = {
+				["deaths"] = {
+				},
+				["class"] = "DRUID",
+				["name"] = "Sendmoons",
+				["overall"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["deaths"] = {
+				},
+				["class"] = "SHAMAN",
+				["name"] = "Ampersand-Blackrock",
+				["overall"] = {
+				},
+			},
+			["Maddawg-Turalyon"] = {
+				["deaths"] = {
+				},
+				["class"] = "WARLOCK",
+				["name"] = "Maddawg-Turalyon",
+				["overall"] = {
+				},
+			},
+		},
+		["diff"] = 15,
+	},
+}
+DeathGraphsDBEndurance = {
+	["2423-14"] = {
+		["hash"] = "2423-14",
+		["type"] = "endurance",
+		["name"] = "The Tarragrue",
+		["id"] = "2423-14",
+		["player_db"] = {
+			["Chaoticmunky-Mal'Ganis"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						43.88799999980256, -- [2]
+						"Hungering Mist |cFFFF333351,886|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Pätula-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						33.89999999990687, -- [2]
+						"Hungering Mist |cFFFF333350,614|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Litebright-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Holysteel-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Cindrell-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Meltedcouch-Illidan"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						43.92299999995157, -- [2]
+						"Hungering Mist |cFFFF333348,090|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Ricard-Deathwing"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Côntra-Velen"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Gartonn-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Steakdh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Heyate-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Frayà-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["2429-14"] = {
+		["hash"] = "2429-14",
+		["type"] = "endurance",
+		["name"] = "The Nine",
+		["id"] = "2429-14",
+		["player_db"] = {
+			["Pätula-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Litebright-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Holysteel-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Johnnyc-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Orchop-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Côntra-Velen"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Ricard-Deathwing"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Gartonn-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Steakdh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Heyate-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Cindrell-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Frayà-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 14,
+	},
+	["2433-14"] = {
+		["hash"] = "2433-14",
+		["type"] = "endurance",
+		["name"] = "The Eye of the Jailer",
+		["id"] = "2433-14",
+		["player_db"] = {
+			["Pätula-Ragnaros"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Litebright-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Holysteel-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "PALADIN",
+				["deaths"] = {
+					{
+						1, -- [1]
+						164.3269999998156, -- [2]
+						"Annihilating Glare |cFFFF333335,423|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Cindrell-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						90.90500000002794, -- [2]
+						"Spreading Misery (DoT) |cFFFF33332,333|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Johnnyc-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						63.46499999985099, -- [2]
+						"Piercing Lens |cFFFF333323,249|r", -- [3]
+					}, -- [1]
+				},
+			},
+			["Orchop-Zul'jin"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
+			["Côntra-Velen"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Ricard-Deathwing"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Gartonn-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Steakdh"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Heyate-Area52"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Frayà-Tichondrius"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+		},
+		["diff"] = 14,
+	},
 	["242614"] = {
 		["hash"] = "242614",
-		["type"] = "deaths",
+		["type"] = "endurance",
 		["name"] = "The Council of Blood",
 		["id"] = 2426,
 		["boss_table"] = {
@@ -524,19 +1038,119 @@ DeathGraphsDBDeaths = {
 			["killed"] = true,
 		},
 		["player_db"] = {
-			["Trao-Blackrock"] = {
-				["class"] = "MAGE",
+			["Deedah-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
 				["deaths"] = {
 				},
-				["overall"] = {
+			},
+			["Crub"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
 				},
-				["name"] = "Trao-Blackrock",
+			},
+			["Daumath"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Healmenoob"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Borty"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Ctcbrute"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Niobe-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DRUID",
+				["deaths"] = {
+				},
+			},
+			["Coasting"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Anguskhän"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "DEATHKNIGHT",
+				["deaths"] = {
+				},
+			},
+			["Bigups"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "ROGUE",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+				},
+			},
+			["Kred"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Missteak"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 100,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Trao-Blackrock"] = {
+				["encounters"] = 1,
+				["points"] = 90,
+				["class"] = "MAGE",
+				["deaths"] = {
+					{
+						1, -- [1]
+						282.1560000000172, -- [2]
+						"Dark Recital |cFFFF3333980|r", -- [3]
+					}, -- [1]
+				},
 			},
 		},
 		["diff"] = 14,
 	},
-}
-DeathGraphsDBEndurance = {
 	["239314"] = {
 		["hash"] = "239314",
 		["type"] = "endurance",
@@ -712,183 +1326,6 @@ DeathGraphsDBEndurance = {
 				["class"] = "MONK",
 			},
 		},
-	},
-	["2418-15"] = {
-		["hash"] = "2418-15",
-		["type"] = "endurance",
-		["name"] = "Huntsman Altimor",
-		["id"] = "2418-15",
-		["player_db"] = {
-			["Snurple"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						2, -- [1]
-						159.4459999999963, -- [2]
-						"Sinseeker (DoT) |cFFFF33334,002|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Crub"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Parzivál-Mal'Ganis"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "PALADIN",
-				["deaths"] = {
-					{
-						3, -- [1]
-						204.3090000000084, -- [2]
-						"Shattering Stone |cFFFF33334,440|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Ctcbrute"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Trao-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Missteak"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Sendmoons"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["class"] = "DRUID",
-				["deaths"] = {
-					{
-						1, -- [1]
-						110.8619999999937, -- [2]
-						"Unstable Soul |cFFFF33331,971|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						162.3179999999993, -- [2]
-						"Spreadshot |cFFFF33339,325|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Evale"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Maddawg-Turalyon"] = {
-				["encounters"] = 3,
-				["points"] = 290,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						112.1119999999937, -- [2]
-						"Sinseeker (DoT) |cFFFF333310,917|r", -- [3]
-					}, -- [1]
-				},
-			},
-			["Healmenoob"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Kred"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Nickdonalds-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "DEMONHUNTER",
-				["deaths"] = {
-				},
-			},
-			["Coasting"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Orkbow"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Awaste"] = {
-				["encounters"] = 3,
-				["points"] = 280,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-					{
-						1, -- [1]
-						112.2359999999753, -- [2]
-						"Spreadshot |cFFFF333322,055|r", -- [3]
-					}, -- [1]
-					{
-						2, -- [1]
-						163.1050000000105, -- [2]
-						"Unstable Soul |cFFFF33331,853|r", -- [3]
-					}, -- [2]
-				},
-			},
-			["Orkhand"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "MAGE",
-				["deaths"] = {
-				},
-			},
-			["Daumawth"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "SHAMAN",
-				["deaths"] = {
-				},
-			},
-			["Eskandar-Blackrock"] = {
-				["encounters"] = 3,
-				["points"] = 300,
-				["class"] = "WARRIOR",
-				["deaths"] = {
-				},
-			},
-		},
-		["diff"] = 15,
 	},
 	["2398-15"] = {
 		["hash"] = "2398-15",
@@ -1482,162 +1919,431 @@ DeathGraphsDBEndurance = {
 			},
 		},
 	},
-	["242614"] = {
-		["hash"] = "242614",
+	["2418-15"] = {
+		["hash"] = "2418-15",
 		["type"] = "endurance",
-		["name"] = "The Council of Blood",
-		["id"] = 2426,
-		["boss_table"] = {
-			["diff_string"] = "Normal",
-			["index"] = 7,
-			["zone"] = "Castle Nathria",
-			["encounter"] = "The Council of Blood",
-			["mapid"] = 2296,
-			["try_number"] = 1,
-			["name"] = "The Council of Blood",
-			["diff"] = 14,
-			["ej_instance_id"] = 1190,
-			["id"] = 2412,
-			["killed"] = true,
-		},
+		["name"] = "Huntsman Altimor",
+		["id"] = "2418-15",
 		["player_db"] = {
-			["Deedah-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
+			["Snurple"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "PALADIN",
 				["deaths"] = {
+					{
+						2, -- [1]
+						159.4459999999963, -- [2]
+						"Sinseeker (DoT) |cFFFF33334,002|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Crub"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "DEATHKNIGHT",
 				["deaths"] = {
 				},
 			},
-			["Daumath"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Healmenoob"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+			["Parzivál-Mal'Ganis"] = {
+				["encounters"] = 3,
+				["points"] = 290,
 				["class"] = "PALADIN",
 				["deaths"] = {
-				},
-			},
-			["Borty"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
-				["deaths"] = {
+					{
+						3, -- [1]
+						204.3090000000084, -- [2]
+						"Shattering Stone |cFFFF33334,440|r", -- [3]
+					}, -- [1]
 				},
 			},
 			["Ctcbrute"] = {
-				["encounters"] = 1,
-				["points"] = 100,
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "HUNTER",
-				["deaths"] = {
-				},
-			},
-			["Niobe-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DRUID",
-				["deaths"] = {
-				},
-			},
-			["Coasting"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "MONK",
-				["deaths"] = {
-				},
-			},
-			["Anguskhän"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "DEATHKNIGHT",
-				["deaths"] = {
-				},
-			},
-			["Bigups"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "ROGUE",
-				["deaths"] = {
-				},
-			},
-			["Awaste"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "WARLOCK",
-				["deaths"] = {
-				},
-			},
-			["Kred"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PALADIN",
-				["deaths"] = {
-				},
-			},
-			["Missteak"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "PRIEST",
-				["deaths"] = {
-				},
-			},
-			["Ampersand-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 100,
-				["class"] = "SHAMAN",
 				["deaths"] = {
 				},
 			},
 			["Trao-Blackrock"] = {
-				["encounters"] = 1,
-				["points"] = 90,
+				["encounters"] = 3,
+				["points"] = 300,
 				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Missteak"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PRIEST",
+				["deaths"] = {
+				},
+			},
+			["Sendmoons"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "DRUID",
 				["deaths"] = {
 					{
 						1, -- [1]
-						282.1560000000172, -- [2]
-						"Dark Recital |cFFFF3333980|r", -- [3]
+						110.8619999999937, -- [2]
+						"Unstable Soul |cFFFF33331,971|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						162.3179999999993, -- [2]
+						"Spreadshot |cFFFF33339,325|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Evale"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Maddawg-Turalyon"] = {
+				["encounters"] = 3,
+				["points"] = 290,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						112.1119999999937, -- [2]
+						"Sinseeker (DoT) |cFFFF333310,917|r", -- [3]
 					}, -- [1]
 				},
 			},
+			["Healmenoob"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Kred"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "PALADIN",
+				["deaths"] = {
+				},
+			},
+			["Nickdonalds-Blackrock"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "DEMONHUNTER",
+				["deaths"] = {
+				},
+			},
+			["Coasting"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MONK",
+				["deaths"] = {
+				},
+			},
+			["Orkbow"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Awaste"] = {
+				["encounters"] = 3,
+				["points"] = 280,
+				["class"] = "WARLOCK",
+				["deaths"] = {
+					{
+						1, -- [1]
+						112.2359999999753, -- [2]
+						"Spreadshot |cFFFF333322,055|r", -- [3]
+					}, -- [1]
+					{
+						2, -- [1]
+						163.1050000000105, -- [2]
+						"Unstable Soul |cFFFF33331,853|r", -- [3]
+					}, -- [2]
+				},
+			},
+			["Orkhand"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "MAGE",
+				["deaths"] = {
+				},
+			},
+			["Daumawth"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "HUNTER",
+				["deaths"] = {
+				},
+			},
+			["Ampersand-Blackrock"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "SHAMAN",
+				["deaths"] = {
+				},
+			},
+			["Eskandar-Blackrock"] = {
+				["encounters"] = 3,
+				["points"] = 300,
+				["class"] = "WARRIOR",
+				["deaths"] = {
+				},
+			},
 		},
-		["diff"] = 14,
+		["diff"] = 15,
 	},
 }
 DeathGraphsDBCurrent = {
 	{
 		["deaths"] = {
 			{
-				["maxhealth"] = 30400,
-				["timeofdeath"] = 204.3090000000084,
-				["name"] = "Parzivál-Mal'Ganis",
+				["maxhealth"] = 43746,
+				["timeofdeath"] = 63.46499999985099,
+				["name"] = "Johnnyc-Area52",
 				["events"] = {
 					{
-						2, -- [1]
-						20484, -- [2]
-						1, -- [3]
-						1613094928.033, -- [4]
-						0, -- [5]
-						"Sendmoons", -- [6]
+						true, -- [1]
+						348054, -- [2]
+						4043, -- [3]
+						1627707331.622, -- [4]
+						41883, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [1]
 					{
 						false, -- [1]
+						183811, -- [2]
+						181, -- [3]
+						1627707332.128, -- [4]
+						42064, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
 						143924, -- [2]
-						10, -- [3]
-						1613094820.883, -- [4]
-						27790, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						110, -- [3]
+						1627707332.207, -- [4]
+						42174, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						143924, -- [2]
+						15, -- [3]
+						1627707340.316, -- [4]
+						42189, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						143924, -- [2]
+						95, -- [3]
+						1627707341.535, -- [4]
+						42284, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						31, -- [3]
+						1627707342.743, -- [4]
+						42315, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						143924, -- [2]
+						33, -- [3]
+						1627707344.786, -- [4]
+						42348, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						49, -- [3]
+						1627707346.013, -- [4]
+						42397, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						337137, -- [2]
+						4024, -- [3]
+						1627707346.717, -- [4]
+						45926, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						235450, -- [2]
+						10060, -- [3]
+						1627707346.717, -- [4]
+						45926, -- [5]
+						"Johnnyc-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						true, -- [1]
+						350847, -- [2]
+						10702, -- [3]
+						1627707346.717, -- [4]
+						45284, -- [5]
+						"Eye of the Jailer", -- [6]
+						10060, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						357945, -- [2]
+						1856, -- [3]
+						1627707346.735, -- [4]
+						45926, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						true, -- [1]
+						349028, -- [2]
+						11107, -- [3]
+						1627707358.269, -- [4]
+						34819, -- [5]
+						"Eye of the Jailer", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						357945, -- [2]
+						1855, -- [3]
+						1627707358.294, -- [4]
+						36674, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						83, -- [3]
+						1627707359.026, -- [4]
+						36757, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						true, -- [1]
+						350453, -- [2]
+						24709, -- [3]
+						1627707359.64, -- [4]
+						12048, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						143924, -- [2]
+						113, -- [3]
+						1627707360.23, -- [4]
+						12161, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						120, -- [3]
+						1627707361.442, -- [4]
+						12281, -- [5]
+						"Johnnyc-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						true, -- [1]
+						350453, -- [2]
+						23249, -- [3]
+						1627707362.104, -- [4]
+						1, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						10968, -- [10]
+					}, -- [19]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Johnnyc-Area52", -- [6]
+					}, -- [20]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "1m 3s",
+				["time"] = 1627707362.104,
+			}, -- [1]
+			{
+				["maxhealth"] = 40280,
+				["timeofdeath"] = 90.90500000002794,
+				["name"] = "Cindrell-Tichondrius",
+				["events"] = {
+					{
+						2, -- [1]
+						95750, -- [2]
+						1, -- [3]
+						1627707441.831, -- [4]
+						0, -- [5]
+						"Gartonn-Area52", -- [6]
+					}, -- [1]
+					{
+						false, -- [1]
+						325118, -- [2]
+						81, -- [3]
+						1627707370.286, -- [4]
+						33331, -- [5]
+						"Côntra-Velen", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1645,79 +2351,75 @@ DeathGraphsDBCurrent = {
 					}, -- [2]
 					{
 						false, -- [1]
-						207386, -- [2]
-						147, -- [3]
-						1613094821.429, -- [4]
-						27937, -- [5]
-						"Sendmoons", -- [6]
+						143924, -- [2]
+						243, -- [3]
+						1627707370.338, -- [4]
+						33574, -- [5]
+						"Cindrell-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [3]
 					{
 						false, -- [1]
-						191840, -- [2]
-						87, -- [3]
-						1613094821.455, -- [4]
-						28024, -- [5]
-						"Coasting", -- [6]
+						143924, -- [2]
+						116, -- [3]
+						1627707371.559, -- [4]
+						33690, -- [5]
+						"Cindrell-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [4]
 					{
 						false, -- [1]
-						143924, -- [2]
-						1607, -- [3]
-						1613094822.105, -- [4]
-						29631, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						325118, -- [2]
+						81, -- [3]
+						1627707371.57, -- [4]
+						33771, -- [5]
+						"Côntra-Velen", -- [6]
 						nil, -- [7]
 						0, -- [8]
-					}, -- [5]
-					{
-						true, -- [1]
-						334932, -- [2]
-						4440, -- [3]
-						1613094822.658, -- [4]
-						25191, -- [5]
-						"Hecutis", -- [6]
-						nil, -- [7]
-						8, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						277, -- [3]
+						1627707372.787, -- [4]
+						34048, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [6]
 					{
 						false, -- [1]
-						191840, -- [2]
-						87, -- [3]
-						1613094823.314, -- [4]
-						25278, -- [5]
-						"Coasting", -- [6]
+						325118, -- [2]
+						80, -- [3]
+						1627707374.35, -- [4]
+						34128, -- [5]
+						"Côntra-Velen", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
 						143924, -- [2]
-						2005, -- [3]
-						1613094823.323, -- [4]
-						27283, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						47, -- [3]
+						1627707374.398, -- [4]
+						34175, -- [5]
+						"Cindrell-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						207386, -- [2]
-						148, -- [3]
-						1613094823.417, -- [4]
-						27431, -- [5]
-						"Sendmoons", -- [6]
+						143924, -- [2]
+						296, -- [3]
+						1627707375.614, -- [4]
+						34471, -- [5]
+						"Cindrell-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1725,55 +2427,449 @@ DeathGraphsDBCurrent = {
 					}, -- [9]
 					{
 						false, -- [1]
-						157503, -- [2]
-						61, -- [3]
-						1613094823.485, -- [4]
-						27492, -- [5]
-						"Ampersand-Blackrock", -- [6]
+						325118, -- [2]
+						81, -- [3]
+						1627707375.614, -- [4]
+						34552, -- [5]
+						"Côntra-Velen", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [10]
 					{
-						true, -- [1]
-						334932, -- [2]
-						4440, -- [3]
-						1613094823.653, -- [4]
-						23052, -- [5]
-						"Hecutis", -- [6]
+						false, -- [1]
+						143924, -- [2]
+						351, -- [3]
+						1627707376.832, -- [4]
+						34903, -- [5]
+						"Cindrell-Tichondrius", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [11]
 					{
 						false, -- [1]
-						143924, -- [2]
-						4921, -- [3]
-						1613094824.537, -- [4]
-						27973, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						325118, -- [2]
+						81, -- [3]
+						1627707376.917, -- [4]
+						34984, -- [5]
+						"Côntra-Velen", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [12]
 					{
 						false, -- [1]
-						191840, -- [2]
-						87, -- [3]
-						1613094825.166, -- [4]
-						28060, -- [5]
-						"Coasting", -- [6]
+						143924, -- [2]
+						246, -- [3]
+						1627707378.039, -- [4]
+						35230, -- [5]
+						"Cindrell-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [13]
 					{
 						false, -- [1]
+						325118, -- [2]
+						81, -- [3]
+						1627707379.403, -- [4]
+						35311, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						127802, -- [2]
+						505, -- [3]
+						1627707379.415, -- [4]
+						35816, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
 						143924, -- [2]
-						1088, -- [3]
-						1613094825.739, -- [4]
-						29148, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						333, -- [3]
+						1627707379.672, -- [4]
+						36149, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						143924, -- [2]
+						305, -- [3]
+						1627707380.891, -- [4]
+						36454, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						4, -- [1]
+						351827, -- [2]
+						1, -- [3]
+						1627707381.343, -- [4]
+						36454, -- [5]
+						"Deathseeker Eye", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						356305, -- [2]
+						2333, -- [3]
+						1627707381.343, -- [4]
+						36454, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [19]
+					{
+						true, -- [1]
+						351827, -- [2]
+						2333, -- [3]
+						1627707381.343, -- [4]
+						36454, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						356305, -- [2]
+						1034, -- [3]
+						1627707382.337, -- [4]
+						36454, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						true, -- [1]
+						351827, -- [2]
+						2333, -- [3]
+						1627707382.337, -- [4]
+						35155, -- [5]
+						"Deathseeker Eye", -- [6]
+						1034, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						56, -- [3]
+						1627707383.322, -- [4]
+						35211, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						true, -- [1]
+						351827, -- [2]
+						2333, -- [3]
+						1627707383.341, -- [4]
+						32878, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						true, -- [1]
+						351827, -- [2]
+						2332, -- [3]
+						1627707384.357, -- [4]
+						30546, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						143924, -- [2]
+						137, -- [3]
+						1627707384.536, -- [4]
+						30683, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						true, -- [1]
+						351827, -- [2]
+						2333, -- [3]
+						1627707385.35, -- [4]
+						28350, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						143924, -- [2]
+						57, -- [3]
+						1627707385.758, -- [4]
+						28407, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						false, -- [1]
+						356305, -- [2]
+						700, -- [3]
+						1627707386.341, -- [4]
+						28407, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						337299, -- [2]
+						1633, -- [3]
+						1627707386.35, -- [4]
+						28407, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [30]
+					{
+						true, -- [1]
+						351827, -- [2]
+						2333, -- [3]
+						1627707386.35, -- [4]
+						28407, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						4, -- [1]
+						350809, -- [2]
+						1, -- [3]
+						1627707386.542, -- [4]
+						28407, -- [5]
+						"Eye of the Jailer", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [32]
+					{
+						false, -- [1]
+						11426, -- [2]
+						0, -- [3]
+						1627707389.535, -- [4]
+						28407, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [33]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+					}, -- [34]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "1m 30s",
+				["time"] = 1627707389.544,
+			}, -- [2]
+			{
+				["maxhealth"] = 75560,
+				["timeofdeath"] = 164.3269999998156,
+				["name"] = "Holysteel-Area52",
+				["events"] = {
+					{
+						2, -- [1]
+						20484, -- [2]
+						1, -- [3]
+						1627707606.681, -- [4]
+						0, -- [5]
+						"Frayà-Tichondrius", -- [6]
+					}, -- [1]
+					{
+						false, -- [1]
+						325118, -- [2]
+						81, -- [3]
+						1627707436.92, -- [4]
+						73099, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						61295, -- [2]
+						198, -- [3]
+						1627707437.913, -- [4]
+						73297, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1387, -- [3]
+						1627707438.844, -- [4]
+						74684, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						325118, -- [2]
+						162, -- [3]
+						1627707439.022, -- [4]
+						74846, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						183811, -- [2]
+						244, -- [3]
+						1627707439.022, -- [4]
+						75090, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						183811, -- [2]
+						482, -- [3]
+						1627707439.043, -- [4]
+						75572, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						77472, -- [2]
+						9360, -- [3]
+						1627707439.35, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						338788, -- [2]
+						3811, -- [3]
+						1627707439.81, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						350803, -- [2]
+						11951, -- [3]
+						1627707439.81, -- [4]
+						71200, -- [5]
+						"Eye of the Jailer", -- [6]
+						3811, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						379, -- [2]
+						925, -- [3]
+						1627707439.835, -- [4]
+						72125, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						325118, -- [2]
+						81, -- [3]
+						1627707441.155, -- [4]
+						72206, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						61295, -- [2]
+						698, -- [3]
+						1627707441.561, -- [4]
+						72904, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						8936, -- [2]
+						7446, -- [3]
+						1627707442.098, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1782,10 +2878,10 @@ DeathGraphsDBCurrent = {
 					{
 						false, -- [1]
 						225311, -- [2]
-						2420, -- [3]
-						1613094826.799, -- [4]
-						31568, -- [5]
-						"Kred", -- [6]
+						3639, -- [3]
+						1627707442.8, -- [4]
+						79340, -- [5]
+						"Litebright-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1793,21 +2889,23 @@ DeathGraphsDBCurrent = {
 					}, -- [15]
 					{
 						false, -- [1]
-						143924, -- [2]
-						141, -- [3]
-						1613094826.951, -- [4]
-						31709, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						8936, -- [2]
+						263, -- [3]
+						1627707443.829, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						191840, -- [2]
-						87, -- [3]
-						1613094827.004, -- [4]
-						31796, -- [5]
-						"Coasting", -- [6]
+						61295, -- [2]
+						665, -- [3]
+						1627707444.286, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1815,43 +2913,45 @@ DeathGraphsDBCurrent = {
 					}, -- [17]
 					{
 						false, -- [1]
-						143924, -- [2]
-						3626, -- [3]
-						1613094828.166, -- [4]
-						31920, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						8936, -- [2]
+						525, -- [3]
+						1627707445.565, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [18]
 					{
 						false, -- [1]
-						191840, -- [2]
-						87, -- [3]
-						1613094828.878, -- [4]
-						31920, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [19]
-					{
-						false, -- [1]
-						81269, -- [2]
-						416, -- [3]
-						1613094830.468, -- [4]
-						31920, -- [5]
-						"Sendmoons", -- [6]
+						61295, -- [2]
+						665, -- [3]
+						1627707447.012, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						8936, -- [2]
+						262, -- [3]
+						1627707447.3, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
 					}, -- [20]
 					{
 						false, -- [1]
-						207386, -- [2]
-						142, -- [3]
-						1613094832.489, -- [4]
-						31920, -- [5]
-						"Sendmoons", -- [6]
+						8936, -- [2]
+						263, -- [3]
+						1627707449.044, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1859,59 +2959,59 @@ DeathGraphsDBCurrent = {
 					}, -- [21]
 					{
 						false, -- [1]
-						207386, -- [2]
-						146, -- [3]
-						1613094834.49, -- [4]
-						31920, -- [5]
-						"Sendmoons", -- [6]
+						61295, -- [2]
+						665, -- [3]
+						1627707449.729, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [22]
 					{
-						4, -- [1]
-						335113, -- [2]
-						1, -- [3]
-						1613094834.506, -- [4]
-						31920, -- [5]
-						"Huntsman Altimor", -- [6]
-						false, -- [7]
-						false, -- [8]
+						false, -- [1]
+						8936, -- [2]
+						262, -- [3]
+						1627707450.778, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						207386, -- [2]
-						154, -- [3]
-						1613094836.489, -- [4]
-						31920, -- [5]
-						"Sendmoons", -- [6]
+						61295, -- [2]
+						1330, -- [3]
+						1627707452.469, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [24]
 					{
-						true, -- [1]
-						334932, -- [2]
-						4440, -- [3]
-						1613094837.665, -- [4]
-						27480, -- [5]
-						"Hecutis", -- [6]
+						false, -- [1]
+						8936, -- [2]
+						262, -- [3]
+						1627707452.511, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
 						nil, -- [7]
-						8, -- [8]
+						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [25]
 					{
 						false, -- [1]
-						143924, -- [2]
-						6, -- [3]
-						1613094837.882, -- [4]
-						27486, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						8936, -- [2]
+						239, -- [3]
+						1627707454.093, -- [4]
+						79340, -- [5]
+						"Frayà-Tichondrius", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -1919,932 +3019,132 @@ DeathGraphsDBCurrent = {
 					}, -- [26]
 					{
 						false, -- [1]
-						143924, -- [2]
-						6, -- [3]
-						1613094839.085, -- [4]
-						27492, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						61295, -- [2]
+						401, -- [3]
+						1627707454.111, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [27]
 					{
-						true, -- [1]
-						334932, -- [2]
-						4440, -- [3]
-						1613094839.659, -- [4]
-						23052, -- [5]
-						"Hecutis", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						4, -- [1]
+						352474, -- [2]
+						1, -- [3]
+						1627707458.736, -- [4]
+						79340, -- [5]
+						"[*] Grapple!", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [28]
 					{
 						4, -- [1]
-						335304, -- [2]
+						350763, -- [2]
 						1, -- [3]
-						1613094840.511, -- [4]
-						23052, -- [5]
-						"Huntsman Altimor", -- [6]
+						1627707459.635, -- [4]
+						79340, -- [5]
+						"Eye of the Jailer", -- [6]
 						false, -- [7]
 						false, -- [8]
 						false, -- [9]
 						false, -- [10]
 					}, -- [29]
 					{
-						true, -- [1]
-						335116, -- [2]
-						14801, -- [3]
-						1613094840.616, -- [4]
-						8251, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
+						false, -- [1]
+						327225, -- [2]
+						7635, -- [3]
+						1627707459.635, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [30]
 					{
 						true, -- [1]
-						334932, -- [2]
-						4440, -- [3]
-						1613094840.66, -- [4]
-						3811, -- [5]
-						"Hecutis", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						350763, -- [2]
+						35423, -- [3]
+						1627707459.635, -- [4]
+						51552, -- [5]
+						"Eye of the Jailer", -- [6]
+						7635, -- [7]
+						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [31]
 					{
 						false, -- [1]
-						143924, -- [2]
-						117, -- [3]
-						1613094841.116, -- [4]
-						3928, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						357945, -- [2]
+						3173, -- [3]
+						1627707459.646, -- [4]
+						54725, -- [5]
+						"Holysteel-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [32]
 					{
-						true, -- [1]
-						334932, -- [2]
-						4440, -- [3]
-						1613094841.656, -- [4]
-						1, -- [5]
-						"Hecutis", -- [6]
-						nil, -- [7]
-						8, -- [8]
+						4, -- [1]
+						351143, -- [2]
+						1, -- [3]
+						1627707462.867, -- [4]
+						54725, -- [5]
+						"Eye of the Jailer", -- [6]
+						false, -- [7]
+						false, -- [8]
 						false, -- [9]
-						512, -- [10]
+						false, -- [10]
 					}, -- [33]
 					{
 						3, -- [1]
-						184662, -- [2]
+						31850, -- [2]
 						1, -- [3]
-						1613094738.297, -- [4]
+						1627707435.284, -- [4]
 						0, -- [5]
-						"Parzivál-Mal'Ganis", -- [6]
+						"Holysteel-Area52", -- [6]
 					}, -- [34]
 				},
 				["class"] = "PALADIN",
-				["timestring"] = "3m 24s",
-				["time"] = 1613094841.683,
-			}, -- [1]
-		},
-		["bossname"] = "Huntsman Altimor",
-		["bossicon"] = {
-			0, -- [1]
-			1, -- [2]
-			0, -- [3]
-			1, -- [4]
-			3753151, -- [5]
-		},
-		["date"] = 145026.162,
-		["timeelapsed"] = 296.6820000000007,
-	}, -- [1]
-	{
-		["deaths"] = {
+				["timestring"] = "2m 44s",
+				["time"] = 1627707462.966,
+			}, -- [3]
 			{
-				["maxhealth"] = 39400,
-				["timeofdeath"] = 159.4459999999963,
-				["name"] = "Snurple",
-				["events"] = {
-					{
-						true, -- [1]
-						334708, -- [2]
-						3506, -- [3]
-						1613094396.904, -- [4]
-						23444, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						337101, -- [2]
-						215, -- [3]
-						1613094397.578, -- [4]
-						23659, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [2]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1637, -- [3]
-						1613094397.821, -- [4]
-						22022, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3507, -- [3]
-						1613094398.893, -- [4]
-						18515, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						183811, -- [2]
-						169, -- [3]
-						1613094398.972, -- [4]
-						18684, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						337101, -- [2]
-						215, -- [3]
-						1613094399.57, -- [4]
-						18899, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1637, -- [3]
-						1613094399.841, -- [4]
-						17262, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3507, -- [3]
-						1613094400.908, -- [4]
-						13755, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						337101, -- [2]
-						216, -- [3]
-						1613094401.553, -- [4]
-						13971, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [9]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1637, -- [3]
-						1613094401.817, -- [4]
-						12334, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						633, -- [2]
-						41380, -- [3]
-						1613094402.266, -- [4]
-						41380, -- [5]
-						"Snurple", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						1, -- [1]
-						633, -- [2]
-						1, -- [3]
-						1613094402.266, -- [4]
-						41380, -- [5]
-						"Snurple", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4002, -- [3]
-						1613094402.913, -- [4]
-						37378, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						337101, -- [2]
-						216, -- [3]
-						1613094403.544, -- [4]
-						37594, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1868, -- [3]
-						1613094403.819, -- [4]
-						35726, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4002, -- [3]
-						1613094404.893, -- [4]
-						31724, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1868, -- [3]
-						1613094405.825, -- [4]
-						29856, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						197997, -- [2]
-						3411, -- [3]
-						1613094406.197, -- [4]
-						33267, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [18]
-					{
-						false, -- [1]
-						114942, -- [2]
-						642, -- [3]
-						1613094406.685, -- [4]
-						33909, -- [5]
-						"Healing Tide Totem <Ampersand-Blackrock>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4002, -- [3]
-						1613094406.893, -- [4]
-						29907, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1868, -- [3]
-						1613094407.816, -- [4]
-						28039, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						114942, -- [2]
-						693, -- [3]
-						1613094408.575, -- [4]
-						28732, -- [5]
-						"Healing Tide Totem <Ampersand-Blackrock>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4002, -- [3]
-						1613094408.908, -- [4]
-						24730, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						4, -- [1]
-						335112, -- [2]
-						1, -- [3]
-						1613094409.905, -- [4]
-						24730, -- [5]
-						"Huntsman Altimor", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1382, -- [3]
-						1613094413.202, -- [4]
-						26112, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						333732, -- [2]
-						2456, -- [3]
-						1613094414.108, -- [4]
-						28568, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						334708, -- [2]
-						8808, -- [3]
-						1613094414.528, -- [4]
-						19760, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.552, -- [4]
-						19760, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						4, -- [1]
-						335304, -- [2]
-						1, -- [3]
-						1613094415.671, -- [4]
-						19760, -- [5]
-						"Huntsman Altimor", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						335116, -- [2]
-						12951, -- [3]
-						1613094416.037, -- [4]
-						6809, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4001, -- [3]
-						1613094416.54, -- [4]
-						2808, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						335304, -- [2]
-						4002, -- [3]
-						1613094417.677, -- [4]
-						1, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1194, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						633, -- [2]
-						1, -- [3]
-						1613094402.266, -- [4]
-						0, -- [5]
-						"Snurple", -- [6]
-					}, -- [33]
-				},
-				["class"] = "PALADIN",
-				["timestring"] = "2m 39s",
-				["time"] = 1613094417.755,
-			}, -- [1]
-			{
-				["maxhealth"] = 31997,
-				["timeofdeath"] = 162.3179999999993,
-				["name"] = "Sendmoons",
-				["events"] = {
-					{
-						false, -- [1]
-						321442, -- [2]
-						372, -- [3]
-						1613094406.685, -- [4]
-						27002, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4234, -- [3]
-						1613094406.915, -- [4]
-						22768, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						325209, -- [2]
-						304, -- [3]
-						1613094407.096, -- [4]
-						23072, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						143924, -- [2]
-						26, -- [3]
-						1613094407.128, -- [4]
-						23098, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						119611, -- [2]
-						346, -- [3]
-						1613094407.772, -- [4]
-						23444, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1971, -- [3]
-						1613094407.816, -- [4]
-						21473, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						143924, -- [2]
-						25, -- [3]
-						1613094408.34, -- [4]
-						21498, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						114942, -- [2]
-						683, -- [3]
-						1613094408.575, -- [4]
-						22181, -- [5]
-						"Healing Tide Totem <Ampersand-Blackrock>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4234, -- [3]
-						1613094408.908, -- [4]
-						17947, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1008, -- [3]
-						1613094409.33, -- [4]
-						18955, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						25, -- [3]
-						1613094409.553, -- [4]
-						18980, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						143924, -- [2]
-						25, -- [3]
-						1613094411.568, -- [4]
-						19005, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1613094413.202, -- [4]
-						19024, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						20407, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						333732, -- [2]
-						4315, -- [3]
-						1613094413.36, -- [4]
-						24722, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1008, -- [3]
-						1613094414.318, -- [4]
-						25730, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						false, -- [1]
-						143924, -- [2]
-						639, -- [3]
-						1613094414.408, -- [4]
-						26369, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						334708, -- [2]
-						9329, -- [3]
-						1613094414.528, -- [4]
-						17040, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.552, -- [4]
-						17040, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						143924, -- [2]
-						107, -- [3]
-						1613094415.634, -- [4]
-						17147, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4234, -- [3]
-						1613094416.56, -- [4]
-						12913, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						143924, -- [2]
-						347, -- [3]
-						1613094416.874, -- [4]
-						13260, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						79, -- [3]
-						1613094418.054, -- [4]
-						13339, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4234, -- [3]
-						1613094418.56, -- [4]
-						9105, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						33763, -- [2]
-						510, -- [3]
-						1613094418.948, -- [4]
-						9615, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						143924, -- [2]
-						72, -- [3]
-						1613094419.264, -- [4]
-						9687, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						145109, -- [2]
-						1009, -- [3]
-						1613094419.339, -- [4]
-						10696, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [27]
-					{
-						false, -- [1]
-						33763, -- [2]
-						243, -- [3]
-						1613094419.843, -- [4]
-						10939, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						73921, -- [2]
-						597, -- [3]
-						1613094420.245, -- [4]
-						11536, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						194, -- [3]
-						1613094420.49, -- [4]
-						11730, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4234, -- [3]
-						1613094420.546, -- [4]
-						7496, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334404, -- [2]
-						9325, -- [3]
-						1613094420.594, -- [4]
-						1, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						1829, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Sendmoons", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DRUID",
-				["timestring"] = "2m 42s",
-				["time"] = 1613094420.627,
-			}, -- [2]
-			{
-				["maxhealth"] = 31060,
-				["timeofdeath"] = 163.1050000000105,
+				["maxhealth"] = 44320,
+				["timeofdeath"] = 189.3389999999199,
 				["name"] = "Awaste",
 				["events"] = {
 					{
-						true, -- [1]
-						339639, -- [2]
-						1853, -- [3]
-						1613094407.816, -- [4]
-						7496, -- [5]
-						"Ripped Soul", -- [6]
-						123, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						false, -- [1]
+						183811, -- [2]
+						132, -- [3]
+						1627707463.481, -- [4]
+						44255, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [1]
 					{
 						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1613094407.829, -- [4]
-						7496, -- [5]
+						108447, -- [2]
+						76, -- [3]
+						1627707463.491, -- [4]
+						44331, -- [5]
 						"Awaste", -- [6]
-						true, -- [7]
+						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [2]
 					{
 						false, -- [1]
-						6262, -- [2]
-						9086, -- [3]
-						1613094408.247, -- [4]
-						16582, -- [5]
+						127802, -- [2]
+						522, -- [3]
+						1627707463.491, -- [4]
+						44853, -- [5]
 						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
@@ -2853,117 +3153,109 @@ DeathGraphsDBCurrent = {
 					}, -- [3]
 					{
 						false, -- [1]
-						114942, -- [2]
-						743, -- [3]
-						1613094408.575, -- [4]
-						17325, -- [5]
-						"Healing Tide Totem <Ampersand-Blackrock>", -- [6]
+						143924, -- [2]
+						61, -- [3]
+						1627707463.601, -- [4]
+						44914, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [4]
 					{
 						false, -- [1]
-						108366, -- [2]
-						52, -- [3]
-						1613094408.908, -- [4]
-						17325, -- [5]
-						"Awaste", -- [6]
-						true, -- [7]
+						145110, -- [2]
+						1830, -- [3]
+						1627707464.381, -- [4]
+						46540, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [5]
 					{
-						true, -- [1]
-						334708, -- [2]
-						4233, -- [3]
-						1613094408.908, -- [4]
-						13144, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						52, -- [7]
-						32, -- [8]
+						false, -- [1]
+						325983, -- [2]
+						768, -- [3]
+						1627707469.623, -- [4]
+						46540, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [6]
 					{
 						false, -- [1]
-						108366, -- [2]
-						0, -- [3]
-						1613094408.908, -- [4]
-						13144, -- [5]
-						"Awaste", -- [6]
-						true, -- [7]
+						325983, -- [2]
+						756, -- [3]
+						1627707475.081, -- [4]
+						46540, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [7]
 					{
 						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						14527, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
+						337824, -- [2]
+						1405, -- [3]
+						1627707475.876, -- [4]
+						46540, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [8]
 					{
 						false, -- [1]
-						48438, -- [2]
-						302, -- [3]
-						1613094414.152, -- [4]
-						14829, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
 						108366, -- [2]
-						419, -- [3]
-						1613094414.528, -- [4]
-						14829, -- [5]
+						2305, -- [3]
+						1627707475.876, -- [4]
+						46540, -- [5]
 						"Awaste", -- [6]
 						true, -- [7]
 						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
+					}, -- [9]
 					{
 						true, -- [1]
-						334708, -- [2]
-						8738, -- [3]
-						1613094414.528, -- [4]
-						6510, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						419, -- [7]
+						348054, -- [2]
+						3710, -- [3]
+						1627707475.876, -- [4]
+						46540, -- [5]
+						"Deathseeker Eye", -- [6]
+						nil, -- [7]
 						32, -- [8]
 						false, -- [9]
 						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						108366, -- [2]
+						2349, -- [3]
+						1627707475.937, -- [4]
+						46540, -- [5]
+						"Awaste", -- [6]
+						true, -- [7]
+						0, -- [8]
 					}, -- [11]
 					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.552, -- [4]
-						6510, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
+						true, -- [1]
+						351155, -- [2]
+						6271, -- [3]
+						1627707475.937, -- [4]
+						43402, -- [5]
+						"Eye of the Jailer", -- [6]
+						3133, -- [7]
+						32, -- [8]
 						false, -- [9]
-						false, -- [10]
+						-1, -- [10]
 					}, -- [12]
 					{
 						false, -- [1]
-						48438, -- [2]
-						286, -- [3]
-						1613094415.045, -- [4]
-						6796, -- [5]
-						"Sendmoons", -- [6]
+						108447, -- [2]
+						6, -- [3]
+						1627707476.1, -- [4]
+						43408, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -2971,137 +3263,137 @@ DeathGraphsDBCurrent = {
 					}, -- [13]
 					{
 						false, -- [1]
-						48438, -- [2]
-						271, -- [3]
-						1613094415.928, -- [4]
-						7067, -- [5]
-						"Sendmoons", -- [6]
+						183811, -- [2]
+						137, -- [3]
+						1627707476.306, -- [4]
+						43545, -- [5]
+						"Litebright-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
 					}, -- [14]
 					{
 						false, -- [1]
-						108366, -- [2]
-						194, -- [3]
-						1613094416.54, -- [4]
-						7067, -- [5]
+						143924, -- [2]
+						23, -- [3]
+						1627707476.57, -- [4]
+						43568, -- [5]
 						"Awaste", -- [6]
-						true, -- [7]
+						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [15]
 					{
-						true, -- [1]
-						334708, -- [2]
-						4233, -- [3]
-						1613094416.54, -- [4]
-						3028, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						194, -- [7]
-						32, -- [8]
+						false, -- [1]
+						108447, -- [2]
+						45, -- [3]
+						1627707477.106, -- [4]
+						43613, -- [5]
+						"Awaste", -- [6]
+						nil, -- [7]
+						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
 					}, -- [16]
 					{
 						false, -- [1]
-						8936, -- [2]
-						3428, -- [3]
-						1613094416.712, -- [4]
-						6456, -- [5]
-						"Sendmoons", -- [6]
+						183811, -- [2]
+						138, -- [3]
+						1627707477.923, -- [4]
+						43751, -- [5]
+						"Litebright-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [17]
 					{
 						false, -- [1]
-						48438, -- [2]
-						277, -- [3]
-						1613094416.818, -- [4]
-						6733, -- [5]
-						"Sendmoons", -- [6]
+						183811, -- [2]
+						142, -- [3]
+						1627707477.954, -- [4]
+						43893, -- [5]
+						"Litebright-Area52", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [18]
 					{
 						false, -- [1]
-						48438, -- [2]
-						259, -- [3]
-						1613094417.735, -- [4]
-						6992, -- [5]
-						"Sendmoons", -- [6]
+						108447, -- [2]
+						34, -- [3]
+						1627707478.11, -- [4]
+						43927, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [19]
 					{
 						false, -- [1]
-						127802, -- [2]
-						459, -- [3]
-						1613094418.252, -- [4]
-						7451, -- [5]
+						143924, -- [2]
+						29, -- [3]
+						1627707478.175, -- [4]
+						43956, -- [5]
+						"Awaste", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						false, -- [1]
+						183811, -- [2]
+						136, -- [3]
+						1627707478.782, -- [4]
+						44092, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						108447, -- [2]
+						47, -- [3]
+						1627707479.132, -- [4]
+						44139, -- [5]
+						"Awaste", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						23, -- [3]
+						1627707479.391, -- [4]
+						44162, -- [5]
 						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
 						false, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						8936, -- [2]
-						308, -- [3]
-						1613094418.492, -- [4]
-						7759, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						108366, -- [2]
-						189, -- [3]
-						1613094418.543, -- [4]
-						7759, -- [5]
-						"Awaste", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [22]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4233, -- [3]
-						1613094418.543, -- [4]
-						3715, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						189, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [23]
 					{
 						false, -- [1]
-						48438, -- [2]
-						242, -- [3]
-						1613094418.605, -- [4]
-						3957, -- [5]
-						"Sendmoons", -- [6]
+						127802, -- [2]
+						522, -- [3]
+						1627707479.867, -- [4]
+						44684, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						true, -- [9]
+						-1, -- [10]
 					}, -- [24]
 					{
 						false, -- [1]
-						48438, -- [2]
-						214, -- [3]
-						1613094419.48, -- [4]
-						4171, -- [5]
-						"Sendmoons", -- [6]
+						108447, -- [2]
+						57, -- [3]
+						1627707480.117, -- [4]
+						44741, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
@@ -3109,85 +3401,81 @@ DeathGraphsDBCurrent = {
 					}, -- [25]
 					{
 						false, -- [1]
-						48438, -- [2]
-						171, -- [3]
-						1613094420.264, -- [4]
-						4342, -- [5]
-						"Sendmoons", -- [6]
+						143924, -- [2]
+						30, -- [3]
+						1627707480.604, -- [4]
+						44771, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
+						true, -- [9]
 						-1, -- [10]
 					}, -- [26]
 					{
 						false, -- [1]
-						8936, -- [2]
-						269, -- [3]
-						1613094420.286, -- [4]
-						4611, -- [5]
-						"Sendmoons", -- [6]
+						108447, -- [2]
+						22, -- [3]
+						1627707481.123, -- [4]
+						44793, -- [5]
+						"Awaste", -- [6]
 						nil, -- [7]
 						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
 					}, -- [27]
 					{
 						false, -- [1]
-						108366, -- [2]
-						196, -- [3]
-						1613094420.531, -- [4]
-						4611, -- [5]
-						"Awaste", -- [6]
-						true, -- [7]
+						325983, -- [2]
+						753, -- [3]
+						1627707481.557, -- [4]
+						45546, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
 						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
 					}, -- [28]
 					{
-						true, -- [1]
-						334708, -- [2]
-						4233, -- [3]
-						1613094420.531, -- [4]
-						574, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						196, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
+						false, -- [1]
+						108447, -- [2]
+						27, -- [3]
+						1627707482.134, -- [4]
+						45573, -- [5]
+						"Awaste", -- [6]
+						nil, -- [7]
+						0, -- [8]
 					}, -- [29]
 					{
 						false, -- [1]
-						108366, -- [2]
-						29, -- [3]
-						1613094421.395, -- [4]
-						574, -- [5]
+						143924, -- [2]
+						33, -- [3]
+						1627707482.229, -- [4]
+						45606, -- [5]
 						"Awaste", -- [6]
-						true, -- [7]
+						nil, -- [7]
 						0, -- [8]
 						false, -- [9]
-						-1, -- [10]
+						false, -- [10]
 					}, -- [30]
+					{
+						false, -- [1]
+						108447, -- [2]
+						34, -- [3]
+						1627707483.129, -- [4]
+						45640, -- [5]
+						"Awaste", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [31]
 					{
 						false, -- [1]
 						108366, -- [2]
 						0, -- [3]
-						1613094421.395, -- [4]
-						574, -- [5]
+						1627707487.961, -- [4]
+						45640, -- [5]
 						"Awaste", -- [6]
 						true, -- [7]
 						0, -- [8]
 						false, -- [9]
 						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1853, -- [3]
-						1613094421.414, -- [4]
-						1, -- [5]
-						"Ripped Soul", -- [6]
-						29, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1250, -- [10]
 					}, -- [32]
 					{
 						3, -- [1]
@@ -3199,2793 +3487,3378 @@ DeathGraphsDBCurrent = {
 					}, -- [33]
 				},
 				["class"] = "WARLOCK",
-				["timestring"] = "2m 43s",
-				["time"] = 1613094421.414,
-			}, -- [3]
-			{
-				["maxhealth"] = 35120,
-				["timeofdeath"] = 165.0929999999935,
-				["name"] = "Nickdonalds-Blackrock",
-				["events"] = {
-					{
-						false, -- [1]
-						6262, -- [2]
-						10477, -- [3]
-						1613094408.794, -- [4]
-						13286, -- [5]
-						"Nickdonalds-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						334708, -- [2]
-						2826, -- [3]
-						1613094408.908, -- [4]
-						10460, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						85673, -- [2]
-						6703, -- [3]
-						1613094409.142, -- [4]
-						17163, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						119611, -- [2]
-						877, -- [3]
-						1613094409.878, -- [4]
-						18040, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						345364, -- [2]
-						828, -- [3]
-						1613094410.446, -- [4]
-						18868, -- [5]
-						"Nickdonalds-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						119611, -- [2]
-						439, -- [3]
-						1613094411.751, -- [4]
-						19307, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						183811, -- [2]
-						325, -- [3]
-						1613094412.452, -- [4]
-						19446, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						183811, -- [2]
-						318, -- [3]
-						1613094412.637, -- [4]
-						19764, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						21147, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						119611, -- [2]
-						439, -- [3]
-						1613094413.579, -- [4]
-						21586, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						183811, -- [2]
-						173, -- [3]
-						1613094413.675, -- [4]
-						21759, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						183811, -- [2]
-						167, -- [3]
-						1613094413.981, -- [4]
-						21926, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						183811, -- [2]
-						173, -- [3]
-						1613094414.439, -- [4]
-						22099, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						334708, -- [2]
-						5933, -- [3]
-						1613094414.528, -- [4]
-						16166, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.528, -- [4]
-						16166, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						183811, -- [2]
-						331, -- [3]
-						1613094415.089, -- [4]
-						16497, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						116670, -- [2]
-						4867, -- [3]
-						1613094415.089, -- [4]
-						21364, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [17]
-					{
-						false, -- [1]
-						183811, -- [2]
-						172, -- [3]
-						1613094415.141, -- [4]
-						21536, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						183811, -- [2]
-						170, -- [3]
-						1613094415.186, -- [4]
-						21706, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						119611, -- [2]
-						438, -- [3]
-						1613094415.433, -- [4]
-						22144, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						334708, -- [2]
-						2823, -- [3]
-						1613094416.54, -- [4]
-						19321, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						119611, -- [2]
-						439, -- [3]
-						1613094417.305, -- [4]
-						19760, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						15290, -- [2]
-						309, -- [3]
-						1613094417.755, -- [4]
-						20069, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3528, -- [3]
-						1613094418.543, -- [4]
-						16541, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						345364, -- [2]
-						830, -- [3]
-						1613094418.686, -- [4]
-						17371, -- [5]
-						"Nickdonalds-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						119611, -- [2]
-						346, -- [3]
-						1613094418.754, -- [4]
-						17717, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3528, -- [3]
-						1613094420.531, -- [4]
-						14013, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						334404, -- [2]
-						8984, -- [3]
-						1613094420.594, -- [4]
-						5029, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1575, -- [3]
-						1613094421.414, -- [4]
-						3454, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						15290, -- [2]
-						1576, -- [3]
-						1613094422.241, -- [4]
-						5030, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3532, -- [3]
-						1613094422.539, -- [4]
-						1498, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1573, -- [3]
-						1613094423.402, -- [4]
-						1, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						75, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						198589, -- [2]
-						1, -- [3]
-						1613094407.76, -- [4]
-						0, -- [5]
-						"Nickdonalds-Blackrock", -- [6]
-					}, -- [33]
-				},
-				["class"] = "DEMONHUNTER",
-				["timestring"] = "2m 45s",
-				["time"] = 1613094423.402,
+				["timestring"] = "3m 9s",
+				["time"] = 1627707487.978,
 			}, -- [4]
-			{
-				["maxhealth"] = 30420,
-				["timeofdeath"] = 165.0929999999935,
-				["name"] = "Ampersand-Blackrock",
-				["events"] = {
-					{
-						true, -- [1]
-						339639, -- [2]
-						1980, -- [3]
-						1613094407.816, -- [4]
-						8795, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						114942, -- [2]
-						819, -- [3]
-						1613094408.575, -- [4]
-						9614, -- [5]
-						"Healing Tide Totem <Ampersand-Blackrock>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4243, -- [3]
-						1613094408.908, -- [4]
-						5371, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						61295, -- [2]
-						4090, -- [3]
-						1613094410.305, -- [4]
-						9461, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1015, -- [3]
-						1613094413.089, -- [4]
-						10476, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						11859, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						8004, -- [2]
-						10895, -- [3]
-						1613094413.561, -- [4]
-						22754, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						303, -- [3]
-						1613094414.152, -- [4]
-						23057, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						334708, -- [2]
-						9340, -- [3]
-						1613094414.528, -- [4]
-						13717, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.528, -- [4]
-						13717, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						48438, -- [2]
-						287, -- [3]
-						1613094415.045, -- [4]
-						14004, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						false, -- [1]
-						48438, -- [2]
-						270, -- [3]
-						1613094415.928, -- [4]
-						14274, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						61295, -- [2]
-						477, -- [3]
-						1613094415.938, -- [4]
-						14751, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4243, -- [3]
-						1613094416.54, -- [4]
-						10508, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						774, -- [2]
-						557, -- [3]
-						1613094416.741, -- [4]
-						11065, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						48438, -- [2]
-						277, -- [3]
-						1613094416.818, -- [4]
-						11342, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						48438, -- [2]
-						518, -- [3]
-						1613094417.735, -- [4]
-						11860, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4244, -- [3]
-						1613094418.543, -- [4]
-						7616, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						48438, -- [2]
-						241, -- [3]
-						1613094418.605, -- [4]
-						7857, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						61295, -- [2]
-						1036, -- [3]
-						1613094418.807, -- [4]
-						8893, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						774, -- [2]
-						1114, -- [3]
-						1613094419.42, -- [4]
-						10007, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						48438, -- [2]
-						213, -- [3]
-						1613094419.48, -- [4]
-						10220, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						15290, -- [2]
-						3180, -- [3]
-						1613094420.245, -- [4]
-						13400, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						48438, -- [2]
-						170, -- [3]
-						1613094420.264, -- [4]
-						13570, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4243, -- [3]
-						1613094420.531, -- [4]
-						9327, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						31616, -- [2]
-						6388, -- [3]
-						1613094420.546, -- [4]
-						15715, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						334404, -- [2]
-						9336, -- [3]
-						1613094420.594, -- [4]
-						6379, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1980, -- [3]
-						1613094421.414, -- [4]
-						4399, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						61295, -- [2]
-						541, -- [3]
-						1613094421.655, -- [4]
-						4940, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						774, -- [2]
-						478, -- [3]
-						1613094422.099, -- [4]
-						5418, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4243, -- [3]
-						1613094422.539, -- [4]
-						1175, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1980, -- [3]
-						1613094423.402, -- [4]
-						1, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						805, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						108271, -- [2]
-						1, -- [3]
-						1613094353.108, -- [4]
-						0, -- [5]
-						"Ampersand-Blackrock", -- [6]
-					}, -- [33]
-				},
-				["class"] = "SHAMAN",
-				["timestring"] = "2m 45s",
-				["time"] = 1613094423.402,
-			}, -- [5]
-			{
-				["maxhealth"] = 61996,
-				["timeofdeath"] = 166.2479999999923,
-				["name"] = "Eskandar-Blackrock",
-				["events"] = {
-					{
-						true, -- [1]
-						334708, -- [2]
-						3415, -- [3]
-						1613094408.908, -- [4]
-						38863, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						347214, -- [2]
-						68, -- [3]
-						1613094410.735, -- [4]
-						38931, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						40314, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						347214, -- [2]
-						68, -- [3]
-						1613094413.752, -- [4]
-						40382, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						true, -- [1]
-						334708, -- [2]
-						7516, -- [3]
-						1613094414.528, -- [4]
-						32866, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.528, -- [4]
-						32866, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						183811, -- [2]
-						169, -- [3]
-						1613094414.615, -- [4]
-						33035, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						324202, -- [2]
-						281, -- [3]
-						1613094415.117, -- [4]
-						33316, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						347214, -- [2]
-						136, -- [3]
-						1613094415.736, -- [4]
-						33452, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						316643, -- [2]
-						1302, -- [3]
-						1613094415.787, -- [4]
-						34754, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4269, -- [3]
-						1613094416.54, -- [4]
-						30485, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						347214, -- [2]
-						67, -- [3]
-						1613094417.735, -- [4]
-						30552, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						316643, -- [2]
-						1302, -- [3]
-						1613094418.187, -- [4]
-						31854, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4268, -- [3]
-						1613094418.543, -- [4]
-						27586, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						347214, -- [2]
-						68, -- [3]
-						1613094418.743, -- [4]
-						27654, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						335016, -- [2]
-						10682, -- [3]
-						1613094419.575, -- [4]
-						16972, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						347214, -- [2]
-						68, -- [3]
-						1613094419.737, -- [4]
-						17040, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						316643, -- [2]
-						2604, -- [3]
-						1613094420.033, -- [4]
-						19644, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						190456, -- [2]
-						2134, -- [3]
-						1613094420.531, -- [4]
-						19644, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4269, -- [3]
-						1613094420.531, -- [4]
-						17509, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						2134, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						347214, -- [2]
-						68, -- [3]
-						1613094420.743, -- [4]
-						17577, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						190456, -- [2]
-						996, -- [3]
-						1613094421.414, -- [4]
-						17577, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1993, -- [3]
-						1613094421.414, -- [4]
-						16580, -- [5]
-						"Ripped Soul", -- [6]
-						996, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						61295, -- [2]
-						3984, -- [3]
-						1613094422.519, -- [4]
-						20564, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						190456, -- [2]
-						2134, -- [3]
-						1613094422.539, -- [4]
-						20564, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4269, -- [3]
-						1613094422.539, -- [4]
-						18429, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						2134, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						347214, -- [2]
-						135, -- [3]
-						1613094422.744, -- [4]
-						18564, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						190456, -- [2]
-						2214, -- [3]
-						1613094423.116, -- [4]
-						18564, -- [5]
-						"Eskandar-Blackrock", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						335016, -- [2]
-						16607, -- [3]
-						1613094423.116, -- [4]
-						4171, -- [5]
-						"Huntsman Altimor", -- [6]
-						2214, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1992, -- [3]
-						1613094423.402, -- [4]
-						2179, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						15290, -- [2]
-						819, -- [3]
-						1613094424.246, -- [4]
-						2998, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4268, -- [3]
-						1613094424.557, -- [4]
-						1, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1270, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						12975, -- [2]
-						1, -- [3]
-						1613094303.265, -- [4]
-						0, -- [5]
-						"Eskandar-Blackrock", -- [6]
-					}, -- [33]
-				},
-				["class"] = "WARRIOR",
-				["timestring"] = "2m 46s",
-				["time"] = 1613094424.557,
-			}, -- [6]
-			{
-				["maxhealth"] = 37100,
-				["timeofdeath"] = 167.1030000000028,
-				["name"] = "Orkhand",
-				["events"] = {
-					{
-						false, -- [1]
-						325209, -- [2]
-						304, -- [3]
-						1613094407.07, -- [4]
-						12787, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1628, -- [3]
-						1613094407.816, -- [4]
-						11159, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						114942, -- [2]
-						796, -- [3]
-						1613094408.575, -- [4]
-						11955, -- [5]
-						"Healing Tide Totem <Ampersand-Blackrock>", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [3]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3489, -- [3]
-						1613094408.908, -- [4]
-						8466, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						9849, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [5]
-					{
-						false, -- [1]
-						337137, -- [2]
-						2496, -- [3]
-						1613094414.528, -- [4]
-						12345, -- [5]
-						"Orkhand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						235313, -- [2]
-						7680, -- [3]
-						1613094414.528, -- [4]
-						12345, -- [5]
-						"Orkhand", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						true, -- [1]
-						334708, -- [2]
-						7680, -- [3]
-						1613094414.528, -- [4]
-						12345, -- [5]
-						"Shade of Bargast <Bargast> <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.552, -- [4]
-						12345, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						337137, -- [2]
-						230, -- [3]
-						1613094416.54, -- [4]
-						12575, -- [5]
-						"Orkhand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [10]
-					{
-						false, -- [1]
-						235313, -- [2]
-						708, -- [3]
-						1613094416.54, -- [4]
-						12575, -- [5]
-						"Orkhand", -- [6]
-						true, -- [7]
-						0, -- [8]
-					}, -- [11]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3489, -- [3]
-						1613094416.54, -- [4]
-						9794, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						708, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						false, -- [1]
-						15290, -- [2]
-						541, -- [3]
-						1613094416.751, -- [4]
-						10335, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3489, -- [3]
-						1613094418.543, -- [4]
-						6846, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						115175, -- [2]
-						1073, -- [3]
-						1613094420.264, -- [4]
-						7919, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [15]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3489, -- [3]
-						1613094420.531, -- [4]
-						4430, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						false, -- [1]
-						87023, -- [2]
-						9206, -- [3]
-						1613094420.594, -- [4]
-						13636, -- [5]
-						"Orkhand", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						86949, -- [2]
-						7676, -- [3]
-						1613094420.594, -- [4]
-						13636, -- [5]
-						"Orkhand", -- [6]
-						true, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						334404, -- [2]
-						7676, -- [3]
-						1613094420.594, -- [4]
-						13636, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						191894, -- [2]
-						1994, -- [3]
-						1613094420.743, -- [4]
-						15630, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						339639, -- [2]
-						2036, -- [3]
-						1613094421.414, -- [4]
-						13594, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						true, -- [1]
-						87023, -- [2]
-						2545, -- [3]
-						1613094422.116, -- [4]
-						11049, -- [5]
-						"Orkhand", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4361, -- [3]
-						1613094422.539, -- [4]
-						6688, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						false, -- [1]
-						119611, -- [2]
-						439, -- [3]
-						1613094422.58, -- [4]
-						7127, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						15290, -- [2]
-						2346, -- [3]
-						1613094422.766, -- [4]
-						9473, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						true, -- [1]
-						339639, -- [2]
-						2035, -- [3]
-						1613094423.381, -- [4]
-						7438, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						87023, -- [2]
-						2545, -- [3]
-						1613094423.604, -- [4]
-						4893, -- [5]
-						"Orkhand", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						119611, -- [2]
-						439, -- [3]
-						1613094424.437, -- [4]
-						5332, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						116670, -- [2]
-						2481, -- [3]
-						1613094424.487, -- [4]
-						7813, -- [5]
-						"Coasting", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4362, -- [3]
-						1613094424.557, -- [4]
-						3451, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						87023, -- [2]
-						2545, -- [3]
-						1613094425.099, -- [4]
-						906, -- [5]
-						"Orkhand", -- [6]
-						nil, -- [7]
-						4, -- [8]
-						true, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						339639, -- [2]
-						2036, -- [3]
-						1613094425.401, -- [4]
-						1, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						1130, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Orkhand", -- [6]
-					}, -- [33]
-				},
-				["class"] = "MAGE",
-				["timestring"] = "2m 47s",
-				["time"] = 1613094425.412,
-			}, -- [7]
-			{
-				["maxhealth"] = 32860,
-				["timeofdeath"] = 168.2700000000186,
-				["name"] = "Evale",
-				["events"] = {
-					{
-						false, -- [1]
-						196608, -- [2]
-						158, -- [3]
-						1613094410.599, -- [4]
-						18715, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [1]
-					{
-						false, -- [1]
-						325983, -- [2]
-						848, -- [3]
-						1613094410.67, -- [4]
-						19563, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						183811, -- [2]
-						158, -- [3]
-						1613094412.31, -- [4]
-						19721, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						196608, -- [2]
-						159, -- [3]
-						1613094412.608, -- [4]
-						19880, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						183811, -- [2]
-						170, -- [3]
-						1613094412.78, -- [4]
-						20050, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						183811, -- [2]
-						332, -- [3]
-						1613094412.855, -- [4]
-						20382, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [6]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						21765, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						183811, -- [2]
-						165, -- [3]
-						1613094413.333, -- [4]
-						21930, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						false, -- [1]
-						183811, -- [2]
-						172, -- [3]
-						1613094413.806, -- [4]
-						22102, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						183811, -- [2]
-						168, -- [3]
-						1613094414.282, -- [4]
-						22270, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						183811, -- [2]
-						166, -- [3]
-						1613094414.439, -- [4]
-						22436, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						true, -- [1]
-						334708, -- [2]
-						9234, -- [3]
-						1613094414.528, -- [4]
-						13202, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [12]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.552, -- [4]
-						13202, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [13]
-					{
-						false, -- [1]
-						196608, -- [2]
-						152, -- [3]
-						1613094414.615, -- [4]
-						13354, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [14]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4196, -- [3]
-						1613094416.56, -- [4]
-						9158, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						196608, -- [2]
-						152, -- [3]
-						1613094416.609, -- [4]
-						9310, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4196, -- [3]
-						1613094418.56, -- [4]
-						5114, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						196608, -- [2]
-						152, -- [3]
-						1613094418.605, -- [4]
-						5266, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4195, -- [3]
-						1613094420.546, -- [4]
-						1071, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						false, -- [1]
-						196608, -- [2]
-						152, -- [3]
-						1613094420.627, -- [4]
-						1223, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						1, -- [1]
-						243435, -- [2]
-						1, -- [3]
-						1613094420.733, -- [4]
-						1223, -- [5]
-						"Evale", -- [6]
-						755, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						325983, -- [2]
-						899, -- [3]
-						1613094420.886, -- [4]
-						2305, -- [5]
-						"Kred", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [22]
-					{
-						1, -- [1]
-						122783, -- [2]
-						1, -- [3]
-						1613094421.135, -- [4]
-						2305, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [23]
-					{
-						true, -- [1]
-						339639, -- [2]
-						666, -- [3]
-						1613094421.395, -- [4]
-						1639, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						322101, -- [2]
-						3144, -- [3]
-						1613094421.636, -- [4]
-						4783, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [25]
-					{
-						true, -- [1]
-						334708, -- [2]
-						1426, -- [3]
-						1613094422.539, -- [4]
-						3357, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						false, -- [1]
-						196608, -- [2]
-						153, -- [3]
-						1613094422.611, -- [4]
-						3510, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						339639, -- [2]
-						666, -- [3]
-						1613094423.381, -- [4]
-						2844, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						334708, -- [2]
-						1426, -- [3]
-						1613094424.557, -- [4]
-						1418, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						196608, -- [2]
-						152, -- [3]
-						1613094424.605, -- [4]
-						1570, -- [5]
-						"Evale", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						true, -- [1]
-						339639, -- [2]
-						665, -- [3]
-						1613094425.401, -- [4]
-						905, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334708, -- [2]
-						1427, -- [3]
-						1613094426.579, -- [4]
-						1, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						522, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						122783, -- [2]
-						1, -- [3]
-						1613094421.135, -- [4]
-						0, -- [5]
-						"Evale", -- [6]
-					}, -- [33]
-				},
-				["class"] = "MONK",
-				["timestring"] = "2m 48s",
-				["time"] = 1613094426.579,
-			}, -- [8]
-			{
-				["maxhealth"] = 36480,
-				["timeofdeath"] = 169.7900000000082,
-				["name"] = "Missteak",
-				["events"] = {
-					{
-						false, -- [1]
-						34914, -- [2]
-						348, -- [3]
-						1613094413.172, -- [4]
-						27969, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						false, -- [1]
-						157503, -- [2]
-						1383, -- [3]
-						1613094413.202, -- [4]
-						29352, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						34914, -- [2]
-						318, -- [3]
-						1613094413.998, -- [4]
-						29670, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						true, -- [1]
-						334708, -- [2]
-						9494, -- [3]
-						1613094414.528, -- [4]
-						20176, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						4, -- [1]
-						334708, -- [2]
-						1, -- [3]
-						1613094414.552, -- [4]
-						20176, -- [5]
-						"Shade of Bargast", -- [6]
-						false, -- [7]
-						false, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						335467, -- [2]
-						854, -- [3]
-						1613094415.239, -- [4]
-						21030, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						false, -- [1]
-						34914, -- [2]
-						348, -- [3]
-						1613094415.625, -- [4]
-						21378, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						34914, -- [2]
-						318, -- [3]
-						1613094416.449, -- [4]
-						21696, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [8]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4313, -- [3]
-						1613094416.54, -- [4]
-						17383, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						false, -- [1]
-						335467, -- [2]
-						854, -- [3]
-						1613094417.755, -- [4]
-						18237, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						335467, -- [2]
-						1028, -- [3]
-						1613094417.755, -- [4]
-						19265, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						34914, -- [2]
-						348, -- [3]
-						1613094418.081, -- [4]
-						19613, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						15290, -- [2]
-						8350, -- [3]
-						1613094418.252, -- [4]
-						27963, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4313, -- [3]
-						1613094418.56, -- [4]
-						23650, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						false, -- [1]
-						34914, -- [2]
-						288, -- [3]
-						1613094418.906, -- [4]
-						23938, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						335467, -- [2]
-						1007, -- [3]
-						1613094420.138, -- [4]
-						24945, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [16]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4314, -- [3]
-						1613094420.546, -- [4]
-						20631, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						34914, -- [2]
-						348, -- [3]
-						1613094420.546, -- [4]
-						20979, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						34914, -- [2]
-						287, -- [3]
-						1613094421.365, -- [4]
-						21266, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						339639, -- [2]
-						2013, -- [3]
-						1613094421.395, -- [4]
-						19253, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4313, -- [3]
-						1613094422.539, -- [4]
-						14940, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						335467, -- [2]
-						1008, -- [3]
-						1613094422.611, -- [4]
-						15948, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						34914, -- [2]
-						332, -- [3]
-						1613094422.994, -- [4]
-						16280, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						339639, -- [2]
-						2013, -- [3]
-						1613094423.381, -- [4]
-						14267, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						false, -- [1]
-						34914, -- [2]
-						256, -- [3]
-						1613094423.661, -- [4]
-						14523, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						335467, -- [2]
-						420, -- [3]
-						1613094423.699, -- [4]
-						14943, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [26]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4313, -- [3]
-						1613094424.557, -- [4]
-						10630, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						true, -- [1]
-						339639, -- [2]
-						2013, -- [3]
-						1613094425.401, -- [4]
-						8617, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [28]
-					{
-						false, -- [1]
-						34914, -- [2]
-						303, -- [3]
-						1613094425.466, -- [4]
-						8920, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [29]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4313, -- [3]
-						1613094426.542, -- [4]
-						4607, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [30]
-					{
-						false, -- [1]
-						34914, -- [2]
-						303, -- [3]
-						1613094427.93, -- [4]
-						4910, -- [5]
-						"Missteak", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [31]
-					{
-						true, -- [1]
-						32409, -- [2]
-						5802, -- [3]
-						1613094428.074, -- [4]
-						1, -- [5]
-						"[*] Shadow Word: Death", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						892, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						0, -- [2]
-						0, -- [3]
-						0, -- [4]
-						0, -- [5]
-						"Missteak", -- [6]
-					}, -- [33]
-				},
-				["class"] = "PRIEST",
-				["timestring"] = "2m 49s",
-				["time"] = 1613094428.099,
-			}, -- [9]
-			{
-				["maxhealth"] = 38587,
-				["timeofdeath"] = 170.247000000003,
-				["name"] = "Daumawth",
-				["events"] = {
-					{
-						false, -- [1]
-						6262, -- [2]
-						10729, -- [3]
-						1613094416.37, -- [4]
-						24030, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [1]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4400, -- [3]
-						1613094416.56, -- [4]
-						19630, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [2]
-					{
-						false, -- [1]
-						48438, -- [2]
-						254, -- [3]
-						1613094416.818, -- [4]
-						19884, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [3]
-					{
-						false, -- [1]
-						143924, -- [2]
-						3, -- [3]
-						1613094417.251, -- [4]
-						19887, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [4]
-					{
-						false, -- [1]
-						48438, -- [2]
-						237, -- [3]
-						1613094417.735, -- [4]
-						20124, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [5]
-					{
-						false, -- [1]
-						143924, -- [2]
-						116, -- [3]
-						1613094418.451, -- [4]
-						20240, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [6]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4399, -- [3]
-						1613094418.56, -- [4]
-						15841, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [7]
-					{
-						false, -- [1]
-						48438, -- [2]
-						222, -- [3]
-						1613094418.605, -- [4]
-						16063, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [8]
-					{
-						false, -- [1]
-						48438, -- [2]
-						196, -- [3]
-						1613094419.48, -- [4]
-						16259, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [9]
-					{
-						1, -- [1]
-						281195, -- [2]
-						1, -- [3]
-						1613094419.545, -- [4]
-						16259, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [10]
-					{
-						false, -- [1]
-						143924, -- [2]
-						111, -- [3]
-						1613094419.668, -- [4]
-						16370, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [11]
-					{
-						false, -- [1]
-						73921, -- [2]
-						1194, -- [3]
-						1613094420.245, -- [4]
-						17564, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [12]
-					{
-						false, -- [1]
-						48438, -- [2]
-						156, -- [3]
-						1613094420.264, -- [4]
-						17720, -- [5]
-						"Sendmoons", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [13]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3520, -- [3]
-						1613094420.546, -- [4]
-						14200, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [14]
-					{
-						true, -- [1]
-						334404, -- [2]
-						7744, -- [3]
-						1613094420.594, -- [4]
-						6456, -- [5]
-						"Huntsman Altimor", -- [6]
-						nil, -- [7]
-						1, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [15]
-					{
-						false, -- [1]
-						143924, -- [2]
-						19, -- [3]
-						1613094420.886, -- [4]
-						6475, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [16]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1643, -- [3]
-						1613094421.395, -- [4]
-						4832, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [17]
-					{
-						false, -- [1]
-						143924, -- [2]
-						371, -- [3]
-						1613094422.099, -- [4]
-						5203, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [18]
-					{
-						false, -- [1]
-						73921, -- [2]
-						1339, -- [3]
-						1613094422.153, -- [4]
-						6542, -- [5]
-						"Ampersand-Blackrock", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [19]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3519, -- [3]
-						1613094422.539, -- [4]
-						3079, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [20]
-					{
-						false, -- [1]
-						345364, -- [2]
-						641, -- [3]
-						1613094422.766, -- [4]
-						3720, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [21]
-					{
-						false, -- [1]
-						307192, -- [2]
-						10595, -- [3]
-						1613094423.128, -- [4]
-						14283, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [22]
-					{
-						false, -- [1]
-						143924, -- [2]
-						244, -- [3]
-						1613094423.312, -- [4]
-						14527, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [23]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1643, -- [3]
-						1613094423.381, -- [4]
-						12884, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [24]
-					{
-						true, -- [1]
-						334708, -- [2]
-						3519, -- [3]
-						1613094424.557, -- [4]
-						9365, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [25]
-					{
-						false, -- [1]
-						143924, -- [2]
-						99, -- [3]
-						1613094424.914, -- [4]
-						9464, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [26]
-					{
-						true, -- [1]
-						339639, -- [2]
-						1643, -- [3]
-						1613094425.401, -- [4]
-						7821, -- [5]
-						"Ripped Soul", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [27]
-					{
-						false, -- [1]
-						143924, -- [2]
-						273, -- [3]
-						1613094426.143, -- [4]
-						8094, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						false, -- [10]
-					}, -- [28]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4400, -- [3]
-						1613094426.542, -- [4]
-						3694, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [29]
-					{
-						false, -- [1]
-						143924, -- [2]
-						24, -- [3]
-						1613094427.337, -- [4]
-						3718, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-					}, -- [30]
-					{
-						false, -- [1]
-						143924, -- [2]
-						134, -- [3]
-						1613094428.537, -- [4]
-						3852, -- [5]
-						"Daumawth", -- [6]
-						nil, -- [7]
-						0, -- [8]
-						false, -- [9]
-						-1, -- [10]
-					}, -- [31]
-					{
-						true, -- [1]
-						334708, -- [2]
-						4400, -- [3]
-						1613094428.556, -- [4]
-						1, -- [5]
-						"Shade of Bargast <Bargast>", -- [6]
-						nil, -- [7]
-						32, -- [8]
-						false, -- [9]
-						548, -- [10]
-					}, -- [32]
-					{
-						3, -- [1]
-						281195, -- [2]
-						1, -- [3]
-						1613094419.545, -- [4]
-						0, -- [5]
-						"Daumawth", -- [6]
-					}, -- [33]
-				},
-				["class"] = "HUNTER",
-				["timestring"] = "2m 50s",
-				["time"] = 1613094428.556,
-			}, -- [10]
 		},
-		["bossname"] = "Huntsman Altimor",
+		["bossname"] = "The Eye of the Jailer",
 		["bossicon"] = {
 			0, -- [1]
 			1, -- [2]
 			0, -- [3]
 			1, -- [4]
-			3753151, -- [5]
+			4071426, -- [5]
 		},
-		["date"] = 144537.844,
-		["timeelapsed"] = 187.9470000000147,
+		["date"] = 1465613.719,
+		["timeelapsed"] = 314.8530000001192,
+	}, -- [1]
+	{
+		["deaths"] = {
+			{
+				["maxhealth"] = 37660,
+				["timeofdeath"] = 33.89999999990687,
+				["name"] = "Pätula-Ragnaros",
+				["events"] = {
+					{
+						false, -- [1]
+						321442, -- [2]
+						422, -- [3]
+						1627706305.674, -- [4]
+						43601, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						61295, -- [2]
+						699, -- [3]
+						1627706306.136, -- [4]
+						44300, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						61295, -- [2]
+						918, -- [3]
+						1627706306.15, -- [4]
+						45218, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6465, -- [3]
+						1627706306.473, -- [4]
+						38753, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						321442, -- [2]
+						422, -- [3]
+						1627706307.554, -- [4]
+						39175, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						347975, -- [2]
+						2337, -- [3]
+						1627706307.833, -- [4]
+						41512, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6465, -- [3]
+						1627706308.49, -- [4]
+						35047, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						61295, -- [2]
+						536, -- [3]
+						1627706308.584, -- [4]
+						35583, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						61295, -- [2]
+						8510, -- [3]
+						1627706308.703, -- [4]
+						44093, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1036, -- [3]
+						1627706308.96, -- [4]
+						45129, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6465, -- [3]
+						1627706310.48, -- [4]
+						38664, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						61295, -- [2]
+						506, -- [3]
+						1627706311.03, -- [4]
+						39170, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						61295, -- [2]
+						540, -- [3]
+						1627706311.764, -- [4]
+						39710, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1297, -- [3]
+						1627706312.005, -- [4]
+						41007, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6465, -- [3]
+						1627706312.476, -- [4]
+						34542, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						347975, -- [2]
+						2337, -- [3]
+						1627706312.835, -- [4]
+						36879, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1042, -- [3]
+						1627706313.46, -- [4]
+						37921, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						73921, -- [2]
+						658, -- [3]
+						1627706313.89, -- [4]
+						38579, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						61295, -- [2]
+						401, -- [3]
+						1627706314.428, -- [4]
+						38980, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [19]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6465, -- [3]
+						1627706314.495, -- [4]
+						32515, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						61295, -- [2]
+						569, -- [3]
+						1627706314.608, -- [4]
+						33084, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1532, -- [3]
+						1627706315.767, -- [4]
+						34616, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						false, -- [1]
+						73921, -- [2]
+						855, -- [3]
+						1627706316.234, -- [4]
+						35471, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6464, -- [3]
+						1627706316.471, -- [4]
+						29007, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						357945, -- [2]
+						1794, -- [3]
+						1627706316.471, -- [4]
+						30801, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						149, -- [3]
+						1627706316.504, -- [4]
+						30950, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						false, -- [1]
+						61295, -- [2]
+						649, -- [3]
+						1627706317.391, -- [4]
+						31599, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [27]
+					{
+						false, -- [1]
+						347975, -- [2]
+						2336, -- [3]
+						1627706317.838, -- [4]
+						33935, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6465, -- [3]
+						1627706318.486, -- [4]
+						27470, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						340159, -- [2]
+						4228, -- [3]
+						1627706318.508, -- [4]
+						27470, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						157503, -- [2]
+						486, -- [3]
+						1627706318.508, -- [4]
+						27956, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						347737, -- [2]
+						50614, -- [3]
+						1627706318.524, -- [4]
+						1, -- [5]
+						"The Tarragrue", -- [6]
+						4228, -- [7]
+						32, -- [8]
+						false, -- [9]
+						18916, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Pätula-Ragnaros", -- [6]
+					}, -- [33]
+				},
+				["class"] = "SHAMAN",
+				["timestring"] = "0m 33s",
+				["time"] = 1627706318.549,
+			}, -- [1]
+			{
+				["maxhealth"] = 60802,
+				["timeofdeath"] = 43.88799999980256,
+				["name"] = "Chaoticmunky-Mal'Ganis",
+				["events"] = {
+					{
+						false, -- [1]
+						61295, -- [2]
+						467, -- [3]
+						1627706319.98, -- [4]
+						56100, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						false, -- [1]
+						8936, -- [2]
+						312, -- [3]
+						1627706320.283, -- [4]
+						56412, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						77220, -- [2]
+						708, -- [3]
+						1627706320.49, -- [4]
+						56412, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						108366, -- [2]
+						513, -- [3]
+						1627706320.49, -- [4]
+						56412, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						true, -- [1]
+						357431, -- [2]
+						7110, -- [3]
+						1627706320.49, -- [4]
+						50523, -- [5]
+						"The Tarragrue", -- [6]
+						1221, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						183811, -- [2]
+						186, -- [3]
+						1627706320.965, -- [4]
+						50709, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						340542, -- [2]
+						5317, -- [3]
+						1627706321.515, -- [4]
+						56026, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						8936, -- [2]
+						283, -- [3]
+						1627706321.852, -- [4]
+						56309, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						77220, -- [2]
+						741, -- [3]
+						1627706322.474, -- [4]
+						56309, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						108366, -- [2]
+						1977, -- [3]
+						1627706322.474, -- [4]
+						56309, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						true, -- [1]
+						357431, -- [2]
+						7110, -- [3]
+						1627706322.474, -- [4]
+						51917, -- [5]
+						"The Tarragrue", -- [6]
+						2718, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						61295, -- [2]
+						954, -- [3]
+						1627706322.8, -- [4]
+						52871, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						false, -- [1]
+						73921, -- [2]
+						773, -- [3]
+						1627706323.78, -- [4]
+						53644, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4998, -- [3]
+						1627706323.797, -- [4]
+						58642, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						77220, -- [2]
+						478, -- [3]
+						1627706324.501, -- [4]
+						58642, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						false, -- [1]
+						108366, -- [2]
+						136, -- [3]
+						1627706324.501, -- [4]
+						58642, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						true, -- [1]
+						357431, -- [2]
+						7110, -- [3]
+						1627706324.501, -- [4]
+						52146, -- [5]
+						"The Tarragrue", -- [6]
+						614, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						176, -- [3]
+						1627706325.367, -- [4]
+						52322, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						73921, -- [2]
+						777, -- [3]
+						1627706325.397, -- [4]
+						53099, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						61295, -- [2]
+						497, -- [3]
+						1627706325.595, -- [4]
+						53596, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						false, -- [1]
+						61295, -- [2]
+						641, -- [3]
+						1627706326.241, -- [4]
+						54237, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						77220, -- [2]
+						410, -- [3]
+						1627706326.467, -- [4]
+						54237, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						false, -- [1]
+						108366, -- [2]
+						441, -- [3]
+						1627706326.467, -- [4]
+						54237, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						true, -- [1]
+						357431, -- [2]
+						7110, -- [3]
+						1627706326.467, -- [4]
+						47978, -- [5]
+						"The Tarragrue", -- [6]
+						851, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						61295, -- [2]
+						206, -- [3]
+						1627706326.72, -- [4]
+						48184, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						852, -- [3]
+						1627706327.022, -- [4]
+						46482, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						true, -- [1]
+						111400, -- [2]
+						2226, -- [3]
+						1627706327.823, -- [4]
+						44256, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						294020, -- [2]
+						2995, -- [3]
+						1627706328.293, -- [4]
+						47251, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						77220, -- [2]
+						330, -- [3]
+						1627706328.48, -- [4]
+						47251, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						357431, -- [2]
+						7110, -- [3]
+						1627706328.48, -- [4]
+						40471, -- [5]
+						"The Tarragrue", -- [6]
+						330, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						77220, -- [2]
+						4312, -- [3]
+						1627706328.499, -- [4]
+						40471, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [31]
+					{
+						true, -- [1]
+						347737, -- [2]
+						51886, -- [3]
+						1627706328.518, -- [4]
+						1, -- [5]
+						"The Tarragrue", -- [6]
+						4312, -- [7]
+						32, -- [8]
+						false, -- [9]
+						7103, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Chaoticmunky-Mal'Ganis", -- [6]
+					}, -- [33]
+				},
+				["class"] = "WARLOCK",
+				["timestring"] = "0m 43s",
+				["time"] = 1627706328.537,
+			}, -- [2]
+			{
+				["maxhealth"] = 40200,
+				["timeofdeath"] = 43.92299999995157,
+				["name"] = "Meltedcouch-Illidan",
+				["events"] = {
+					{
+						false, -- [1]
+						325118, -- [2]
+						235, -- [3]
+						1627706304.46, -- [4]
+						39207, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6835, -- [3]
+						1627706304.472, -- [4]
+						32372, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						25914, -- [2]
+						7869, -- [3]
+						1627706306.066, -- [4]
+						40241, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						348050, -- [2]
+						3462, -- [3]
+						1627706306.258, -- [4]
+						42220, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						356257, -- [2]
+						308, -- [3]
+						1627706306.473, -- [4]
+						42220, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						337824, -- [2]
+						1573, -- [3]
+						1627706306.473, -- [4]
+						42220, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6835, -- [3]
+						1627706306.473, -- [4]
+						37266, -- [5]
+						"The Tarragrue", -- [6]
+						1881, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						183811, -- [2]
+						175, -- [3]
+						1627706307.664, -- [4]
+						37441, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						348050, -- [2]
+						1384, -- [3]
+						1627706308.248, -- [4]
+						38825, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6835, -- [3]
+						1627706308.49, -- [4]
+						31990, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						175, -- [3]
+						1627706308.866, -- [4]
+						32165, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						false, -- [1]
+						145110, -- [2]
+						2603, -- [3]
+						1627706309.38, -- [4]
+						34768, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						false, -- [1]
+						774, -- [2]
+						2125, -- [3]
+						1627706309.62, -- [4]
+						36893, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						348050, -- [2]
+						1385, -- [3]
+						1627706310.26, -- [4]
+						38278, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6834, -- [3]
+						1627706310.48, -- [4]
+						31444, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						348050, -- [2]
+						1385, -- [3]
+						1627706312.194, -- [4]
+						32829, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						774, -- [2]
+						1756, -- [3]
+						1627706312.231, -- [4]
+						34585, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						false, -- [1]
+						337824, -- [2]
+						1573, -- [3]
+						1627706312.476, -- [4]
+						34585, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6835, -- [3]
+						1627706312.476, -- [4]
+						29323, -- [5]
+						"The Tarragrue", -- [6]
+						1573, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						325983, -- [2]
+						905, -- [3]
+						1627706313.073, -- [4]
+						30228, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						false, -- [1]
+						348050, -- [2]
+						1385, -- [3]
+						1627706314.197, -- [4]
+						31613, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6835, -- [3]
+						1627706314.495, -- [4]
+						24778, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						774, -- [2]
+						1757, -- [3]
+						1627706314.841, -- [4]
+						26535, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						73921, -- [2]
+						919, -- [3]
+						1627706316.234, -- [4]
+						27454, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [24]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6835, -- [3]
+						1627706316.471, -- [4]
+						20619, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						73921, -- [2]
+						165, -- [3]
+						1627706316.504, -- [4]
+						20784, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						false, -- [1]
+						774, -- [2]
+						3512, -- [3]
+						1627706317.44, -- [4]
+						24296, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [27]
+					{
+						false, -- [1]
+						348050, -- [2]
+						1731, -- [3]
+						1627706318.138, -- [4]
+						26027, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						false, -- [1]
+						337824, -- [2]
+						1573, -- [3]
+						1627706318.486, -- [4]
+						26027, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						357431, -- [2]
+						6151, -- [3]
+						1627706318.486, -- [4]
+						21449, -- [5]
+						"The Tarragrue", -- [6]
+						1573, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						347737, -- [2]
+						48090, -- [3]
+						1627706318.524, -- [4]
+						21449, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						157503, -- [2]
+						486, -- [3]
+						1627706318.524, -- [4]
+						21935, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Meltedcouch-Illidan", -- [6]
+					}, -- [33]
+				},
+				["class"] = "SHAMAN",
+				["timestring"] = "0m 43s",
+				["time"] = 1627706328.572,
+			}, -- [3]
+			{
+				["maxhealth"] = 51540,
+				["timeofdeath"] = 53.89599999994971,
+				["name"] = "Côntra-Velen",
+				["events"] = {
+					{
+						2, -- [1]
+						95750, -- [2]
+						1, -- [3]
+						1627706576.479, -- [4]
+						0, -- [5]
+						"Gartonn-Area52", -- [6]
+					}, -- [1]
+					{
+						false, -- [1]
+						335467, -- [2]
+						2300, -- [3]
+						1627706306.861, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						335467, -- [2]
+						2300, -- [3]
+						1627706308.784, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						335467, -- [2]
+						2299, -- [3]
+						1627706310.704, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						335467, -- [2]
+						1950, -- [3]
+						1627706311.057, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						335467, -- [2]
+						2242, -- [3]
+						1627706313.125, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						335467, -- [2]
+						1457, -- [3]
+						1627706315.535, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1341, -- [3]
+						1627706315.767, -- [4]
+						54120, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						335467, -- [2]
+						721, -- [3]
+						1627706316.71, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						17, -- [2]
+						4339, -- [3]
+						1627706318.524, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						324867, -- [2]
+						23715, -- [3]
+						1627706318.524, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						true, -- [1]
+						347737, -- [2]
+						55528, -- [3]
+						1627706318.524, -- [4]
+						26646, -- [5]
+						"The Tarragrue", -- [6]
+						28054, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						357945, -- [2]
+						2029, -- [3]
+						1627706318.524, -- [4]
+						28675, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						false, -- [1]
+						157503, -- [2]
+						2904, -- [3]
+						1627706318.662, -- [4]
+						31579, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						347977, -- [2]
+						6225, -- [3]
+						1627706320.399, -- [4]
+						37804, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						false, -- [1]
+						34914, -- [2]
+						574, -- [3]
+						1627706320.713, -- [4]
+						38378, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						340542, -- [2]
+						5317, -- [3]
+						1627706321.515, -- [4]
+						43695, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						false, -- [1]
+						34914, -- [2]
+						546, -- [3]
+						1627706323.083, -- [4]
+						44241, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						73921, -- [2]
+						1566, -- [3]
+						1627706323.78, -- [4]
+						45807, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [19]
+					{
+						false, -- [1]
+						347977, -- [2]
+						6226, -- [3]
+						1627706324.218, -- [4]
+						52033, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						false, -- [1]
+						335467, -- [2]
+						1106, -- [3]
+						1627706325.314, -- [4]
+						53139, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						183811, -- [2]
+						171, -- [3]
+						1627706325.339, -- [4]
+						53310, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						false, -- [1]
+						73921, -- [2]
+						683, -- [3]
+						1627706325.397, -- [4]
+						53993, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						false, -- [1]
+						34914, -- [2]
+						621, -- [3]
+						1627706325.495, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [24]
+					{
+						false, -- [1]
+						335467, -- [2]
+						919, -- [3]
+						1627706327.707, -- [4]
+						54120, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						294020, -- [2]
+						1342, -- [3]
+						1627706328.293, -- [4]
+						54120, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						true, -- [1]
+						347737, -- [2]
+						55529, -- [3]
+						1627706328.518, -- [4]
+						54120, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						32, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Côntra-Velen", -- [6]
+					}, -- [28]
+				},
+				["class"] = "PRIEST",
+				["timestring"] = "0m 53s",
+				["time"] = 1627706338.545,
+			}, -- [4]
+			{
+				["maxhealth"] = 75560,
+				["timeofdeath"] = 317.9639999999199,
+				["name"] = "Holysteel-Area52",
+				["events"] = {
+					{
+						2, -- [1]
+						95750, -- [2]
+						1, -- [3]
+						1627706614.412, -- [4]
+						0, -- [5]
+						"Gartonn-Area52", -- [6]
+					}, -- [1]
+					{
+						false, -- [1]
+						317223, -- [2]
+						833, -- [3]
+						1627706581.719, -- [4]
+						79340, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						317223, -- [2]
+						842, -- [3]
+						1627706583.153, -- [4]
+						79340, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						61295, -- [2]
+						688, -- [3]
+						1627706583.62, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						317223, -- [2]
+						850, -- [3]
+						1627706584.556, -- [4]
+						79340, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						1, -- [2]
+						11832, -- [3]
+						1627706585.252, -- [4]
+						79340, -- [5]
+						"The Tarragrue", -- [6]
+						634, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						229976, -- [2]
+						634, -- [3]
+						1627706585.252, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						357945, -- [2]
+						3173, -- [3]
+						1627706585.263, -- [4]
+						71315, -- [5]
+						"Holysteel-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						379, -- [2]
+						1273, -- [3]
+						1627706585.3, -- [4]
+						72588, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						183811, -- [2]
+						162, -- [3]
+						1627706585.884, -- [4]
+						72750, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						317223, -- [2]
+						837, -- [3]
+						1627706585.993, -- [4]
+						73587, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						340214, -- [2]
+						542, -- [3]
+						1627706585.993, -- [4]
+						74129, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						61295, -- [2]
+						729, -- [3]
+						1627706586.049, -- [4]
+						74858, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						183811, -- [2]
+						335, -- [3]
+						1627706586.166, -- [4]
+						75193, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						85673, -- [2]
+						12476, -- [3]
+						1627706586.713, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [15]
+					{
+						true, -- [1]
+						1, -- [2]
+						12594, -- [3]
+						1627706586.761, -- [4]
+						79340, -- [5]
+						"The Tarragrue", -- [6]
+						3347, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						338788, -- [2]
+						1192, -- [3]
+						1627706586.761, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						false, -- [1]
+						327225, -- [2]
+						2155, -- [3]
+						1627706586.761, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						317223, -- [2]
+						1870, -- [3]
+						1627706587.424, -- [4]
+						71963, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						340214, -- [2]
+						575, -- [3]
+						1627706587.424, -- [4]
+						72538, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1142, -- [3]
+						1627706588.502, -- [4]
+						73680, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						317223, -- [2]
+						942, -- [3]
+						1627706588.844, -- [4]
+						74622, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						347788, -- [2]
+						1758, -- [3]
+						1627706589.181, -- [4]
+						76380, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						145110, -- [2]
+						2167, -- [3]
+						1627706589.364, -- [4]
+						78547, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						345689, -- [2]
+						3586, -- [3]
+						1627706589.986, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						345689, -- [2]
+						1793, -- [3]
+						1627706590.188, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						61295, -- [2]
+						688, -- [3]
+						1627706590.924, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						4, -- [1]
+						348314, -- [2]
+						1, -- [3]
+						1627706591.643, -- [4]
+						79340, -- [5]
+						"The Tarragrue", -- [6]
+						false, -- [7]
+						false, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						61295, -- [2]
+						687, -- [3]
+						1627706593.36, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						61295, -- [2]
+						687, -- [3]
+						1627706595.788, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						61295, -- [2]
+						271, -- [3]
+						1627706596.754, -- [4]
+						79340, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						true, -- [1]
+						1, -- [2]
+						126405, -- [3]
+						1627706602.57, -- [4]
+						79340, -- [5]
+						"The Tarragrue", -- [6]
+						644, -- [7]
+						1, -- [8]
+						false, -- [9]
+						46421, -- [10]
+					}, -- [32]
+					{
+						false, -- [1]
+						229976, -- [2]
+						644, -- [3]
+						1627706602.589, -- [4]
+						79340, -- [5]
+						"Holysteel-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [33]
+					{
+						3, -- [1]
+						31850, -- [2]
+						1, -- [3]
+						1627706465.278, -- [4]
+						0, -- [5]
+						"Holysteel-Area52", -- [6]
+					}, -- [34]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 17s",
+				["time"] = 1627706602.613,
+			}, -- [5]
+			{
+				["maxhealth"] = 42279,
+				["timeofdeath"] = 334.2289999998175,
+				["name"] = "Frayà-Tichondrius",
+				["events"] = {
+					{
+						false, -- [1]
+						53652, -- [2]
+						221, -- [3]
+						1627706612.001, -- [4]
+						74357, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						227034, -- [2]
+						44, -- [3]
+						1627706612.013, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						227034, -- [2]
+						24, -- [3]
+						1627706612.013, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						227034, -- [2]
+						22, -- [3]
+						1627706612.013, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						61295, -- [2]
+						578, -- [3]
+						1627706614.4, -- [4]
+						74357, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						227034, -- [2]
+						57, -- [3]
+						1627706614.412, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [6]
+					{
+						1, -- [1]
+						22812, -- [2]
+						1, -- [3]
+						1627706616.951, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						61295, -- [2]
+						579, -- [3]
+						1627706617.21, -- [4]
+						74357, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						227034, -- [2]
+						58, -- [3]
+						1627706617.221, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						true, -- [1]
+						1, -- [2]
+						90811, -- [3]
+						1627706617.356, -- [4]
+						74357, -- [5]
+						"The Tarragrue", -- [6]
+						30732, -- [7]
+						1, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						203953, -- [2]
+						118, -- [3]
+						1627706617.356, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						356257, -- [2]
+						319, -- [3]
+						1627706617.356, -- [4]
+						74357, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						337824, -- [2]
+						1356, -- [3]
+						1627706617.356, -- [4]
+						74357, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						345048, -- [2]
+						3192, -- [3]
+						1627706617.356, -- [4]
+						74357, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+					}, -- [14]
+					{
+						false, -- [1]
+						357945, -- [2]
+						2602, -- [3]
+						1627706617.37, -- [4]
+						16880, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						227034, -- [2]
+						260, -- [3]
+						1627706617.381, -- [4]
+						17140, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						379, -- [2]
+						1301, -- [3]
+						1627706617.391, -- [4]
+						18441, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						false, -- [1]
+						227034, -- [2]
+						129, -- [3]
+						1627706617.402, -- [4]
+						18570, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						1, -- [1]
+						61336, -- [2]
+						1, -- [3]
+						1627706617.823, -- [4]
+						17011, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [19]
+					{
+						false, -- [1]
+						53652, -- [2]
+						1666, -- [3]
+						1627706618.004, -- [4]
+						18677, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						227034, -- [2]
+						166, -- [3]
+						1627706618.014, -- [4]
+						18843, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						325983, -- [2]
+						792, -- [3]
+						1627706618.305, -- [4]
+						19635, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						227034, -- [2]
+						79, -- [3]
+						1627706618.315, -- [4]
+						19714, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						53652, -- [2]
+						219, -- [3]
+						1627706618.334, -- [4]
+						19933, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						53652, -- [2]
+						220, -- [3]
+						1627706618.334, -- [4]
+						20153, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						227034, -- [2]
+						22, -- [3]
+						1627706618.344, -- [4]
+						20175, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						227034, -- [2]
+						22, -- [3]
+						1627706618.344, -- [4]
+						20197, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						6262, -- [2]
+						20009, -- [3]
+						1627706618.477, -- [4]
+						40206, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						227034, -- [2]
+						1998, -- [3]
+						1627706618.488, -- [4]
+						42204, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						true, -- [1]
+						1, -- [2]
+						46452, -- [3]
+						1627706618.854, -- [4]
+						42204, -- [5]
+						"The Tarragrue", -- [6]
+						1474, -- [7]
+						1, -- [8]
+						false, -- [9]
+						2774, -- [10]
+					}, -- [30]
+					{
+						false, -- [1]
+						203953, -- [2]
+						118, -- [3]
+						1627706618.866, -- [4]
+						42204, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						337824, -- [2]
+						1356, -- [3]
+						1627706618.866, -- [4]
+						42204, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						61336, -- [2]
+						1, -- [3]
+						1627706617.823, -- [4]
+						0, -- [5]
+						"Frayà-Tichondrius", -- [6]
+					}, -- [33]
+				},
+				["class"] = "DRUID",
+				["timestring"] = "5m 34s",
+				["time"] = 1627706618.878,
+			}, -- [6]
+			{
+				["maxhealth"] = 40280,
+				["timeofdeath"] = 347.1669999998994,
+				["name"] = "Cindrell-Tichondrius",
+				["events"] = {
+					{
+						false, -- [1]
+						325118, -- [2]
+						94, -- [3]
+						1627706603.581, -- [4]
+						35034, -- [5]
+						"Côntra-Velen", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						143924, -- [2]
+						193, -- [3]
+						1627706603.796, -- [4]
+						35227, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						61295, -- [2]
+						606, -- [3]
+						1627706604.141, -- [4]
+						35833, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						127802, -- [2]
+						528, -- [3]
+						1627706604.718, -- [4]
+						36361, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						143924, -- [2]
+						460, -- [3]
+						1627706605.028, -- [4]
+						36821, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						false, -- [1]
+						143924, -- [2]
+						421, -- [3]
+						1627706606.237, -- [4]
+						37242, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						61295, -- [2]
+						591, -- [3]
+						1627706606.875, -- [4]
+						37833, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						61295, -- [2]
+						543, -- [3]
+						1627706609.396, -- [4]
+						38376, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						183811, -- [2]
+						134, -- [3]
+						1627706609.944, -- [4]
+						38510, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						143924, -- [2]
+						144, -- [3]
+						1627706610.301, -- [4]
+						38654, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						183811, -- [2]
+						267, -- [3]
+						1627706611.457, -- [4]
+						38921, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						143924, -- [2]
+						79, -- [3]
+						1627706611.503, -- [4]
+						39000, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						183811, -- [2]
+						139, -- [3]
+						1627706612.473, -- [4]
+						39139, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						183811, -- [2]
+						137, -- [3]
+						1627706612.665, -- [4]
+						39276, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						133, -- [3]
+						1627706612.717, -- [4]
+						39409, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						183811, -- [2]
+						137, -- [3]
+						1627706612.867, -- [4]
+						39546, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						183811, -- [2]
+						294, -- [3]
+						1627706613.314, -- [4]
+						39840, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						143924, -- [2]
+						345, -- [3]
+						1627706613.935, -- [4]
+						40185, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						183811, -- [2]
+						149, -- [3]
+						1627706614.207, -- [4]
+						40334, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						143924, -- [2]
+						400, -- [3]
+						1627706615.146, -- [4]
+						40734, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [20]
+					{
+						false, -- [1]
+						183811, -- [2]
+						151, -- [3]
+						1627706617.144, -- [4]
+						40885, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						183811, -- [2]
+						156, -- [3]
+						1627706617.144, -- [4]
+						41041, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						143924, -- [2]
+						118, -- [3]
+						1627706617.179, -- [4]
+						41159, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						183811, -- [2]
+						156, -- [3]
+						1627706618.499, -- [4]
+						41315, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						false, -- [1]
+						143924, -- [2]
+						294, -- [3]
+						1627706618.808, -- [4]
+						41609, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [25]
+					{
+						false, -- [1]
+						183811, -- [2]
+						159, -- [3]
+						1627706619.648, -- [4]
+						41768, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [26]
+					{
+						false, -- [1]
+						183811, -- [2]
+						160, -- [3]
+						1627706619.771, -- [4]
+						41928, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [27]
+					{
+						false, -- [1]
+						294020, -- [2]
+						2000, -- [3]
+						1627706619.771, -- [4]
+						42280, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [28]
+					{
+						false, -- [1]
+						127802, -- [2]
+						1056, -- [3]
+						1627706621.151, -- [4]
+						42280, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [29]
+					{
+						false, -- [1]
+						114083, -- [2]
+						207, -- [3]
+						1627706621.788, -- [4]
+						42280, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [30]
+					{
+						true, -- [1]
+						1, -- [2]
+						220908, -- [3]
+						1627706631.786, -- [4]
+						42280, -- [5]
+						"The Tarragrue", -- [6]
+						3367, -- [7]
+						1, -- [8]
+						false, -- [9]
+						175261, -- [10]
+					}, -- [31]
+					{
+						false, -- [1]
+						356305, -- [2]
+						3367, -- [3]
+						1627706631.786, -- [4]
+						42280, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						0, -- [2]
+						0, -- [3]
+						0, -- [4]
+						0, -- [5]
+						"Cindrell-Tichondrius", -- [6]
+					}, -- [33]
+				},
+				["class"] = "MAGE",
+				["timestring"] = "5m 47s",
+				["time"] = 1627706631.816,
+			}, -- [7]
+			{
+				["maxhealth"] = 41060,
+				["timeofdeath"] = 350.8259999998845,
+				["name"] = "Litebright-Area52",
+				["events"] = {
+					{
+						false, -- [1]
+						157503, -- [2]
+						4340, -- [3]
+						1627706603.796, -- [4]
+						43100, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						1, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1627706606.818, -- [4]
+						43100, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						73921, -- [2]
+						525, -- [3]
+						1627706613.59, -- [4]
+						43100, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [3]
+					{
+						false, -- [1]
+						355735, -- [2]
+						1850, -- [3]
+						1627706617.37, -- [4]
+						43100, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						356305, -- [2]
+						5050, -- [3]
+						1627706617.37, -- [4]
+						43100, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						6940, -- [2]
+						19310, -- [3]
+						1627706617.37, -- [4]
+						30690, -- [5]
+						"Frayà-Tichondrius", -- [6]
+						6900, -- [7]
+						2, -- [8]
+						true, -- [9]
+						-1, -- [10]
+					}, -- [6]
+					{
+						false, -- [1]
+						357945, -- [2]
+						1508, -- [3]
+						1627706617.381, -- [4]
+						32198, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [7]
+					{
+						false, -- [1]
+						143924, -- [2]
+						52, -- [3]
+						1627706617.59, -- [4]
+						32250, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [8]
+					{
+						false, -- [1]
+						143924, -- [2]
+						347, -- [3]
+						1627706618.808, -- [4]
+						32597, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [9]
+					{
+						false, -- [1]
+						294020, -- [2]
+						4504, -- [3]
+						1627706619.771, -- [4]
+						37101, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [10]
+					{
+						false, -- [1]
+						143924, -- [2]
+						19, -- [3]
+						1627706620.032, -- [4]
+						37120, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [11]
+					{
+						false, -- [1]
+						114083, -- [2]
+						207, -- [3]
+						1627706621.788, -- [4]
+						37327, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [12]
+					{
+						false, -- [1]
+						143924, -- [2]
+						205, -- [3]
+						1627706623.271, -- [4]
+						37532, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [13]
+					{
+						false, -- [1]
+						183811, -- [2]
+						217, -- [3]
+						1627706623.388, -- [4]
+						37749, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [14]
+					{
+						false, -- [1]
+						143924, -- [2]
+						92, -- [3]
+						1627706624.478, -- [4]
+						37841, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [15]
+					{
+						false, -- [1]
+						183811, -- [2]
+						219, -- [3]
+						1627706625.122, -- [4]
+						38060, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [16]
+					{
+						false, -- [1]
+						143924, -- [2]
+						119, -- [3]
+						1627706625.689, -- [4]
+						38179, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						false, -- [10]
+					}, -- [17]
+					{
+						false, -- [1]
+						183811, -- [2]
+						367, -- [3]
+						1627706630.262, -- [4]
+						38546, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [18]
+					{
+						false, -- [1]
+						143924, -- [2]
+						82, -- [3]
+						1627706630.588, -- [4]
+						38628, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [19]
+					{
+						false, -- [1]
+						157503, -- [2]
+						27346, -- [3]
+						1627706630.588, -- [4]
+						43100, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [20]
+					{
+						true, -- [1]
+						1, -- [2]
+						152975, -- [3]
+						1627706635.449, -- [4]
+						43100, -- [5]
+						"The Tarragrue", -- [6]
+						5594, -- [7]
+						1, -- [8]
+						false, -- [9]
+						104281, -- [10]
+					}, -- [21]
+					{
+						false, -- [1]
+						355735, -- [2]
+						954, -- [3]
+						1627706635.449, -- [4]
+						43100, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [22]
+					{
+						false, -- [1]
+						338788, -- [2]
+						1495, -- [3]
+						1627706635.449, -- [4]
+						43100, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [23]
+					{
+						false, -- [1]
+						356305, -- [2]
+						3145, -- [3]
+						1627706635.449, -- [4]
+						43100, -- [5]
+						"Litebright-Area52", -- [6]
+						true, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [24]
+					{
+						3, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1627706606.818, -- [4]
+						0, -- [5]
+						"Litebright-Area52", -- [6]
+					}, -- [25]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 50s",
+				["time"] = 1627706635.475,
+			}, -- [8]
+			{
+				["maxhealth"] = 75560,
+				["timeofdeath"] = 356.1659999999683,
+				["name"] = "Holysteel-Area52",
+				["events"] = {
+					{
+						false, -- [1]
+						61295, -- [2]
+						9453, -- [3]
+						1627706618.054, -- [4]
+						71375, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [1]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4364, -- [3]
+						1627706618.22, -- [4]
+						75739, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [2]
+					{
+						false, -- [1]
+						61295, -- [2]
+						1092, -- [3]
+						1627706619.635, -- [4]
+						76830, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						294020, -- [2]
+						2087, -- [3]
+						1627706619.771, -- [4]
+						78917, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [4]
+					{
+						false, -- [1]
+						61295, -- [2]
+						543, -- [3]
+						1627706620.78, -- [4]
+						79460, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [5]
+					{
+						false, -- [1]
+						61295, -- [2]
+						537, -- [3]
+						1627706622.445, -- [4]
+						79997, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [6]
+					{
+						false, -- [1]
+						8004, -- [2]
+						6084, -- [3]
+						1627706622.593, -- [4]
+						86081, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [7]
+					{
+						false, -- [1]
+						82326, -- [2]
+						4887, -- [3]
+						1627706622.964, -- [4]
+						87274, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [8]
+					{
+						false, -- [1]
+						77472, -- [2]
+						7099, -- [3]
+						1627706623.146, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [9]
+					{
+						false, -- [1]
+						61295, -- [2]
+						515, -- [3]
+						1627706623.51, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [10]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4040, -- [3]
+						1627706624, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [11]
+					{
+						false, -- [1]
+						61295, -- [2]
+						978, -- [3]
+						1627706625.259, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [12]
+					{
+						false, -- [1]
+						61295, -- [2]
+						515, -- [3]
+						1627706626.226, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [13]
+					{
+						1, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1627706627.054, -- [4]
+						87274, -- [5]
+						"Holysteel-Area52", -- [6]
+					}, -- [14]
+					{
+						false, -- [1]
+						77472, -- [2]
+						19667, -- [3]
+						1627706627.285, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [15]
+					{
+						false, -- [1]
+						61295, -- [2]
+						489, -- [3]
+						1627706628.067, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [16]
+					{
+						false, -- [1]
+						61295, -- [2]
+						515, -- [3]
+						1627706628.962, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [17]
+					{
+						false, -- [1]
+						325983, -- [2]
+						1530, -- [3]
+						1627706630.588, -- [4]
+						87274, -- [5]
+						"Litebright-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [18]
+					{
+						false, -- [1]
+						61295, -- [2]
+						509, -- [3]
+						1627706630.882, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [19]
+					{
+						false, -- [1]
+						61295, -- [2]
+						515, -- [3]
+						1627706631.675, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [20]
+					{
+						false, -- [1]
+						61295, -- [2]
+						508, -- [3]
+						1627706633.685, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [21]
+					{
+						false, -- [1]
+						61295, -- [2]
+						4003, -- [3]
+						1627706633.867, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [22]
+					{
+						false, -- [1]
+						61295, -- [2]
+						516, -- [3]
+						1627706634.414, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [23]
+					{
+						false, -- [1]
+						114083, -- [2]
+						800, -- [3]
+						1627706634.789, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [24]
+					{
+						false, -- [1]
+						73921, -- [2]
+						678, -- [3]
+						1627706634.801, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [25]
+					{
+						false, -- [1]
+						61295, -- [2]
+						310, -- [3]
+						1627706636.056, -- [4]
+						87274, -- [5]
+						"Heyate-Area52", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [26]
+					{
+						false, -- [1]
+						61295, -- [2]
+						551, -- [3]
+						1627706636.506, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [27]
+					{
+						false, -- [1]
+						73921, -- [2]
+						654, -- [3]
+						1627706636.682, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [28]
+					{
+						false, -- [1]
+						1064, -- [2]
+						5368, -- [3]
+						1627706637.636, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [29]
+					{
+						false, -- [1]
+						73921, -- [2]
+						682, -- [3]
+						1627706638.553, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [30]
+					{
+						false, -- [1]
+						61295, -- [2]
+						574, -- [3]
+						1627706639.322, -- [4]
+						87274, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [31]
+					{
+						true, -- [1]
+						1, -- [2]
+						118313, -- [3]
+						1627706640.772, -- [4]
+						87274, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						31039, -- [10]
+					}, -- [32]
+					{
+						3, -- [1]
+						642, -- [2]
+						1, -- [3]
+						1627706627.054, -- [4]
+						0, -- [5]
+						"Holysteel-Area52", -- [6]
+					}, -- [33]
+				},
+				["class"] = "PALADIN",
+				["timestring"] = "5m 56s",
+				["time"] = 1627706640.815,
+			}, -- [9]
+			{
+				["maxhealth"] = 45612,
+				["timeofdeath"] = 359.8310000000056,
+				["name"] = "Steakdh",
+				["events"] = {
+					{
+						false, -- [1]
+						73921, -- [2]
+						515, -- [3]
+						1627706613.59, -- [4]
+						47894, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [1]
+					{
+						false, -- [1]
+						114083, -- [2]
+						673, -- [3]
+						1627706624.783, -- [4]
+						48368, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [2]
+					{
+						false, -- [1]
+						114083, -- [2]
+						245, -- [3]
+						1627706625.783, -- [4]
+						48368, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+					}, -- [3]
+					{
+						false, -- [1]
+						114083, -- [2]
+						205, -- [3]
+						1627706631.786, -- [4]
+						47894, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [4]
+					{
+						false, -- [1]
+						114083, -- [2]
+						170, -- [3]
+						1627706633.778, -- [4]
+						47894, -- [5]
+						"Pätula-Ragnaros", -- [6]
+						nil, -- [7]
+						0, -- [8]
+						false, -- [9]
+						-1, -- [10]
+					}, -- [5]
+					{
+						true, -- [1]
+						1, -- [2]
+						193876, -- [3]
+						1627706644.454, -- [4]
+						47894, -- [5]
+						"The Tarragrue", -- [6]
+						nil, -- [7]
+						1, -- [8]
+						false, -- [9]
+						145982, -- [10]
+					}, -- [6]
+					{
+						3, -- [1]
+						198589, -- [2]
+						1, -- [3]
+						1627706341.167, -- [4]
+						0, -- [5]
+						"Steakdh", -- [6]
+					}, -- [7]
+				},
+				["class"] = "DEMONHUNTER",
+				["timestring"] = "5m 59s",
+				["time"] = 1627706644.48,
+			}, -- [10]
+		},
+		["bossname"] = "The Tarragrue",
+		["bossicon"] = {
+			0, -- [1]
+			1, -- [2]
+			0, -- [3]
+			1, -- [4]
+			4071444, -- [5]
+		},
+		["date"] = 1464650.926,
+		["timeelapsed"] = 366.5740000000224,
 	}, -- [2]
 }
 DeathGraphsDBGraph = {
+	["2423-14"] = {
+		["deaths"] = {
+			[43] = {
+				1627706651, -- [1]
+				1627706651, -- [2]
+			},
+			[33] = {
+				1627706651, -- [1]
+			},
+			[53] = {
+				1627706651, -- [1]
+			},
+			[317] = {
+				1627706651, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
 	["2418-15"] = {
 		["deaths"] = {
 			[117] = {
@@ -6014,6 +6887,26 @@ DeathGraphsDBGraph = {
 			},
 			[204] = {
 				1613094934, -- [1]
+			},
+		},
+		["spells"] = {
+		},
+		["ids"] = {
+		},
+	},
+	["2433-14"] = {
+		["deaths"] = {
+			[189] = {
+				1627707614, -- [1]
+			},
+			[63] = {
+				1627707614, -- [1]
+			},
+			[90] = {
+				1627707614, -- [1]
+			},
+			[164] = {
+				1627707614, -- [1]
 			},
 		},
 		["spells"] = {

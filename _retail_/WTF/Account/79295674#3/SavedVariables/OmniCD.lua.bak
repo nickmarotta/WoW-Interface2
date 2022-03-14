@@ -1,0 +1,36 @@
+
+OmniCDDB = {
+	["profileKeys"] = {
+		["Escargoth - Thrall"] = "Default",
+		["Gobage - Thrall"] = "Default",
+		["Awaste - Thrall"] = "Default",
+	},
+	["global"] = {
+		["disableElvMsg"] = true,
+	},
+	["namespaces"] = {
+		["LibDualSpec-1.0"] = {
+		},
+	},
+	["cooldowns"] = {
+	},
+	["version"] = 2.51,
+	["profiles"] = {
+		["Default"] = {
+			["Party"] = {
+				["party"] = {
+					["manualPos"] = {
+						["raidCDBar"] = {
+							["y"] = 305.3917017499589,
+							["x"] = 154.8750309403113,
+						},
+						["interruptBar"] = {
+							["y"] = 460.5915938233738,
+							["x"] = 160.7415743042293,
+						},
+					},
+				},
+			},
+		},
+	},
+}

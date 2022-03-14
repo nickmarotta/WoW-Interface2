@@ -4,20 +4,23 @@ EnhancedRaidFramesDB = {
 		["LibDualSpec-1.0"] = {
 		},
 	},
-	["profileKeys"] = {
-		["Escargoth - Thrall"] = "Escargoth - Thrall",
-		["Awaste - Thrall"] = "Awaste - Thrall",
-		["Eyowen - Thrall"] = "Eyowen - Thrall",
-	},
 	["global"] = {
 		["DB_VERSION"] = 2,
+	},
+	["profileKeys"] = {
+		["Escargoth - Thrall"] = "Escargoth - Thrall",
+		["Eyowen - Thrall"] = "Eyowen - Thrall",
+		["Awaste - Thrall"] = "Awaste - Thrall",
+		["Gobage - Thrall"] = "Gobage - Thrall",
 	},
 	["profiles"] = {
 		["Escargoth - Thrall"] = {
 		},
+		["Eyowen - Thrall"] = {
+		},
 		["Awaste - Thrall"] = {
 		},
-		["Eyowen - Thrall"] = {
+		["Gobage - Thrall"] = {
 		},
 	},
 }

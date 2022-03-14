@@ -7,27 +7,28 @@ AutoVendorDB = {
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Syandea - Hyjal"] = "Syandea - Hyjal",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
 		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Corptwo - Thrall"] = "Corptwo - Thrall",
 		["Songfire - Hyjal"] = "Songfire - Hyjal",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
-		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Naraka - Thrall"] = "Naraka - Thrall",
 		["Kerrama - Thrall"] = "Kerrama - Thrall",
 		["Tyuty - Thrall"] = "Tyuty - Thrall",
-		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Naakari - Hyjal"] = "Naakari - Hyjal",
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
-		["Naakari - Hyjal"] = "Naakari - Hyjal",
+		["Ronami - Thrall"] = "Ronami - Thrall",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
-		["Naraka - Thrall"] = "Naraka - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -39,7 +40,6 @@ AutoVendorDB = {
 		["Amarelli - Hyjal"] = {
 		},
 		["Corpselus - Thrall"] = {
-			["guildbankrepair"] = true,
 		},
 		["Corpsel - Alexstrasza"] = {
 		},
@@ -61,11 +61,11 @@ AutoVendorDB = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Vulara - Thrall"] = {
+		["Salocinn - Thrall"] = {
 		},
 		["Mafiki - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Vulara - Thrall"] = {
 		},
 	},
 }

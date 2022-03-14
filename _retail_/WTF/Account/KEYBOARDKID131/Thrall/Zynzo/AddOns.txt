@@ -43,3 +43,14 @@ Immersion: disabled
 AAP-Core: disabled
 LittleWigs_BattleForAzeroth: enabled
 LittleWigs_MistsOfPandaria: enabled
+LittleWigs_WarlordsOfDraenor: enabled
+NameplateSCT: disabled
+OmniBar: disabled
+LibStub: enabled
+CallbackHandler-1.0: enabled
+Ace3: enabled
+LibDualSpec-1.0: enabled
+OmniCD: disabled
+LibEasing: enabled
+LittleWigs_WrathOfTheLichKing: enabled
+LittleWigs_Classic: enabled

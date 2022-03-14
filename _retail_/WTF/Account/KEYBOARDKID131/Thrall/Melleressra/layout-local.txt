@@ -1,0 +1,15 @@
+Version: 1
+Frame: QE_ParentFrame
+FrameLevel: 1
+Anchor: LEFT
+X: 24
+Y: -200
+W: 420
+H: 120
+Frame: BagnonInventoryFrame1
+FrameLevel: 1
+Anchor: RIGHT
+X: -193
+Y: 236
+W: 404
+H: 177

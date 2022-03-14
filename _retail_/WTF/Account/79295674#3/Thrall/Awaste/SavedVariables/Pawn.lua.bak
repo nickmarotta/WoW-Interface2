@@ -1,94 +1,94 @@
 
 PawnOptions = {
-	["LastVersion"] = 2.0521,
+	["LastVersion"] = 2.053,
 	["LastPlayerFullName"] = "Awaste-Thrall",
 	["AutoSelectScales"] = true,
 	["ItemLevels"] = {
 		{
-			["ID"] = 178693,
-			["Level"] = 210,
-			["Link"] = "|cffa335ee|Hitem:178693::::::::60:266::35:6:7349:7359:40:6935:1524:6646::::::|h[Cocoonsilk Cowl]|h|r",
+			["ID"] = 186325,
+			["Level"] = 233,
+			["Link"] = "|cffa335ee|Hitem:186325::187073::::::60:266::3:4:7189:6652:1472:6646:1:28:2044:::::|h[Veil of the Banshee Queen]|h|r",
 		}, -- [1]
 		{
 			["ID"] = 178827,
-			["Level"] = 229,
-			["Link"] = "|cffa335ee|Hitem:178827::::::::60:266::33:6:7615:7359:6652:7575:1543:6646:1:28:1279:::::|h[Sin Stained Pendant]|h|r",
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:178827::::::::60:266::35:6:7622:7359:6652:7574:1566:6646::::::|h[Sin Stained Pendant]|h|r",
 		}, -- [2]
 		{
-			["ID"] = 186670,
-			["Level"] = 200,
-			["Link"] = "|cffa335ee|Hitem:186670::::::::60:266::27:4:7692:6652:1472:6646:1:28:2043:::::|h[Korthian Caretaker's Mantle]|h|r",
+			["ID"] = 178696,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:178696::::::::60:266::35:5:7608:7359:6652:1566:6646::::::|h[Ingra Maloch's Mantle]|h|r",
 		}, -- [3]
 		nil, -- [4]
 		{
-			["ID"] = 182986,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:182986:6230:::::::60:266::5:4:7188:6652:1485:6646::::::|h[High Torturer's Smock]|h|r",
+			["ID"] = 179335,
+			["Level"] = 236,
+			["Link"] = "|cffa335ee|Hitem:179335:6230:::::::60:266::16:5:7588:7359:6652:1550:6646:1:28:1279:::::|h[Manastorm's Magnificent Threads]|h|r",
 		}, -- [5]
 		{
-			["ID"] = 183028,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:183028::::::::60:265::5:5:7188:6652:7194:1485:6646:1:28:752:::|h[Cinch of Infinite Tightness]|h|r",
+			["ID"] = 179343,
+			["Level"] = 246,
+			["Link"] = "|cffa335ee|Hitem:179343::::::::60:266::35:6:7606:7359:6652:7574:1560:6646::::::|h[Sash of Exquisite Acquisitions]|h|r",
 		}, -- [6]
 		{
-			["ID"] = 186357,
-			["Level"] = 233,
-			["Link"] = "|cffa335ee|Hitem:186357::::::::60:266::81:3:6652:1479:6646:1:28:2043:::::|h[Sorrowful Trousers]|h|r",
+			["ID"] = 180107,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:180107::::::::60:266::35:5:7593:7359:6652:1566:6646::::::|h[Purge Protocol Legwraps]|h|r",
 		}, -- [7]
 		{
-			["ID"] = 186319,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:186319::::::::60:266::3:4:7189:6652:1472:6646:1:28:2104:::::|h[Tormented Shadowcleft Boots]|h|r",
+			["ID"] = 180102,
+			["Level"] = 249,
+			["Link"] = "|cffa335ee|Hitem:180102::::::::60:266::35:5:7607:7359:6652:1563:6646::::::|h[Dark Stride Footwraps]|h|r",
 		}, -- [8]
 		{
-			["ID"] = 182996,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:182996:6220:::::::60:266::5:5:7188:6652:7193:1485:6646:1:28:752:::|h[Grim Pursuant's Maille]|h|r",
+			["ID"] = 178704,
+			["Level"] = 242,
+			["Link"] = "|cffa335ee|Hitem:178704::::::::60:266::35:6:7619:7359:6652:7575:1556:6646::::::|h[Deathshackle Wristwraps]|h|r",
 		}, -- [9]
 		{
 			["ID"] = 186288,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:186288::::::::60:266::3:4:7189:40:1472:6646:1:28:2104:::::|h[Grasps of the Clairvoyant Sage]|h|r",
+			["Level"] = 239,
+			["Link"] = "|cffa335ee|Hitem:186288::::::::60:266::5:4:7188:6652:1485:6646:1:28:2105:::::|h[Grasps of the Clairvoyant Sage]|h|r",
 		}, -- [10]
 		{
-			["ID"] = 183037,
-			["Level"] = 213,
+			["ID"] = 178869,
+			["Level"] = 252,
 			["AlsoFitsIn"] = 12,
-			["Link"] = "|cffa335ee|Hitem:183037::::::::60:266::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Ritualist's Treasured Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178869:6166:::::::60:266::35:6:7622:7359:6652:7575:1566:6646::::::|h[Fleshfused Circle]|h|r",
 		}, -- [11]
 		{
-			["ID"] = 183037,
-			["Level"] = 213,
+			["ID"] = 178736,
+			["Level"] = 242,
 			["AlsoFitsIn"] = 11,
-			["Link"] = "|cffa335ee|Hitem:183037::::::::60:265::5:5:7188:6652:6935:1485:6646:1:28:752:::|h[Ritualist's Treasured Ring]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178736:6166:::::::60:266::35:6:7619:7359:6652:7574:1556:6646::::::|h[Stitchflesh's Misplaced Signet]|h|r",
 		}, -- [12]
 		{
-			["ID"] = 184030,
-			["Level"] = 207,
+			["ID"] = 186428,
+			["Level"] = 239,
 			["AlsoFitsIn"] = 14,
-			["Link"] = "|cffa335ee|Hitem:184030::::::::60:265::82:4:7189:6652:1472:6646:1:28:751:::|h[Dreadfire Vessel]|h|r",
+			["Link"] = "|cffa335ee|Hitem:186428::::::::60:266::5:4:7188:6652:1485:6646::::::|h[Shadowed Orb of Torment]|h|r",
 		}, -- [13]
 		{
-			["ID"] = 184030,
-			["Level"] = 207,
+			["ID"] = 178769,
+			["Level"] = 236,
 			["AlsoFitsIn"] = 13,
-			["Link"] = "|cffa335ee|Hitem:184030::::::::60:266::82:4:7189:6652:1472:6646:1:28:751:::|h[Dreadfire Vessel]|h|r",
+			["Link"] = "|cffa335ee|Hitem:178769::::::::60:266::16:5:7603:7359:6652:1550:6646:1:28:1279:::::|h[Infinitely Divisible Ooze]|h|r",
 		}, -- [14]
 		{
-			["ID"] = 183034,
-			["Level"] = 213,
-			["Link"] = "|cffa335ee|Hitem:183034::::::::60:266::5:4:7188:6652:1485:6646:1:28:752:::|h[Cowled Batwing Cloak]|h|r",
+			["ID"] = 180123,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:180123:6208:::::::60:266::35:5:7622:7359:6652:1566:6646::::::|h[Drape of Twisted Loyalties]|h|r",
 		}, -- [15]
+		{
+			["ID"] = 179339,
+			["Level"] = 252,
+			["Link"] = "|cffa335ee|Hitem:179339:6229:::::::60:266::35:5:7650:7359:6652:1566:6646::::::|h[Whizblast Walking Stick]|h|r",
+		}, -- [16]
 		{
 			["ID"] = 178789,
 			["Level"] = 239,
-			["AlsoFitsIn"] = 17,
-			["Link"] = "|cffa335ee|Hitem:178789::::::::60:266::35:5:7674:7359:6652:1553:6646::::::|h[Fleshcrafter's Knife]|h|r",
-		}, -- [16]
-		{
-			["ID"] = 186418,
-			["Level"] = 226,
-			["Link"] = "|cffa335ee|Hitem:186418::::::::60:266::3:4:7189:41:1472:6646:1:28:2104:::::|h[Guarm's Lost Chew Toy]|h|r",
+			["AlsoFitsIn"] = 16,
+			["Link"] = "|cffa335ee|Hitem:178789:6229:::::::60:266::35:5:7674:7359:6652:1553:6646::::::|h[Fleshcrafter's Knife]|h|r",
 		}, -- [17]
 	},
 	["LastKeybindingsSet"] = 1,

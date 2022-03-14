@@ -1,0 +1,16 @@
+
+DSHDB = {
+	["profileKeys"] = {
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
+		["Zynzo - Thrall"] = "Zynzo - Thrall",
+	},
+	["profiles"] = {
+		["Corpselus - Thrall"] = {
+		},
+		["Mafiki - Thrall"] = {
+		},
+		["Zynzo - Thrall"] = {
+		},
+	},
+}

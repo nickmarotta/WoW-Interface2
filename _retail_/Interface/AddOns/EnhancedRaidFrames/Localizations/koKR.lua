@@ -31,6 +31,8 @@ L["colorByTime_desc"] = "남은 시간에 따라 색상이 결정됩니다."
 --[[Translation missing --]]
 --[[ L["colorByTime_low_desc"] = ""--]] 
 L["colorOverride_desc"] = "이는 보통 색상 지정을 재정의함"
+--[[Translation missing --]]
+--[[ L["combatWildcard_desc"] = ""--]] 
 L["Countdown"] = "초읽기"
 L["Curse"] = "저주"
 L["curseWildcard_desc"] = "모든 저주 약화 효과"

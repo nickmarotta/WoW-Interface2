@@ -177,6 +177,62 @@ GTFO.SpellID["357414"] = {
   sound = 1;
 };
 
+GTFO.SpellID["350163"] = {
+  --desc = "Melee (Spiteful Shade)";
+  sound = 1;
+  tankSound = 2;
+};
+
+GTFO.SpellID["355738"] = {
+  --desc = "Scorching Blast (Incinerator Arkolath)";
+  sound = 1;
+};
+
+GTFO.SpellID["365909"] = {
+  --desc = "Desecrated Ground (Yggdreth the Despoiler)";
+  sound = 1;
+};
+
+GTFO.SpellID["368715"] = {
+  --desc = "Charged Ground (Genesis Guardian)";
+  sound = 1;
+};
+
+GTFO.SpellID["363982"] = {
+  --desc = "Tainted Ground (Vitiane)";
+  sound = 1;
+};
+
+GTFO.SpellID["368617"] = {
+  --desc = "Devouring Helix (Akkaris)";
+  tankSound = 2;
+  sound = 1;
+};
+
+GTFO.SpellID["362506"] = {
+  --desc = "Corruption Beam (Octolus)";
+  sound = 1;
+};
+
+GTFO.SpellID["359932"] = {
+  --desc = "Overwhelming Darkness";
+  sound = 1;
+};
+
+GTFO.SpellID["361335"] = {
+  --desc = "Destruction Zone (Destruction Core)";
+  sound = 1;
+};
+
+GTFO.SpellID["368476"] = {
+  --desc = "Charged Ground (Protector of the First Ones)";
+  sound = 1;
+};
+
+GTFO.SpellID["336955"] = {
+  --desc = "Active Volcano";
+  sound = 1;
+};
 
 --- **********************
 --- * Halls of Atonement *
@@ -512,6 +568,21 @@ GTFO.SpellID["328879"] = {
   sound = 1;
 };
 
+GTFO.SpellID["353724"] = {
+  --desc = "Doom Lash (Doom Conduit)";
+  sound = 1;
+};
+
+GTFO.SpellID["353633"] = {
+  --desc = "Insect Plague (Vil'thras)";
+  sound = 1;
+};
+
+GTFO.SpellID["352676"] = {
+  --desc = "Slice (Trap)";
+  sound = 1;
+};
+
 --- ******************
 --- * Castle Nathria *
 --- ******************
@@ -642,7 +713,7 @@ GTFO.SpellID["353429"] = {
 };
 
 GTFO.SpellID["350851"] = {
-  --desc = "Vessel of Torment (Soulrender Dormazain)";
+  --desc = "River of Souls (Soulrender Dormazain)";
   sound = 1;
 };
 
@@ -669,7 +740,8 @@ GTFO.SpellID["358243"] = {
 
 GTFO.SpellID["358204"] = {
   --desc = "Bellows' Flames (Screamspike)";
-  sound = 1;
+  sound = 2;
+  applicationOnly = true;
 };
 
 GTFO.SpellID["355524"] = {
@@ -702,6 +774,7 @@ GTFO.SpellID["356820"] = {
 GTFO.SpellID["354033"] = {
   --desc = "Frozen Wastes (Kel'Thuzad)";
   sound = 1;
+  ignoreApplication = true;
 };
 
 GTFO.SpellID["354208"] = {
@@ -723,6 +796,11 @@ GTFO.SpellID["347518"] = {
 
 GTFO.SpellID["354639"] = {
   --desc = "Deep Freeze (Kel'Thuzad)";
+  sound = 1;
+};
+
+GTFO.SpellID["350489"] = {
+  --desc = "Lingering Malevolence (Remnant of Ner'zhul)";
   sound = 1;
 };
 
@@ -750,7 +828,11 @@ GTFO.SpellID["355581"] = {
 GTFO.SpellID["346961"] = {
   --desc = "Purging Field (Hylbrande)";
   sound = 1;
-  test = true;
+};
+
+GTFO.SpellID["346828"] = {
+  --desc = "Sanitizing Field (Hylbrande)";
+  sound = 1;
 };
 
 GTFO.SpellID["354497"] = {
@@ -794,6 +876,91 @@ GTFO.SpellID["350013"] = {
 GTFO.SpellID["358947"] = {
   --desc = "Burning Tar (Hourglass Cannon)";
   sound = 1;
+};
+
+GTFO.SpellID["356163"] = {
+  --desc = "Sword Toss (Corsair Officer)";
+  sound = 1;
+  tankSound = 0;
+};
+
+--- *******************************
+--- * Sepulcher of the First Ones *
+--- *******************************
+
+-- TODO: Relic Collapse (Artificer Xy'mox) - Mythic only
+
+GTFO.SpellID["368582"] = {
+  --desc = "Shocklight Blast";
+  sound = 1;
+};
+
+GTFO.SpellID["365889"] = {
+  --desc = "Maw Expulsion";
+  sound = 1;
+};
+
+GTFO.SpellID["366070"] = {
+  --desc = "Volatile Residue (Skolex)";
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["361225"] = {
+  --desc = "Encroaching Dominion (Dausegne)";
+  sound = 1;
+};
+
+GTFO.SpellID["361418"] = {
+  --desc = "Obliteration Arc (Dausegne)";
+  sound = 1;
+};
+
+GTFO.SpellID["364125"] = {
+  --desc = "Progenitor Forge";
+  sound = 1;
+};
+
+GTFO.SpellID["360618"] = {
+  --desc = "Necrosis (Ossein Ritual)";
+  sound = 1;
+};
+
+GTFO.SpellID["365886"] = {
+  --desc = "Photon Expulsion";
+  sound = 1;
+};
+
+GTFO.SpellID["360114"] = {
+  --desc = "Ephemeral Fissure (Halondrus)";
+  sound = 1;
+};
+
+GTFO.SpellID["367838"] = {
+  --desc = "Ephemeral Fissure (Halondrus)";
+  sound = 1;
+};
+
+GTFO.SpellID["366232"] = {
+  --desc = "Animastorm (Prototype of Renewal)";
+  sound = 1;
+};
+
+GTFO.SpellID["360159"] = {
+  --desc = "Unstable Mote (Lihuvim)";
+  sound = 1;
+};
+
+GTFO.SpellID["362798"] = {
+  --desc = "Cosmic Radiation (Rygelon)";
+  sound = 1;
+  test = true;
+};
+
+GTFO.SpellID["360425"] = {
+  --desc = "Unholy Ground (Zovaal the Jailer)";
+  sound = 1;
+  test = true;
 };
 
 end

@@ -25,6 +25,22 @@ Prat3DB = {
 			},
 		},
 		["Prat_ChannelColorMemory"] = {
+			["profiles"] = {
+				["Default"] = {
+					["colors"] = {
+						["community:368504831:1"] = {
+							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.6235294342041016,
+						},
+						["community:385300201:1"] = {
+							["r"] = 0.5529412031173706,
+							["g"] = 0,
+							["b"] = 1,
+						},
+					},
+				},
+			},
 		},
 		["Prat_Editbox"] = {
 		},
@@ -107,19 +123,20 @@ Prat3DB = {
 		["Zynzo - Thrall"] = "Default",
 		["Zarafina - Thrall"] = "Default",
 		["Salocinn - Thrall"] = "Default",
-		["Tyuty - Thrall"] = "Default",
 		["Corpselus - Thrall"] = "Default",
+		["Tyuty - Thrall"] = "Default",
+		["Vulara - Thrall"] = "Default",
 		["Kerrama - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
 		["Naakari - Hyjal"] = "Default",
-		["Vulara - Thrall"] = "Default",
+		["Naraka - Thrall"] = "Default",
 		["Chonkcity - Thrall"] = "Default",
 		["Badnäme - Alexstrasza"] = "Default",
 		["Zarathia - Thrall"] = "Default",
 		["Vartizzle - Thrall"] = "Default",
-		["Naraka - Thrall"] = "Default",
 		["Ronami - Thrall"] = "Default",
 		["Yjuwsgv - Thrall"] = "Default",
+		["Melleressra - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -2,21 +2,27 @@
 HandyNotes_CovenantSanctumDB = {
 	["profileKeys"] = {
 		["Attorum - Thrall"] = "Attorum - Thrall",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
-		["Corpselus - Thrall"] = "Corpselus - Thrall",
-		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Corpselus - Thrall"] = "Corpselus - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
 		},
+		["Zynzo - Thrall"] = {
+		},
 		["Mafiki - Thrall"] = {
 		},
-		["Corpselus - Thrall"] = {
+		["Melleressra - Thrall"] = {
+		},
+		["Salocinn - Thrall"] = {
 		},
 		["Oturran - Thrall"] = {
 		},
-		["Zynzo - Thrall"] = {
+		["Corpselus - Thrall"] = {
 		},
 	},
 }

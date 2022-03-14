@@ -44,3 +44,4 @@ HealBot_tw: disabled
 BigWigs_Voice: enabled
 LittleWigs: enabled
 AAP-Core: disabled
+LittleWigs_BurningCrusade: enabled
