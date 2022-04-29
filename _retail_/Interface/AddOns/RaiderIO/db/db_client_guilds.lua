@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Data. Generated on 2022-04-28T12:36:18Z
+-- RaiderIO Client Data. Generated on 2022-04-29T21:17:46Z
 --
 local _, ns = ...
 ns.GUILD_BEST_DATA = {
@@ -183,6 +183,40 @@ ns.GUILD_BEST_DATA = {
     },
     ["weekly_best"] = {
       [1] = {
+        ["zone_id"] = 13334,
+        ["level"] = 16,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.7315117887350299,
+        ["clear_time"] = "00:21:57.452",
+        ["party"] = {
+          [1] = {
+            ["name"] = "Ghosse",
+            ["role"] = "tank",
+            ["class_id"] = 2
+          },
+          [2] = {
+            ["name"] = "Bwonsamdesus",
+            ["role"] = "healer",
+            ["class_id"] = 7
+          },
+          [3] = {
+            ["name"] = "Corpselus",
+            ["role"] = "dps",
+            ["class_id"] = 6
+          },
+          [4] = {
+            ["name"] = "Reayna",
+            ["role"] = "dps",
+            ["class_id"] = 3
+          },
+          [5] = {
+            ["name"] = "Zug",
+            ["role"] = "dps",
+            ["class_id"] = 1
+          }
+        }
+      },
+      [2] = {
         ["zone_id"] = 1000001,
         ["level"] = 16,
         ["upgrades"] = 2,
@@ -216,7 +250,7 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [2] = {
+      [3] = {
         ["zone_id"] = 1000001,
         ["level"] = 15,
         ["upgrades"] = 2,
@@ -250,27 +284,27 @@ ns.GUILD_BEST_DATA = {
           }
         }
       },
-      [3] = {
-        ["zone_id"] = 13334,
-        ["level"] = 10,
+      [4] = {
+        ["zone_id"] = 12842,
+        ["level"] = 15,
         ["upgrades"] = 2,
-        ["fraction"] = 0.7081847352497141,
-        ["clear_time"] = "00:21:15.440",
+        ["fraction"] = 0.7368686456191165,
+        ["clear_time"] = "00:30:13.433",
         ["party"] = {
           [1] = {
-            ["name"] = "Monkexo",
+            ["name"] = "Ghosse",
             ["role"] = "tank",
-            ["class_id"] = 10
+            ["class_id"] = 2
           },
           [2] = {
-            ["name"] = "Verakaì",
+            ["name"] = "Alfalim",
             ["role"] = "healer",
             ["class_id"] = 5
           },
           [3] = {
-            ["name"] = "Fsummer",
+            ["name"] = "Galok",
             ["role"] = "dps",
-            ["class_id"] = 3
+            ["class_id"] = 9
           },
           [4] = {
             ["name"] = "Hrüngnir",
@@ -278,77 +312,43 @@ ns.GUILD_BEST_DATA = {
             ["class_id"] = 7
           },
           [5] = {
-            ["name"] = "Zied",
+            ["name"] = "Sadmf",
             ["role"] = "dps",
-            ["class_id"] = 3
-          }
-        }
-      },
-      [4] = {
-        ["zone_id"] = 13228,
-        ["level"] = 10,
-        ["upgrades"] = 2,
-        ["fraction"] = 0.7976943435748985,
-        ["clear_time"] = "00:30:19.540",
-        ["party"] = {
-          [1] = {
-            ["name"] = "Xíon",
-            ["role"] = "tank",
-            ["class_id"] = 11
-          },
-          [2] = {
-            ["name"] = "Proestion",
-            ["role"] = "healer",
-            ["class_id"] = 11
-          },
-          [3] = {
-            ["name"] = "Bwonsamdesus",
-            ["role"] = "dps",
-            ["class_id"] = 7
-          },
-          [4] = {
-            ["name"] = "Saytica",
-            ["role"] = "dps",
-            ["class_id"] = 3
-          },
-          [5] = {
-            ["name"] = "Sotaz",
-            ["role"] = "dps",
-            ["class_id"] = 12
+            ["class_id"] = 9
           }
         }
       },
       [5] = {
-        ["zone_id"] = 12842,
-        ["level"] = 8,
-        ["upgrades"] = 3,
-        ["fraction"] = 0.5957527816955634,
-        ["clear_time"] = "00:24:26.147",
+        ["zone_id"] = 1000000,
+        ["level"] = 13,
+        ["upgrades"] = 2,
+        ["fraction"] = 0.705448400447843,
+        ["clear_time"] = "00:27:31.454",
         ["party"] = {
           [1] = {
-            ["name"] = "Osoamoroso",
+            ["name"] = "Sendmoons",
             ["role"] = "tank",
             ["class_id"] = 11
           },
           [2] = {
-            ["name"] = "Gigavapes",
+            ["name"] = "Ghosse",
             ["role"] = "healer",
-            ["class_id"] = 10
+            ["class_id"] = 2
           },
           [3] = {
-            ["name"] = "Hrüngnir",
-            ["role"] = "dps",
-            ["class_id"] = 7
-          },
-          [4] = {
-            ["name"] = "Kaishu",
+            ["name"] = "Aquacotta",
             ["role"] = "dps",
             ["class_id"] = 9
           },
-          [5] = {
-            ["name"] = "Siefter",
+          [4] = {
+            ["name"] = "Corpselus",
             ["role"] = "dps",
-            ["class_id"] = 7
+            ["class_id"] = 6
+          },
+          [5] = {
+            ["name"] = "Zug",
+            ["role"] = "dps",
+            ["class_id"] = 1
           }
         }
       }

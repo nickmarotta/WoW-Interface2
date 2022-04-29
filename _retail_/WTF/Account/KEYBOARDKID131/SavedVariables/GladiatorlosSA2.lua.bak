@@ -17,10 +17,10 @@ GladiatorlosSADB = {
 		["Chonkcity - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
 		["Ronami - Thrall"] = "Default",
-		["Mafiki - Thrall"] = "Default",
-		["Salocinn - Thrall"] = "Default",
-		["Corpsel - Alexstrasza"] = "Default",
 		["Melleressra - Thrall"] = "Default",
+		["Corpsel - Alexstrasza"] = "Default",
+		["Salocinn - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

@@ -1,7 +1,7 @@
 
 BugGrabberDB = {
+	["session"] = 1756,
 	["lastSanitation"] = 3,
-	["session"] = 1755,
 	["errors"] = {
 		{
 			["message"] = "Interface\\AddOns\\BigDebuffs\\BigDebuffs-v10.7.lua:1069: attempt to index field 'raidFrames' (a nil value)",
@@ -100,26 +100,26 @@ BugGrabberDB = {
 		}, -- [12]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\SilverDragon\\SilverDragon.toc",
-			["time"] = "2022/02/24 11:43:31",
 			["session"] = 1707,
+			["time"] = "2022/02/24 11:43:31",
 			["counter"] = 1,
 		}, -- [13]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\SilverDragon\\Bindings.xml",
-			["time"] = "2022/02/24 11:43:31",
 			["session"] = 1707,
+			["time"] = "2022/02/24 11:43:31",
 			["counter"] = 1,
 		}, -- [14]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\SilverDragon_BattleForAzeroth\\SilverDragon_BattleForAzeroth.toc",
-			["time"] = "2022/02/24 11:43:31",
 			["session"] = 1707,
+			["time"] = "2022/02/24 11:43:31",
 			["counter"] = 1,
 		}, -- [15]
 		{
 			["message"] = "Couldn't open Interface\\AddOns\\SilverDragon_BurningCrusade\\SilverDragon_BurningCrusade.toc",
-			["time"] = "2022/02/24 11:43:31",
 			["session"] = 1707,
+			["time"] = "2022/02/24 11:43:31",
 			["counter"] = 1,
 		}, -- [16]
 		{
@@ -268,22 +268,22 @@ BugGrabberDB = {
 			["time"] = "2021/11/09 23:35:16",
 			["locals"] = "ADDON = \"AngryWorldQuests\"\nAddon = <table> {\n RegisterAddOnLoaded = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:59\n RegisterEvent = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:18\n NewModule = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:110\n ForAllModules = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:119\n Modules = <table> {\n }\n Version = \"v0.20.6\"\n Name = \"Angry World Quests\"\n PLAYER_ENTERING_WORLD = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:128\n UnregisterAddOnLoaded = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:77\n ADDON_LOADED = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:47\n UnregisterEvent = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:28\n ModulePrototype = <table> {\n }\n}\nMod = <table> {\n}\nConfig = nil\ndataProvder = nil\nhoveredQuestID = nil\nMAPID_BROKENISLES = 619\nMAPID_DALARAN = 627\nMAPID_AZSUNA = 630\nMAPID_STORMHEIM = 634\nMAPID_VALSHARAH = 641\nMAPID_HIGHMOUNTAIN = 650\nMAPID_SURAMAR = 680\nMAPID_EYEOFAZSHARA = 790\nMAPID_BROKENSHORE = 646\nMAPID_ARGUS = 905\nMAPID_ANTORANWASTES = 885\nMAPID_KROKUUN = 830\nMAPID_MACAREE = 882\nMAPID_DARKSHORE = 62\nMAPID_AZEROTH = 947\nMAPID_ZANDALAR = 875\nMAPID_VOLDUN = 864\nMAPID_NAZMIR = 863\nMAPID_ZULDAZAR = 862\nMAPID_KUL_TIRAS = 876\nMAPID_STORMSONG_VALLEY = 942\nMAPID_DRUSTVAR = 896\nMAPID_TIRAGARDE_SOUND = 895\nMAPID_TOL_DAGOR = 1169\nMAPID_ZONES_CONTINENTS = <table> {\n 864 = 875\n 942 = 876\n 896 = 876\n 680 = 619\n 634 = 619\n 650 = 619\n 790 = 619\n 885 = 905\n 641 = 619\n 627 = 619\n 1169 = 876\n 830 = 905\n 895 = 876\n 862 = 875\n 630 = 619\n 646 = 619\n 863 = 875\n 882 = 905\n}\nMAPID_CONTINENTS = <table> {\n 905 = true\n 619 = true\n 876 = true\n 875 = true\n}\nMAPID_ALL = <table> {\n 1 = 947\n 2 = 885\n 3 = 830\n 4 = 882\n}\nMAPID_ALL_ARGUS = <table> {\n 1 = 885\n 2 = 830\n 3 = 882\n}\nMAPID_ORDER = <table> {\n 864 = 1\n 942 = 4\n 896 = 5\n 680 = 51\n 634 = 55\n 650 = 54\n 790 = 57\n 885 = 59\n 641 = 53\n 627 = 56\n 882 = 61\n 830 = 60\n 646 = 58\n 862 = 3\n 630 = 52\n 863 = 2\n 1169 = 7\n 895 = 6\n}\nCURRENCYID_RESOURCES = 1220\nCURRENCYID_WAR_SUPPLIES = 1342\nCURRENCYID_NETHERSHARD = 1226\nCURRENCYID_VEILED_ARGUNITE = 1508\nCURRENCYID_WAKENING_ESSENCE = 1533\nCURRENCYID_AZERITE = 1553\nCURRENCYID_WAR_RESOURCES = 1560\n(*temporary) = <table> {\n}\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"table index is nil\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\AngryWorldQuests\\QuestFrame.lua\"]:86: in main chunk",
-			["session"] = 1755,
-			["counter"] = 78,
+			["session"] = 1756,
+			["counter"] = 79,
 		}, -- [36]
+		{
+			["message"] = "(null)",
+			["time"] = "2021/11/09 23:35:42",
+			["session"] = 1756,
+			["counter"] = 294,
+		}, -- [37]
 		{
 			["message"] = "Interface\\AddOns\\AngryWorldQuests\\Config.lua:503: attempt to index field 'Filters' (a nil value)",
 			["time"] = "2021/11/08 18:43:50",
 			["locals"] = "self = <table> {\n GetFilterDisabled = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:166\n FilterKeyToMask = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:134\n HasFilters = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:139\n CharacterConfig = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:205\n GetFilter = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:148\n SetNoFilter = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:183\n GetFilterTable = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:154\n IsOnlyFilter = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:142\n InitializeDropdown = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:35\n Set = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:79\n Startup = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:496\n RegisterCallback = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:103\n SetOnlyFilter = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:187\n SetCharacterConfig = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:209\n UnregisterCallback = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:121\n BeforeStartup = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:465\n SetFilter = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:172\n CreatePanel = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:452\n ToggleFilter = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:192\n Get = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Config.lua:63\n}\nlastFilter = 22\nlastFilter2 = 22\nvalue = 1048528\nvalue2 = 65232\nmaxFilter = 0\n(for generator) = <function> defined =[C]:-1\n(for state) = <table> {\n TRACKED = 13\n ARTIFACT_POWER = 2\n PROFESSION = 10\n EMISSARY = 1\n ORDER_RESOURCES = 4\n PETBATTLE = 11\n ITEMS = 6\n DUNGEON = 16\n ZONE = 14\n FACTION = 8\n VEILED_ARGUNITE = 19\n PVP = 9\n TIME = 7\n WAR_RESOURCES = 22\n AZERITE = 21\n WAKENING_ESSENCE = 20\n SORT = 12\n LOOT = 3\n NETHERSHARD = 18\n WAR_SUPPLIES = 17\n RARE = 15\n GOLD = 5\n}\n(for control) = \"TRACKED\"\nkey = \"TRACKED\"\nindex = 13\n(*temporary) = nil\n(*temporary) = 13\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = nil\n(*temporary) = \"attempt to index field 'Filters' (a nil value)\"\nFiltersConversion = <table> {\n TRACKED = 13\n ARTIFACT_POWER = 2\n PROFESSION = 10\n EMISSARY = 1\n ORDER_RESOURCES = 4\n PETBATTLE = 11\n ITEMS = 6\n DUNGEON = 16\n ZONE = 14\n FACTION = 8\n VEILED_ARGUNITE = 19\n PVP = 9\n TIME = 7\n WAR_RESOURCES = 22\n AZERITE = 21\n WAKENING_ESSENCE = 20\n SORT = 12\n LOOT = 3\n NETHERSHARD = 18\n WAR_SUPPLIES = 17\n RARE = 15\n GOLD = 5\n}\nAddon = <table> {\n RegisterAddOnLoaded = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:59\n RegisterEvent = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:18\n NewModule = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:110\n ForAllModules = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:119\n Modules = <table> {\n }\n Version = \"v0.20.6\"\n Name = \"Angry World Quests\"\n PLAYER_ENTERING_WORLD = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:128\n UnregisterAddOnLoaded = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:77\n ADDON_LOADED = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:47\n UnregisterEvent = <function> defined @Interface\\AddOns\\AngryWorldQuests\\Core.lua:28\n ModulePrototype = <table> {\n }\n}\noptionPanel = nil\nADDON = \"AngryWorldQuests\"\n",
 			["stack"] = "[string \"@Interface\\AddOns\\AngryWorldQuests\\Config.lua\"]:503: in function `?'\n[string \"@Interface\\AddOns\\AngryWorldQuests\\Core.lua\"]:122: in function `ForAllModules'\n[string \"@Interface\\AddOns\\AngryWorldQuests\\Core.lua\"]:130: in function `?'\n[string \"@Interface\\AddOns\\AngryWorldQuests\\Core.lua\"]:10: in function <Interface\\AddOns\\AngryWorldQuests\\Core.lua:6>",
-			["session"] = 1755,
-			["counter"] = 280,
-		}, -- [37]
-		{
-			["message"] = "(null)",
-			["session"] = 1755,
-			["time"] = "2021/11/09 23:35:42",
-			["counter"] = 291,
+			["session"] = 1756,
+			["counter"] = 296,
 		}, -- [38]
 	},
 }

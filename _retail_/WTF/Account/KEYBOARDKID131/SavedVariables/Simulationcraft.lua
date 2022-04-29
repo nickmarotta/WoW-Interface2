@@ -17,12 +17,12 @@ SimulationCraftDB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
-		["Melleressra - Thrall"] = "Melleressra - Thrall",
-		["Zarathia - Thrall"] = "Zarathia - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Zarathia - Thrall"] = "Zarathia - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -43,12 +43,12 @@ SimulationCraftDB = {
 			},
 		},
 		["Corpselus - Thrall"] = {
-			["minimap"] = {
-				["minimapPos"] = 127.1344854056748,
-			},
 			["frame"] = {
 				["ofsx"] = -11.48719310760498,
 				["ofsy"] = 2.46159291267395,
+			},
+			["minimap"] = {
+				["minimapPos"] = 127.1344854056748,
 			},
 		},
 		["Corpsel - Alexstrasza"] = {
@@ -78,17 +78,17 @@ SimulationCraftDB = {
 		},
 		["Ronami - Thrall"] = {
 		},
-		["Melleressra - Thrall"] = {
+		["Yjuwsgv - Thrall"] = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Raluh - Thrall"] = {
+		["Mafiki - Thrall"] = {
 		},
 		["Salocinn - Thrall"] = {
 		},
-		["Mafiki - Thrall"] = {
+		["Raluh - Thrall"] = {
 		},
-		["Yjuwsgv - Thrall"] = {
+		["Melleressra - Thrall"] = {
 		},
 	},
 }
