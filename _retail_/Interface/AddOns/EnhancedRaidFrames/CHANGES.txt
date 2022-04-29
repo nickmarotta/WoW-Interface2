@@ -1,28 +1,18 @@
-lightweight tag 8cd7392d6e1a65be0634719bddd5b59965d57128 3.4.4
+lightweight tag 947a888b5e02d700a72d93adc322a19cc3c7791e 3.4.5
 Author:	Britt Yazel <bwyazel@gmail.com>
-Date:	Tue Feb 22 13:10:24 2022 -0800
+Date:	Fri Apr 15 18:17:08 2022 -0700
 
-commit 8cd7392d6e1a65be0634719bddd5b59965d57128
+commit 947a888b5e02d700a72d93adc322a19cc3c7791e
 Author: Britt Yazel <bwyazel@gmail.com>
-Date:   Tue Feb 22 13:10:24 2022 -0800
+Date:   Fri Apr 15 18:17:08 2022 -0700
 
-    Bump TOC
-
-commit 884f689b565a450f8ad594c553971c0efc8a67b9
-Author: William Bradford Clark <wclark@redhat.com>
-Date:   Thu Nov 11 22:02:56 2021 -0500
-
-    Add a combat status indicator
+    fix an issue introduced in 9.2 with target selecting
     
-    Useful for example in PvP to see who could be Sapped by an enemy Rogue,
-    or has dropped combat and could drink for mana.
+    Blizzard made a change that now selects the target on mouse up, not mouse down. This breaks muscle memory just enough to be terribly annoying.
 
-commit 884f689b565a450f8ad594c553971c0efc8a67b9
-Author: William Bradford Clark <wclark@redhat.com>
-Date:   Thu Nov 11 22:02:56 2021 -0500
+commit 0b962f5ed5ea1d223dd5eb9440c833e3a059a8b6
+Author: Britt Yazel <bwyazel@gmail.com>
+Date:   Wed Mar 9 10:39:42 2022 -0800
 
-    Add a combat status indicator
-    
-    Useful for example in PvP to see who could be Sapped by an enemy Rogue,
-    or has dropped combat and could drink for mana.
+    update ace3 libs
 

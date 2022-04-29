@@ -375,8 +375,8 @@ function module:ShouldAnnounce(id, zone, x, y, is_dead, source, ...)
 		Debug("ShouldAnnounce", true, "always")
 		return true
 	end
-	if not self.db.profile.already_drop and ns.Loot.Status(id, self.db.profile.already_transmog) == true then
-		-- hide mobs which have a mount/pet/toy which you already own
+	if not self.db.profile.already_drop and ns.Loot.Status(id, self.db.profile.already_transmog) == true and not ns.Loot.HasMounts(id, true, true) then
+		-- hide mobs which have a mount/pet/toy which you already own... apart from BoE mounts
 		-- this means there's knowable loot, and it's all known
 		Debug("ShouldAnnounce", false, "already got loot")
 		return false
@@ -393,7 +393,7 @@ function module:ShouldAnnounce(id, zone, x, y, is_dead, source, ...)
 			Debug("ShouldAnnounce", false, "alt got achievement")
 			return false
 		end
-		if source == "vignette" then
+		if source == "vignette" or source == "point-of-interest" then
 			-- The vignette's presence implies no quest completion
 			Debug("ShouldAnnounce", true, "vignette implies quest")
 			return true
@@ -527,7 +527,7 @@ core.RegisterCallback("SD Announce Sound", "Announce", function(callback, id, zo
 		if channel == "GUILD" and not module.db.profile.soundguild or (channel == "PARTY" or channel == "RAID") and not module.db.profile.soundgroup then return end
 	end
 	local soundfile, loops
-	if ns.Loot.HasMounts(id, true) then
+	if ns.Loot.HasInterestingMounts(id) then
 		if not module.db.profile.sound_mount then return end
 		soundfile = module.db.profile.soundfile_mount
 		loops = module.db.profile.sound_mount_loop
@@ -593,7 +593,7 @@ do
 				local background = module.db.profile.flash_texture
 				local color = module.db.profile.flash_color
 				if self.id and ns.mobdb[self.id] then
-					if ns.Loot.HasMounts(self.id) and module.db.profile.flash_mount then
+					if ns.Loot.HasInterestingMounts(self.id) and module.db.profile.flash_mount then
 						background = module.db.profile.flash_texture_mount
 						color = module.db.profile.flash_color_mount
 					elseif ns.mobdb[self.id].boss and module.db.profile.flash_boss then

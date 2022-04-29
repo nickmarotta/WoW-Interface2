@@ -1,4 +1,4 @@
--- Generated from CurseForge on Wed Mar  9 00:00:54 UTC 2022
+-- Generated from CurseForge on Thu Apr 28 06:52:40 UTC 2022
 local ns = select(2, ...) ---@type ns @The addon namespace.
 
 if ns:IsSameLocale("ruRU") then
@@ -77,6 +77,7 @@ L["DUNGEON_SHORT_NAME_DHT"] = "Чаща Темного Сердца"
 L["DUNGEON_SHORT_NAME_DOS"] = "Та Сторона"
 L["DUNGEON_SHORT_NAME_EOA"] = "Око Азшары"
 L["DUNGEON_SHORT_NAME_FH"] = "Вольная гавань"
+L["DUNGEON_SHORT_NAME_GMBT"] = "Гамбит Со'леи"
 L["DUNGEON_SHORT_NAME_HOA"] = "Чертоги Покаяния"
 L["DUNGEON_SHORT_NAME_HOV"] = "Чертоги Доблести"
 L["DUNGEON_SHORT_NAME_KR"] = "Гробница Королей"
@@ -92,6 +93,7 @@ L["DUNGEON_SHORT_NAME_SEAT"] = "Престол Триумвирата"
 L["DUNGEON_SHORT_NAME_SIEGE"] = "Осада Боралуса"
 L["DUNGEON_SHORT_NAME_SOA"] = "Шпили Перерождения"
 L["DUNGEON_SHORT_NAME_SOTS"] = "Святилище Штормов"
+L["DUNGEON_SHORT_NAME_STRT"] = "Улицы Чудес"
 L["DUNGEON_SHORT_NAME_TD"] = "Тол Дагор"
 L["DUNGEON_SHORT_NAME_TM"] = "ЗОЛОТАЯ ЖИЛА!!!"
 L["DUNGEON_SHORT_NAME_TOP"] = "Театр Боли"
@@ -234,28 +236,17 @@ L["RAID_BOSS_NYA_6"] = "Шад'хар Ненасытный"
 L["RAID_BOSS_NYA_7"] = "Дест'агат"
 L["RAID_BOSS_NYA_8"] = "Ил'гинот, Возрожденная Порча"
 L["RAID_BOSS_NYA_9"] = "Вексиона"
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_1"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_10"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_11"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_2"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_3"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_4"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_5"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_6"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_7"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_8"] = ""--]] 
---[[Translation missing --]]
---[[ L["RAID_BOSS_SFO_9"] = ""--]] 
+L["RAID_BOSS_SFO_1"] = "Бдительный Страж"
+L["RAID_BOSS_SFO_10"] = "Ригелон"
+L["RAID_BOSS_SFO_11"] = "Тюремщик"
+L["RAID_BOSS_SFO_2"] = "Сколекс"
+L["RAID_BOSS_SFO_3"] = "Изобретатель Зи'мокс"
+L["RAID_BOSS_SFO_4"] = "Даусинь"
+L["RAID_BOSS_SFO_5"] = "Прототип пантеона"
+L["RAID_BOSS_SFO_6"] = "Лихувим"
+L["RAID_BOSS_SFO_7"] = "Галондрий"
+L["RAID_BOSS_SFO_8"] = "Андуин Ринн"
+L["RAID_BOSS_SFO_9"] = "Властители Ужаса"
 L["RAID_BOSS_SOD_1"] = "Таррагр"
 L["RAID_BOSS_SOD_10"] = "Сильвана Ветрокрылая"
 L["RAID_BOSS_SOD_2"] = "Око Тюремщика"
@@ -302,6 +293,8 @@ L["RELOAD_NOW"] = "Перезагрузить сейчас"
 --[[ L["RELOAD_RWF_MODE_BUTTON"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RELOAD_RWF_MODE_BUTTON_TOOLTIP"] = ""--]] 
+--[[Translation missing --]]
+--[[ L["RWF_MINIBUTTON_TOOLTIP"] = ""--]] 
 --[[Translation missing --]]
 --[[ L["RWF_SUBTITLE_LOGGING_FILTERED_LOOT"] = ""--]] 
 --[[Translation missing --]]

@@ -64,7 +64,8 @@ L["Displayed HP by pattern"] = true
 L["You can use patterns:\n\n" ..
     "%CURRENT% - return current health\n" ..
     "%MAX% - return maximum of health\n" ..
-    "%PERCENT% - return percent of current/max health\n\n" ..
+    "%PERCENT% - return percent of current/max health\n" ..
+    "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
     "All values are returned from formulas. For set abbreviation use formulas' fields"] = true
 L["Use Chinese numerals format"] = true
 L["By default all formulas use divider (for value eq 1000 and more is 1000, for 1 000 000 and more is 1 000 000, etc).\n" ..
@@ -89,7 +90,8 @@ L["Displayed mana by pattern"] = true
 L["You can use patterns:\n\n" ..
     "%CURRENT% - return current mana\n" ..
     "%MAX% - return maximum of mana\n" ..
-    "%PERCENT% - return percent of current/max mana\n\n" ..
+    "%PERCENT% - return percent of current/max mana\n" ..
+    "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
     "All values are returned from formulas. For set abbreviation use formulas' fields"] = true
 
 L["Frames"] = true

@@ -4,6 +4,7 @@ SimulationCraftDB = {
 		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Falaria - Thrall"] = "Falaria - Thrall",
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
@@ -16,12 +17,12 @@ SimulationCraftDB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
-		["Zarathia - Thrall"] = "Zarathia - Thrall",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
 		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Zarathia - Thrall"] = "Zarathia - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -34,18 +35,20 @@ SimulationCraftDB = {
 		},
 		["Fackligery - Sargeras"] = {
 		},
+		["Falaria - Thrall"] = {
+		},
 		["Amarelli - Hyjal"] = {
 			["minimap"] = {
 				["minimapPos"] = 133.9297334223546,
 			},
 		},
 		["Corpselus - Thrall"] = {
+			["minimap"] = {
+				["minimapPos"] = 127.1344854056748,
+			},
 			["frame"] = {
 				["ofsx"] = -11.48719310760498,
 				["ofsy"] = 2.46159291267395,
-			},
-			["minimap"] = {
-				["minimapPos"] = 127.1344854056748,
 			},
 		},
 		["Corpsel - Alexstrasza"] = {
@@ -75,17 +78,17 @@ SimulationCraftDB = {
 		},
 		["Ronami - Thrall"] = {
 		},
-		["Yjuwsgv - Thrall"] = {
+		["Melleressra - Thrall"] = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Mafiki - Thrall"] = {
+		["Raluh - Thrall"] = {
 		},
 		["Salocinn - Thrall"] = {
 		},
-		["Raluh - Thrall"] = {
+		["Mafiki - Thrall"] = {
 		},
-		["Melleressra - Thrall"] = {
+		["Yjuwsgv - Thrall"] = {
 		},
 	},
 }

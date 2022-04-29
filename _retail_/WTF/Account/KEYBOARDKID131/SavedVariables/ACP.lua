@@ -3,7 +3,7 @@ ACP_Data = {
 	["sorter"] = "Group By Name",
 	["NoRecurse"] = false,
 	["NoChildren"] = true,
-	["scale"] = 0.8518841416776892,
+	["scale"] = 0.851884126663208,
 	["AddonSet"] = {
 		{
 			"AdvancedInterfaceOptions", -- [1]
@@ -86,20 +86,19 @@ ACP_Data = {
 	["collapsed"] = {
 		["SimpleILevel"] = true,
 		["Libraries"] = true,
-		["RaiderIO"] = true,
 		["BigWigs"] = true,
 		["Details"] = true,
 		["BtWQuests"] = true,
 		["Blizzard Addons"] = true,
 		["Prat-3.0"] = true,
 		["BossNotes"] = true,
-		["Bagnon"] = true,
+		["HealBot"] = true,
 		["LittleWigs"] = true,
 		["ConsolePortUI"] = true,
 		["ShadowedUnitFrames"] = true,
-		["Kui"] = true,
+		["Bagnon"] = true,
 		["SilverDragon"] = true,
-		["HealBot"] = true,
+		["RaiderIO"] = true,
 	},
 	["ProtectedAddons"] = {
 		["ACP"] = true,

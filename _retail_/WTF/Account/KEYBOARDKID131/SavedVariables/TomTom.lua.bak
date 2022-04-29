@@ -4,6 +4,7 @@ TomTomDB = {
 		["Attorum - Thrall"] = "Default",
 		["Mafiki - Alexstrasza"] = "Default",
 		["Fackligery - Sargeras"] = "Default",
+		["Falaria - Thrall"] = "Default",
 		["Amarelli - Hyjal"] = "Default",
 		["Corpselus - Thrall"] = "Default",
 		["Yjuwsgv - Thrall"] = "Default",
@@ -17,10 +18,10 @@ TomTomDB = {
 		["Oturran - Thrall"] = "Default",
 		["Ronami - Thrall"] = "Default",
 		["Zarathia - Thrall"] = "Default",
-		["Salocinn - Thrall"] = "Default",
-		["Velosara - Thrall"] = "Default",
-		["Corpsel - Alexstrasza"] = "Default",
 		["Melleressra - Thrall"] = "Default",
+		["Corpsel - Alexstrasza"] = "Default",
+		["Velosara - Thrall"] = "Default",
+		["Salocinn - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
@@ -52,6 +53,7 @@ TomTomWaypointsM = {
 		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Falaria - Thrall"] = "Falaria - Thrall",
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
@@ -65,10 +67,10 @@ TomTomWaypointsM = {
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
-		["Velosara - Thrall"] = "Velosara - Thrall",
-		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
 		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -76,6 +78,8 @@ TomTomWaypointsM = {
 		["Mafiki - Alexstrasza"] = {
 		},
 		["Fackligery - Sargeras"] = {
+		},
+		["Falaria - Thrall"] = {
 		},
 		["Amarelli - Hyjal"] = {
 		},
@@ -103,13 +107,13 @@ TomTomWaypointsM = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
-		},
-		["Velosara - Thrall"] = {
+		["Melleressra - Thrall"] = {
 		},
 		["Corpsel - Alexstrasza"] = {
 		},
-		["Melleressra - Thrall"] = {
+		["Velosara - Thrall"] = {
+		},
+		["Salocinn - Thrall"] = {
 		},
 	},
 }

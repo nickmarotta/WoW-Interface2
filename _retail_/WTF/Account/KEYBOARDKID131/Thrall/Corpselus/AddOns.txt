@@ -122,3 +122,4 @@ RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_EU_F: disabled
 BigWigs_SepulcherOfTheFirstOnes: enabled
 TinyTooltip: disabled
+LittleWigs_Legion: enabled

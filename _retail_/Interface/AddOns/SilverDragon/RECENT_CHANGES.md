@@ -1,4 +1,4 @@
-## Changed in v90200.7.1
+## Changed in v90200.10.1
 
-* Fixed a typo in the Architect's Reserve treasure requirements that was causing an error when it was up
+* Fixed an error that would happen on maps with mobs that have routes associated
 

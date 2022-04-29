@@ -14,13 +14,13 @@ Prat3CharDB = {
 			},
 			["ChatFrame6EditBox"] = {
 			},
-			["ChatFrame1EditBox"] = {
-			},
-			["ChatFrame3EditBox"] = {
+			["ChatFrame9EditBox"] = {
 			},
 			["ChatFrame2EditBox"] = {
 			},
-			["ChatFrame9EditBox"] = {
+			["ChatFrame3EditBox"] = {
+			},
+			["ChatFrame1EditBox"] = {
 			},
 		},
 	},
@@ -76,7 +76,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 9,
+			["headIndex"] = 7,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -91,95 +91,71 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 243746.679,
-					["serverTime"] = 1646960391,
 					["b"] = 0,
+					["g"] = 1,
+					["timestamp"] = 1213868.913,
+					["serverTime"] = 1651190652,
+					["r"] = 1,
 				}, -- [1]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["r"] = 1,
 					["b"] = 0,
-					["serverTime"] = 1647040163,
-					["timestamp"] = 243746.679,
+					["r"] = 1,
+					["serverTime"] = 1651191020,
+					["timestamp"] = 1213868.913,
+					["g"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["g"] = 1,
 				}, -- [2]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["g"] = 1,
+					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["timestamp"] = 1213868.913,
+					["serverTime"] = 1651191144,
 					["b"] = 0,
-					["g"] = 1,
-					["timestamp"] = 243746.679,
-					["serverTime"] = 1647040203,
-					["r"] = 1,
 				}, -- [3]
 				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["b"] = 0,
+					["serverTime"] = 1651191262,
 					["r"] = 1,
-					["serverTime"] = 1647040231,
-					["timestamp"] = 243746.679,
-					["g"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1213868.913,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
+					["g"] = 1,
 				}, -- [4]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["g"] = 1,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 243746.679,
-					["serverTime"] = 1647040428,
-					["b"] = 0,
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1213868.913,
 				}, -- [5]
 				{
-					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
-					["serverTime"] = 1647040638,
-					["r"] = 1,
-					["b"] = 0,
-					["timestamp"] = 243746.679,
-					["extraData"] = {
-						1, -- [1]
-						["n"] = 1,
-					},
-					["g"] = 1,
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1213868.913,
 				}, -- [6]
 				{
-					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
-					["timestamp"] = 243746.679,
-				}, -- [7]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 243746.679,
-				}, -- [8]
-				{
 					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 243746.679,
+					["timestamp"] = 1213860.589,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [9]
+				}, -- [7]
 			},
 			["maxElements"] = 128,
 			["TransformIf"] = nil --[[ skipped inline function ]],
@@ -305,7 +281,7 @@ Prat3HighCPUPerCharDB = {
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 97,
+			["headIndex"] = 71,
 			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
@@ -319,1821 +295,1845 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048243,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3029:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205313,
 					["r"] = 1,
 					["extraData"] = {
-						42, -- [1]
+						7, -- [1]
 						false, -- [2]
-						83, -- [3]
-						84, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251357.949,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
+					["timestamp"] = 1227920.21,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [1]
 				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048247,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3030:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Vy <<",
+					["serverTime"] = 1651205314,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251361.571,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227920.546,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [2]
 				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647048250,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3031:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Vy <<",
+					["serverTime"] = 1651205314,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						7, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251364.922,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [3]
-				{
-					["message"] = "So'leah yells: I have already forgotten you.",
-					["serverTime"] = 1647048251,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251365.118,
+					["timestamp"] = 1227920.546,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
-				}, -- [4]
+				}, -- [3]
 				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048265,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3032:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Vy <<",
+					["serverTime"] = 1651205314,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251379.669,
+					["timestamp"] = 1227920.546,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [4]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3033:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Vy <<",
+					["serverTime"] = 1651205314,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						94, -- [3]
+						250, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227920.546,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [5]
 				{
-					["message"] = "|cff71d5ff|Hdeath:17|h[You died.]|h",
-					["serverTime"] = 1647048275,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3034:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205314,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251389.824,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227920.875,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [6]
 				{
-					["message"] = "So'leah yells: Lie in ruin!",
-					["serverTime"] = 1647048275,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3035:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205314,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251389.962,
+					["timestamp"] = 1227920.875,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [7]
 				{
-					["message"] = "|cffa22fc8Steakdh|r has died.",
-					["serverTime"] = 1647048276,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3036:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205314,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251391.011,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227921.199,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [8]
 				{
-					["message"] = "So'leah yells: Bow before Cartel So!",
-					["serverTime"] = 1647048279,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3037:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205314,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251393.154,
+					["timestamp"] = 1227921.199,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [9]
 				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048283,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3038:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205314,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251398.031,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227921.475,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [10]
 				{
-					["message"] = "So'leah yells: Oppose me and be extinguished!",
-					["serverTime"] = 1647048290,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3039:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205314,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251404.088,
+					["timestamp"] = 1227921.475,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [11]
 				{
-					["message"] = "So'leah yells: Oppose me and be extinguished!",
-					["serverTime"] = 1647048296,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3040:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Vy <<",
+					["serverTime"] = 1651205315,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251410.149,
+					["timestamp"] = 1227921.741,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [12]
 				{
-					["message"] = "So'leah yells: Oppose me and be extinguished!",
-					["serverTime"] = 1647048302,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3041:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Vy <<",
+					["serverTime"] = 1651205315,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251416.244,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227921.741,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [13]
 				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048308,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3042:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Vy <<",
+					["serverTime"] = 1651205315,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251422.311,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227922.073,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [14]
 				{
-					["message"] = "So'leah yells: How dare you hinder me!",
-					["serverTime"] = 1647048308,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3043:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Vy <<",
+					["serverTime"] = 1651205315,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251422.504,
+					["timestamp"] = 1227922.073,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [15]
 				{
-					["message"] = "So'leah yells: The tools of creation--at my command!",
-					["serverTime"] = 1647048316,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3044:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205315,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251430.806,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227922.316,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [16]
 				{
-					["message"] = "So'leah yells: The realms... I can feel them all!",
-					["serverTime"] = 1647048333,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3045:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205315,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251447.656,
+					["timestamp"] = 1227922.316,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [17]
 				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048333,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3046:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205316,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						42, -- [1]
+						3, -- [1]
 						false, -- [2]
-						83, -- [3]
-						84, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251447.656,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
+					["timestamp"] = 1227922.566,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [18]
 				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048337,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3047:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205316,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251451.423,
+					["timestamp"] = 1227922.566,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [19]
 				{
-					["message"] = "|cffa22fc8Steakdh|r has died.",
-					["serverTime"] = 1647048349,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3048:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205316,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						7, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251463.31,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227922.792,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [20]
 				{
-					["message"] = "So'leah yells: Lie in ruin!",
-					["serverTime"] = 1647048349,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3049:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205316,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251463.527,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227922.792,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [21]
 				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048355,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3050:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205316,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251469.572,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227923.085,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [22]
 				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647048358,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3051:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Vy <<",
+					["serverTime"] = 1651205316,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						1, -- [1]
+						3, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251472.994,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227923.43,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [23]
 				{
-					["message"] = "So'leah yells: Lie in ruin!",
-					["serverTime"] = 1647048359,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3052:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205318,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251473.145,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227924.657,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [24]
 				{
-					["message"] = "So'leah yells: Bow before Cartel So!",
-					["serverTime"] = 1647048368,
+					["message"] = "So'leah says: Al'dalil. Is there no sanctuary from your filth?",
+					["serverTime"] = 1651205320,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						13, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						27, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251483.002,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227926.913,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [25]
 				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048373,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Sendmoons-Thrall:3054:SAY|h|cfffe7b09Sendmoons|r|h|cffd8d8d8]|r: k",
+					["serverTime"] = 1651205320,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						2, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						69, -- [3]
+						71, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251487.856,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227927.287,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [26]
 				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048379,
+					["message"] = "Al'dalil says: Hear me, So'leah: the artifact you seek brings only suffering.",
+					["serverTime"] = 1651205325,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227932.4,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [27]
+				{
+					["message"] = "So'leah says: Suffering... and power. I must now travel beyond Tazavesh, but your journey ends here.",
+					["serverTime"] = 1651205331,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227938.29,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [28]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3059:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205333,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						94, -- [3]
+						250, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227939.744,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [29]
+				{
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3060:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205333,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						457, -- [3]
+						458, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227939.744,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [30]
+				{
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3061:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205333,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						457, -- [3]
+						458, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227940.118,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [31]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3062:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205333,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						94, -- [3]
+						250, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227940.118,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [32]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3063:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205333,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						94, -- [3]
+						250, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227940.118,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [33]
+				{
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3064:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205333,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						457, -- [3]
+						458, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227940.118,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [34]
+				{
+					["message"] = "So'azmi yells: Die, foes of Cartel So.",
+					["serverTime"] = 1651205338,
 					["r"] = 1,
 					["extraData"] = {
 						15, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251493.804,
+					["timestamp"] = 1227944.858,
 					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [27]
-				{
-					["message"] = "|cffffaeaeDetails!:|r encounter table without start time.    ",
-					["timestamp"] = 251497.344,
-					["serverTime"] = 1647048383,
-				}, -- [28]
-				{
-					["message"] = "|cfffefefeLianesse|r has died.",
-					["serverTime"] = 1647048384,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251498.106,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [29]
-				{
-					["message"] = "|cfffe7b09Sendmoons|r has died.",
-					["serverTime"] = 1647048384,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251498.106,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [30]
-				{
-					["message"] = "BigWigs: |cffffff00Wiped on 'So'leah' after 5 |4Min:Min; 10 |4Sec:Sec;.|r",
-					["timestamp"] = 251502.351,
-					["serverTime"] = 1647048388,
-				}, -- [31]
-				{
-					["message"] = "BigWigs: |cffffff00Health: So'leah (30.9%).|r",
-					["timestamp"] = 251502.351,
-					["serverTime"] = 1647048388,
-				}, -- [32]
-				{
-					["message"] = "Starting ready check...",
-					["serverTime"] = 1647048436,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251550.441,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [33]
-				{
-					["message"] = "|cFFFFDD00RaidAssist (/raa):|cFFFFFF00 ready check from |cffc31d39Corpselus|r|cFFFFFF00 at 20:27|r",
-					["timestamp"] = 251550.441,
-					["serverTime"] = 1647048436,
-				}, -- [34]
-				{
-					["message"] = "Sendmoons prepares a Feast of Gluttonous Hedonism!",
-					["serverTime"] = 1647048445,
-					["r"] = 1,
-					["extraData"] = {
-						17, -- [1]
-						false, -- [2]
-						28, -- [3]
-						73, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251559.915,
-					["g"] = 0.501960813999176,
 					["b"] = 0.250980406999588,
 				}, -- [35]
 				{
-					["message"] = "Everyone is Ready",
-					["serverTime"] = 1647048458,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251572.421,
-					["g"] = 1,
-					["b"] = 0,
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?* |cFFFFBB00Boss First Target|r: Sendmoons    ",
+					["timestamp"] = 1227945.163,
+					["serverTime"] = 1651205338,
 				}, -- [36]
 				{
-					["message"] = "So'leah yells: I will unmake you!",
-					["serverTime"] = 1647048466,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251580.097,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["message"] = "|cffffff00MRT|r Who Pulled: |cfffe7b09Sendmoons",
+					["timestamp"] = 1227945.664,
+					["serverTime"] = 1651205339,
 				}, -- [37]
 				{
-					["message"] = "|cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?* |cFFFFBB00Boss First Target|r: Sendmoons    ",
-					["timestamp"] = 251580.381,
-					["serverTime"] = 1647048466,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3066:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205339,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						457, -- [3]
+						458, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227945.997,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [38]
 				{
-					["message"] = "|cffffff00MRT|r Who Pulled: |cfffe7b09Sendmoons",
-					["timestamp"] = 251580.881,
-					["serverTime"] = 1647048466,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3067:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205339,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						94, -- [3]
+						250, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227945.997,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [39]
 				{
-					["message"] = "So'leah yells: Guards, remove these pests.",
-					["serverTime"] = 1647048471,
+					["message"] = "So'azmi yells: A tidal wave begins as a ripple.",
+					["serverTime"] = 1651205357,
 					["r"] = 1,
 					["extraData"] = {
 						15, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251585.654,
+					["timestamp"] = 1227963.615,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [40]
 				{
-					["message"] = "So'leah yells: The stars are mine!",
-					["serverTime"] = 1647048486,
+					["message"] = "So'azmi yells: When outnumbered, divide your enemies.",
+					["serverTime"] = 1651205371,
 					["r"] = 1,
 					["extraData"] = {
 						15, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251600.373,
+					["timestamp"] = 1227978.483,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [41]
 				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048486,
-					["r"] = 1,
-					["extraData"] = {
-						42, -- [1]
-						false, -- [2]
-						83, -- [3]
-						84, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251600.373,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
-				}, -- [42]
-				{
-					["message"] = "So'leah yells: Guards, remove these pests.",
-					["serverTime"] = 1647048513,
+					["message"] = "So'azmi yells: A tidal wave begins as a ripple.",
+					["serverTime"] = 1651205403,
 					["r"] = 1,
 					["extraData"] = {
 						15, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251627.485,
+					["timestamp"] = 1228009.622,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [42]
+				{
+					["message"] = "So'azmi yells: To remain still is to invite defeat.",
+					["serverTime"] = 1651205415,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						114, -- [3]
+						115, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228022.334,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [43]
 				{
-					["message"] = "So'leah yells: The stars are mine!",
-					["serverTime"] = 1647048547,
+					["message"] = "So'azmi yells: A tidal wave begins as a ripple.",
+					["serverTime"] = 1651205446,
 					["r"] = 1,
 					["extraData"] = {
 						15, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251661.124,
+					["timestamp"] = 1228053.375,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [44]
 				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048547,
-					["r"] = 1,
-					["extraData"] = {
-						42, -- [1]
-						false, -- [2]
-						83, -- [3]
-						84, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251661.124,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
+					["message"] = "|cff33ff99<AngryKeystones>|r |cffc7c7cfBeat the timer for +2 Tazavesh: Streets of Wonder in 27:31.454. You were 3:40.546 ahead of the +2 timer, and missed +3 by 4:07.454.|r",
+					["timestamp"] = 1228060.678,
+					["serverTime"] = 1651205454,
 				}, -- [45]
 				{
-					["message"] = "So'leah yells: This power... is vast...",
-					["serverTime"] = 1647048561,
+					["message"] = "So'azmi yells: My cartel... bears... my shame...",
+					["serverTime"] = 1651205454,
 					["r"] = 1,
 					["extraData"] = {
 						15, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251675.557,
+					["timestamp"] = 1228060.772,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [46]
 				{
-					["message"] = "So'leah yells: Bow before Cartel So!",
-					["serverTime"] = 1647048568,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251682.186,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [47]
-				{
-					["message"] = "So'leah yells: Oppose me and be extinguished!",
-					["serverTime"] = 1647048572,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251686.655,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [48]
-				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048578,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251692.576,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [49]
-				{
-					["message"] = "So'leah yells: How dare you hinder me!",
-					["serverTime"] = 1647048578,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251692.829,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [50]
-				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048587,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251701.086,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [51]
-				{
-					["message"] = "So'leah yells: The realms... I can feel them all!",
-					["serverTime"] = 1647048604,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251718.23,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [52]
-				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048604,
-					["r"] = 1,
-					["extraData"] = {
-						42, -- [1]
-						false, -- [2]
-						83, -- [3]
-						84, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251718.23,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
-				}, -- [53]
-				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048608,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251722.264,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [54]
-				{
-					["message"] = "So'leah yells: The tools of creation--at my command!",
-					["serverTime"] = 1647048626,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251740.468,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [55]
-				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647048638,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251752.506,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [56]
-				{
-					["message"] = "So'leah yells: Lie in ruin!",
-					["serverTime"] = 1647048638,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251752.718,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [57]
-				{
-					["message"] = "So'leah yells: Bow before Cartel So!",
-					["serverTime"] = 1647048639,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251753.394,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [58]
-				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048644,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251758.285,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [59]
-				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048650,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251764.354,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [60]
-				{
-					["message"] = "So'leah yells: How dare you hinder me!",
-					["serverTime"] = 1647048656,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251770.577,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [61]
-				{
-					["message"] = "So'leah yells: The tools of creation--at my command!",
-					["serverTime"] = 1647048664,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251778.918,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [62]
-				{
-					["message"] = "So'leah yells: The realms... I can feel them all!",
-					["serverTime"] = 1647048682,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251796.344,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [63]
-				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048682,
-					["r"] = 1,
-					["extraData"] = {
-						42, -- [1]
-						false, -- [2]
-						83, -- [3]
-						84, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251796.344,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
-				}, -- [64]
-				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048685,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251799.578,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [65]
-				{
-					["message"] = "|cff71d5ff|Hdeath:18|h[You died.]|h",
-					["serverTime"] = 1647048692,
-					["r"] = 1,
-					["extraData"] = {
-						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251806.223,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [66]
-				{
-					["message"] = "So'leah yells: I have already forgotten you.",
-					["serverTime"] = 1647048692,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251806.433,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [67]
-				{
-					["message"] = "So'leah yells: The tools of creation--at my command!",
-					["serverTime"] = 1647048704,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251818.161,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [68]
-				{
-					["message"] = "So'leah yells: Bow before Cartel So!",
-					["serverTime"] = 1647048717,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251831.532,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [69]
-				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048721,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251836.012,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [70]
-				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048728,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251842.076,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [71]
-				{
-					["message"] = "So'leah yells: You are nothing!",
-					["serverTime"] = 1647048734,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251848.167,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [72]
-				{
-					["message"] = "So'leah yells: How dare you hinder me!",
-					["serverTime"] = 1647048734,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251848.167,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [73]
-				{
-					["message"] = "So'leah yells: The power of the First Ones--mine to control!",
-					["serverTime"] = 1647048742,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251856.501,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [74]
-				{
-					["message"] = "So'leah yells: The realms... I can feel them all!",
-					["serverTime"] = 1647048760,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251874.067,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [75]
-				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048760,
-					["r"] = 1,
-					["extraData"] = {
-						42, -- [1]
-						false, -- [2]
-						83, -- [3]
-						84, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251874.067,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
-				}, -- [76]
-				{
-					["message"] = "|cff33ff99<AngryKeystones>|r |cffff2020Timer expired for Tazavesh: So'leah's Gambit with 1:13:09.931, you were 43:09.931 over the time limit.|r",
-					["timestamp"] = 251875.489,
-					["serverTime"] = 1647048761,
-				}, -- [77]
-				{
-					["message"] = "So'leah yells: My cartel... must not... fade...",
-					["serverTime"] = 1647048761,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251875.574,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [78]
-				{
 					["message"] = "You receive currency: |cffa335ee|Hcurrency:1191:0|h[Valor]|h|rx135",
-					["serverTime"] = 1647048761,
+					["serverTime"] = 1651205455,
 					["r"] = 0,
 					["extraData"] = {
 						59, -- [1]
 						false, -- [2]
-						30, -- [3]
-						31, -- [4]
+						82, -- [3]
+						83, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251875.943,
+					["timestamp"] = 1228061.562,
 					["g"] = 0.6666666865348816,
 					["b"] = 0,
-				}, -- [79]
+				}, -- [47]
 				{
-					["message"] = "BigWigs: |cffffff00Defeated 'So'leah' after 4 |4Min:Min; 55 |4Sec:Sec;.|r",
-					["timestamp"] = 251876.389,
-					["serverTime"] = 1647048762,
-				}, -- [80]
+					["message"] = "You receive currency: |cffa335ee|Hcurrency:1947:0|h[Bonus Valor]|h|rx65",
+					["serverTime"] = 1651205455,
+					["r"] = 0,
+					["extraData"] = {
+						59, -- [1]
+						false, -- [2]
+						82, -- [3]
+						83, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228061.562,
+					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [48]
 				{
-					["message"] = "Tazavesh: So'leah's Gambit (Level 15) completed in 01:13:09 (43 |4min:min; 10 |4sec:sec; overtime). This is a new record!",
-					["serverTime"] = 1647048765,
+					["message"] = "BigWigs: |cffffff00Defeated 'So'azmi' after 1 |4Min:Min; 55 |4Sec:Sec;.|r",
+					["timestamp"] = 1228061.581,
+					["serverTime"] = 1651205455,
+				}, -- [49]
+				{
+					["message"] = "Tazavesh: Streets of Wonder (Level 13) completed in 27:31 (11 |4min:min; 29 |4sec:sec; left). This is a new Tyrannical record!",
+					["serverTime"] = 1651205458,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						["n"] = 1,
 					},
-					["timestamp"] = 251879.769,
+					["timestamp"] = 1228064.941,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [81]
+				}, -- [50]
 				{
-					["message"] = "You receive item: |cffa335ee|Hitem:184315::::::::60:251:::::::::|h[Multi-Modal Anima Container]|h|rx3",
-					["serverTime"] = 1647048768,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						24, -- [3]
-						25, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251882.299,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [82]
-				{
-					["message"] = "Tazavesh: Raiders of the Lost Artifact completed.",
-					["serverTime"] = 1647048768,
+					["message"] = "Rating increased for |cffffd100Aquacotta|r, |cffffd100Zug|r, |cffffd100Corpselus|r! Bonus Valor earned.",
+					["serverTime"] = 1651205458,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
+						["n"] = 1,
 					},
-					["timestamp"] = 251882.299,
+					["timestamp"] = 1228064.941,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [83]
+				}, -- [51]
 				{
-					["message"] = "Received 257 Gold, 40 Silver.",
-					["serverTime"] = 1647048768,
+					["message"] = "Your Mythic+ Rating increased to |cff1dfe001320|r (+1). Keystone upgraded +2.",
+					["serverTime"] = 1651205458,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
-						false, -- [2]
-						18, -- [3]
-						19, -- [4]
-						["n"] = 4,
+						["n"] = 1,
 					},
-					["timestamp"] = 251882.299,
+					["timestamp"] = 1228064.941,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [84]
+				}, -- [52]
 				{
-					["message"] = "Lianesse receives loot: |cffa335ee|Hitem:185822::::::::60:251::33:5:7822:7359:6652:1576:6646:1:28:1279:::::|h[Staff of Fractured Spacetime]|h|r.",
-					["serverTime"] = 1647048768,
+					["message"] = "Aquacotta receives loot: |cffa335ee|Hitem:183044::::::::60:251::16:3:1553:5871:7245:2:28:1279:37:9:::::|h[Kilrogg's Cunning]|h|r.",
+					["serverTime"] = 1651205458,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						24, -- [3]
-						78, -- [4]
+						12, -- [3]
+						487, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251882.513,
+					["timestamp"] = 1228065.413,
 					["g"] = 0.6666666865348816,
 					["b"] = 0,
-				}, -- [85]
-				{
-					["message"] = "Lianesse receives loot: |cffa335ee|Hitem:181838::::::::60:251::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Charitable Soul]|h|r.",
-					["serverTime"] = 1647048768,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						24, -- [3]
-						78, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251882.633,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [86]
-				{
-					["message"] = "Lianesse receives loot: |cffa335ee|Hitem:180653::::::::60:251::::6:17:381:18:14:19:10:20:11:21:124:22:130:::::|h[Mythic Keystone]|h|r.",
-					["serverTime"] = 1647048768,
-					["r"] = 0,
-					["extraData"] = {
-						28, -- [1]
-						false, -- [2]
-						24, -- [3]
-						78, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251882.689,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
-				}, -- [87]
-				{
-					["message"] = "Al'dalil says: The First Ones hid these artifacts for good reason. They are not meant for us.",
-					["serverTime"] = 1647048769,
-					["r"] = 1,
-					["extraData"] = {
-						13, -- [1]
-						false, -- [2]
-						32, -- [3]
-						33, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251883.828,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
-				}, -- [88]
+				}, -- [53]
 				{
 					["message"] = "You receive loot: |cff0070dd|Hitem:184374::::::::60:251:::::::::|h[Cartel Exchange Vessel]|h|rx4",
-					["serverTime"] = 1647048770,
+					["serverTime"] = 1651205459,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						24, -- [3]
-						25, -- [4]
+						12, -- [3]
+						29, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251884.565,
+					["timestamp"] = 1228066.186,
 					["g"] = 0.6666666865348816,
 					["b"] = 0,
-				}, -- [89]
+				}, -- [54]
 				{
-					["message"] = "You receive loot: |cffa335ee|Hitem:181975::::::::60:251::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Hardened Bones]|h|r",
-					["serverTime"] = 1647048770,
+					["message"] = "You receive loot: |cffa335ee|Hitem:185815::::::::60:251::33:8:7794:8136:8138:7359:6652:7580:1576:6646:1:28:1279:::::|h[Vambraces of Verification]|h|r |cffffd200|Hshareitem:185815::::::::60:251::33:8:7794:8136:8138:7359:6652:7580:1576:6646:1:28:1279::::::1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["serverTime"] = 1651205459,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						24, -- [3]
-						25, -- [4]
+						12, -- [3]
+						29, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251884.727,
+					["timestamp"] = 1228066.186,
 					["g"] = 0.6666666865348816,
 					["b"] = 0,
-				}, -- [90]
+				}, -- [55]
 				{
-					["message"] = "You loot 52 Gold, 89 Silver, 54 Copper",
-					["serverTime"] = 1647048771,
-					["r"] = 1,
-					["extraData"] = {
-						29, -- [1]
-						false, -- [2]
-						40, -- [3]
-						41, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251885.394,
-					["g"] = 1,
-					["b"] = 0,
-				}, -- [91]
-				{
-					["message"] = "You receive currency: |cffff8000|Hcurrency:2009:0|h[Cosmic Flux]|h|rx100",
-					["serverTime"] = 1647048771,
+					["message"] = "You receive currency: |cffff8000|Hcurrency:2009:0|h[Cosmic Flux]|h|rx98",
+					["serverTime"] = 1651205460,
 					["r"] = 0,
 					["extraData"] = {
 						59, -- [1]
 						false, -- [2]
-						30, -- [3]
-						31, -- [4]
+						82, -- [3]
+						83, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251885.889,
+					["timestamp"] = 1228067.175,
 					["g"] = 0.6666666865348816,
 					["b"] = 0,
-				}, -- [92]
+				}, -- [56]
 				{
-					["message"] = "Steakdh receives loot: |cffa335ee|Hitem:182316::::::::60:251::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Fel Defender]|h|r.",
-					["serverTime"] = 1647048774,
+					["message"] = "You loot 53 Gold, 54 Silver, 3 Copper",
+					["serverTime"] = 1651205460,
+					["r"] = 1,
+					["extraData"] = {
+						29, -- [1]
+						false, -- [2]
+						79, -- [3]
+						80, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228067.197,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [57]
+				{
+					["message"] = "Al'dalil says: So'leah may have a head start, but her echo remains. An echo we can follow.",
+					["serverTime"] = 1651205461,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228067.814,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [58]
+				{
+					["message"] = "Ghosse receives loot: |cffa335ee|Hitem:185842::::::::60:251::16:6:7794:7359:6652:7578:1576:6646:1:28:1279:::::|h[Ornately Engraved Amplifier]|h|r.",
+					["serverTime"] = 1651205461,
 					["r"] = 0,
 					["extraData"] = {
 						28, -- [1]
 						false, -- [2]
-						24, -- [3]
-						85, -- [4]
+						12, -- [3]
+						33, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251889.009,
+					["timestamp"] = 1228068.194,
 					["g"] = 0.6666666865348816,
+					["b"] = 0,
+				}, -- [59]
+				{
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Sendmoons-Thrall:3084:PARTY|h|cfffe7b09Sendmoons|r|h|cffd8d8d8]|r: (|cFF00b4ff272.7|r) ligma",
+					["serverTime"] = 1651205485,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						457, -- [3]
+						488, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228092.005,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [60]
+				{
+					["message"] = "|cfffe7b09Sendmoons|r leaves the party.",
+					["serverTime"] = 1651205489,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228096.037,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [61]
+				{
+					["message"] = "You have requested to trade with |cfff38bb9Ghosse|r.",
+					["serverTime"] = 1651205498,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228104.586,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [62]
+				{
+					["message"] = "|cff8687edAquacotta|r leaves the party.",
+					["serverTime"] = 1651205505,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228111.892,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [63]
+				{
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zug-Thrall:3088:SAY|h|cffc59a6cZug|r|h|cffd8d8d8]|r: gnight",
+					["serverTime"] = 1651205505,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						69, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228112.167,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [64]
+				{
+					["message"] = "|cfffe7b09Sendmoons|r has gone offline.",
+					["serverTime"] = 1651205506,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228112.703,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [65]
+				{
+					["message"] = "Loot Specialization set to: Frost",
+					["serverTime"] = 1651205532,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1228138.475,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [66]
+				{
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Zereth Mortis]|h",
+					["serverTime"] = 1651205533,
+					["r"] = 1,
+					["extraData"] = {
+						68, -- [1]
+						false, -- [2]
+						14, -- [3]
+						25, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228140.268,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [67]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Zereth Mortis]|h",
+					["serverTime"] = 1651205533,
+					["r"] = 1,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						22, -- [3]
+						23, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228140.268,
+					["g"] = 0.7529412508010864,
+					["b"] = 0.7529412508010864,
+				}, -- [68]
+				{
+					["message"] = "Treasure seen: Stolen Scroll (34,67.6)",
+					["r"] = 1,
+					["serverTime"] = 1651205555,
+					["timestamp"] = 1228162.289,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [69]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Stormsurrge-Thrall:3092:ACHIEVEMENT|h|cff006fdcStormsurrge|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:15518:Player-3678-0B499962:1:4:28:22:4294967295:4294967295:4294967295:4294967295|h[A Means to an End]|h|r |cffffffff(|rCompleted 3/31/22|cffffffff)|r!",
+					["serverTime"] = 1651205556,
+					["r"] = 1,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						403, -- [3]
+						489, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228163.169,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [70]
+				{
+					["message"] = "You leave the group.",
+					["serverTime"] = 1651205581,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1228187.805,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [71]
+				{
+					["message"] = "Xy'kitaab says: May I tempt you with my wares?",
+					["serverTime"] = 1651205015,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227622.321,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [72]
+				{
+					["message"] = "Xy'kitaab says: Remember, everything has value.",
+					["serverTime"] = 1651205017,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227624.12,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [73]
+				{
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Aquacotta-Thrall:2972:PARTY|h|cff8687edAquacotta|r|h|cffd8d8d8]|r: (|cFF00d7ff255.1|r) Carry tradeable goods to: Xy'jahid!",
+					["serverTime"] = 1651205029,
+					["r"] = 0.6666666865348816,
+					["extraData"] = {
+						3, -- [1]
+						false, -- [2]
+						457, -- [3]
+						486, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227636.389,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [74]
+				{
+					["message"] = "Xy'jahid says: All goods and services for sale.",
+					["serverTime"] = 1651205040,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227646.624,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [75]
+				{
+					["message"] = "Xy'jahid says: A very rare item you have there. What could I offer in return?",
+					["serverTime"] = 1651205040,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227646.624,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [76]
+				{
+					["message"] = "Xy'jahid says: I know! Access to the most exclusive club in town... Au'myza's Oasis!",
+					["serverTime"] = 1651205044,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227651.376,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [77]
+				{
+					["message"] = "Xy'jahid says: Come closer, stranger. The password is...",
+					["serverTime"] = 1651205049,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227656.265,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [78]
+				{
+					["message"] = "Xy'jahid says: Sapphire Oasis",
+					["serverTime"] = 1651205054,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227660.966,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [79]
+				{
+					["message"] = "Xy'jahid says: Nice doing business with you.",
+					["serverTime"] = 1651205059,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227665.973,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [80]
+				{
+					["message"] = "Zo'gron says: Enjoy your stay.",
+					["serverTime"] = 1651205072,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227678.748,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [81]
+				{
+					["message"] = "Unruly Patron says: Bring on the next band!",
+					["serverTime"] = 1651205088,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227695.125,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [82]
+				{
+					["message"] = "It's time to perform! Grab an instrument!",
+					["serverTime"] = 1651205094,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						481, -- [3]
+						484, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227701.178,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [83]
+				{
+					["message"] = "Au'myza yells: A round of applause, please, for our next musical act.",
+					["serverTime"] = 1651205095,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						114, -- [3]
+						115, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227701.724,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [84]
+				{
+					["message"] = "|cffffaeaeDetails!:|r |cFFFFBB00First Hit|r: *?*    ",
+					["timestamp"] = 1227702.001,
+					["serverTime"] = 1651205095,
+				}, -- [85]
+				{
+					["message"] = "Get to your spotlight and hit notes when they light up!",
+					["serverTime"] = 1651205097,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						67, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227703.614,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [86]
+				{
+					["message"] = "|TInterface\\Icons\\Spell_Shadow_DeathPact.blp:20|t Unruly patrons rush the stage!",
+					["serverTime"] = 1651205111,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						481, -- [3]
+						484, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227718.458,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [87]
+				{
+					["message"] = "Brawling Patron yells: Enough of this noise!",
+					["serverTime"] = 1651205111,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						114, -- [3]
+						115, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227718.458,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [88]
+				{
+					["message"] = "Oasis Security yells: Ugh, get out of our club!",
+					["serverTime"] = 1651205124,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						114, -- [3]
+						115, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227730.556,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [89]
+				{
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zug-Thrall:2988:SAY|h|cffc59a6cZug|r|h|cffd8d8d8]|r: Interrupted |cff71d5ff|Hspell:350922:0|h[Menacing Shout]|h|r on Oasis Security",
+					["serverTime"] = 1651205125,
+					["r"] = 1,
+					["extraData"] = {
+						2, -- [1]
+						false, -- [2]
+						69, -- [3]
+						76, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227731.559,
+					["g"] = 1,
+					["b"] = 1,
+				}, -- [90]
+				{
+					["message"] = "Get to your spotlight and hit notes when they light up!",
+					["serverTime"] = 1651205135,
+					["r"] = 1,
+					["extraData"] = {
+						42, -- [1]
+						false, -- [2]
+						67, -- [3]
+						68, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227742.09,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
+				}, -- [91]
+				{
+					["message"] = "Zo'gron yells: Easy, all of you. This is not that kind of establishment!",
+					["serverTime"] = 1651205135,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						114, -- [3]
+						115, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227742.09,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
+				}, -- [92]
+				{
+					["message"] = "|TInterface\\Icons\\Spell_Shadow_DeathPact.blp:20|t Unruly patrons rush the stage!",
+					["serverTime"] = 1651205150,
+					["r"] = 1,
+					["extraData"] = {
+						43, -- [1]
+						false, -- [2]
+						481, -- [3]
+						484, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227756.646,
+					["g"] = 0.8666667342185974,
 					["b"] = 0,
 				}, -- [93]
 				{
-					["message"] = "Al'dalil says: I am grateful our paths crossed, Maw Walker.",
-					["serverTime"] = 1647048776,
+					["message"] = "Brawling Patron yells: Get off the stage!",
+					["serverTime"] = 1651205150,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
+						15, -- [1]
 						false, -- [2]
-						32, -- [3]
-						33, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251890.209,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 1227756.646,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [94]
 				{
-					["message"] = "Al'dalil says: These troublesome pieces will reside where they can do no more harm, and be studied by Cartel Al. Until our fortunes meet again...",
-					["serverTime"] = 1647048780,
+					["message"] = "Brawling Patron yells: You call that music?!",
+					["serverTime"] = 1651205150,
 					["r"] = 1,
 					["extraData"] = {
-						13, -- [1]
+						15, -- [1]
 						false, -- [2]
-						32, -- [3]
-						33, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251894.709,
-					["g"] = 1,
-					["b"] = 0.6235294342041016,
+					["timestamp"] = 1227756.646,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [95]
 				{
-					["message"] = "Bullingball receives loot: |cffa335ee|Hitem:182109::::::::60:251::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Totemic Surge]|h|r.",
-					["serverTime"] = 1647048781,
-					["r"] = 0,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Aquacotta-Thrall:2995:SAY|h|cff8687edAquacotta|r|h|cffd8d8d8]|r: Interrupted Disruptive Patron's |cff71d5ff|Hspell:353836:0|h[Hyperlight Bolt]|h|r!",
+					["serverTime"] = 1651205155,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						2, -- [1]
 						false, -- [2]
-						24, -- [3]
-						27, -- [4]
+						69, -- [3]
+						480, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251895.97,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 1227762.462,
+					["g"] = 1,
+					["b"] = 1,
 				}, -- [96]
 				{
-					["message"] = "Bullingball receives loot: |cffa335ee|Hitem:182105::::::::60:251::16:3:1553:5884:7245:2:28:1279:37:10:::::|h[Astral Protection]|h|r.",
-					["serverTime"] = 1647048783,
-					["r"] = 0,
+					["message"] = "Oasis Security yells: Ugh, get out of our club!",
+					["serverTime"] = 1651205162,
+					["r"] = 1,
 					["extraData"] = {
-						28, -- [1]
+						15, -- [1]
 						false, -- [2]
-						24, -- [3]
-						27, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251897.193,
-					["g"] = 0.6666666865348816,
-					["b"] = 0,
+					["timestamp"] = 1227769.191,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [97]
 				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647047687,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zug-Thrall:2997:SAY|h|cffc59a6cZug|r|h|cffd8d8d8]|r: Interrupted |cff71d5ff|Hspell:350922:0|h[Menacing Shout]|h|r on Oasis Security",
+					["serverTime"] = 1651205163,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						2, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						69, -- [3]
+						76, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250801.813,
+					["timestamp"] = 1227769.843,
 					["g"] = 1,
-					["b"] = 0,
+					["b"] = 1,
 				}, -- [98]
 				{
-					["message"] = "|cffa22fc8Steakdh|r has died.",
-					["serverTime"] = 1647047690,
+					["message"] = "Get to your spotlight and hit notes when they light up!",
+					["serverTime"] = 1651205185,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						42, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						67, -- [3]
+						68, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250804.549,
-					["g"] = 1,
+					["timestamp"] = 1227791.847,
+					["g"] = 0.8666667342185974,
 					["b"] = 0,
 				}, -- [99]
 				{
-					["message"] = "|cff71d5ff|Hdeath:15|h[You died.]|h",
-					["serverTime"] = 1647047690,
+					["message"] = "Zo'gron yells: You do not want me to intervene.",
+					["serverTime"] = 1651205185,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250804.602,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227791.847,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [100]
 				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647047696,
+					["message"] = "Zo'gron approaches the stage to put an end to the performance!",
+					["serverTime"] = 1651205199,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						43, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						481, -- [3]
+						484, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250810.474,
-					["g"] = 1,
+					["timestamp"] = 1227806.483,
+					["g"] = 0.8666667342185974,
 					["b"] = 0,
 				}, -- [101]
 				{
-					["message"] = "|cfffe7b09Sendmoons|r has died.",
-					["serverTime"] = 1647047705,
+					["message"] = "Zo'gron yells: You are bad for business!",
+					["serverTime"] = 1651205199,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250819.573,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227806.483,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [102]
 				{
-					["message"] = "|cfffefefeLianesse|r has died.",
-					["serverTime"] = 1647047712,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Zug-Thrall:3003:SAY|h|cffc59a6cZug|r|h|cffd8d8d8]|r: Interrupted |cff71d5ff|Hspell:350922:0|h[Menacing Shout]|h|r on Zo'gron",
+					["serverTime"] = 1651205213,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						2, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						69, -- [3]
+						76, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250826.323,
+					["timestamp"] = 1227819.75,
 					["g"] = 1,
-					["b"] = 0,
+					["b"] = 1,
 				}, -- [103]
 				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647047783,
+					["message"] = "|TInterface\\Icons\\Spell_Broker_Nova.blp:20|t Zo'gron begins to draw you in with |cFFFF0000|Hspell:355438|h[Suppression Spark]|h|r!",
+					["serverTime"] = 1651205219,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						43, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						481, -- [3]
+						484, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250897.483,
-					["g"] = 1,
+					["timestamp"] = 1227825.898,
+					["g"] = 0.8666667342185974,
 					["b"] = 0,
 				}, -- [104]
 				{
-					["message"] = "|cff71d5ff|Hdeath:16|h[You died.]|h",
-					["serverTime"] = 1647047785,
+					["message"] = "Zo'gron yells: You will never play in this town again.",
+					["serverTime"] = 1651205219,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250899.054,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227825.898,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [105]
 				{
-					["message"] = "|cffa22fc8Steakdh|r has died.",
-					["serverTime"] = 1647047785,
+					["message"] = "Zo'gron yells: Closing time!",
+					["serverTime"] = 1651205226,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250899.054,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227833.07,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [106]
 				{
-					["message"] = "|cfffe7b09Sendmoons|r has died.",
-					["serverTime"] = 1647047792,
+					["message"] = "Zo'gron yells: Closing time!",
+					["serverTime"] = 1651205248,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250906.676,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227854.966,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [107]
 				{
-					["message"] = "|cfffefefeLianesse|r has died.",
-					["serverTime"] = 1647047798,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Aquacotta-Thrall:3008:SAY|h|cff8687edAquacotta|r|h|cffd8d8d8]|r: Interrupted Zo'gron's |cff71d5ff|Hspell:350922:0|h[Menacing Shout]|h|r!",
+					["serverTime"] = 1651205256,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						2, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						69, -- [3]
+						480, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250912.535,
+					["timestamp"] = 1227863.261,
 					["g"] = 1,
-					["b"] = 0,
+					["b"] = 1,
 				}, -- [108]
 				{
-					["message"] = "|TInterface\\FriendsFrame\\UI-Toast-ToastIcons.tga:16:16:0:0:128:64:2:29:34:61|t|HBNplayer:|Kq31|k:52:988:BN_INLINE_TOAST_ALERT:0|h[|Kq31|k] (|TInterface\\ChatFrame\\UI-ChatIcon-WOW:14:14:0:0|tÐeepz)|h has come online.",
-					["serverTime"] = 1647047843,
-					["r"] = 0.5098039507865906,
+					["message"] = "|TInterface\\Icons\\Spell_Broker_Nova.blp:20|t Zo'gron begins to draw you in with |cFFFF0000|Hspell:355438|h[Suppression Spark]|h|r!",
+					["serverTime"] = 1651205258,
+					["r"] = 1,
 					["extraData"] = {
-						54, -- [1]
+						43, -- [1]
 						false, -- [2]
-						42, -- [3]
-						81, -- [4]
+						481, -- [3]
+						484, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250957.921,
-					["g"] = 0.7725490927696228,
-					["b"] = 1,
+					["timestamp"] = 1227864.749,
+					["g"] = 0.8666667342185974,
+					["b"] = 0,
 				}, -- [109]
 				{
-					["message"] = "|cff006fdcBullingball|r has died.",
-					["serverTime"] = 1647047883,
+					["message"] = "Zo'gron yells: You will never play in this town again.",
+					["serverTime"] = 1651205258,
 					["r"] = 1,
 					["extraData"] = {
-						1, -- [1]
+						15, -- [1]
 						false, -- [2]
-						18, -- [3]
-						19, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 250997.345,
-					["g"] = 1,
-					["b"] = 0,
+					["timestamp"] = 1227864.749,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [110]
 				{
-					["message"] = "|Hchannel:PARTY|h[PL] |h|cffd8d8d8[|r|Hplayer:Corpselus-Thrall:990:PARTY|h|cffc31d39Corpselus|r|h|cffd8d8d8]|r: (|cFF00e7ff247.0|r) |cffffffff|Hurl:https://www.mythictrap.com/tazaveshUpper/soleah/0/350885|h[https://www.mythictrap.com/tazaveshUpper/soleah/0/350885]|h|r",
-					["serverTime"] = 1647048019,
-					["r"] = 0.4627451300621033,
+					["message"] = "Zo'gron yells: Closing time!",
+					["serverTime"] = 1651205270,
+					["r"] = 1,
 					["extraData"] = {
-						50, -- [1]
+						15, -- [1]
 						false, -- [2]
-						71, -- [3]
-						82, -- [4]
+						114, -- [3]
+						115, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251133.407,
-					["g"] = 0.7843137979507446,
-					["b"] = 1,
+					["timestamp"] = 1227876.893,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [111]
 				{
-					["message"] = "|cffffff00MRT|r Who Pulled: |cfffefefeLianesse",
-					["timestamp"] = 251191.649,
-					["serverTime"] = 1647048077,
+					["message"] = "Zo'gron yells: The fun is over!",
+					["serverTime"] = 1651205274,
+					["r"] = 1,
+					["extraData"] = {
+						15, -- [1]
+						false, -- [2]
+						114, -- [3]
+						115, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227881.097,
+					["g"] = 0.250980406999588,
+					["b"] = 0.250980406999588,
 				}, -- [112]
 				{
-					["message"] = "So'leah yells: I will unmake you!",
-					["serverTime"] = 1647048077,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251191.863,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["message"] = "BigWigs: |cffffff00Defeated 'Myza's Oasis' after 2 |4Min:Min; 59 |4Sec:Sec;.|r",
+					["timestamp"] = 1227881.918,
+					["serverTime"] = 1651205275,
 				}, -- [113]
 				{
-					["message"] = "|cffffaeaeDetails!:|r |cFFFFFF00First Hit|r: |cff71d5ff|Hspell:14914:0|h[Holy Fire]|h|r from Lianesse |cFFFFBB00Boss First Target|r: Lianesse    ",
-					["timestamp"] = 251192.152,
-					["serverTime"] = 1647048078,
+					["message"] = "Au'myza says: Stop the performance! There is no one left to hear it.",
+					["serverTime"] = 1651205275,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						27, -- [3]
+						28, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227882.271,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [114]
 				{
-					["message"] = "So'leah yells: Guards, remove these pests.",
-					["serverTime"] = 1647048083,
+					["message"] = "Au'myza says: It has been an age since I witnessed such a... vigorous show. My establishment would not survive another.",
+					["serverTime"] = 1651205279,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						13, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						27, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251197.622,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227886.334,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [115]
 				{
-					["message"] = "So'leah yells: The stars are mine!",
-					["serverTime"] = 1647048098,
+					["message"] = "Al'dalil says: We have all the signatures we need. Let us not keep So'leah waiting.",
+					["serverTime"] = 1651205282,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						13, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						27, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251212.196,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227888.613,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [116]
 				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048098,
+					["message"] = "Al'dalil says: Apologies, Au'myza. We desperately need your signature.",
+					["serverTime"] = 1651205287,
 					["r"] = 1,
 					["extraData"] = {
-						42, -- [1]
+						13, -- [1]
 						false, -- [2]
-						83, -- [3]
-						84, -- [4]
+						27, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251212.196,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
+					["timestamp"] = 1227894.005,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [117]
 				{
-					["message"] = "So'leah yells: Guards, remove these pests.",
-					["serverTime"] = 1647048126,
+					["message"] = "Au'myza says: Cartel So's underhanded dealings have not escaped my attention. You may have my signature... as long as you never again bring destruction to my oasis.",
+					["serverTime"] = 1651205292,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						13, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						27, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251240.122,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227898.974,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [118]
 				{
-					["message"] = "So'leah yells: The stars are mine!",
-					["serverTime"] = 1647048158,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3018:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205311,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251272.905,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227918.371,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [119]
 				{
-					["message"] = "|TInterface\\ICONS\\Spell_Broker_Debuff.BLP:20|t So'leah begins to form a |cFFFF0000|Hspell:350799|h[Collapsing Star]|h|r!",
-					["serverTime"] = 1647048158,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3020:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205311,
 					["r"] = 1,
 					["extraData"] = {
-						42, -- [1]
+						7, -- [1]
 						false, -- [2]
-						83, -- [3]
-						84, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251272.905,
-					["g"] = 0.8666667342185974,
-					["b"] = 0,
-				}, -- [120]
-				{
-					["message"] = "So'leah yells: Guards, remove these pests.",
-					["serverTime"] = 1647048167,
-					["r"] = 1,
-					["extraData"] = {
-						15, -- [1]
-						false, -- [2]
-						75, -- [3]
-						76, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 251281.404,
+					["timestamp"] = 1227918.371,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
-				}, -- [121]
+				}, -- [120]
 				{
-					["message"] = "So'leah yells: This power... is vast...",
-					["serverTime"] = 1647048201,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3021:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205312,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251315.411,
+					["timestamp"] = 1227918.607,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
+				}, -- [121]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3022:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205312,
+					["r"] = 1,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						94, -- [3]
+						250, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1227918.607,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [122]
 				{
-					["message"] = "So'leah yells: Bow before Cartel So!",
-					["serverTime"] = 1647048207,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3023:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205312,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251321.497,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227918.814,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [123]
 				{
-					["message"] = "So'leah yells: Oppose me and be extinguished!",
-					["serverTime"] = 1647048212,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3024:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Urh <<",
+					["serverTime"] = 1651205312,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251326.394,
+					["timestamp"] = 1227918.814,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [124]
 				{
-					["message"] = "So'leah yells: Oppose me and be extinguished!",
-					["serverTime"] = 1647048218,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3025:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Wo <<",
+					["serverTime"] = 1651205312,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251332.449,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227919.134,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [125]
 				{
-					["message"] = "So'leah yells: How dare you hinder me!",
-					["serverTime"] = 1647048218,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3026:YELL|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: >> Wo <<",
+					["serverTime"] = 1651205312,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						7, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						94, -- [3]
+						250, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251332.449,
+					["timestamp"] = 1227919.134,
 					["g"] = 0.250980406999588,
 					["b"] = 0.250980406999588,
 				}, -- [126]
 				{
-					["message"] = "So'leah yells: The tools of creation--at my command!",
-					["serverTime"] = 1647048226,
+					["message"] = "Al'dalil says: Excuse our intrusion, So'leah. I hope we caught you at an inconvenient time.",
+					["serverTime"] = 1651205313,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						13, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						27, -- [3]
+						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251340.833,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227919.898,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
 				}, -- [127]
 				{
-					["message"] = "So'leah yells: The realms... I can feel them all!",
-					["serverTime"] = 1647048243,
-					["r"] = 1,
+					["message"] = "|Hchannel:PARTY|h[P] |h|cffd8d8d8[|r|Hplayer:Ghosse-Thrall:3028:PARTY|h|cfff38bb9Ghosse|r|h|cffd8d8d8]|r: (|cFF00bbff268.9|r) >> Urh <<",
+					["serverTime"] = 1651205313,
+					["r"] = 0.6666666865348816,
 					["extraData"] = {
-						15, -- [1]
+						3, -- [1]
 						false, -- [2]
-						75, -- [3]
-						76, -- [4]
+						457, -- [3]
+						458, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 251357.949,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
+					["timestamp"] = 1227920.21,
+					["g"] = 0.6666666865348816,
+					["b"] = 1,
 				}, -- [128]
 			},
 			["maxElements"] = 128,

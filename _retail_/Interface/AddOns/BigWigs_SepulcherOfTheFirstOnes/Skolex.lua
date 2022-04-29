@@ -18,6 +18,8 @@ local flailCount = 1
 local retchCount = 1
 local burrowCount = 1
 local devouringBloodTimer = nil
+local isInfoOpen = false
+local ephemeraDustList = {}
 
 --------------------------------------------------------------------------------
 -- Localization
@@ -25,6 +27,9 @@ local devouringBloodTimer = nil
 
 local L = mod:GetLocale()
 if L then
+	L.custom_on_stop_timers = "Always show ability bars"
+	L.custom_on_stop_timers_desc = "Skolex can delay its abilities. When this option is enabled, the bars for those abilities will stay on your screen."
+
 	L.tank_combo = CL.tank_combo
 	L.tank_combo_desc = "Timer for Riftmaw/Rend casts at 100 energy."
 	L.tank_combo_icon = 359979
@@ -36,6 +41,7 @@ end
 
 function mod:GetOptions()
 	return {
+		"custom_on_stop_timers",
 		"berserk",
 		359770, -- Ravening Burrow
 		359829, -- Dust Flail
@@ -45,8 +51,10 @@ function mod:GetOptions()
 		359975, -- Riftmaw
 		364522, -- Devouring Blood
 		364778, -- Destroy
+		{359778, "INFOBOX"}, -- Ephemera Dust
 		366070, -- Volatile Residue
 	},{
+		["custom_on_stop_timers"] = "general",
 		[366070] = "mythic",
 	}
 end
@@ -64,6 +72,11 @@ function mod:OnBossEnable()
 	self:Log("SPELL_AURA_APPLIED", "GroundDamage", 366070) -- Volatile Residue
 	self:Log("SPELL_PERIODIC_DAMAGE", "GroundDamage", 366070)
 	self:Log("SPELL_PERIODIC_MISSED", "GroundDamage", 366070)
+	self:Log("SPELL_AURA_APPLIED", "EphemeraDustApplied", 359778)
+	self:Log("SPELL_AURA_APPLIED_DOSE", "EphemeraDustApplied", 359778)
+	self:Log("SPELL_AURA_REMOVED", "EphemeraDustRemoved", 359778)
+
+	self:RegisterMessage("BigWigs_BarCreated", "BarCreated")
 end
 
 function mod:OnEngage()
@@ -71,6 +84,8 @@ function mod:OnEngage()
 	flailCount = 1
 	retchCount = 1
 	burrowCount = 1
+	ephemeraDustList = {}
+	isInfoOpen = false
 
 	self:Bar(359829, 2, CL.count:format(self:SpellName(359829), flailCount)) -- Dust Flail
 	self:Bar("tank_combo", 9, CL.count:format(CL.tank_combo, tankComboCounter), L.tank_combo_icon) -- Tank Combo
@@ -84,6 +99,31 @@ end
 -- Event Handlers
 --
 
+do
+	local abilitysToPause = {
+		["tank_combo"] = true, -- Tank Combo
+		[359829] = true, -- Dust Flail
+		[360451] = true, -- Retch
+	}
+
+	local castPattern = CL.cast:gsub("%%s", ".+")
+
+	local function stopAtZeroSec(bar)
+		if bar.remaining < 0.15 then -- Pause at 0.0
+			bar:SetDuration(0.01) -- Make the bar look full
+			bar:Start()
+			bar:Pause()
+			bar:SetTimeVisibility(false)
+		end
+	end
+
+	function mod:BarCreated(_, _, bar, _, key, text)
+		if self:GetOption("custom_on_stop_timers") and abilitysToPause[key] and not text:match(castPattern) then
+			bar:AddUpdateFunction(stopAtZeroSec)
+		end
+	end
+end
+
 function mod:UNIT_SPELLCAST_SUCCEEDED(_, _, _, spellId)
 	if spellId == 360079 then -- Tank Combo
 		self:StopBar(CL.count:format(CL.tank_combo, tankComboCounter))
@@ -95,12 +135,16 @@ end
 
 function mod:DevouringBlood()
 	self:StopBar(364522)
-	local speedUp = self:Mythic() and 0.75 or 0.5
-	--self:Message(364522, "orange") -- XXX Disabled until we confirm mythic is correct as well
-	--self:PlaySound(364522, "info")
-	local cd = 9 - ((burrowCount - 1) * speedUp) -- speeds up after each burrow
-	self:Bar(364522, cd)
 	self:CancelTimer(devouringBloodTimer)
+
+	self:Message(364522, "orange")
+	self:PlaySound(364522, "info")
+	local cd = 9
+	if not self:Easy() then
+		local speedUp = self:Mythic() and 0.75 or 0.5
+		cd = 9 - ((burrowCount - 1) * speedUp) -- speeds up after each burrow
+	end
+	self:Bar(364522, cd)
 	devouringBloodTimer = self:ScheduleTimer("DevouringBlood", cd)
 end
 
@@ -170,5 +214,24 @@ do
 				self:PersonalMessage(args.spellId, "underyou")
 			end
 		end
+	end
+end
+
+function mod:EphemeraDustApplied(args)
+	if not isInfoOpen then
+		isInfoOpen = true
+		self:OpenInfo(args.spellId, args.spellName)
+	end
+	ephemeraDustList[args.destName] = args.amount or 1
+	self:SetInfoByTable(args.spellId, ephemeraDustList)
+end
+
+function mod:EphemeraDustRemoved(args)
+	ephemeraDustList[args.destName] = nil
+	if next(ephemeraDustList) then
+		self:SetInfoByTable(args.spellId, ephemeraDustList)
+	elseif isInfoOpen then
+		isInfoOpen = false
+		self:CloseInfo(args.spellId)
 	end
 end

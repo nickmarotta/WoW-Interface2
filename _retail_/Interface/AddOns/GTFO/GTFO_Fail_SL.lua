@@ -421,6 +421,23 @@ GTFO.SpellID["365876"] = {
   sound = 3;
 };
 
+GTFO.SpellID["362985"] = {
+  --desc = "Crush of the Infinite (Graktho the Automa-eater)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["363013"] = {
+  --desc = "Infinite Excess (Graktho the Automa-eater)";
+  sound = 3;
+};
+
+GTFO.SpellID["368175"] = {
+  --desc = "Defensive Sweep (Otaris the Provoked)";
+  applicationOnly = true;
+  sound = 3;
+};
+
 --- **********************
 --- * Halls of Atonement *
 --- **********************
@@ -1157,6 +1174,19 @@ GTFO.SpellID["351811"] = {
   sound = 3;
 };
 
+GTFO.SpellID["350872"] = {
+  --desc = "Spiked Ball";
+  sound = 3;
+};
+
+GTFO.SpellID["352684"] = {
+  --desc = "Dragged (Trap)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+
+
 --- ******************
 --- * Castle Nathria *
 --- ******************
@@ -1697,12 +1727,16 @@ GTFO.SpellID["347094"] = {
 --- *******************************
 
 -- TODO: Relic Collapse (Artificer Xy'mox) - Mythic only
--- TODO: Hyperlight Sparknova (Artificer Xy'mox) - More than 1 stack?
 
 
 GTFO.SpellID["364904"] = {
   --desc = "Anti-Matter (Vigilant Guardian)";
   applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["366692"] = {
+  --desc = "Refracted Blast (Vigilant Guardian)";
   sound = 3;
 };
 
@@ -1751,6 +1785,22 @@ GTFO.SpellID["365681"] = {
   tankSound = 0;
 };
 
+GTFO.SpellID["362849"] = {
+  --desc = "Hyperlight Sparknova (Artificer Xy'mox)";
+  applicationOnly = true;
+  sound = 3;
+  minimumStacks = 1;
+  test = true;
+};
+
+GTFO.SpellID["368020"] = {
+  --desc = "Disintegration Halo (Dausegne)";
+  applicationOnly = true;
+  sound = 3;
+  minimumStacks = 1;
+  test = true;
+};
+
 GTFO.SpellID["360737"] = {
   --desc = "Unstable Eruption (Foul Controller)";
   sound = 3;
@@ -1760,6 +1810,20 @@ GTFO.SpellID["360448"] = {
   --desc = "Retch (Skolex)";
   applicationOnly = true;
   sound = 3;
+};
+
+GTFO.SpellID["359976"] = {
+  --desc = "Riftmaw (Skolex)";
+  sound = 3;
+  tankSound = 0;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["359980"] = {
+  --desc = "Rend (Skolex)";
+  sound = 3;
+  tankSound = 0;
+  applicationOnly = true;
 };
 
 GTFO.SpellID["364522"] = {
@@ -1892,6 +1956,17 @@ GTFO.SpellID["361309"] = {
   sound = 3;
 };
 
+GTFO.SpellID["361677"] = {
+	--desc = "Earthbreaker Missiles (Halondrus)";
+	soundFunction = function() -- Warn only if you get hit more than once
+		if (GTFO_FindEvent("EarthbreakerMissiles")) then
+			return 3;
+		end
+		GTFO_AddEvent("EarthbreakerMissiles", 2);
+		return 0;
+	end
+};
+
 GTFO.SpellID["365919"] = {
   --desc = "Explosive Armaments (Dominated Disrupter)";
   sound = 3;
@@ -1932,10 +2007,75 @@ GTFO.SpellID["366189"] = {
 };
 
 GTFO.SpellID["362394"] = {
-  --desc = "Rain of Despair (Anduin's Despair)";
+  --desc = "Rain of Despair (Anduin Wrynn)";
   sound = 3;
   applicationOnly = true;
 };
+
+GTFO.SpellID["362407"] = {
+  --desc = "Kingsmourne Hungers (Anduin Wrynn)";
+  sound = 3;
+  affirmingDebuffSpellID = 365445; -- Scarred Soul
+};
+
+GTFO.SpellID["364020"] = {
+  --desc = "March of the Damned (Anduin Wrynn)";
+  sound = 3;
+  applicationOnly = true;
+};
+
+GTFO.SpellID["360287"] = {
+  --desc = "Anguishing Strike (Kin'tessa)";
+  applicationOnly = true;
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["359963"] = {
+  --desc = "Opened Veins (Mal'Ganis)";
+  applicationOnly = true;
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["366731"] = {
+  --desc = "Arcing Ejection (Astral Particle)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["363109"] = {
+  --desc = "Celestial Terminator (Rygelon)";
+  sound = 3;
+};
+
+GTFO.SpellID["363533"] = {
+  --desc = "Massive Bang (Rygelon)";
+  sound = 3;
+};
+
+GTFO.SpellID["365686"] = {
+  --desc = "Desecrated Slam (Overthrown Protector)";
+  sound = 3;
+};
+
+GTFO.SpellID["360241"] = {
+  --desc = "Unsettling Dreams (Mal'Ganis)";
+  applicationOnly = true;
+  sound = 3;
+};
+
+GTFO.SpellID["359868"] = {
+  --desc = "Shattering Blast (The Jailer)";
+  sound = 3;
+  tankSound = 0;
+};
+
+GTFO.SpellID["365371"] = {
+  --desc = "Tormenting Echo (The Jailer)";
+  sound = 3;
+};
+
 
 end
 

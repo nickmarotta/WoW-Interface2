@@ -3,9 +3,10 @@ NameplateSCTDB = {
 	["profileKeys"] = {
 		["Melleressra - Thrall"] = "Default",
 		["Salocinn - Thrall"] = "Default",
-		["Zynzo - Thrall"] = "Default",
-		["Mafiki - Thrall"] = "Default",
 		["Corpselus - Thrall"] = "Default",
+		["Falaria - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
+		["Zynzo - Thrall"] = "Default",
 	},
 	["global"] = {
 		["animations"] = {

@@ -4,6 +4,7 @@ HandyNotes_TreasureHunterDB = {
 		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Falaria - Thrall"] = "Falaria - Thrall",
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
@@ -28,6 +29,8 @@ HandyNotes_TreasureHunterDB = {
 		["Mafiki - Alexstrasza"] = {
 		},
 		["Fackligery - Sargeras"] = {
+		},
+		["Falaria - Thrall"] = {
 		},
 		["Amarelli - Hyjal"] = {
 		},

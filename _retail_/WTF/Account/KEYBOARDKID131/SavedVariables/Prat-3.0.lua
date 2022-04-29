@@ -29,14 +29,14 @@ Prat3DB = {
 				["Default"] = {
 					["colors"] = {
 						["community:368504831:1"] = {
-							["b"] = 1,
-							["g"] = 0,
 							["r"] = 0.6235294342041016,
+							["g"] = 0,
+							["b"] = 1,
 						},
 						["community:385300201:1"] = {
-							["r"] = 0.5529412031173706,
-							["g"] = 0,
 							["b"] = 1,
+							["g"] = 0,
+							["r"] = 0.5529412031173706,
 						},
 					},
 				},
@@ -48,33 +48,25 @@ Prat3DB = {
 		},
 		["Prat_History"] = {
 		},
-		["Prat_ChannelNames"] = {
-		},
-		["Prat_Bubbles"] = {
-		},
-		["Prat_Scroll"] = {
-		},
 		["Prat_Font"] = {
 		},
 		["Prat_KeyBindings"] = {
 		},
-		["Prat_Timestamps"] = {
-			["profiles"] = {
-				["Default"] = {
-					["show"] = {
-						["ChatFrame3"] = false,
-						["ChatFrame1"] = false,
-					},
-				},
-			},
-		},
 		["Prat_Sounds"] = {
 		},
-		["Prat_Mentions"] = {
+		["Prat_ChannelNames"] = {
+		},
+		["Prat_Bubbles"] = {
+		},
+		["Prat_ChatLog"] = {
+		},
+		["Prat_Scroll"] = {
 		},
 		["Prat_Paragraph"] = {
 		},
-		["Prat_Achievements"] = {
+		["Prat_Mentions"] = {
+		},
+		["Prat_PopupMessage"] = {
 		},
 		["Prat_Alias"] = {
 		},
@@ -88,11 +80,19 @@ Prat3DB = {
 		},
 		["Prat_Invites"] = {
 		},
-		["Prat_PopupMessage"] = {
+		["Prat_Achievements"] = {
 		},
 		["Prat_CopyChat"] = {
 		},
-		["Prat_ChatLog"] = {
+		["Prat_Timestamps"] = {
+			["profiles"] = {
+				["Default"] = {
+					["show"] = {
+						["ChatFrame1"] = false,
+						["ChatFrame3"] = false,
+					},
+				},
+			},
 		},
 		["Prat_Search"] = {
 		},
@@ -114,6 +114,7 @@ Prat3DB = {
 		["Attorum - Thrall"] = "Default",
 		["Mafiki - Alexstrasza"] = "Default",
 		["Fackligery - Sargeras"] = "Default",
+		["Falaria - Thrall"] = "Default",
 		["Amarelli - Hyjal"] = "Default",
 		["Syandea - Hyjal"] = "Default",
 		["Corpsel - Alexstrasza"] = "Default",
@@ -122,26 +123,26 @@ Prat3DB = {
 		["Songfire - Hyjal"] = "Default",
 		["Zynzo - Thrall"] = "Default",
 		["Zarafina - Thrall"] = "Default",
-		["Salocinn - Thrall"] = "Default",
-		["Corpselus - Thrall"] = "Default",
+		["Melleressra - Thrall"] = "Default",
+		["Yjuwsgv - Thrall"] = "Default",
 		["Tyuty - Thrall"] = "Default",
-		["Vulara - Thrall"] = "Default",
+		["Naakari - Hyjal"] = "Default",
 		["Kerrama - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
-		["Naakari - Hyjal"] = "Default",
+		["Ronami - Thrall"] = "Default",
 		["Naraka - Thrall"] = "Default",
 		["Chonkcity - Thrall"] = "Default",
 		["Badnäme - Alexstrasza"] = "Default",
 		["Zarathia - Thrall"] = "Default",
 		["Vartizzle - Thrall"] = "Default",
-		["Ronami - Thrall"] = "Default",
-		["Yjuwsgv - Thrall"] = "Default",
-		["Melleressra - Thrall"] = "Default",
+		["Vulara - Thrall"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+		["Salocinn - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {
 			["modules"] = {
-				["ChatLog"] = 2,
+				["Alias"] = 2,
 				["Mentions"] = 2,
 				["PopupMessage"] = 2,
 				["AltNames"] = 2,
@@ -149,7 +150,7 @@ Prat3DB = {
 				["Paragraph"] = 2,
 				["KeyBindings"] = 2,
 				["OriginalButtons"] = 2,
-				["Alias"] = 2,
+				["ChatLog"] = 2,
 			},
 		},
 	},

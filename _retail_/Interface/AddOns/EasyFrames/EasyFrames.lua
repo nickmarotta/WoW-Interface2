@@ -434,7 +434,11 @@ function EasyFrames.Utils.UpdateHealthValues(frame, healthFormat, customHealthFo
             local Result = string.gsub(
                 string.gsub(
                     string.gsub(
-                        customHealthFormat,
+                        string.gsub(
+                            customHealthFormat,
+                            "%%PERCENT_DECIMAL%%",
+                            string.format("%.1f", HealthPercent)
+                        ),
                         "%%PERCENT%%",
                         string.format("%.0f", HealthPercent)
                     ),
@@ -540,7 +544,11 @@ function EasyFrames.Utils.UpdateManaValues(frame, manaFormat, customManaFormat, 
             local Result = string.gsub(
                 string.gsub(
                     string.gsub(
-                        customManaFormat,
+                        string.gsub(
+                            customManaFormat,
+                            "%%PERCENT_DECIMAL%%",
+                            string.format("%.1f", ManaPercent)
+                        ),
                         "%%PERCENT%%",
                         string.format("%.0f", ManaPercent)
                     ),

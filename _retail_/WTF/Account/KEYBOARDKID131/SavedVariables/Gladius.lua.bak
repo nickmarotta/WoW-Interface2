@@ -4,6 +4,7 @@ Gladius2DB = {
 		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 		["Fackligery - Sargeras"] = "Fackligery - Sargeras",
+		["Falaria - Thrall"] = "Falaria - Thrall",
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
@@ -52,6 +53,16 @@ Gladius2DB = {
 				["arena1"] = 994.0442018199246,
 			},
 		},
+		["Falaria - Thrall"] = {
+			["auraVersion"] = 1,
+			["tagsVersion"] = 4,
+			["x"] = {
+				["arena1"] = 1023.200017400886,
+			},
+			["y"] = {
+				["arena1"] = 567.3002935226032,
+			},
+		},
 		["Amarelli - Hyjal"] = {
 			["auraVersion"] = 1,
 			["tagsVersion"] = 4,
@@ -66,11 +77,11 @@ Gladius2DB = {
 			["classIconShowSpec"] = true,
 			["tagsVersion"] = 4,
 			["y"] = {
-				["arena1"] = 486.7668675214736,
+				["arena1"] = 517.1669030275007,
 			},
 			["auraVersion"] = 1,
 			["x"] = {
-				["arena1"] = 933.423610781756,
+				["arena1"] = 946.7570209372207,
 			},
 		},
 		["Yjuwsgv - Thrall"] = {

@@ -1,14 +1,15 @@
 
 EasyFramesDB = {
 	["profileKeys"] = {
-		["Zynzo - Thrall"] = "Default",
-		["Melleressra - Thrall"] = "Default",
 		["Attorum - Thrall"] = "Default",
-		["Salocinn - Thrall"] = "Default",
-		["Mafiki - Thrall"] = "Default",
-		["Corpselus - Thrall"] = "Default",
+		["Falaria - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
 		["Ronami - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+		["Melleressra - Thrall"] = "Default",
+		["Salocinn - Thrall"] = "Default",
+		["Zynzo - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

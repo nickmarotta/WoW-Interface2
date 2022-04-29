@@ -980,7 +980,8 @@ local playerOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current health\n" ..
                             "%MAX% - return maximum of health\n" ..
-                            "%PERCENT% - return percent of current/max health\n\n" ..
+                            "%PERCENT% - return percent of current/max health\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -1143,7 +1144,8 @@ local playerOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current mana\n" ..
                             "%MAX% - return maximum of mana\n" ..
-                            "%PERCENT% - return percent of current/max mana\n\n" ..
+                            "%PERCENT% - return percent of current/max mana\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -1770,7 +1772,8 @@ local targetOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current health\n" ..
                             "%MAX% - return maximum of health\n" ..
-                            "%PERCENT% - return percent of current/max health\n\n" ..
+                            "%PERCENT% - return percent of current/max health\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -1933,7 +1936,8 @@ local targetOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current mana\n" ..
                             "%MAX% - return maximum of mana\n" ..
-                            "%PERCENT% - return percent of current/max mana\n\n" ..
+                            "%PERCENT% - return percent of current/max mana\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -2508,7 +2512,8 @@ local focusOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current health\n" ..
                             "%MAX% - return maximum of health\n" ..
-                            "%PERCENT% - return percent of current/max health\n\n" ..
+                            "%PERCENT% - return percent of current/max health\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -2671,7 +2676,8 @@ local focusOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current mana\n" ..
                             "%MAX% - return maximum of mana\n" ..
-                            "%PERCENT% - return percent of current/max mana\n\n" ..
+                            "%PERCENT% - return percent of current/max mana\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -3228,7 +3234,8 @@ local petOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current health\n" ..
                             "%MAX% - return maximum of health\n" ..
-                            "%PERCENT% - return percent of current/max health\n\n" ..
+                            "%PERCENT% - return percent of current/max health\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -3391,7 +3398,8 @@ local petOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current mana\n" ..
                             "%MAX% - return maximum of mana\n" ..
-                            "%PERCENT% - return percent of current/max mana\n\n" ..
+                            "%PERCENT% - return percent of current/max mana\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -3923,7 +3931,8 @@ local partyOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current health\n" ..
                             "%MAX% - return maximum of health\n" ..
-                            "%PERCENT% - return percent of current/max health\n\n" ..
+                            "%PERCENT% - return percent of current/max health\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -4086,7 +4095,8 @@ local partyOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current mana\n" ..
                             "%MAX% - return maximum of mana\n" ..
-                            "%PERCENT% - return percent of current/max mana\n\n" ..
+                            "%PERCENT% - return percent of current/max mana\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -4564,7 +4574,8 @@ local bossOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current health\n" ..
                             "%MAX% - return maximum of health\n" ..
-                            "%PERCENT% - return percent of current/max health\n\n" ..
+                            "%PERCENT% - return percent of current/max health\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max health\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)
@@ -4727,7 +4738,8 @@ local bossOptions = {
                     desc = L["You can use patterns:\n\n" ..
                             "%CURRENT% - return current mana\n" ..
                             "%MAX% - return maximum of mana\n" ..
-                            "%PERCENT% - return percent of current/max mana\n\n" ..
+                            "%PERCENT% - return percent of current/max mana\n" ..
+                            "%PERCENT_DECIMAL% - return decimal percent of current/max mana\n\n" ..
                             "All values are returned from formulas. For set abbreviation use formulas' fields"],
                     set = function(info, value)
                         setOpt(info, value)

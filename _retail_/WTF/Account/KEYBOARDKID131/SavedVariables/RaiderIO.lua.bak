@@ -1,18 +1,11 @@
 
 RaiderIO_Config = {
 	["previouslyEnabledLogging"] = false,
-	["displayWeeklyGuildBest"] = false,
+	["displayWeeklyGuildBest"] = true,
 }
 RaiderIO_LastCharacter = "us-Corpselus-thrall"
 RaiderIO_MissingCharacters = {
-	["us-Baulor-thrall"] = true,
-	["us-Azogorn-thrall"] = true,
-	["us-Extrastretch-thrall"] = true,
-	["us-Magharzuul-thrall"] = true,
-	["us-Bramblecat-thrall"] = true,
-	["us-Heltrox-thrall"] = true,
-	["us-Sejul-thrall"] = true,
-	["us-Darbak-wyrmrest-accord"] = true,
+	["us-Mossysloth-thrall"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -1,5 +1,33 @@
 # Changelog
 
+## Changed in v90200.10.1
+
+* Fixed an error that would happen on maps with mobs that have routes associated
+
+## Changed in v90200.10
+
+* Avoid some issues with switching profiles in settings
+* Fix the open achievement item in the right-click menu
+* Zereth Mortis: include the Dune Dominance mobs vignette IDs for better alerts
+* Mechagon: stop the chat-alerts from saying the Arachnoid Harvester is the time-displaced version
+
+## Changed in v90200.9
+
+* If you checked for transmogs being known very soon after the game loaded, some bad information could be cached because item information wasn't fully loaded from the server yet. This would make SilverDragon report that some items weren't learnable until your next UI reload. This should no longer happen.
+* Minor tweak to Blistermaw's location in Antoran Wastes
+
+## Changed in v90200.8
+
+* Map pins will only show a mob with the mount icon if you're eligible for that mount (unless it's one of the BoE mounts, which are always given priority)
+* Similarly, announcement sounds and screen flashes will only use their mount variants for mounts you don't have yet or BoE mounts
+* Right-click menu on map pins give you a shortcut to open the achievement associated with that mob
+* A zonewide point-of-interest means the same thing as vignette: you're definitely eligible to loot that mob
+* Zereth Mortis: assorted improvements to treasure/rare requirements
+* Maw tweaks:
+    * Tea for the Troubled mobs will show as "completed" rather than "killed" in tooltips
+    * Minions of the Cold Dark is tracked in tooltips
+* Legion: added some missing loot and cleaned up some data (legendaries had snuck in where they shouldn't...)
+
 ## Changed in v90200.7.1
 
 * Fixed a typo in the Architect's Reserve treasure requirements that was causing an error when it was up
