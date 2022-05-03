@@ -17,10 +17,10 @@ MythicDungeonToolsDB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
-		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
 		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
 	},
 	["global"] = {
 		["dataCollectionGUID"] = {
@@ -96,7 +96,42 @@ MythicDungeonToolsDB = {
 		["nonFullscreenScale"] = 0.750000219946509,
 		["MDI"] = {
 		},
-		["currentDungeonIdx"] = 31,
+		["currentPreset"] = {
+			nil, -- [1]
+			nil, -- [2]
+			nil, -- [3]
+			nil, -- [4]
+			nil, -- [5]
+			nil, -- [6]
+			nil, -- [7]
+			nil, -- [8]
+			nil, -- [9]
+			nil, -- [10]
+			nil, -- [11]
+			nil, -- [12]
+			nil, -- [13]
+			nil, -- [14]
+			nil, -- [15]
+			nil, -- [16]
+			nil, -- [17]
+			nil, -- [18]
+			nil, -- [19]
+			nil, -- [20]
+			nil, -- [21]
+			2, -- [22]
+			nil, -- [23]
+			nil, -- [24]
+			nil, -- [25]
+			nil, -- [26]
+			nil, -- [27]
+			nil, -- [28]
+			2, -- [29]
+			5, -- [30]
+			2, -- [31]
+			2, -- [32]
+			nil, -- [33]
+			2, -- [34]
+		},
 		["maximized"] = false,
 		["presets"] = {
 			nil, -- [1]
@@ -117,31 +152,31 @@ MythicDungeonToolsDB = {
 				{
 					["mdi"] = {
 						["freehold"] = 1,
-						["freeholdJoined"] = false,
 						["beguiling"] = 1,
+						["freeholdJoined"] = false,
 					},
 					["week"] = 6,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "228b22",
-							}, -- [1]
+						["riftOffsets"] = {
+							[6] = {
+							},
 						},
 						["currentDungeonIdx"] = 15,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[6] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "228b22",
+							}, -- [1]
 						},
 					},
-					["difficulty"] = 10,
 					["objects"] = {
 					},
+					["difficulty"] = 10,
 				}, -- [1]
 			}, -- [15]
 			nil, -- [16]
@@ -150,32 +185,32 @@ MythicDungeonToolsDB = {
 				{
 					["mdiEnabled"] = false,
 					["week"] = 7,
-					["mdi"] = {
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-					},
+					["difficulty"] = 18,
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[7] = {
+							},
 						},
 						["currentDungeonIdx"] = 18,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[7] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 					},
 					["objects"] = {
 					},
-					["difficulty"] = 18,
+					["mdi"] = {
+						["freehold"] = 1,
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+					},
 				}, -- [1]
 			}, -- [18]
 			nil, -- [19]
@@ -190,7 +225,6 @@ MythicDungeonToolsDB = {
 				{
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								649.975679087, -- [1]
 								-264.53313877479, -- [2]
@@ -198,9 +232,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Keep clearing until you have hero for this boss. Heck if you make it tot he 3rd boss before hero is up, just kill him and trace back to 2nd. You definitely want hero for cragmaw", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								487.04324377858, -- [1]
 								-92.97135308972, -- [2]
@@ -208,9 +242,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Ignore this. Pull with last boss.", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 						{
-							["n"] = true,
 							["d"] = {
 								382.3422664337066, -- [1]
 								-450.8850984767002, -- [2]
@@ -218,23 +252,100 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Blast the Matron and then chain. Use hero.", -- [5]
 							},
+							["n"] = true,
 						}, -- [3]
 					},
 					["week"] = 6,
-					["mdi"] = {
-						["freehold"] = 1,
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-					},
-					["mdiEnabled"] = true,
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 1,
-					},
-					["text"] = "Guru S4 W6",
+					["difficulty"] = 18,
 					["value"] = {
 						["currentPull"] = 3,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							nil, -- [1]
+							{
+								["161124"] = {
+									["y"] = -266.29192793143,
+									["x"] = 646.61316348721,
+								},
+								["161243"] = {
+									["y"] = -109.65258334691,
+									["x"] = 341.47827720941,
+								},
+								["161244"] = {
+									["y"] = -295.91782270126,
+									["x"] = 428.38125121429,
+								},
+								["161241"] = {
+									["y"] = -248.03996199784,
+									["x"] = 389.38816127334,
+								},
+							}, -- [2]
+							{
+								["161243"] = {
+									["y"] = -294.3968500817,
+									["x"] = 440.40142397388,
+								},
+								["161244"] = {
+									["y"] = -105.53505173768,
+									["x"] = 351.05780936956,
+								},
+								[161243] = {
+									["y"] = -294.3968684215902,
+									["x"] = 435.9143126907441,
+								},
+								["161124"] = {
+									["y"] = -261.471450215,
+									["x"] = 640.92081478833,
+								},
+								[161124] = {
+									["y"] = -260.1893450602562,
+									["x"] = 643.4849517382588,
+								},
+								[161241] = {
+									["y"] = -93.66880143505885,
+									["x"] = 473.9682934912718,
+								},
+								[161244] = {
+									["y"] = -104.3216496694734,
+									["x"] = 350.4396767795323,
+								},
+							}, -- [3]
+							{
+								[161243] = {
+									["y"] = -293.9582489787607,
+									["x"] = 435.9817691665959,
+								},
+								[161244] = {
+									["y"] = -111.0018530187212,
+									["x"] = 327.733772256165,
+								},
+							}, -- [4]
+							{
+								[161243] = {
+									["y"] = -124.9859238749762,
+									["x"] = 334.4934639192867,
+								},
+								[161124] = {
+									["y"] = -255.7312703160543,
+									["x"] = 639.5222887962877,
+								},
+							}, -- [5]
+							{
+								[161244] = {
+									["y"] = -291.5368644863929,
+									["x"] = 436.9883578341834,
+								},
+								[161243] = {
+									["y"] = -128.6526389893422,
+									["x"] = 350.1449843148558,
+								},
+							}, -- [6]
+						},
+						["currentDungeonIdx"] = 22,
+						["teeming"] = false,
+						["selection"] = {
+							3, -- [1]
+						},
 						["pulls"] = {
 							{
 								nil, -- [1]
@@ -392,26 +503,26 @@ MythicDungeonToolsDB = {
 								[8] = {
 									5, -- [1]
 								},
-								["color"] = "ff0010",
-								[7] = {
-									5, -- [1]
-								},
 								[3] = {
 									6, -- [1]
 									7, -- [2]
 								},
+								[7] = {
+									5, -- [1]
+								},
+								["color"] = "ff0010",
 							}, -- [8]
 							{
 								["color"] = "32ff00",
+								[8] = {
+									10, -- [1]
+									6, -- [2]
+								},
 								[7] = {
 									4, -- [1]
 								},
 								[9] = {
 									7, -- [1]
-								},
-								[8] = {
-									10, -- [1]
-									6, -- [2]
 								},
 							}, -- [9]
 							{
@@ -427,12 +538,12 @@ MythicDungeonToolsDB = {
 								[19] = {
 									14, -- [1]
 								},
-								["color"] = "00c7ff",
 								[10] = {
 									2, -- [1]
 									1, -- [2]
 									3, -- [3]
 								},
+								["color"] = "00c7ff",
 							}, -- [11]
 							{
 								[16] = {
@@ -480,12 +591,12 @@ MythicDungeonToolsDB = {
 								[19] = {
 									9, -- [1]
 								},
+								[20] = {
+									14, -- [1]
+								},
 								[12] = {
 									3, -- [1]
 									2, -- [2]
-								},
-								[20] = {
-									14, -- [1]
 								},
 							}, -- [15]
 							{
@@ -570,94 +681,18 @@ MythicDungeonToolsDB = {
 								["color"] = "228b22",
 							}, -- [24]
 						},
-						["currentDungeonIdx"] = 22,
-						["teeming"] = false,
-						["selection"] = {
-							3, -- [1]
-						},
-						["riftOffsets"] = {
-							nil, -- [1]
-							{
-								["161124"] = {
-									["y"] = -266.29192793143,
-									["x"] = 646.61316348721,
-								},
-								["161243"] = {
-									["y"] = -109.65258334691,
-									["x"] = 341.47827720941,
-								},
-								["161244"] = {
-									["y"] = -295.91782270126,
-									["x"] = 428.38125121429,
-								},
-								["161241"] = {
-									["y"] = -248.03996199784,
-									["x"] = 389.38816127334,
-								},
-							}, -- [2]
-							{
-								["161243"] = {
-									["y"] = -294.3968500817,
-									["x"] = 440.40142397388,
-								},
-								["161244"] = {
-									["y"] = -105.53505173768,
-									["x"] = 351.05780936956,
-								},
-								[161243] = {
-									["y"] = -294.3968684215902,
-									["x"] = 435.9143126907441,
-								},
-								["161124"] = {
-									["y"] = -261.471450215,
-									["x"] = 640.92081478833,
-								},
-								[161244] = {
-									["y"] = -104.3216496694734,
-									["x"] = 350.4396767795323,
-								},
-								[161241] = {
-									["y"] = -93.66880143505885,
-									["x"] = 473.9682934912718,
-								},
-								[161124] = {
-									["y"] = -260.1893450602562,
-									["x"] = 643.4849517382588,
-								},
-							}, -- [3]
-							{
-								[161243] = {
-									["y"] = -293.9582489787607,
-									["x"] = 435.9817691665959,
-								},
-								[161244] = {
-									["y"] = -111.0018530187212,
-									["x"] = 327.733772256165,
-								},
-							}, -- [4]
-							{
-								[161243] = {
-									["y"] = -124.9859238749762,
-									["x"] = 334.4934639192867,
-								},
-								[161124] = {
-									["y"] = -255.7312703160543,
-									["x"] = 639.5222887962877,
-								},
-							}, -- [5]
-							{
-								[161244] = {
-									["y"] = -291.5368644863929,
-									["x"] = 436.9883578341834,
-								},
-								[161243] = {
-									["y"] = -128.6526389893422,
-									["x"] = 350.1449843148558,
-								},
-							}, -- [6]
-						},
 					},
-					["difficulty"] = 18,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 1,
+					},
+					["text"] = "Guru S4 W6",
+					["mdiEnabled"] = true,
+					["mdi"] = {
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+					},
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -674,24 +709,13 @@ MythicDungeonToolsDB = {
 				{
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
+						["beguiling"] = 1,
 					},
 					["week"] = 1,
 					["value"] = {
 						["currentPull"] = 3,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							[3] = {
-							},
-						},
-						["currentDungeonIdx"] = 29,
-						["teeming"] = false,
-						["selection"] = {
-							3, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -767,15 +791,25 @@ MythicDungeonToolsDB = {
 								["color"] = "ff3e3e",
 							}, -- [3]
 						},
-					},
-					["objects"] = {
+						["currentDungeonIdx"] = 29,
+						["teeming"] = false,
+						["selection"] = {
+							3, -- [1]
+						},
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							[3] = {
+							},
+						},
 					},
 					["difficulty"] = 18,
+					["objects"] = {
+					},
 				}, -- [1]
 				{
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								472.1958722758708, -- [1]
 								-146.0278740859959, -- [2]
@@ -783,9 +817,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"This route has one skip - invis pots or shroud will work for it.\n\nMost important lusts are Dealer Xy'eva and Hakkar. You can lust the first pull of the dungeon too.", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								451.910215618075, -- [1]
 								-240.6372476301256, -- [2]
@@ -793,6 +827,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"After killing this U-turn and go Ardenweald wing.\n\nWhen you get back, you can run around this drill bot by waiting for it to charge and then going the other side.", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 						{
 							["d"] = {
@@ -803,18 +838,17 @@ MythicDungeonToolsDB = {
 								"ffedf9", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								1.70822223757998, -- [1]
-							},
 							["l"] = {
 								"501.6", -- [1]
 								"-306.4", -- [2]
 								"520.6", -- [3]
 								"-443.7", -- [4]
 							},
+							["t"] = {
+								1.70822223757998, -- [1]
+							},
 						}, -- [3]
 						{
-							["n"] = true,
 							["d"] = {
 								520.4553465613385, -- [1]
 								-338.8699210118286, -- [2]
@@ -822,8 +856,10 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"An engineer can turn off the slimes here to make this easier.\n\nSkip with shroud or invis pots.", -- [5]
 							},
+							["n"] = true,
 						}, -- [4]
 						{
+							["n"] = true,
 							["d"] = {
 								396.9871785951625, -- [1]
 								-244.9173558039425, -- [2]
@@ -831,9 +867,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"This is usually the best pull to urn (unless you want to double pull the previous pack with something)\n\nTo do this, line it back around the pillar.", -- [5]
 							},
-							["n"] = true,
 						}, -- [5]
 						{
+							["n"] = true,
 							["d"] = {
 								481.5513899726574, -- [1]
 								-246.0284986604478, -- [2]
@@ -841,10 +877,8 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you can avoid pulling this Matriarch, you don't need it for count.\n\nIf your group is strong you can combine pulls agressively in this zone.", -- [5]
 							},
-							["n"] = true,
 						}, -- [6]
 						{
-							["n"] = true,
 							["d"] = {
 								523.5432797003854, -- [1]
 								-212.6137598505451, -- [2]
@@ -852,44 +886,24 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Nuke this hatchling (stun before its cast finishes too) before continuing", -- [5]
 							},
+							["n"] = true,
 						}, -- [7]
 					},
 					["week"] = 11,
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+					},
 					["colorPaletteInfo"] = {
 						["autoColoring"] = true,
 						["colorPaletteIdx"] = 4,
 					},
+					["text"] = "2.11 DOS w/ Skips by Dratnos",
+					["difficulty"] = 10,
 					["value"] = {
 						["currentPull"] = 17,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							nil, -- [1]
-							{
-							}, -- [2]
-							{
-							}, -- [3]
-							{
-							}, -- [4]
-							{
-							}, -- [5]
-							{
-							}, -- [6]
-							{
-							}, -- [7]
-							{
-							}, -- [8]
-							{
-							}, -- [9]
-							{
-							}, -- [10]
-							{
-							}, -- [11]
-						},
-						["currentDungeonIdx"] = 29,
-						["teeming"] = false,
-						["selection"] = {
-							17, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -1053,10 +1067,7 @@ MythicDungeonToolsDB = {
 								[21] = {
 									6, -- [1]
 								},
-								[24] = {
-									9, -- [1]
-									6, -- [2]
-								},
+								["color"] = "ff3e3e",
 								[26] = {
 									5, -- [1]
 									1, -- [2]
@@ -1064,7 +1075,10 @@ MythicDungeonToolsDB = {
 									3, -- [4]
 									6, -- [5]
 								},
-								["color"] = "ff3e3e",
+								[24] = {
+									9, -- [1]
+									6, -- [2]
+								},
 							}, -- [14]
 							{
 								[24] = {
@@ -1243,13 +1257,34 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [27]
 						},
-					},
-					["text"] = "2.11 DOS w/ Skips by Dratnos",
-					["difficulty"] = 10,
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freehold"] = 1,
-						["freeholdJoined"] = false,
+						["currentDungeonIdx"] = 29,
+						["teeming"] = false,
+						["selection"] = {
+							17, -- [1]
+						},
+						["riftOffsets"] = {
+							nil, -- [1]
+							{
+							}, -- [2]
+							{
+							}, -- [3]
+							{
+							}, -- [4]
+							{
+							}, -- [5]
+							{
+							}, -- [6]
+							{
+							}, -- [7]
+							{
+							}, -- [8]
+							{
+							}, -- [9]
+							{
+							}, -- [10]
+							{
+							}, -- [11]
+						},
 					},
 				}, -- [2]
 				{
@@ -1261,12 +1296,17 @@ MythicDungeonToolsDB = {
 				{
 					["mdiEnabled"] = false,
 					["week"] = 1,
-					["difficulty"] = 15,
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["freehold"] = 1,
+						["beguiling"] = 1,
+					},
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
+						["pulls"] = {
 							{
+								["color"] = "ff3eff",
 							}, -- [1]
 						},
 						["currentDungeonIdx"] = 30,
@@ -1274,237 +1314,46 @@ MythicDungeonToolsDB = {
 						["selection"] = {
 							1, -- [1]
 						},
-						["pulls"] = {
+						["riftOffsets"] = {
 							{
-								["color"] = "ff3eff",
 							}, -- [1]
 						},
 					},
 					["objects"] = {
 					},
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
+					["difficulty"] = 15,
 				}, -- [1]
 				{
 					["difficulty"] = 15,
 					["week"] = 1,
-					["objects"] = {
-						{
-							["n"] = true,
-							["d"] = {
-								623.4104559354521, -- [1]
-								-199.0768633364023, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn.", -- [5]
-							},
-						}, -- [1]
-						{
-							["n"] = true,
-							["d"] = {
-								406.3435644193287, -- [1]
-								-326.3080841023349, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn. Use one with G47\n", -- [5]
-							},
-						}, -- [2]
-						{
-							["d"] = {
-								3, -- [1]
-								1, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"ffffff", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								-1.158389191781283, -- [1]
-							},
-							["l"] = {
-								"396.3", -- [1]
-								"-330.9", -- [2]
-								"385.6", -- [3]
-								"-306.3", -- [4]
-							},
-						}, -- [3]
-						{
-							["d"] = {
-								3, -- [1]
-								1, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"ffffff", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								0.291033611100585, -- [1]
-							},
-							["l"] = {
-								"364.8", -- [1]
-								"-210.2", -- [2]
-								"197.9", -- [3]
-								"-260.2", -- [4]
-							},
-						}, -- [4]
-						{
-							["d"] = {
-								3, -- [1]
-								1, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"ffffff", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								0, -- [1]
-							},
-							["l"] = {
-								"371.6", -- [1]
-								"-272.0", -- [2]
-							},
-						}, -- [5]
-						{
-							["d"] = {
-								3, -- [1]
-								1, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"ffffff", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								0, -- [1]
-							},
-							["l"] = {
-								"428.6", -- [1]
-								"-305.8", -- [2]
-							},
-						}, -- [6]
-						{
-							["n"] = true,
-							["d"] = {
-								533.1331154796453, -- [1]
-								-309.4014532706618, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn ", -- [5]
-							},
-						}, -- [7]
-						{
-							["n"] = true,
-							["d"] = {
-								502.1015709488158, -- [1]
-								-373.1885211387528, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn", -- [5]
-							},
-						}, -- [8]
-						{
-							["d"] = {
-								6, -- [1]
-								1, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"ff0200", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								2.889901137401588, -- [1]
-							},
-							["l"] = {
-								"500.4", -- [1]
-								"-361.6", -- [2]
-								"515.5", -- [3]
-								"-365.5", -- [4]
-							},
-						}, -- [9]
-						{
-							["d"] = {
-								6, -- [1]
-								1, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"ff0200", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								-0.08057055333317636, -- [1]
-							},
-							["l"] = {
-								"540.9", -- [1]
-								"-302.9", -- [2]
-								"471.5", -- [3]
-								"-297.4", -- [4]
-							},
-						}, -- [10]
-						{
-							["d"] = {
-								6, -- [1]
-								1, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"ff0200", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								-0.227567255736637, -- [1]
-							},
-							["l"] = {
-								"402.3", -- [1]
-								"-336.3", -- [2]
-								"264.7", -- [3]
-								"-304.4", -- [4]
-							},
-						}, -- [11]
-						{
-							["n"] = true,
-							["d"] = {
-								383.9182909507836, -- [1]
-								-316.0335921379451, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"Skip by using Shroud or Invisability Potion.", -- [5]
-							},
-						}, -- [12]
-						nil, -- [13]
-						{
-							["n"] = true,
-							["d"] = {
-								419.5727258953041, -- [1]
-								-386.9893559228885, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"If you do not have Venthyr and you end up playing at least one Loyal Stoneborn you can skip G27 pack", -- [5]
-							},
-						}, -- [14]
-						{
-							["d"] = {
-								6, -- [1]
-								1, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"ff282a", -- [5]
-								-8, -- [6]
-							},
-							["t"] = {
-								0.558598069672969, -- [1]
-							},
-							["l"] = {
-								"443.7", -- [1]
-								"-373.4", -- [2]
-								"425.0", -- [3]
-								"-385.0", -- [4]
-							},
-						}, -- [15]
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["value"] = {
 						["currentPull"] = 6,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							[6] = {
+							},
+							[10] = {
+							},
+							[12] = {
+							},
+							[9] = {
+							},
+							[5] = {
+							},
+							[11] = {
+							},
+						},
+						["currentDungeonIdx"] = 30,
+						["teeming"] = false,
+						["selection"] = {
+							6, -- [1]
+						},
 						["pulls"] = {
 							{
 								{
@@ -1576,13 +1425,13 @@ MythicDungeonToolsDB = {
 									3, -- [2]
 								}, -- [1]
 								["color"] = "fffb3e",
-								[8] = {
+								[7] = {
 								},
 								[4] = {
 									1, -- [1]
 									3, -- [2]
 								},
-								[7] = {
+								[8] = {
 								},
 							}, -- [5]
 							{
@@ -1602,12 +1451,12 @@ MythicDungeonToolsDB = {
 								[8] = {
 									3, -- [1]
 								},
+								["color"] = "ff3e9e",
 								[7] = {
 									3, -- [1]
 								},
 								[4] = {
 								},
-								["color"] = "ff3e9e",
 							}, -- [7]
 							{
 								{
@@ -1651,23 +1500,23 @@ MythicDungeonToolsDB = {
 									18, -- [4]
 									20, -- [5]
 								},
-								[2] = {
-								},
 								[3] = {
+								},
+								[2] = {
 								},
 							}, -- [10]
 							{
 								[8] = {
 									2, -- [1]
 								},
-								["color"] = "a1ff3e",
+								[7] = {
+									2, -- [1]
+								},
 								[4] = {
 									12, -- [1]
 									13, -- [2]
 								},
-								[7] = {
-									2, -- [1]
-								},
+								["color"] = "a1ff3e",
 							}, -- [11]
 							{
 								{
@@ -1780,46 +1629,16 @@ MythicDungeonToolsDB = {
 									1, -- [1]
 								},
 							}, -- [20]
-						},
-						["currentDungeonIdx"] = 30,
-						["teeming"] = false,
-						["selection"] = {
-							6, -- [1]
-						},
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							[6] = {
-							},
-							[10] = {
-							},
-							[12] = {
-							},
-							[11] = {
-							},
-							[5] = {
-							},
-							[9] = {
-							},
 						},
 					},
 					["text"] = "Raging-Quaking-Petko",
 					["mdi"] = {
 						["beguiling"] = 1,
-						["freeholdJoined"] = false,
 						["freehold"] = 1,
+						["freeholdJoined"] = false,
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-				}, -- [2]
-				{
-					["difficulty"] = 15,
-					["week"] = 1,
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								623.4104559354521, -- [1]
 								-199.0768633364023, -- [2]
@@ -1827,9 +1646,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn.", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								406.3435644193287, -- [1]
 								-326.3080841023349, -- [2]
@@ -1837,6 +1656,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn. Use one with G47\n", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 						{
 							["d"] = {
@@ -1847,14 +1667,14 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								-1.158389191781283, -- [1]
-							},
 							["l"] = {
 								"396.3", -- [1]
 								"-330.9", -- [2]
 								"385.6", -- [3]
 								"-306.3", -- [4]
+							},
+							["t"] = {
+								-1.158389191781283, -- [1]
 							},
 						}, -- [3]
 						{
@@ -1866,14 +1686,14 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0.291033611100585, -- [1]
-							},
 							["l"] = {
 								"364.8", -- [1]
 								"-210.2", -- [2]
 								"197.9", -- [3]
 								"-260.2", -- [4]
+							},
+							["t"] = {
+								0.291033611100585, -- [1]
 							},
 						}, -- [4]
 						{
@@ -1885,12 +1705,12 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0, -- [1]
-							},
 							["l"] = {
 								"371.6", -- [1]
 								"-272.0", -- [2]
+							},
+							["t"] = {
+								0, -- [1]
 							},
 						}, -- [5]
 						{
@@ -1902,16 +1722,15 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0, -- [1]
-							},
 							["l"] = {
 								"428.6", -- [1]
 								"-305.8", -- [2]
 							},
+							["t"] = {
+								0, -- [1]
+							},
 						}, -- [6]
 						{
-							["n"] = true,
 							["d"] = {
 								533.1331154796453, -- [1]
 								-309.4014532706618, -- [2]
@@ -1919,9 +1738,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn ", -- [5]
 							},
+							["n"] = true,
 						}, -- [7]
 						{
-							["n"] = true,
 							["d"] = {
 								502.1015709488158, -- [1]
 								-373.1885211387528, -- [2]
@@ -1929,6 +1748,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn", -- [5]
 							},
+							["n"] = true,
 						}, -- [8]
 						{
 							["d"] = {
@@ -1939,14 +1759,14 @@ MythicDungeonToolsDB = {
 								"ff0200", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								2.889901137401588, -- [1]
-							},
 							["l"] = {
 								"500.4", -- [1]
 								"-361.6", -- [2]
 								"515.5", -- [3]
 								"-365.5", -- [4]
+							},
+							["t"] = {
+								2.889901137401588, -- [1]
 							},
 						}, -- [9]
 						{
@@ -1958,14 +1778,14 @@ MythicDungeonToolsDB = {
 								"ff0200", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								-0.08057055333317636, -- [1]
-							},
 							["l"] = {
 								"540.9", -- [1]
 								"-302.9", -- [2]
 								"471.5", -- [3]
 								"-297.4", -- [4]
+							},
+							["t"] = {
+								-0.08057055333317636, -- [1]
 							},
 						}, -- [10]
 						{
@@ -1977,18 +1797,17 @@ MythicDungeonToolsDB = {
 								"ff0200", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								-0.227567255736637, -- [1]
-							},
 							["l"] = {
 								"402.3", -- [1]
 								"-336.3", -- [2]
 								"264.7", -- [3]
 								"-304.4", -- [4]
 							},
+							["t"] = {
+								-0.227567255736637, -- [1]
+							},
 						}, -- [11]
 						{
-							["n"] = true,
 							["d"] = {
 								383.9182909507836, -- [1]
 								-316.0335921379451, -- [2]
@@ -1996,10 +1815,10 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Skip by using Shroud or Invisability Potion.", -- [5]
 							},
+							["n"] = true,
 						}, -- [12]
 						nil, -- [13]
 						{
-							["n"] = true,
 							["d"] = {
 								419.5727258953041, -- [1]
 								-386.9893559228885, -- [2]
@@ -2007,6 +1826,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you do not have Venthyr and you end up playing at least one Loyal Stoneborn you can skip G27 pack", -- [5]
 							},
+							["n"] = true,
 						}, -- [14]
 						{
 							["d"] = {
@@ -2017,20 +1837,49 @@ MythicDungeonToolsDB = {
 								"ff282a", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0.558598069672969, -- [1]
-							},
 							["l"] = {
 								"443.7", -- [1]
 								"-373.4", -- [2]
 								"425.0", -- [3]
 								"-385.0", -- [4]
 							},
+							["t"] = {
+								0.558598069672969, -- [1]
+							},
 						}, -- [15]
+					},
+				}, -- [2]
+				{
+					["difficulty"] = 15,
+					["week"] = 1,
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["value"] = {
 						["currentPull"] = 6,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							[6] = {
+							},
+							[10] = {
+							},
+							[12] = {
+							},
+							[9] = {
+							},
+							[5] = {
+							},
+							[11] = {
+							},
+						},
+						["currentDungeonIdx"] = 30,
+						["teeming"] = false,
+						["selection"] = {
+							6, -- [1]
+						},
 						["pulls"] = {
 							{
 								{
@@ -2102,13 +1951,13 @@ MythicDungeonToolsDB = {
 									3, -- [2]
 								}, -- [1]
 								["color"] = "fffb3e",
-								[8] = {
+								[7] = {
 								},
 								[4] = {
 									1, -- [1]
 									3, -- [2]
 								},
-								[7] = {
+								[8] = {
 								},
 							}, -- [5]
 							{
@@ -2128,12 +1977,12 @@ MythicDungeonToolsDB = {
 								[8] = {
 									3, -- [1]
 								},
+								["color"] = "ff3e9e",
 								[7] = {
 									3, -- [1]
 								},
 								[4] = {
 								},
-								["color"] = "ff3e9e",
 							}, -- [7]
 							{
 								{
@@ -2177,23 +2026,23 @@ MythicDungeonToolsDB = {
 									18, -- [4]
 									20, -- [5]
 								},
-								[2] = {
-								},
 								[3] = {
+								},
+								[2] = {
 								},
 							}, -- [10]
 							{
 								[8] = {
 									2, -- [1]
 								},
-								["color"] = "a1ff3e",
+								[7] = {
+									2, -- [1]
+								},
 								[4] = {
 									12, -- [1]
 									13, -- [2]
 								},
-								[7] = {
-									2, -- [1]
-								},
+								["color"] = "a1ff3e",
 							}, -- [11]
 							{
 								{
@@ -2307,11 +2156,235 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [20]
 						},
-						["currentDungeonIdx"] = 30,
-						["teeming"] = false,
-						["selection"] = {
-							6, -- [1]
-						},
+					},
+					["text"] = "Raging-Quaking-Petko 2",
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+					},
+					["objects"] = {
+						{
+							["d"] = {
+								623.4104559354521, -- [1]
+								-199.0768633364023, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn.", -- [5]
+							},
+							["n"] = true,
+						}, -- [1]
+						{
+							["d"] = {
+								406.3435644193287, -- [1]
+								-326.3080841023349, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn. Use one with G47\n", -- [5]
+							},
+							["n"] = true,
+						}, -- [2]
+						{
+							["d"] = {
+								3, -- [1]
+								1, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"ffffff", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"396.3", -- [1]
+								"-330.9", -- [2]
+								"385.6", -- [3]
+								"-306.3", -- [4]
+							},
+							["t"] = {
+								-1.158389191781283, -- [1]
+							},
+						}, -- [3]
+						{
+							["d"] = {
+								3, -- [1]
+								1, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"ffffff", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"364.8", -- [1]
+								"-210.2", -- [2]
+								"197.9", -- [3]
+								"-260.2", -- [4]
+							},
+							["t"] = {
+								0.291033611100585, -- [1]
+							},
+						}, -- [4]
+						{
+							["d"] = {
+								3, -- [1]
+								1, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"ffffff", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"371.6", -- [1]
+								"-272.0", -- [2]
+							},
+							["t"] = {
+								0, -- [1]
+							},
+						}, -- [5]
+						{
+							["d"] = {
+								3, -- [1]
+								1, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"ffffff", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"428.6", -- [1]
+								"-305.8", -- [2]
+							},
+							["t"] = {
+								0, -- [1]
+							},
+						}, -- [6]
+						{
+							["d"] = {
+								533.1331154796453, -- [1]
+								-309.4014532706618, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn ", -- [5]
+							},
+							["n"] = true,
+						}, -- [7]
+						{
+							["d"] = {
+								502.1015709488158, -- [1]
+								-373.1885211387528, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn", -- [5]
+							},
+							["n"] = true,
+						}, -- [8]
+						{
+							["d"] = {
+								6, -- [1]
+								1, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"ff0200", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"500.4", -- [1]
+								"-361.6", -- [2]
+								"515.5", -- [3]
+								"-365.5", -- [4]
+							},
+							["t"] = {
+								2.889901137401588, -- [1]
+							},
+						}, -- [9]
+						{
+							["d"] = {
+								6, -- [1]
+								1, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"ff0200", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"540.9", -- [1]
+								"-302.9", -- [2]
+								"471.5", -- [3]
+								"-297.4", -- [4]
+							},
+							["t"] = {
+								-0.08057055333317636, -- [1]
+							},
+						}, -- [10]
+						{
+							["d"] = {
+								6, -- [1]
+								1, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"ff0200", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"402.3", -- [1]
+								"-336.3", -- [2]
+								"264.7", -- [3]
+								"-304.4", -- [4]
+							},
+							["t"] = {
+								-0.227567255736637, -- [1]
+							},
+						}, -- [11]
+						{
+							["d"] = {
+								383.9182909507836, -- [1]
+								-316.0335921379451, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Skip by using Shroud or Invisability Potion.", -- [5]
+							},
+							["n"] = true,
+						}, -- [12]
+						nil, -- [13]
+						{
+							["d"] = {
+								419.5727258953041, -- [1]
+								-386.9893559228885, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"If you do not have Venthyr and you end up playing at least one Loyal Stoneborn you can skip G27 pack", -- [5]
+							},
+							["n"] = true,
+						}, -- [14]
+						{
+							["d"] = {
+								6, -- [1]
+								1, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"ff282a", -- [5]
+								-8, -- [6]
+							},
+							["l"] = {
+								"443.7", -- [1]
+								"-373.4", -- [2]
+								"425.0", -- [3]
+								"-385.0", -- [4]
+							},
+							["t"] = {
+								0.558598069672969, -- [1]
+							},
+						}, -- [15]
+					},
+				}, -- [3]
+				{
+					["mdi"] = {
+						["beguiling"] = 1,
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+					},
+					["week"] = 1,
+					["value"] = {
+						["currentPull"] = 6,
+						["currentSublevel"] = 1,
 						["riftOffsets"] = {
 							{
 							}, -- [1]
@@ -2321,33 +2394,295 @@ MythicDungeonToolsDB = {
 							},
 							[12] = {
 							},
-							[11] = {
+							[9] = {
 							},
 							[5] = {
 							},
-							[9] = {
+							[11] = {
 							},
 						},
+						["currentDungeonIdx"] = 30,
+						["teeming"] = false,
+						["selection"] = {
+							6, -- [1]
+						},
+						["pulls"] = {
+							{
+								{
+									2, -- [1]
+									1, -- [2]
+								}, -- [1]
+								{
+									1, -- [1]
+								}, -- [2]
+								{
+									1, -- [1]
+									2, -- [2]
+								}, -- [3]
+								{
+								}, -- [4]
+								["color"] = "ff3eff",
+							}, -- [1]
+							{
+								{
+									6, -- [1]
+								}, -- [1]
+								["color"] = "3eff9e",
+								[6] = {
+									1, -- [1]
+									2, -- [2]
+									3, -- [3]
+									4, -- [4]
+									5, -- [5]
+								},
+								[4] = {
+									2, -- [1]
+								},
+							}, -- [2]
+							{
+								nil, -- [1]
+								{
+									4, -- [1]
+								}, -- [2]
+								{
+									6, -- [1]
+									5, -- [2]
+								}, -- [3]
+								{
+									5, -- [1]
+									6, -- [2]
+								}, -- [4]
+								["color"] = "ff3e3e",
+							}, -- [3]
+							{
+								[6] = {
+									7, -- [1]
+									6, -- [2]
+									8, -- [3]
+									9, -- [4]
+								},
+								[7] = {
+									1, -- [1]
+								},
+								[8] = {
+									1, -- [1]
+								},
+								["color"] = "3e9eff",
+								[4] = {
+								},
+							}, -- [4]
+							{
+								{
+									4, -- [1]
+									3, -- [2]
+								}, -- [1]
+								["color"] = "fffb3e",
+								[7] = {
+								},
+								[4] = {
+									1, -- [1]
+									3, -- [2]
+								},
+								[8] = {
+								},
+							}, -- [5]
+							{
+								["color"] = "3eff3e",
+								[6] = {
+									27, -- [1]
+									24, -- [2]
+									25, -- [3]
+									26, -- [4]
+								},
+								[4] = {
+									16, -- [1]
+									15, -- [2]
+								},
+							}, -- [6]
+							{
+								[8] = {
+									3, -- [1]
+								},
+								["color"] = "ff3e9e",
+								[7] = {
+									3, -- [1]
+								},
+								[4] = {
+								},
+							}, -- [7]
+							{
+								{
+									10, -- [1]
+								}, -- [1]
+								{
+									7, -- [1]
+								}, -- [2]
+								{
+									13, -- [1]
+									14, -- [2]
+								}, -- [3]
+								{
+									10, -- [1]
+								}, -- [4]
+								nil, -- [5]
+								{
+								}, -- [6]
+								["color"] = "3effff",
+							}, -- [8]
+							{
+								{
+								}, -- [1]
+								{
+									8, -- [1]
+								}, -- [2]
+								{
+									15, -- [1]
+									16, -- [2]
+								}, -- [3]
+								{
+								}, -- [4]
+								["color"] = "ff9b3e",
+							}, -- [9]
+							{
+								["color"] = "3e3eff",
+								[6] = {
+									15, -- [1]
+									19, -- [2]
+									17, -- [3]
+									18, -- [4]
+									20, -- [5]
+								},
+								[3] = {
+								},
+								[2] = {
+								},
+							}, -- [10]
+							{
+								[8] = {
+									2, -- [1]
+								},
+								[7] = {
+									2, -- [1]
+								},
+								[4] = {
+									12, -- [1]
+									13, -- [2]
+								},
+								["color"] = "a1ff3e",
+							}, -- [11]
+							{
+								{
+									11, -- [1]
+									12, -- [2]
+								}, -- [1]
+								[4] = {
+									9, -- [1]
+									14, -- [2]
+								},
+								["color"] = "ff3eff",
+							}, -- [12]
+							{
+								{
+									9, -- [1]
+								}, -- [1]
+								{
+									6, -- [1]
+								}, -- [2]
+								{
+									11, -- [1]
+									12, -- [2]
+								}, -- [3]
+								{
+									11, -- [1]
+								}, -- [4]
+								nil, -- [5]
+								{
+								}, -- [6]
+								["color"] = "3eff9e",
+							}, -- [13]
+							{
+								["color"] = "ff3e3e",
+								[9] = {
+									1, -- [1]
+								},
+							}, -- [14]
+							{
+								["color"] = "3e9eff",
+								[14] = {
+									1, -- [1]
+								},
+							}, -- [15]
+							{
+								["color"] = "fffb3e",
+								[2] = {
+									11, -- [1]
+									10, -- [2]
+								},
+								[3] = {
+									20, -- [1]
+									21, -- [2]
+									19, -- [3]
+								},
+							}, -- [16]
+							{
+								{
+									17, -- [1]
+									18, -- [2]
+								}, -- [1]
+								["color"] = "3eff3e",
+								[7] = {
+									4, -- [1]
+								},
+								[4] = {
+									21, -- [1]
+								},
+							}, -- [17]
+							{
+								["color"] = "ff3e9e",
+								[15] = {
+									1, -- [1]
+								},
+							}, -- [18]
+							{
+								["color"] = "3effff",
+								[16] = {
+									17, -- [1]
+									16, -- [2]
+									12, -- [3]
+									13, -- [4]
+									14, -- [5]
+									15, -- [6]
+									21, -- [7]
+									18, -- [8]
+									20, -- [9]
+									22, -- [10]
+									23, -- [11]
+									19, -- [12]
+									2, -- [13]
+									1, -- [14]
+									4, -- [15]
+									5, -- [16]
+									3, -- [17]
+									24, -- [18]
+									7, -- [19]
+									8, -- [20]
+									9, -- [21]
+									10, -- [22]
+									11, -- [23]
+									6, -- [24]
+								},
+								[17] = {
+									1, -- [1]
+								},
+							}, -- [19]
+							{
+								["color"] = "ff9b3e",
+								[18] = {
+									1, -- [1]
+								},
+							}, -- [20]
+						},
 					},
-					["text"] = "Raging-Quaking-Petko 2",
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
-					},
-				}, -- [3]
-				{
-					["mdi"] = {
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-						["freehold"] = 1,
-					},
-					["week"] = 1,
-					["difficulty"] = 15,
 					["colorPaletteInfo"] = {
 						["autoColoring"] = true,
 						["colorPaletteIdx"] = 4,
@@ -2355,7 +2690,6 @@ MythicDungeonToolsDB = {
 					["text"] = "Raging-Quaking-Petko 3",
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								623.4104559354521, -- [1]
 								-199.0768633364023, -- [2]
@@ -2363,9 +2697,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn.", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								406.3435644193287, -- [1]
 								-326.3080841023349, -- [2]
@@ -2373,6 +2707,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn. Use one with G47\n", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 						{
 							["d"] = {
@@ -2383,14 +2718,14 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								-1.158389191781283, -- [1]
-							},
 							["l"] = {
 								"396.3", -- [1]
 								"-330.9", -- [2]
 								"385.6", -- [3]
 								"-306.3", -- [4]
+							},
+							["t"] = {
+								-1.158389191781283, -- [1]
 							},
 						}, -- [3]
 						{
@@ -2402,14 +2737,14 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0.291033611100585, -- [1]
-							},
 							["l"] = {
 								"364.8", -- [1]
 								"-210.2", -- [2]
 								"197.9", -- [3]
 								"-260.2", -- [4]
+							},
+							["t"] = {
+								0.291033611100585, -- [1]
 							},
 						}, -- [4]
 						{
@@ -2421,12 +2756,12 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0, -- [1]
-							},
 							["l"] = {
 								"371.6", -- [1]
 								"-272.0", -- [2]
+							},
+							["t"] = {
+								0, -- [1]
 							},
 						}, -- [5]
 						{
@@ -2438,16 +2773,15 @@ MythicDungeonToolsDB = {
 								"ffffff", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0, -- [1]
-							},
 							["l"] = {
 								"428.6", -- [1]
 								"-305.8", -- [2]
 							},
+							["t"] = {
+								0, -- [1]
+							},
 						}, -- [6]
 						{
-							["n"] = true,
 							["d"] = {
 								533.1331154796453, -- [1]
 								-309.4014532706618, -- [2]
@@ -2455,9 +2789,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn ", -- [5]
 							},
+							["n"] = true,
 						}, -- [7]
 						{
-							["n"] = true,
 							["d"] = {
 								502.1015709488158, -- [1]
 								-373.1885211387528, -- [2]
@@ -2465,6 +2799,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthry in your group, make sure to use the covenant-specific extra action button near Loyal Stoneborn", -- [5]
 							},
+							["n"] = true,
 						}, -- [8]
 						{
 							["d"] = {
@@ -2475,14 +2810,14 @@ MythicDungeonToolsDB = {
 								"ff0200", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								2.889901137401588, -- [1]
-							},
 							["l"] = {
 								"500.4", -- [1]
 								"-361.6", -- [2]
 								"515.5", -- [3]
 								"-365.5", -- [4]
+							},
+							["t"] = {
+								2.889901137401588, -- [1]
 							},
 						}, -- [9]
 						{
@@ -2494,14 +2829,14 @@ MythicDungeonToolsDB = {
 								"ff0200", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								-0.08057055333317636, -- [1]
-							},
 							["l"] = {
 								"540.9", -- [1]
 								"-302.9", -- [2]
 								"471.5", -- [3]
 								"-297.4", -- [4]
+							},
+							["t"] = {
+								-0.08057055333317636, -- [1]
 							},
 						}, -- [10]
 						{
@@ -2513,18 +2848,17 @@ MythicDungeonToolsDB = {
 								"ff0200", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								-0.227567255736637, -- [1]
-							},
 							["l"] = {
 								"402.3", -- [1]
 								"-336.3", -- [2]
 								"264.7", -- [3]
 								"-304.4", -- [4]
 							},
+							["t"] = {
+								-0.227567255736637, -- [1]
+							},
 						}, -- [11]
 						{
-							["n"] = true,
 							["d"] = {
 								383.9182909507836, -- [1]
 								-316.0335921379451, -- [2]
@@ -2532,10 +2866,10 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Skip by using Shroud or Invisability Potion.", -- [5]
 							},
+							["n"] = true,
 						}, -- [12]
 						nil, -- [13]
 						{
-							["n"] = true,
 							["d"] = {
 								419.5727258953041, -- [1]
 								-386.9893559228885, -- [2]
@@ -2543,6 +2877,7 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you do not have Venthyr and you end up playing at least one Loyal Stoneborn you can skip G27 pack", -- [5]
 							},
+							["n"] = true,
 						}, -- [14]
 						{
 							["d"] = {
@@ -2553,318 +2888,18 @@ MythicDungeonToolsDB = {
 								"ff282a", -- [5]
 								-8, -- [6]
 							},
-							["t"] = {
-								0.558598069672969, -- [1]
-							},
 							["l"] = {
 								"443.7", -- [1]
 								"-373.4", -- [2]
 								"425.0", -- [3]
 								"-385.0", -- [4]
 							},
+							["t"] = {
+								0.558598069672969, -- [1]
+							},
 						}, -- [15]
 					},
-					["value"] = {
-						["currentPull"] = 6,
-						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								{
-									2, -- [1]
-									1, -- [2]
-								}, -- [1]
-								{
-									1, -- [1]
-								}, -- [2]
-								{
-									1, -- [1]
-									2, -- [2]
-								}, -- [3]
-								{
-								}, -- [4]
-								["color"] = "ff3eff",
-							}, -- [1]
-							{
-								{
-									6, -- [1]
-								}, -- [1]
-								["color"] = "3eff9e",
-								[6] = {
-									1, -- [1]
-									2, -- [2]
-									3, -- [3]
-									4, -- [4]
-									5, -- [5]
-								},
-								[4] = {
-									2, -- [1]
-								},
-							}, -- [2]
-							{
-								nil, -- [1]
-								{
-									4, -- [1]
-								}, -- [2]
-								{
-									6, -- [1]
-									5, -- [2]
-								}, -- [3]
-								{
-									5, -- [1]
-									6, -- [2]
-								}, -- [4]
-								["color"] = "ff3e3e",
-							}, -- [3]
-							{
-								[6] = {
-									7, -- [1]
-									6, -- [2]
-									8, -- [3]
-									9, -- [4]
-								},
-								[7] = {
-									1, -- [1]
-								},
-								[8] = {
-									1, -- [1]
-								},
-								["color"] = "3e9eff",
-								[4] = {
-								},
-							}, -- [4]
-							{
-								{
-									4, -- [1]
-									3, -- [2]
-								}, -- [1]
-								["color"] = "fffb3e",
-								[8] = {
-								},
-								[4] = {
-									1, -- [1]
-									3, -- [2]
-								},
-								[7] = {
-								},
-							}, -- [5]
-							{
-								["color"] = "3eff3e",
-								[6] = {
-									27, -- [1]
-									24, -- [2]
-									25, -- [3]
-									26, -- [4]
-								},
-								[4] = {
-									16, -- [1]
-									15, -- [2]
-								},
-							}, -- [6]
-							{
-								[8] = {
-									3, -- [1]
-								},
-								[7] = {
-									3, -- [1]
-								},
-								[4] = {
-								},
-								["color"] = "ff3e9e",
-							}, -- [7]
-							{
-								{
-									10, -- [1]
-								}, -- [1]
-								{
-									7, -- [1]
-								}, -- [2]
-								{
-									13, -- [1]
-									14, -- [2]
-								}, -- [3]
-								{
-									10, -- [1]
-								}, -- [4]
-								nil, -- [5]
-								{
-								}, -- [6]
-								["color"] = "3effff",
-							}, -- [8]
-							{
-								{
-								}, -- [1]
-								{
-									8, -- [1]
-								}, -- [2]
-								{
-									15, -- [1]
-									16, -- [2]
-								}, -- [3]
-								{
-								}, -- [4]
-								["color"] = "ff9b3e",
-							}, -- [9]
-							{
-								["color"] = "3e3eff",
-								[6] = {
-									15, -- [1]
-									19, -- [2]
-									17, -- [3]
-									18, -- [4]
-									20, -- [5]
-								},
-								[2] = {
-								},
-								[3] = {
-								},
-							}, -- [10]
-							{
-								[8] = {
-									2, -- [1]
-								},
-								["color"] = "a1ff3e",
-								[4] = {
-									12, -- [1]
-									13, -- [2]
-								},
-								[7] = {
-									2, -- [1]
-								},
-							}, -- [11]
-							{
-								{
-									11, -- [1]
-									12, -- [2]
-								}, -- [1]
-								[4] = {
-									9, -- [1]
-									14, -- [2]
-								},
-								["color"] = "ff3eff",
-							}, -- [12]
-							{
-								{
-									9, -- [1]
-								}, -- [1]
-								{
-									6, -- [1]
-								}, -- [2]
-								{
-									11, -- [1]
-									12, -- [2]
-								}, -- [3]
-								{
-									11, -- [1]
-								}, -- [4]
-								nil, -- [5]
-								{
-								}, -- [6]
-								["color"] = "3eff9e",
-							}, -- [13]
-							{
-								["color"] = "ff3e3e",
-								[9] = {
-									1, -- [1]
-								},
-							}, -- [14]
-							{
-								["color"] = "3e9eff",
-								[14] = {
-									1, -- [1]
-								},
-							}, -- [15]
-							{
-								["color"] = "fffb3e",
-								[2] = {
-									11, -- [1]
-									10, -- [2]
-								},
-								[3] = {
-									20, -- [1]
-									21, -- [2]
-									19, -- [3]
-								},
-							}, -- [16]
-							{
-								{
-									17, -- [1]
-									18, -- [2]
-								}, -- [1]
-								["color"] = "3eff3e",
-								[7] = {
-									4, -- [1]
-								},
-								[4] = {
-									21, -- [1]
-								},
-							}, -- [17]
-							{
-								["color"] = "ff3e9e",
-								[15] = {
-									1, -- [1]
-								},
-							}, -- [18]
-							{
-								["color"] = "3effff",
-								[16] = {
-									17, -- [1]
-									16, -- [2]
-									12, -- [3]
-									13, -- [4]
-									14, -- [5]
-									15, -- [6]
-									21, -- [7]
-									18, -- [8]
-									20, -- [9]
-									22, -- [10]
-									23, -- [11]
-									19, -- [12]
-									2, -- [13]
-									1, -- [14]
-									4, -- [15]
-									5, -- [16]
-									3, -- [17]
-									24, -- [18]
-									7, -- [19]
-									8, -- [20]
-									9, -- [21]
-									10, -- [22]
-									11, -- [23]
-									6, -- [24]
-								},
-								[17] = {
-									1, -- [1]
-								},
-							}, -- [19]
-							{
-								["color"] = "ff9b3e",
-								[18] = {
-									1, -- [1]
-								},
-							}, -- [20]
-						},
-						["currentDungeonIdx"] = 30,
-						["teeming"] = false,
-						["selection"] = {
-							6, -- [1]
-						},
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							[6] = {
-							},
-							[10] = {
-							},
-							[12] = {
-							},
-							[11] = {
-							},
-							[5] = {
-							},
-							[9] = {
-							},
-						},
-					},
+					["difficulty"] = 15,
 				}, -- [4]
 				{
 					["mdiEnabled"] = false,
@@ -2878,6 +2913,36 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 8,
 						["currentSublevel"] = 1,
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							nil, -- [2]
+							{
+							}, -- [3]
+							{
+							}, -- [4]
+							{
+							}, -- [5]
+							{
+							}, -- [6]
+							{
+							}, -- [7]
+							{
+							}, -- [8]
+							{
+							}, -- [9]
+							{
+							}, -- [10]
+							{
+							}, -- [11]
+							{
+							}, -- [12]
+						},
+						["currentDungeonIdx"] = 30,
+						["teeming"] = false,
+						["selection"] = {
+							8, -- [1]
+						},
 						["pulls"] = {
 							{
 								{
@@ -2934,12 +2999,12 @@ MythicDungeonToolsDB = {
 								[8] = {
 									1, -- [1]
 								},
-								["color"] = "3e9eff",
+								[4] = {
+								},
 								[7] = {
 									1, -- [1]
 								},
-								[4] = {
-								},
+								["color"] = "3e9eff",
 							}, -- [4]
 							{
 								[6] = {
@@ -3004,14 +3069,14 @@ MythicDungeonToolsDB = {
 								[8] = {
 									2, -- [1]
 								},
-								["color"] = "ff9b3e",
-								[7] = {
-									2, -- [1]
-								},
 								[4] = {
 									13, -- [1]
 									12, -- [2]
 								},
+								[7] = {
+									2, -- [1]
+								},
+								["color"] = "ff9b3e",
 							}, -- [9]
 							{
 								{
@@ -3155,46 +3220,9 @@ MythicDungeonToolsDB = {
 								["color"] = "ff9b3e",
 							}, -- [20]
 						},
-						["currentDungeonIdx"] = 30,
-						["teeming"] = false,
-						["selection"] = {
-							8, -- [1]
-						},
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							nil, -- [2]
-							{
-							}, -- [3]
-							{
-							}, -- [4]
-							{
-							}, -- [5]
-							{
-							}, -- [6]
-							{
-							}, -- [7]
-							{
-							}, -- [8]
-							{
-							}, -- [9]
-							{
-							}, -- [10]
-							{
-							}, -- [11]
-							{
-							}, -- [12]
-						},
-					},
-					["uid"] = "mlMUIpZeOMd",
-					["mdi"] = {
-						["freehold"] = 1,
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
 					},
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								625.53051675771, -- [1]
 								-220.37932384513, -- [2]
@@ -3202,9 +3230,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"Venthyr players can mind control this gargoyle - otherwise it's possible to skip by walking around the side.", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								506.52139291165, -- [1]
 								-399.49488725478, -- [2]
@@ -3212,9 +3240,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthyr player, grab this for the nearby pull or grab it afterwards and bring it into the next pull!", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 						{
-							["n"] = true,
 							["d"] = {
 								530.57132271818, -- [1]
 								-292.81187241752, -- [2]
@@ -3222,9 +3250,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"If you have a Venthyr player, you can grab this to help with the nearby pull or save it for the boss (with pride!)", -- [5]
 							},
+							["n"] = true,
 						}, -- [3]
 						{
-							["n"] = true,
 							["d"] = {
 								380.35495642152, -- [1]
 								-220.6755371546, -- [2]
@@ -3232,9 +3260,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"You can bring one of these on to the boss on pull and then the second as the first flie as away if you have a Venthyr. Otherwise, ignore.", -- [5]
 							},
+							["n"] = true,
 						}, -- [4]
 						{
-							["n"] = true,
 							["d"] = {
 								555.13374584967, -- [1]
 								-411.15558962711, -- [2]
@@ -3242,8 +3270,15 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"grab this guy whenever but care bolstering", -- [5]
 							},
+							["n"] = true,
 						}, -- [5]
 					},
+					["mdi"] = {
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+					},
+					["uid"] = "mlMUIpZeOMd",
 				}, -- [5]
 				{
 					["value"] = 0,
@@ -3258,73 +3293,44 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 1,
 						["currentSublevel"] = 1,
-						["pulls"] = {
-							{
-								["color"] = "ff3eff",
-							}, -- [1]
+						["riftOffsets"] = {
+							[3] = {
+							},
 						},
 						["currentDungeonIdx"] = 31,
 						["teeming"] = false,
 						["selection"] = {
 							1, -- [1]
 						},
-						["riftOffsets"] = {
-							[3] = {
-							},
+						["pulls"] = {
+							{
+								["color"] = "ff3eff",
+							}, -- [1]
 						},
 					},
-					["difficulty"] = 10,
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
 					},
+					["difficulty"] = 10,
 				}, -- [1]
 				{
 					["mdiEnabled"] = false,
-					["week"] = 3,
-					["mdi"] = {
-						["freeholdJoined"] = false,
-						["beguiling"] = 1,
-						["freehold"] = 1,
-					},
 					["colorPaletteInfo"] = {
 						["autoColoring"] = true,
 						["colorPaletteIdx"] = 4,
 					},
+					["text"] = "2.3 MOTS No Skips by Dratnos",
+					["mdi"] = {
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+						["freehold"] = 1,
+					},
+					["week"] = 3,
 					["value"] = {
 						["currentPull"] = 17,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							{
-							}, -- [2]
-							{
-							}, -- [3]
-							{
-							}, -- [4]
-							{
-							}, -- [5]
-							nil, -- [6]
-							{
-							}, -- [7]
-							{
-							}, -- [8]
-							{
-							}, -- [9]
-							{
-							}, -- [10]
-							{
-							}, -- [11]
-							{
-							}, -- [12]
-						},
-						["currentDungeonIdx"] = 31,
-						["teeming"] = false,
-						["selection"] = {
-							17, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -3432,13 +3438,13 @@ MythicDungeonToolsDB = {
 									6, -- [1]
 									7, -- [2]
 								},
+								["color"] = "a1ff3e",
 								[12] = {
 									5, -- [1]
 								},
 								[9] = {
 									6, -- [1]
 								},
-								["color"] = "a1ff3e",
 							}, -- [11]
 							{
 								[11] = {
@@ -3591,11 +3597,40 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [22]
 						},
+						["currentDungeonIdx"] = 31,
+						["teeming"] = false,
+						["selection"] = {
+							17, -- [1]
+						},
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							{
+							}, -- [2]
+							{
+							}, -- [3]
+							{
+							}, -- [4]
+							{
+							}, -- [5]
+							nil, -- [6]
+							{
+							}, -- [7]
+							{
+							}, -- [8]
+							{
+							}, -- [9]
+							{
+							}, -- [10]
+							{
+							}, -- [11]
+							{
+							}, -- [12]
+						},
 					},
-					["text"] = "2.3 MOTS No Skips by Dratnos",
+					["difficulty"] = 10,
 					["objects"] = {
 						{
-							["n"] = true,
 							["d"] = {
 								773.9854790271202, -- [1]
 								-121.8240698610116, -- [2]
@@ -3603,9 +3638,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"This route assumes you have a Night Fae to open the first gate here.\n\nLust bosses. ", -- [5]
 							},
+							["n"] = true,
 						}, -- [1]
 						{
-							["n"] = true,
 							["d"] = {
 								699.2499447975904, -- [1]
 								-173.5398009865636, -- [2]
@@ -3613,9 +3648,9 @@ MythicDungeonToolsDB = {
 								true, -- [4]
 								"This skip works with Sap, Imprison, or Mind Soothe on the closest enemy.\n\nFailing that you can also Polymorph or Ice Trap, then that player runs through first, then the rest of the group runs through, then that player uses Invis or Feign Death.", -- [5]
 							},
+							["n"] = true,
 						}, -- [2]
 					},
-					["difficulty"] = 10,
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -3633,39 +3668,36 @@ MythicDungeonToolsDB = {
 				{
 					["mdiEnabled"] = false,
 					["week"] = 12,
-					["difficulty"] = 15,
+					["mdi"] = {
+						["freehold"] = 1,
+						["freeholdJoined"] = false,
+						["beguiling"] = 1,
+					},
+					["objects"] = {
+						{
+							["d"] = {
+								366.30088071651, -- [1]
+								-101.84854489055, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"You can run through here without pulling anything!", -- [5]
+							},
+							["n"] = true,
+						}, -- [1]
+						{
+							["d"] = {
+								456.76860465608, -- [1]
+								-343.94135792918, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Try to avoid pulling this.", -- [5]
+							},
+							["n"] = true,
+						}, -- [2]
+					},
 					["value"] = {
 						["currentPull"] = 9,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-							{
-							}, -- [2]
-							{
-							}, -- [3]
-							{
-							}, -- [4]
-							{
-							}, -- [5]
-							{
-							}, -- [6]
-							{
-							}, -- [7]
-							[11] = {
-							},
-							[10] = {
-							},
-							[9] = {
-							},
-							[12] = {
-							},
-						},
-						["currentDungeonIdx"] = 32,
-						["teeming"] = false,
-						["selection"] = {
-							9, -- [1]
-						},
 						["pulls"] = {
 							{
 								[7] = {
@@ -3689,22 +3721,22 @@ MythicDungeonToolsDB = {
 								[13] = {
 									1, -- [1]
 								},
-								["color"] = "3eff9e",
 								[8] = {
 									2, -- [1]
 								},
+								["color"] = "3eff9e",
 							}, -- [2]
 							{
 								[8] = {
 									1, -- [1]
 								},
-								["color"] = "ff3e3e",
-								[9] = {
-									2, -- [1]
-								},
 								[3] = {
 									4, -- [1]
 								},
+								[9] = {
+									2, -- [1]
+								},
+								["color"] = "ff3e3e",
 							}, -- [3]
 							{
 								[4] = {
@@ -3785,9 +3817,9 @@ MythicDungeonToolsDB = {
 								},
 								[19] = {
 								},
+								["color"] = "3e3eff",
 								[18] = {
 								},
-								["color"] = "3e3eff",
 							}, -- [10]
 							{
 								[17] = {
@@ -3823,20 +3855,16 @@ MythicDungeonToolsDB = {
 							}, -- [12]
 							{
 								["color"] = "3eff9e",
-								[24] = {
-									1, -- [1]
-								},
 								[21] = {
 									3, -- [1]
+								},
+								[24] = {
+									1, -- [1]
 								},
 							}, -- [13]
 							{
 								[21] = {
 									4, -- [1]
-								},
-								["color"] = "ff3e3e",
-								[20] = {
-									3, -- [1]
 								},
 								[18] = {
 									9, -- [1]
@@ -3844,6 +3872,10 @@ MythicDungeonToolsDB = {
 									6, -- [3]
 									7, -- [4]
 								},
+								[20] = {
+									3, -- [1]
+								},
+								["color"] = "ff3e3e",
 							}, -- [14]
 							{
 								["color"] = "3e9eff",
@@ -3869,12 +3901,12 @@ MythicDungeonToolsDB = {
 							}, -- [17]
 							{
 								["color"] = "ff3e9e",
-								[18] = {
-									12, -- [1]
-								},
 								[21] = {
 									7, -- [1]
 									8, -- [2]
+								},
+								[18] = {
+									12, -- [1]
 								},
 							}, -- [18]
 							{
@@ -3884,10 +3916,10 @@ MythicDungeonToolsDB = {
 								[22] = {
 									2, -- [1]
 								},
+								["color"] = "3effff",
 								[24] = {
 									2, -- [1]
 								},
-								["color"] = "3effff",
 							}, -- [19]
 							{
 								[21] = {
@@ -4011,39 +4043,42 @@ MythicDungeonToolsDB = {
 								["color"] = "3effff",
 							}, -- [30]
 						},
+						["currentDungeonIdx"] = 32,
+						["teeming"] = false,
+						["selection"] = {
+							9, -- [1]
+						},
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+							{
+							}, -- [2]
+							{
+							}, -- [3]
+							{
+							}, -- [4]
+							{
+							}, -- [5]
+							{
+							}, -- [6]
+							{
+							}, -- [7]
+							[11] = {
+							},
+							[10] = {
+							},
+							[9] = {
+							},
+							[12] = {
+							},
+						},
 					},
+					["text"] = "1.12 PF No Skips by Dratnos",
 					["colorPaletteInfo"] = {
 						["autoColoring"] = true,
 						["colorPaletteIdx"] = 4,
 					},
-					["text"] = "1.12 PF No Skips by Dratnos",
-					["objects"] = {
-						{
-							["n"] = true,
-							["d"] = {
-								366.30088071651, -- [1]
-								-101.84854489055, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"You can run through here without pulling anything!", -- [5]
-							},
-						}, -- [1]
-						{
-							["n"] = true,
-							["d"] = {
-								456.76860465608, -- [1]
-								-343.94135792918, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"Try to avoid pulling this.", -- [5]
-							},
-						}, -- [2]
-					},
-					["mdi"] = {
-						["freehold"] = 1,
-						["beguiling"] = 1,
-						["freeholdJoined"] = false,
-					},
+					["difficulty"] = 15,
 				}, -- [2]
 				{
 					["value"] = 0,
@@ -4062,145 +4097,13 @@ MythicDungeonToolsDB = {
 				{
 					["difficulty"] = 10,
 					["week"] = 7,
-					["objects"] = {
-						{
-							["d"] = {
-								430.9582821224306, -- [1]
-								-352.7184213868451, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"This pull is very scary for tanks - if you're not confident, save the praetor for later as it makes it hard to kite effectively.", -- [5]
-							},
-							["n"] = true,
-						}, -- [1]
-						{
-							["d"] = {
-								364.9717240165942, -- [1]
-								-393.1214129010223, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"You can jump just on this brazier to skip this", -- [5]
-							},
-							["n"] = true,
-						}, -- [2]
-						{
-							["d"] = {
-								5, -- [1]
-								1, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"1bff00", -- [5]
-								-8, -- [6]
-							},
-							["l"] = {
-								"351.7", -- [1]
-								"-401.8", -- [2]
-								"437.5", -- [3]
-								"-259.2", -- [4]
-							},
-							["t"] = {
-								-2.112917566113468, -- [1]
-							},
-						}, -- [3]
-						{
-							["d"] = {
-								379.8041892500016, -- [1]
-								-375.9829983550072, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"You can get on the ledge out here to skip this pack.", -- [5]
-							},
-							["n"] = true,
-						}, -- [4]
-						{
-							["d"] = {
-								398.5442382779448, -- [1]
-								-331.8951420602106, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"Sap/imprison the right most enemy or use mind soothe or shroud or someone with stealth and a multi-person mount to get up on the side without pulling this pack.", -- [5]
-							},
-							["n"] = true,
-						}, -- [5]
-						{
-							["d"] = {
-								418.6681329982712, -- [1]
-								-297.3257553551349, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"Invis pots, shroud, or mind soothe through these two packs.", -- [5]
-							},
-							["n"] = true,
-						}, -- [6]
-						{
-							["d"] = {
-								435.6533241741592, -- [1]
-								-275.5672074988386, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"Pull these guys behind this pillar to group them up.", -- [5]
-							},
-							["n"] = true,
-						}, -- [7]
-						{
-							["d"] = {
-								412.4329025156983, -- [1]
-								-247.1571435813432, -- [2]
-								3, -- [3]
-								true, -- [4]
-								"Pull the next pack behind this pillar also (can do this after boss if CDs are ready)", -- [5]
-							},
-							["n"] = true,
-						}, -- [8]
-						{
-							["d"] = {
-								353.7983413701378, -- [1]
-								-281.3842739487234, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"This pack is very buggy and annoying, be careful!", -- [5]
-							},
-							["n"] = true,
-						}, -- [9]
-						{
-							["d"] = {
-								535.2258232221793, -- [1]
-								-199.5476017795477, -- [2]
-								2, -- [3]
-								true, -- [4]
-								"You can use CC here, just beware because pride will spawn after only one or two kills.", -- [5]
-							},
-							["n"] = true,
-						}, -- [10]
-						{
-							["d"] = {
-								526.7473072405286, -- [1]
-								-208.1210568963102, -- [2]
-								1, -- [3]
-								true, -- [4]
-								"Pull more slowly if scared of explosives", -- [5]
-							},
-							["n"] = true,
-						}, -- [11]
+					["colorPaletteInfo"] = {
+						["autoColoring"] = true,
+						["colorPaletteIdx"] = 4,
 					},
 					["value"] = {
 						["currentPull"] = 3,
 						["currentSublevel"] = 2,
-						["riftOffsets"] = {
-							[5] = {
-							},
-							[6] = {
-							},
-							[4] = {
-							},
-							[7] = {
-							},
-						},
-						["currentDungeonIdx"] = 34,
-						["teeming"] = false,
-						["selection"] = {
-							3, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -4458,16 +4361,148 @@ MythicDungeonToolsDB = {
 								},
 							}, -- [23]
 						},
+						["currentDungeonIdx"] = 34,
+						["teeming"] = false,
+						["selection"] = {
+							3, -- [1]
+						},
+						["riftOffsets"] = {
+							[5] = {
+							},
+							[6] = {
+							},
+							[4] = {
+							},
+							[7] = {
+							},
+						},
 					},
 					["text"] = "1.7 SOA w/ Skips by Dratnos",
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["freehold"] = 1,
 						["beguiling"] = 1,
+						["freehold"] = 1,
 					},
-					["colorPaletteInfo"] = {
-						["autoColoring"] = true,
-						["colorPaletteIdx"] = 4,
+					["objects"] = {
+						{
+							["n"] = true,
+							["d"] = {
+								430.9582821224306, -- [1]
+								-352.7184213868451, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"This pull is very scary for tanks - if you're not confident, save the praetor for later as it makes it hard to kite effectively.", -- [5]
+							},
+						}, -- [1]
+						{
+							["n"] = true,
+							["d"] = {
+								364.9717240165942, -- [1]
+								-393.1214129010223, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"You can jump just on this brazier to skip this", -- [5]
+							},
+						}, -- [2]
+						{
+							["d"] = {
+								5, -- [1]
+								1, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"1bff00", -- [5]
+								-8, -- [6]
+							},
+							["t"] = {
+								-2.112917566113468, -- [1]
+							},
+							["l"] = {
+								"351.7", -- [1]
+								"-401.8", -- [2]
+								"437.5", -- [3]
+								"-259.2", -- [4]
+							},
+						}, -- [3]
+						{
+							["n"] = true,
+							["d"] = {
+								379.8041892500016, -- [1]
+								-375.9829983550072, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"You can get on the ledge out here to skip this pack.", -- [5]
+							},
+						}, -- [4]
+						{
+							["n"] = true,
+							["d"] = {
+								398.5442382779448, -- [1]
+								-331.8951420602106, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"Sap/imprison the right most enemy or use mind soothe or shroud or someone with stealth and a multi-person mount to get up on the side without pulling this pack.", -- [5]
+							},
+						}, -- [5]
+						{
+							["n"] = true,
+							["d"] = {
+								418.6681329982712, -- [1]
+								-297.3257553551349, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"Invis pots, shroud, or mind soothe through these two packs.", -- [5]
+							},
+						}, -- [6]
+						{
+							["n"] = true,
+							["d"] = {
+								435.6533241741592, -- [1]
+								-275.5672074988386, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"Pull these guys behind this pillar to group them up.", -- [5]
+							},
+						}, -- [7]
+						{
+							["n"] = true,
+							["d"] = {
+								412.4329025156983, -- [1]
+								-247.1571435813432, -- [2]
+								3, -- [3]
+								true, -- [4]
+								"Pull the next pack behind this pillar also (can do this after boss if CDs are ready)", -- [5]
+							},
+						}, -- [8]
+						{
+							["n"] = true,
+							["d"] = {
+								353.7983413701378, -- [1]
+								-281.3842739487234, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"This pack is very buggy and annoying, be careful!", -- [5]
+							},
+						}, -- [9]
+						{
+							["n"] = true,
+							["d"] = {
+								535.2258232221793, -- [1]
+								-199.5476017795477, -- [2]
+								2, -- [3]
+								true, -- [4]
+								"You can use CC here, just beware because pride will spawn after only one or two kills.", -- [5]
+							},
+						}, -- [10]
+						{
+							["n"] = true,
+							["d"] = {
+								526.7473072405286, -- [1]
+								-208.1210568963102, -- [2]
+								1, -- [3]
+								true, -- [4]
+								"Pull more slowly if scared of explosives", -- [5]
+							},
+						}, -- [11]
 					},
 				}, -- [2]
 				{
@@ -4482,15 +4517,6 @@ MythicDungeonToolsDB = {
 					["value"] = {
 						["currentPull"] = 2,
 						["currentSublevel"] = 1,
-						["riftOffsets"] = {
-							{
-							}, -- [1]
-						},
-						["currentDungeonIdx"] = 35,
-						["teeming"] = false,
-						["selection"] = {
-							2, -- [1]
-						},
 						["pulls"] = {
 							{
 								{
@@ -4577,9 +4603,10 @@ MythicDungeonToolsDB = {
 									4, -- [2]
 									3, -- [3]
 								},
-								[17] = {
-									1, -- [1]
-									2, -- [2]
+								[2] = {
+									17, -- [1]
+									16, -- [2]
+									15, -- [3]
 								},
 								[12] = {
 									1, -- [1]
@@ -4587,10 +4614,9 @@ MythicDungeonToolsDB = {
 									6, -- [3]
 									7, -- [4]
 								},
-								[2] = {
-									17, -- [1]
-									16, -- [2]
-									15, -- [3]
+								[17] = {
+									1, -- [1]
+									2, -- [2]
 								},
 							}, -- [2]
 							{
@@ -4621,16 +4647,10 @@ MythicDungeonToolsDB = {
 								[29] = {
 									1, -- [1]
 								},
-								[22] = {
-									7, -- [1]
-									4, -- [2]
-									8, -- [3]
-									9, -- [4]
-									5, -- [5]
-									6, -- [6]
-									1, -- [7]
-									2, -- [8]
-									3, -- [9]
+								[28] = {
+									1, -- [1]
+									2, -- [2]
+									3, -- [3]
 								},
 								[20] = {
 									4, -- [1]
@@ -4642,28 +4662,43 @@ MythicDungeonToolsDB = {
 									1, -- [1]
 									2, -- [2]
 								},
-								[6] = {
-									3, -- [1]
-									2, -- [2]
+								[22] = {
+									7, -- [1]
+									4, -- [2]
+									8, -- [3]
+									9, -- [4]
+									5, -- [5]
+									6, -- [6]
+									1, -- [7]
+									2, -- [8]
+									3, -- [9]
 								},
 								[23] = {
 									2, -- [1]
 									1, -- [2]
 								},
-								[28] = {
-									1, -- [1]
+								[6] = {
+									3, -- [1]
 									2, -- [2]
-									3, -- [3]
 								},
 							}, -- [3]
 						},
+						["currentDungeonIdx"] = 35,
+						["teeming"] = false,
+						["selection"] = {
+							2, -- [1]
+						},
+						["riftOffsets"] = {
+							{
+							}, -- [1]
+						},
+					},
+					["objects"] = {
 					},
 					["mdi"] = {
 						["freeholdJoined"] = false,
-						["beguiling"] = 1,
 						["freehold"] = 1,
-					},
-					["objects"] = {
+						["beguiling"] = 1,
 					},
 				}, -- [1]
 			}, -- [35]
@@ -4681,15 +4716,15 @@ MythicDungeonToolsDB = {
 				[164461] = {
 					[333231] = {
 					},
-					[320293] = {
-					},
-					[333292] = {
-					},
-					[320277] = {
+					[320272] = {
 					},
 					[320300] = {
 					},
-					[320272] = {
+					[320277] = {
+					},
+					[320293] = {
+					},
+					[333292] = {
 					},
 				},
 				[167534] = {
@@ -4697,9 +4732,9 @@ MythicDungeonToolsDB = {
 					},
 					[333839] = {
 					},
-					[333841] = {
-					},
 					[333845] = {
+					},
+					[333841] = {
 					},
 				},
 				[167538] = {
@@ -4716,54 +4751,16 @@ MythicDungeonToolsDB = {
 					[342125] = {
 					},
 				},
-				[170882] = {
-					[333293] = {
+				[163086] = {
+					[330592] = {
 					},
-					[201657] = {
+					[345245] = {
 					},
-					[342675] = {
+					[330614] = {
 					},
-					[341771] = {
+					[330973] = {
 					},
-				},
-				[169893] = {
-					[333297] = {
-					},
-					[330875] = {
-					},
-					[333294] = {
-					},
-					[333299] = {
-					},
-				},
-				[169875] = {
-					[332550] = {
-					},
-					[330810] = {
-					},
-				},
-				[167533] = {
-					[333827] = {
-					},
-					[333861] = {
-					},
-					[331275] = {
-					},
-				},
-				[165946] = {
-					[323683] = {
-					},
-					[323608] = {
-					},
-					[324079] = {
-					},
-					[324424] = {
-					},
-					[324449] = {
-					},
-					[339759] = {
-					},
-					[339573] = {
+					[330608] = {
 					},
 				},
 				[164464] = {
@@ -4772,6 +4769,12 @@ MythicDungeonToolsDB = {
 					[342048] = {
 					},
 					[333540] = {
+					},
+				},
+				[169875] = {
+					[332550] = {
+					},
+					[330810] = {
 					},
 				},
 				[162329] = {
@@ -4791,29 +4794,47 @@ MythicDungeonToolsDB = {
 					},
 					[331618] = {
 					},
-					[320114] = {
+					[320729] = {
 					},
 					[339415] = {
 					},
-					[320729] = {
+					[320114] = {
 					},
 				},
-				[167998] = {
-					[330725] = {
+				[165946] = {
+					[323683] = {
 					},
-					[330720] = {
+					[323608] = {
 					},
-					[326494] = {
+					[324079] = {
 					},
-					[330716] = {
+					[324424] = {
 					},
-					[326497] = {
+					[324449] = {
+					},
+					[339573] = {
+					},
+					[339759] = {
 					},
 				},
-				[174197] = {
+				[160495] = {
 					[330784] = {
 					},
-					[341902] = {
+					[333708] = {
+					},
+					[330868] = {
+					},
+				},
+				[162763] = {
+					[331237] = {
+					},
+					[331243] = {
+					},
+				},
+				[170850] = {
+					[333241] = {
+					},
+					[333242] = {
 					},
 				},
 				[164463] = {
@@ -4822,6 +4843,12 @@ MythicDungeonToolsDB = {
 					[320180] = {
 					},
 					[320120] = {
+					},
+				},
+				[167532] = {
+					[331288] = {
+					},
+					[342135] = {
 					},
 				},
 				[164451] = {
@@ -4834,28 +4861,46 @@ MythicDungeonToolsDB = {
 					[320063] = {
 					},
 				},
-				[164510] = {
-					[330532] = {
+				[162309] = {
+					[319765] = {
 					},
-					[319997] = {
+					[322087] = {
 					},
-					[327029] = {
+					[319639] = {
+					},
+					[322088] = {
+					},
+					[317367] = {
+					},
+					[319531] = {
+					},
+					[319567] = {
+					},
+					[319539] = {
+					},
+					[319626] = {
+					},
+					[342691] = {
+					},
+					[319521] = {
+					},
+					[319669] = {
 					},
 				},
 				[170690] = {
 					[341977] = {
 					},
-					[330700] = {
+					[330697] = {
 					},
 					[319290] = {
 					},
-					[330697] = {
+					[330700] = {
 					},
 				},
-				[167532] = {
-					[331288] = {
+				[174197] = {
+					[330784] = {
 					},
-					[342135] = {
+					[341902] = {
 					},
 				},
 				[167536] = {
@@ -4884,30 +4929,12 @@ MythicDungeonToolsDB = {
 					[330562] = {
 					},
 				},
-				[162309] = {
-					[319765] = {
+				[164510] = {
+					[330532] = {
 					},
-					[322087] = {
+					[319997] = {
 					},
-					[319639] = {
-					},
-					[322088] = {
-					},
-					[317367] = {
-					},
-					[319531] = {
-					},
-					[319669] = {
-					},
-					[319539] = {
-					},
-					[319521] = {
-					},
-					[342691] = {
-					},
-					[319626] = {
-					},
-					[319567] = {
+					[327029] = {
 					},
 				},
 				[170838] = {
@@ -4928,24 +4955,34 @@ MythicDungeonToolsDB = {
 					[326835] = {
 					},
 				},
-				[170850] = {
-					[333241] = {
+				[167533] = {
+					[333827] = {
 					},
-					[333242] = {
+					[333861] = {
 					},
-				},
-				[162763] = {
-					[331237] = {
-					},
-					[331243] = {
+					[331275] = {
 					},
 				},
-				[160495] = {
-					[330784] = {
+				[169893] = {
+					[333299] = {
 					},
-					[333708] = {
+					[330875] = {
 					},
-					[330868] = {
+					[333297] = {
+					},
+					[333294] = {
+					},
+				},
+				[167998] = {
+					[330725] = {
+					},
+					[330720] = {
+					},
+					[326494] = {
+					},
+					[330716] = {
+					},
+					[326497] = {
 					},
 				},
 				[174210] = {
@@ -4957,9 +4994,9 @@ MythicDungeonToolsDB = {
 					},
 					[330693] = {
 					},
-					[321041] = {
-					},
 					[330700] = {
+					},
+					[321041] = {
 					},
 				},
 				[162744] = {
@@ -4972,16 +5009,14 @@ MythicDungeonToolsDB = {
 					[336996] = {
 					},
 				},
-				[163086] = {
-					[330592] = {
+				[170882] = {
+					[341771] = {
 					},
-					[345245] = {
+					[333293] = {
 					},
-					[330614] = {
+					[342675] = {
 					},
-					[330973] = {
-					},
-					[330608] = {
+					[201657] = {
 					},
 				},
 			},
@@ -5033,11 +5068,11 @@ MythicDungeonToolsDB = {
 				[164501] = {
 					[321828] = {
 					},
-					[321471] = {
-					},
-					[336499] = {
+					[336752] = {
 					},
 					[321834] = {
+					},
+					[336499] = {
 					},
 					[341709] = {
 					},
@@ -5045,7 +5080,7 @@ MythicDungeonToolsDB = {
 					},
 					[336813] = {
 					},
-					[336752] = {
+					[321471] = {
 					},
 				},
 				[164567] = {
@@ -5099,13 +5134,13 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[166304] = {
-					[224729] = {
+					[325226] = {
 					},
 					[325223] = {
 					},
-					[325224] = {
+					[224729] = {
 					},
-					[325226] = {
+					[325224] = {
 					},
 				},
 				[173655] = {
@@ -5119,11 +5154,11 @@ MythicDungeonToolsDB = {
 				[164921] = {
 					[322939] = {
 					},
+					[322938] = {
+					},
 					[322767] = {
 					},
 					[326319] = {
-					},
-					[322938] = {
 					},
 				},
 				[165111] = {
@@ -5150,6 +5185,28 @@ MythicDungeonToolsDB = {
 					[321968] = {
 					},
 				},
+				[167113] = {
+					[325418] = {
+					},
+				},
+				[166301] = {
+					[324987] = {
+					},
+					[325021] = {
+					},
+				},
+				[167111] = {
+					[326046] = {
+					},
+					[340544] = {
+					},
+				},
+				[166299] = {
+					[324914] = {
+					},
+					[324859] = {
+					},
+				},
 				[164517] = {
 					[326263] = {
 					},
@@ -5173,47 +5230,671 @@ MythicDungeonToolsDB = {
 					},
 					[51714] = {
 					},
-					[337255] = {
+					[322654] = {
 					},
 					[337235] = {
 					},
-					[322450] = {
+					[337251] = {
 					},
 					[337220] = {
 					},
 					[322658] = {
 					},
-					[322465] = {
+					[322527] = {
 					},
 					[322550] = {
 					},
-					[322527] = {
+					[322465] = {
 					},
-					[337251] = {
+					[322450] = {
 					},
-					[322654] = {
-					},
-				},
-				[166301] = {
-					[324987] = {
-					},
-					[325021] = {
+					[337255] = {
 					},
 				},
-				[167111] = {
-					[326046] = {
+			},
+			[35] = {
+				[165197] = {
+					[324387] = {
 					},
-					[340544] = {
+					[324391] = {
+					},
+					[324372] = {
+					},
+					[324381] = {
+					},
+					[324394] = {
 					},
 				},
-				[166299] = {
-					[324914] = {
+				[173044] = {
+					[323496] = {
 					},
-					[324859] = {
+					[338653] = {
+					},
+					[334748] = {
+					},
+					[323471] = {
+					},
+					[323489] = {
 					},
 				},
-				[167113] = {
-					[325418] = {
+				[163128] = {
+					[320462] = {
+					},
+					[320573] = {
+					},
+					[320571] = {
+					},
+					[224729] = {
+					},
+				},
+				[162729] = {
+					[338022] = {
+					},
+					[224729] = {
+					},
+				},
+				[166302] = {
+					[334747] = {
+					},
+					[334748] = {
+					},
+					[334749] = {
+					},
+				},
+				[165872] = {
+					[327130] = {
+					},
+					[323489] = {
+					},
+					[323496] = {
+					},
+					[323471] = {
+					},
+				},
+				[163121] = {
+					[323190] = {
+					},
+					[320696] = {
+					},
+					[319290] = {
+					},
+					[320703] = {
+					},
+				},
+				[164578] = {
+					[327952] = {
+					},
+					[320376] = {
+					},
+					[334322] = {
+					},
+					[348170] = {
+					},
+					[320208] = {
+					},
+					[322681] = {
+					},
+					[322548] = {
+					},
+				},
+				[162691] = {
+					[320596] = {
+					},
+					[320655] = {
+					},
+					[320637] = {
+					},
+				},
+				[165919] = {
+					[324293] = {
+					},
+					[343470] = {
+					},
+					[324323] = {
+					},
+				},
+				[166264] = {
+					[334610] = {
+					},
+				},
+				[163621] = {
+					[338456] = {
+					},
+					[333477] = {
+					},
+					[338357] = {
+					},
+				},
+				[163126] = {
+					[321576] = {
+					},
+					[328664] = {
+					},
+					[320336] = {
+					},
+					[322493] = {
+					},
+					[328667] = {
+					},
+					[333602] = {
+					},
+				},
+				[165222] = {
+					[335143] = {
+					},
+					[320822] = {
+					},
+				},
+				[163622] = {
+					[338022] = {
+					},
+				},
+				[163122] = {
+					[321576] = {
+					},
+				},
+				[163157] = {
+					[321247] = {
+					},
+					[320171] = {
+					},
+					[320580] = {
+					},
+					[333634] = {
+					},
+					[333488] = {
+					},
+					[319902] = {
+					},
+					[321226] = {
+					},
+					[333489] = {
+					},
+					[320012] = {
+					},
+					[333492] = {
+					},
+				},
+				[163618] = {
+					[327393] = {
+					},
+					[321575] = {
+					},
+					[327397] = {
+					},
+					[320462] = {
+					},
+					[321780] = {
+					},
+					[327396] = {
+					},
+					[323957] = {
+					},
+					[324026] = {
+					},
+				},
+				[166079] = {
+					[321576] = {
+					},
+					[328687] = {
+					},
+				},
+				[162693] = {
+					[321370] = {
+					},
+					[321956] = {
+					},
+					[323730] = {
+					},
+					[321754] = {
+					},
+					[321368] = {
+					},
+					[320772] = {
+					},
+					[321755] = {
+					},
+					[321894] = {
+					},
+					[320788] = {
+					},
+					[320784] = {
+					},
+					[320771] = {
+					},
+				},
+				[163623] = {
+					[338022] = {
+					},
+				},
+				[162689] = {
+					[320200] = {
+					},
+					[334488] = {
+					},
+					[320366] = {
+					},
+					[327664] = {
+					},
+					[320365] = {
+					},
+					[343556] = {
+					},
+					[334321] = {
+					},
+					[320358] = {
+					},
+					[326574] = {
+					},
+					[343558] = {
+					},
+					[326629] = {
+					},
+					[334476] = {
+					},
+					[320359] = {
+					},
+				},
+				[165911] = {
+					[320696] = {
+					},
+					[327240] = {
+					},
+					[327155] = {
+					},
+				},
+				[172981] = {
+					[338357] = {
+					},
+					[338456] = {
+					},
+				},
+				[165824] = {
+					[335142] = {
+					},
+					[345623] = {
+					},
+					[327397] = {
+					},
+					[320462] = {
+					},
+					[345625] = {
+					},
+					[327396] = {
+					},
+					[327393] = {
+					},
+					[335141] = {
+					},
+				},
+				[163619] = {
+					[321807] = {
+					},
+				},
+				[173016] = {
+					[338353] = {
+					},
+					[334748] = {
+					},
+					[334749] = {
+					},
+					[334747] = {
+					},
+				},
+				[165138] = {
+					[335164] = {
+					},
+					[321821] = {
+					},
+					[338022] = {
+					},
+					[224729] = {
+					},
+				},
+				[167731] = {
+					[323496] = {
+					},
+					[338606] = {
+					},
+					[338636] = {
+					},
+					[338610] = {
+					},
+					[323471] = {
+					},
+					[323489] = {
+					},
+				},
+				[165137] = {
+					[322756] = {
+					},
+					[320462] = {
+					},
+					[323347] = {
+					},
+					[322757] = {
+					},
+				},
+				[163620] = {
+					[333482] = {
+					},
+					[333479] = {
+					},
+					[338456] = {
+					},
+					[333485] = {
+					},
+				},
+			},
+			[32] = {
+				[168886] = {
+					[320542] = {
+					},
+					[328094] = {
+					},
+					[320529] = {
+					},
+					[320576] = {
+					},
+				},
+				[169696] = {
+					[330417] = {
+					},
+				},
+				[168580] = {
+					[344003] = {
+					},
+				},
+				[168747] = {
+					[328342] = {
+					},
+					[328343] = {
+					},
+					[1604] = {
+					},
+					[336449] = {
+					},
+				},
+				[168968] = {
+					[331874] = {
+					},
+				},
+				[163891] = {
+					[319070] = {
+					},
+					[328662] = {
+					},
+					[346989] = {
+					},
+				},
+				[163892] = {
+					[320512] = {
+					},
+					[340358] = {
+					},
+					[328175] = {
+					},
+					[331967] = {
+					},
+				},
+				[164267] = {
+					[322304] = {
+					},
+					[331399] = {
+					},
+					[322492] = {
+					},
+					[322491] = {
+					},
+					[322232] = {
+					},
+				},
+				[164737] = {
+					[338077] = {
+					},
+					[328475] = {
+					},
+					[328400] = {
+					},
+					[328409] = {
+					},
+					[336449] = {
+					},
+					[328539] = {
+					},
+					[338079] = {
+					},
+				},
+				[168022] = {
+					[328429] = {
+					},
+					[319898] = {
+					},
+					[345429] = {
+					},
+					[329226] = {
+					},
+					[328432] = {
+					},
+					[329224] = {
+					},
+				},
+				[168574] = {
+					[328002] = {
+					},
+					[327995] = {
+					},
+				},
+				[164707] = {
+					[322410] = {
+					},
+					[333737] = {
+					},
+					[346989] = {
+					},
+					[321935] = {
+					},
+				},
+				[168969] = {
+					[328660] = {
+					},
+					[328662] = {
+					},
+					[328661] = {
+					},
+					[346989] = {
+					},
+					[336449] = {
+					},
+				},
+				[169159] = {
+					[328986] = {
+					},
+				},
+				[163862] = {
+					[336451] = {
+					},
+					[336449] = {
+					},
+					[328533] = {
+					},
+				},
+				[167493] = {
+					[328338] = {
+					},
+					[339155] = {
+					},
+					[328365] = {
+					},
+					[328395] = {
+					},
+					[328651] = {
+					},
+					[336449] = {
+					},
+				},
+				[168396] = {
+					[327581] = {
+					},
+					[327594] = {
+					},
+					[327233] = {
+					},
+				},
+				[164967] = {
+					[329110] = {
+					},
+					[332617] = {
+					},
+					[330026] = {
+					},
+					[322358] = {
+					},
+					[329217] = {
+					},
+					[328175] = {
+					},
+					[333808] = {
+					},
+					[331967] = {
+					},
+					[340358] = {
+					},
+				},
+				[169861] = {
+					[328094] = {
+					},
+					[330786] = {
+					},
+					[330816] = {
+					},
+				},
+				[163882] = {
+					[329239] = {
+					},
+					[320072] = {
+					},
+					[320040] = {
+					},
+					[336449] = {
+					},
+				},
+				[168578] = {
+					[328015] = {
+					},
+					[328016] = {
+					},
+					[329917] = {
+					},
+				},
+				[163894] = {
+					[320519] = {
+					},
+					[328175] = {
+					},
+					[332581] = {
+					},
+					[320517] = {
+					},
+					[318949] = {
+					},
+					[340358] = {
+					},
+				},
+				[164266] = {
+					[336449] = {
+					},
+					[331818] = {
+					},
+					[325552] = {
+					},
+					[325245] = {
+					},
+					[339184] = {
+					},
+					[333353] = {
+					},
+					[325550] = {
+					},
+					[328539] = {
+					},
+					[336258] = {
+					},
+					[336306] = {
+					},
+					[325551] = {
+					},
+					[332313] = {
+					},
+				},
+				[164705] = {
+					[321975] = {
+					},
+					[340356] = {
+					},
+					[321999] = {
+					},
+					[340357] = {
+					},
+					[346989] = {
+					},
+				},
+				[168361] = {
+					[330037] = {
+					},
+				},
+				[168153] = {
+					[330403] = {
+					},
+					[330404] = {
+					},
+					[327882] = {
+					},
+				},
+				[171474] = {
+					[334640] = {
+					},
+				},
+				[164255] = {
+					[324527] = {
+					},
+					[324490] = {
+					},
+					[324667] = {
+					},
+					[324459] = {
+					},
+					[324652] = {
+					},
+					[319780] = {
+					},
+					[332865] = {
+					},
+					[326242] = {
+					},
+				},
+				[168878] = {
+					[340358] = {
+					},
+				},
+				[168572] = {
+					[328177] = {
+					},
+					[330423] = {
+					},
+					[328176] = {
+					},
+				},
+				[168627] = {
+					[328180] = {
+					},
+					[340358] = {
+					},
+					[331967] = {
+					},
+					[328175] = {
+					},
+					[328094] = {
 					},
 				},
 			},
@@ -5261,15 +5942,15 @@ MythicDungeonToolsDB = {
 					},
 					[334970] = {
 					},
-					[334961] = {
+					[325691] = {
 					},
 					[325258] = {
 					},
-					[335000] = {
-					},
 					[326221] = {
 					},
-					[325691] = {
+					[335000] = {
+					},
+					[334961] = {
 					},
 				},
 				[164450] = {
@@ -5277,7 +5958,7 @@ MythicDungeonToolsDB = {
 					},
 					[323687] = {
 					},
-					[323732] = {
+					[321948] = {
 					},
 					[324090] = {
 					},
@@ -5285,7 +5966,7 @@ MythicDungeonToolsDB = {
 					},
 					[320230] = {
 					},
-					[321948] = {
+					[323732] = {
 					},
 				},
 				[171181] = {
@@ -5335,13 +6016,13 @@ MythicDungeonToolsDB = {
 					},
 				},
 				[164873] = {
-					[345498] = {
+					[323576] = {
 					},
 					[323123] = {
 					},
-					[323136] = {
+					[345498] = {
 					},
-					[323576] = {
+					[323136] = {
 					},
 				},
 				[170147] = {
@@ -5356,28 +6037,20 @@ MythicDungeonToolsDB = {
 					[334076] = {
 					},
 				},
-				[164558] = {
-					[322759] = {
+				[170480] = {
+					[332671] = {
 					},
-					[323118] = {
+					[332678] = {
 					},
-					[322735] = {
-					},
-					[323166] = {
-					},
-					[322773] = {
-					},
-					[322736] = {
-					},
-					[323064] = {
-					},
-				},
-				[164862] = {
-					[334493] = {
+					[332672] = {
 					},
 				},
 				[171341] = {
 					[334664] = {
+					},
+				},
+				[164862] = {
+					[334493] = {
 					},
 				},
 				[164556] = {
@@ -5393,7 +6066,7 @@ MythicDungeonToolsDB = {
 					},
 					[342905] = {
 					},
-					[320142] = {
+					[320785] = {
 					},
 					[320008] = {
 					},
@@ -5401,7 +6074,7 @@ MythicDungeonToolsDB = {
 					},
 					[320132] = {
 					},
-					[320785] = {
+					[320142] = {
 					},
 				},
 				[168949] = {
@@ -5412,14 +6085,40 @@ MythicDungeonToolsDB = {
 					[224729] = {
 					},
 				},
-				[164857] = {
-					[30831] = {
+				[168934] = {
+					[333787] = {
+					},
+					[342869] = {
+					},
+					[333789] = {
+					},
+					[333790] = {
 					},
 				},
-				[167965] = {
-					[331379] = {
+				[167964] = {
+					[331846] = {
 					},
-					[332084] = {
+					[331847] = {
+					},
+					[331548] = {
+					},
+				},
+				[168986] = {
+					[333711] = {
+					},
+					[224729] = {
+					},
+				},
+				[171342] = {
+					[334529] = {
+					},
+					[334530] = {
+					},
+				},
+				[167962] = {
+					[331927] = {
+					},
+					[331933] = {
 					},
 				},
 				[167963] = {
@@ -5432,24 +6131,6 @@ MythicDungeonToolsDB = {
 					[332157] = {
 					},
 				},
-				[168986] = {
-					[333711] = {
-					},
-					[224729] = {
-					},
-				},
-				[167962] = {
-					[331927] = {
-					},
-					[331933] = {
-					},
-				},
-				[171342] = {
-					[334529] = {
-					},
-					[334530] = {
-					},
-				},
 				[167967] = {
 					[332236] = {
 					},
@@ -5460,22 +6141,14 @@ MythicDungeonToolsDB = {
 					[332232] = {
 					},
 				},
-				[167964] = {
-					[331846] = {
+				[167965] = {
+					[331379] = {
 					},
-					[331847] = {
-					},
-					[331548] = {
+					[332084] = {
 					},
 				},
-				[168934] = {
-					[333787] = {
-					},
-					[342869] = {
-					},
-					[333789] = {
-					},
-					[333790] = {
+				[164857] = {
+					[30831] = {
 					},
 				},
 				[170490] = {
@@ -5494,540 +6167,20 @@ MythicDungeonToolsDB = {
 					[333227] = {
 					},
 				},
-				[170480] = {
-					[332671] = {
+				[164558] = {
+					[322759] = {
 					},
-					[332678] = {
+					[323118] = {
 					},
-					[332672] = {
+					[322735] = {
 					},
-				},
-			},
-			[32] = {
-				[168886] = {
-					[320542] = {
+					[323166] = {
 					},
-					[328094] = {
+					[323064] = {
 					},
-					[320529] = {
+					[322736] = {
 					},
-					[320576] = {
-					},
-				},
-				[169696] = {
-					[330417] = {
-					},
-				},
-				[168968] = {
-					[331874] = {
-					},
-				},
-				[168747] = {
-					[328342] = {
-					},
-					[328343] = {
-					},
-					[1604] = {
-					},
-					[336449] = {
-					},
-				},
-				[168627] = {
-					[340358] = {
-					},
-					[328094] = {
-					},
-					[331967] = {
-					},
-					[328175] = {
-					},
-					[328180] = {
-					},
-				},
-				[168572] = {
-					[328177] = {
-					},
-					[330423] = {
-					},
-					[328176] = {
-					},
-				},
-				[163892] = {
-					[320512] = {
-					},
-					[340358] = {
-					},
-					[331967] = {
-					},
-					[328175] = {
-					},
-				},
-				[164267] = {
-					[322304] = {
-					},
-					[331399] = {
-					},
-					[322492] = {
-					},
-					[322491] = {
-					},
-					[322232] = {
-					},
-				},
-				[164737] = {
-					[338077] = {
-					},
-					[328475] = {
-					},
-					[328400] = {
-					},
-					[328409] = {
-					},
-					[338079] = {
-					},
-					[328539] = {
-					},
-					[336449] = {
-					},
-				},
-				[168022] = {
-					[328429] = {
-					},
-					[319898] = {
-					},
-					[345429] = {
-					},
-					[329226] = {
-					},
-					[328432] = {
-					},
-					[329224] = {
-					},
-				},
-				[163862] = {
-					[336451] = {
-					},
-					[336449] = {
-					},
-					[328533] = {
-					},
-				},
-				[168396] = {
-					[327581] = {
-					},
-					[327594] = {
-					},
-					[327233] = {
-					},
-				},
-				[168969] = {
-					[328660] = {
-					},
-					[328662] = {
-					},
-					[328661] = {
-					},
-					[346989] = {
-					},
-					[336449] = {
-					},
-				},
-				[169159] = {
-					[328986] = {
-					},
-				},
-				[168574] = {
-					[328002] = {
-					},
-					[327995] = {
-					},
-				},
-				[167493] = {
-					[328338] = {
-					},
-					[339155] = {
-					},
-					[328365] = {
-					},
-					[328395] = {
-					},
-					[328651] = {
-					},
-					[336449] = {
-					},
-				},
-				[164707] = {
-					[333737] = {
-					},
-					[321935] = {
-					},
-					[346989] = {
-					},
-					[322410] = {
-					},
-				},
-				[168361] = {
-					[330037] = {
-					},
-				},
-				[169861] = {
-					[328094] = {
-					},
-					[330786] = {
-					},
-					[330816] = {
-					},
-				},
-				[163882] = {
-					[329239] = {
-					},
-					[320072] = {
-					},
-					[320040] = {
-					},
-					[336449] = {
-					},
-				},
-				[164705] = {
-					[321975] = {
-					},
-					[340356] = {
-					},
-					[321999] = {
-					},
-					[346989] = {
-					},
-					[340357] = {
-					},
-				},
-				[164266] = {
-					[336449] = {
-					},
-					[331818] = {
-					},
-					[325552] = {
-					},
-					[325245] = {
-					},
-					[339184] = {
-					},
-					[333353] = {
-					},
-					[325550] = {
-					},
-					[328539] = {
-					},
-					[332313] = {
-					},
-					[325551] = {
-					},
-					[336306] = {
-					},
-					[336258] = {
-					},
-				},
-				[163894] = {
-					[320519] = {
-					},
-					[332581] = {
-					},
-					[340358] = {
-					},
-					[318949] = {
-					},
-					[320517] = {
-					},
-					[328175] = {
-					},
-				},
-				[168578] = {
-					[328015] = {
-					},
-					[328016] = {
-					},
-					[329917] = {
-					},
-				},
-				[164967] = {
-					[329110] = {
-					},
-					[332617] = {
-					},
-					[330026] = {
-					},
-					[322358] = {
-					},
-					[329217] = {
-					},
-					[328175] = {
-					},
-					[333808] = {
-					},
-					[331967] = {
-					},
-					[340358] = {
-					},
-				},
-				[168153] = {
-					[330403] = {
-					},
-					[330404] = {
-					},
-					[327882] = {
-					},
-				},
-				[171474] = {
-					[334640] = {
-					},
-				},
-				[164255] = {
-					[324667] = {
-					},
-					[324490] = {
-					},
-					[326242] = {
-					},
-					[324459] = {
-					},
-					[319780] = {
-					},
-					[324652] = {
-					},
-					[332865] = {
-					},
-					[324527] = {
-					},
-				},
-				[168878] = {
-					[340358] = {
-					},
-				},
-				[163891] = {
-					[319070] = {
-					},
-					[328662] = {
-					},
-					[346989] = {
-					},
-				},
-				[168580] = {
-					[344003] = {
-					},
-				},
-			},
-			[33] = {
-				[167956] = {
-					[326712] = {
-					},
-				},
-				[162039] = {
-					[321038] = {
-					},
-					[326836] = {
-					},
-				},
-				[162047] = {
-					[321178] = {
-					},
-					[334921] = {
-					},
-					[334918] = {
-					},
-					[334246] = {
-					},
-				},
-				[162051] = {
-					[321249] = {
-					},
-					[321220] = {
-					},
-				},
-				[171448] = {
-					[334558] = {
-					},
-					[321020] = {
-					},
-					[334563] = {
-					},
-					[334567] = {
-					},
-				},
-				[162040] = {
-					[326826] = {
-					},
-					[321020] = {
-					},
-					[346537] = {
-					},
-					[326827] = {
-					},
-					[326825] = {
-					},
-					[326831] = {
-					},
-					[326837] = {
-					},
-				},
-				[168058] = {
-					[326952] = {
-					},
-				},
-				[166396] = {
-					[324609] = {
-					},
-				},
-				[162099] = {
-					[322796] = {
-					},
-					[322903] = {
-					},
-					[323845] = {
-					},
-					[331415] = {
-					},
-					[323821] = {
-					},
-					[334877] = {
-					},
-				},
-				[162041] = {
-					[316068] = {
-					},
-					[334470] = {
-					},
-				},
-				[171376] = {
-					[334615] = {
-					},
-					[334329] = {
-					},
-					[334326] = {
-					},
-					[334324] = {
-					},
-				},
-				[162049] = {
-					[322169] = {
-					},
-					[322212] = {
-					},
-				},
-				[171384] = {
-					[334534] = {
-					},
-					[334378] = {
-					},
-					[334377] = {
-					},
-					[334381] = {
-					},
-				},
-				[162057] = {
-					[328170] = {
-					},
-					[322418] = {
-					},
-					[321020] = {
-					},
-					[322429] = {
-					},
-					[315536] = {
-					},
-					[322433] = {
-					},
-				},
-				[172265] = {
-					[336277] = {
-					},
-				},
-				[171799] = {
-					[335305] = {
-					},
-					[335306] = {
-					},
-					[335308] = {
-					},
-				},
-				[165076] = {
-					[320843] = {
-					},
-					[321401] = {
-					},
-					[321402] = {
-					},
-					[334653] = {
-					},
-				},
-				[162056] = {
-					[321264] = {
-					},
-					[316244] = {
-					},
-				},
-				[162046] = {
-					[330528] = {
-					},
-					[320843] = {
-					},
-				},
-				[167955] = {
-					[334753] = {
-					},
-					[326718] = {
-					},
-				},
-				[162102] = {
-					[325262] = {
-					},
-					[325260] = {
-					},
-					[326039] = {
-					},
-					[325257] = {
-					},
-					[325360] = {
-					},
-					[325254] = {
-					},
-					[328593] = {
-					},
-					[325261] = {
-					},
-				},
-				[162103] = {
-					[322554] = {
-					},
-					[322567] = {
-					},
-				},
-				[162038] = {
-					[321019] = {
-					},
-					[321020] = {
-					},
-					[320991] = {
-					},
-				},
-				[162100] = {
-					[319713] = {
-					},
-					[319657] = {
-					},
-					[338471] = {
-					},
-					[319650] = {
-					},
-					[319654] = {
-					},
-					[319655] = {
-					},
-					[330468] = {
-					},
-					[319687] = {
-					},
-					[319685] = {
-					},
-					[319715] = {
+					[322773] = {
 					},
 				},
 			},
@@ -6035,15 +6188,15 @@ MythicDungeonToolsDB = {
 				[168681] = {
 					[328205] = {
 					},
-					[336444] = {
+					[323739] = {
 					},
 					[323740] = {
 					},
-					[328217] = {
-					},
 					[328203] = {
 					},
-					[323739] = {
+					[328217] = {
+					},
+					[336444] = {
 					},
 				},
 				[168844] = {
@@ -6075,9 +6228,9 @@ MythicDungeonToolsDB = {
 					},
 					[345561] = {
 					},
-					[324662] = {
-					},
 					[321034] = {
+					},
+					[324662] = {
 					},
 				},
 				[163458] = {
@@ -6119,17 +6272,17 @@ MythicDungeonToolsDB = {
 					},
 					[328466] = {
 					},
-					[336496] = {
+					[333887] = {
 					},
 					[324662] = {
+					},
+					[328434] = {
+					},
+					[336496] = {
 					},
 					[328462] = {
 					},
 					[328453] = {
-					},
-					[328434] = {
-					},
-					[333887] = {
 					},
 				},
 				[162060] = {
@@ -6139,7 +6292,7 @@ MythicDungeonToolsDB = {
 					},
 					[324608] = {
 					},
-					[331997] = {
+					[323372] = {
 					},
 					[338731] = {
 					},
@@ -6149,11 +6302,11 @@ MythicDungeonToolsDB = {
 					},
 					[323878] = {
 					},
-					[324392] = {
+					[331997] = {
 					},
 					[324046] = {
 					},
-					[323372] = {
+					[324392] = {
 					},
 				},
 				[163459] = {
@@ -6179,9 +6332,9 @@ MythicDungeonToolsDB = {
 					},
 					[324392] = {
 					},
-					[328295] = {
-					},
 					[328289] = {
+					},
+					[328295] = {
 					},
 				},
 				[162061] = {
@@ -6197,13 +6350,13 @@ MythicDungeonToolsDB = {
 					},
 					[334625] = {
 					},
-					[322908] = {
+					[323943] = {
 					},
 					[322817] = {
 					},
 					[322893] = {
 					},
-					[323943] = {
+					[322908] = {
 					},
 				},
 				[168420] = {
@@ -6214,18 +6367,14 @@ MythicDungeonToolsDB = {
 					[327653] = {
 					},
 				},
-				[163520] = {
-					[317985] = {
+				[168318] = {
+					[327413] = {
 					},
-					[327808] = {
+					[324392] = {
 					},
-					[327812] = {
+					[207707] = {
 					},
-					[323740] = {
-					},
-					[336447] = {
-					},
-					[323739] = {
+					[327416] = {
 					},
 				},
 				[168418] = {
@@ -6242,6 +6391,18 @@ MythicDungeonToolsDB = {
 					[317661] = {
 					},
 					[207707] = {
+					},
+				},
+				[163077] = {
+					[324368] = {
+					},
+					[331251] = {
+					},
+					[345561] = {
+					},
+					[331249] = {
+					},
+					[324370] = {
 					},
 				},
 				[168843] = {
@@ -6261,21 +6422,9 @@ MythicDungeonToolsDB = {
 					},
 					[324662] = {
 					},
-					[323739] = {
-					},
 					[336444] = {
 					},
-				},
-				[163077] = {
-					[324368] = {
-					},
-					[331251] = {
-					},
-					[345561] = {
-					},
-					[324370] = {
-					},
-					[331249] = {
+					[323739] = {
 					},
 				},
 				[162058] = {
@@ -6287,9 +6436,9 @@ MythicDungeonToolsDB = {
 					},
 					[324148] = {
 					},
-					[338070] = {
-					},
 					[334485] = {
+					},
+					[338070] = {
 					},
 				},
 				[163457] = {
@@ -6298,14 +6447,18 @@ MythicDungeonToolsDB = {
 					[207707] = {
 					},
 				},
-				[168318] = {
-					[324392] = {
+				[163520] = {
+					[317985] = {
 					},
-					[327416] = {
+					[327808] = {
 					},
-					[207707] = {
+					[327812] = {
 					},
-					[327413] = {
+					[323740] = {
+					},
+					[336447] = {
+					},
+					[323739] = {
 					},
 				},
 			},
@@ -6339,11 +6492,11 @@ MythicDungeonToolsDB = {
 				[167612] = {
 					[326632] = {
 					},
-					[326617] = {
+					[326623] = {
 					},
 					[326607] = {
 					},
-					[326623] = {
+					[326617] = {
 					},
 				},
 				[165415] = {
@@ -6369,9 +6522,9 @@ MythicDungeonToolsDB = {
 				[164563] = {
 					[329324] = {
 					},
-					[344993] = {
-					},
 					[329321] = {
+					},
+					[344993] = {
 					},
 				},
 				[165408] = {
@@ -6385,13 +6538,13 @@ MythicDungeonToolsDB = {
 					},
 					[322936] = {
 					},
-					[339237] = {
+					[322945] = {
 					},
 					[322711] = {
 					},
 					[323001] = {
 					},
-					[322945] = {
+					[339237] = {
 					},
 				},
 				[165529] = {
@@ -6404,6 +6557,74 @@ MythicDungeonToolsDB = {
 					[326879] = {
 					},
 					[326874] = {
+					},
+				},
+				[164557] = {
+					[326441] = {
+					},
+					[326438] = {
+					},
+					[325509] = {
+					},
+					[326409] = {
+					},
+					[326426] = {
+					},
+					[326440] = {
+					},
+				},
+				[164185] = {
+					[319702] = {
+					},
+					[326389] = {
+					},
+					[319733] = {
+					},
+					[319703] = {
+					},
+					[344874] = {
+					},
+					[319603] = {
+					},
+					[319592] = {
+					},
+					[319941] = {
+					},
+					[328206] = {
+					},
+				},
+				[165410] = {
+					[323552] = {
+					},
+					[323538] = {
+					},
+					[329340] = {
+					},
+				},
+				[174175] = {
+					[346866] = {
+					},
+					[342021] = {
+					},
+					[342189] = {
+					},
+				},
+				[167607] = {
+					[326771] = {
+					},
+					[326997] = {
+					},
+				},
+				[167611] = {
+					[326644] = {
+					},
+					[326632] = {
+					},
+					[326638] = {
+					},
+					[326642] = {
+					},
+					[326637] = {
 					},
 				},
 				[164218] = {
@@ -6423,417 +6644,231 @@ MythicDungeonToolsDB = {
 					},
 					[335345] = {
 					},
-					[329113] = {
+					[323143] = {
 					},
-					[335338] = {
+					[329113] = {
 					},
 					[323392] = {
 					},
 					[328791] = {
 					},
-					[323143] = {
-					},
-				},
-				[164185] = {
-					[319702] = {
-					},
-					[326389] = {
-					},
-					[319733] = {
-					},
-					[319941] = {
-					},
-					[344874] = {
-					},
-					[319603] = {
-					},
-					[319592] = {
-					},
-					[328206] = {
-					},
-					[319703] = {
-					},
-				},
-				[167611] = {
-					[326644] = {
-					},
-					[326632] = {
-					},
-					[326638] = {
-					},
-					[326642] = {
-					},
-					[326637] = {
-					},
-				},
-				[174175] = {
-					[342021] = {
-					},
-					[342189] = {
-					},
-					[346866] = {
-					},
-				},
-				[167607] = {
-					[326771] = {
-					},
-					[326997] = {
-					},
-				},
-				[165410] = {
-					[323552] = {
-					},
-					[323538] = {
-					},
-					[329340] = {
-					},
-				},
-				[164557] = {
-					[326441] = {
-					},
-					[326438] = {
-					},
-					[325509] = {
-					},
-					[326409] = {
-					},
-					[326440] = {
-					},
-					[326426] = {
+					[335338] = {
 					},
 				},
 			},
-			[35] = {
-				[165197] = {
-					[324387] = {
-					},
-					[324391] = {
-					},
-					[324372] = {
-					},
-					[324381] = {
-					},
-					[324394] = {
+			[33] = {
+				[167956] = {
+					[326712] = {
 					},
 				},
-				[173044] = {
-					[323496] = {
+				[162039] = {
+					[321038] = {
 					},
-					[338653] = {
-					},
-					[323489] = {
-					},
-					[323471] = {
-					},
-					[334748] = {
+					[326836] = {
 					},
 				},
-				[163128] = {
-					[320571] = {
+				[162047] = {
+					[321178] = {
 					},
-					[320573] = {
+					[334246] = {
 					},
-					[224729] = {
+					[334918] = {
 					},
-					[320462] = {
-					},
-				},
-				[162729] = {
-					[338022] = {
-					},
-					[224729] = {
+					[334921] = {
 					},
 				},
-				[166302] = {
-					[334747] = {
+				[162051] = {
+					[321249] = {
 					},
-					[334748] = {
-					},
-					[334749] = {
+					[321220] = {
 					},
 				},
-				[165872] = {
-					[327130] = {
+				[171448] = {
+					[334558] = {
 					},
-					[323489] = {
+					[321020] = {
 					},
-					[323496] = {
+					[334563] = {
 					},
-					[323471] = {
-					},
-				},
-				[163620] = {
-					[333479] = {
-					},
-					[333485] = {
-					},
-					[338456] = {
-					},
-					[333482] = {
+					[334567] = {
 					},
 				},
-				[164578] = {
-					[334322] = {
+				[162040] = {
+					[326826] = {
 					},
-					[320376] = {
+					[321020] = {
 					},
-					[322548] = {
+					[346537] = {
 					},
-					[348170] = {
+					[326827] = {
 					},
-					[322681] = {
+					[326837] = {
 					},
-					[320208] = {
+					[326831] = {
 					},
-					[327952] = {
-					},
-				},
-				[162691] = {
-					[320596] = {
-					},
-					[320655] = {
-					},
-					[320637] = {
+					[326825] = {
 					},
 				},
-				[165919] = {
-					[324293] = {
-					},
-					[343470] = {
-					},
-					[324323] = {
+				[168058] = {
+					[326952] = {
 					},
 				},
-				[166264] = {
-					[334610] = {
+				[166396] = {
+					[324609] = {
 					},
 				},
-				[163122] = {
-					[321576] = {
+				[162099] = {
+					[322796] = {
+					},
+					[322903] = {
+					},
+					[323845] = {
+					},
+					[334877] = {
+					},
+					[323821] = {
+					},
+					[331415] = {
 					},
 				},
-				[163157] = {
-					[321247] = {
+				[162041] = {
+					[316068] = {
 					},
-					[320171] = {
-					},
-					[320580] = {
-					},
-					[333634] = {
-					},
-					[333488] = {
-					},
-					[319902] = {
-					},
-					[321226] = {
-					},
-					[333489] = {
-					},
-					[320012] = {
-					},
-					[333492] = {
+					[334470] = {
 					},
 				},
-				[165222] = {
-					[335143] = {
+				[171376] = {
+					[334615] = {
 					},
-					[320822] = {
+					[334324] = {
 					},
-				},
-				[172981] = {
-					[338357] = {
+					[334329] = {
 					},
-					[338456] = {
+					[334326] = {
 					},
 				},
-				[165137] = {
-					[322756] = {
+				[162049] = {
+					[322169] = {
 					},
-					[320462] = {
-					},
-					[322757] = {
-					},
-					[323347] = {
+					[322212] = {
 					},
 				},
-				[163126] = {
-					[321576] = {
+				[171384] = {
+					[334534] = {
 					},
-					[328664] = {
+					[334381] = {
 					},
-					[320336] = {
+					[334377] = {
 					},
-					[333602] = {
-					},
-					[328667] = {
-					},
-					[322493] = {
+					[334378] = {
 					},
 				},
-				[165824] = {
-					[335142] = {
+				[162057] = {
+					[328170] = {
 					},
-					[345623] = {
+					[322418] = {
 					},
-					[327397] = {
+					[321020] = {
 					},
-					[320462] = {
+					[322429] = {
 					},
-					[335141] = {
+					[315536] = {
 					},
-					[327396] = {
-					},
-					[327393] = {
-					},
-					[345625] = {
+					[322433] = {
 					},
 				},
-				[166079] = {
-					[321576] = {
+				[162100] = {
+					[319713] = {
 					},
-					[328687] = {
+					[319657] = {
 					},
-				},
-				[165138] = {
-					[335164] = {
+					[338471] = {
 					},
-					[321821] = {
+					[319650] = {
 					},
-					[338022] = {
+					[319654] = {
 					},
-					[224729] = {
+					[319655] = {
 					},
-				},
-				[173016] = {
-					[338353] = {
+					[319715] = {
 					},
-					[334748] = {
+					[319685] = {
 					},
-					[334749] = {
+					[319687] = {
 					},
-					[334747] = {
+					[330468] = {
 					},
 				},
-				[163619] = {
-					[321807] = {
+				[171799] = {
+					[335305] = {
+					},
+					[335306] = {
+					},
+					[335308] = {
 					},
 				},
-				[165911] = {
-					[320696] = {
+				[165076] = {
+					[334653] = {
 					},
-					[327240] = {
+					[320843] = {
 					},
-					[327155] = {
+					[321402] = {
 					},
-				},
-				[162689] = {
-					[320200] = {
-					},
-					[334488] = {
-					},
-					[320366] = {
-					},
-					[327664] = {
-					},
-					[320359] = {
-					},
-					[343556] = {
-					},
-					[334321] = {
-					},
-					[326629] = {
-					},
-					[326574] = {
-					},
-					[343558] = {
-					},
-					[320358] = {
-					},
-					[334476] = {
-					},
-					[320365] = {
+					[321401] = {
 					},
 				},
-				[163623] = {
-					[338022] = {
+				[162038] = {
+					[321019] = {
+					},
+					[321020] = {
+					},
+					[320991] = {
 					},
 				},
-				[162693] = {
-					[321370] = {
+				[162046] = {
+					[330528] = {
 					},
-					[321956] = {
-					},
-					[323730] = {
-					},
-					[321754] = {
-					},
-					[321368] = {
-					},
-					[320772] = {
-					},
-					[321755] = {
-					},
-					[321894] = {
-					},
-					[320788] = {
-					},
-					[320771] = {
-					},
-					[320784] = {
+					[320843] = {
 					},
 				},
-				[163618] = {
-					[327393] = {
+				[162103] = {
+					[322554] = {
 					},
-					[324026] = {
-					},
-					[327397] = {
-					},
-					[320462] = {
-					},
-					[321780] = {
-					},
-					[327396] = {
-					},
-					[323957] = {
-					},
-					[321575] = {
+					[322567] = {
 					},
 				},
-				[163622] = {
-					[338022] = {
+				[162102] = {
+					[325261] = {
+					},
+					[325260] = {
+					},
+					[325262] = {
+					},
+					[325257] = {
+					},
+					[328593] = {
+					},
+					[325254] = {
+					},
+					[325360] = {
+					},
+					[326039] = {
 					},
 				},
-				[167731] = {
-					[323496] = {
+				[167955] = {
+					[334753] = {
 					},
-					[338606] = {
-					},
-					[338636] = {
-					},
-					[338610] = {
-					},
-					[323471] = {
-					},
-					[323489] = {
+					[326718] = {
 					},
 				},
-				[163621] = {
-					[338456] = {
+				[162056] = {
+					[321264] = {
 					},
-					[333477] = {
-					},
-					[338357] = {
+					[316244] = {
 					},
 				},
-				[163121] = {
-					[319290] = {
-					},
-					[320696] = {
-					},
-					[320703] = {
-					},
-					[323190] = {
+				[172265] = {
+					[336277] = {
 					},
 				},
 			},
@@ -6850,20 +6885,20 @@ MythicDungeonToolsDB = {
 					["Control Undead"] = true,
 					["Root"] = true,
 				},
-				[167994] = {
-					["Root"] = true,
+				[162309] = {
 					["Taunt"] = true,
 				},
 				[174210] = {
 					["Taunt"] = true,
 					["Control Undead"] = true,
-					["Stun"] = true,
 					["Root"] = true,
+					["Stun"] = true,
 				},
 				[162317] = {
 					["Taunt"] = true,
 				},
-				[170690] = {
+				[164510] = {
+					["Taunt"] = true,
 					["Control Undead"] = true,
 				},
 				[164451] = {
@@ -6872,8 +6907,8 @@ MythicDungeonToolsDB = {
 				[169875] = {
 					["Stun"] = true,
 					["Slow"] = true,
-					["Control Undead"] = true,
 					["Taunt"] = true,
+					["Control Undead"] = true,
 				},
 				[160495] = {
 					["Stun"] = true,
@@ -6891,11 +6926,11 @@ MythicDungeonToolsDB = {
 				[164463] = {
 					["Taunt"] = true,
 				},
-				[164510] = {
-					["Taunt"] = true,
+				[170690] = {
 					["Control Undead"] = true,
 				},
-				[162309] = {
+				[167994] = {
+					["Root"] = true,
 					["Taunt"] = true,
 				},
 			},
@@ -6904,8 +6939,8 @@ MythicDungeonToolsDB = {
 					["Polymorph"] = true,
 					["Stun"] = true,
 					["Slow"] = true,
-					["Taunt"] = true,
 					["Root"] = true,
+					["Taunt"] = true,
 				},
 				[164926] = {
 					["Taunt"] = true,
@@ -6914,14 +6949,14 @@ MythicDungeonToolsDB = {
 					["Polymorph"] = true,
 					["Stun"] = true,
 					["Slow"] = true,
-					["Taunt"] = true,
 					["Root"] = true,
+					["Taunt"] = true,
 				},
 				[166275] = {
 					["Root"] = true,
 					["Slow"] = true,
-					["Polymorph"] = true,
 					["Stun"] = true,
+					["Polymorph"] = true,
 				},
 				[167116] = {
 					["Stun"] = true,
@@ -6932,8 +6967,8 @@ MythicDungeonToolsDB = {
 					["Taunt"] = true,
 					["Root"] = true,
 					["Slow"] = true,
-					["Stun"] = true,
 					["Silence"] = true,
+					["Stun"] = true,
 				},
 				[164567] = {
 					["Taunt"] = true,
@@ -6941,8 +6976,8 @@ MythicDungeonToolsDB = {
 				[166276] = {
 					["Taunt"] = true,
 					["Slow"] = true,
-					["Root"] = true,
 					["Stun"] = true,
+					["Root"] = true,
 				},
 				[167117] = {
 					["Stun"] = true,
@@ -6951,8 +6986,8 @@ MythicDungeonToolsDB = {
 				[164920] = {
 					["Taunt"] = true,
 					["Slow"] = true,
-					["Root"] = true,
 					["Stun"] = true,
+					["Root"] = true,
 				},
 				[164804] = {
 					["Taunt"] = true,
@@ -6960,8 +6995,8 @@ MythicDungeonToolsDB = {
 				[166304] = {
 					["Root"] = true,
 					["Slow"] = true,
-					["Taunt"] = true,
 					["Stun"] = true,
+					["Taunt"] = true,
 				},
 				[173655] = {
 					["Taunt"] = true,
@@ -6981,8 +7016,11 @@ MythicDungeonToolsDB = {
 				[164929] = {
 					["Taunt"] = true,
 				},
-				[164517] = {
+				[167113] = {
+					["Polymorph"] = true,
+					["Slow"] = true,
 					["Taunt"] = true,
+					["Stun"] = true,
 				},
 				[166301] = {
 					["Root"] = true,
@@ -6995,106 +7033,149 @@ MythicDungeonToolsDB = {
 				[164501] = {
 					["Taunt"] = true,
 				},
-				[167113] = {
-					["Polymorph"] = true,
-					["Slow"] = true,
-					["Stun"] = true,
+				[164517] = {
 					["Taunt"] = true,
 				},
 			},
-			[29] = {
-				[171343] = {
+			[35] = {
+				[165197] = {
 					["Taunt"] = true,
 				},
-				[170572] = {
+				[173044] = {
 					["Taunt"] = true,
 				},
-				[166608] = {
+				[163128] = {
 					["Taunt"] = true,
+					["Disorient"] = true,
+					["Fear"] = true,
+					["Silence"] = true,
+					["Root"] = true,
+					["Stun"] = true,
+					["Imprison"] = true,
 				},
-				[164450] = {
+				[162729] = {
 					["Taunt"] = true,
-				},
-				[171181] = {
+					["Disorient"] = true,
 					["Stun"] = true,
 					["Slow"] = true,
+					["Control Undead"] = true,
+					["Root"] = true,
+				},
+				[166302] = {
 					["Taunt"] = true,
+					["Incapacitate"] = true,
 					["Root"] = true,
-				},
-				[164861] = {
 					["Stun"] = true,
-					["Root"] = true,
+					["Slow"] = true,
+					["Silence"] = true,
+					["Fear"] = true,
 				},
-				[167965] = {
+				[165872] = {
+					["Taunt"] = true,
 					["Stun"] = true,
+					["Slow"] = true,
 					["Root"] = true,
 					["Silence"] = true,
 				},
-				[170480] = {
+				[162691] = {
+					["Taunt"] = true,
+				},
+				[163121] = {
+					["Taunt"] = true,
+					["Incapacitate"] = true,
+					["Root"] = true,
 					["Stun"] = true,
 					["Slow"] = true,
-				},
-				[164873] = {
-					["Taunt"] = true,
-					["Slow"] = true,
-					["Stun"] = true,
-					["Root"] = true,
-				},
-				[170147] = {
-					["Root"] = true,
-				},
-				[168942] = {
-					["Taunt"] = true,
-				},
-				[171341] = {
-					["Stun"] = true,
-					["Root"] = true,
-				},
-				[167962] = {
-					["Taunt"] = true,
-				},
-				[168949] = {
-					["Stun"] = true,
+					["Disorient"] = true,
 					["Control Undead"] = true,
-					["Root"] = true,
 				},
-				[167963] = {
-					["Root"] = true,
+				[163621] = {
 					["Taunt"] = true,
+				},
+				[165919] = {
+					["Taunt"] = true,
+				},
+				[166264] = {
+					["Stun"] = true,
+				},
+				[165137] = {
+					["Taunt"] = true,
+				},
+				[163618] = {
+					["Stun"] = true,
+					["Taunt"] = true,
+				},
+				[165222] = {
+					["Stun"] = true,
+					["Taunt"] = true,
+				},
+				[163157] = {
+					["Taunt"] = true,
+				},
+				[163122] = {
+					["Taunt"] = true,
+					["Stun"] = true,
+				},
+				[163126] = {
+					["Stun"] = true,
+					["Taunt"] = true,
+				},
+				[163620] = {
+					["Taunt"] = true,
+				},
+				[166079] = {
+					["Taunt"] = true,
+				},
+				[173016] = {
+					["Incapacitate"] = true,
+					["Disorient"] = true,
 					["Silence"] = true,
-				},
-				[171342] = {
 					["Root"] = true,
 					["Slow"] = true,
+					["Stun"] = true,
+					["Fear"] = true,
+				},
+				[165824] = {
 					["Taunt"] = true,
-					["Stun"] = true,
 				},
-				[167967] = {
-					["Stun"] = true,
+				[172981] = {
+					["Taunt"] = true,
 				},
-				[168986] = {
-					["Root"] = true,
+				[163619] = {
+					["Taunt"] = true,
+					["Disorient"] = true,
+					["Stun"] = true,
 					["Slow"] = true,
-					["Stun"] = true,
+					["Fear"] = true,
+				},
+				[162689] = {
+					["Taunt"] = true,
+				},
+				[163623] = {
+					["Root"] = true,
 					["Control Undead"] = true,
 				},
-				[168992] = {
-					["Stun"] = true,
-					["Control Undead"] = true,
+				[165138] = {
+					["Root"] = true,
+					["Slow"] = true,
+				},
+				[162693] = {
 					["Taunt"] = true,
 				},
-				[170490] = {
+				[163622] = {
 					["Stun"] = true,
 				},
-				[164857] = {
-					["Stun"] = true,
-					["Root"] = true,
+				[167731] = {
+					["Taunt"] = true,
 				},
-				[164862] = {
+				[164578] = {
+					["Taunt"] = true,
+				},
+				[165911] = {
 					["Stun"] = true,
 					["Slow"] = true,
 					["Root"] = true,
-					["Taunt"] = true,
+					["Control Undead"] = true,
 				},
 			},
 			[32] = {
@@ -7139,9 +7220,8 @@ MythicDungeonToolsDB = {
 				[168396] = {
 					["Taunt"] = true,
 				},
-				[164705] = {
+				[168580] = {
 					["Stun"] = true,
-					["Taunt"] = true,
 				},
 				[164707] = {
 					["Stun"] = true,
@@ -7149,8 +7229,8 @@ MythicDungeonToolsDB = {
 				[163894] = {
 					["Taunt"] = true,
 				},
-				[163862] = {
-					["Stun"] = true,
+				[164266] = {
+					["Taunt"] = true,
 				},
 				[168022] = {
 					["Stun"] = true,
@@ -7164,78 +7244,109 @@ MythicDungeonToolsDB = {
 				[164255] = {
 					["Taunt"] = true,
 				},
-				[164266] = {
-					["Taunt"] = true,
+				[163862] = {
+					["Stun"] = true,
 				},
 				[168572] = {
 					["Stun"] = true,
 				},
-				[168580] = {
+				[164705] = {
 					["Stun"] = true,
+					["Taunt"] = true,
 				},
 			},
-			[33] = {
-				[172265] = {
-					["Root"] = true,
+			[29] = {
+				[171343] = {
+					["Taunt"] = true,
 				},
-				[162039] = {
+				[170572] = {
+					["Taunt"] = true,
+				},
+				[166608] = {
+					["Taunt"] = true,
+				},
+				[164450] = {
+					["Taunt"] = true,
+				},
+				[171181] = {
 					["Stun"] = true,
 					["Slow"] = true,
 					["Root"] = true,
 					["Taunt"] = true,
 				},
-				[162047] = {
-					["Taunt"] = true,
+				[164861] = {
+					["Stun"] = true,
+					["Root"] = true,
 				},
-				[162051] = {
+				[167965] = {
+					["Stun"] = true,
+					["Silence"] = true,
+					["Root"] = true,
+				},
+				[170480] = {
 					["Stun"] = true,
 					["Slow"] = true,
 				},
-				[171448] = {
-					["Stun"] = true,
-					["Root"] = true,
-				},
-				[162102] = {
+				[164873] = {
 					["Taunt"] = true,
-				},
-				[168058] = {
-					["Root"] = true,
-				},
-				[162056] = {
-					["Root"] = true,
-				},
-				[162103] = {
-					["Taunt"] = true,
-				},
-				[162049] = {
-					["Stun"] = true,
 					["Slow"] = true,
 					["Root"] = true,
-				},
-				[171384] = {
-					["Root"] = true,
 					["Stun"] = true,
 				},
-				[162057] = {
+				[170147] = {
+					["Root"] = true,
+				},
+				[168942] = {
 					["Taunt"] = true,
 				},
-				[167955] = {
+				[171341] = {
+					["Stun"] = true,
 					["Root"] = true,
+				},
+				[164862] = {
+					["Stun"] = true,
+					["Slow"] = true,
+					["Taunt"] = true,
+					["Root"] = true,
+				},
+				[164857] = {
+					["Stun"] = true,
+					["Root"] = true,
+				},
+				[171342] = {
+					["Root"] = true,
+					["Slow"] = true,
+					["Stun"] = true,
 					["Taunt"] = true,
 				},
-				[165076] = {
+				[167963] = {
+					["Root"] = true,
+					["Silence"] = true,
 					["Taunt"] = true,
 				},
-				[166396] = {
+				[167967] = {
+					["Stun"] = true,
+				},
+				[168992] = {
+					["Stun"] = true,
+					["Control Undead"] = true,
+					["Taunt"] = true,
+				},
+				[168986] = {
+					["Root"] = true,
+					["Slow"] = true,
+					["Control Undead"] = true,
+					["Stun"] = true,
+				},
+				[170490] = {
+					["Stun"] = true,
+				},
+				[168949] = {
+					["Stun"] = true,
+					["Control Undead"] = true,
 					["Root"] = true,
 				},
-				[167956] = {
-					["Root"] = true,
-				},
-				[162041] = {
-					["Root"] = true,
-				},
-				[162038] = {
+				[167962] = {
 					["Taunt"] = true,
 				},
 			},
@@ -7281,8 +7392,8 @@ MythicDungeonToolsDB = {
 					["Stun"] = true,
 					["Taunt"] = true,
 				},
-				[163458] = {
-					["Stun"] = true,
+				[168845] = {
+					["Taunt"] = true,
 				},
 				[168418] = {
 					["Stun"] = true,
@@ -7295,23 +7406,23 @@ MythicDungeonToolsDB = {
 					["Taunt"] = true,
 					["Stun"] = true,
 				},
-				[168845] = {
-					["Taunt"] = true,
+				[163458] = {
+					["Stun"] = true,
 				},
 			},
 			[30] = {
 				[165414] = {
 					["Stun"] = true,
-					["Root"] = true,
-					["Taunt"] = true,
 					["Silence"] = true,
+					["Taunt"] = true,
+					["Root"] = true,
 				},
 				[165515] = {
 					["Taunt"] = true,
 					["Stun"] = true,
 					["Slow"] = true,
-					["Silence"] = true,
 					["Root"] = true,
+					["Silence"] = true,
 				},
 				[164562] = {
 					["Taunt"] = true,
@@ -7334,16 +7445,16 @@ MythicDungeonToolsDB = {
 				[164563] = {
 					["Root"] = true,
 					["Slow"] = true,
-					["Stun"] = true,
 					["Taunt"] = true,
+					["Stun"] = true,
 				},
 				[165408] = {
 					["Taunt"] = true,
 				},
 				[167892] = {
 					["Stun"] = true,
-					["Taunt"] = true,
 					["Root"] = true,
+					["Taunt"] = true,
 				},
 				[165529] = {
 					["Taunt"] = true,
@@ -7358,7 +7469,7 @@ MythicDungeonToolsDB = {
 				[164185] = {
 					["Taunt"] = true,
 				},
-				[165410] = {
+				[164557] = {
 					["Taunt"] = true,
 				},
 				[174175] = {
@@ -7367,196 +7478,85 @@ MythicDungeonToolsDB = {
 				[167607] = {
 					["Taunt"] = true,
 				},
+				[165410] = {
+					["Taunt"] = true,
+				},
 				[167611] = {
 					["Root"] = true,
 					["Taunt"] = true,
 				},
-				[164557] = {
-					["Taunt"] = true,
-				},
 			},
-			[35] = {
-				[165197] = {
+			[33] = {
+				[172265] = {
+					["Root"] = true,
+				},
+				[162039] = {
+					["Stun"] = true,
+					["Slow"] = true,
+					["Taunt"] = true,
+					["Root"] = true,
+				},
+				[162047] = {
 					["Taunt"] = true,
 				},
-				[173044] = {
-					["Taunt"] = true,
+				[162051] = {
+					["Stun"] = true,
+					["Slow"] = true,
 				},
-				[163128] = {
-					["Taunt"] = true,
-					["Disorient"] = true,
-					["Imprison"] = true,
-					["Silence"] = true,
+				[171448] = {
 					["Stun"] = true,
 					["Root"] = true,
-					["Fear"] = true,
 				},
-				[162729] = {
+				[162102] = {
 					["Taunt"] = true,
-					["Disorient"] = true,
+				},
+				[168058] = {
+					["Root"] = true,
+				},
+				[162056] = {
+					["Root"] = true,
+				},
+				[162103] = {
+					["Taunt"] = true,
+				},
+				[162049] = {
 					["Stun"] = true,
 					["Slow"] = true,
 					["Root"] = true,
-					["Control Undead"] = true,
 				},
-				[166302] = {
-					["Taunt"] = true,
-					["Incapacitate"] = true,
-					["Stun"] = true,
-					["Root"] = true,
-					["Slow"] = true,
-					["Silence"] = true,
-					["Fear"] = true,
-				},
-				[165872] = {
-					["Taunt"] = true,
-					["Stun"] = true,
-					["Slow"] = true,
-					["Silence"] = true,
-					["Root"] = true,
-				},
-				[163121] = {
-					["Taunt"] = true,
-					["Incapacitate"] = true,
-					["Slow"] = true,
-					["Stun"] = true,
-					["Control Undead"] = true,
-					["Disorient"] = true,
-					["Root"] = true,
-				},
-				[165911] = {
-					["Stun"] = true,
-					["Slow"] = true,
-					["Control Undead"] = true,
-					["Root"] = true,
-				},
-				[163621] = {
-					["Taunt"] = true,
-				},
-				[165919] = {
-					["Taunt"] = true,
-				},
-				[166264] = {
-					["Stun"] = true,
-				},
-				[164578] = {
-					["Taunt"] = true,
-				},
-				[163122] = {
-					["Taunt"] = true,
-					["Stun"] = true,
-				},
-				[165222] = {
-					["Stun"] = true,
-					["Taunt"] = true,
-				},
-				[163126] = {
-					["Stun"] = true,
-					["Taunt"] = true,
-				},
-				[163618] = {
-					["Stun"] = true,
-					["Taunt"] = true,
-				},
-				[163622] = {
-					["Stun"] = true,
-				},
-				[163623] = {
-					["Root"] = true,
-					["Control Undead"] = true,
-				},
-				[166079] = {
-					["Taunt"] = true,
-				},
-				[162689] = {
-					["Taunt"] = true,
-				},
-				[162693] = {
-					["Taunt"] = true,
-				},
-				[165138] = {
-					["Root"] = true,
-					["Slow"] = true,
-				},
-				[163619] = {
-					["Taunt"] = true,
-					["Disorient"] = true,
-					["Stun"] = true,
-					["Slow"] = true,
-					["Fear"] = true,
-				},
-				[172981] = {
-					["Taunt"] = true,
-				},
-				[165824] = {
-					["Taunt"] = true,
-				},
-				[173016] = {
-					["Incapacitate"] = true,
-					["Disorient"] = true,
+				[171384] = {
 					["Root"] = true,
 					["Stun"] = true,
-					["Slow"] = true,
-					["Silence"] = true,
-					["Fear"] = true,
 				},
-				[163620] = {
+				[162057] = {
 					["Taunt"] = true,
 				},
-				[163157] = {
+				[167955] = {
+					["Root"] = true,
 					["Taunt"] = true,
 				},
-				[167731] = {
+				[165076] = {
 					["Taunt"] = true,
 				},
-				[165137] = {
+				[162038] = {
 					["Taunt"] = true,
 				},
-				[162691] = {
-					["Taunt"] = true,
+				[162041] = {
+					["Root"] = true,
+				},
+				[167956] = {
+					["Root"] = true,
+				},
+				[166396] = {
+					["Root"] = true,
 				},
 			},
 		},
-		["scale"] = 0.750000219946509,
-		["version"] = 390,
+		["currentDungeonIdx"] = 31,
+		["version"] = 391,
 		["xoffset"] = 15.96601676940918,
 		["anchorTo"] = "TOPLEFT",
-		["currentPreset"] = {
-			nil, -- [1]
-			nil, -- [2]
-			nil, -- [3]
-			nil, -- [4]
-			nil, -- [5]
-			nil, -- [6]
-			nil, -- [7]
-			nil, -- [8]
-			nil, -- [9]
-			nil, -- [10]
-			nil, -- [11]
-			nil, -- [12]
-			nil, -- [13]
-			nil, -- [14]
-			nil, -- [15]
-			nil, -- [16]
-			nil, -- [17]
-			nil, -- [18]
-			nil, -- [19]
-			nil, -- [20]
-			nil, -- [21]
-			2, -- [22]
-			nil, -- [23]
-			nil, -- [24]
-			nil, -- [25]
-			nil, -- [26]
-			nil, -- [27]
-			nil, -- [28]
-			2, -- [29]
-			5, -- [30]
-			2, -- [31]
-			2, -- [32]
-			nil, -- [33]
-			2, -- [34]
-		},
+		["scale"] = 0.750000219946509,
 		["yoffset"] = -41.96526336669922,
 	},
 }

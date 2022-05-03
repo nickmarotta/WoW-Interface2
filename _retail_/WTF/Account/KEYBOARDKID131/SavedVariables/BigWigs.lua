@@ -17,8 +17,6 @@ BigWigs3DB = {
 	["namespaces"] = {
 		["BigWigs_Plugins_Victory"] = {
 		},
-		["BigWigs_Bosses_General Kaal"] = {
-		},
 		["BigWigs_Plugins_Alt Power"] = {
 		},
 		["BigWigs_Plugins_BossBlock"] = {
@@ -29,8 +27,6 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_Sounds"] = {
-		},
-		["BigWigs_Bosses_Executor Tarvold"] = {
 		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
@@ -48,8 +44,6 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_AltPower"] = {
 		},
-		["BigWigs_Bosses_Kryxis the Voracious"] = {
-		},
 		["BigWigs_Plugins_Colors"] = {
 		},
 		["BigWigs_Plugins_Wipe"] = {
@@ -66,35 +60,21 @@ BigWigs3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 451.2009111844236,
-					["BigWigsAnchor_width"] = 221.6405029296875,
 					["BigWigsAnchor_x"] = 864.3219958847476,
 					["BigWigsEmphasizeAnchor_height"] = 24.46164894104004,
-					["BigWigsAnchor_height"] = 38.97422027587891,
 					["BigWigsAnchor_y"] = 142.8453301486479,
+					["BigWigsAnchor_width"] = 221.6405029296875,
 					["BigWigsEmphasizeAnchor_width"] = 200.615478515625,
 					["BigWigsEmphasizeAnchor_x"] = 335.9996824998234,
+					["BigWigsAnchor_height"] = 38.97422027587891,
 				},
 			},
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Bosses_Grand Proctor Beryllia"] = {
-		},
-		["BigWigs_Bosses_Sanguine Depths Trash"] = {
-		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
 		["LibDualSpec-1.0"] = {
 		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["width"] = 148.2052307128906,
-					["posy"] = 496.2444337021589,
-					["height"] = 129.0256042480469,
-					["posx"] = 1010.233025689013,
-				},
-			},
+		["BigWigs_Plugins_AutoReply"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -111,6 +91,16 @@ BigWigs3DB = {
 						0.8204470872879028, -- [3]
 						-186.2564697265625, -- [4]
 					},
+				},
+			},
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["height"] = 129.0256042480469,
+					["posy"] = 496.2444337021589,
+					["posx"] = 1010.233025689013,
+					["width"] = 148.2052307128906,
 				},
 			},
 		},

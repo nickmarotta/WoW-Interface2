@@ -7,8 +7,8 @@ EasyFramesDB = {
 		["Ronami - Thrall"] = "Default",
 		["Mafiki - Thrall"] = "Default",
 		["Corpselus - Thrall"] = "Default",
-		["Melleressra - Thrall"] = "Default",
 		["Salocinn - Thrall"] = "Default",
+		["Melleressra - Thrall"] = "Default",
 		["Zynzo - Thrall"] = "Default",
 	},
 	["profiles"] = {

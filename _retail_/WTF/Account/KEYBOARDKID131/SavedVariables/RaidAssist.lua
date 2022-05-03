@@ -2482,15 +2482,6 @@ RADataBase = {
 							5, -- [6]
 							1305158, -- [7]
 						},
-						["196563"] = {
-							1810, -- [1]
-							1480, -- [2]
-							"Warlord Parjesh", -- [3]
-							"196563", -- [4]
-							"Call Reinforcements", -- [5]
-							28, -- [6]
-							236422, -- [7]
-						},
 						["153067"] = {
 							1688, -- [1]
 							1168, -- [2]
@@ -2499,6 +2490,15 @@ RADataBase = {
 							"Void Devastation", -- [5]
 							65.7, -- [6]
 							535592, -- [7]
+						},
+						["196563"] = {
+							1810, -- [1]
+							1480, -- [2]
+							"Warlord Parjesh", -- [3]
+							"196563", -- [4]
+							"Call Reinforcements", -- [5]
+							28, -- [6]
+							236422, -- [7]
 						},
 						["320069"] = {
 							2391, -- [1]
@@ -2662,14 +2662,14 @@ RADataBase = {
 							11, -- [6]
 							1117882, -- [7]
 						},
-						["363795"] = {
-							2539, -- [1]
-							2461, -- [2]
-							"Lihuvim, Principal Architect", -- [3]
-							"363795", -- [4]
-							"Bombs (2)", -- [5]
-							43.8, -- [6]
-							4287471, -- [7]
+						["197422"] = {
+							1818, -- [1]
+							1470, -- [2]
+							"Cordana Felsong", -- [3]
+							"197422", -- [4]
+							"<Cast: Creeping Doom>", -- [5]
+							35, -- [6]
+							1022944, -- [7]
 						},
 						["352355"] = {
 							2422, -- [1]
@@ -2689,23 +2689,23 @@ RADataBase = {
 							40, -- [6]
 							517163, -- [7]
 						},
-						["321247"] = {
-							2388, -- [1]
-							2391, -- [2]
-							"Amarth, The Reanimator", -- [3]
-							"321247", -- [4]
-							"Final Harvest", -- [5]
-							47.5, -- [6]
-							2576087, -- [7]
+						["364522"] = {
+							2542, -- [1]
+							2465, -- [2]
+							"Skolex, the Insatiable Ravener", -- [3]
+							"364522", -- [4]
+							"Devouring Blood", -- [5]
+							8, -- [6]
+							576310, -- [7]
 						},
-						["361676"] = {
-							2529, -- [1]
-							2463, -- [2]
-							"Halondrus the Reclaimer", -- [3]
-							"361676", -- [4]
-							"Missiles (3)", -- [5]
-							36.5, -- [6]
-							134293, -- [7]
+						["363795"] = {
+							2539, -- [1]
+							2461, -- [2]
+							"Lihuvim, Principal Architect", -- [3]
+							"363795", -- [4]
+							"Bombs (2)", -- [5]
+							43.8, -- [6]
+							4287471, -- [7]
 						},
 						["153623"] = {
 							1688, -- [1]
@@ -2725,14 +2725,14 @@ RADataBase = {
 							20, -- [6]
 							629077, -- [7]
 						},
-						["360295"] = {
-							2544, -- [1]
-							2460, -- [2]
-							"Prototype Pantheon", -- [3]
-							"360295", -- [4]
-							"Ritual (1)", -- [5]
-							134, -- [6]
-							460696, -- [7]
+						["321247"] = {
+							2388, -- [1]
+							2391, -- [2]
+							"Amarth, The Reanimator", -- [3]
+							"321247", -- [4]
+							"Final Harvest", -- [5]
+							47.5, -- [6]
+							2576087, -- [7]
 						},
 						["365958"] = {
 							2546, -- [1]
@@ -3202,23 +3202,23 @@ RADataBase = {
 							23.5, -- [6]
 							2576096, -- [7]
 						},
-						["364522"] = {
-							2542, -- [1]
-							2465, -- [2]
-							"Skolex, the Insatiable Ravener", -- [3]
-							"364522", -- [4]
-							"Devouring Blood", -- [5]
-							8, -- [6]
-							576310, -- [7]
+						["360295"] = {
+							2544, -- [1]
+							2460, -- [2]
+							"Prototype Pantheon", -- [3]
+							"360295", -- [4]
+							"Ritual (1)", -- [5]
+							134, -- [6]
+							460696, -- [7]
 						},
-						["197422"] = {
-							1818, -- [1]
-							1470, -- [2]
-							"Cordana Felsong", -- [3]
-							"197422", -- [4]
-							"<Cast: Creeping Doom>", -- [5]
-							35, -- [6]
-							1022944, -- [7]
+						["361676"] = {
+							2529, -- [1]
+							2463, -- [2]
+							"Halondrus the Reclaimer", -- [3]
+							"361676", -- [4]
+							"Missiles (3)", -- [5]
+							36.5, -- [6]
+							134293, -- [7]
 						},
 						["348508"] = {
 							2430, -- [1]
@@ -3274,15 +3274,6 @@ RADataBase = {
 							20, -- [6]
 							135830, -- [7]
 						},
-						["337255"] = {
-							2393, -- [1]
-							2405, -- [2]
-							"Tred'ova", -- [3]
-							"337255", -- [4]
-							"Parasite", -- [5]
-							22, -- [6]
-							656595, -- [7]
-						},
 						["154442"] = {
 							1682, -- [1]
 							1160, -- [2]
@@ -3291,6 +3282,15 @@ RADataBase = {
 							"Malevolence", -- [5]
 							9, -- [6]
 							237557, -- [7]
+						},
+						["337255"] = {
+							2393, -- [1]
+							2405, -- [2]
+							"Tred'ova", -- [3]
+							"337255", -- [4]
+							"Parasite", -- [5]
+							22, -- [6]
+							656595, -- [7]
 						},
 						["365297"] = {
 							2529, -- [1]
@@ -3965,22 +3965,11 @@ RADataBase = {
 						},
 					},
 					["tracking_spells_cache"] = {
-						[47788] = true,
-						[1022] = true,
-						[265202] = true,
-						[6940] = true,
-						[64843] = true,
-						[64901] = true,
-						[51052] = true,
 					},
 					["cooldowns_panels"] = {
 					},
 					["only_in_group"] = true,
 					["units_in_the_group"] = {
-						["Corpselus"] = true,
-						["Lumidelle-Illidan"] = true,
-						["Tháel-Ragnaros"] = true,
-						["Tavegrid-Gallywix"] = true,
 					},
 					["panel_background_color"] = {
 						["a"] = 0.1,
@@ -4051,110 +4040,14 @@ RADataBase = {
 						{
 						}, -- [1]
 						{
-							["Tháel-Ragnaros"] = {
-								["connected"] = true,
-								["alive"] = true,
-								["name"] = "Tháel-Ragnaros",
-								["spells"] = {
-									[6940] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 6940,
-										["type"] = 3,
-									},
-									[1022] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 1022,
-										["type"] = 3,
-									},
-								},
-								["class"] = "PALADIN",
-								["raidgroup"] = 1,
-								["spec"] = 66,
-							},
 						}, -- [2]
 						{
 						}, -- [3]
 						{
 						}, -- [4]
 						{
-							["Lumidelle-Illidan"] = {
-								["connected"] = true,
-								["alive"] = true,
-								["name"] = "Lumidelle-Illidan",
-								["spells"] = {
-									[64901] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 64901,
-										["type"] = 4,
-									},
-									[265202] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 265202,
-										["type"] = 4,
-									},
-									[47788] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 47788,
-										["type"] = 3,
-									},
-									[64843] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 64843,
-										["type"] = 4,
-									},
-								},
-								["class"] = "PRIEST",
-								["raidgroup"] = 1,
-								["spec"] = 257,
-							},
 						}, -- [5]
 						{
-							["Corpselus"] = {
-								["connected"] = true,
-								["alive"] = true,
-								["name"] = "Corpselus",
-								["spells"] = {
-									[51052] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 51052,
-										["type"] = 4,
-									},
-								},
-								["class"] = "DEATHKNIGHT",
-								["raidgroup"] = 1,
-								["spec"] = 251,
-							},
-							["Tavegrid-Gallywix"] = {
-								["connected"] = true,
-								["alive"] = true,
-								["name"] = "Tavegrid-Gallywix",
-								["spells"] = {
-									[51052] = {
-										["charges_next"] = 0,
-										["charges_max"] = 1,
-										["charges_amt"] = 1,
-										["spellid"] = 51052,
-										["type"] = 4,
-									},
-								},
-								["class"] = "DEATHKNIGHT",
-								["raidgroup"] = 1,
-								["spec"] = 252,
-							},
 						}, -- [6]
 						{
 						}, -- [7]
@@ -4231,9 +4124,9 @@ RADataBase = {
 						},
 					},
 					["menu_priority"] = 90,
-					["auto_accept_invites"] = false,
 					["invite_msg_repeats"] = true,
 					["auto_accept_invites_limited"] = true,
+					["auto_accept_invites"] = false,
 					["auto_invite_limited"] = true,
 					["invite_interval"] = 60,
 					["auto_invite"] = true,

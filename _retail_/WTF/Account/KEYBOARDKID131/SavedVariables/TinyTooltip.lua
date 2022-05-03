@@ -45,20 +45,20 @@ BigTipDB = {
 		},
 		["statusbarPosition"] = "bottom",
 		["statusbarOffsetX"] = 0,
-		["statusbarHeight"] = 4,
-		["bodyFontSize"] = "default",
-		["alwaysShowIdInfo"] = true,
-		["statusbarFontFlag"] = "THINOUTLINE",
-		["statusbarOffsetY"] = 0,
-		["statusbarColor"] = "auto",
-		["borderCorner"] = "default",
-		["statusbarText"] = false,
 		["skinMoreFrames"] = true,
-		["headerFontFlag"] = "default",
-		["headerFontSize"] = "default",
-		["statusbarTexture"] = "Interface\\AddOns\\TinyTooltip\\texture\\StatusBar",
-		["bodyFont"] = "default",
+		["bodyFontSize"] = "default",
 		["bodyFontFlag"] = "default",
+		["bodyFont"] = "default",
+		["statusbarOffsetY"] = 0,
+		["statusbarTexture"] = "Interface\\AddOns\\TinyTooltip\\texture\\StatusBar",
+		["headerFontSize"] = "default",
+		["statusbarText"] = false,
+		["statusbarHeight"] = 4,
+		["headerFontFlag"] = "default",
+		["borderCorner"] = "default",
+		["statusbarColor"] = "auto",
+		["statusbarFontFlag"] = "THINOUTLINE",
+		["alwaysShowIdInfo"] = true,
 	},
 	["version"] = 2.8,
 	["variables"] = {
@@ -208,12 +208,14 @@ BigTipDB = {
 					["wildcard"] = "(%s)",
 					["filter"] = "none",
 				},
-				["factionIcon"] = {
+				["factionBig"] = {
 					["enable"] = true,
 					["filter"] = "none",
 				},
-				["friendIcon"] = {
+				["guildName"] = {
 					["enable"] = true,
+					["color"] = "ff00ff",
+					["wildcard"] = "<%s>",
 					["filter"] = "none",
 				},
 				["name"] = {
@@ -234,13 +236,11 @@ BigTipDB = {
 					["wildcard"] = "%s",
 					["filter"] = "none",
 				},
-				["guildName"] = {
+				["friendIcon"] = {
 					["enable"] = true,
-					["color"] = "ff00ff",
-					["wildcard"] = "<%s>",
 					["filter"] = "none",
 				},
-				["factionBig"] = {
+				["factionIcon"] = {
 					["enable"] = true,
 					["filter"] = "none",
 				},

@@ -68,8 +68,8 @@ Bagnon_Sets = {
 			},
 			["hiddenRules"] = {
 			},
-			["y"] = -124.4447021484375,
-			["x"] = -325.6617431640625,
+			["y"] = -122.8037109375,
+			["x"] = -231.302490234375,
 			["borderColor"] = {
 			},
 			["brokerObject"] = "BagnonLauncher",
