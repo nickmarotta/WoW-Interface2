@@ -57,3 +57,4 @@ LittleWigs_Classic: enabled
 RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_F: disabled
 RaiderIO_DB_EU_F: disabled
+GladiatorlosSA2: disabled

@@ -13,6 +13,7 @@ LFGMuteDB = {
 		["Naraka - Thrall"] = "Naraka - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
+		["Songfire - Thrall"] = "Songfire - Thrall",
 		["Tyuty - Thrall"] = "Tyuty - Thrall",
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",

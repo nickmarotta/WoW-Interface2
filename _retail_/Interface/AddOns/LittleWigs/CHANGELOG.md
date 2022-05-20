@@ -1,11 +1,11 @@
 # LittleWigs
 
-## [v9.2.2](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.2) (2022-04-25)
-[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.1...v9.2.2) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
+## [v9.2.7](https://github.com/BigWigsMods/LittleWigs/tree/v9.2.7) (2022-05-18)
+[Full Changelog](https://github.com/BigWigsMods/LittleWigs/compare/v9.2.6...v9.2.7) [Previous Releases](https://github.com/BigWigsMods/LittleWigs/releases)
 
-- Shadowlands/TazaveshTheVeiledMarket: Tweaks  
-- Shadowlands/TazaveshTheVeiledMarket: Add more spells (#634)  
-- Shadowlands/TheNecroticWake: Necropolis gauntlet abilities (#632)  
-- Update zhTW (#631)  
-- Update zhTW (#630)  
-- Shadowlands/Tazavesh: Localize trash mob names  
+- Shadowlands/Plaguefall/Trash: Scope dispels, remove broken Withering Filth target detection (#650)  
+- Shadowlands/Plaguefall/DominaVenomblade: Scope Cytotoxic Slash (#649)  
+- Shadowlands/TazaveshTheVeiledMarket/Trash: prevent out of combat alerts (#647)  
+- Shadowlands/TheaterOfPain/Trash: don't alert for MC'd casts (#648)  
+- Update deDE (#646)  
+- Update zhCN (#645)  

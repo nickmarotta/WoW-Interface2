@@ -93,8 +93,8 @@ HealBot_Config_Spells = {
 		["Ctrl-ShiftLeft"] = "C:D",
 		["Ctrl-ShiftRight2"] = "C:E",
 		["Ctrl-ShiftLeft4"] = "C:D",
-		["Ctrl-ShiftLeft3"] = "C:D",
 		["Ctrl-ShiftRight1"] = "C:E",
+		["Ctrl-ShiftLeft3"] = "C:D",
 		["Alt-ShiftLeft1"] = "C:A",
 		["Alt-ShiftRight"] = "C:B",
 		["Alt-ShiftRight3"] = "C:B",
@@ -120,8 +120,8 @@ HealBot_Config_Spells = {
 		["Ctrl-ShiftLeft"] = "C:D",
 		["Ctrl-ShiftRight2"] = "C:E",
 		["Ctrl-ShiftLeft4"] = "C:D",
-		["Ctrl-ShiftLeft3"] = "C:D",
 		["Ctrl-ShiftRight1"] = "C:E",
+		["Ctrl-ShiftLeft3"] = "C:D",
 		["Alt-ShiftLeft1"] = "C:A",
 		["Alt-ShiftRight"] = "C:B",
 		["Alt-ShiftRight3"] = "C:B",
@@ -297,10 +297,10 @@ HealBot_Config_Cures = {
 	["SpamFilterSecs"] = 15,
 	["DebuffWatchInCombat"] = true,
 	["HealBot_Custom_Defuffs_All"] = {
-		["Disease"] = false,
-		["Poison"] = false,
-		["Magic"] = false,
 		["Curse"] = false,
+		["Disease"] = false,
+		["Magic"] = false,
+		["Poison"] = false,
 	},
 	["ShowTimeMaxDuration"] = 31,
 	["IgnoreFastDurDebuffsSecs"] = 2,
@@ -331,25 +331,25 @@ HealBot_Config_Cures = {
 	["IgnoreOnCooldownDebuffs"] = false,
 	["IgnoreFriendDebuffs"] = true,
 	["CDCBarColour"] = {
+		["Curse"] = {
+			["R"] = 0.83,
+			["G"] = 0.43,
+			["B"] = 0.09,
+		},
 		["Disease"] = {
 			["R"] = 0.55,
 			["G"] = 0.19,
 			["B"] = 0.7,
-		},
-		["Poison"] = {
-			["R"] = 0.12,
-			["G"] = 0.46,
-			["B"] = 0.24,
 		},
 		["Magic"] = {
 			["R"] = 0.26,
 			["G"] = 0.33,
 			["B"] = 0.83,
 		},
-		["Curse"] = {
-			["R"] = 0.83,
-			["G"] = 0.43,
-			["B"] = 0.09,
+		["Poison"] = {
+			["R"] = 0.12,
+			["G"] = 0.46,
+			["B"] = 0.24,
 		},
 	},
 	["HealBotDebuffPriority"] = {

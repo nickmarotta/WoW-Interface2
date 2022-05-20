@@ -2,8 +2,6 @@
 ACP_Data = {
 	["sorter"] = "Group By Name",
 	["NoRecurse"] = false,
-	["NoChildren"] = true,
-	["scale"] = 0.851884126663208,
 	["AddonSet"] = {
 		{
 			"AdvancedInterfaceOptions", -- [1]
@@ -83,9 +81,10 @@ ACP_Data = {
 			["name"] = "Corpslus",
 		}, -- [1]
 	},
+	["scale"] = 0.851884126663208,
+	["NoChildren"] = true,
 	["collapsed"] = {
 		["SimpleILevel"] = true,
-		["Libraries"] = true,
 		["BigWigs"] = true,
 		["Details"] = true,
 		["BtWQuests"] = true,

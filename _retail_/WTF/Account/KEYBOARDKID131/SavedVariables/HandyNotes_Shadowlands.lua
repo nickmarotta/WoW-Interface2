@@ -1,13 +1,14 @@
 
 HandyNotes_ShadowlandsDB = {
 	["profileKeys"] = {
-		["Corpselus - Thrall"] = "Default",
-		["Attorum - Thrall"] = "Default",
-		["Mafiki - Thrall"] = "Default",
-		["Salocinn - Thrall"] = "Default",
 		["Melleressra - Thrall"] = "Default",
 		["Falaria - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
+		["Corpselus - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
+		["Songfire - Thrall"] = "Default",
+		["Attorum - Thrall"] = "Default",
+		["Salocinn - Thrall"] = "Default",
 		["Zynzo - Thrall"] = "Default",
 	},
 	["profiles"] = {
@@ -18,8 +19,8 @@ HandyNotes_ShadowlandsDB = {
 			["icon_display_exile_tales"] = true,
 			["icon_display_rares"] = true,
 			["icon_display_treasures"] = false,
-			["icon_scale_treasures"] = 1,
 			["icon_display_anima_shard"] = true,
+			["icon_scale_treasures"] = 1,
 		},
 	},
 }

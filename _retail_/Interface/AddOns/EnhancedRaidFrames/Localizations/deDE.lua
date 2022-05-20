@@ -1,4 +1,4 @@
--- Enhanced Raid Frames is a World of Warcraft® user interface addon.
+﻿-- Enhanced Raid Frames is a World of Warcraft® user interface addon.
 -- Copyright (c) 2017-2021 Britt W. Yazel
 -- This code is licensed under the MIT license (see LICENSE for details)
 
@@ -7,7 +7,7 @@ local L = LibStub("AceLocale-3.0"):NewLocale("EnhancedRaidFrames", "deDE", false
 if not L then return end
 
 --[[Translation missing --]]
---[[ L["Aborting."] = ""--]] 
+L["Aborting."] = "Aborting."
 L["Animations"] = "Animationen"
 L["Attached to Cursor"] = "Befestigt am Zeiger"
 L["Aura Watch List"] = "Aura Überwachungsliste"
@@ -29,30 +29,38 @@ L["colorByTime_high_desc"] = "Die Zeit (in Sekunden) für die obere Grenze"
 L["colorByTime_low_desc"] = "Die Zeit (in Sekunden) für die untere Grenze"
 L["colorOverride_desc"] = "Dies überschreibt die normale Färbung"
 --[[Translation missing --]]
---[[ L["combatWildcard_desc"] = ""--]] 
+L["combatWildcard_desc"] = "if the unit is combat flagged"
 L["Countdown"] = "Countdown"
 L["Curse"] = "Fluch"
 L["curseWildcard_desc"] = "Irgendein Fluch Debuff"
 L["customRange_desc"] = "Überschreibt die normale außer Reichweite Indikator Distanz (Standard 40yards)"
 L["customRangeCheck_desc"] = "Ändert die Standard 40 yards außerhalb der Reichweite Distanz zu einer spezifizierten Distanz"
 --[[Translation missing --]]
---[[ L["Data import Failed."] = ""--]] 
+L["Data import Failed."] = "Data import Failed."
 --[[Translation missing --]]
---[[ L["Decoding failed."] = ""--]] 
+L["Decoding failed."] = "Decoding failed."
 --[[Translation missing --]]
---[[ L["Decompression failed."] = ""--]] 
+L["Decompression failed."] = "Decompression failed."
 L["Default Icon Visibility"] = "Standard Icon Sichtbarkeit"
 L["Disease"] = "Krankheit"
 L["diseaseWildcard_desc"] = "Irgendein Krankheits Debuff"
 L["Example"] = "Beispiel"
 --[[Translation missing --]]
---[[ L["Experimental"] = ""--]] 
+L["Experimental"] = "Experimental"
 --[[Translation missing --]]
---[[ L["Experimental Options"] = ""--]] 
+L["Experimental Options"] = "Experimental Options"
 --[[Translation missing --]]
---[[ L["Experimental_Options_Warning"] = ""--]] 
+L["Experimental_Options_Warning"] = [=[
+
+Warning:
+
+Here you will fill find experimental and potentially dangerous options.
+
+Use at your own risk.
+
+]=]
 --[[Translation missing --]]
---[[ L["Export"] = ""--]] 
+L["Export"] = "Export"
 L["frameScale_desc"] = "Die Skalierung der Raidframes relativ zur normalen Größe"
 L["General"] = "Allgemeines"
 L["General Options"] = "Allgemeine Optionen"
@@ -70,19 +78,32 @@ L["Icon Position"] = "Icon Position"
 L["Icon Size"] = "Icon Größe"
 L["iconAlpha_desc"] = "Die Opazität in Prozent des Raid Icons"
 --[[Translation missing --]]
---[[ L["iconOptions_desc"] = ""--]] 
+L["iconOptions_desc"] = "Configure how the raid marker icon should appear on the raid frames"
 L["iconPosition_desc"] = "Position des Raid Icons relativ zu dem frame"
 L["iconSize_desc"] = "Die Größe des Raid Icons (in Pixeln)"
 --[[Translation missing --]]
---[[ L["Import"] = ""--]] 
+L["Import"] = "Import"
 --[[Translation missing --]]
---[[ L["Import or Export the current profile:"] = ""--]] 
+L["Import or Export the current profile:"] = "Import or Export the current profile:"
 --[[Translation missing --]]
---[[ L["ImportExport_Desc"] = ""--]] 
+L["ImportExport_Desc"] = [=[
+
+Below you will find a text representation of your Enhanced Raid Frame profile.
+
+To export this profile, select and copy all of the text below and paste it somewhere safe.
+
+To import a profile, replace all of the text below and press accept.
+
+]=]
 --[[Translation missing --]]
---[[ L["ImportExport_WarningDesc"] = ""--]] 
+L["ImportExport_WarningDesc"] = [=[
+
+Copying and pasting profile data can be a time consuming experience. It may stall your game for multiple seconds.
+
+WARNING: This will overwrite the current profile, and any changes you have made will be lost.
+]=]
 --[[Translation missing --]]
---[[ L["ImportWarning"] = ""--]] 
+L["ImportWarning"] = "Are you absolutely certain you wish to import this profile? The current profile will be overwritten."
 L["Indicator Color"] = "Indikator Farbe"
 L["Indicator Font"] = "Indikator Schriftart"
 L["Indicator Glow Effect"] = "Indikator Leuchteffekt"
@@ -107,7 +128,7 @@ L["Mine Only"] = "Nur Meine"
 L["mineOnly_desc"] = "Zeige nur Buffs und Debuffs die von mir gewirkt wurden"
 L["missingOnly_desc"] = "Zeige nur wenn der Buff oder Debuff fehlt"
 --[[Translation missing --]]
---[[ L["No data to import."] = ""--]] 
+L["No data to import."] = "No data to import."
 L["None"] = "Kein Text"
 L["Open the Blizzard Raid Profiles Menu"] = "Öffne das Blizzard Raid Profil Menü"
 L["Out-of-Range"] = "Außer Reichweite"
@@ -117,11 +138,11 @@ L["Poison"] = "Gift"
 L["poisonWildcard_desc"] = "Irgendein Gift Debuff"
 L["Position"] = "Position"
 --[[Translation missing --]]
---[[ L["Power Bar Vertical Offset"] = ""--]] 
+L["Power Bar Vertical Offset"] = "Power Bar Vertical Offset"
 --[[Translation missing --]]
---[[ L["powerBarOffset_desc"] = ""--]] 
+L["powerBarOffset_desc"] = "Apply a vertical offset to icons and indicators to keep them from overlapping the power bar (mana/rage/energy)"
 --[[Translation missing --]]
---[[ L["Profile"] = ""--]] 
+L["Profile"] = "Profile"
 L["Profiles"] = "Profile"
 L["pvpWildcard_desc"] = "Ob die Einheit für pvp markiert ist"
 L["Raidframe Scale"] = "Raidframe Skala"

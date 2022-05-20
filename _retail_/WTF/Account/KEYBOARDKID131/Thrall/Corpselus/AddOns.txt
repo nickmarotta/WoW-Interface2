@@ -20,10 +20,10 @@ Ace3: enabled
 LibCamera: enabled
 LibEasing: enabled
 LibCompress: enabled
-Kui_Media: enabled
-Kui_Nameplates_Core: enabled
+Kui_Media: disabled
+Kui_Nameplates_Core: disabled
 Kui_Nameplates: enabled
-Kui_Nameplates_Core_Config: enabled
+Kui_Nameplates_Core_Config: disabled
 WorldQuestGroupFinder: disabled
 ConsolePortUI: disabled
 ConsolePortUI_NPC: disabled
@@ -84,7 +84,7 @@ ElvUI_OptionsUI: enabled
 BigWigs_Voice: enabled
 RaidFrameIndicators: disabled
 HandyNotes_VisionsOfNZoth: enabled
-GladiatorlosSA2: enabled
+GladiatorlosSA2: disabled
 BigWigs_BattleOfDazaralor: enabled
 Quartz: enabled
 HealBot: disabled
@@ -115,7 +115,7 @@ BigDebuffs: disabled
 LittleWigs_Cataclysm: enabled
 TipTac: enabled
 TipTacItemRef: disabled
-TipTacOptions: disabled
+TipTacOptions: enabled
 TipTacTalents: disabled
 RaiderIO_DB_TW_F: disabled
 RaiderIO_DB_KR_F: disabled
@@ -123,3 +123,6 @@ RaiderIO_DB_EU_F: disabled
 BigWigs_SepulcherOfTheFirstOnes: enabled
 TinyTooltip: disabled
 LittleWigs_Legion: enabled
+Gladius: disabled
+Tukui_NamePlateFeatures: disabled
+Tukui: enabled

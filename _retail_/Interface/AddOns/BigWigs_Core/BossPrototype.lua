@@ -1321,20 +1321,15 @@ do
 	local GetOptions = C_GossipInfo.GetOptions
 	local SelectOption = C_GossipInfo.SelectOption
 	--- Request the gossip options of the selected NPC
-	-- @return a separate string for every selectable text option
+	-- @return table A table result of all text strings in the form of { result1, result2, result3 }
 	function boss:GetGossipOptions()
-		local gossipTbl = GetOptions()
-		if gossipTbl[2] then
-			local tbl = {}
-			for i = 1, #gossipTbl do
-				local text = gossipTbl[i].name
-				if text then
-					tbl[#tbl+1] = text
-				end
+		local gossipOptions = GetOptions()
+		if gossipOptions[1] then
+			local gossipTbl = {}
+			for i = 1, #gossipOptions do
+				gossipTbl[#gossipTbl+1] = gossipOptions[i].name or ""
 			end
-			return tbl[1], tbl[2], tbl[3], tbl[4], tbl[5] -- This is fine
-		elseif gossipTbl[1] then
-			return gossipTbl[1].name
+			return gossipTbl
 		end
 	end
 
@@ -1512,9 +1507,13 @@ do
 			-- Nature's Cure (Heal Druid), Remove Corruption (DPS Druid), Purify Spirit (Heal Shaman), Cleanse Spirit (DPS Shaman), Remove Curse (Mage)
 			defDispel.curse = true
 		end
+		if IsSpellKnown(1044) or IsSpellKnown(116841) then
+			-- Blessing of Freedom (Paladin), Tiger's Lust (Monk)
+			defDispel.movement = true
+		end
 	end
 	--- Check if you can dispel.
-	-- @string dispelType dispel type (magic, disease, poison, curse)
+	-- @string dispelType dispel type (magic, disease, poison, curse, movement)
 	-- @bool[opt] isOffensive true if dispelling a buff from an enemy (magic), nil if dispelling a friendly
 	-- @param[opt] key module option key to check
 	-- @return boolean

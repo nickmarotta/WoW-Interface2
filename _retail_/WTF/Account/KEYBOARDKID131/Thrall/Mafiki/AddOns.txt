@@ -139,3 +139,5 @@ BigDebuffs: disabled
 OmniBar: disabled
 CallbackHandler-1.0: enabled
 OmniCD: disabled
+Gladius: disabled
+GladiatorlosSA2: disabled

@@ -20,6 +20,8 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
+		["EnemyCasts"] = {
+		},
 		["Player"] = {
 			["profiles"] = {
 				["Default"] = {
@@ -28,8 +30,6 @@ Quartz3DB = {
 					["x"] = -5.666259765625,
 				},
 			},
-		},
-		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -86,6 +86,7 @@ Quartz3DB = {
 		["Naraka - Thrall"] = "Default",
 		["Zynzo - Thrall"] = "Default",
 		["Zarafina - Thrall"] = "Default",
+		["Songfire - Thrall"] = "Default",
 		["Tyuty - Thrall"] = "Default",
 		["Chonkcity - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",

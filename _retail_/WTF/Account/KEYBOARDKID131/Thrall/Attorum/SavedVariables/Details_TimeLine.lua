@@ -958,36 +958,6 @@ DetailsTimeLineDB = {
 			},
 		}, -- [6]
 		{
-			[267027] = {
-				{
-					16.55000000004657, -- [1]
-					"Venomous Ophidian", -- [2]
-					267027, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Warmdoorknob-Turalyon", -- [5]
-				}, -- [1]
-				{
-					16.63300000014715, -- [1]
-					"Venomous Ophidian", -- [2]
-					267027, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Warmdoorknob-Turalyon", -- [5]
-				}, -- [2]
-				{
-					17.1500000001397, -- [1]
-					"Venomous Ophidian", -- [2]
-					267027, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Attorum", -- [5]
-				}, -- [3]
-				{
-					18.66700000013225, -- [1]
-					"Venomous Ophidian", -- [2]
-					267027, -- [3]
-					"SPELL_CAST_SUCCESS", -- [4]
-					"Warmdoorknob-Turalyon", -- [5]
-				}, -- [4]
-			},
 			[264234] = {
 				{
 					12.81700000003912, -- [1]
@@ -1013,6 +983,14 @@ DetailsTimeLineDB = {
 					264234, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
+			},
+			[263912] = {
+				{
+					8.067000000039116, -- [1]
+					"Merektha", -- [2]
+					263912, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+				}, -- [1]
 			},
 			[263914] = {
 				{
@@ -1174,13 +1152,35 @@ DetailsTimeLineDB = {
 					"SPELL_CAST_SUCCESS", -- [4]
 				}, -- [4]
 			},
-			[263912] = {
+			[267027] = {
 				{
-					8.067000000039116, -- [1]
-					"Merektha", -- [2]
-					263912, -- [3]
+					16.55000000004657, -- [1]
+					"Venomous Ophidian", -- [2]
+					267027, -- [3]
 					"SPELL_CAST_SUCCESS", -- [4]
+					"Warmdoorknob-Turalyon", -- [5]
 				}, -- [1]
+				{
+					16.63300000014715, -- [1]
+					"Venomous Ophidian", -- [2]
+					267027, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Warmdoorknob-Turalyon", -- [5]
+				}, -- [2]
+				{
+					17.1500000001397, -- [1]
+					"Venomous Ophidian", -- [2]
+					267027, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Attorum", -- [5]
+				}, -- [3]
+				{
+					18.66700000013225, -- [1]
+					"Venomous Ophidian", -- [2]
+					267027, -- [3]
+					"SPELL_CAST_SUCCESS", -- [4]
+					"Warmdoorknob-Turalyon", -- [5]
+				}, -- [4]
 			},
 		}, -- [7]
 		{
@@ -2392,12 +2392,7 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["backdrop_color"] = {
-		0, -- [1]
-		0, -- [2]
-		0, -- [3]
-		0.4, -- [4]
-	},
+	["window_scale"] = 1,
 	["deaths_data"] = {
 		{
 			["Oreganato"] = {
@@ -2720,7 +2715,12 @@ DetailsTimeLineDB = {
 			},
 		}, -- [4]
 	},
-	["window_scale"] = 1,
+	["backdrop_color"] = {
+		0, -- [1]
+		0, -- [2]
+		0, -- [3]
+		0.4, -- [4]
+	},
 	["BossSpellCast"] = {
 		{
 			["Viq'Goth"] = {

@@ -14,3 +14,5 @@ VuhDoOptions: disabled
 VuhDo: disabled
 Quartz: enabled
 AAP-Core: disabled
+Gladius: disabled
+GladiatorlosSA2: disabled

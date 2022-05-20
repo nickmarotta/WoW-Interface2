@@ -31,9 +31,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame5"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -44,8 +45,8 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
@@ -53,9 +54,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame10"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -66,18 +68,19 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 		["ChatFrame3"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 4,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -86,10 +89,41 @@ Prat3HighCPUPerCharDB = {
 			["IsEmpty"] = nil --[[ skipped inline function ]],
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["serverTime"] = 1651724911,
+					["r"] = 1,
+					["b"] = 0,
+					["timestamp"] = 1747520.626,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["g"] = 1,
+				}, -- [1]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
+					["timestamp"] = 1747520.626,
+				}, -- [2]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1747520.626,
+				}, -- [3]
+				{
+					["message"] = "Speech to text allows you to add closed captioning in a voice channel.",
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1747520.626,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [4]
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
@@ -97,9 +131,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame7"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -110,8 +145,8 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
@@ -119,9 +154,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame6"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -132,8 +168,8 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
@@ -143,6 +179,8 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 				{
 					["message"] = "|cff979797|Hpratcopy|h[19:28:48]|h|r [W To] |cffd8d8d8[|r|HBNplayer:|Kq49|k:30:88:BN_WHISPER:|Kq49|k:Pikon#11571|h|TInterface\\FriendsFrame\\Battlenet-WoWicon:14:0:0:0|t|cff006fdc|Kq49|k|r|h|cffd8d8d8]|r: Did you get it",
+					["serverTime"] = 1611102526,
+					["r"] = 0,
 					["extraData"] = {
 						53, -- [1]
 						false, -- [2]
@@ -150,11 +188,9 @@ Prat3HighCPUPerCharDB = {
 						27, -- [4]
 						["n"] = 4,
 					},
-					["b"] = 0.9647059440612793,
-					["serverTime"] = 1611102526,
 					["timestamp"] = 568884.954,
 					["g"] = 1,
-					["r"] = 0,
+					["b"] = 0.9647059440612793,
 				}, -- [1]
 			},
 			["headIndex"] = 1,
@@ -162,9 +198,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame8"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -175,8 +212,8 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
@@ -184,9 +221,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame4"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -197,8 +235,8 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
@@ -206,9 +244,10 @@ Prat3HighCPUPerCharDB = {
 		["ChatFrame9"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["headIndex"] = 0,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -219,18 +258,19 @@ Prat3HighCPUPerCharDB = {
 			["elements"] = {
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],
 		},
 		["ChatFrame1"] = {
 			["EnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
-			["headIndex"] = 39,
-			["ReplaceElements"] = nil --[[ skipped inline function ]],
+			["headIndex"] = 84,
+			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndex"] = nil --[[ skipped inline function ]],
 			["CalculateElementIndexFromGlobalIndex"] = nil --[[ skipped inline function ]],
+			["ReverseEnumerateIndexedEntries"] = nil --[[ skipped inline function ]],
 			["PushBack"] = nil --[[ skipped inline function ]],
 			["RemoveIf"] = nil --[[ skipped inline function ]],
 			["Clear"] = nil --[[ skipped inline function ]],
@@ -240,499 +280,1186 @@ Prat3HighCPUPerCharDB = {
 			["IsFull"] = nil --[[ skipped inline function ]],
 			["elements"] = {
 				{
-					["message"] = "Guild Message of the Day: \"Please respond to calendar invite for guild achievements next weekend. Need 10 people in order to get raid achievements. Also if you want to be a true homie, update any alt guild notes with your main's name so I can make sure they have the correct perms.\"",
-					["serverTime"] = 1613623026,
+					["message"] = "Guild Message of the Day: \"\"Tell Jake to drive me.\" - Snurple, 2020 & 2021\"",
+					["g"] = 1,
 					["r"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-					["timestamp"] = 107591.822,
 					["extraData"] = {
 						5, -- [1]
 						["n"] = 1,
 					},
-					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724387,
+					["b"] = 0.250980406999588,
 				}, -- [1]
 				{
-					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 0 |4second:seconds;",
-					["timestamp"] = 107591.822,
-				}, -- [2]
-				{
-					["message"] = "========== End of Scrollback ==========",
-					["timestamp"] = 107591.822,
-				}, -- [3]
-				{
-					["message"] = "|Hbuggrabber:Attorum:0000014F2B97AB80:|h|cffff0000[Error 0000014F2B97AB80]|r|h |cffffff00captured, click the link for more information.|r",
-					["timestamp"] = 107577.329,
-				}, -- [4]
-				{
-					["message"] = "|cff69CCF0GladiatorlosSA2|r (|cffFFF569/gsa|r)|cffFF7D0A 3.3 |r(|cff9482C99.0.2 Shadowlands|r)  ",
-					["timestamp"] = 107577.329,
-				}, -- [5]
-				{
-					["message"] = "|cff33ff99Simple iLevel|r: Loading v3.4.7",
-					["timestamp"] = 107577.329,
-				}, -- [6]
-				{
-					["message"] = "|cff33ff99Simple iLevel|r: Group Module Loaded 3.4.7",
-					["timestamp"] = 107577.329,
-				}, -- [7]
-				{
-					["message"] = "|cff33ff99Simple iLevel|r: Social Module Loaded 3.4.7",
-					["timestamp"] = 107577.329,
-				}, -- [8]
-				{
-					["message"] = "Guild Message of the Day: \"\"Tell Jake to drive me.\" - Snurple, 2020 & 2021\"",
-					["r"] = 0.250980406999588,
-					["extraData"] = {
-						5, -- [1]
-						["n"] = 1,
-					},
-					["timestamp"] = 107591.786,
-					["g"] = 1,
-					["b"] = 0.250980406999588,
-				}, -- [9]
-				{
-					["message"] = "|cff0cbd0cEasy Frames|cffffffff loaded. Options: |cff0cbd0c/ef",
-					["timestamp"] = 107591.822,
-				}, -- [10]
-				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mevigar-Thrall:1167:CHANNEL:2|h|cffc59a6cMevigar|r|h|cffd8d8d8]|r: wts |cff1eff00|Hbattlepet:3040:1:2:147:11:11:0000000000000000:97091|h[Sharpclaw]|h|r rare ept",
-					["serverTime"] = 1613623029,
+					["message"] = "|Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Legendlady-Thrall:382:CHANNEL:2|h|cfffefefeLegendlady|r|h|cffd8d8d8]|r: Team 3k io  |cffffff00|Hachievement:15506:Player-11-0E27A221:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Hero: Season Three]|h|r ready to go  WTS M+15-20 Keys > Ksm > Specific Keys > Torghast , the best price you can get , just DM me /ONLY GOLD",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724406,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
 						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107595.505,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [11]
+				}, -- [2]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Doorstop-Thrall:1168:CHANNEL:2|h|cfff38bb9Doorstop|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Is Kindred|r|cffffffff>|r 8/10H looking for strong DPS/heals for our push to AOTC. Raid times are Tue/Wed 9-1130 Server. We also push Mythic Keys weekly. We are a community oriented guild that values individuals over what class you play. PST for more info!!",
-					["serverTime"] = 1613623036,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Aliviomage-Thrall:383:CHANNEL:2|h|cff3ec6eaAliviomage|r|h|cffd8d8d8]|r: WTS Mythic+ 15 - 22 TIMED Group 3.500 io ready Cheap price |||| GOLD ONLY",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724438,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
 						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107602.281,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [12]
+				}, -- [3]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mizerie-Thrall:1169:CHANNEL:2|h|cfffefefeMizerie|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Liability|r|cffffffff>|r  10/10H 5/10M LF more to join us for Shadowlands and beyond! Tues/Wed 8-11pm EST. LF serious mythic focused players to join our ranks. All classes/specs considered. Pst for more info or apply @ |cffffffff|Hurl:https://discord.gg/yj7X3F6|h[https://discord.gg/yj7X3F6]|h|r",
-					["serverTime"] = 1613623043,
+					["message"] = "Snurk Bucksquick yells: The zeppelin to Grom'gol has just arrived! All aboard for Stranglethorn!",
+					["b"] = 0.250980406999588,
 					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724467,
 					["extraData"] = {
-						68, -- [1]
+						15, -- [1]
 						false, -- [2]
-						1, -- [3]
-						6, -- [4]
+						6, -- [3]
+						7, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107608.791,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [13]
+				}, -- [4]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mangueras-Thrall:1173:CHANNEL:2|h|cffa9d271Mangueras|r|h|cffd8d8d8]|r: wts |cffa335ee|Hitem:183035::::::::60:254::3:5:7189:6652:7194:1472:6646:1:28:751:::|h[Ardent Sunstar Signet]|h|r 48k",
-					["serverTime"] = 1613623052,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bilbil-Thrall:385:CHANNEL:2|h|cfffefefeBilbil|r|h|cffd8d8d8]|r: Selling M+15    Gold - Group rdy now,   cheaper prices than the others",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724497,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
 						8, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107618.314,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [14]
+				}, -- [5]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Dpsaction-Thrall:1174:CHANNEL:2|h|cffa9d271Dpsaction|r|h|cffd8d8d8]|r: selling |cffa335ee|Hitem:182982::::::::60:254::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Watchful Arbelist's Bracers]|h|r 226 ilvl Cheap PST",
-					["serverTime"] = 1613623052,
+					["message"] = "Highlord Darion Mograine says: Champion! Preparations have been made.",
+					["b"] = 0.6235294342041016,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724627,
 					["extraData"] = {
-						68, -- [1]
+						13, -- [1]
 						false, -- [2]
-						1, -- [3]
-						10, -- [4]
+						10, -- [3]
+						11, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107618.564,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [15]
+				}, -- [6]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Matheiesh-Thrall:1179:CHANNEL:2|h|cffa22fc8Matheiesh|r|h|cffd8d8d8]|r: LFM CN MYTHIC TRASH FARM THRALL ONLY - FAST RESET - NEED ALL 195++",
-					["serverTime"] = 1613623061,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Barreled-Tichondrius:393:YELL|h|cff006fdcBarreled|r-|cff20beccTic|r|h|cffd8d8d8]|r: where",
+					["b"] = 0.250980406999588,
 					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724631,
 					["extraData"] = {
-						68, -- [1]
+						7, -- [1]
 						false, -- [2]
-						1, -- [3]
-						12, -- [4]
+						12, -- [3]
+						13, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107627.328,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [16]
+				}, -- [7]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wingming-Thrall:1182:CHANNEL:2|h|cfffe7b09Wingming|r|h|cffd8d8d8]|r: Wts |cffa335ee|Hitem:183010::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Stud-Scarred Footwear]|h|r|cffa335ee|Hitem:182978::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r Ilvl 226",
-					["serverTime"] = 1613623064,
+					["message"] = "Highlord Darion Mograine says: Nazgrim will tell you of the grim fate that has befallen our allies.",
+					["b"] = 0.6235294342041016,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724631,
 					["extraData"] = {
-						68, -- [1]
+						13, -- [1]
 						false, -- [2]
-						1, -- [3]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [8]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Driftkingg-BleedingHollow:397:YELL|h|cffc31d39Driftkingg|r-|cff3bc9c7Ble|r|h|cffd8d8d8]|r: FROSTED FLAKES",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724635,
+					["extraData"] = {
+						7, -- [1]
+						false, -- [2]
+						12, -- [3]
 						14, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107630.247,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [17]
+				}, -- [9]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Nicegui-Thrall:1185:CHANNEL:2|h|cff00fe97Nicegui|r|h|cffd8d8d8]|r: WTS CHEAPER THAN THE OTHER GUY ||keystone Master|| keys +5 - +19 || Loot funnel options || WTS CN Heroic & Mythic || Torghast layer 6,7,8 || RBGS || GOLD ONLY ||",
-					["serverTime"] = 1613623068,
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ladaai-Thrall:400:YELL|h|cff006fdcLadaai|r|h|cffd8d8d8]|r: by ah",
+					["b"] = 0.250980406999588,
 					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724639,
 					["extraData"] = {
-						68, -- [1]
+						7, -- [1]
+						false, -- [2]
+						12, -- [3]
+						15, -- [4]
+						["n"] = 4,
+					},
+				}, -- [10]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Zeraiko-Thrall:406:CHANNEL:2|h|cff006fdcZeraiko|r|h|cffd8d8d8]|r: any Auctioneer mount up in Orb ?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724650,
+					["extraData"] = {
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
 						16, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107633.921,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [18]
+				}, -- [11]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Omgmyparse-Thrall:1198:CHANNEL:2|h|cfffe7b09Omgmyparse|r|h|cffd8d8d8]|r: wtb |cffa335ee|Hitem:182978::::::::60:102::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r",
-					["serverTime"] = 1613623095,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Revivalgobrr-Thrall:410:CHANNEL:2|h|cff00fe97Revivalgobrr|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Friendly Banter|r|cffffffff>|r US 14th, 11/11 M selling: M +15s, Heroic Jailer AOTC, Full clear H SoFo, M Sofo, M Sylvanas mount, PST! GOLD ONLY. GUILD RAN AND ORGANIZED",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724656,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
 						18, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107661.002,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [19]
+				}, -- [12]
 				{
-					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Matheiesh-Thrall:1200:YELL|h|cffa22fc8Matheiesh|r|h|cffd8d8d8]|r: LFM CN MYTHIC TRASH FARM THRALL ONLY - FAST RESET - NEED ALL 195++",
-					["serverTime"] = 1613623097,
+					["message"] = "|Hchannel:channel:2|h[2] |h<Away>|cffd8d8d8[|r|Hplayer:Legendlady-Thrall:412:CHANNEL:2|h|cfffefefeLegendlady|r|h|cffd8d8d8]|r: Team 3k io  |cffffff00|Hachievement:15506:Player-11-0E27A221:1:4:13:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Hero: Season Three]|h|r ready to go  WTS M+15-20 Keys > Ksm > Specific Keys > Torghast , the best price you can get , just DM me /ONLY GOLD",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724659,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+				}, -- [13]
+				{
+					["message"] = "[Y] |cffd8d8d8[|r|Hplayer:Ladaai-Thrall:415:YELL|h|cff006fdcLadaai|r|h|cffd8d8d8]|r: out of 10, 1 being bad, 10 being perfect",
+					["b"] = 0.250980406999588,
+					["r"] = 1,
+					["g"] = 0.250980406999588,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724664,
 					["extraData"] = {
 						7, -- [1]
 						false, -- [2]
-						20, -- [3]
-						21, -- [4]
+						12, -- [3]
+						15, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107663.71,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [20]
+				}, -- [14]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Snufinee-Thrall:1211:CHANNEL:2|h|cfffe7b09Snufinee|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Avalanche|r|cffffffff>|r CN AOTC guild 4/10M is recruiting a boomie, spriest and a healer for our core raid team. Wed/Thurs 9-12 EST |cffffd100|HclubFinder:ClubFinder-1-235609-3678-98905874|h[Guild: AvaIanche]|h|r msg for more info",
-					["serverTime"] = 1613623119,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Duknark-Thrall:423:CHANNEL:2|h|cff006fdcDuknark|r|h|cffd8d8d8]|r: is |cffffffff|Hitem:190378::::::::60:263:::::::::|h[Glyph of the Spectral Lupine]|h|r the new wolf model from ZM?",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724679,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						20, -- [4]
+						["n"] = 4,
+					},
+				}, -- [15]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Lahryssa-Thrall:427:CHANNEL:2|h|cffc31d39Lahryssa|r|h|cffd8d8d8]|r: yep",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724686,
+					["extraData"] = {
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
 						22, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107685.724,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [21]
+				}, -- [16]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shayydez-Thrall:1215:CHANNEL:2|h|cfffefefeShayydez|r|h|cffd8d8d8]|r: Priest and Mage LF tuesday/thursday raiding guild!",
-					["serverTime"] = 1613623125,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Brownmist-Thrall:432:SAY|h|cff00fe97Brownmist|r|h|cffd8d8d8]|r: 8.5",
+					["b"] = 1,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724693,
 					["extraData"] = {
-						68, -- [1]
+						2, -- [1]
 						false, -- [2]
-						1, -- [3]
-						24, -- [4]
+						24, -- [3]
+						25, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107691.575,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [22]
+				}, -- [17]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Epaldotgg-Thrall:1217:CHANNEL:2|h|cfff38bb9Epaldotgg|r|h|cffd8d8d8]|r: WTB |cffa335ee|Hitem:184778::::::::60:65::6:4:7187:6652:1498:6646:1:28:753:::|h[Decadent Nathrian Shawl]|h|r pst",
-					["serverTime"] = 1613623127,
+					["message"] = "|Hplayer:Brownmist:434:TEXT_EMOTE:|h|cff00fe97Brownmist|r|h bows before Ladaai.",
+					["b"] = 0.250980406999588,
 					["r"] = 1,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724695,
 					["extraData"] = {
-						68, -- [1]
+						12, -- [1]
 						false, -- [2]
-						1, -- [3]
-						26, -- [4]
+						26, -- [3]
+						27, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107693.729,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [23]
+				}, -- [18]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Danystormbrn-Thrall:1223:CHANNEL:2|h|cfff38bb9Danystormbrn|r|h|cffd8d8d8]|r: WTB |cffffffff|Hitem:49916::::::::60:70:::::::|h[Lovely Charm Bracelet]|h|r",
-					["serverTime"] = 1613623144,
+					["message"] = "[S] |cffd8d8d8[|r|Hplayer:Ladaai-Thrall:437:SAY|h|cff006fdcLadaai|r|h|cffd8d8d8]|r: thank you kind sir",
+					["b"] = 1,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724701,
 					["extraData"] = {
-						68, -- [1]
+						2, -- [1]
 						false, -- [2]
-						1, -- [3]
+						24, -- [3]
 						28, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107709.929,
-					["g"] = 0.7529412508010864,
+				}, -- [19]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tekayuka-Thrall:443:CHANNEL:2|h|cffc59a6cTekayuka|r|h|cffd8d8d8]|r: Hey, Sharpie",
 					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724712,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+				}, -- [20]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tekayuka-Thrall:445:CHANNEL:2|h|cffc59a6cTekayuka|r|h|cffd8d8d8]|r: fuck you",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724715,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+				}, -- [21]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Longashlong-Thrall:449:CHANNEL:2|h|cffc31d39Longashlong|r|h|cffd8d8d8]|r: hEY TEK",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724722,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
+				}, -- [22]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tiercloak-Thrall:451:CHANNEL:2|h|cfff38bb9Tiercloak|r|h|cffd8d8d8]|r: YEA sharpie",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						33, -- [4]
+						["n"] = 4,
+					},
+				}, -- [23]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Longashlong-Thrall:453:CHANNEL:2|h|cffc31d39Longashlong|r|h|cffd8d8d8]|r: Fuck you",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						31, -- [4]
+						["n"] = 4,
+					},
 				}, -- [24]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fruitguy-Thrall:1224:CHANNEL:2|h|cfffef367Fruitguy|r|h|cffd8d8d8]|r: wtb cool rock",
-					["serverTime"] = 1613623164,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						30, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 107730.626,
-					["g"] = 0.7529412508010864,
+					["message"] = "|Hchannel:channel:1|h[1] |h Changed Channel: |Hchannel:CHANNEL:1|h[1. General - Oribos]|h",
 					["b"] = 0.7529412508010864,
-				}, -- [25]
-				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Mizerie-Thrall:1225:CHANNEL:2|h|cfffefefeMizerie|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Liability|r|cffffffff>|r  10/10H 5/10M LF more to join us for Shadowlands and beyond! Tues/Wed 8-11pm EST. LF serious mythic focused players to join our ranks. All classes/specs considered. Pst for more info or apply @ |cffffffff|Hurl:https://discord.gg/yj7X3F6|h[https://discord.gg/yj7X3F6]|h|r",
-					["serverTime"] = 1613623168,
 					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						6, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 107734.591,
 					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [26]
-				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Feemer-Thrall:1226:CHANNEL:2|h|cffc59a6cFeemer|r|h|cffd8d8d8]|r: |cffffd100|HclubFinder:ClubFinder-1-247662-3678-90601868|h[Guild: Chosen of Thrall]|h|r 10/10 H raiding guild is looking for a few more solid  dps for our raid core as we begin on mythic and running keys. Raids are 9:30P-12:30A Mon & Wed Server Time",
-					["serverTime"] = 1613623177,
-					["r"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
 					["extraData"] = {
 						68, -- [1]
 						false, -- [2]
-						1, -- [3]
-						32, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 107743.21,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [27]
-				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Omgmyparse-Thrall:1227:CHANNEL:2|h|cfffe7b09Omgmyparse|r|h|cffd8d8d8]|r: wtb |cffa335ee|Hitem:182978::::::::60:102:::::::|h[Barkweave Wristwraps]|h|r pst",
-					["serverTime"] = 1613623190,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						18, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 107756.644,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [28]
-				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Bellsthra-Thrall:1228:CHANNEL:2|h|cffc59a6cBellsthra|r|h|cffd8d8d8]|r: Great vaul&Gearing Deals   Wts   M+ 10-18 > KSM Deal>Torghast Layers 1-8> Twisting Corridors> |cffffffff<|r|cff00ff00specific keys |r|cffffffff>|rarmor stacks  |cffffffff<|r|cff00ff00 World Tour M+0|r|cffffffff>|r |cffffffff<|r|cff00ff00  I also have some deals for you, Just ask me Only Gold<huokan community |r|cffffffff>|r",
-					["serverTime"] = 1613623193,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
-						34, -- [4]
-						["n"] = 4,
-					},
-					["timestamp"] = 107759.478,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
-				}, -- [29]
-				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Yaal-Thrall:1229:CHANNEL:2|h|cfffe7b09Yaal|r|h|cffd8d8d8]|r: WTB |cffffffff|Hitem:49916::::::::51:104:::::::|h[Lovely Charm Bracelet]|h|r",
-					["serverTime"] = 1613623208,
-					["r"] = 1,
-					["extraData"] = {
-						68, -- [1]
-						false, -- [2]
-						1, -- [3]
+						35, -- [3]
 						36, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107774.486,
-					["g"] = 0.7529412508010864,
+				}, -- [25]
+				{
+					["message"] = "|Hchannel:channel:3|h[3] |h Changed Channel: |Hchannel:CHANNEL:3|h[3. LocalDefense - Oribos]|h",
 					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
+					["extraData"] = {
+						70, -- [1]
+						false, -- [2]
+						38, -- [3]
+						39, -- [4]
+						["n"] = 4,
+					},
+				}, -- [26]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Attorum-Thrall:457:GUILD|h|cffa22fc8Attorum|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14334:Player-3678-09608941:1:5:4:22:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r |cffffffff(|rCompleted 11/23/20|cffffffff)|r!",
+					["b"] = 0.250980406999588,
+					["r"] = 0.250980406999588,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
+					["extraData"] = {
+						48, -- [1]
+						false, -- [2]
+						41, -- [3]
+						42, -- [4]
+						["n"] = 4,
+					},
+				}, -- [27]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Attorum-Thrall:458:ACHIEVEMENT|h|cffa22fc8Attorum|r|h|cffd8d8d8]|r has earned the achievement |cffffff00|Hachievement:14334:Player-3678-09608941:1:5:4:22:4294967295:4294967295:4294967295:4294967295|h[Into the Maw]|h|r |cffffffff(|rCompleted 11/23/20|cffffffff)|r! |cffffd200|Hshareachieve:14334:1|h|TInterface\\ChatFrame\\UI-ChatIcon-Share:18:18|t|h|r",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
+					["extraData"] = {
+						47, -- [1]
+						false, -- [2]
+						43, -- [3]
+						44, -- [4]
+						["n"] = 4,
+					},
+				}, -- [28]
+				{
+					["message"] = "Fatescribe Roh-Tahl says: Greetings, mortal.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724729,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [29]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fartharder-Thrall:460:CHANNEL:2|h|cffa9d271Fartharder|r|h|cffd8d8d8]|r: WHATS YOUR NAME?",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724739,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
 				}, -- [30]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Furywarriors-Thrall:1230:CHANNEL:2|h|cffc59a6cFurywarriors|r|h|cffd8d8d8]|r: dam blizzard this year no Love Rocket",
-					["serverTime"] = 1613623243,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gyrozz-Thrall:461:CHANNEL:2|h|cff8687edGyrozz|r|h|cffd8d8d8]|r: reported",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724742,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
-						38, -- [4]
+						47, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107809.07,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [31]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Felinovard-Thrall:1231:CHANNEL:2|h|cfffefefeFelinovard|r|h|cffd8d8d8]|r: <LFM CN MYTHIC TRASH FARM - NEED DPS 195++",
-					["serverTime"] = 1613623277,
+					["message"] = "Quest accepted: The Threads of Fate",
+					["b"] = 0,
 					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724746,
 					["extraData"] = {
-						68, -- [1]
+						1, -- [1]
 						false, -- [2]
-						1, -- [3]
-						40, -- [4]
+						49, -- [3]
+						50, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107843.401,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [32]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Shayydez-Thrall:1232:CHANNEL:2|h|cfffefefeShayydez|r|h|cffd8d8d8]|r: Priest and Mage LF tuesday/thursday raiding guild!",
-					["serverTime"] = 1613623301,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Longashlong-Thrall:463:CHANNEL:2|h|cffc31d39Longashlong|r|h|cffd8d8d8]|r: Reported for reporting",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724751,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
-						24, -- [4]
+						31, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107867.2,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [33]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wingming-Thrall:1233:CHANNEL:2|h|cfffe7b09Wingming|r|h|cffd8d8d8]|r: Wts |cffa335ee|Hitem:183010::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Stud-Scarred Footwear]|h|r|cffa335ee|Hitem:182978::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r Ilvl 226",
-					["serverTime"] = 1613623303,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fartharder-Thrall:464:CHANNEL:2|h|cffa9d271Fartharder|r|h|cffd8d8d8]|r: WHAT?",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724759,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
-						14, -- [4]
+						45, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107869.284,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [34]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Omgmyparse-Thrall:1234:CHANNEL:2|h|cfffe7b09Omgmyparse|r|h|cffd8d8d8]|r: wtb |cffa335ee|Hitem:182978::::::::60:102::6:5:7187:6652:7194:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r pst",
-					["serverTime"] = 1613623309,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tekayuka-Thrall:465:CHANNEL:2|h|cffc59a6cTekayuka|r|h|cffd8d8d8]|r: TONY",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724766,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
-						18, -- [4]
+						29, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107875.036,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [35]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Snufinee-Thrall:1235:CHANNEL:2|h|cfffe7b09Snufinee|r|h|cffd8d8d8]|r: |cffffffff<|r|cff00ff00Avalanche|r|cffffffff>|r CN AOTC guild 4/10M is recruiting a boomie, spriest and a healer for our core raid team. Wed/Thurs 9-12 EST |cffffd100|HclubFinder:ClubFinder-1-235609-3678-98905874|h[Guild: AvaIanche]|h|r msg for more info",
-					["serverTime"] = 1613623311,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tiercloak-Thrall:466:CHANNEL:2|h|cfff38bb9Tiercloak|r|h|cffd8d8d8]|r: reported for reporting reporting",
+					["b"] = 0.7529412508010864,
 					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724768,
 					["extraData"] = {
-						68, -- [1]
+						69, -- [1]
 						false, -- [2]
 						1, -- [3]
-						22, -- [4]
+						33, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107877.103,
-					["g"] = 0.7529412508010864,
-					["b"] = 0.7529412508010864,
 				}, -- [36]
 				{
-					["message"] = "|cffd8d8d8[|r|Hplayer:Evale:1236|h|cff00fe97Evale|r|h|cffd8d8d8]|r has come online.",
-					["serverTime"] = 1613623341,
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Berlinii-Thrall:467:CHANNEL:2|h|cfffe7b09Berlinii|r|h|cffd8d8d8]|r: Ñ",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724772,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						51, -- [4]
+						["n"] = 4,
+					},
+				}, -- [37]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tekayuka-Thrall:468:CHANNEL:2|h|cffc59a6cTekayuka|r|h|cffd8d8d8]|r: i",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724775,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+				}, -- [38]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fartharder-Thrall:469:CHANNEL:2|h|cffa9d271Fartharder|r|h|cffd8d8d8]|r: WHAT IS  YOUR NAME",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724776,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [39]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Tekayuka-Thrall:470:CHANNEL:2|h|cffc59a6cTekayuka|r|h|cffd8d8d8]|r: g",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724797,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						29, -- [4]
+						["n"] = 4,
+					},
+				}, -- [40]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Fartharder-Thrall:471:CHANNEL:2|h|cffa9d271Fartharder|r|h|cffd8d8d8]|r: Tekayuka-Thrall you win the imternet today",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724801,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						45, -- [4]
+						["n"] = 4,
+					},
+				}, -- [41]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Helenai-Thrall:472:CHANNEL:2|h|cfffefefeHelenai|r|h|cffd8d8d8]|r: Solo player selling |cffffff00|Hachievement:12861:Player-3678-0D148C36:0:0:0:-1:0:0:0:0|h[Master of Duels]|h|r+\"Contender\" title+ |cff0070dd|Hitem:163055::::::::10:62:::1:3524::::::|h[Dueler's Tabard]|h|r + 8 achivs!(gold only) /w me for more info !",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724805,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [42]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Helenai-Thrall:473:CHANNEL:2|h|cfffefefeHelenai|r|h|cffd8d8d8]|r: Solo player selling |cffffff00|Hachievement:12604:Player-3678-0D148C36:0:0:0:-1:4:0:0:0|h[Conqueror of Azeroth]|h|r title+|cffa335ee|Hitem:163577::::::::10:62:::::::::|h[Conqueror's Scythemaw]|h|r also\"The Alliance slayer\"title/w for price!(gold only)",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724805,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						53, -- [4]
+						["n"] = 4,
+					},
+				}, -- [43]
+				{
+					["message"] = "|cff3ec6eaFurrysteak|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724805,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [44]
+				{
+					["message"] = "|cffd8d8d8[|r|Hplayer:Steakdh:475|h|cffa22fc8Steakdh|r|h|cffd8d8d8]|r has come online.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724817,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [45]
+				{
+					["message"] = "The Threads of Fate completed.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724823,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [46]
+				{
+					["message"] = "Experience gained: 975.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724823,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [47]
+				{
+					["message"] = "Received 2 Gold, 34 Silver.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724823,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [48]
+				{
+					["message"] = "Reputation with Guild increased by 125.",
+					["b"] = 1,
+					["r"] = 0.501960813999176,
+					["g"] = 0.501960813999176,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724823,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						55, -- [3]
+						56, -- [4]
+						["n"] = 4,
+					},
+				}, -- [49]
+				{
+					["message"] = "Quest accepted: Fate's Reminder",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724823,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [50]
+				{
+					["message"] = "Quest accepted: Stranger in an Even Stranger Land",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724823,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [51]
+				{
+					["message"] = "Attendant Protector says: An agent of the Maw is attacking Oribos! Defend the Arbiter!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724824,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [52]
+				{
+					["message"] = "Protector Captain says: Hold. The Maw's power does linger upon them, but I sense... No, that cannot be possible!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724833,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [53]
+				{
+					["message"] = "|cffa22fc8Steakdh|r has gone offline.",
+					["b"] = 0,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724843,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						49, -- [3]
+						50, -- [4]
+						["n"] = 4,
+					},
+				}, -- [54]
+				{
+					["message"] = "Attendant Protector says: We must bring them to the overseers at once!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724843,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [55]
+				{
+					["message"] = "Attendant Protector says: Is our faith in the Purpose being tested?",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724848,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [56]
+				{
+					["message"] = "Attendant Protector says: From the Maw? I refuse to believe it!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724848,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [57]
+				{
+					["message"] = "Protector Captain says: Come with us, stranger.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724850,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [58]
+				{
+					["message"] = "Attendant Protector says: An intruder? How is that possible?",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724851,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [59]
+				{
+					["message"] = "Attendant Protector says: That being reeks of the Maw!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724854,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [60]
+				{
+					["message"] = "Attendant Protector says: It must be the Purpose. It guides us always.",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724859,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [61]
+				{
+					["message"] = "Attendant Protector says: Did they just escape the Maw? Impossible!",
+					["b"] = 0.6235294342041016,
+					["r"] = 1,
+					["g"] = 1,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724861,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						10, -- [3]
+						11, -- [4]
+						["n"] = 4,
+					},
+				}, -- [62]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gotzbuffzz-Thrall:494:CHANNEL:2|h|cfffe7b09Gotzbuffzz|r|h|cffd8d8d8]|r: tekayuka is a hand knife",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724864,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+				}, -- [63]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Gotzbuffzz-Thrall:495:CHANNEL:2|h|cfffe7b09Gotzbuffzz|r|h|cffd8d8d8]|r: that is the meaning i think",
+					["b"] = 0.7529412508010864,
+					["r"] = 1,
+					["g"] = 0.7529412508010864,
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724872,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						1, -- [3]
+						57, -- [4]
+						["n"] = 4,
+					},
+				}, -- [64]
+				{
+					["message"] = "0 |4day:days;, 0 |4hour:hours;, 0 |4minute:minutes;, 39 |4second:seconds;",
+					["timestamp"] = 1747520.626,
+				}, -- [65]
+				{
+					["message"] = "========== End of Scrollback ==========",
+					["timestamp"] = 1747520.626,
+				}, -- [66]
+				{
+					["message"] = "|Hbuggrabber:Attorum:000001C191A77A60:|h|cffff0000[Error 000001C191A77A60]|r|h |cffffff00captured, click the link for more information.|r",
+					["timestamp"] = 1747520.626,
+				}, -- [67]
+				{
+					["message"] = "|cff33ff99Simple iLevel|r: Loading v3.4.7",
+					["timestamp"] = 1747520.626,
+				}, -- [68]
+				{
+					["message"] = "|cff33ff99Simple iLevel|r: Group Module Loaded 3.4.7",
+					["timestamp"] = 1747520.626,
+				}, -- [69]
+				{
+					["message"] = "|cff33ff99Simple iLevel|r: Social Module Loaded 3.4.7",
+					["timestamp"] = 1747520.626,
+				}, -- [70]
+				{
+					["message"] = "Guild Message of the Day: \"surprisedpikachu.jpeg\"",
+					["r"] = 0.250980406999588,
+					["extraData"] = {
+						5, -- [1]
+						["n"] = 1,
+					},
+					["timestamp"] = 1747520.626,
+					["g"] = 1,
+					["b"] = 0.250980406999588,
+				}, -- [71]
+				{
+					["message"] = "Loaded WA: \"Nameplate Enemy Auras\" - Version: 4.3.15",
+					["timestamp"] = 1747520.626,
+					["serverTime"] = 1651724911,
+				}, -- [72]
+				{
+					["message"] = "Discovered Ring of Fates: 965 experience gained",
+					["serverTime"] = 1651724973,
 					["r"] = 1,
 					["extraData"] = {
 						1, -- [1]
 						false, -- [2]
-						42, -- [3]
-						43, -- [4]
+						1, -- [3]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107907.185,
+					["timestamp"] = 1747588.632,
 					["g"] = 1,
 					["b"] = 0,
-				}, -- [37]
+				}, -- [73]
 				{
-					["message"] = "Snurk Bucksquick yells: The zeppelin to Grom'gol has just arrived! All aboard for Stranglethorn!",
-					["serverTime"] = 1613623362,
+					["message"] = "Overseer Kah-Delen says: Impossible!",
+					["serverTime"] = 1651724994,
 					["r"] = 1,
 					["extraData"] = {
-						15, -- [1]
+						13, -- [1]
 						false, -- [2]
-						44, -- [3]
-						45, -- [4]
+						3, -- [3]
+						4, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107928.42,
-					["g"] = 0.250980406999588,
-					["b"] = 0.250980406999588,
-				}, -- [38]
+					["timestamp"] = 1747609.773,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [74]
 				{
-					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Wingming-Thrall:1238:CHANNEL:2|h|cfffe7b09Wingming|r|h|cffd8d8d8]|r: Wts |cffa335ee|Hitem:183010::::::::60:102::6:4:7187:6652:1498:6646:1:28:753:::|h[Stud-Scarred Footwear]|h|r|cffa335ee|Hitem:182978::::::::60:102::6:5:7187:6652:7193:1498:6646:1:28:753:::|h[Barkweave Wristwraps]|h|r Ilvl 226",
-					["serverTime"] = 1613623376,
+					["message"] = "Stranger in an Even Stranger Land completed.",
+					["serverTime"] = 1651724998,
 					["r"] = 1,
 					["extraData"] = {
-						68, -- [1]
+						1, -- [1]
 						false, -- [2]
 						1, -- [3]
-						14, -- [4]
+						2, -- [4]
 						["n"] = 4,
 					},
-					["timestamp"] = 107942.514,
+					["timestamp"] = 1747613.076,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [75]
+				{
+					["message"] = "Experience gained: 3850.",
+					["serverTime"] = 1651724998,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747613.076,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [76]
+				{
+					["message"] = "Received 11 Gold, 70 Silver.",
+					["serverTime"] = 1651724998,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747613.076,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [77]
+				{
+					["message"] = "Reputation with Guild increased by 125.",
+					["serverTime"] = 1651724998,
+					["r"] = 0.501960813999176,
+					["extraData"] = {
+						36, -- [1]
+						false, -- [2]
+						5, -- [3]
+						6, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747613.291,
+					["g"] = 0.501960813999176,
+					["b"] = 1,
+				}, -- [78]
+				{
+					["message"] = "Quest accepted: No Place for the |cffa9d271Living|r",
+					["serverTime"] = 1651725000,
+					["r"] = 1,
+					["extraData"] = {
+						1, -- [1]
+						false, -- [2]
+						1, -- [3]
+						2, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747615.15,
+					["g"] = 1,
+					["b"] = 0,
+				}, -- [79]
+				{
+					["message"] = "Overseer Kah-Sher says: Every attendant in Oribos is taught that the Maw is unbreachable. That the malevolent souls within were sealed away for all eternity.",
+					["serverTime"] = 1651725002,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747617.521,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [80]
+				{
+					["message"] = "Overseer Kah-Delen says: Wondrous news, Honored Voice! Mere moments ago, there was a disturbance at the boundary of the Maw. Then this mortal appeared, claiming to have broken free of it.",
+					["serverTime"] = 1651725005,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747620.104,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [81]
+				{
+					["message"] = "|Hchannel:channel:2|h[2] |h|cffd8d8d8[|r|Hplayer:Ziggì-Thrall:506:CHANNEL:2|h|cfffef367Ziggì|r|h|cffd8d8d8]|r: WTS M+15-20 keys (KSM DEAL / Key Specific / LootFunnel ) Get discount for multiple runs / TORGHAST |cffffff00|Hachievement:15506:Player-3678-0D3DE17C:1:4:21:22:4294967295:4294967295:4294967295:4294967295|h[Shadowlands Keystone Hero: Season Three]|h|r",
+					["serverTime"] = 1651725012,
+					["r"] = 1,
+					["extraData"] = {
+						69, -- [1]
+						false, -- [2]
+						7, -- [3]
+						8, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747628.013,
 					["g"] = 0.7529412508010864,
 					["b"] = 0.7529412508010864,
-				}, -- [39]
+				}, -- [82]
+				{
+					["message"] = "Tal-Inara says: A living mortal! Surely their presence here serves the Purpose. If the Arbiter reacted to their arrival, perhaps they are the key to waking her.",
+					["serverTime"] = 1651725021,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747636.569,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [83]
+				{
+					["message"] = "Overseer Kah-Sher says: Is this mortal worthy of such an audience? They may prove to be an agent of the Jailer!",
+					["serverTime"] = 1651725035,
+					["r"] = 1,
+					["extraData"] = {
+						13, -- [1]
+						false, -- [2]
+						3, -- [3]
+						4, -- [4]
+						["n"] = 4,
+					},
+					["timestamp"] = 1747650.992,
+					["g"] = 1,
+					["b"] = 0.6235294342041016,
+				}, -- [84]
 			},
 			["maxElements"] = 128,
-			["GetEntryAtIndex"] = nil --[[ skipped inline function ]],
 			["TransformIf"] = nil --[[ skipped inline function ]],
+			["ReplaceElements"] = nil --[[ skipped inline function ]],
 			["SetMaxNumElements"] = nil --[[ skipped inline function ]],
 			["GetNumElements"] = nil --[[ skipped inline function ]],
 			["GetMaxNumElements"] = nil --[[ skipped inline function ]],

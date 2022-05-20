@@ -1,18 +1,22 @@
 
 DSHDB = {
 	["profileKeys"] = {
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Songfire - Thrall"] = "Songfire - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Falaria - Thrall"] = "Falaria - Thrall",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 	},
 	["profiles"] = {
-		["Zynzo - Thrall"] = {
+		["Attorum - Thrall"] = {
+		},
+		["Mafiki - Thrall"] = {
 		},
 		["Falaria - Thrall"] = {
 		},
-		["Mafiki - Thrall"] = {
+		["Zynzo - Thrall"] = {
 		},
 		["Corpselus - Thrall"] = {
 		},

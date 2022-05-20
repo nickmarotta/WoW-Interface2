@@ -36,3 +36,5 @@ LibGetFrame-1.0: enabled
 Bartender4: disabled
 Quartz: enabled
 AAP-Core: disabled
+Gladius: disabled
+GladiatorlosSA2: disabled

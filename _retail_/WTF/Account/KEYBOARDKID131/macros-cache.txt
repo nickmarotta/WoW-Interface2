@@ -25,6 +25,9 @@ END
 VER 3 0000000000000156 "LOOT" "135901"
 /rw If you got gear that you don't need, link it in a whisper to Corpselus.
 END
+VER 3 0000000000000158 "Nameplates" "INV_MISC_QUESTIONMARK"
+/run C_NamePlate.SetNamePlateFriendlySize(60, 30)
+END
 VER 3 00000000000000F7 "NotThrall" "134131"
 Eskandar-Blackrock
 Nickdonalds-Blackrock

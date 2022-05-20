@@ -9,13 +9,14 @@ DeathNoteDB = {
 		["Syandea - Hyjal"] = "Syandea - Hyjal",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
 		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
-		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Corptwo - Thrall"] = "Corptwo - Thrall",
-		["Songfire - Hyjal"] = "Songfire - Hyjal",
+		["Velosara - Thrall"] = "Velosara - Thrall",
 		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Songfire - Hyjal"] = "Songfire - Hyjal",
+		["Naraka - Thrall"] = "Naraka - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
-		["Naraka - Thrall"] = "Naraka - Thrall",
+		["Songfire - Thrall"] = "Songfire - Thrall",
 		["Kerrama - Thrall"] = "Kerrama - Thrall",
 		["Tyuty - Thrall"] = "Tyuty - Thrall",
 		["Naakari - Hyjal"] = "Naakari - Hyjal",
@@ -27,9 +28,9 @@ DeathNoteDB = {
 		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
-		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 		["Salocinn - Thrall"] = "Salocinn - Thrall",
 		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -48,28 +49,30 @@ DeathNoteDB = {
 		},
 		["Yjuwsgv - Thrall"] = {
 		},
+		["Corptwo - Thrall"] = {
+		},
 		["Velosara - Thrall"] = {
 		},
-		["Corptwo - Thrall"] = {
+		["Raluh - Thrall"] = {
 		},
 		["Songfire - Hyjal"] = {
 		},
-		["Raluh - Thrall"] = {
+		["Naraka - Thrall"] = {
 		},
 		["Zynzo - Thrall"] = {
 			["searchbox_text"] = "",
 			["display"] = {
-				["w"] = 700.0000610351562,
 				["y"] = 3.28204345703125,
 				["h"] = 499.9999389648438,
 				["namelist"] = 2,
+				["w"] = 700.0000610351562,
 				["x"] = 4.376129150390625,
 			},
 		},
 		["Zarafina - Thrall"] = {
 			["searchbox_text"] = "",
 		},
-		["Naraka - Thrall"] = {
+		["Songfire - Thrall"] = {
 		},
 		["Kerrama - Thrall"] = {
 		},
@@ -96,16 +99,16 @@ DeathNoteDB = {
 		["Corpselus - Thrall"] = {
 			["searchbox_text"] = "",
 			["display"] = {
-				["y"] = 71.36744689941406,
-				["namelist"] = 2,
 				["columns"] = {
 					60.00002288818359, -- [1]
 					90.00003051757812, -- [2]
 					60.00002288818359, -- [3]
 					99.99996948242188, -- [4]
 				},
-				["x"] = 16.92257690429688,
 				["w"] = 700.0000610351562,
+				["y"] = 71.36744689941406,
+				["namelist"] = 2,
+				["x"] = 16.92257690429688,
 				["h"] = 500.0000915527344,
 			},
 		},
@@ -115,12 +118,12 @@ DeathNoteDB = {
 		},
 		["Vartizzle - Thrall"] = {
 		},
-		["Mafiki - Alexstrasza"] = {
-			["searchbox_text"] = "",
-		},
 		["Salocinn - Thrall"] = {
 		},
 		["Melleressra - Thrall"] = {
+		},
+		["Mafiki - Alexstrasza"] = {
+			["searchbox_text"] = "",
 		},
 	},
 }

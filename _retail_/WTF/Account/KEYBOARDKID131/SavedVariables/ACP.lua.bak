@@ -85,7 +85,6 @@ ACP_Data = {
 	["NoChildren"] = true,
 	["collapsed"] = {
 		["SimpleILevel"] = true,
-		["Libraries"] = true,
 		["BigWigs"] = true,
 		["Details"] = true,
 		["BtWQuests"] = true,

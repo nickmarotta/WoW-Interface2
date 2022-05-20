@@ -13,6 +13,7 @@ TomTomDB = {
 		["Naraka - Thrall"] = "Default",
 		["Zynzo - Thrall"] = "Default",
 		["Zarafina - Thrall"] = "Default",
+		["Songfire - Thrall"] = "Default",
 		["Tyuty - Thrall"] = "Default",
 		["Chonkcity - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
@@ -62,6 +63,7 @@ TomTomWaypointsM = {
 		["Naraka - Thrall"] = "Naraka - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
+		["Songfire - Thrall"] = "Songfire - Thrall",
 		["Tyuty - Thrall"] = "Tyuty - Thrall",
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
@@ -96,6 +98,8 @@ TomTomWaypointsM = {
 		["Zynzo - Thrall"] = {
 		},
 		["Zarafina - Thrall"] = {
+		},
+		["Songfire - Thrall"] = {
 		},
 		["Tyuty - Thrall"] = {
 		},
