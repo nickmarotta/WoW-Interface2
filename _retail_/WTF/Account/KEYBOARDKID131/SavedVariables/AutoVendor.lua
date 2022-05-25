@@ -8,29 +8,29 @@ AutoVendorDB = {
 		["Amarelli - Hyjal"] = "Amarelli - Hyjal",
 		["Syandea - Hyjal"] = "Syandea - Hyjal",
 		["Corpsel - Alexstrasza"] = "Corpsel - Alexstrasza",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
-		["Corptwo - Thrall"] = "Corptwo - Thrall",
+		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
 		["Velosara - Thrall"] = "Velosara - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Corptwo - Thrall"] = "Corptwo - Thrall",
 		["Songfire - Hyjal"] = "Songfire - Hyjal",
-		["Naraka - Thrall"] = "Naraka - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 		["Zarafina - Thrall"] = "Zarafina - Thrall",
 		["Songfire - Thrall"] = "Songfire - Thrall",
-		["Kerrama - Thrall"] = "Kerrama - Thrall",
-		["Tyuty - Thrall"] = "Tyuty - Thrall",
-		["Naakari - Hyjal"] = "Naakari - Hyjal",
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
-		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Tyuty - Thrall"] = "Tyuty - Thrall",
 		["Ronami - Thrall"] = "Ronami - Thrall",
+		["Kerrama - Thrall"] = "Kerrama - Thrall",
+		["Oturran - Thrall"] = "Oturran - Thrall",
+		["Naakari - Hyjal"] = "Naakari - Hyjal",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Badnäme - Alexstrasza"] = "Badnäme - Alexstrasza",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Vartizzle - Thrall"] = "Vartizzle - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
-		["Melleressra - Thrall"] = "Melleressra - Thrall",
-		["Mafiki - Alexstrasza"] = "Mafiki - Alexstrasza",
+		["Naraka - Thrall"] = "Naraka - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -63,11 +63,11 @@ AutoVendorDB = {
 		},
 		["Zarathia - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Vulara - Thrall"] = {
 		},
 		["Mafiki - Thrall"] = {
 		},
-		["Vulara - Thrall"] = {
+		["Salocinn - Thrall"] = {
 		},
 	},
 }

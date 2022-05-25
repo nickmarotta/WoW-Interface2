@@ -20,16 +20,9 @@ Quartz3DB = {
 		},
 		["LibDualSpec-1.0"] = {
 		},
-		["EnemyCasts"] = {
+		["Mirror"] = {
 		},
-		["Player"] = {
-			["profiles"] = {
-				["Default"] = {
-					["y"] = -155.3204345703125,
-					["point"] = "CENTER",
-					["x"] = -5.666259765625,
-				},
-			},
+		["EnemyCasts"] = {
 		},
 		["GCD"] = {
 		},
@@ -63,7 +56,14 @@ Quartz3DB = {
 				},
 			},
 		},
-		["Mirror"] = {
+		["Player"] = {
+			["profiles"] = {
+				["Default"] = {
+					["y"] = -155.3204345703125,
+					["point"] = "CENTER",
+					["x"] = -5.666259765625,
+				},
+			},
 		},
 		["Latency"] = {
 			["profiles"] = {
@@ -91,10 +91,10 @@ Quartz3DB = {
 		["Chonkcity - Thrall"] = "Default",
 		["Oturran - Thrall"] = "Default",
 		["Ronami - Thrall"] = "Default",
-		["Mafiki - Thrall"] = "Default",
-		["Velosara - Thrall"] = "Default",
-		["Corpsel - Alexstrasza"] = "Default",
 		["Melleressra - Thrall"] = "Default",
+		["Corpsel - Alexstrasza"] = "Default",
+		["Velosara - Thrall"] = "Default",
+		["Mafiki - Thrall"] = "Default",
 	},
 	["profiles"] = {
 		["Default"] = {

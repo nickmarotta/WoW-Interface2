@@ -5,17 +5,8 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Corpselus-thrall"
 RaiderIO_MissingCharacters = {
-	["us-Margause-terokkar"] = true,
-	["us-Luciferbegin-Quel"] = true,
-	["us-Necrotek-anvilmar"] = true,
-	["us-Zeilux-elune"] = true,
-	["us-Spoiledmillk-spinebreaker"] = true,
-	["us-Brg-caelestrasz"] = true,
-	["us-Hordeslayers-kargath"] = true,
-	["us-Suzon-Zul"] = true,
-	["us-Draconmar-thrall"] = true,
-	["us-Daumath-thrall"] = true,
-	["us-backribs-area-52"] = true,
+	["us-Sathrodan-thrall"] = true,
+	["us-Seleala-thrall"] = true,
 }
 RaiderIO_MissingServers = {
 }

@@ -193,17 +193,7 @@ Bartender4DB = {
 						["scale"] = 1.264999985694885,
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1.264999985694885,
-						["x"] = -515,
-						["point"] = "BOTTOM",
-						["y"] = 62,
-					},
-				},
-				["Mafiki - Thrall"] = {
+				["Melleressra - Thrall"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -223,7 +213,7 @@ Bartender4DB = {
 						["scale"] = 1.264999985694885,
 					},
 				},
-				["Melleressra - Thrall"] = {
+				["Mafiki - Thrall"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -231,6 +221,16 @@ Bartender4DB = {
 						["x"] = -515,
 						["point"] = "BOTTOM",
 						["scale"] = 1.264999985694885,
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1.264999985694885,
+						["x"] = -515,
+						["point"] = "BOTTOM",
+						["y"] = 62,
 					},
 				},
 			},
@@ -258,8 +258,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -268,8 +268,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -325,8 +325,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -335,8 +335,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -392,8 +392,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -402,8 +402,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -459,8 +459,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -469,8 +469,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -526,8 +526,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -536,8 +536,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -670,8 +670,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -680,8 +680,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -736,8 +736,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -746,8 +746,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -803,8 +803,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -813,8 +813,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -870,8 +870,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -880,8 +880,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -937,8 +937,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -947,8 +947,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 12,
 							["padding"] = 5,
+							["rows"] = 12,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1004,8 +1004,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 3,
 							["padding"] = 5,
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 125.5000076293945,
@@ -1014,8 +1014,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 3,
 							["padding"] = 5,
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 125.5000076293945,
@@ -1071,8 +1071,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1081,8 +1081,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1138,8 +1138,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1148,8 +1148,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1204,8 +1204,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["rows"] = 3,
 							["padding"] = 5,
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 125.5000076293945,
@@ -1214,8 +1214,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["rows"] = 3,
 							["padding"] = 5,
+							["rows"] = 3,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 125.5000076293945,
@@ -1271,8 +1271,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1281,8 +1281,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1337,8 +1337,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1347,8 +1347,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1403,8 +1403,8 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1413,8 +1413,8 @@ Bartender4DB = {
 							},
 						}, -- [3]
 						{
-							["padding"] = 5,
 							["rows"] = 12,
+							["padding"] = 5,
 							["version"] = 3,
 							["position"] = {
 								["y"] = 610,
@@ -1450,206 +1450,6 @@ Bartender4DB = {
 					},
 				},
 				["Zarathia - Thrall"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.4999237060547,
-								["x"] = -231.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Yjuwsgv - Thrall"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.4999237060547,
-								["x"] = -231.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["rows"] = 12,
-							["padding"] = 5,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						[10] = {
-						},
-					},
-				},
-				["Mafiki - Thrall"] = {
-					["actionbars"] = {
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 41.75,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [1]
-						{
-							["enabled"] = false,
-							["version"] = 3,
-							["position"] = {
-								["y"] = -227.4999237060547,
-								["x"] = -231.5,
-								["point"] = "CENTER",
-							},
-						}, -- [2]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -82,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [3]
-						{
-							["padding"] = 5,
-							["rows"] = 12,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 610,
-								["x"] = -42,
-								["point"] = "BOTTOMRIGHT",
-							},
-						}, -- [4]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = 3,
-								["point"] = "BOTTOM",
-							},
-						}, -- [5]
-						{
-							["padding"] = 6,
-							["version"] = 3,
-							["position"] = {
-								["y"] = 110,
-								["x"] = -510,
-								["point"] = "BOTTOM",
-							},
-						}, -- [6]
-						{
-						}, -- [7]
-						{
-						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
-					},
-				},
-				["Salocinn - Thrall"] = {
 					["actionbars"] = {
 						{
 							["padding"] = 6,
@@ -1737,6 +1537,207 @@ Bartender4DB = {
 							},
 						}, -- [2]
 						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Salocinn - Thrall"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999237060547,
+								["x"] = -231.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Mafiki - Thrall"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999237060547,
+								["x"] = -231.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -82,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [3]
+						{
+							["rows"] = 12,
+							["padding"] = 5,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 610,
+								["x"] = -42,
+								["point"] = "BOTTOMRIGHT",
+							},
+						}, -- [4]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = 3,
+								["point"] = "BOTTOM",
+							},
+						}, -- [5]
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 110,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [6]
+						{
+						}, -- [7]
+						{
+						}, -- [8]
+						nil, -- [9]
+						{
+						}, -- [10]
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
+					["actionbars"] = {
+						{
+							["padding"] = 6,
+							["version"] = 3,
+							["position"] = {
+								["y"] = 41.75,
+								["x"] = -510,
+								["point"] = "BOTTOM",
+							},
+						}, -- [1]
+						{
+							["enabled"] = false,
+							["version"] = 3,
+							["position"] = {
+								["y"] = -227.4999237060547,
+								["x"] = -231.5,
+								["point"] = "CENTER",
+							},
+						}, -- [2]
+						{
 							["padding"] = 5,
 							["rows"] = 12,
 							["version"] = 3,
@@ -1778,9 +1779,8 @@ Bartender4DB = {
 						}, -- [7]
 						{
 						}, -- [8]
-						nil, -- [9]
-						{
-						}, -- [10]
+						[10] = {
+						},
 					},
 				},
 			},
@@ -1941,7 +1941,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
+				["Melleressra - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 287,
+						["x"] = -63.50009155273438,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Salocinn - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 287,
@@ -1957,15 +1965,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Salocinn - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 287,
-						["x"] = -63.50009155273438,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Melleressra - Thrall"] = {
+				["Yjuwsgv - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 287,
@@ -2170,17 +2170,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
-					["padding"] = -2,
-					["version"] = 3,
-					["position"] = {
-						["scale"] = 1,
-						["x"] = 37.5,
-						["point"] = "BOTTOM",
-						["y"] = 41.75,
-					},
-				},
-				["Mafiki - Thrall"] = {
+				["Melleressra - Thrall"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2200,7 +2190,7 @@ Bartender4DB = {
 						["scale"] = 1,
 					},
 				},
-				["Melleressra - Thrall"] = {
+				["Mafiki - Thrall"] = {
 					["padding"] = -2,
 					["version"] = 3,
 					["position"] = {
@@ -2208,6 +2198,16 @@ Bartender4DB = {
 						["x"] = 37.5,
 						["point"] = "BOTTOM",
 						["scale"] = 1,
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
+					["padding"] = -2,
+					["version"] = 3,
+					["position"] = {
+						["scale"] = 1,
+						["x"] = 37.5,
+						["point"] = "BOTTOM",
+						["y"] = 41.75,
 					},
 				},
 			},
@@ -2369,15 +2369,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 38.5,
-						["x"] = 345,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Mafiki - Thrall"] = {
+				["Melleressra - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -2393,7 +2385,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Melleressra - Thrall"] = {
+				["Mafiki - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 38.5,
+						["x"] = 345,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 38.5,
@@ -2573,16 +2573,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
-					["enabled"] = true,
-					["version"] = 3,
-					["position"] = {
-						["y"] = 47,
-						["x"] = -512,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Mafiki - Thrall"] = {
+				["Melleressra - Thrall"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
@@ -2600,12 +2591,105 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Melleressra - Thrall"] = {
+				["Mafiki - Thrall"] = {
 					["enabled"] = true,
 					["version"] = 3,
 					["position"] = {
 						["y"] = 47,
 						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
+					["enabled"] = true,
+					["version"] = 3,
+					["position"] = {
+						["y"] = 47,
+						["x"] = -512,
+						["point"] = "BOTTOM",
+					},
+				},
+			},
+		},
+		["ZoneAbilityBar"] = {
+			["profiles"] = {
+				["Attorum - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Mafiki - Alexstrasza"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Fackligery - Sargeras"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Chonkcity - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 83.88469696044922,
+						["x"] = 339.9761352539063,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Amarelli - Hyjal"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Corpselus - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 83.88469696044922,
+						["x"] = 339.9761352539063,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Corpsel - Alexstrasza"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Default"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 223.0000457763672,
+						["x"] = -31.500244140625,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Mafiki - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Zarathia - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 222.9999847412109,
+						["x"] = -31.49990844726563,
 						["point"] = "BOTTOM",
 					},
 				},
@@ -2766,15 +2850,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = -14.99998474121094,
-						["x"] = -82.50003051757812,
-						["point"] = "CENTER",
-					},
-				},
-				["Mafiki - Thrall"] = {
+				["Melleressra - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.99998474121094,
@@ -2790,7 +2866,7 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-				["Melleressra - Thrall"] = {
+				["Mafiki - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = -14.99998474121094,
@@ -2798,191 +2874,11 @@ Bartender4DB = {
 						["point"] = "CENTER",
 					},
 				},
-			},
-		},
-		["Vehicle"] = {
-			["profiles"] = {
-				["Attorum - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Mafiki - Alexstrasza"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Fackligery - Sargeras"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Falaria - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Amarelli - Hyjal"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Corpselus - Thrall"] = {
-					["position"] = {
-						["y"] = 113.8543472290039,
-						["x"] = -306.0484008789063,
-						["point"] = "BOTTOM",
-					},
-					["version"] = 3,
-				},
-				["Corpsel - Alexstrasza"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Velosara - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Raluh - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Naraka - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Zynzo - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Zarafina - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 97.59249877929688,
-						["x"] = -311.7758178710938,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Songfire - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Tyuty - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Chonkcity - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 97.59249877929688,
-						["x"] = -311.7758178710938,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Oturran - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Ronami - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Default"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50015258789063,
-						["x"] = 104.4999389648438,
-						["point"] = "CENTER",
-					},
-				},
-				["Zarathia - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
 				["Yjuwsgv - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Mafiki - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Salocinn - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
-						["point"] = "CENTER",
-					},
-				},
-				["Melleressra - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 42.50006103515625,
-						["x"] = 104.5,
+						["y"] = -14.99998474121094,
+						["x"] = -82.50003051757812,
 						["point"] = "CENTER",
 					},
 				},
@@ -3142,15 +3038,7 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Yjuwsgv - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 143,
-						["x"] = -460,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Mafiki - Thrall"] = {
+				["Melleressra - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 143,
@@ -3166,7 +3054,15 @@ Bartender4DB = {
 						["point"] = "BOTTOM",
 					},
 				},
-				["Melleressra - Thrall"] = {
+				["Mafiki - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 143,
+						["x"] = -460,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
 						["y"] = 143,
@@ -3176,86 +3072,190 @@ Bartender4DB = {
 				},
 			},
 		},
-		["ZoneAbilityBar"] = {
+		["Vehicle"] = {
 			["profiles"] = {
 				["Attorum - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
-						["point"] = "BOTTOM",
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
 				["Mafiki - Alexstrasza"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
-						["point"] = "BOTTOM",
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
 				["Fackligery - Sargeras"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
-						["point"] = "BOTTOM",
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
-				["Chonkcity - Thrall"] = {
+				["Falaria - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 83.88469696044922,
-						["x"] = 339.9761352539063,
-						["point"] = "BOTTOM",
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
 				["Amarelli - Hyjal"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
-						["point"] = "BOTTOM",
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
 				["Corpselus - Thrall"] = {
-					["version"] = 3,
 					["position"] = {
-						["y"] = 83.88469696044922,
-						["x"] = 339.9761352539063,
+						["y"] = 113.8543472290039,
+						["x"] = -306.0484008789063,
 						["point"] = "BOTTOM",
 					},
+					["version"] = 3,
 				},
 				["Corpsel - Alexstrasza"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Velosara - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Raluh - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Naraka - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Zynzo - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Zarafina - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 97.59249877929688,
+						["x"] = -311.7758178710938,
 						["point"] = "BOTTOM",
+					},
+				},
+				["Songfire - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Tyuty - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Chonkcity - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 97.59249877929688,
+						["x"] = -311.7758178710938,
+						["point"] = "BOTTOM",
+					},
+				},
+				["Oturran - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Ronami - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
 				["Default"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 223.0000457763672,
-						["x"] = -31.500244140625,
-						["point"] = "BOTTOM",
-					},
-				},
-				["Mafiki - Thrall"] = {
-					["version"] = 3,
-					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
-						["point"] = "BOTTOM",
+						["y"] = 42.50015258789063,
+						["x"] = 104.4999389648438,
+						["point"] = "CENTER",
 					},
 				},
 				["Zarathia - Thrall"] = {
 					["version"] = 3,
 					["position"] = {
-						["y"] = 222.9999847412109,
-						["x"] = -31.49990844726563,
-						["point"] = "BOTTOM",
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Melleressra - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Salocinn - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Mafiki - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
+					},
+				},
+				["Yjuwsgv - Thrall"] = {
+					["version"] = 3,
+					["position"] = {
+						["y"] = 42.50006103515625,
+						["x"] = 104.5,
+						["point"] = "CENTER",
 					},
 				},
 			},
@@ -3280,10 +3280,10 @@ Bartender4DB = {
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Ronami - Thrall"] = "Corpselus - Thrall",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
-		["Salocinn - Thrall"] = "Corpselus - Thrall",
-		["Velosara - Thrall"] = "Velosara - Thrall",
-		["Corpsel - Alexstrasza"] = "Corpselus - Thrall",
 		["Melleressra - Thrall"] = "Corpselus - Thrall",
+		["Corpsel - Alexstrasza"] = "Corpselus - Thrall",
+		["Velosara - Thrall"] = "Velosara - Thrall",
+		["Salocinn - Thrall"] = "Corpselus - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -3390,12 +3390,7 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Yjuwsgv - Thrall"] = {
-			["focuscastmodifier"] = false,
-			["blizzardVehicle"] = true,
-			["outofrange"] = "hotkey",
-		},
-		["Mafiki - Thrall"] = {
+		["Melleressra - Thrall"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
@@ -3405,7 +3400,12 @@ Bartender4DB = {
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",
 		},
-		["Melleressra - Thrall"] = {
+		["Mafiki - Thrall"] = {
+			["focuscastmodifier"] = false,
+			["blizzardVehicle"] = true,
+			["outofrange"] = "hotkey",
+		},
+		["Yjuwsgv - Thrall"] = {
 			["focuscastmodifier"] = false,
 			["blizzardVehicle"] = true,
 			["outofrange"] = "hotkey",

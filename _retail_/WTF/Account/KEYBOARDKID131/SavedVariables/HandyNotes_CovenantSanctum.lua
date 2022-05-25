@@ -7,8 +7,8 @@ HandyNotes_CovenantSanctumDB = {
 		["Corpselus - Thrall"] = "Corpselus - Thrall",
 		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Songfire - Thrall"] = "Songfire - Thrall",
-		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Attorum - Thrall"] = "Attorum - Thrall",
 		["Zynzo - Thrall"] = "Zynzo - Thrall",
 	},
 	["profiles"] = {
@@ -24,9 +24,9 @@ HandyNotes_CovenantSanctumDB = {
 		},
 		["Songfire - Thrall"] = {
 		},
-		["Attorum - Thrall"] = {
-		},
 		["Salocinn - Thrall"] = {
+		},
+		["Attorum - Thrall"] = {
 		},
 		["Zynzo - Thrall"] = {
 		},

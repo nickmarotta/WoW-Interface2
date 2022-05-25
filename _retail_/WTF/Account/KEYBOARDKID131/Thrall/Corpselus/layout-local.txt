@@ -146,17 +146,3 @@ X: -9
 Y: -160
 W: 114
 H: 24
-Frame: WeakAurasOptions
-FrameLevel: 1
-Anchor: TOPRIGHT
-X: -130
-Y: -111
-W: 796
-H: 550
-Frame: PlaterOptionsPanelFrame
-FrameLevel: 1
-Anchor: BOTTOM
-X: -25
-Y: 61
-W: 1100
-H: 650

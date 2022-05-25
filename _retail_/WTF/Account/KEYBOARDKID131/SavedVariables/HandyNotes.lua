@@ -18,14 +18,14 @@ HandyNotesDB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Naakari - Hyjal"] = "Naakari - Hyjal",
-		["Ronami - Thrall"] = "Ronami - Thrall",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Songfire - Hyjal"] = "Songfire - Hyjal",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
-		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Ronami - Thrall"] = "Ronami - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -63,21 +63,21 @@ HandyNotesDB = {
 		},
 		["Naakari - Hyjal"] = {
 		},
-		["Ronami - Thrall"] = {
+		["Melleressra - Thrall"] = {
 		},
-		["Yjuwsgv - Thrall"] = {
+		["Raluh - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Mafiki - Thrall"] = {
 		},
 		["Zarathia - Thrall"] = {
 		},
 		["Songfire - Hyjal"] = {
 		},
-		["Mafiki - Thrall"] = {
+		["Salocinn - Thrall"] = {
 		},
-		["Raluh - Thrall"] = {
+		["Yjuwsgv - Thrall"] = {
 		},
-		["Melleressra - Thrall"] = {
+		["Ronami - Thrall"] = {
 		},
 	},
 }
@@ -100,14 +100,14 @@ HandyNotes_HandyNotesDB = {
 		["Chonkcity - Thrall"] = "Chonkcity - Thrall",
 		["Oturran - Thrall"] = "Oturran - Thrall",
 		["Naakari - Hyjal"] = "Naakari - Hyjal",
-		["Ronami - Thrall"] = "Ronami - Thrall",
-		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
-		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Raluh - Thrall"] = "Raluh - Thrall",
+		["Mafiki - Thrall"] = "Mafiki - Thrall",
 		["Zarathia - Thrall"] = "Zarathia - Thrall",
 		["Songfire - Hyjal"] = "Songfire - Hyjal",
-		["Mafiki - Thrall"] = "Mafiki - Thrall",
-		["Raluh - Thrall"] = "Raluh - Thrall",
-		["Melleressra - Thrall"] = "Melleressra - Thrall",
+		["Salocinn - Thrall"] = "Salocinn - Thrall",
+		["Yjuwsgv - Thrall"] = "Yjuwsgv - Thrall",
+		["Ronami - Thrall"] = "Ronami - Thrall",
 	},
 	["profiles"] = {
 		["Attorum - Thrall"] = {
@@ -144,21 +144,21 @@ HandyNotes_HandyNotesDB = {
 		},
 		["Naakari - Hyjal"] = {
 		},
-		["Ronami - Thrall"] = {
+		["Melleressra - Thrall"] = {
 		},
-		["Yjuwsgv - Thrall"] = {
+		["Raluh - Thrall"] = {
 		},
-		["Salocinn - Thrall"] = {
+		["Mafiki - Thrall"] = {
 		},
 		["Zarathia - Thrall"] = {
 		},
 		["Songfire - Hyjal"] = {
 		},
-		["Mafiki - Thrall"] = {
+		["Salocinn - Thrall"] = {
 		},
-		["Raluh - Thrall"] = {
+		["Yjuwsgv - Thrall"] = {
 		},
-		["Melleressra - Thrall"] = {
+		["Ronami - Thrall"] = {
 		},
 	},
 }
