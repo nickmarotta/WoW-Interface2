@@ -1,5 +1,5 @@
 --
--- RaiderIO Client Colors. Generated on 2022-07-08T23:32:22Z
+-- RaiderIO Client Colors. Generated on 2022-07-08T23:44:44Z
 --
 local _, ns = ...
 ns.CLIENT_COLORS = {
