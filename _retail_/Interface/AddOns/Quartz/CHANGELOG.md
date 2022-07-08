@@ -1,7 +1,7 @@
 # Quartz
 
-## [3.6.9](https://github.com/Nevcairiel/Quartz/tree/3.6.9) (2022-02-23)
-[Full Changelog](https://github.com/Nevcairiel/Quartz/compare/3.6.8...3.6.9) [Previous Releases](https://github.com/Nevcairiel/Quartz/releases)
+## [3.6.11](https://github.com/Nevcairiel/Quartz/tree/3.6.11) (2022-06-27)
+[Full Changelog](https://github.com/Nevcairiel/Quartz/compare/3.6.10...3.6.11) [Previous Releases](https://github.com/Nevcairiel/Quartz/releases)
 
-- Update TOC  
-- Add fallback channeling table  
+- Fallback to the spell if displayName is not set  
+- Re-add support for LibClassicCasterino  

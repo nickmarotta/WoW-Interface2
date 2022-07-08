@@ -97,13 +97,6 @@ X: 0
 Y: 0
 W: 100
 H: 80
-Frame: ReadyCheckScreenFrame
-FrameLevel: 1
-Anchor: TOP
-X: 52
-Y: -195
-W: 300
-H: 240
 Frame: RALeaderToolbarMainFrame
 FrameLevel: 1
 Anchor: CENTER
@@ -146,3 +139,10 @@ X: -9
 Y: -160
 W: 114
 H: 24
+Frame: ReadyCheckScreenFrame
+FrameLevel: 1
+Anchor: TOP
+X: 52
+Y: -195
+W: 300
+H: 90

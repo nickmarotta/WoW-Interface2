@@ -16,11 +16,11 @@ HandyNotes_ShadowlandsDB = {
 			["icon_display_echoed_jiros"] = false,
 			["icon_display_pet_battles"] = false,
 			["icon_display_code_creature"] = false,
-			["icon_scale_treasures"] = 1,
+			["icon_display_exile_tales"] = true,
 			["icon_display_rares"] = true,
 			["icon_display_treasures"] = false,
-			["icon_display_exile_tales"] = true,
 			["icon_display_anima_shard"] = true,
+			["icon_scale_treasures"] = 1,
 		},
 	},
 }

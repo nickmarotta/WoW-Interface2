@@ -56,6 +56,7 @@ HealBot_Timers_luVars["UpdateAllBuffIcons"]=false
 HealBot_Timers_luVars["SlowDelayedTime"]=0
 HealBot_Timers_luVars["DoneBuffReset"]=false
 HealBot_Timers_luVars["nCalls"]=0
+HealBot_Timers_luVars["GetGuildVersion"]=true
 
 function HealBot_Timers_setLuVars(vName, vValue)
     HealBot_Timers_luVars[vName]=vValue
@@ -107,7 +108,8 @@ function HealBot_Timers_nextRecalcEnemy()
 end
 
 function HealBot_Timers_MouseWheelUpdate()
-    if not InCombatLockdown() then
+    local g = _G["f1_HealBot_Action"]
+    if not InCombatLockdown() and g then
         for i=1, 10 do
             local g = _G["f"..i.."_HealBot_Action"]
             if HealBot_Globals.HealBot_Enable_MouseWheel then
@@ -260,6 +262,9 @@ function HealBot_Timers_LoadComplete()
 end
 
 function HealBot_Timers_LastUpdate()
+    HealBot_Timers_luVars["GetGuildVersion"]=true
+    HealBot_setLuVars("DoSendGuildVersion", true)
+    HealBot_Timers_Set("AUX","UpdateAllAuxByType")
     HealBot_Timers_Set("INITSLOW","DisableCheck")
     HealBot_Timers_Set("LAST","UpdateAllHealth")
     HealBot_Timers_Set("LAST","PlayerCheckExtended")
@@ -267,6 +272,8 @@ function HealBot_Timers_LastUpdate()
     HealBot_Timers_Set("DELAYED","AuraCheckUnits")
 	HealBot_Timers_Set("DELAYED","UpdateAllUnitBars")
     HealBot_Timers_Set("DELAYED","ProcCacheButtons")
+    HealBot_Timers_Set("DELAYED","CheckVersions")
+    HealBot_Timers_Set("DELAYED","DebuffIdLookup")
     HealBot_Timers_Set("DELAYED","LoadComplete")
 end
 
@@ -296,8 +303,8 @@ function HealBot_Timers_EnteringWorld2()
 end
 
 function HealBot_Timers_EnteringWorld()
-    HealBot_Timers_Set("PARTYSLOW","TargetFocusUpdate")
     HealBot_Timers_Set("SKINS","PartyUpdateCheckSkin")
+    HealBot_Timers_Set("PARTYSLOW","TargetFocusUpdate")
     HealBot_Timers_Set("PARTYSLOW","ResetUnitStatus")
     HealBot_Timers_Set("LAST","UpdateEmergBars")
     HealBot_Timers_Set("DELAYED","EnteringWorld2")
@@ -317,6 +324,26 @@ function HealBot_Timers_CheckDC()
         --HealBot_setCall("HealBot_Timers_CheckDC")
 end
 
+function HealBot_Timers_GetGuildVersion()
+    HealBot_Comms_SendAddonMsg("G", 3)
+end
+
+function HealBot_Timers_GetVersion()
+    HealBot_Comms_SendAddonMsg("R", 1)
+    if HealBot_Timers_luVars["GetGuildVersion"] then
+        HealBot_Timers_luVars["GetGuildVersion"]=false
+        HealBot_Timers_Set("DELAYED","GetGuildVersion")
+    end
+end
+
+function HealBot_Timers_SendVersion()
+    HealBot_Comms_SendAddonMsg("S:"..HEALBOT_VERSION, 1)
+end
+
+function HealBot_Timers_SendGuildVersion()
+    HealBot_Comms_SendAddonMsg("S:"..HEALBOT_VERSION, 3)
+end
+
 function HealBot_Timers_QuickFramesChanged()
     HealBot_Options_framesChanged(false)
 end
@@ -333,8 +360,21 @@ function HealBot_Timers_IndicatorFramesChanged()
     HealBot_Options_framesChanged(false, false, true)
 end
 
+function HealBot_Timers_TextFramesChanged()
+    HealBot_Options_framesChanged(false, false, false, true)
+end
+
+function HealBot_Timers_AuxFramesChanged()
+    HealBot_Options_framesChanged(false, false, false, false, true)
+end
+
+function HealBot_Timers_SkinsAuxFramesChanged()
+    HealBot_Options_framesChanged(true, false, false, false, true)
+end
+
 function HealBot_Timers_AllFramesChanged()
-    HealBot_Options_framesChanged(true, true, true)
+    HealBot_Options_framesChanged(true, true, true, true, true)
+    HealBot_Timers_Set("SKINS","ResetFrameAlias")
 end
 
 function HealBot_Timers_Loaded()
@@ -394,6 +434,7 @@ local hbTimerFuncs={["INIT"]={
                         ["ClearSeparateInHealsAbsorbs"]=HealBot_Text_ClearSeparateInHealsAbsorbs,
                         ["ClearOverHeals"]=HealBot_Text_ClearOverHeals,
                         ["SkinColours"]=HealBot_SetSkinColours,
+                        ["UpdateBackground"]=HealBot_UpdateAllBackground,
                         ["SkinBarTextColours"]=HealBot_Timers_SkinBarTextColours,
                         ["SetSkinBars"]=HealBot_Options_SetSkinBars,
                         ["TogglePartyFrames"]=HealBot_Timer_TogglePartyFrames,
@@ -404,18 +445,20 @@ local hbTimerFuncs={["INIT"]={
                         ["RaidTargetUpdate"]=HealBot_Options_RaidTargetUpdate,
                         ["FluidFlashInUse"]=HealBot_Options_FluidFlashInUse,
                         ["SetFocusGroups"]=HealBot_Action_SetFocusGroups,
-                        ["SwitchStateFontString"]=HealBot_Text_SwitchStateFontString,
                         ["EmergHealthCol"]=HealBot_Action_EmergHealthCol,
+                        ["ResetFrameAlias"]=HealBot_Action_ResetFrameAlias,
+                        ["ResetOpacity"]=HealBot_Action_ResetOpacity,
                     },
                     ["AUX"]={
                         ["ClearBars"]=HealBot_Options_clearAuxBars,
                         ["SetBars"]=HealBot_Options_setAuxBars,
                         ["BarFlashAlphaMinMax"]=HealBot_Options_AuxBarFlashAlphaMinMaxSet,
-                        ["UpdateAllUnitBars"]=HealBot_UpdateAllAuxBars,
+                        ["UpdateAllAuxBars"]=HealBot_UpdateAllAuxBars,
+                        ["UpdateAllAuxByType"]=HealBot_Aux_UpdateAllAuxByType,
+                        ["CheckAllAuxOverLays"]=HealBot_CheckAllAuxOverLays,
                         ["ResetBars"]=HealBot_Aux_resetBars,
                     },
                     ["EMERG"]={
-                        ["ResetBars"]=HealBot_Action_ResetEmergBars,
                         ["UpdateBars"]=HealBot_UpdateAllEmergBars,
                     },
                     ["AURA"]={
@@ -460,7 +503,6 @@ local hbTimerFuncs={["INIT"]={
                         ["RefreshPartyNextRecalcPets"]=HealBot_Timers_nextRecalcPets,
                         ["RefreshPartyNextRecalcVehicle"]=HealBot_Timers_nextRecalcVehicle,
                         ["ResetUnitStatus"]=HealBot_Action_ResetUnitStatus,
-                        ["ResetUnitOpacity"]=HealBot_Action_ResetUnitOpacity,
                         ["ResetAllButtons"]=HealBot_Action_ResetAllButtons,
                         ["LowManaTrig"]=HealBot_Action_setLowManaTrig,
                         ["CheckLowMana"]=HealBot_Timers_CheckLowMana,
@@ -481,7 +523,6 @@ local hbTimerFuncs={["INIT"]={
                         ["RemoveUnusedBuffIcons"]=HealBot_Aura_RemoveUnusedBuffIcons,
                         ["UpdateAllIconsAlpha"]=HealBot_UpdateAllIconsAlpha,
                         ["RaidTargetUpdateAll"]=HealBot_OnEvent_RaidTargetUpdateAll,
-                        ["FrameAliasTextChange"]=HealBot_Options_FrameAlias_AfterTextChange,
                         ["BarFreqVars"]=HealBot_Options_BarFreq_setVars,
                         ["OverrideFramesUseToggle"]=HealBot_Options_Override_FramesUse_Toggle,
                         ["ModKey"]=HealBot_Action_ModKey,
@@ -516,15 +557,32 @@ local hbTimerFuncs={["INIT"]={
                         ["Reload"]=HealBot_Reload,
                         ["FullReload"]=HealBot_FullReload,
                         ["ReadyCheck"]=HealBot_ReadyCheck,
+                        ["ReadyCheckClear"]=HealBot_OnEvent_ReadyCheckClear,
                         ["LoadComplete"]=HealBot_Timers_LoadComplete,
                         ["QuickFramesChanged"]=HealBot_Timers_QuickFramesChanged,
                         ["SkinsFramesChanged"]=HealBot_Timers_SkinsFramesChanged,
                         ["IconsFramesChanged"]=HealBot_Timers_IconsFramesChanged,
                         ["IndicatorFramesChanged"]=HealBot_Timers_IndicatorFramesChanged,
+                        ["TextFramesChanged"]=HealBot_Timers_TextFramesChanged,
+                        ["AuxFramesChanged"]=HealBot_Timers_AuxFramesChanged,
+                        ["SkinsAuxFramesChanged"]=HealBot_Timers_SkinsAuxFramesChanged,
                         ["AllFramesChanged"]=HealBot_Timers_AllFramesChanged,
                         ["UpdateMaxUnitsAdj"]=HealBot_UpdateMaxUnitsAdj,
                         ["SetLang"]=HealBot_Timers_Lang,
                         ["DisableCheck"]=HealBot_Options_DisableCheck,
+                        ["GetVersion"]=HealBot_Timers_GetVersion,
+                        ["GetGuildVersion"]=HealBot_Timers_GetGuildVersion,
+                        ["SendVersion"]=HealBot_Timers_SendVersion,
+                        ["SendGuildVersion"]=HealBot_Timers_SendGuildVersion,
+                        ["updAllAuxRangeBars"]=HealBot_updAllAuxRangeBars,
+                        ["updAllAuxRange30Bars"]=HealBot_updAllAuxRange30Bars,
+                        ["updAllAuxBuffBars"]=HealBot_updAllAuxBuffBars,
+                        ["updAllAuxDebuffBars"]=HealBot_updAllAuxDebuffBars,
+                        ["UpdateAllAuxPowerBars"]=HealBot_UpdateAllAuxPowerBars,
+                        ["AuxConfigBarChange"]=HealBot_Options_AuxConfigBarChange,
+                        ["CheckVersions"]=HealBot_CheckVersions,
+                        ["BuffIdLookup"]=HealBot_Aura_BuffIdLookup,
+                        ["DebuffIdLookup"]=HealBot_Aura_DebuffIdLookup,
                     },
                    }
 
@@ -617,7 +675,6 @@ function HealBot_Timers_ClearTimers()
             table.remove(HealBot_Timers["AURA"],1)
         end
     end
-
 end
 
 function HealBot_Timers_PlayerRegenDisabled()
@@ -625,10 +682,18 @@ function HealBot_Timers_PlayerRegenDisabled()
         if not HealBot_retLuVars("Loaded") then
             HealBot_OnEvent_VariablesLoaded()
             HealBot_Timers_Set("DELAYED","FullReload")
+            if not HealBot_retLuVars("AddonLoaded") then
+                HealBot_Options_InitVars()
+                HealBot_Timers_Set("AUX","ClearBars")
+                HealBot_Timers_Set("AUX","SetBars")
+                HealBot_Timers_Set("AUX","UpdateAllAuxBars")
+            end
         end
         HealBot_Timers_Set("INIT","InitBuffList")
         HealBot_Timers_Set("INIT","SpellsTabText")
         HealBot_Timers_Set("INIT","FluidFlash")
+        HealBot_Timers_Set("AUX","UpdateAllAuxByType")
+        HealBot_Timers_Set("PLAYER","PlayerTargetChanged")
         HealBot_Timers_BuffsReset()
         for x=1,3 do
             HealBot_Timers_ClearTimers()
@@ -673,38 +738,38 @@ function HealBot_Timers_Run()
         table.remove(HealBot_Timers["RUNDELAYED"],1)
     elseif HealBot_Timers["INITSLOW"][1] then
         if HealBot_Timers_luVars["SlowDelayedTime"]<GetTime() then
-            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.05
-            HealBot_Timers_RunDelayedTimer("INITSLOW", HealBot_Timers["INITSLOW"][1],0.025)
+            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.025
+            HealBot_Timers_RunDelayedTimer("INITSLOW", HealBot_Timers["INITSLOW"][1],0.01)
             table.remove(HealBot_Timers["INITSLOW"],1)
         end
     elseif HealBot_Timers["PARTYSLOW"][1] then
         if HealBot_Timers_luVars["SlowDelayedTime"]<GetTime() then
-            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.05
-            HealBot_Timers_RunDelayedTimer("PARTYSLOW", HealBot_Timers["PARTYSLOW"][1],0.025)
+            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.025
+            HealBot_Timers_RunDelayedTimer("PARTYSLOW", HealBot_Timers["PARTYSLOW"][1],0.01)
             table.remove(HealBot_Timers["PARTYSLOW"],1)
         end
     elseif HealBot_Timers["PLAYERSLOW"][1] then
         if HealBot_Timers_luVars["SlowDelayedTime"]<GetTime() then
-            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.05
-            HealBot_Timers_RunDelayedTimer("PLAYERSLOW", HealBot_Timers["PLAYERSLOW"][1],0.025)
+            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.025
+            HealBot_Timers_RunDelayedTimer("PLAYERSLOW", HealBot_Timers["PLAYERSLOW"][1],0.01)
             table.remove(HealBot_Timers["PLAYERSLOW"],1)
         end
     elseif HealBot_Timers["SKINSSLOW"][1] then
         if HealBot_Timers_luVars["SlowDelayedTime"]<GetTime() then
-            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.05
-            HealBot_Timers_RunDelayedTimer("SKINSSLOW", HealBot_Timers["SKINSSLOW"][1],0.025)
+            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.025
+            HealBot_Timers_RunDelayedTimer("SKINSSLOW", HealBot_Timers["SKINSSLOW"][1],0.01)
             table.remove(HealBot_Timers["SKINSSLOW"],1)
         end
     elseif HealBot_Timers["LAST"][1] then
         if HealBot_Timers_luVars["SlowDelayedTime"]<GetTime() then
-            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.1
-            HealBot_Timers_RunDelayedTimer("LAST", HealBot_Timers["LAST"][1],0.05)
+            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.05
+            HealBot_Timers_RunDelayedTimer("LAST", HealBot_Timers["LAST"][1],0.01)
             table.remove(HealBot_Timers["LAST"],1)
         end
     elseif HealBot_Timers["DELAYED"][1] then
         if HealBot_Timers_luVars["SlowDelayedTime"]<GetTime() then
-            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.2
-            HealBot_Timers_RunDelayedTimer("DELAYED", HealBot_Timers["DELAYED"][1],0.1)
+            HealBot_Timers_luVars["SlowDelayedTime"]=GetTime()+0.1
+            HealBot_Timers_RunDelayedTimer("DELAYED", HealBot_Timers["DELAYED"][1],0.01)
             table.remove(HealBot_Timers["DELAYED"],1)
         end
     else

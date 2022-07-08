@@ -1,9 +1,3 @@
-VER 3 0100000000000016 " " "132303"
-/cast [@focus] Death Grip
-END
-VER 3 010000000000000B " " "132096"
-/cast [@arena1] Mind Freeze
-END
 VER 3 0100000000000002 " " "132172"
 #showtooltip 15
 /use 15
@@ -14,6 +8,12 @@ VER 3 0100000000000001 " " "132307"
 END
 VER 3 0100000000000014 " " "644389"
 /cast [@focus] Asphyxiate
+END
+VER 3 0100000000000016 " " "132303"
+/cast [@focus] Death Grip
+END
+VER 3 010000000000000B " " "132096"
+/cast [@arena1] Mind Freeze
 END
 VER 3 010000000000001B " ALL" "INV_MISC_QUESTIONMARK"
 #showtooltip Pillar of Frost 

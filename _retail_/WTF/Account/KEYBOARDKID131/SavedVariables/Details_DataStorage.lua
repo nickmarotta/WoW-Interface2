@@ -1,6 +1,6 @@
 
 DetailsDataStorage = {
-	["saved_encounters"] = {
+	["mythic_plus"] = {
 	},
 	[17] = {
 		[2546] = {
@@ -45,8 +45,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630465900,
-				["date"] = "23:11 31/08/21",
 				["elapsed"] = 346.471000000136,
+				["date"] = "23:11 31/08/21",
 				["healing"] = {
 					["Sendmoons"] = {
 						2092222, -- [1]
@@ -107,7 +107,7 @@ DetailsDataStorage = {
 				["time"] = 1631066328,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1631066326,
-				["elapsed"] = 388.4819999998435,
+				["date"] = "21:58 07/09/21",
 				["healing"] = {
 					["Missteak"] = {
 						2227467, -- [1]
@@ -115,7 +115,7 @@ DetailsDataStorage = {
 						5, -- [3]
 					},
 				},
-				["date"] = "21:58 07/09/21",
+				["elapsed"] = 388.4819999998435,
 				["damage"] = {
 					["Crub"] = {
 						775728, -- [1]
@@ -170,7 +170,7 @@ DetailsDataStorage = {
 				["time"] = 1628817976,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628817974,
-				["elapsed"] = 300.7520000000004,
+				["date"] = "21:26 12/08/21",
 				["healing"] = {
 					["Coasting"] = {
 						2347872, -- [1]
@@ -183,7 +183,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "21:26 12/08/21",
+				["elapsed"] = 300.7520000000004,
 				["damage"] = {
 					["Crub"] = {
 						767751, -- [1]
@@ -236,10 +236,10 @@ DetailsDataStorage = {
 				["time"] = 1630023645,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1630023644,
-				["elapsed"] = 243.3099999998231,
+				["date"] = "20:20 26/08/21",
 				["healing"] = {
 				},
-				["date"] = "20:20 26/08/21",
+				["elapsed"] = 243.3099999998231,
 				["damage"] = {
 					["Crub"] = {
 						644606, -- [1]
@@ -291,8 +291,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630462294,
-				["date"] = "22:11 31/08/21",
 				["elapsed"] = 246.747999999905,
+				["date"] = "22:11 31/08/21",
 				["healing"] = {
 					["Sendmoons"] = {
 						1069226, -- [1]
@@ -354,8 +354,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628822552,
-				["elapsed"] = 399.5839999999989,
 				["date"] = "22:42 12/08/21",
+				["elapsed"] = 399.5839999999989,
 				["healing"] = {
 					["Coasting"] = {
 						3388009, -- [1]
@@ -426,10 +426,10 @@ DetailsDataStorage = {
 				["time"] = 1630024544,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1630024544,
-				["elapsed"] = 314.4250000000466,
+				["date"] = "20:35 26/08/21",
 				["healing"] = {
 				},
-				["date"] = "20:35 26/08/21",
+				["elapsed"] = 314.4250000000466,
 				["damage"] = {
 					["Crub"] = {
 						1260614, -- [1]
@@ -481,8 +481,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630463052,
-				["date"] = "22:24 31/08/21",
 				["elapsed"] = 321.7299999999814,
+				["date"] = "22:24 31/08/21",
 				["healing"] = {
 					["Sendmoons"] = {
 						1658520, -- [1]
@@ -563,7 +563,7 @@ DetailsDataStorage = {
 				["time"] = 1628213873,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628213871,
-				["date"] = "21:37 05/08/21",
+				["elapsed"] = 277.8599999998696,
 				["healing"] = {
 					["Coasting"] = {
 						2122601, -- [1]
@@ -576,7 +576,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 277.8599999998696,
+				["date"] = "21:37 05/08/21",
 				["damage"] = {
 					["Crub"] = {
 						1396348, -- [1]
@@ -628,8 +628,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628650895,
-				["date"] = "23:01 10/08/21",
 				["elapsed"] = 352.3819999997504,
+				["date"] = "23:01 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1150574, -- [1]
@@ -694,8 +694,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629253900,
-				["date"] = "22:31 17/08/21",
 				["elapsed"] = 333.99099999998,
+				["date"] = "22:31 17/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1518849, -- [1]
@@ -765,8 +765,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629855474,
-				["date"] = "21:37 24/08/21",
 				["elapsed"] = 227,
+				["date"] = "21:37 24/08/21",
 				["healing"] = {
 					["Kred"] = {
 						1673515, -- [1]
@@ -827,7 +827,7 @@ DetailsDataStorage = {
 				["time"] = 1630457315,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1630457315,
-				["date"] = "20:48 31/08/21",
+				["elapsed"] = 245.6769999999087,
 				["healing"] = {
 					["Sendmoons"] = {
 						1111638, -- [1]
@@ -835,7 +835,7 @@ DetailsDataStorage = {
 						11, -- [3]
 					},
 				},
-				["elapsed"] = 245.6769999999087,
+				["date"] = "20:48 31/08/21",
 				["damage"] = {
 					["Crub"] = {
 						936241, -- [1]
@@ -887,8 +887,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1631060803,
-				["date"] = "20:26 07/09/21",
 				["elapsed"] = 235.8629999998957,
+				["date"] = "20:26 07/09/21",
 				["healing"] = {
 					["Missteak"] = {
 						1218116, -- [1]
@@ -950,8 +950,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1627608667,
-				["elapsed"] = 389.9790000000503,
 				["date"] = "21:31 29/07/21",
+				["elapsed"] = 389.9790000000503,
 				["healing"] = {
 					["Coasting"] = {
 						3139956, -- [1]
@@ -1022,7 +1022,7 @@ DetailsDataStorage = {
 				["time"] = 1628217863,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628217861,
-				["date"] = "22:44 05/08/21",
+				["elapsed"] = 409.6450000000186,
 				["healing"] = {
 					["Coasting"] = {
 						3403012, -- [1]
@@ -1035,7 +1035,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 409.6450000000186,
+				["date"] = "22:44 05/08/21",
 				["damage"] = {
 					["Crub"] = {
 						1246245, -- [1]
@@ -1088,7 +1088,7 @@ DetailsDataStorage = {
 				["time"] = 1628816579,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628816577,
-				["elapsed"] = 336.8319999999999,
+				["date"] = "21:02 12/08/21",
 				["healing"] = {
 					["Coasting"] = {
 						2922838, -- [1]
@@ -1101,7 +1101,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "21:02 12/08/21",
+				["elapsed"] = 336.8319999999999,
 				["damage"] = {
 					["Crub"] = {
 						1034201, -- [1]
@@ -1153,8 +1153,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629858203,
-				["date"] = "22:23 24/08/21",
 				["elapsed"] = 273.4340000000084,
+				["date"] = "22:23 24/08/21",
 				["healing"] = {
 					["Kred"] = {
 						2390161, -- [1]
@@ -1219,8 +1219,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630461272,
-				["date"] = "21:54 31/08/21",
 				["elapsed"] = 296.1340000000782,
+				["date"] = "21:54 31/08/21",
 				["healing"] = {
 					["Sendmoons"] = {
 						1495334, -- [1]
@@ -1283,7 +1283,7 @@ DetailsDataStorage = {
 				["time"] = 1627439261,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1627439260,
-				["elapsed"] = 407.0910000000149,
+				["date"] = "22:27 27/07/21",
 				["healing"] = {
 					["Coasting"] = {
 						2253710, -- [1]
@@ -1296,7 +1296,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "22:27 27/07/21",
+				["elapsed"] = 407.0910000000149,
 				["damage"] = {
 					["Crub"] = {
 						713909, -- [1]
@@ -1349,7 +1349,7 @@ DetailsDataStorage = {
 				["time"] = 1628215674,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628215672,
-				["date"] = "22:07 05/08/21",
+				["elapsed"] = 421.6310000000522,
 				["healing"] = {
 					["Coasting"] = {
 						2511626, -- [1]
@@ -1362,7 +1362,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 421.6310000000522,
+				["date"] = "22:07 05/08/21",
 				["damage"] = {
 					["Crub"] = {
 						785536, -- [1]
@@ -1415,7 +1415,7 @@ DetailsDataStorage = {
 				["time"] = 1628815514,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628815512,
-				["elapsed"] = 355.8960000000002,
+				["date"] = "20:45 12/08/21",
 				["healing"] = {
 					["Coasting"] = {
 						1882311, -- [1]
@@ -1428,7 +1428,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["date"] = "20:45 12/08/21",
+				["elapsed"] = 355.8960000000002,
 				["damage"] = {
 					["Crub"] = {
 						867845, -- [1]
@@ -1480,8 +1480,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629255041,
-				["date"] = "22:50 17/08/21",
 				["elapsed"] = 335.4940000000061,
+				["date"] = "22:50 17/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1197747, -- [1]
@@ -1546,8 +1546,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630458115,
-				["date"] = "21:01 31/08/21",
 				["elapsed"] = 284.935999999987,
+				["date"] = "21:01 31/08/21",
 				["healing"] = {
 					["Sendmoons"] = {
 						1372244, -- [1]
@@ -1608,7 +1608,7 @@ DetailsDataStorage = {
 				["time"] = 1633482592,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1633482590,
-				["date"] = "21:09 05/10/21",
+				["elapsed"] = 392.4849999998696,
 				["healing"] = {
 					["Neosporina"] = {
 						687430, -- [1]
@@ -1621,7 +1621,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 392.4849999998696,
+				["date"] = "21:09 05/10/21",
 				["damage"] = {
 					["Escargoth"] = {
 						60651, -- [1]
@@ -1665,7 +1665,7 @@ DetailsDataStorage = {
 		},
 	},
 	["VERSION"] = 5,
-	[16] = {
+	["saved_encounters"] = {
 	},
 	[14] = {
 		[2429] = {
@@ -1673,7 +1673,7 @@ DetailsDataStorage = {
 				["time"] = 1625622606,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1625622604,
-				["date"] = "21:50 06/07/21",
+				["elapsed"] = 468.3069999999716,
 				["healing"] = {
 					["Coasting"] = {
 						2286701, -- [1]
@@ -1686,7 +1686,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 468.3069999999716,
+				["date"] = "21:50 06/07/21",
 				["damage"] = {
 					["Crub"] = {
 						976603, -- [1]
@@ -1754,7 +1754,7 @@ DetailsDataStorage = {
 				["time"] = 1626226185,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626226183,
-				["date"] = "21:29 13/07/21",
+				["elapsed"] = 354.5529999999562,
 				["healing"] = {
 					["Coasting"] = {
 						2078013, -- [1]
@@ -1767,7 +1767,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 354.5529999999562,
+				["date"] = "21:29 13/07/21",
 				["damage"] = {
 					["Arçher"] = {
 						944990, -- [1]
@@ -1799,25 +1799,25 @@ DetailsDataStorage = {
 						204.8, -- [2]
 						2, -- [3]
 					},
-					["Steakdh"] = {
-						2199827, -- [1]
-						226.6875, -- [2]
-						12, -- [3]
+					["Draconmar"] = {
+						1648968, -- [1]
+						213.8, -- [2]
+						8, -- [3]
 					},
 					["Awaste"] = {
 						804908, -- [1]
 						215.1875, -- [2]
 						9, -- [3]
 					},
-					["Draconmar"] = {
-						1648968, -- [1]
-						213.8, -- [2]
-						8, -- [3]
-					},
 					["Ephyx"] = {
 						1876160, -- [1]
 						224.4666666666667, -- [2]
 						8, -- [3]
+					},
+					["Steakdh"] = {
+						2199827, -- [1]
+						226.6875, -- [2]
+						12, -- [3]
 					},
 					["Anguskhän"] = {
 						1731280, -- [1]
@@ -1834,8 +1834,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628642505,
-				["date"] = "20:41 10/08/21",
 				["elapsed"] = 261.9349999995902,
+				["date"] = "20:41 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1106541, -- [1]
@@ -1908,7 +1908,7 @@ DetailsDataStorage = {
 				["time"] = 1626403314,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626403312,
-				["date"] = "22:41 15/07/21",
+				["elapsed"] = 537.0599999999977,
 				["healing"] = {
 					["Coasting"] = {
 						2607012, -- [1]
@@ -1921,7 +1921,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 537.0599999999977,
+				["date"] = "22:41 15/07/21",
 				["damage"] = {
 					["Snurple"] = {
 						2891443, -- [1]
@@ -1988,8 +1988,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628646831,
-				["date"] = "21:53 10/08/21",
 				["elapsed"] = 408.7289999998175,
+				["date"] = "21:53 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1736474, -- [1]
@@ -2059,8 +2059,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629252417,
-				["date"] = "22:06 17/08/21",
 				["elapsed"] = 435.5350000000326,
+				["date"] = "22:06 17/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1489874, -- [1]
@@ -2128,7 +2128,7 @@ DetailsDataStorage = {
 				["time"] = 1625620701,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1625620699,
-				["date"] = "21:18 06/07/21",
+				["elapsed"] = 357.7140000000363,
 				["healing"] = {
 					["Coasting"] = {
 						1171924, -- [1]
@@ -2141,7 +2141,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 357.7140000000363,
+				["date"] = "21:18 06/07/21",
 				["damage"] = {
 					["Crub"] = {
 						561472, -- [1]
@@ -2209,7 +2209,7 @@ DetailsDataStorage = {
 				["time"] = 1626225093,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626225091,
-				["date"] = "21:11 13/07/21",
+				["elapsed"] = 297.6849999999395,
 				["healing"] = {
 					["Coasting"] = {
 						1083138, -- [1]
@@ -2222,7 +2222,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 297.6849999999395,
+				["date"] = "21:11 13/07/21",
 				["damage"] = {
 					["Arçher"] = {
 						440764, -- [1]
@@ -2254,25 +2254,25 @@ DetailsDataStorage = {
 						204.8, -- [2]
 						2, -- [3]
 					},
-					["Steakdh"] = {
-						1250261, -- [1]
-						226.6875, -- [2]
-						12, -- [3]
+					["Draconmar"] = {
+						864146, -- [1]
+						213.8, -- [2]
+						8, -- [3]
 					},
 					["Awaste"] = {
 						721534, -- [1]
 						213.1875, -- [2]
 						9, -- [3]
 					},
-					["Draconmar"] = {
-						864146, -- [1]
-						213.8, -- [2]
-						8, -- [3]
-					},
 					["Ephyx"] = {
 						1250004, -- [1]
 						224.4666666666667, -- [2]
 						8, -- [3]
+					},
+					["Steakdh"] = {
+						1250261, -- [1]
+						226.6875, -- [2]
+						12, -- [3]
 					},
 					["Anguskhän"] = {
 						1184083, -- [1]
@@ -2289,8 +2289,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628641879,
-				["date"] = "20:31 10/08/21",
 				["elapsed"] = 239.6760000004433,
+				["date"] = "20:31 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1056913, -- [1]
@@ -2363,7 +2363,7 @@ DetailsDataStorage = {
 				["time"] = 1628211821,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1628211819,
-				["date"] = "21:03 05/08/21",
+				["elapsed"] = 733.6870000001509,
 				["healing"] = {
 					["Coasting"] = {
 						4050308, -- [1]
@@ -2376,7 +2376,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 733.6870000001509,
+				["date"] = "21:03 05/08/21",
 				["damage"] = {
 					["Crub"] = {
 						1146813, -- [1]
@@ -2393,25 +2393,25 @@ DetailsDataStorage = {
 						234.875, -- [2]
 						3, -- [3]
 					},
+					["Ephyx"] = {
+						2684679, -- [1]
+						238.5625, -- [2]
+						8, -- [3]
+					},
 					["Draconmar"] = {
 						2144101, -- [1]
 						222.25, -- [2]
 						8, -- [3]
-					},
-					["Steakdh"] = {
-						3537815, -- [1]
-						238.125, -- [2]
-						12, -- [3]
 					},
 					["Awaste"] = {
 						1690572, -- [1]
 						227.4375, -- [2]
 						9, -- [3]
 					},
-					["Ephyx"] = {
-						2684679, -- [1]
-						238.5625, -- [2]
-						8, -- [3]
+					["Steakdh"] = {
+						3537815, -- [1]
+						238.125, -- [2]
+						12, -- [3]
 					},
 					["Arçher"] = {
 						1707183, -- [1]
@@ -2433,8 +2433,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628649390,
-				["date"] = "22:36 10/08/21",
 				["elapsed"] = 734.4590000002645,
+				["date"] = "22:36 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						2718878, -- [1]
@@ -2504,8 +2504,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629853354,
-				["date"] = "21:02 24/08/21",
 				["elapsed"] = 712.6209999999264,
+				["date"] = "21:02 24/08/21",
 				["healing"] = {
 					["Kred"] = {
 						4061492, -- [1]
@@ -2555,8 +2555,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630456206,
-				["elapsed"] = 646.810999999987,
 				["date"] = "20:30 31/08/21",
+				["elapsed"] = 646.810999999987,
 				["healing"] = {
 					["Sendmoons"] = {
 						2418816, -- [1]
@@ -2624,8 +2624,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628648494,
-				["date"] = "22:21 10/08/21",
 				["elapsed"] = 416.5879999999888,
+				["date"] = "22:21 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1754970, -- [1]
@@ -2695,8 +2695,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629852241,
-				["date"] = "20:44 24/08/21",
 				["elapsed"] = 474.1720000000205,
+				["date"] = "20:44 24/08/21",
 				["healing"] = {
 					["Neosporina"] = {
 						354571, -- [1]
@@ -2746,8 +2746,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1630455305,
-				["elapsed"] = 315.9919999998529,
 				["date"] = "20:15 31/08/21",
+				["elapsed"] = 315.9919999998529,
 				["healing"] = {
 					["Sendmoons"] = {
 						1238994, -- [1]
@@ -2810,7 +2810,7 @@ DetailsDataStorage = {
 				["time"] = 1626231196,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626231194,
-				["date"] = "22:53 13/07/21",
+				["elapsed"] = 452.6500000000233,
 				["healing"] = {
 					["Coasting"] = {
 						2374818, -- [1]
@@ -2823,7 +2823,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 452.6500000000233,
+				["date"] = "22:53 13/07/21",
 				["damage"] = {
 					["Arçher"] = {
 						689848, -- [1]
@@ -2855,25 +2855,25 @@ DetailsDataStorage = {
 						208.75, -- [2]
 						2, -- [3]
 					},
-					["Steakdh"] = {
-						1812481, -- [1]
-						227.0625, -- [2]
-						12, -- [3]
+					["Draconmar"] = {
+						427031, -- [1]
+						214.6666666666667, -- [2]
+						8, -- [3]
 					},
 					["Awaste"] = {
 						1133724, -- [1]
 						216.8125, -- [2]
 						9, -- [3]
 					},
-					["Draconmar"] = {
-						427031, -- [1]
-						214.6666666666667, -- [2]
-						8, -- [3]
-					},
 					["Ephyx"] = {
 						1619964, -- [1]
 						228.25, -- [2]
 						8, -- [3]
+					},
+					["Steakdh"] = {
+						1812481, -- [1]
+						227.0625, -- [2]
+						12, -- [3]
 					},
 					["Anguskhän"] = {
 						1902193, -- [1]
@@ -2890,8 +2890,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628644597,
-				["date"] = "21:16 10/08/21",
 				["elapsed"] = 309.4009999996051,
+				["date"] = "21:16 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1599242, -- [1]
@@ -2964,7 +2964,7 @@ DetailsDataStorage = {
 				["time"] = 1625625486,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1625625484,
-				["date"] = "22:38 06/07/21",
+				["elapsed"] = 347.4309999999823,
 				["healing"] = {
 					["Coasting"] = {
 						1924204, -- [1]
@@ -2977,7 +2977,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 347.4309999999823,
+				["date"] = "22:38 06/07/21",
 				["damage"] = {
 					["Crub"] = {
 						713256, -- [1]
@@ -3045,7 +3045,7 @@ DetailsDataStorage = {
 				["time"] = 1626227726,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626227724,
-				["date"] = "21:55 13/07/21",
+				["elapsed"] = 273.4860000000335,
 				["healing"] = {
 					["Coasting"] = {
 						1783931, -- [1]
@@ -3058,7 +3058,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 273.4860000000335,
+				["date"] = "21:55 13/07/21",
 				["damage"] = {
 					["Arçher"] = {
 						621455, -- [1]
@@ -3090,25 +3090,25 @@ DetailsDataStorage = {
 						206.0666666666667, -- [2]
 						2, -- [3]
 					},
-					["Steakdh"] = {
-						1300820, -- [1]
-						227.0625, -- [2]
-						12, -- [3]
+					["Draconmar"] = {
+						1102701, -- [1]
+						213.75, -- [2]
+						8, -- [3]
 					},
 					["Awaste"] = {
 						1066316, -- [1]
 						215.1875, -- [2]
 						9, -- [3]
 					},
-					["Draconmar"] = {
-						1102701, -- [1]
-						213.75, -- [2]
-						8, -- [3]
-					},
 					["Ephyx"] = {
 						1511357, -- [1]
 						228.25, -- [2]
 						8, -- [3]
+					},
+					["Steakdh"] = {
+						1300820, -- [1]
+						227.0625, -- [2]
+						12, -- [3]
 					},
 					["Anguskhän"] = {
 						1364335, -- [1]
@@ -3125,8 +3125,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628643314,
-				["date"] = "20:55 10/08/21",
 				["elapsed"] = 186.3959999997169,
+				["date"] = "20:55 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						861154, -- [1]
@@ -3199,7 +3199,7 @@ DetailsDataStorage = {
 				["time"] = 1625626541,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1625626539,
-				["date"] = "22:55 06/07/21",
+				["elapsed"] = 520.630999999994,
 				["healing"] = {
 					["Coasting"] = {
 						2386222, -- [1]
@@ -3212,7 +3212,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 520.630999999994,
+				["date"] = "22:55 06/07/21",
 				["damage"] = {
 					["Crub"] = {
 						986741, -- [1]
@@ -3270,7 +3270,7 @@ DetailsDataStorage = {
 				["time"] = 1626229055,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626229053,
-				["date"] = "22:17 13/07/21",
+				["elapsed"] = 362.4769999999553,
 				["healing"] = {
 					["Coasting"] = {
 						2146635, -- [1]
@@ -3283,7 +3283,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 362.4769999999553,
+				["date"] = "22:17 13/07/21",
 				["damage"] = {
 					["Arçher"] = {
 						775292, -- [1]
@@ -3315,25 +3315,25 @@ DetailsDataStorage = {
 						208.75, -- [2]
 						2, -- [3]
 					},
-					["Steakdh"] = {
-						1860618, -- [1]
-						227.0625, -- [2]
-						12, -- [3]
+					["Draconmar"] = {
+						1297647, -- [1]
+						213.75, -- [2]
+						8, -- [3]
 					},
 					["Awaste"] = {
 						1206180, -- [1]
 						215.1875, -- [2]
 						9, -- [3]
 					},
-					["Draconmar"] = {
-						1297647, -- [1]
-						213.75, -- [2]
-						8, -- [3]
-					},
 					["Ephyx"] = {
 						1649509, -- [1]
 						228.25, -- [2]
 						8, -- [3]
+					},
+					["Steakdh"] = {
+						1860618, -- [1]
+						227.0625, -- [2]
+						12, -- [3]
 					},
 					["Anguskhän"] = {
 						1124576, -- [1]
@@ -3350,8 +3350,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628643933,
-				["date"] = "21:05 10/08/21",
 				["elapsed"] = 235.36699999962,
+				["date"] = "21:05 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1108864, -- [1]
@@ -3424,7 +3424,7 @@ DetailsDataStorage = {
 				["time"] = 1626396608,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626396606,
-				["elapsed"] = 326.7609999999986,
+				["date"] = "20:50 15/07/21",
 				["healing"] = {
 					["Coasting"] = {
 						2074017, -- [1]
@@ -3437,7 +3437,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["date"] = "20:50 15/07/21",
+				["elapsed"] = 326.7609999999986,
 				["damage"] = {
 					["Crub"] = {
 						729410, -- [1]
@@ -3494,8 +3494,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628645793,
-				["date"] = "21:36 10/08/21",
 				["elapsed"] = 252.5189999998547,
+				["date"] = "21:36 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						1473584, -- [1]
@@ -3578,7 +3578,7 @@ DetailsDataStorage = {
 				["time"] = 1625618641,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1625618639,
-				["date"] = "20:44 06/07/21",
+				["elapsed"] = 441.3570000000182,
 				["healing"] = {
 					["Coasting"] = {
 						1610773, -- [1]
@@ -3591,7 +3591,7 @@ DetailsDataStorage = {
 						2, -- [3]
 					},
 				},
-				["elapsed"] = 441.3570000000182,
+				["date"] = "20:44 06/07/21",
 				["damage"] = {
 					["Crub"] = {
 						1466100, -- [1]
@@ -3659,7 +3659,7 @@ DetailsDataStorage = {
 				["time"] = 1626224099,
 				["guild"] = "Poor Diplomacy",
 				["servertime"] = 1626224097,
-				["date"] = "20:54 13/07/21",
+				["elapsed"] = 305.3789999999572,
 				["healing"] = {
 					["Coasting"] = {
 						1705230, -- [1]
@@ -3672,7 +3672,7 @@ DetailsDataStorage = {
 						7, -- [3]
 					},
 				},
-				["elapsed"] = 305.3789999999572,
+				["date"] = "20:54 13/07/21",
 				["damage"] = {
 					["Arçher"] = {
 						733628, -- [1]
@@ -3704,25 +3704,25 @@ DetailsDataStorage = {
 						204.75, -- [2]
 						2, -- [3]
 					},
-					["Steakdh"] = {
-						2938327, -- [1]
-						226.6875, -- [2]
-						12, -- [3]
+					["Draconmar"] = {
+						2093478, -- [1]
+						213.75, -- [2]
+						8, -- [3]
 					},
 					["Awaste"] = {
 						1260081, -- [1]
 						213.1875, -- [2]
 						9, -- [3]
 					},
-					["Draconmar"] = {
-						2093478, -- [1]
-						213.75, -- [2]
-						8, -- [3]
-					},
 					["Ephyx"] = {
 						2382699, -- [1]
 						228.25, -- [2]
 						8, -- [3]
+					},
+					["Steakdh"] = {
+						2938327, -- [1]
+						226.6875, -- [2]
+						12, -- [3]
 					},
 					["Anguskhän"] = {
 						2281703, -- [1]
@@ -3739,8 +3739,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1628641048,
-				["date"] = "20:17 10/08/21",
 				["elapsed"] = 217.7830000002869,
+				["date"] = "20:17 10/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						867772, -- [1]
@@ -3810,8 +3810,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629246045,
-				["date"] = "20:20 17/08/21",
 				["elapsed"] = 204.0110000000568,
+				["date"] = "20:20 17/08/21",
 				["healing"] = {
 					["Bwonsamdesus"] = {
 						903384, -- [1]
@@ -3871,8 +3871,8 @@ DetailsDataStorage = {
 			{
 				["guild"] = "Poor Diplomacy",
 				["time"] = 1629851129,
-				["date"] = "20:25 24/08/21",
 				["elapsed"] = 250.7779999999329,
+				["date"] = "20:25 24/08/21",
 				["healing"] = {
 					["Neosporina"] = {
 						319832, -- [1]
@@ -3927,7 +3927,7 @@ DetailsDataStorage = {
 		[2546] = {
 		},
 	},
-	["mythic_plus"] = {
+	[16] = {
 	},
 	["totalkills"] = {
 		[2429] = {
@@ -3939,8 +3939,8 @@ DetailsDataStorage = {
 				["dps_best"] = 5983.008537800276,
 				["dps_best_raid"] = 61717.75194128538,
 				["time_fasterkill_when"] = 1625622606,
-				["dps_best_when"] = 1633655059,
 				["dps_best_raid_when"] = 1630904925,
+				["dps_best_when"] = 1633655059,
 			},
 			[15] = {
 				["time_incombat"] = 2876.169999999988,
@@ -3950,8 +3950,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6572.814638078776,
 				["dps_best_raid"] = 69458.525379511,
 				["time_fasterkill_when"] = 1628217863,
-				["dps_best_raid_when"] = 1629671393,
 				["dps_best_when"] = 1631665900,
+				["dps_best_raid_when"] = 1629671393,
 			},
 		},
 		[2431] = {
@@ -3963,8 +3963,8 @@ DetailsDataStorage = {
 				["dps_best"] = 5203.424205479857,
 				["dps_best_raid"] = 56647.70230514306,
 				["time_fasterkill_when"] = 1626403314,
-				["dps_best_raid_when"] = 1626403314,
 				["dps_best_when"] = 1626403314,
+				["dps_best_raid_when"] = 1626403314,
 			},
 			[15] = {
 				["time_incombat"] = 1663.392000000226,
@@ -3974,8 +3974,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6367.599097964238,
 				["dps_best_raid"] = 54015.41733840673,
 				["time_fasterkill_when"] = 1630635113,
-				["dps_best_raid_when"] = 1631069152,
 				["dps_best_when"] = 1630635113,
+				["dps_best_raid_when"] = 1631069152,
 			},
 		},
 		[2433] = {
@@ -3987,8 +3987,8 @@ DetailsDataStorage = {
 				["dps_best"] = 4424.905430100564,
 				["dps_best_raid"] = 53070.02303266237,
 				["time_fasterkill_when"] = 1625620701,
-				["dps_best_when"] = 1633654421,
 				["dps_best_raid_when"] = 1633654421,
+				["dps_best_when"] = 1633654421,
 			},
 			[15] = {
 				["time_incombat"] = 3297.916000000078,
@@ -3998,8 +3998,8 @@ DetailsDataStorage = {
 				["dps_best"] = 5294.186299865331,
 				["dps_best_raid"] = 57324.90309278565,
 				["time_fasterkill_when"] = 1628215674,
-				["dps_best_raid_when"] = 1629857244,
 				["dps_best_when"] = 1629857244,
+				["dps_best_raid_when"] = 1629857244,
 			},
 		},
 		[2435] = {
@@ -4011,8 +4011,8 @@ DetailsDataStorage = {
 				["dps_best"] = 3657.08814872484,
 				["dps_best_raid"] = 34210.14923908748,
 				["time_fasterkill_when"] = 1629248491,
-				["dps_best_when"] = 1633662053,
 				["dps_best_raid_when"] = 1628649390,
+				["dps_best_when"] = 1633662053,
 			},
 			[15] = {
 				["time_incombat"] = 736.4639999999199,
@@ -4020,9 +4020,9 @@ DetailsDataStorage = {
 				["wipes"] = 77,
 				["kills"] = 1,
 				["dps_best"] = 3664.904194345269,
-				["dps_best_raid_when"] = 1633055224,
-				["time_fasterkill_when"] = 1633055224,
 				["dps_best_when"] = 1633055224,
+				["time_fasterkill_when"] = 1633055224,
+				["dps_best_raid_when"] = 1633055224,
 				["dps_best_raid"] = 41240.34440244643,
 			},
 		},
@@ -4035,8 +4035,8 @@ DetailsDataStorage = {
 				["dps_best"] = 4402.907736259714,
 				["dps_best_raid"] = 26812.80942886797,
 				["time_fasterkill_when"] = 1617327292,
-				["dps_best_raid_when"] = 1617327292,
 				["dps_best_when"] = 1617327292,
+				["dps_best_raid_when"] = 1617327292,
 			},
 		},
 		[2398] = {
@@ -4048,8 +4048,8 @@ DetailsDataStorage = {
 				["dps_best"] = 1024.893267618871,
 				["dps_best_raid"] = 20683.85681127429,
 				["time_fasterkill_when"] = 1618535498,
-				["dps_best_when"] = 1617324418,
 				["dps_best_raid_when"] = 1618535498,
+				["dps_best_when"] = 1617324418,
 			},
 		},
 		[2412] = {
@@ -4061,8 +4061,8 @@ DetailsDataStorage = {
 				["dps_best"] = 1548.036480231187,
 				["dps_best_raid"] = 18265.67490301005,
 				["time_fasterkill_when"] = 1617330483,
-				["dps_best_raid_when"] = 1617330483,
 				["dps_best_when"] = 1617330483,
+				["dps_best_raid_when"] = 1617330483,
 			},
 		},
 		[2383] = {
@@ -4074,8 +4074,8 @@ DetailsDataStorage = {
 				["dps_best"] = 4048.852767180722,
 				["dps_best_raid"] = 19767.05645607333,
 				["time_fasterkill_when"] = 1617326337,
-				["dps_best_raid_when"] = 1617326337,
 				["dps_best_when"] = 1617326337,
+				["dps_best_raid_when"] = 1617326337,
 			},
 			[17] = {
 				["time_incombat"] = 192.6270000000077,
@@ -4083,9 +4083,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 3570.563845431703,
-				["dps_best_raid_when"] = 1619741454,
-				["time_fasterkill_when"] = 1619741454,
 				["dps_best_when"] = 1619741454,
+				["time_fasterkill_when"] = 1619741454,
+				["dps_best_raid_when"] = 1619741454,
 				["dps_best_raid"] = 41634.65142477265,
 			},
 		},
@@ -4098,8 +4098,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6656.806439699696,
 				["dps_best_raid"] = 69756.305265152,
 				["time_fasterkill_when"] = 1646965173,
-				["dps_best_when"] = 1646965173,
 				["dps_best_raid_when"] = 1648169830,
+				["dps_best_when"] = 1646965173,
 			},
 			[15] = {
 				["time_incombat"] = 429.7099999999919,
@@ -4107,34 +4107,34 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 2,
 				["dps_best"] = 4237.723873607206,
-				["dps_best_raid_when"] = 1651798578,
-				["time_fasterkill_when"] = 1651798578,
 				["dps_best_when"] = 1651798578,
+				["time_fasterkill_when"] = 1651798578,
+				["dps_best_raid_when"] = 1651798578,
 				["dps_best_raid"] = 80769.7132082092,
 			},
 		},
-		[2542] = {
-			[14] = {
-				["time_incombat"] = 1277.846999999922,
-				["time_fasterkill"] = 351.2359999999171,
-				["wipes"] = 6,
-				["kills"] = 4,
-				["dps_best"] = 6627.438108264308,
-				["dps_best_raid"] = 68582.0814698723,
-				["time_fasterkill_when"] = 1646362651,
-				["dps_best_when"] = 1647568111,
-				["dps_best_raid_when"] = 1646970963,
-			},
+		[2418] = {
 			[15] = {
-				["time_incombat"] = 235.6429999999236,
-				["time_fasterkill"] = 235.6429999999236,
-				["wipes"] = 4,
+				["time_incombat"] = 270.0080000000016,
+				["time_fasterkill"] = 270.0080000000016,
+				["wipes"] = 1,
 				["kills"] = 1,
-				["dps_best"] = 7554.444680472482,
-				["dps_best_when"] = 1653009762,
-				["time_fasterkill_when"] = 1653009762,
-				["dps_best_raid_when"] = 1653009762,
-				["dps_best_raid"] = 80425.93244868782,
+				["dps_best"] = 6436.08939065224,
+				["dps_best_raid_when"] = 1617325696,
+				["time_fasterkill_when"] = 1617325696,
+				["dps_best_when"] = 1617325696,
+				["dps_best_raid"] = 29494.33555712598,
+			},
+			[17] = {
+				["time_incombat"] = 307.4929999999877,
+				["time_fasterkill"] = 307.4929999999877,
+				["wipes"] = 0,
+				["kills"] = 1,
+				["dps_best"] = 4905.931729622483,
+				["dps_best_when"] = 1619740887,
+				["time_fasterkill_when"] = 1619740887,
+				["dps_best_raid_when"] = 1619740887,
+				["dps_best_raid"] = 43561.61677397582,
 			},
 		},
 		[2544] = {
@@ -4144,9 +4144,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 3,
 				["dps_best"] = 8741.805129535409,
-				["dps_best_when"] = 1648170729,
-				["time_fasterkill_when"] = 1646966984,
 				["dps_best_raid_when"] = 1648170729,
+				["time_fasterkill_when"] = 1646966984,
+				["dps_best_when"] = 1648170729,
 				["dps_best_raid"] = 104222.7509903287,
 			},
 			[15] = {
@@ -4155,9 +4155,9 @@ DetailsDataStorage = {
 				["wipes"] = 9,
 				["kills"] = 2,
 				["dps_best"] = 5022.464051165763,
-				["dps_best_raid_when"] = 1651802399,
-				["time_fasterkill_when"] = 1651802399,
 				["dps_best_when"] = 1651802399,
+				["time_fasterkill_when"] = 1651802399,
+				["dps_best_raid_when"] = 1651802399,
 				["dps_best_raid"] = 79555.82246926213,
 			},
 		},
@@ -4170,8 +4170,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6796.298658769842,
 				["dps_best_raid"] = 50946.47709487688,
 				["time_fasterkill_when"] = 1629852241,
-				["dps_best_when"] = 1630455305,
 				["dps_best_raid_when"] = 1628648494,
+				["dps_best_when"] = 1630455305,
 			},
 			[15] = {
 				["time_incombat"] = 1385,
@@ -4179,9 +4179,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 3,
 				["dps_best"] = 6131.81689528926,
-				["dps_best_raid_when"] = 1630637040,
-				["time_fasterkill_when"] = 1631070197,
 				["dps_best_when"] = 1631671655,
+				["time_fasterkill_when"] = 1631070197,
+				["dps_best_raid_when"] = 1630637040,
 				["dps_best_raid"] = 53794.84326337498,
 			},
 		},
@@ -4194,8 +4194,8 @@ DetailsDataStorage = {
 				["dps_best"] = 12715.07862023388,
 				["dps_best_raid"] = 173513.795119754,
 				["time_fasterkill_when"] = 1648180122,
-				["dps_best_when"] = 1648775552,
 				["dps_best_raid_when"] = 1648180122,
+				["dps_best_when"] = 1648775552,
 			},
 			[17] = {
 				["time_incombat"] = 526.0830000001006,
@@ -4203,9 +4203,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 9466.185009082308,
-				["dps_best_raid_when"] = 1649374042,
-				["time_fasterkill_when"] = 1649374042,
 				["dps_best_when"] = 1649374042,
+				["time_fasterkill_when"] = 1649374042,
+				["dps_best_raid_when"] = 1649374042,
 				["dps_best_raid"] = 148764.5257497107,
 			},
 		},
@@ -4218,8 +4218,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6344.264449277954,
 				["dps_best_raid"] = 62495.47423617762,
 				["time_fasterkill_when"] = 1647569106,
-				["dps_best_when"] = 1647569106,
 				["dps_best_raid_when"] = 1648173620,
+				["dps_best_when"] = 1647569106,
 			},
 			[15] = {
 				["time_incombat"] = 305.5469999999914,
@@ -4227,9 +4227,9 @@ DetailsDataStorage = {
 				["wipes"] = 8,
 				["kills"] = 1,
 				["dps_best"] = 3843.592012214268,
-				["dps_best_raid_when"] = 1652409795,
-				["time_fasterkill_when"] = 1652409795,
 				["dps_best_when"] = 1652409795,
+				["time_fasterkill_when"] = 1652409795,
+				["dps_best_raid_when"] = 1652409795,
 				["dps_best_raid"] = 53025.87817913597,
 			},
 		},
@@ -4240,9 +4240,9 @@ DetailsDataStorage = {
 				["wipes"] = 28,
 				["kills"] = 4,
 				["dps_best"] = 4648.955625140539,
-				["dps_best_when"] = 1633658139,
-				["time_fasterkill_when"] = 1626231196,
 				["dps_best_raid_when"] = 1633658139,
+				["time_fasterkill_when"] = 1626231196,
+				["dps_best_when"] = 1633658139,
 				["dps_best_raid"] = 41481.32129601828,
 			},
 			[15] = {
@@ -4251,9 +4251,9 @@ DetailsDataStorage = {
 				["wipes"] = 22,
 				["kills"] = 5,
 				["dps_best"] = 5030.40443528641,
-				["dps_best_raid_when"] = 1630465900,
-				["time_fasterkill_when"] = 1631066328,
 				["dps_best_when"] = 1631668844,
+				["time_fasterkill_when"] = 1631066328,
+				["dps_best_raid_when"] = 1630465900,
 				["dps_best_raid"] = 35592.85192698714,
 			},
 		},
@@ -4266,8 +4266,8 @@ DetailsDataStorage = {
 				["dps_best"] = 4656.018469220689,
 				["dps_best_raid"] = 30882.46195055839,
 				["time_fasterkill_when"] = 1617332256,
-				["dps_best_raid_when"] = 1617332256,
 				["dps_best_when"] = 1617332256,
+				["dps_best_raid_when"] = 1617332256,
 			},
 		},
 		[2432] = {
@@ -4279,8 +4279,8 @@ DetailsDataStorage = {
 				["dps_best"] = 5717.451054323155,
 				["dps_best_raid"] = 74169.94422863188,
 				["time_fasterkill_when"] = 1625625486,
-				["dps_best_when"] = 1628643314,
 				["dps_best_raid_when"] = 1630905902,
+				["dps_best_when"] = 1628643314,
 			},
 			[15] = {
 				["time_incombat"] = 1768.027999999838,
@@ -4288,9 +4288,9 @@ DetailsDataStorage = {
 				["wipes"] = 32,
 				["kills"] = 7,
 				["dps_best"] = 7012.769985541485,
-				["dps_best_raid_when"] = 1631063892,
-				["time_fasterkill_when"] = 1628817976,
 				["dps_best_when"] = 1631666720,
+				["time_fasterkill_when"] = 1628817976,
+				["dps_best_raid_when"] = 1631063892,
 				["dps_best_raid"] = 53998.44721733143,
 			},
 		},
@@ -4303,8 +4303,8 @@ DetailsDataStorage = {
 				["dps_best"] = 5450.464820187438,
 				["dps_best_raid"] = 73893.91227468972,
 				["time_fasterkill_when"] = 1625626541,
-				["dps_best_when"] = 1633657147,
 				["dps_best_raid_when"] = 1630906387,
+				["dps_best_when"] = 1633657147,
 			},
 			[15] = {
 				["time_incombat"] = 1983.533000000022,
@@ -4314,8 +4314,8 @@ DetailsDataStorage = {
 				["dps_best"] = 8928.82499289788,
 				["dps_best_raid"] = 59669.11552780947,
 				["time_fasterkill_when"] = 1628822552,
-				["dps_best_raid_when"] = 1631064631,
 				["dps_best_when"] = 1631667218,
+				["dps_best_raid_when"] = 1631064631,
 			},
 		},
 		[2405] = {
@@ -4327,8 +4327,8 @@ DetailsDataStorage = {
 				["dps_best"] = 3883.11985516357,
 				["dps_best_raid"] = 23059.40851901834,
 				["time_fasterkill_when"] = 1617328633,
-				["dps_best_raid_when"] = 1617328633,
 				["dps_best_when"] = 1617328633,
+				["dps_best_raid_when"] = 1617328633,
 			},
 		},
 		[2407] = {
@@ -4338,9 +4338,9 @@ DetailsDataStorage = {
 				["wipes"] = 9,
 				["kills"] = 0,
 				["dps_best"] = 0,
-				["dps_best_when"] = 0,
-				["time_fasterkill_when"] = 0,
 				["dps_best_raid_when"] = 0,
+				["time_fasterkill_when"] = 0,
+				["dps_best_when"] = 0,
 				["dps_best_raid"] = 0,
 			},
 		},
@@ -4353,8 +4353,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6327.206644523901,
 				["dps_best_raid"] = 64867.73872941139,
 				["time_fasterkill_when"] = 1626396608,
-				["dps_best_raid_when"] = 1633658600,
 				["dps_best_when"] = 1633658600,
+				["dps_best_raid_when"] = 1633658600,
 			},
 			[15] = {
 				["time_incombat"] = 1112.071000000229,
@@ -4364,8 +4364,8 @@ DetailsDataStorage = {
 				["dps_best"] = 5790.302927854932,
 				["dps_best_raid"] = 56416.05986081881,
 				["time_fasterkill_when"] = 1630631702,
-				["dps_best_raid_when"] = 1631068052,
 				["dps_best_when"] = 1631669949,
+				["dps_best_raid_when"] = 1631068052,
 			},
 		},
 		[2512] = {
@@ -4377,8 +4377,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6385.891471616127,
 				["dps_best_raid"] = 66898.90137187201,
 				["time_fasterkill_when"] = 1648168627,
-				["dps_best_when"] = 1647563395,
 				["dps_best_raid_when"] = 1646963151,
+				["dps_best_when"] = 1647563395,
 			},
 			[17] = {
 				["time_incombat"] = 599.7039999999106,
@@ -4386,9 +4386,9 @@ DetailsDataStorage = {
 				["wipes"] = 2,
 				["kills"] = 1,
 				["dps_best"] = 5367.094435802463,
-				["dps_best_raid_when"] = 1647826703,
-				["time_fasterkill_when"] = 1647826703,
 				["dps_best_when"] = 1647826703,
+				["time_fasterkill_when"] = 1647826703,
+				["dps_best_raid_when"] = 1647826703,
 				["dps_best_raid"] = 59164.14431120234,
 			},
 			[15] = {
@@ -4397,9 +4397,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 3,
 				["dps_best"] = 3999.650399545227,
-				["dps_best_when"] = 1652402756,
-				["time_fasterkill_when"] = 1649989321,
 				["dps_best_raid_when"] = 1651797527,
+				["time_fasterkill_when"] = 1649989321,
+				["dps_best_when"] = 1652402756,
 				["dps_best_raid"] = 62563.27550179527,
 			},
 		},
@@ -4412,8 +4412,8 @@ DetailsDataStorage = {
 				["dps_best"] = 4445.123338940504,
 				["dps_best_raid"] = 72850.28063871182,
 				["time_fasterkill_when"] = 1651199334,
-				["dps_best_raid_when"] = 1651199334,
 				["dps_best_when"] = 1651199334,
+				["dps_best_raid_when"] = 1651199334,
 			},
 		},
 		[2539] = {
@@ -4423,9 +4423,9 @@ DetailsDataStorage = {
 				["wipes"] = 3,
 				["kills"] = 6,
 				["dps_best"] = 6637.422798312652,
-				["dps_best_when"] = 1649377961,
-				["time_fasterkill_when"] = 1647566967,
 				["dps_best_raid_when"] = 1646969037,
+				["time_fasterkill_when"] = 1647566967,
+				["dps_best_when"] = 1649377961,
 				["dps_best_raid"] = 67554.44386604933,
 			},
 			[15] = {
@@ -4434,9 +4434,9 @@ DetailsDataStorage = {
 				["wipes"] = 14,
 				["kills"] = 2,
 				["dps_best"] = 5736.322719458682,
-				["dps_best_raid_when"] = 1652406694,
-				["time_fasterkill_when"] = 1652406694,
 				["dps_best_when"] = 1651807083,
+				["time_fasterkill_when"] = 1652406694,
+				["dps_best_raid_when"] = 1652406694,
 				["dps_best_raid"] = 58761.78037348364,
 			},
 		},
@@ -4449,8 +4449,8 @@ DetailsDataStorage = {
 				["dps_best"] = 2962.020905326625,
 				["dps_best_raid"] = 22951.70951854346,
 				["time_fasterkill_when"] = 1617333950,
-				["dps_best_raid_when"] = 1617333950,
 				["dps_best_when"] = 1617333950,
+				["dps_best_raid_when"] = 1617333950,
 			},
 		},
 		[2543] = {
@@ -4462,8 +4462,8 @@ DetailsDataStorage = {
 				["dps_best"] = 7477.041750627476,
 				["dps_best_raid"] = 62399.26444542642,
 				["time_fasterkill_when"] = 1649986010,
-				["dps_best_raid_when"] = 1651195197,
 				["dps_best_when"] = 1648776809,
+				["dps_best_raid_when"] = 1651195197,
 			},
 			[17] = {
 				["time_incombat"] = 243.4150000000373,
@@ -4471,9 +4471,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 8934.264542278277,
-				["dps_best_raid_when"] = 1649374565,
-				["time_fasterkill_when"] = 1649374565,
 				["dps_best_when"] = 1649374565,
+				["time_fasterkill_when"] = 1649374565,
+				["dps_best_raid_when"] = 1649374565,
 				["dps_best_raid"] = 138667.3787564235,
 			},
 		},
@@ -4486,18 +4486,18 @@ DetailsDataStorage = {
 				["dps_best"] = 7365.2034255252,
 				["dps_best_raid"] = 61345.46845105204,
 				["time_fasterkill_when"] = 1647570354,
-				["dps_best_raid_when"] = 1647570354,
 				["dps_best_when"] = 1649378753,
+				["dps_best_raid_when"] = 1647570354,
 			},
 			[15] = {
 				["time_incombat"] = 375.8070000000298,
 				["time_fasterkill"] = 375.8070000000298,
-				["wipes"] = 4,
+				["wipes"] = 8,
 				["kills"] = 1,
 				["dps_best"] = 4277.02518308566,
-				["dps_best_raid_when"] = 1653013926,
-				["time_fasterkill_when"] = 1653013926,
 				["dps_best_when"] = 1653013926,
+				["time_fasterkill_when"] = 1653013926,
+				["dps_best_raid_when"] = 1653013926,
 				["dps_best_raid"] = 87132.63989227822,
 			},
 		},
@@ -4510,8 +4510,8 @@ DetailsDataStorage = {
 				["dps_best"] = 8468.824509711827,
 				["dps_best_raid"] = 91089.8989443848,
 				["time_fasterkill_when"] = 1625618641,
-				["dps_best_when"] = 1628641048,
 				["dps_best_raid_when"] = 1630903450,
+				["dps_best_when"] = 1628641048,
 			},
 			[15] = {
 				["time_incombat"] = 3154.617999999203,
@@ -4521,8 +4521,8 @@ DetailsDataStorage = {
 				["dps_best"] = 9991.044058273128,
 				["dps_best_raid"] = 85496.59471365639,
 				["time_fasterkill_when"] = 1626139644,
-				["dps_best_raid_when"] = 1629855474,
 				["dps_best_when"] = 1629855474,
+				["dps_best_raid_when"] = 1629855474,
 			},
 			[17] = {
 				["time_incombat"] = 323.028999999995,
@@ -4530,9 +4530,9 @@ DetailsDataStorage = {
 				["wipes"] = 1,
 				["kills"] = 1,
 				["dps_best"] = 589.126687597717,
-				["dps_best_when"] = 1626353687,
-				["time_fasterkill_when"] = 1626353687,
 				["dps_best_raid_when"] = 1626353687,
+				["time_fasterkill_when"] = 1626353687,
+				["dps_best_when"] = 1626353687,
 				["dps_best_raid"] = 78699.47280275267,
 			},
 		},
@@ -4545,8 +4545,8 @@ DetailsDataStorage = {
 				["dps_best"] = 6094.877301546062,
 				["dps_best_raid"] = 52322.40728344517,
 				["time_fasterkill_when"] = 1649987720,
-				["dps_best_raid_when"] = 1649382457,
 				["dps_best_when"] = 1649382457,
+				["dps_best_raid_when"] = 1649382457,
 			},
 			[17] = {
 				["time_incombat"] = 340.7309999999125,
@@ -4554,9 +4554,9 @@ DetailsDataStorage = {
 				["wipes"] = 0,
 				["kills"] = 1,
 				["dps_best"] = 5223.68673854289,
-				["dps_best_raid_when"] = 1649372824,
-				["time_fasterkill_when"] = 1649372824,
 				["dps_best_when"] = 1649372824,
+				["time_fasterkill_when"] = 1649372824,
+				["dps_best_raid_when"] = 1649372824,
 				["dps_best_raid"] = 87972.89357295843,
 			},
 		},
@@ -4569,32 +4569,32 @@ DetailsDataStorage = {
 				["dps_best"] = 4203.351211377302,
 				["dps_best_raid"] = 20453.00567719668,
 				["time_fasterkill_when"] = 1617329360,
-				["dps_best_raid_when"] = 1617329360,
 				["dps_best_when"] = 1617329360,
+				["dps_best_raid_when"] = 1617329360,
 			},
 		},
-		[2418] = {
-			[15] = {
-				["time_incombat"] = 270.0080000000016,
-				["time_fasterkill"] = 270.0080000000016,
-				["wipes"] = 1,
-				["kills"] = 1,
-				["dps_best"] = 6436.08939065224,
-				["dps_best_when"] = 1617325696,
-				["time_fasterkill_when"] = 1617325696,
-				["dps_best_raid_when"] = 1617325696,
-				["dps_best_raid"] = 29494.33555712598,
+		[2542] = {
+			[14] = {
+				["time_incombat"] = 1277.846999999922,
+				["time_fasterkill"] = 351.2359999999171,
+				["wipes"] = 6,
+				["kills"] = 4,
+				["dps_best"] = 6627.438108264308,
+				["dps_best_raid"] = 68582.0814698723,
+				["time_fasterkill_when"] = 1646362651,
+				["dps_best_raid_when"] = 1646970963,
+				["dps_best_when"] = 1647568111,
 			},
-			[17] = {
-				["time_incombat"] = 307.4929999999877,
-				["time_fasterkill"] = 307.4929999999877,
-				["wipes"] = 0,
+			[15] = {
+				["time_incombat"] = 235.6429999999236,
+				["time_fasterkill"] = 235.6429999999236,
+				["wipes"] = 4,
 				["kills"] = 1,
-				["dps_best"] = 4905.931729622483,
-				["dps_best_raid_when"] = 1619740887,
-				["time_fasterkill_when"] = 1619740887,
-				["dps_best_when"] = 1619740887,
-				["dps_best_raid"] = 43561.61677397582,
+				["dps_best"] = 7554.444680472482,
+				["dps_best_raid_when"] = 1653009762,
+				["time_fasterkill_when"] = 1653009762,
+				["dps_best_when"] = 1653009762,
+				["dps_best_raid"] = 80425.93244868782,
 			},
 		},
 	},

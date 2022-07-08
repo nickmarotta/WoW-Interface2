@@ -5,8 +5,23 @@ RaiderIO_Config = {
 }
 RaiderIO_LastCharacter = "us-Corpselus-thrall"
 RaiderIO_MissingCharacters = {
-	["us-Sathrodan-thrall"] = true,
-	["us-Seleala-thrall"] = true,
+	["us-Kyritee-thrall"] = true,
+	["us-Scorpiana-thrall"] = true,
+	["us-Healeewar-thrall"] = true,
+	["us-Gurzosh-thrall"] = true,
+	["us-Penançe-thrall"] = true,
+	["us-Dragonøv-thrall"] = true,
+	["us-Bdbm-thrall"] = true,
+	["us-Drunkenteddy-thrall"] = true,
+	["us-Ashbyrne-thrall"] = true,
+	["us-Bugrash-thrall"] = true,
+	["us-Zabaal-thrall"] = true,
+	["us-Talark-thrall"] = true,
+	["us-Smolcat-thrall"] = true,
+	["us-Andahunter-thrall"] = true,
+	["us-Yøe-thrall"] = true,
+	["us-Runionn-thrall"] = true,
+	["us-Alixzandria-thrall"] = true,
 }
 RaiderIO_MissingServers = {
 }

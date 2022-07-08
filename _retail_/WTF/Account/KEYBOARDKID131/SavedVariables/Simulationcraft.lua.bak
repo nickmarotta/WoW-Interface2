@@ -45,7 +45,7 @@ SimulationCraftDB = {
 		},
 		["Corpselus - Thrall"] = {
 			["frame"] = {
-				["ofsx"] = -11.48719310760498,
+				["ofsx"] = -12.3078556060791,
 				["ofsy"] = 2.46159291267395,
 			},
 			["minimap"] = {

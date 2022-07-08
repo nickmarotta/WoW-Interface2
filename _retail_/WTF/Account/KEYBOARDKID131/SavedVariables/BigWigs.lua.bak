@@ -28,6 +28,8 @@ BigWigs3DB = {
 		},
 		["BigWigs_Plugins_Sounds"] = {
 		},
+		["BigWigs_Bosses_Amarth, The Reanimator"] = {
+		},
 		["BigWigs_Plugins_Statistics"] = {
 		},
 		["BigWigs_Plugins_Countdown"] = {
@@ -43,6 +45,8 @@ BigWigs3DB = {
 			},
 		},
 		["BigWigs_Plugins_AltPower"] = {
+		},
+		["BigWigs_Plugins_Raid Icons"] = {
 		},
 		["BigWigs_Plugins_Colors"] = {
 		},
@@ -60,31 +64,21 @@ BigWigs3DB = {
 			["profiles"] = {
 				["Default"] = {
 					["BigWigsEmphasizeAnchor_y"] = 451.2009111844236,
-					["BigWigsEmphasizeAnchor_height"] = 24.46164894104004,
-					["BigWigsAnchor_x"] = 864.3219958847476,
-					["BigWigsEmphasizeAnchor_width"] = 200.615478515625,
 					["BigWigsAnchor_width"] = 221.6405029296875,
-					["BigWigsAnchor_y"] = 142.8453301486479,
-					["BigWigsEmphasizeAnchor_x"] = 335.9996824998234,
+					["BigWigsAnchor_x"] = 864.3219958847476,
+					["BigWigsEmphasizeAnchor_height"] = 24.46164894104004,
 					["BigWigsAnchor_height"] = 38.97422027587891,
+					["BigWigsAnchor_y"] = 142.8453301486479,
+					["BigWigsEmphasizeAnchor_width"] = 200.615478515625,
+					["BigWigsEmphasizeAnchor_x"] = 335.9996824998234,
 				},
 			},
+		},
+		["BigWigs_Bosses_Surgeon Stitchflesh"] = {
 		},
 		["BigWigs_Plugins_Super Emphasize"] = {
 		},
-		["BigWigs_Plugins_AutoReply"] = {
-		},
-		["BigWigs_Plugins_Raid Icons"] = {
-		},
-		["BigWigs_Plugins_Proximity"] = {
-			["profiles"] = {
-				["Default"] = {
-					["height"] = 129.0256042480469,
-					["posy"] = 496.2444337021589,
-					["posx"] = 1010.233025689013,
-					["width"] = 148.2052307128906,
-				},
-			},
+		["BigWigs_Bosses_Blightbone"] = {
 		},
 		["BigWigs_Plugins_Messages"] = {
 			["profiles"] = {
@@ -104,6 +98,20 @@ BigWigs3DB = {
 				},
 			},
 		},
+		["BigWigs_Plugins_AutoReply"] = {
+		},
+		["BigWigs_Bosses_The Necrotic Wake Trash"] = {
+		},
+		["BigWigs_Plugins_Proximity"] = {
+			["profiles"] = {
+				["Default"] = {
+					["width"] = 148.2052307128906,
+					["posy"] = 496.2444337021589,
+					["height"] = 129.0256042480469,
+					["posx"] = 1010.233025689013,
+				},
+			},
+		},
 		["LibDualSpec-1.0"] = {
 		},
 		["BigWigs_Plugins_Pull"] = {
@@ -112,6 +120,8 @@ BigWigs3DB = {
 					["combatLog"] = true,
 				},
 			},
+		},
+		["BigWigs_Bosses_Nalthor the Rimebinder"] = {
 		},
 	},
 	["global"] = {
