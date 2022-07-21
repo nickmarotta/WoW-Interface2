@@ -796,13 +796,17 @@ function HealBot_Panel_ToggleTestBars()
         end
         HealBot_Action_setLuVars("TestBarsOn", false)
         HealBot_Text_setLuVars("TestBarsOn", false)
+        HealBot_Aux_setLuVars("TestBarsOn", false)
         HealBot_TestBarsState(false)
         HealBot_Options_setLuVars("TestBarsOn", false)
         HealBot_Skins_isTestBars(false)
+        HealBot_Aura_ClearAllBuffs()
+        HealBot_Aura_ClearAllDebuffs()
         HealBot_setTestCols={}
     else
         HealBot_Action_setLuVars("TestBarsOn", true)
         HealBot_Text_setLuVars("TestBarsOn", true)
+        HealBot_Aux_setLuVars("TestBarsOn", true)
         HealBot_TestBarsState(true)
         HealBot_Options_setLuVars("TestBarsOn", true)
         HealBot_Skins_isTestBars(true)
@@ -1206,11 +1210,6 @@ function HealBot_Panel_TestBarShow(index,button,tRole,r,g,b)
     HealBot_TestBarsActive[index]=button
     local HealBot_keepClass=false
     local HealBot_keepClass2=false
-    local HealBot_showName=false
-    if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["NAMEONBAR"] or 
-       Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["CLASSONBAR"] then
-        HealBot_showName=true
-    end
     if not HealBot_setTestCols[index] then
         button.text.r,button.text.g,button.text.b=r,g,b
         if (Healbot_Config_Skins.BarCol[Healbot_Config_Skins.Current_Skin][button.frame]["HLTH"] >= 2) then
@@ -1267,29 +1266,10 @@ function HealBot_Panel_TestBarShow(index,button,tRole,r,g,b)
         button.gref["Bar"]:SetStatusBarColor(HealBot_colIndex["hcr"..index],HealBot_colIndex["hcg"..index],HealBot_colIndex["hcb"..index],Healbot_Config_Skins.BarCol[Healbot_Config_Skins.Current_Skin][button.frame]["HA"]);
         HealBot_setTestCols[index]=true
     end
-    if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHONBAR"] then
-        if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTYPE"]==1 then
-            button.gref.txt["text2"]:SetText("10K");
-        elseif Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTYPE"]==2 then
-            button.gref.txt["text2"]:SetText("(0)");
-        else
-            button.gref.txt["text2"]:SetText("(100%)");
-        end
-    else
-        button.gref.txt["text2"]:SetText("")
-    end
-    if HealBot_showName then
-        button.gref.txt["text"]:SetText(button.unit)
-        button.gref.txt["text"]:SetTextColor(HealBot_colIndex["hctr"..index],HealBot_colIndex["hctg"..index],HealBot_colIndex["hctb"..index],Healbot_Config_Skins.BarTextCol[Healbot_Config_Skins.Current_Skin][button.frame]["NCA"]);
-    else
-        button.gref.txt["text"]:SetText("")
-        button.gref.txt["text"]:SetTextColor(0,0,0,0);
-    end
-    if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHONBAR"] then
-        button.gref.txt["text2"]:SetTextColor(HealBot_colIndex["hctr2"..index],HealBot_colIndex["hctg2"..index],HealBot_colIndex["hctb2"..index],Healbot_Config_Skins.BarTextCol[Healbot_Config_Skins.Current_Skin][button.frame]["HCA"]);
-    else
-        button.gref.txt["text2"]:SetTextColor(0,0,0,0)
-    end
+    button.gref.txt["text"]:SetTextColor(HealBot_colIndex["hctr"..index],HealBot_colIndex["hctg"..index],HealBot_colIndex["hctb"..index],Healbot_Config_Skins.BarTextCol[Healbot_Config_Skins.Current_Skin][button.frame]["NCA"]);
+    button.gref.txt["text2"]:SetTextColor(HealBot_colIndex["hctr2"..index],HealBot_colIndex["hctg2"..index],HealBot_colIndex["hctb2"..index],Healbot_Config_Skins.BarTextCol[Healbot_Config_Skins.Current_Skin][button.frame]["HCA"]);
+    button.gref.txt["text3"]:SetTextColor(1, 1, 1, 1)
+    button.gref.txt["text4"]:SetTextColor(1, 0.4, 0, 1)
     button:Show()
     if button.frame<10 and Healbot_Config_Skins.Emerg[Healbot_Config_Skins.Current_Skin][button.frame]["USE"] then
         HealBot_Emerg_Button[button.id]:Show()
@@ -1302,7 +1282,7 @@ function HealBot_Panel_testAddButton(gName,bName,minBar,maxBar,tRole,bClass)
     for j=minBar,maxBar do
         if noBars>0 then
             local tcR,tcG,tcB,tcC=HealBot_Panel_RandomClassColour(tRole, bClass)
-            local tstb=HealBot_Action_SetTestButton(hbCurrentFrame, HEALBOT_WORD_TEST.." "..bName.." "..j,tRole,tcC)
+            local tstb=HealBot_Action_SetTestButton(hbCurrentFrame, HEALBOT_WORD_TEST..bName..j,tRole,tcC)
             if tstb then 
                 local bIndex=tstb.id
                 HealBot_Panel_TestBarShow(bIndex,tstb,tRole,tcR,tcG,tcB)
@@ -1557,6 +1537,8 @@ function HealBot_Panel_TestBarsOn()
             HealBot_Panel_DeleteHeader(xButton.id, xHeader)
         end
     end
+    HealBot_Timers_Set("SKINSSLOW","TextUpdateNames")
+    --HealBot_Timers_Set("INITSLOW","TextUpdateHealth")
 end
 
 function HealBot_Panel_resetTestCols(force)
@@ -2908,6 +2890,19 @@ function HealBot_Panel_PrePartyChanged(preCombat, changeType)
         if Healbot_Config_Skins.HealGroups[Healbot_Config_Skins.Current_Skin][10]["FRAME"]==9 then HealBot_Panel_DoPartyChanged(preCombat, 4) end
         HealBot_Panel_DoPartyChanged(preCombat, 6)
     end 
+    
+    local nMembers=GetNumGroupMembers()+HealBot_Panel_luVars["NumPrivate"]+HealBot_Panel_luVars["NumPets"]+1
+    if nMembers>HealBot_Globals.AutoCacheSize then    
+        HealBot_Globals.AutoCacheSize=nMembers
+        HealBot_Timers_Set("DELAYED","ProcCacheButtons")
+    end
+    if not preCombat then
+        HealBot_Timers_Set("PARTYSLOW","ReadyCheck")
+    end
+    if HealBot_Panel_luVars["resetAuxText"] then
+        HealBot_Panel_luVars["resetAuxText"]=false
+        HealBot_Aux_ResetTextButtons()
+    end
 end
 
 function HealBot_Panel_PartyChanged(preCombat, changeType)
@@ -2920,18 +2915,6 @@ function HealBot_Panel_PartyChanged(preCombat, changeType)
         end
     else
         HealBot_Panel_PrePartyChanged(preCombat, changeType)
-    end
-    local nMembers=GetNumGroupMembers()+HealBot_Panel_luVars["NumPrivate"]+HealBot_Panel_luVars["NumPets"]+1
-    if nMembers>HealBot_Globals.AutoCacheSize then    
-        HealBot_Globals.AutoCacheSize=nMembers
-        HealBot_Timers_Set("DELAYED","ProcCacheButtons")
-    end
-    if not preCombat then
-        HealBot_Timers_Set("PARTYSLOW","ReadyCheck")
-    end
-    if HealBot_Panel_luVars["resetAuxText"] then
-        HealBot_Panel_luVars["resetAuxText"]=false
-        HealBot_Aux_ResetTextButtons()
     end
       --HealBot_setCall("HealBot_Panel_PartyChanged")
 end

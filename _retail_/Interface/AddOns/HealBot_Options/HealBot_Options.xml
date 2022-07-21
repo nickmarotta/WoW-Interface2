@@ -10158,23 +10158,7 @@
                           <OnLeave>HealBot_Options_Show_Help("HEALBARSBORALPHA",false)</OnLeave>
                         </Scripts>
                       </Slider>
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
-                      
+
                       <Frame name="HealBot_Options_BarIncHealColour" inherits="UIDropDownMenuTemplate">
                         <Anchors>
                           <Anchor point="TOPLEFT" relativeTo="HealBot_Options_BarBorderColour" relativePoint="TOPLEFT">

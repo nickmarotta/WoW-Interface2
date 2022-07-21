@@ -71,9 +71,9 @@ end
 function HealBot_Timers_SkinsFormat()
     HealBot_Text_sethbNumberFormat()
     HealBot_Text_sethbAggroNumberFormat()
-    HealBot_Timers_Set("PARTYSLOW","ResetUnitStatus")
     HealBot_Aura_SetIconUpdateInterval()
     HealBot_Timers_Set("PARTYSLOW","RefreshPartyNextRecalcAll")
+    HealBot_Timers_Set("PARTYSLOW","ResetUnitStatus")
 end
 
 function HealBot_Timers_FluidFlashUpdate()
@@ -134,8 +134,9 @@ end
 function HealBot_Timers_SkinBarTextColours()
     HealBot_Options_SetBarsTextColour()
     HealBot_Panel_resetTestCols(true)
-    HealBot_Timers_Set("PARTYSLOW","ResetUnitStatus")
-    HealBot_Timers_Set("SKINSSLOW","UpdateTextButtons")
+    HealBot_Timers_Set("SKINSSLOW","TextUpdateNames")
+    HealBot_Timers_Set("SKINSSLOW","TextUpdateHealth")
+    HealBot_Timers_Set("SKINSSLOW","TextClearState")
 end
 
 function HealBot_Timers_CheckPlayerAura()
@@ -579,10 +580,15 @@ local hbTimerFuncs={["INIT"]={
                         ["updAllAuxBuffBars"]=HealBot_updAllAuxBuffBars,
                         ["updAllAuxDebuffBars"]=HealBot_updAllAuxDebuffBars,
                         ["UpdateAllAuxPowerBars"]=HealBot_UpdateAllAuxPowerBars,
+                        ["UpdateAllAuxOverHealsBars"]=HealBot_updAllAuxOverHealsBars,
+                        ["UpdateAllAuxInHealsBars"]=HealBot_updAllAuxInHealsBars,
+                        ["UpdateAllAuxAbsorbBars"]=HealBot_updAllAuxAbsorbBars,
+                        ["UpdateAllAuxThreatBars"]=HealBot_updAllAuxThreatBars,
                         ["AuxConfigBarChange"]=HealBot_Options_AuxConfigBarChange,
                         ["CheckVersions"]=HealBot_CheckVersions,
                         ["BuffIdLookup"]=HealBot_Aura_BuffIdLookup,
                         ["DebuffIdLookup"]=HealBot_Aura_DebuffIdLookup,
+                        ["UpdateAllHotBars"]=HealBot_UpdateAllHotBars,
                     },
                    }
 

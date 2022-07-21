@@ -847,6 +847,33 @@ function HealBot_OnEvent_UnitManaUpdate(button)
     HealBot_OnEvent_UnitMana(button)
 end
 
+function HealBot_UpdateAllHotBars()
+    for _,xButton in pairs(HealBot_Unit_Button) do
+        HealBot_Action_UpdateHealthHotBar(xButton)
+        if xButton.aura.debuff.id>0 then HealBot_Aura_DebuffWarnings(xButton, xButton.aura.debuff.name, true) end
+    end
+    for _,xButton in pairs(HealBot_Private_Button) do
+        HealBot_Action_UpdateHealthHotBar(xButton)
+        if xButton.aura.debuff.id>0 then HealBot_Aura_DebuffWarnings(xButton, xButton.aura.debuff.name, true) end
+    end
+    for _,xButton in pairs(HealBot_Pet_Button) do
+        HealBot_Action_UpdateHealthHotBar(xButton)
+        if xButton.aura.debuff.id>0 then HealBot_Aura_DebuffWarnings(xButton, xButton.aura.debuff.name, true) end
+    end
+    for _,xButton in pairs(HealBot_Vehicle_Button) do
+        HealBot_Action_UpdateHealthHotBar(xButton)
+        if xButton.aura.debuff.id>0 then HealBot_Aura_DebuffWarnings(xButton, xButton.aura.debuff.name, true) end
+    end
+    for _,xButton in pairs(HealBot_Extra_Button) do
+        HealBot_Action_UpdateHealthHotBar(xButton)
+        if xButton.aura.debuff.id>0 then HealBot_Aura_DebuffWarnings(xButton, xButton.aura.debuff.name, true) end
+    end
+    for _,xButton in pairs(HealBot_Enemy_Button) do
+        HealBot_Action_UpdateHealthHotBar(xButton)
+        if xButton.aura.debuff.id>0 then HealBot_Aura_DebuffWarnings(xButton, xButton.aura.debuff.name, true) end
+    end
+end
+
 function HealBot_UpdateAllAuxPowerBars()
     for _,xButton in pairs(HealBot_Unit_Button) do
         HealBot_OnEvent_UnitManaUpdate(xButton)
@@ -957,6 +984,78 @@ function HealBot_updAllAuxBuffBars()
     end
     for _,xButton in pairs(HealBot_Enemy_Button) do
         HealBot_updAuxBuffBars(xButton)
+    end
+end
+
+function HealBot_updAllAuxOverHealsBars()
+    for _,xButton in pairs(HealBot_Unit_Button) do
+        HealBot_Aux_UpdateOverHealBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Private_Button) do
+        HealBot_Aux_UpdateOverHealBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Pet_Button) do
+        HealBot_Aux_UpdateOverHealBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Vehicle_Button) do
+        HealBot_Aux_UpdateOverHealBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Extra_Button) do
+        HealBot_Aux_UpdateOverHealBar(xButton)
+    end
+end
+
+function HealBot_updAllAuxInHealsBars()
+    for _,xButton in pairs(HealBot_Unit_Button) do
+        HealBot_Aux_UpdateHealInBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Private_Button) do
+        HealBot_Aux_UpdateHealInBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Pet_Button) do
+        HealBot_Aux_UpdateHealInBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Vehicle_Button) do
+        HealBot_Aux_UpdateHealInBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Extra_Button) do
+        HealBot_Aux_UpdateHealInBar(xButton)
+    end
+end
+
+function HealBot_updAllAuxAbsorbBars()
+    for _,xButton in pairs(HealBot_Unit_Button) do
+        HealBot_Aux_UpdateAbsorbBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Private_Button) do
+        HealBot_Aux_UpdateAbsorbBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Pet_Button) do
+        HealBot_Aux_UpdateAbsorbBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Vehicle_Button) do
+        HealBot_Aux_UpdateAbsorbBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Extra_Button) do
+        HealBot_Aux_UpdateAbsorbBar(xButton)
+    end
+end
+
+function HealBot_updAllAuxThreatBars()
+    for _,xButton in pairs(HealBot_Unit_Button) do
+        HealBot_Aux_UpdateThreatBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Private_Button) do
+        HealBot_Aux_UpdateThreatBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Pet_Button) do
+        HealBot_Aux_UpdateThreatBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Vehicle_Button) do
+        HealBot_Aux_UpdateThreatBar(xButton)
+    end
+    for _,xButton in pairs(HealBot_Extra_Button) do
+        HealBot_Aux_UpdateThreatBar(xButton)
     end
 end
 
@@ -1835,6 +1934,8 @@ function HealBot_Reset_Full()
 end
 
 function HealBot_Reset_Quick()
+    HealBot_Aura_ClearAllBuffs()
+    HealBot_Aura_ClearAllDebuffs()
     HealBot_Timers_Set("INITSLOW","AllFramesChanged")
 end
 
@@ -1869,34 +1970,36 @@ function HealBot_UnitID(unit, incEnemy)
     return false,false,false
 end
 
+function HealBot_OverHealText(button)
+    if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["OVERHEAL"]>1 then
+        if button.status.current<HealBot_Unit_Status["ENABLEDOOR"] or button.status.current>HealBot_Unit_Status["DEBUFFBARCOL"] or button.status.range<1 then
+            button.health.overheal=0
+        end
+        HealBot_Text_setOverHealText(button)
+    end
+end
+
 local hiuOverHeal=0
 function HealBot_OverHeal(button)
-    if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["OVERHEAL"]>1 then 
-        if HealBot_luVars["overhealUnit"]==button.unit then
-            if HealBot_luVars["overhealAmount"]==0 then
-                HealBot_luVars["overhealAmount"]=button.health.incoming
-            elseif HealBot_luVars["overhealAmount"]>button.health.incoming then
-                HealBot_luVars["overhealAmount"]=button.health.incoming
-            end
-            hiuOverHeal=(button.health.current+HealBot_luVars["overhealAmount"])-button.health.max
-            if hiuOverHeal<1 then hiuOverHeal=0 end
-        elseif Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["OVERHEAL"]==3 then
-            hiuOverHeal=(button.health.current+button.health.incoming)-button.health.max
-            if hiuOverHeal<1 then hiuOverHeal=0 end
-        else
-            hiuOverHeal=0
+    if HealBot_luVars["overhealUnit"]==button.unit then
+        if HealBot_luVars["overhealAmount"]==0 then
+            HealBot_luVars["overhealAmount"]=button.health.auxincoming
+        elseif HealBot_luVars["overhealAmount"]>button.health.auxincoming then
+            HealBot_luVars["overhealAmount"]=button.health.auxincoming
         end
+        hiuOverHeal=(button.health.current+HealBot_luVars["overhealAmount"])-button.health.max
+        if hiuOverHeal<1 then hiuOverHeal=0 end
+    elseif Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["OVERHEAL"]==3 then
+        hiuOverHeal=(button.health.current+button.health.auxincoming)-button.health.max
+        if hiuOverHeal<1 then hiuOverHeal=0 end
     else
         hiuOverHeal=0
     end
     if button.health.overheal~=hiuOverHeal then
         button.health.overheal=hiuOverHeal
-        HealBot_Text_setOverHealText(button)
-        if hiuOverHeal>0 then
-            HealBot_Aux_UpdateOverHealBar(button)
-        else
-            HealBot_Aux_ClearOverHealBar(button)
-        end
+        button.health.auxoverheal=hiuOverHeal
+        HealBot_OverHealText(button)
+        HealBot_Aux_UpdateOverHealBar(button)
     end
       --HealBot_setCall("HealBot_OverHeal")
 end
@@ -1922,25 +2025,22 @@ end
 function HealBot_OnEvent_HealsInUpdate(button, force)
     button.health.updincoming=false
     HealBot_HealsInAmount(button)
-    if button.status.current>HealBot_Unit_Status["ENABLEDOOR"] and button.status.current<HealBot_Unit_Status["DEAD"] and button.status.range==1 then
+    if button.status.current>HealBot_Unit_Status["CHECK"] and button.status.current<HealBot_Unit_Status["DEAD"] and button.status.range==1 then
         if button.health.incoming~=hiuHealAmount or (hiuHealAmount==0 and button.gref["InHeal"]:GetValue()>0) or force then
             button.health.incoming=hiuHealAmount
-            HealBot_OverHeal(button)
             HealBot_Action_UpdateHealsInButton(button)
             HealBot_Text_setInHealAbsorbsText(button)
         end
     elseif button.health.incoming>0 or button.gref["InHeal"]:GetValue()>0 then
         button.health.incoming=0
-        button.health.overheal=0
-        HealBot_Aux_ClearOverHealBar(button)
         HealBot_Text_setInHealAbsorbsText(button)
-        HealBot_Text_setOverHealText(button)
         button.gref["InHeal"]:SetValue(0)
         button.health.inheala=0
         HealBot_Action_UpdateInHealStatusBarColor(button)
-        HealBot_Aux_ClearHealInBar(button)
     end
-    HealBot_Aux_UpdateHealInBar(button, hiuHealAmount)
+    button.health.auxincoming=hiuHealAmount
+    HealBot_OverHeal(button)
+    HealBot_Aux_UpdateHealInBar(button)
       --HealBot_setCall("HealBot_OnEvent_HealsInUpdate")
 end
 
@@ -1973,9 +2073,10 @@ function HealBot_Classic_AbsorbsUpdate(button, amount)
     if button.health.absorbs>0 then 
         button.health.absorbs=button.health.absorbs-amount
         if button.health.absorbs<0 then button.health.absorbs=0 end
+        button.health.auxabsorbs=button.health.absorbs
         HealBot_Action_UpdateAbsorbsButton(button)
         HealBot_Text_setInHealAbsorbsText(button)
-        HealBot_Aux_UpdateAbsorbBar(button, button.health.absorbs)
+        HealBot_Aux_UpdateAbsorbBar(button)
     end
 end
 
@@ -1995,7 +2096,7 @@ end
 function HealBot_OnEvent_AbsorbsUpdate(button, force)
     button.health.updabsorbs=false
     HealBot_AbsorbsAmount(button)
-    if button.status.current>HealBot_Unit_Status["ENABLEDOOR"] and button.status.current<HealBot_Unit_Status["DEAD"] and button.status.range==1 then
+    if button.status.current>HealBot_Unit_Status["CHECK"] and button.status.current<HealBot_Unit_Status["DEAD"] and button.status.range==1 then
         if button.health.absorbs~=abuAbsorbAmount or (abuAbsorbAmount==0 and button.gref["Absorb"]:GetValue()>0) or force then
             button.health.absorbs=abuAbsorbAmount
             HealBot_Action_UpdateAbsorbsButton(button)
@@ -2007,9 +2108,9 @@ function HealBot_OnEvent_AbsorbsUpdate(button, force)
         button.health.absorba=0
         button.gref["Absorb"]:SetValue(0)
         HealBot_Action_UpdateAbsorbStatusBarColor(button)
-        HealBot_Aux_ClearAbsorbBar(button)
     end
-    HealBot_Aux_UpdateAbsorbBar(button, abuAbsorbAmount)
+    button.health.auxabsorbs=abuAbsorbAmount
+    HealBot_Aux_UpdateAbsorbBar(button)
       --HealBot_setCall("HealBot_OnEvent_AbsorbsUpdate")
 end
 
@@ -2083,15 +2184,18 @@ end
 function HealBot_IncHeals_ClearUnit(button)
     if button.health.incoming>0 then
         button.health.incoming=0
+        button.health.auxincoming=0
         button.health.overheal=0
-        HealBot_Aux_ClearOverHealBar(button)
+        button.health.auxoverheal=0
+        HealBot_Aux_UpdateOverHealBar(button)
         HealBot_Action_UpdateHealsInButton(button)
-        HealBot_Aux_ClearHealInBar(button)
+        HealBot_Aux_UpdateHealInBar(button)
     end
     if button.health.absorbs>0 then
         button.health.absorbs=0
+        button.health.auxabsorbs=0
         HealBot_Action_UpdateAbsorbsButton(button)
-        HealBot_Aux_ClearAbsorbBar(button)
+        HealBot_Aux_UpdateAbsorbBar(button)
     end
 end
 
@@ -3279,12 +3383,12 @@ function HealBot_OnEvent_UnitHealth(button)
             else
                 health=0
             end
+            if healthMax==0 then healthMax=1 end
         else
             health,healthMax=UnitHealth(button.unit),UnitHealthMax(button.unit)
             if health==0 then health=1 end
-            --if health>healthMax then health=healthMax end
         end
-        if healthMax==0 then healthMax=1 end
+        if health>healthMax then healthMax=health end
         if (health~=button.health.current) or (healthMax~=button.health.max) then
             if HealBot_luVars["pluginTimeToDie"] and button.status.plugin then 
                 HealBot_Plugin_TimeToDie_UnitUpdate(button, health) 
@@ -3748,7 +3852,6 @@ function HealBot_UnitSlowUpdate(button)
                 HealBot_OnEvent_UnitHealth(button)
                 HealBot_OnEvent_HealsInUpdate(button)
                 HealBot_OnEvent_AbsorbsUpdate(button)
-                HealBot_OnEvent_RaidTargetUpdate(button)
                 HealBot_Update_AuxRange(button)
                 HealBot_Aura_Update_AllIcons(button)
                 HealBot_Text_setNameTag(button)
@@ -3780,6 +3883,7 @@ function HealBot_UnitSlowUpdate(button)
             if button.status.postupdate then
                 button.status.postupdate=false
                 HealBot_Check_UnitAura(button)
+                HealBot_OnEvent_RaidTargetUpdate(button)
                 HealBot_Action_ResetUnitButtonOpacity(button)
             end
             button.status.slowupdate=false
@@ -5413,13 +5517,15 @@ function HealBot_OnEvent_UnitSpellCastStop(button, unitTarget, castGUID, spellID
         HealBot_luVars["overhealCastID"]="-nil-"
         if xButton and xButton.health.overheal>0 then
             xButton.health.overheal=0
-            HealBot_Aux_ClearOverHealBar(xButton)
-            HealBot_Text_setOverHealText(xButton)
+            xButton.health.auxoverheal=0
+            HealBot_Aux_UpdateOverHealBar(xButton)
+            HealBot_OverHealText(xButton)
         end
         if pButton and pButton.health.overheal>0 then
             pButton.health.overheal=0
-            HealBot_Aux_ClearOverHealBar(pButton)
-            HealBot_Text_setOverHealText(pButton)
+            pButton.health.auxoverheal=0
+            HealBot_Aux_UpdateOverHealBar(pButton)
+            HealBot_OverHealText(pButton)
         end
         HealBot_luVars["overhealAmount"]=0
     end
@@ -5485,8 +5591,8 @@ function HealBot_OnEvent_UnitSpellCastSent(caster,unitName,castGUID,spellID)
 
         if uscUnit and uscUnitName then
             _,xButton,pButton=HealBot_UnitID(uscUnit)
-            if (xButton and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][xButton.frame]["OVERHEAL"]==2) or
-               (pButton and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][pButton.frame]["OVERHEAL"]==2) then
+            if (xButton and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][xButton.frame]["OVERHEAL"]<3) or
+               (pButton and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][pButton.frame]["OVERHEAL"]<3) then
                 HealBot_luVars["overhealUnit"]=uscUnit
                 HealBot_luVars["overhealCastID"]=castGUID
                 HealBot_luVars["overhealAmount"]=0

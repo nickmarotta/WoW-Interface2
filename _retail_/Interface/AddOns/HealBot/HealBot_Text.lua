@@ -787,6 +787,10 @@ function HealBot_Text_setHealthText(button)
             button.text.healthcomplete=vTextChars["Nothing"]
             button.text.healthupdate=true
         end
+        if button.text.namehealth~=vTextChars["Nothing"] then
+            button.text.namehealth=vTextChars["Nothing"]
+            HealBot_Text_ConcatNameText(button)
+        end
         HealBot_Text_UpdateText(button)
     end
 end
@@ -1366,6 +1370,7 @@ function HealBot_Text_UpdateAggroColour(button)
       --HealBot_setCall("HealBot_Text_UpdateAggroColour")
 end
 
+local testNameTxt=""
 function HealBot_Text_UpdateText(button)
     if not HealBot_Text_luVars["TestBarsOn"] then
         if button.text.tagupdate then
@@ -1464,6 +1469,60 @@ function HealBot_Text_UpdateText(button)
             else
                 button.gref.txt["text2"]:SetText("")
             end
+        end
+    else
+        if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["NAMEONBAR"] or 
+           Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["CLASSONBAR"] then
+            if not Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["TAGSTATEONLYTIP"] and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["STATETXTANCHOR"]==4 then
+                testNameTxt=HEALBOT_OPTIONS_TAB_STATETEXT.."  "..button.unit
+            else
+                testNameTxt=button.unit
+            end
+            if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHONBAR"] and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTXTANCHOR"]==4 then
+                if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTYPE"]==1 then
+                    testNameTxt=testNameTxt.." 10K"
+                elseif Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTYPE"]==2 then
+                    testNameTxt=testNameTxt.." (0)"
+                else
+                    testNameTxt=testNameTxt.." (100%)"
+                end
+            end
+            button.gref.txt["text"]:SetText(testNameTxt)
+            HealBot_AddDebug("testNameTxt="..testNameTxt,"Text",true)
+        else
+            button.gref.txt["text"]:SetText("")
+            HealBot_AddDebug("testNameTxt=".."","Text",true)
+        end
+        if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHONBAR"] and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTXTANCHOR"]~=4 then
+            if Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTYPE"]==1 then
+                button.gref.txt["text2"]:SetText("10K");
+            elseif Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["HLTHTYPE"]==2 then
+                button.gref.txt["text2"]:SetText("(0)");
+            else
+                button.gref.txt["text2"]:SetText("(100%)");
+            end
+        else
+            button.gref.txt["text2"]:SetText("")
+        end
+        if button.frame<10 then
+            if not Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["TAGSTATEONLYTIP"] and Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["STATETXTANCHOR"]~=4 then
+                button.text.tag=HEALBOT_OPTIONS_TAB_STATETEXT
+                button.gref.txt["text3"]:SetText(HEALBOT_OPTIONS_TAB_STATETEXT)
+            else
+                button.gref.txt["text3"]:SetText("")
+            end
+            if not Healbot_Config_Skins.BarText[Healbot_Config_Skins.Current_Skin][button.frame]["TAGAGGROONLYTIP"] then
+                if button.id<101 then
+                    button.gref.txt["text4"]:SetText(HealBot_Text_AggroFormat("Left", button.frame)..button.id.."%"..HealBot_Text_AggroFormat("Right", button.frame))
+                else
+                    button.gref.txt["text4"]:SetText(HealBot_Text_AggroFormat("Left", button.frame).."99%"..HealBot_Text_AggroFormat("Right", button.frame))
+                end
+            else
+                button.gref.txt["text4"]:SetText("")
+            end
+        else
+            button.gref.txt["text3"]:SetText("")
+            button.gref.txt["text4"]:SetText("")
         end
     end
       --HealBot_setCall("HealBot_Text_UpdateText")

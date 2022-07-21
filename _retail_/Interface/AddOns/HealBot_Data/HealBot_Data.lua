@@ -322,6 +322,7 @@ function HealBot_Data_InitVars()
         OverrideFocusGroups={[1]=true, [2]=true, [3]=true, [4]=true, [5]=true, [6]=true, [7]=true, [8]=true, },
         OverrideChat={["USE"]=1,["NOTIFY"]=1,["MSG"]=HEALBOT_NOTIFYOTHERMSG,["RESONLY"]=true,["EOCOOM"]=false,["EOCOOMV"]=10},
         OverrideFrames={["USE"]=1,["HIDEPARTYF"]=false,["HIDEPTF"]=false,["HIDEBOSSF"]=true,["HIDERAIDF"]=true,},
+        AuxTextPrefs={},
         HealBot_customPermUserName={},
         HealBot_PermMyTargets={},
         HealBot_PermPrivateTanks={},

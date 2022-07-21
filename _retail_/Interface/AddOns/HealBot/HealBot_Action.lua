@@ -277,7 +277,7 @@ function HealBot_Action_UpdateFluidBars()
     end
     
     for id,xButton in pairs(HealBot_Fluid_InHealButtons) do
-        if xButton.status.current>HealBot_Unit_Status["ENABLEDOOR"] and xButton.status.current<HealBot_Unit_Status["DEAD"] and xButton.health.incoming>0 then
+        if xButton.status.current>HealBot_Unit_Status["CHECK"] and xButton.status.current<HealBot_Unit_Status["DEAD"] and xButton.health.incoming>0 then
             aufbBarValue=xButton.gref["InHeal"]:GetValue()
             if aufbBarValue>xButton.health.inhptc then
                 aufbSetValue=aufbBarValue-ceil((aufbBarValue-xButton.health.inhptc)/HealBot_Action_luVars["FluidBarSmoothAdj"])
@@ -298,7 +298,7 @@ function HealBot_Action_UpdateFluidBars()
     end
 
     for id,xButton in pairs(HealBot_Fluid_AbsorbButtons) do
-        if xButton.status.current>HealBot_Unit_Status["ENABLEDOOR"] and xButton.status.current<HealBot_Unit_Status["DEAD"] and xButton.health.absorbs>0 then
+        if xButton.status.current>HealBot_Unit_Status["CHECK"] and xButton.status.current<HealBot_Unit_Status["DEAD"] and xButton.health.absorbs>0 then
             aufbBarValue=xButton.gref["Absorb"]:GetValue()
             if aufbBarValue>xButton.health.abptc then
                 aufbSetValue=aufbBarValue-ceil((aufbBarValue-xButton.health.abptc)/HealBot_Action_luVars["FluidBarSmoothAdj"])
@@ -690,7 +690,7 @@ function HealBot_Action_UpdateHealsInButton(button)
     auhiHiHealsIn=button.health.incoming
     if Healbot_Config_Skins.BarIACol[Healbot_Config_Skins.Current_Skin][button.frame]["IC"]<2 then auhiHiHealsIn=0 end
     
-    if auhiHiHealsIn>0 and button.status.current>HealBot_Unit_Status["ENABLEDOOR"] and button.status.current<HealBot_Unit_Status["DEAD"] then
+    if auhiHiHealsIn>0 and button.status.current>HealBot_Unit_Status["CHECK"] and button.status.current<HealBot_Unit_Status["DEAD"] then
         auhiHiPct = button.health.current+button.health.incoming
         if auhiHiPct<button.health.max then 
             auhiHiPct=auhiHiPct/button.health.max  
@@ -737,7 +737,6 @@ function HealBot_Action_UpdateHealsInButton(button)
             button.gref["InHeal"]:SetValue(0)
         end
         HealBot_Action_UpdateInHealStatusBarColor(button)
-        HealBot_Aux_ClearHealInBar(button)
     end
     --HealBot_setCall("HealBot_Action_UpdateHealsInButton")
 end
@@ -747,7 +746,7 @@ function HealBot_Action_UpdateAbsorbsButton(button)
     auaUnitAbsorbsIn=button.health.absorbs
     if Healbot_Config_Skins.BarIACol[Healbot_Config_Skins.Current_Skin][button.frame]["AC"]<2 then auaUnitAbsorbsIn=0 end
     
-    if auaUnitAbsorbsIn>0 and button.status.current>HealBot_Unit_Status["ENABLEDOOR"] and button.status.current<HealBot_Unit_Status["DEAD"] then
+    if auaUnitAbsorbsIn>0 and button.status.current>HealBot_Unit_Status["CHECK"] and button.status.current<HealBot_Unit_Status["DEAD"] then
         if Healbot_Config_Skins.BarIACol[Healbot_Config_Skins.Current_Skin][button.frame]["IC"]<2 then 
             auaUnitHealsIn=0 
         else
@@ -801,7 +800,6 @@ function HealBot_Action_UpdateAbsorbsButton(button)
             button.gref["Absorb"]:SetValue(0)
         end
         HealBot_Action_UpdateAbsorbStatusBarColor(button)
-        HealBot_Aux_ClearAbsorbBar(button)
     end
     --HealBot_setCall("HealBot_Action_UpdateAbsorbsButton")
 end
@@ -2325,11 +2323,14 @@ function HealBot_Action_PrepButton(button)
     button.health.ptc=.999
     button.health.hptc=999
     button.health.incoming=0
+    button.health.auxincoming=0
     button.health.inhptc=0
     button.health.absorbs=0
+    button.health.auxabsorbs=0
     button.health.auraabsorbs=0
     button.health.abptc=0
     button.health.overheal=0
+    button.health.auxoverheal=0
     button.health.updhlth=true
     button.health.updincoming=false
     button.health.updabsorbs=false

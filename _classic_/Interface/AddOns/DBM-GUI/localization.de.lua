@@ -1,6 +1,6 @@
 if GetLocale() ~= "deDE" then return end
-if not DBM_GUI_Translations then DBM_GUI_Translations = {} end
-local L = DBM_GUI_Translations
+if not DBM_GUI_L then DBM_GUI_L = {} end
+local L = DBM_GUI_L
 
 L.MainFrame = "Deadly Boss Mods"
 
@@ -13,25 +13,25 @@ L.OTabBosses	= "Bosse"
 L.OTabOptions	= GAMEOPTIONS_MENU
 
 L.TabCategory_Options	 	= "Allgemeine Einstellungen"
-L.TabCategory_OTHER    		= "Sonstige Boss Mods"
+L.TabCategory_OTHER			= "Sonstige Boss Mods"
 
 L.BossModLoaded 			= "Statistiken von %s"
 L.BossModLoad_now 			= [[Dieses Boss Mod ist nicht geladen. Es wird automatisch geladen, wenn du die Instanz betrittst. Du kannst auch auf den Button klicken um das Boss Mod manuell zu laden.]]
 
 
 
-L.PosX						= 'Position X'
-L.PosY						= 'Position Y'
+L.PosX						= "Position X"
+L.PosY						= "Position Y"
 
-L.MoveMe 					= 'Positionieren'
-L.Button_OK 				= 'OK'
-L.Button_Cancel 			= 'Abbrechen'
-L.Button_LoadMod 			= 'Lade Boss Mod'
+L.MoveMe 					= "Positionieren"
+L.Button_OK 				= "OK"
+L.Button_Cancel 			= "Abbrechen"
+L.Button_LoadMod 			= "Lade Boss Mod"
 L.Mod_Enabled				= "Aktiviere Boss Mod"
 L.Mod_Reset					= "Lade Standardeinstellungen"
 L.Reset 					= "Zurücksetzen"
 
-L.Enable  					= "Aktiviert"
+L.Enable					= "Aktiviert"
 L.Disable					= "Deaktiviert"
 
 L.NoSound					= "Kein Sound"
@@ -82,10 +82,6 @@ L.WarningIconLeft 			= "Zeige Symbol links an"
 L.WarningIconRight 			= "Zeige Symbol rechts an"
 L.WarningIconChat 			= "Zeige Symbole im Chatfenster"
 L.WarningAlphabetical		= "Sortiere Namen alphabetisch"
-L.Warn_FontType				= "Schriftart"
-L.Warn_FontStyle			= "Schriftstil"
-L.Warn_FontShadow			= "Schatten"
-L.Warn_FontSize				= "Schriftgröße: %d"
 L.Warn_Duration				= "Warnungsdauer: %0.1fs"
 L.None						= "normal"
 L.Random					= "Zufall"
@@ -105,22 +101,20 @@ L.ShowEngageMessage 		= "Zeige Meldungen für den Beginn von Kämpfen im Chatfen
 L.ShowDefeatMessage 		= "Zeige Meldungen für Siege/Niederlagen im Chatfenster"
 L.ShowGuildMessages 		= "Zeige Meldungen für Kampfbeginn/Siege/Niederlagen für Schlachtzüge deiner Gilde im Chatfenster"
 L.ShowGuildMessagesPlus		= "Zeige auch Meldungen für Kampfbeginn/Siege/Niederlagen für Mythisch+ Gildengruppen (benötigt Schlachtzugeinstellung)"
-L.WhisperMessages			= "Flüstermeldungen"
+L.Area_WhisperMessages		= "Flüstermeldungen"
 L.AutoRespond 				= "Aktiviere automatische Antwort während eines Bosskampfes"
 L.WhisperStats 				= "Füge Sieg-/Niederlagestatistik den Flüsterantworten hinzu"
 L.DisableStatusWhisper 		= "Deaktiviere 'status'-Flüsteranfragen für die gesamte Gruppe (nur als Gruppenleiter; nur für normale/heroische/mythische Schlachtzüge und Mythisch+ Dungeons)"
 L.DisableGuildStatus 		= "Deaktiviere das Senden von Fortschrittsmeldungen an die Gilde für die gesamte Gruppe (nur als Gruppenleiter)"
 
 -- Tab: Barsetup
-L.BarSetup					= "Balkeneinstellungen"
+L.TabCategory_Timers		= "Balkeneinstellungen"
 L.BarTexture				= "Balkentextur"
 L.BarStyle					= "Balkenstil"
 L.BarDBM					= "DBM (mit Animationen)"
 L.BarSimple					= "Einfach (ohne Animationen)"
 L.BarStartColor				= "Startfarbe"
 L.BarEndColor 				= "Endfarbe"
-L.Bar_Font					= "Schriftart für Balken"
-L.Bar_FontSize				= "Schriftgröße: %d"
 L.Bar_Height				= "Balkenhöhe: %d"
 L.Slider_BarOffSetX 		= "Abstand X: %d"
 L.Slider_BarOffSetY 		= "Abstand Y: %d"
@@ -145,7 +139,6 @@ L.BarEndColorUI				= "Endfarbe (Nutzer)"
 L.Bar7Header				= "Einstellungen für Nutzerbalken"
 L.Bar7ForceLarge			= "Nutze immer großen Balken"
 L.Bar7CustomInline			= "Zeichen '!' einbetten"
-L.Bar7Footer				= "(keine Live-Aktual. der Dummy-Balken)"
 
 -- Tab: Timers
 L.AreaTitle_BarColors		= "Balkenfarben nach Timertyp"
@@ -168,23 +161,18 @@ L.BarInlineIcons			= "Zeichen einbetten"
 L.ShortTimerText			= "Nutze kurzen Timertext (falls verfügbar)"
 
 -- Tab: Spec Warn Frame
-L.Panel_SpecWarnFrame		= "Spezialwarnungen"
+L.Panel_SpecWarnFrame		= "Spezial Schlachtzug Warnungen"
 L.Area_SpecWarn				= "Einstellungen für Spezialwarnungen"
 L.SpecWarn_ClassColor		= "Benutze Klassenfarben für Spezialwarnungen"
 L.ShowSWarningsInChat 		= "Zeige Spezialwarnungen im Chatfenster"
 L.SWarnNameInNote			= "Nutze SW 5 falls eine Notiz deinen Namen enthält"
 L.SpecialWarningIcon		= "Zeige Symbole an Spezialwarnungen"
 L.SpecWarn_FlashFrameRepeat	= "Wiederhole %d-mal (falls aktiviert)"
-L.SpecWarn_Font				= "Schriftart für Spezialwarnungen" --unused
-L.SpecWarn_FontSize			= "Schriftgröße: %d"
-L.SpecWarn_FontColor		= "Schriftfarbe"
-L.SpecWarn_FontType			= "Schriftart"
 L.SpecWarn_FlashRepeat		= "Wiederh. Blinken"
 L.SpecWarn_FlashColor		= "Blinkfarbe %d"
 L.SpecWarn_FlashDur			= "Blinkdauer: %0.1f"
 L.SpecWarn_FlashAlpha		= "Blinkalpha: %0.1f"
 L.SpecWarn_DemoButton		= "Zeige Beispiel"
-L.SpecWarn_MoveMe			= "Positionieren"
 L.SpecWarn_ResetMe			= "Zurücksetzen"
 
 -- Tab: Spoken Alerts Frame
@@ -202,8 +190,6 @@ L.SWFDefaultOnly			= "Spezialwarnungen eingestellt auf den Standardsound (spielt
 L.SWFAll					= "Spezialwarnungen eingestellt auf irgendeinen Sound"
 L.SpecWarn_AlwaysVoice		= "Spiele immer alle gesprochenen Warnungen (ignoriert Boss-spezifische Einstellung, nützlich für Schlachtzugsleiter)"
 
-L.Area_GetVEM				= "Hole VEM Sprachpack"
---L.VEMDownload
 L.Area_BrowseOtherVP		= "Suche andere Sprachpacks auf Curse"
 --L.BrowseOtherVPs
 L.Area_BrowseOtherCT		= "Suche Countdownpacks auf Curse"
@@ -225,22 +211,24 @@ L.EventFilterMythicMusic	= "Spiele keine Kampfmusik auf Schwierigkeitsgrad Mythi
 
 -- Tab: Global Filter
 L.Panel_SpamFilter			= "Deaktivierung von DBM-Funktionen"
-L.Area_SpamFilter_Outgoing	= "Globale Deaktivierungs- und Filtereinstellungen für DBM"
+L.Area_SpamFilter_Anounces	= "Announce Global Disable & Filter Options"
 L.SpamBlockNoShowAnnounce	= "Zeige keinen Text und spiele keine Sounds für JEGLICHE allgemeine Meldungen"
 L.SpamBlockNoShowTgtAnnounce= "Zeige keinen Text und spiele keine Sounds für allgemeine ZIEL-Meldungen (wird durch obigen Filter überschrieben)"
-L.SpamBlockNoSpecWarn		= "Zeige keine Spezialwarnungen und spiele keine Spezialwarnungssounds"
 L.SpamBlockNoSpecWarnText	= "Zeige keinen Spezialwarnungstext, aber erlaube dennoch Sprachpacks (wird durch obigen Filter überschrieben)"
+
+L.Area_SpamFilter_Timers	= "Timer Global Disable & Filter Options"
 L.SpamBlockNoShowTimers		= "Zeige keine Mod-Timer (Boss Mod/Herausforderungsmodus/Gruppensuche/Wiedererscheinen)"
 L.SpamBlockNoShowUTimers	= "Zeige keine von anderen gesendeten Timer (benutzerdefiniert/Pull/Pause)"
+L.SpamBlockNoCountdowns		= "Spiele keine Countdown-Sounds"
+
+L.Area_SpamFilter_Misc		= "Misc Global Disable & Filter Options"
 L.SpamBlockNoSetIcon		= "Setze keine Zeichen auf Ziele"
 L.SpamBlockNoRangeFrame		= "Zeige kein Abstandsfenster/-radar an"
 L.SpamBlockNoInfoFrame		= "Zeige kein Infofenster an"
 L.SpamBlockNoHudMap			= "Zeige keine HudMap"
 L.SpamBlockNoNameplate		= "Zeige keine Namensplakettenauras"
-L.SpamBlockNoCountdowns		= "Spiele keine Countdown-Sounds"
 L.SpamBlockNoYells			= "Sende keine automatischen Schreie"
 L.SpamBlockNoNoteSync		= "Akzeptiere keine geteilten Notizen"
-L.SpamBlockNoReminders		= "Zeige keine Anmeldungs-, Empfehlungs-, und Aktualisierungsmeldungen (NICHT empfohlen)"
 
 L.Area_Restore				= "DBM-Wiederherstellungseinstellungen (Setzen des vorherigen Nutzerzustands nach Mod-Ende)"
 L.SpamBlockNoIconRestore	= "Setze Markierungszeichen am Kampfende nicht auf den vorherigen Zustand zurück"
@@ -266,6 +254,7 @@ L.DontShowPTNoID			= "Blockiere Pull-Timer, die nicht aus deiner derzeitigen Zon
 L.DontShowPT				= "Zeige keinen Timerbalken für Pull-/Pausen-Timer"
 L.DontShowPTText			= "Zeige keine Mitteilungen für Pull-/Pausen-Timer im Chatfenster"
 L.DontPlayPTCountdown		= "Spiele keinen akustischen Countdown für Pull-, Pausen-, Kampf- und benutzerdefinierte Timer"
+L.DontShowPTCountdownText	= "Zeige keinen optischen Countdown für Pull-Timer"
 L.PT_Threshold				= "Zeige keinen opt. Countd. für Pausen-/Kampf-/Nutzer-Timer über: %d"
 
 L.Panel_HideBlizzard		= "Deaktivierung von Spielelementen"
@@ -279,17 +268,13 @@ L.HideTooltips				= "Verberge Tooltips vollständig während Bosskämpfen"
 L.DisableSFX				= "Deaktiviere Soundeffekte während Bosskämpfen"
 L.DisableCinematics			= "Verberge Videosequenzen"
 L.AfterFirst				= "Nach jeweils einmaligem Abspielen"
-L.Always					= ALWAYS
 L.CombatOnly				= "im Kampf deaktivieren (alle)"
 L.RaidCombat				= "im Kampf deaktivieren (nur Bosse)"
-L.TrivialContent			= "NICHT-mythischen Dungeons (<340)"--Basically anything below 340
-L.NormalRaider				= "Dungeons unter Mythisch+5 und in Schlachtzügen auf Schwierigkeitsgrad LFR (<355)"--Basically, anything below 355
-L.HeroicRaider				= "Dungeons unter Mythisch+10, SZ unter Heroisch, Nicht-Kriegsfront Weltbosse (<370)"--Basically anything below 370
-L.MythicRaider				= "allem unterhalb Schlachtzügen auf Schwierigkeitsgrad Mythisch (<385)"--Basically anything below 385
 
 L.Panel_ExtraFeatures		= "Sonstige Funktionen"
 --
 L.Area_ChatAlerts			= "Alarmmeldungen im Chatfenster"
+L.RoleSpecAlert				= "Zeige Alarmmeldung, wenn deine Beutespezialisierung nicht deiner aktuellen Spezialisierung beim Betreten eines Schlachtzugs entspricht"
 L.CheckGear					= "Zeige Alarmmeldung beim Pull, wenn deine angelegte Gegenstandsstufe viel niedriger als die in deinen Taschen (40+) oder deine Hauptwaffe nicht ausgerüstet ist"
 L.WorldBossAlert			= "Zeige Alarmmeldung, wenn auf deinem Realm Gildenmitglieder oder Freunde möglicherweise beginnen gegen Weltbosse zu kämpfen (ungenau falls Sender \"CRZed\" ist)"
 --
@@ -298,6 +283,7 @@ L.LFDEnhance				= "Spiele \"Bereitschaftscheck\"-Sound und lasse Anwendungsymbol
 L.WorldBossNearAlert		= "Spiele \"Bereitschaftscheck\"-Sound und lasse Anwendungsymbol aufblicken, wenn Weltbosse in deiner Nähe gepullt werden, die du brauchst"
 L.RLReadyCheckSound			= "Wenn ein Bereitschaftscheck durchgeführt wird, den Sound im Master- oder Dialog-Audiokanal abspielen und Anwendungsymbol aufblicken lassen"
 L.AFKHealthWarning			= "Spiele Alarmsound und lasse Anwendungsymbol aufblicken, wenn du Gesundheit verlierst, während du als nicht an der Tastatur (\"AFK\") markiert bist"
+--L.AutoReplySound			--translate? (misleading option..)
 --
 L.TimerGeneral 				= "Allgemeine Einstellungen für Timer"
 L.SKT_Enabled				= "Zeige Timer für Rekordzeit für aktuellen Kampf (falls verfügbar)"
@@ -310,8 +296,7 @@ L.AdvancedAutologBosses		= "Automatische Aufzeichnung von Bosskämpfen mit Addon
 L.LogOnlyNonTrivial			= "Nur Schlachtzugbosskämpfe der aktuellen Erweiterung aufzeichnen\n(ohne Schlachtzugsbrowser-/Dungeon-/Szenarienbosskämpfe/alte Spielinhalte)"
 --
 L.Area_3rdParty				= "Einstellungen für Addons von Drittanbietern"
-L.ShowBBOnCombatStart		= "Führe bei Kampfbeginn eine \"BigBrother\"-Buffprüfung durch"
-L.BigBrotherAnnounceToRaid	= "Verkünde Ergebnis der \"BigBrother\"-Buffprüfung zum Schlachtzug"
+--L.oRA3AnnounceConsumables	= "Announce oRA3 consumables check on combat start"
 L.Area_Invite				= "Einstellungen für Einladungen"
 L.AutoAcceptFriendInvite	= "Automatisch Gruppeneinladungen von Freunden akzeptieren"
 L.AutoAcceptGuildInvite		= "Automatisch Gruppeneinladungen von Gildenmitgliedern akzeptieren"
@@ -341,4 +326,10 @@ L.SelectModProfileCopyNote	= "Kopiere nur Notizen von"
 L.SelectModProfileDelete	= "Lösche Mod-Einstellungen für"
 
 -- Misc
+L.FontType					= "Schriftart"
+L.FontStyle					= "Schriftstil"
+L.FontColor					= "Schriftfarbe"
+L.FontShadow				= "Schatten"
+L.FontSize					= "Schriftgröße: %d"
+
 L.FontHeight	= 16

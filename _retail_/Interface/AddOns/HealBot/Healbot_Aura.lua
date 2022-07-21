@@ -55,7 +55,7 @@ HealBot_Aura_luVars["TankUnit"]="x"
 HealBot_Aura_luVars["hbInsName"]=HEALBOT_WORD_OUTSIDE
 HealBot_Aura_luVars["IgnoreFastDurDebuffsSecs"]=-1
 HealBot_Aura_luVars["cureOffCd"]=true
-HealBot_Aura_luVars["HotBarDebuff"]=3 -- 9999
+HealBot_Aura_luVars["HotBarDebuff"]=0
 
 if HEALBOT_GAME_VERSION<2 then
     libCD = HealBot_Libs_CD()

@@ -1,7 +1,7 @@
 local mod	= DBM:NewMod("Nefarian-Classic", "DBM-BWL", 1)
 local L		= mod:GetLocalizedStrings()
 
-mod:SetRevision("20200512175128")
+mod:SetRevision("20220511043833")
 mod:SetCreatureID(11583)
 mod:SetEncounterID(617)
 mod:SetModelID(11380)
@@ -30,91 +30,64 @@ local warnFear				= mod:NewCastAnnounce(22686, 2)
 
 local specwarnShadowCommand	= mod:NewSpecialWarningTarget(22667, nil, nil, 2, 1, 2)
 local specwarnVeilShadow	= mod:NewSpecialWarningDispel(22687, "RemoveCurse", nil, nil, 1, 2)
+local specwarnClassCall		= mod:NewSpecialWarning("specwarnClassCall", nil, nil, nil, 1, 2)
 
 local timerPhase			= mod:NewPhaseTimer(15)
 local timerClassCall		= mod:NewTimer(30, "TimerClassCall", "136116", nil, nil, 5)
 local timerFearNext			= mod:NewCDTimer(26.7, 22686, nil, nil, 3, 2)--26-42.5
 
-mod.vb.phase = 1
 mod.vb.addLeft = 42
 local addsGuidCheck = {}
-local RazorMod = DBM:GetModByName("Razorgore")
+local firstBossMod = DBM:GetModByName("Razorgore")
 
 function mod:OnCombatStart(delay, yellTriggered)
 	table.wipe(addsGuidCheck)
 	self.vb.addLeft = 42
-	--if yellTriggered then--Triggered by Phase 1 yell from talking to Nefarian (uncomment if ENCOUNTER_START isn't actually fixed with weekly reset)
-		self.vb.phase = 1
-	--else--Blizz can't seem to figure out ENCOUNTER_START, so any pull not triggered by yell will be treated as if it's already phase 2
-	--	self.vb.phase = 2
-	--end
+	self:SetStage(1)
 end
 
 function mod:OnCombatEnd(wipe)
 	if not wipe then
-		DBM.Bars:CancelBar(DBM_SPEED_CLEAR_TIMER_TEXT)
-		if RazorMod.vb.firstEngageTime then
-			local thisTime = GetTime() - RazorMod.vb.firstEngageTime
-			if not RazorMod.Options.FastestClear then
-				--First clear, just show current clear time
-				DBM:AddMsg(DBM_CORE_RAID_DOWN:format("BWL", DBM:strFromTime(thisTime)))
-				RazorMod.Options.FastestClear = thisTime
-			elseif (RazorMod.Options.FastestClear > thisTime) then
-				--Update record time if this clear shorter than current saved record time and show users new time, compared to old time
-				DBM:AddMsg(DBM_CORE_RAID_DOWN_NR:format("BWL", DBM:strFromTime(thisTime), DBM:strFromTime(RazorMod.Options.FastestClear)))
-				RazorMod.Options.FastestClear = thisTime
-			else
-				--Just show this clear time, and current record time (that you did NOT beat)
-				DBM:AddMsg(DBM_CORE_RAID_DOWN_L:format("BWL", DBM:strFromTime(thisTime), DBM:strFromTime(RazorMod.Options.FastestClear)))
-			end
-		end
-	end
-end
-
-do
-	local ShadowFlame, BellowingRoar = DBM:GetSpellInfo(22539), DBM:GetSpellInfo(22686)
-	function mod:SPELL_CAST_START(args)
-		--if args.spellId == 22539 then
-		if args.spellName == ShadowFlame then
-			if self:AntiSpam(5, "Shadowflame") then
-				self:SendSync("Shadowflame")
-			end
-			if self:AntiSpam(8, 1) then
-				warnShadowFlame:Show()
-			end
-		--elseif args.spellId == 22686 then
-		elseif args.spellName == BellowingRoar then
-			if self:AntiSpam(5, "Fear") then
-				self:SendSync("Fear")
-			end
-			if self:AntiSpam(8, 2) then
-				warnFear:Show()
-				timerFearNext:Start()
-			end
-		end
-	end
-end
-
-do
-	local VielShadow, ShadowCommand = DBM:GetSpellInfo(22687), DBM:GetSpellInfo(22667)
-	function mod:SPELL_AURA_APPLIED(args)
-		--if args.spellId == 22687 then
-		if args.spellName == VielShadow then
-			self:SendSync("VielShadow", args.destName)
-			if self:AntiSpam(8, args.destName .. "1") then
-				if self:CheckDispelFilter() then
-					specwarnVeilShadow:Show(args.destName)
-					specwarnVeilShadow:Play("dispelnow")
+		DBT:CancelBar(DBM_CORE_L.SPEED_CLEAR_TIMER_TEXT)
+		if firstBossMod.vb.firstEngageTime then
+			local thisTime = GetServerTime() - firstBossMod.vb.firstEngageTime
+			if thisTime and thisTime > 0 then
+				if not firstBossMod.Options.FastestClear then
+					--First clear, just show current clear time
+					DBM:AddMsg(DBM_CORE_L.RAID_DOWN:format("BWL", DBM:strFromTime(thisTime)))
+					firstBossMod.Options.FastestClear = thisTime
+				elseif (firstBossMod.Options.FastestClear > thisTime) then
+					--Update record time if this clear shorter than current saved record time and show users new time, compared to old time
+					DBM:AddMsg(DBM_CORE_L.RAID_DOWN_NR:format("BWL", DBM:strFromTime(thisTime), DBM:strFromTime(firstBossMod.Options.FastestClear)))
+					firstBossMod.Options.FastestClear = thisTime
+				else
+					--Just show this clear time, and current record time (that you did NOT beat)
+					DBM:AddMsg(DBM_CORE_L.RAID_DOWN_L:format("BWL", DBM:strFromTime(thisTime), DBM:strFromTime(firstBossMod.Options.FastestClear)))
 				end
 			end
-		--elseif args.spellId == 22667 then
-		elseif args.spellName == ShadowCommand then
-			self:SendSync("MindControl", args.destName)
-			if self:AntiSpam(8, args.destName .. "2") then
-				specwarnShadowCommand:Show(args.destName)
-				specwarnShadowCommand:Play("findmc")
-			end
+			firstBossMod.vb.firstEngageTime = nil
 		end
+	end
+end
+
+function mod:SPELL_CAST_START(args)
+	if args.spellId == 22539 then
+		warnShadowFlame:Show()
+	elseif args.spellId == 22686 then
+		warnFear:Show()
+		timerFearNext:Start()
+	end
+end
+
+function mod:SPELL_AURA_APPLIED(args)
+	if args.spellId == 22687 then
+		if self:CheckDispelFilter() then
+			specwarnVeilShadow:Show(args.destName)
+			specwarnVeilShadow:Play("dispelnow")
+		end
+	elseif args.spellId == 22667 then
+		specwarnShadowCommand:Show(args.destName)
+		specwarnShadowCommand:Play("findmc")
 	end
 end
 
@@ -122,12 +95,11 @@ function mod:UNIT_DIED(args)
 	local guid = args.destGUID
 	local cid = self:GetCIDFromGUID(guid)
 	if cid == 14264 or cid == 14263 or cid == 14261 or cid == 14265 or cid == 14262 or cid == 14302 then--Red, Bronze, Blue, Black, Green, Chromatic
-		self:SendSync("AddDied", guid)--Send sync it died do to combat log range and size of room
-		--We're in range of event, no reason to wait for sync, especially in a raid that might not have many DBM users
 		if not addsGuidCheck[guid] then
 			addsGuidCheck[guid] = true
 			self.vb.addLeft = self.vb.addLeft - 1
-			if self.vb.addLeft >= 1 and (self.vb.addLeft % 3 == 0) then
+			--40, 35, 30, 25, 20, 15, 12, 9, 6, 3
+			if self.vb.addLeft >= 15 and (self.vb.addLeft % 5 == 0) or self.vb.addLeft >= 1 and (self.vb.addLeft % 3 == 0) then
 				WarnAddsLeft:Show(self.vb.addLeft)
 			end
 		end
@@ -137,12 +109,14 @@ end
 function mod:UNIT_HEALTH(uId)
 	if UnitHealth(uId) / UnitHealthMax(uId) <= 0.25 and self:GetUnitCreatureId(uId) == 11583 and self.vb.phase < 2.5 then
 		warnPhase3Soon:Show()
-		self.vb.phase = 2.5
+		self:SetStage(2.5)
 	end
 end
 
 function mod:CHAT_MSG_MONSTER_YELL(msg)
-	if (msg == L.YellDruid or msg:find(L.YellDruid)) and self:AntiSpam(5, "ClassCall") then
+	if msg == L.YellDK or msg:find(L.YellDK) then--This mod will likely persist all the way til Classic WoTLK, don't remove DK
+		self:SendSync("ClassCall", "DEATHKNIGHT")
+	elseif (msg == L.YellDruid or msg:find(L.YellDruid)) and self:AntiSpam(5, "ClassCall") then
 		self:SendSync("ClassCall", "DRUID")
 	elseif (msg == L.YellHunter or msg:find(L.YellHunter)) and self:AntiSpam(5, "ClassCall")  then
 		self:SendSync("ClassCall", "HUNTER")
@@ -167,44 +141,34 @@ function mod:CHAT_MSG_MONSTER_YELL(msg)
 	end
 end
 
-function mod:OnSync(msg, arg)
-	if self:AntiSpam(5, msg) then
-		--Do nothing, this is just an antispam threshold for syncing
-	end
-	if msg == "Phase" and arg then
-		local phase = tonumber(arg) or 0
-		if phase == 2 then
-			self.vb.phase = 2
-			timerPhase:Start(15)--15 til encounter start fires, not til actual land?
-			--timerFearNext:Start(46.6)
-		elseif phase == 3 then
-			self.vb.phase = 3
+do
+	local playerClass = UnitClass("player")
+
+	function mod:OnSync(msg, arg, sender)
+		if self:AntiSpam(5, msg) then
+			--Do nothing, this is just an antispam threshold for syncing
 		end
-		warnPhase:Show(DBM_CORE_AUTO_ANNOUNCE_TEXTS.stage:format(arg))
-	end
-	if not self:IsInCombat() then return end
-	if msg == "ClassCall" and arg then
-		warnClassCall:Show(LOCALIZED_CLASS_NAMES_MALE[arg])
-		timerClassCall:Start(30, LOCALIZED_CLASS_NAMES_MALE[arg])
-	elseif msg == "Shadowflame" and self:AntiSpam(8, 1) then
-		warnShadowFlame:Show()
-	elseif msg == "Fear" and self:AntiSpam(8, 2) then
-		warnFear:Show()
-		timerFearNext:Start()
-	elseif msg == "VielShadow" and arg and self:AntiSpam(8, arg .. "1") then
-		if self:CheckDispelFilter() then
-			specwarnVeilShadow:Show(arg)
-			specwarnVeilShadow:Play("dispelnow")
+		if msg == "Phase" and sender then
+			local phase = tonumber(arg) or 0
+			if phase == 2 then
+				self:SetStage(2)
+				timerPhase:Start(15)--15 til encounter start fires, not til actual land?
+				--timerFearNext:Start(46.6)
+			elseif phase == 3 then
+				self:SetStage(3)
+			end
+			warnPhase:Show(DBM_CORE_L.AUTO_ANNOUNCE_TEXTS.stage:format(arg))
 		end
-	elseif msg == "MindControl" and arg and self:AntiSpam(8, arg .. "2") then
-		specwarnShadowCommand:Show(arg)
-		specwarnShadowCommand:Play("findmc")
-	elseif msg == "AddDied" and arg and not addsGuidCheck[arg] then
-		--A unit died we didn't detect ourselves, so we correct our adds counter from sync
-		addsGuidCheck[arg] = true
-		self.vb.addLeft = self.vb.addLeft - 1
-		if self.vb.addLeft >= 1 and (self.vb.addLeft % 3 == 0) then
-			WarnAddsLeft:Show(self.vb.addLeft)
+		if not self:IsInCombat() then return end
+		if msg == "ClassCall" and sender then
+			local className = LOCALIZED_CLASS_NAMES_MALE[arg]
+			if playerClass == className then
+				specwarnClassCall:Show()
+				specwarnClassCall:Play("targetyou")
+			else
+				warnClassCall:Show(className)
+			end
+			timerClassCall:Start(30, className)
 		end
 	end
 end
